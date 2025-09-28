@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/mcnabb-arena-and-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=QbP7Jc69QFOGO4QOd3AAe8kp12gAAAAAQUIPAAAAAACaIt2XD9so8yv4xOH5aLdV; nlbi_243507=DG0YPRS75GlaF5zHaXmSIAAAAAAQcf6RAoss1Jd+QTHMKS1Y; incap_ses_173_243507=bTUhBy0oGkeMrfCMMZ9mAskp12gAAAAAkVTGOgiBf/Mrx6OsQxyalQ==
+Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; nlbi_243507=71JWQaZEnWIdmaIMaXmSIAAAAADJ9evHYz34qvKsOqwXymbQ; incap_ses_1842_243507=oHq/XuKcMyIED1U2xxmQGUt72GgAAAAAeqJWfbc0SA2106ghfQiiWQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,28 +8,28 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 640
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 27 Sep 2025 00:05:59 GMT
-Etag: "1758930918-gzip"
+Date: Sun, 28 Sep 2025 00:06:07 GMT
+Etag: "1759017964-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 26 Sep 2025 23:55:18 GMT
-Set-Cookie: visid_incap_243507=QbP7Jc69QFOGO4QOd3AAe8kp12gAAAAAQUIPAAAAAACaIt2XD9so8yv4xOH5aLdV; expires=Sat, 26 Sep 2026 06:33:29 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Sun, 28 Sep 2025 00:06:04 GMT
+Set-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; expires=Sun, 27 Sep 2026 07:29:43 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 57-153785260-153785264 SNNy RT(1758931401598 157970) q(0 1 1 -1) r(2 2) U24
-X-Varnish: 59996634 62441457
+X-Iinfo: 62-197511045-197511050 SNNy RT(1759017804015 160765) q(0 0 0 -1) r(26 26) U24
+X-Varnish: 63770689
 
 c8dd
 
@@ -184,7 +184,7 @@ c8dd
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-570540506b0b2dd4574b3356858f29502ab22f5074f6ef7599eb416d5d0f44df">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-eec9d3bbfcbc69dd2fbcb4ad60fd53694a32da8deb5086024838e354f325cd8c">
   
     
       
@@ -198,7 +198,7 @@ c8dd
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bb471451d9610bdd40ece699d528b7d06ff22b49ddd16ad54dbf49d318ec05e8">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b9113cccb95f44593fa6ca21a64a8fbc55c7e05e0a5cfd3e96c3120f0fa7eaee">
   
     
       
@@ -437,7 +437,7 @@ Email:&nbsp;<a href="mailto:mcnabb@ottawa.ca">mcnabb@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6b0546fcfdf5add62c05affe1875971822853a8651d74041fc1a423c3d205867">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6c8253d4d1232a0bf90e309a847ec152811ca7211d37330434bba55314b53247">
   
     
       
@@ -451,7 +451,7 @@ Email:&nbsp;<a href="mailto:mcnabb@ottawa.ca">mcnabb@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d8cdb0f8491b1160c60017dd9284a4481670e29353dc13b3ecde93daaf5040c8">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c79426a6e2b16ee3e1839eccc2b62c39bcf66e94acbe4d38b28275f440cedbee">
   
     
       
@@ -616,7 +616,7 @@ Email:&nbsp;<a href="mailto:mcnabb@ottawa.ca">mcnabb@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2cd3de6ef5ef46864d494b285c03350b1c8c0a5f8d39add22b5b0afd5bcb61e7">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8f5ffb28979958049efbfe8a51ff994f4c9e39f6be7a269b43751e5a0aa25ef4">
   
     
       
@@ -630,7 +630,7 @@ Email:&nbsp;<a href="mailto:mcnabb@ottawa.ca">mcnabb@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-405d5059e927b181dd000646867c76d0117ddbf5573a969314d1c41f0a2c4bef">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-004ab8873ae93b92434f81841887a5d135e06555a494620a8661223be933dfba">
   
     
       
@@ -860,7 +860,7 @@ Email:&nbsp;<a href="mailto:mcnabb@ottawa.ca">mcnabb@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-75b817125f60037d00e112e0527aaa548d2bd4db00f35bcaf53f7d1b72e2c131">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-274ae97fe457e7dc96478c38b597f8544404739df5f0520384948e8c34c62079">
   
     
       <div class="view-header">
