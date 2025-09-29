@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/nepean-sportsplex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; nlbi_243507=71JWQaZEnWIdmaIMaXmSIAAAAADJ9evHYz34qvKsOqwXymbQ; incap_ses_1842_243507=oHq/XuKcMyIED1U2xxmQGUt72GgAAAAAeqJWfbc0SA2106ghfQiiWQ==
+Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,28 +8,28 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 674
+Age: 337
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 28 Sep 2025 00:06:23 GMT
-Etag: "1759017306-gzip"
+Date: Mon, 29 Sep 2025 00:06:10 GMT
+Etag: "1759104029-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 27 Sep 2025 23:55:06 GMT
-Set-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; expires=Sun, 27 Sep 2026 07:29:43 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Mon, 29 Sep 2025 00:00:29 GMT
+Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 62-197511045-197511050 SNNy RT(1759017804015 179427) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 63352202 60612910
+X-Iinfo: 54-132542517-132568920 SNNN RT(1759104193740 176303) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 64468439 64408725
 
 278d4
 
@@ -59,7 +59,7 @@ X-Varnish: 63352202 60612910
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUNFuwzAI_CEvftn_RNgmCQsxFuA22dc3W1c12gu6O9AdkETcXKF9xgSGIb35zJKAP8wPpjpfOxuawYwW8oqFXHSkWrB6YslrvOCQRTEW7Q14gC_Yn0IV3YDpGwPufpqvr5E_GibG3ZgK6unmOCs4SQ0Mh3QfC1mWG-oRpWIWDjJNlHFcpKvFKxmnnyR31CDuGUZfcMP_l11bJ-77cKcyo4cGCmd2W-y14FsZem09MdmCJdhhjtvzgzfCu8XfOmxSOuMDdaqMMQ" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031640","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1246726":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1246726"},"slider-gallery-carousel--1246726":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1246726","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1246726"}},"instances":{"slider-gallery--1246726":"slider-gallery--1246726","slider-gallery-carousel--1246726":"slider-gallery-carousel--1246726"}},"user":{"uid":0,"permissionsHash":"4c11b7b791a1efe68969b1e899b7a3ad803a0bdf40bb7e4561cb272b92e9e653"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031640","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1246726":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1246726"},"slider-gallery-carousel--1246726":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1246726","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1246726"}},"instances":{"slider-gallery--1246726":"slider-gallery--1246726","slider-gallery-carousel--1246726":"slider-gallery-carousel--1246726"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bd6400c124fd363f388fa5664b04cfc1ef8edcc6bcf7bb0073e719bd44c32007">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d18232bf6df2af2dd6b3c0b23629574ca68628e63edcbe7bb0f5090a7f543c8d">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e52cc564a9473ced1276682040939c75ff7cf588c54e51d3a784bbcce0b06a4a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8aa0dd45e01ea94abcbfea4dc67790e05433aa164d92aab931c9366fcca92c50">
   
     
       
@@ -426,13 +426,13 @@ X-Varnish: 63352202 60612910
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/nepeansportsplex-1-en.jpg?itok=NCoXr9XG 1x, /sites/default/files/styles/2x_rectangle_xl/public/nepeansportsplex-1-en.jpg?itok=cFteS6U7 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="790" height="564"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=yVyvWdDT 1x, /sites/default/files/styles/2x_rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=HpAQ6w5b 2x" media="all and (min-width: 992px)" type="image/jpeg" width="790" height="564"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=yVyvWdDT 1x, /sites/default/files/styles/2x_rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=HpAQ6w5b 2x" media="all and (min-width: 768px)" type="image/jpeg" width="790" height="564"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=yVyvWdDT 1x" media="all and (min-width: 641px)" type="image/jpeg" width="790" height="564"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=yVyvWdDT 1x" media="all and (min-width: 481px)" type="image/jpeg" width="790" height="564"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=yVyvWdDT 1x" type="image/jpeg" width="790" height="564"/>
-                  <img loading="eager" width="112" height="80" src="/sites/default/files/styles/rectangle_xs/public/nepeansportsplex-1-en.jpg?itok=pSKMbMwE" alt="Nepean sportsplex" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/nepeansportsplex-1-en.jpg?itok=8XTmWF3P 1x, /sites/default/files/styles/2x_rectangle_xl/public/nepeansportsplex-1-en.jpg?itok=mhoO4Efp 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="790" height="564"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=4irAcUDr 1x, /sites/default/files/styles/2x_rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=-vfJ8bUO 2x" media="all and (min-width: 992px)" type="image/jpeg" width="790" height="564"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=4irAcUDr 1x, /sites/default/files/styles/2x_rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=-vfJ8bUO 2x" media="all and (min-width: 768px)" type="image/jpeg" width="790" height="564"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=4irAcUDr 1x" media="all and (min-width: 641px)" type="image/jpeg" width="790" height="564"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=4irAcUDr 1x" media="all and (min-width: 481px)" type="image/jpeg" width="790" height="564"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/nepeansportsplex-1-en.jpg?itok=4irAcUDr 1x" type="image/jpeg" width="790" height="564"/>
+                  <img loading="eager" width="112" height="80" src="/sites/default/files/styles/rectangle_xs/public/nepeansportsplex-1-en.jpg?itok=KVMao2Pl" alt="Nepean sportsplex" class="img-fluid w-100" />
 
   </picture>
 
@@ -488,7 +488,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6b1400b1d77b3cbd0bac80a32dac1931130615d9618097e3d9566a06f7fdcd45">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8cafd8c74c39d3fb52bbcb2fbe4345bd8be7364a19867818fb2e19439900aa26">
   
     
       
@@ -502,7 +502,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-78361287dbeb5d70efdf56c345a33c06e65b66171bc14c0d8cacd1f9bea82954">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b0b4a04be5c42ca915cd6fdbbd093b785f72c9913bc60801ba3ffa599283ed05">
   
     
       
@@ -796,7 +796,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2b508f970aff0a7fdaf9ec3b39e284de6f0724db17a13d444bc516332e693ada">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ad0a1aee51a4bf75608908976f7f898d517968af98ed732e8c6ac75322c7495f">
   
     
       
@@ -810,7 +810,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5ec13825afb3003b318c6da193efe66139887f74d38edf437bb4fa606fdc6d36">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9d660748217226f557817b3d135c18b4a4581e2870262e6871a6ab2a6a13a9bc">
   
     
       
@@ -975,7 +975,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c82889352cbacc6cf30b7526dc917a19847ae4456052ec2d35339cd93e01498e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ba6311f088fd4a634a7642f321aca77e869eef66ec290b1e0f24b4fcd01d648b">
   
     
       
@@ -989,7 +989,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a91571489af96f65d1607c7bd416d6b540c1ec09b45d62448cd6f6dc2e2b3072">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c83ea8e0fefeed8dc858871dd1b4bc860a11f9f85d40eb337a81686823a21376">
   
     
       
@@ -1366,7 +1366,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ebceffa7282541c84e7385f3d551a66a605e373a4baaaa64aad142ffd89b70a6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-039a32f884335c22f4f22d7e1729d32910b246fca85cf973539dea3700d3e711">
   
     
       
@@ -1380,7 +1380,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3d06519d4df17bc85773fde861e6800e77dfe9b1a48f871c42815bb44ee86b0f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d3e55beb2bdb8d29156a3b7bfb834147b817b5f219ba923d0015b16d268ea898">
   
     
       
@@ -1573,7 +1573,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-07349936eb82d6e248b444ae47eb1299a6ec0d4f2b860b05dd989016b1673228">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dab31d0e5e2e8eff15c2adc7347839e8ab4f66b5206d3cd95fe9f417a7696846">
   
     
       
@@ -1587,7 +1587,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-63bb444e994003c6f385de9fdeb8b962e9ad207bf6c2b2f5cd416862d9559376">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ed520a8feda45a0d6bed4700ffb1dc6ee68909879334aa152100dd05fc91e572">
   
     
       
@@ -1727,7 +1727,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ae7ecd8db8b12abbab4f3f93290edeba757e1c9fcac628510a02fbf62490d92d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-58df72436fd74f55a1a2358cd9d0a6e36d626ea0713d6fe96c491f97e8a809c8">
   
     
       
@@ -1741,7 +1741,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6a42204683271e565913cd1f8669fa6b21c0377dad29001b876a9b55096157cd">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-39aeef0c87357aa354cda8cdfe5ac22a971940d4dca27b268d5299635466d5d1">
   
     
       
@@ -1937,7 +1937,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b103dd867d2f64abb770002817fda36fdd92456ca1466054ab267c6a28d4238e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-686623bc9ee005d0b0f5ab65a290f753b3926cea4d31ac3927b2dca27087eec4">
   
     
       
@@ -1951,7 +1951,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0a37d893a6f2e09b77c59e637d15a9cf5913d7430e6d2069e4fe0307fed7c04f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5c5a01c2cfa89c2dab417c6b69d7fb511ef1d7906f93e83624ebdfaaecb48572">
   
     
       
@@ -2167,7 +2167,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-ae1f745ed80714733e64d53437077bb0a7f25eda4e6bb90dcd96362f0a979451">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-7ef2e4212442c9089e75966facb3b40659df7496c060d45aedb2f6d5fb8b4be6">
   
     
       <div class="view-header">
@@ -2258,7 +2258,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ed271a233140c43a1b5bdaaf1cd2311b34e912eed070de2a5a4bc410013b48f9">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7cc3e8b0b3b85a53d039ccef05ad421d6d2c1da906f01cfe676cae5b02ac6c34">
   
     
       
@@ -2272,7 +2272,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ac4972abae64ae02eaefd834998d1cee303efe5f2c199167dc08b20168f58bea">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-10885ebafa5f7c38d5bb40d9430e5fa8e31abf43b20e80bb8d08f3b0bfa4c88a">
   
     
       
@@ -2378,7 +2378,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1b0fd7436c0ba42105158e6d79f22a367f753184c58eb011ce381eb95e78ab46">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-783c5ac104b1740ef4c25ca6b55e7d71de65221c02099e64034a920d6b519579">
   
     
       
@@ -2392,7 +2392,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ef75627b90ae07aeac32f1bcda8ad5a18e9f8b4a708eff6ae66c4adce6558696">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2ed39e56bee34c2aec7261921eb982858cbb7d76e09252b893d2b4bfa99f18d8">
   
     
       
@@ -2461,12 +2461,12 @@ X-Varnish: 63352202 60612910
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=G-Mddul1 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=G-Mddul1 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=G-Mddul1 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=G-Mddul1 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=i9P0R1cf 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=i9P0R1cf 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=i9P0R1cf 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=i9P0R1cf 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=i9P0R1cf 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=i9P0R1cf 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=G-Mddul1" alt="view of the room" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=wSph6YQf 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=wSph6YQf 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=wSph6YQf 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=wSph6YQf 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=1SR-2VV2 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=1SR-2VV2 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=1SR-2VV2 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=1SR-2VV2 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=1SR-2VV2 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=1SR-2VV2 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=wSph6YQf" alt="view of the room" class="img-fluid w-100" />
 
   </picture>
 
@@ -2478,12 +2478,12 @@ X-Varnish: 63352202 60612910
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=kS2Cnibp 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=kS2Cnibp 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=kS2Cnibp 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=kS2Cnibp 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=CzHaav9I 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=CzHaav9I 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=CzHaav9I 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=CzHaav9I 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=CzHaav9I 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=CzHaav9I 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=kS2Cnibp" alt="Example of table setting for wedding at Nepean Sportsplex" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=8rlJDHiD 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=8rlJDHiD 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=8rlJDHiD 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=8rlJDHiD 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=1rSDscXs 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=1rSDscXs 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=1rSDscXs 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=1rSDscXs 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=1rSDscXs 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=1rSDscXs 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=8rlJDHiD" alt="Example of table setting for wedding at Nepean Sportsplex" class="img-fluid w-100" />
 
   </picture>
 
@@ -2495,12 +2495,12 @@ X-Varnish: 63352202 60612910
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=WzJKG1zp 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=WzJKG1zp 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=WzJKG1zp 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=WzJKG1zp 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qPwtCqcw 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qPwtCqcw 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qPwtCqcw 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qPwtCqcw 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qPwtCqcw 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qPwtCqcw 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=WzJKG1zp" alt="view of the room" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=TsxEm6y2 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=TsxEm6y2 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=TsxEm6y2 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=TsxEm6y2 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qqW-jJch 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qqW-jJch 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qqW-jJch 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qqW-jJch 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qqW-jJch 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=qqW-jJch 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=TsxEm6y2" alt="view of the room" class="img-fluid w-100" />
 
   </picture>
 
@@ -2512,12 +2512,12 @@ X-Varnish: 63352202 60612910
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=HPavgeq0 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=HPavgeq0 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=HPavgeq0 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=HPavgeq0 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UUHs1UrH 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UUHs1UrH 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UUHs1UrH 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UUHs1UrH 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UUHs1UrH 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UUHs1UrH 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=HPavgeq0" alt="view of the room" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=SB0imeTu 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=SB0imeTu 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=SB0imeTu 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=SB0imeTu 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UXyWeZ4Y 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UXyWeZ4Y 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UXyWeZ4Y 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UXyWeZ4Y 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UXyWeZ4Y 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=UXyWeZ4Y 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=SB0imeTu" alt="view of the room" class="img-fluid w-100" />
 
   </picture>
 
@@ -2529,12 +2529,12 @@ X-Varnish: 63352202 60612910
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=WVejVdEa 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=WVejVdEa 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=WVejVdEa 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=WVejVdEa 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=pavx1c5n 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=pavx1c5n 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=pavx1c5n 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=pavx1c5n 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=pavx1c5n 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=pavx1c5n 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=WVejVdEa" alt="view of the room" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=NOFK-5eC 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=NOFK-5eC 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=NOFK-5eC 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=NOFK-5eC 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=RJNtsdLk 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=RJNtsdLk 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=RJNtsdLk 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=RJNtsdLk 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=RJNtsdLk 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=RJNtsdLk 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=NOFK-5eC" alt="view of the room" class="img-fluid w-100" />
 
   </picture>
 
@@ -2546,12 +2546,12 @@ X-Varnish: 63352202 60612910
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=h5IfSfdY 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=h5IfSfdY 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=h5IfSfdY 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=h5IfSfdY 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=OrYzZ8BH 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=OrYzZ8BH 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=OrYzZ8BH 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=OrYzZ8BH 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=OrYzZ8BH 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=OrYzZ8BH 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=h5IfSfdY" alt="view of the room" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=jiD_x6e8 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=jiD_x6e8 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=jiD_x6e8 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=jiD_x6e8 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=edncST9r 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=edncST9r 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=edncST9r 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=edncST9r 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=edncST9r 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=edncST9r 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=jiD_x6e8" alt="view of the room" class="img-fluid w-100" />
 
   </picture>
 
@@ -2563,12 +2563,12 @@ X-Varnish: 63352202 60612910
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=P4Icyq0w 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=P4Icyq0w 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=P4Icyq0w 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=P4Icyq0w 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=0CmCIsZx 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=0CmCIsZx 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=0CmCIsZx 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=0CmCIsZx 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=0CmCIsZx 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=0CmCIsZx 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=P4Icyq0w" alt="example of catering available" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=nC94Yur4 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=nC94Yur4 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=nC94Yur4 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=nC94Yur4 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=E0TMbKzd 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=E0TMbKzd 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=E0TMbKzd 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=E0TMbKzd 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=E0TMbKzd 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=E0TMbKzd 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=nC94Yur4" alt="example of catering available" class="img-fluid w-100" />
 
   </picture>
 
@@ -2580,12 +2580,12 @@ X-Varnish: 63352202 60612910
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=4KTsrsXj 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=4KTsrsXj 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=4KTsrsXj 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=4KTsrsXj 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=MgwwZbTg 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=MgwwZbTg 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=MgwwZbTg 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=MgwwZbTg 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=MgwwZbTg 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=MgwwZbTg 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=4KTsrsXj" alt="example of catering available" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=1rrIShTD 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=1rrIShTD 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=1rrIShTD 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=1rrIShTD 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=2vpp8xFJ 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=2vpp8xFJ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=2vpp8xFJ 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=2vpp8xFJ 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=2vpp8xFJ 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=2vpp8xFJ 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=1rrIShTD" alt="example of catering available" class="img-fluid w-100" />
 
   </picture>
 
@@ -2597,12 +2597,12 @@ X-Varnish: 63352202 60612910
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=sT1aoN4S 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=sT1aoN4S 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=sT1aoN4S 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=sT1aoN4S 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=-su3IrAa 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=-su3IrAa 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=-su3IrAa 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=-su3IrAa 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=-su3IrAa 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=-su3IrAa 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=sT1aoN4S" alt="example of catering available" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=urZYXoqa 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=urZYXoqa 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=urZYXoqa 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=urZYXoqa 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=sbzKHlmB 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=sbzKHlmB 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=sbzKHlmB 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=sbzKHlmB 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=sbzKHlmB 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=sbzKHlmB 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=urZYXoqa" alt="example of catering available" class="img-fluid w-100" />
 
   </picture>
 
@@ -2614,12 +2614,12 @@ X-Varnish: 63352202 60612910
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=XrAE9lGL 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=XrAE9lGL 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=XrAE9lGL 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=XrAE9lGL 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=vgzQn6tO 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=vgzQn6tO 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=vgzQn6tO 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=vgzQn6tO 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=vgzQn6tO 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=vgzQn6tO 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=XrAE9lGL" alt="view of the food set-up" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=QS0uQ1vc 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=QS0uQ1vc 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=QS0uQ1vc 1x, /sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=QS0uQ1vc 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=XEDeJk_i 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=XEDeJk_i 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=XEDeJk_i 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=XEDeJk_i 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=XEDeJk_i 1x, /sites/default/files/styles/slider_mobile/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=XEDeJk_i 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=QS0uQ1vc" alt="view of the food set-up" class="img-fluid w-100" />
 
   </picture>
 
@@ -2634,130 +2634,130 @@ X-Varnish: 63352202 60612910
 
 <ul class="slides">
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=DOmqmCb_ 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=KebDjWR7 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=ttppiIw6 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=cKiEOdeY 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=ttppiIw6 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=cKiEOdeY 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=ttppiIw6 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=ttppiIw6 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=ttppiIw6 1x" type="image/jpeg" width="900" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=wBNXGc81" alt="view of the room" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=KCgkOY48 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=4uuGNRVX 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=cVeyd-Pp 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=Ggv1zxfi 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=cVeyd-Pp 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=Ggv1zxfi 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=cVeyd-Pp 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=cVeyd-Pp 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=cVeyd-Pp 1x" type="image/jpeg" width="900" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-05/Nepean_Sportsplex_wedding_3_en.jpg?itok=dDg3M4Oz" alt="view of the room" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=tKXqwE-s 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=AfAfYxiV 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="517" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=YrjHnI-8 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=BqN9JQZB 2x" media="all and (min-width: 992px)" type="image/jpeg" width="400" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=YrjHnI-8 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=BqN9JQZB 2x" media="all and (min-width: 768px)" type="image/jpeg" width="400" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=YrjHnI-8 1x" media="all and (min-width: 641px)" type="image/jpeg" width="400" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=YrjHnI-8 1x" media="all and (min-width: 481px)" type="image/jpeg" width="400" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=YrjHnI-8 1x" type="image/jpeg" width="400" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=W80ly1qK" alt="Example of table setting for wedding at Nepean Sportsplex" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=M4M63ObL 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=eRHnCEWW 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="517" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=LFdGTlsV 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=v4wJEAH7 2x" media="all and (min-width: 992px)" type="image/jpeg" width="400" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=LFdGTlsV 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=v4wJEAH7 2x" media="all and (min-width: 768px)" type="image/jpeg" width="400" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=LFdGTlsV 1x" media="all and (min-width: 641px)" type="image/jpeg" width="400" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=LFdGTlsV 1x" media="all and (min-width: 481px)" type="image/jpeg" width="400" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=LFdGTlsV 1x" type="image/jpeg" width="400" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-05/Nepean_Sportsplex_wedding_2_en.jpg?itok=dFyh7vpA" alt="Example of table setting for wedding at Nepean Sportsplex" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=nQHh9HCZ 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=_J7FVp7y 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="763"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=EprAj8IW 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=Ge3WE4-B 2x" media="all and (min-width: 992px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=EprAj8IW 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=Ge3WE4-B 2x" media="all and (min-width: 768px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=EprAj8IW 1x" media="all and (min-width: 641px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=EprAj8IW 1x" media="all and (min-width: 481px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=EprAj8IW 1x" type="image/jpeg" width="901" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=vZEb1jyN" alt="view of the room" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=UDrpTsxE 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=WPAAgUbx 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="763"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=yjVbsDXB 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=GLxyX9T6 2x" media="all and (min-width: 992px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=yjVbsDXB 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=GLxyX9T6 2x" media="all and (min-width: 768px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=yjVbsDXB 1x" media="all and (min-width: 641px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=yjVbsDXB 1x" media="all and (min-width: 481px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=yjVbsDXB 1x" type="image/jpeg" width="901" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-1_en.jpg?itok=RLE_lcUc" alt="view of the room" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=uFkQTeCF 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=j5k-8FJf 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="763"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=-7rHSQHb 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=_hrlkVUN 2x" media="all and (min-width: 992px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=-7rHSQHb 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=_hrlkVUN 2x" media="all and (min-width: 768px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=-7rHSQHb 1x" media="all and (min-width: 641px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=-7rHSQHb 1x" media="all and (min-width: 481px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=-7rHSQHb 1x" type="image/jpeg" width="901" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=MsdCn4_3" alt="view of the room" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=AgUALZt3 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=sCz1_3vm 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="763"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=2kzrhOrh 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=fE53dNJy 2x" media="all and (min-width: 992px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=2kzrhOrh 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=fE53dNJy 2x" media="all and (min-width: 768px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=2kzrhOrh 1x" media="all and (min-width: 641px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=2kzrhOrh 1x" media="all and (min-width: 481px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=2kzrhOrh 1x" type="image/jpeg" width="901" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-6_en.jpg?itok=FgLeWmqE" alt="view of the room" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=q4SllDpT 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=l6x2-5i6 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="736"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=KsNctEnW 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=GrNHcQli 2x" media="all and (min-width: 992px)" type="image/jpeg" width="934" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=KsNctEnW 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=GrNHcQli 2x" media="all and (min-width: 768px)" type="image/jpeg" width="934" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=KsNctEnW 1x" media="all and (min-width: 641px)" type="image/jpeg" width="934" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=KsNctEnW 1x" media="all and (min-width: 481px)" type="image/jpeg" width="934" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=KsNctEnW 1x" type="image/jpeg" width="934" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=z0SDtXuC" alt="view of the room" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=c2t6qY2m 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=gji2CkDQ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="736"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=OO7d6Mmq 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=svw1mY0k 2x" media="all and (min-width: 992px)" type="image/jpeg" width="934" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=OO7d6Mmq 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=svw1mY0k 2x" media="all and (min-width: 768px)" type="image/jpeg" width="934" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=OO7d6Mmq 1x" media="all and (min-width: 641px)" type="image/jpeg" width="934" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=OO7d6Mmq 1x" media="all and (min-width: 481px)" type="image/jpeg" width="934" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=OO7d6Mmq 1x" type="image/jpeg" width="934" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-7_en.jpg?itok=mbZN9T50" alt="view of the room" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=mp8o5d3v 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=BhvGguBk 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="662"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=3KIj5vXU 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=ID48n7Rc 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1039" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=3KIj5vXU 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=ID48n7Rc 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1039" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=3KIj5vXU 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1039" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=3KIj5vXU 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1039" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=3KIj5vXU 1x" type="image/jpeg" width="1039" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=y7cCoSam" alt="view of the room" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=2kr3-ZC- 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=litV80J6 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="662"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=K9SGPBUW 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=drLS3wrp 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1039" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=K9SGPBUW 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=drLS3wrp 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1039" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=K9SGPBUW 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1039" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=K9SGPBUW 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1039" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=K9SGPBUW 1x" type="image/jpeg" width="1039" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-8_en.jpg?itok=PXAHfnKZ" alt="view of the room" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=pshfw6xt 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=mvB0pcIh 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=rjLdENM3 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=MrAwitUZ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=rjLdENM3 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=MrAwitUZ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=rjLdENM3 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=rjLdENM3 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=rjLdENM3 1x" type="image/jpeg" width="900" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=WwgthRSf" alt="example of catering available" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=5RtPlpLV 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=A9Z9YxNB 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=CYnfIQGo 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=iN2otkqM 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=CYnfIQGo 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=iN2otkqM 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=CYnfIQGo 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=CYnfIQGo 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=CYnfIQGo 1x" type="image/jpeg" width="900" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-5_en.jpg?itok=pLgLGFdJ" alt="example of catering available" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=TVvBSUwZ 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=jfAbU99n 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=vgbM4tf6 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=hkAKo9F6 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=vgbM4tf6 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=hkAKo9F6 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=vgbM4tf6 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=vgbM4tf6 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=vgbM4tf6 1x" type="image/jpeg" width="900" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=8RXTxkz9" alt="example of catering available" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=jsUtGTP9 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=jYaYK06j 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=l-SR-MYe 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=Cn3C0STD 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=l-SR-MYe 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=Cn3C0STD 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=l-SR-MYe 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=l-SR-MYe 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=l-SR-MYe 1x" type="image/jpeg" width="900" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-4_en.jpg?itok=bu41crUZ" alt="example of catering available" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=trIqVbwT 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=a_Qn1aT8 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=azAFSAG3 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=G4aT0oof 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=azAFSAG3 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=G4aT0oof 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=azAFSAG3 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=azAFSAG3 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=azAFSAG3 1x" type="image/jpeg" width="900" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=l6yaBQr-" alt="example of catering available" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=gKWo35Hb 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=w5jtoo_O 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=wf2n_aX- 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=O61xtPFo 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=wf2n_aX- 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=O61xtPFo 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=wf2n_aX- 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=wf2n_aX- 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=wf2n_aX- 1x" type="image/jpeg" width="900" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-3_en.jpg?itok=jjbm4Rtj" alt="example of catering available" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=sTbNTw59 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=_FUodQEX 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=q_TVidVN 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=eWPvjzTn 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=q_TVidVN 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=eWPvjzTn 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=q_TVidVN 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=q_TVidVN 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=q_TVidVN 1x" type="image/jpeg" width="900" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=cIJzJ0Ek" alt="view of the food set-up" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=NWoNz1qX 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=6xC_fFKB 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=PKIXlEWx 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=su2UQ9Gj 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=PKIXlEWx 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=su2UQ9Gj 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=PKIXlEWx 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=PKIXlEWx 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=PKIXlEWx 1x" type="image/jpeg" width="900" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-06/NepeanSportsplex_wedding-2_en.jpg?itok=ZZFYD3YZ" alt="view of the food set-up" />
 
   </picture>
 </li>
@@ -2836,7 +2836,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7f47dbec0ca9fa450f03a3a3e13f4a93bfb510d7b92dc7f90a1125d9d888b723">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cd92021d2c39ec79c3f2021acbcc6f0099818cb0f84b0625c1e12681db637d15">
   
     
       
@@ -2850,7 +2850,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1c8723bf3a3e1c6fb8fce62c514dbb0a16adae80f540842a268668e9a4c3b0a4">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-319bd11a37014f778de2d88bdc357d507385638ea9074aa019293b68733d5e76">
   
     
       
@@ -2994,7 +2994,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f06aaffe0aaf1012a74d1ce46b5b8b8f5af45d99fd56c83587f1c5a142bf94c8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fc51bd3ff5c69b3fc8b2f75dc62318f5939a473d9fc661a925134b4ad8e0dba9">
   
     
       
@@ -3008,7 +3008,7 @@ X-Varnish: 63352202 60612910
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-292f01d8c84e8ffaf8ce9ee1df6fd7ad8850dda4853a0837adf1344527fbf4f7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fc9b0ff4e42ed99aa43c4bb0bc763074a0dc0239b9e3c1e505a8e25d5fa3c489">
   
     
       
@@ -3064,13 +3064,13 @@ Daytime: Fall/Winter/Spring</p>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/migrated/images/con060518_123470173.jpg?itok=G1cHLVM_ 1x, /sites/default/files/styles/2x_rectangle_xl/public/migrated/images/con060518_123470173.jpg?itok=UblNneNe 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="554" height="230"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=HyOg7aD7 1x, /sites/default/files/styles/2x_rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=sFcq5fka 2x" media="all and (min-width: 992px)" type="image/jpeg" width="554" height="230"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=HyOg7aD7 1x, /sites/default/files/styles/2x_rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=sFcq5fka 2x" media="all and (min-width: 768px)" type="image/jpeg" width="554" height="230"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=HyOg7aD7 1x" media="all and (min-width: 641px)" type="image/jpeg" width="554" height="230"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=HyOg7aD7 1x" media="all and (min-width: 481px)" type="image/jpeg" width="554" height="230"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=HyOg7aD7 1x" type="image/jpeg" width="554" height="230"/>
-                  <img loading="eager" width="160" height="66" src="/sites/default/files/styles/rectangle_xs/public/migrated/images/con060518_123470173.jpg?itok=hFpjtxuL" alt="Nepean Sportsplex Aquatic Centre" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/migrated/images/con060518_123470173.jpg?itok=1aTIHyaz 1x, /sites/default/files/styles/2x_rectangle_xl/public/migrated/images/con060518_123470173.jpg?itok=_zNMdVvt 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="554" height="230"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=EUyq3RwM 1x, /sites/default/files/styles/2x_rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=jyMSbzCw 2x" media="all and (min-width: 992px)" type="image/jpeg" width="554" height="230"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=EUyq3RwM 1x, /sites/default/files/styles/2x_rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=jyMSbzCw 2x" media="all and (min-width: 768px)" type="image/jpeg" width="554" height="230"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=EUyq3RwM 1x" media="all and (min-width: 641px)" type="image/jpeg" width="554" height="230"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=EUyq3RwM 1x" media="all and (min-width: 481px)" type="image/jpeg" width="554" height="230"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/migrated/images/con060518_123470173.jpg?itok=EUyq3RwM 1x" type="image/jpeg" width="554" height="230"/>
+                  <img loading="eager" width="160" height="66" src="/sites/default/files/styles/rectangle_xs/public/migrated/images/con060518_123470173.jpg?itok=8zkQIC-m" alt="Nepean Sportsplex Aquatic Centre" class="img-fluid w-100" />
 
   </picture>
 
@@ -3152,7 +3152,7 @@ Daytime: Fall/Winter/Spring</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cfc94d56560bb6b3f18f703838e87e9049a886f60a4a4471e463c4154059a858">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ed6fc207260a019d8fbf771b50b5de08e5ff67c8f446daa1fd1bec643b866627">
   
     
       
@@ -3166,7 +3166,7 @@ Daytime: Fall/Winter/Spring</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a0b2a56badef2114da3e9918ea99fff4397cbd33aa8a874c9ddaf950f5da5285">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-524db5d1bad5cde0611dc87e3e734ebe6f8aa4fd8dc73e1bf28e18a90abd4e41">
   
     
       
@@ -3301,7 +3301,7 @@ Daytime: Fall/Winter/Spring</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4ee9e35bbc6c14eaee1d30d4df39549a8b470f34054d244970ba256f8781acb8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cd22f28f1565d28251c65603d49aee5296945964888dcc0736f7760c1c38ef4c">
   
     
       
@@ -3315,7 +3315,7 @@ Daytime: Fall/Winter/Spring</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6ec097b3c950ca6bef98da8d0c6d76dcd90c8e1634df6373037d71772dfdda24">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f0b94cab40d5177002dde3bc027570b327335b9ad879cad1eb1917f74ab791c3">
   
     
       

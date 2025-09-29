@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/diane-deans-greenboro-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; nlbi_243507=71JWQaZEnWIdmaIMaXmSIAAAAADJ9evHYz34qvKsOqwXymbQ; incap_ses_1842_243507=oHq/XuKcMyIED1U2xxmQGUt72GgAAAAAeqJWfbc0SA2106ghfQiiWQ==
+Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 536
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 28 Sep 2025 00:04:33 GMT
-Etag: "1759017872-gzip"
+Date: Mon, 29 Sep 2025 00:04:21 GMT
+Etag: "1759103724-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 28 Sep 2025 00:04:32 GMT
-Set-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; expires=Sun, 27 Sep 2026 07:29:43 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Sun, 28 Sep 2025 23:55:24 GMT
+Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 62-197511045-197511050 SNNy RT(1759017804015 68220) q(0 0 0 -1) r(19 19) U24
-X-Varnish: 60534992
+X-Iinfo: 54-132542517-132542521 SNNy RT(1759104193740 67968) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 63296458 64433886
 
-fef0
+107e3
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ fef0
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/diane-deans-greenboro-community-centre" />
 <meta name="dcterms.title" content="Diane Deans Greenboro Community Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-03" />
+<meta name="dcterms.date" content="2025-09-28" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -59,7 +59,7 @@ fef0
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031631","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"4c11b7b791a1efe68969b1e899b7a3ad803a0bdf40bb7e4561cb272b92e9e653"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031631","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ fef0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-68921da2560b3d06a767e4c2e9be1f06637f16a3250fad6a95422a220a9dc6fd">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0d0cedc8cf1e6a182f7562b91f57e2cdb87499054a7cb38bece7c29b1f08a3fb">
   
     
       
@@ -198,7 +198,7 @@ fef0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3c9cb028fd86464f5a38e1fefb6c6fc149f7489ed61027c335eb9a249c5490e7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-119250918efca2dfcc5fc4dc0db3066aacfa190a6fd5587b7f526049ccc8ecdd">
   
     
       
@@ -267,7 +267,30 @@ fef0
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>Closed</span></span></span></span></li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+</div>
+      
+
+<div class="mb-3">
 
 
 
@@ -275,7 +298,7 @@ fef0
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -383,13 +406,13 @@ fef0
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/featured/DSC_0052.JPG?itok=GrpJZSnI 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/featured/DSC_0052.JPG?itok=TC23glag 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1027" height="680"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0052.JPG?itok=peYDsfPF 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0052.JPG?itok=iqm3K-FU 2x" media="all and (min-width: 992px)" type="image/jpeg" width="906" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0052.JPG?itok=peYDsfPF 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0052.JPG?itok=iqm3K-FU 2x" media="all and (min-width: 768px)" type="image/jpeg" width="906" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0052.JPG?itok=peYDsfPF 1x" media="all and (min-width: 641px)" type="image/jpeg" width="906" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0052.JPG?itok=peYDsfPF 1x" media="all and (min-width: 481px)" type="image/jpeg" width="906" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0052.JPG?itok=peYDsfPF 1x" type="image/jpeg" width="906" height="600"/>
-                  <img loading="eager" width="121" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/featured/DSC_0052.JPG?itok=3zZBPuUi" alt="Greenboro Community Centre" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/featured/DSC_0052.JPG?itok=62dY_mmv 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/featured/DSC_0052.JPG?itok=8QGrxgEi 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1027" height="680"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0052.JPG?itok=kmghaxy1 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0052.JPG?itok=lUzkDbtb 2x" media="all and (min-width: 992px)" type="image/jpeg" width="906" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0052.JPG?itok=kmghaxy1 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0052.JPG?itok=lUzkDbtb 2x" media="all and (min-width: 768px)" type="image/jpeg" width="906" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0052.JPG?itok=kmghaxy1 1x" media="all and (min-width: 641px)" type="image/jpeg" width="906" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0052.JPG?itok=kmghaxy1 1x" media="all and (min-width: 481px)" type="image/jpeg" width="906" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0052.JPG?itok=kmghaxy1 1x" type="image/jpeg" width="906" height="600"/>
+                  <img loading="eager" width="121" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/featured/DSC_0052.JPG?itok=5YxKQYdS" alt="Greenboro Community Centre" class="img-fluid w-100" />
 
   </picture>
 
@@ -445,7 +468,7 @@ fef0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1d2c0c1a5381e736d27e366213088c00f305ac6045f718567ca04c90a5bf7262">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-63bc159924e545378085ce8ba851dd20ca08df89bb82f8f776eb27f4bc1c6b57">
   
     
       
@@ -459,7 +482,7 @@ fef0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0b6139f4fa01cfc066a56deddc9a046434b828a8b4cf619f557649a0eff99b94">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dcfa07eb63650cbb6e41d526e35a9edbde6de2b158a7cb127f78b9a02c95714e">
   
     
       
@@ -489,6 +512,19 @@ fef0
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. The changes will be reflected in the online reservation process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Additional details, descriptions, fees and cancellation information.</a></p>
 <p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><span><span>Schedule change</span></span></span></span></h3>
+<ul>
+<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>The facility is closed and all programs cancelled.</span></span></span></span></li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -592,7 +628,7 @@ fef0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-daa67b90d8a6340ae1013707e9c8946022b490f590f327fd32b67031565e510b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ed3f62b00003159f6981f70119c4ad4070c06bbd812dadabd7fbed279509c5b9">
   
     
       
@@ -606,7 +642,7 @@ fef0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fc846a15d2cfaa2bdcd250cf8c3d51f3128e7d28a8b2e629f08e0cc1dcf53c12">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8093a91afecfc4f29f5e5d504c0448714997ee5670bc686019a8f747145aa622">
   
     
       
@@ -641,6 +677,19 @@ fef0
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/greenborocommunitycentre">Reserve a spot at Greenboro Community Centre</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Monday, October 13</strong>
+<ul>
+<li>The facility is closed and all programs cancelled.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -874,7 +923,7 @@ fef0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ff5930df4cff45a2d31709ed44df724937ec043ba3900b4d20860662218ebb32">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-08ce15b0ac421d531c01e6aa5ed29f5ece5088037753bf3c9a3243487fbf5a5a">
   
     
       
@@ -888,7 +937,7 @@ fef0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-47101cf08ecc4cfaa9caad9f9988fdf0b14515e2bc1e18e41da06b8fd3950a66">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7cc9f34c6a1df534ecbf871653f797dd722a08c7242ce13fe73dc465c960634c">
   
     
       
@@ -923,6 +972,19 @@ fef0
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/greenborocommunitycentre">Reserve a spot at Greenboro Community Centre</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Monday, October 13</strong>
+<ul>
+<li>The facility is closed and all programs cancelled.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -1060,7 +1122,7 @@ fef0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d3f0357fb2e6197dd33a387e35658c2351e74c76e6648f6222cf3b777cb6aaf4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5360643df348820ee04b6efbd7494d11a8d69348fc80a93bf61eaaa6fa54fdef">
   
     
       
@@ -1074,7 +1136,7 @@ fef0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d0484f997599a72af1be1b20d7dd8a2898af7a219069ceb7adb6dec30fc7658d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-762a0c095527136d3e7167bea824ef84eb4e6ec3716b29365f92f1cdb4e80b8b">
   
     
       
@@ -1104,6 +1166,19 @@ fef0
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. The changes will be reflected in the online reservation process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Additional details, descriptions, fees and cancellation information.</a></p>
 <p><span>Children and youth, age 17 and under, can take part in free drop-in swimming, skating and gym sports at City recreation facilities every Saturday in 2025.</span></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Monday, October 13</strong>
+<ul>
+<li>The facility is closed and all programs cancelled.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -1243,7 +1318,7 @@ fef0
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-586b557727914c2104b4b66a094ac94e2b0d7089291d879d5344210edb742393">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-3f40938812075d81555f36174f35804eb40103fd25c4ec971d996e5e8c6554e5">
   
     
       <div class="view-header">
@@ -1638,7 +1713,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=35&cb=1855170521" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=35&cb=167286957" async></script></body>
 </html>
 
 

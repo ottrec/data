@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/billings-estate-national-historic-site HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; nlbi_243507=71JWQaZEnWIdmaIMaXmSIAAAAADJ9evHYz34qvKsOqwXymbQ; incap_ses_1842_243507=oHq/XuKcMyIED1U2xxmQGUt72GgAAAAAeqJWfbc0SA2106ghfQiiWQ==
+Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,28 +8,28 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 61
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 28 Sep 2025 00:03:53 GMT
-Etag: "1759017771-gzip"
+Date: Mon, 29 Sep 2025 00:03:43 GMT
+Etag: "1759104223-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 28 Sep 2025 00:02:51 GMT
-Set-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; expires=Sun, 27 Sep 2026 07:29:43 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Mon, 29 Sep 2025 00:03:43 GMT
+Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 62-197511045-197511050 SNNy RT(1759017804015 29880) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 63701154 62017221
+X-Iinfo: 54-132542517-132542521 SNNy RT(1759104193740 29967) q(0 0 0 -1) r(3 3) U24
+X-Varnish: 64588294
 
 17f30
 
@@ -59,7 +59,7 @@ X-Varnish: 63701154 62017221
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUNFuwzAI_CEvftn_RNgmCQsxFuA22dc3W1c12gu6O9AdkETcXKF9xgSGIb35zJKAP8wPpjpfOxuawYwW8oqFXHSkWrB6YslrvOCQRTEW7Q14gC_Yn0IV3YDpGwPufpqvr5E_GibG3ZgK6unmOCs4SQ0Mh3QfC1mWG-oRpWIWDjJNlHFcpKvFKxmnnyR31CDuGUZfcMP_l11bJ-77cKcyo4cGCmd2W-y14FsZem09MdmCJdhhjtvzgzfCu8XfOmxSOuMDdaqMMQ" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031554","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1292602":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1292602"},"slider-gallery-carousel--1292602":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1292602","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1292602"}},"instances":{"slider-gallery--1292602":"slider-gallery--1292602","slider-gallery-carousel--1292602":"slider-gallery-carousel--1292602"}},"user":{"uid":0,"permissionsHash":"4c11b7b791a1efe68969b1e899b7a3ad803a0bdf40bb7e4561cb272b92e9e653"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031554","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1292602":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1292602"},"slider-gallery-carousel--1292602":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1292602","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1292602"}},"instances":{"slider-gallery--1292602":"slider-gallery--1292602","slider-gallery-carousel--1292602":"slider-gallery-carousel--1292602"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ X-Varnish: 63701154 62017221
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5cd7cd9dfaa50a37027325296115dc3e960c8bb50d0bcd3ac06cd2170509d8e1">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7e3d3b261ef33bb5f759fe303c81ed47d9a83886a7a10dea2dfb0f995a31ec3c">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 63701154 62017221
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0c3c8442835a90683a84aeb6cab621c0fdfa59535b65f9ad52c3ae7fbab01ef1">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a61893028751b97146416c2c00474ca01c398a0776a9f6b74a21a830862bcdc0">
   
     
       
@@ -406,7 +406,7 @@ Email:&nbsp;<a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7581e91e3acdf7091376db3480f81c57ad617470a8b5924e186e6af10b4ea8f6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c6ce96724c3dd5d303e6cdf34de9771ada64008d23528319a9efcf43e23df72c">
   
     
       
@@ -420,7 +420,7 @@ Email:&nbsp;<a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d7b1f5d0e2f253c7c31dfb0a3753317495790aaba3b295dfd98e97fa3bde24d7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9c32baff1eee2878a8faa967885968b47ef7b64941516d4f435befe1a5d9b5a3">
   
     
       
@@ -521,7 +521,7 @@ Email:&nbsp;<a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-96813b9c662fb7aedc28c7b685f3d459eee113f61db04943184c8565fdaf9503">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-493369fbbdb28c861ac4266e0157bd0a8da4f1f1d64afc3d7689509092a2e55b">
   
     
       
@@ -535,7 +535,7 @@ Email:&nbsp;<a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b088155343b09be1509a69f4acdc1cb90a1b41cb90796bf8928dc87cec2e8f32">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9e30036611c0f6b1a41dcfebdd2e3306abc0f1a8c581c0c7bd7f60f165046904">
   
     
       
@@ -647,7 +647,7 @@ Email:&nbsp;<a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4ed774b4a89fcfdf3bb1c368d615b05e4cae00e0011f22060bd23ff8034e5d0f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-921ccd9b7dbf7e02e51767c4c0e3f5eabe87f5d28444e5efa9a9876636a235f9">
   
     
       
@@ -661,7 +661,7 @@ Email:&nbsp;<a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7bf5594fc11bc2374fa6cc870301e411aa319d7eca414a6239182e0330c32beb">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d0c663de25d57e17f7188474524ec8082358c6523d8d1d894d3275ae18c110ae">
   
     
       
@@ -840,7 +840,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-59acf8f48b7b255f07bb13fe813c9df168030f1f0c2c16a2e6efb31a64419806">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9e26cd88e0713bd3518e404a3529243f8b231faaef8ce868bda79e6859cd3cc7">
   
     
       
@@ -854,7 +854,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-304729d15fdd773b8473bda5557487e1924c6b90293039d162ee23819adff842">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f2ddac1d71b0a46e8b540c47b3f8217d25597a3cdbf33fca83326d95ff0c519f">
   
     
       
@@ -957,7 +957,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-61601018f5e940d46710daef34c71f0b50a16df5e89ab32b7d3b5f4b10389422">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ffb43277bd45480f24d52d46842a71ba8c95330c5d5f6c076d1e421e2e5981a6">
   
     
       
@@ -971,7 +971,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-97da613a1e9ff49935db65ec87090ba42f5091abe2f4479d67b566e4ea570e0b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0534d75d50c3649b5a94dd031dbb5aee19ea4fdf85f2c75c8b2ff04055ad2ef1">
   
     
       
@@ -1076,7 +1076,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a8ca64e948f748402718fe80b34bff3d1bcd2be6bddf0a8a2264062ab6a02db6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a0fb1d71b411afa64a318abc8cb74747be3ea2fc3eb2468f34149afbb0601a60">
   
     
       
@@ -1090,7 +1090,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2247e4f0c5157648f1dcd10b88cfdf6bf958a2020a6869b0dbaa07e936ad6ebe">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ae482c475f7328016480a81eabe1730ae3497c4936f40f5429b46dfbf2e27579">
   
     
       
@@ -1198,7 +1198,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1b45e20aa455dcd847e6567d4adaeb91f3daff998d41658cf6fc381afde43e50">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8e46a5fb25bdde335d484f0671061abc007d4ae7dcf51e87b288c688ba26262f">
   
     
       
@@ -1212,7 +1212,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5416ea8352db1784169b5e038c3df0a4bd9660ce5e475f5f7215ec9a73288824">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d1382e239ad52c805b07eefc16c5754c27aaa5c6d3a6f55a150e1514ff9a72fa">
   
     
       
@@ -1313,7 +1313,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-887009b69d10ff48fcb1d6fe14911f420be9f6a0ba1f3f9b5ebc19edf935ab5a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dc35acf252bcb98c80c2bb7a626ede42bea687cc61ae0e7cf4a1d51c32820eb8">
   
     
       
@@ -1327,7 +1327,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2f03db4c10156956e93f8aada5dad61e3faa13422bf8cb135fdf18d340e32eb9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a3dceeb988a424e2976f575f2ca31499bf64c157c1de1ad95daa6a0fc674b828">
   
     
       
@@ -1430,7 +1430,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8ba6a7cd34d00d65037b5c5cb68daacd511f9e862f6ce56652b7c4240d48e665">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8314d732ca10f33ba5826cdcb2911aae80fdd423fce419a2de6fe80a26b76082">
   
     
       
@@ -1444,7 +1444,7 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c3e9088a3a4ec7689e93056748228f0c3678d215c8493c24da120d43f86cf14f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-49834b8db9f50dd2491352b8bbc17dc05771785a8c4abd574922cd2b7ff10cd7">
   
     
       
@@ -1680,12 +1680,12 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
             <figure>
         
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Billings%201.JPG?itok=e37an2_g 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Billings%201.JPG?itok=e37an2_g 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Billings%201.JPG?itok=e37an2_g 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Billings%201.JPG?itok=e37an2_g 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=gjNAb9JZ 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=gjNAb9JZ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=gjNAb9JZ 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=gjNAb9JZ 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=gjNAb9JZ 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=gjNAb9JZ 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-05/Billings%201.JPG?itok=e37an2_g" alt="The house was built in a late Georgian and early neoclassical style often found in New England.  " class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Billings%201.JPG?itok=l1zXfTVQ 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Billings%201.JPG?itok=l1zXfTVQ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-05/Billings%201.JPG?itok=l1zXfTVQ 1x, /sites/default/files/styles/slider_desktop/public/2024-05/Billings%201.JPG?itok=l1zXfTVQ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=1UpIaeFs 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=1UpIaeFs 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=1UpIaeFs 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=1UpIaeFs 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=1UpIaeFs 1x, /sites/default/files/styles/slider_mobile/public/2024-05/Billings%201.JPG?itok=1UpIaeFs 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-05/Billings%201.JPG?itok=l1zXfTVQ" alt="The house was built in a late Georgian and early neoclassical style often found in New England.  " class="img-fluid w-100" />
 
   </picture>
 
@@ -1699,12 +1699,12 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back2_en.jpg?itok=A0WXFImL 1x, /sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back2_en.jpg?itok=A0WXFImL 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back2_en.jpg?itok=A0WXFImL 1x, /sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back2_en.jpg?itok=A0WXFImL 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=MhW1kWoh 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=MhW1kWoh 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=MhW1kWoh 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=MhW1kWoh 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=MhW1kWoh 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=MhW1kWoh 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back2_en.jpg?itok=A0WXFImL" alt="exterior view of the facility" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back2_en.jpg?itok=-UvSxmhp 1x, /sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back2_en.jpg?itok=-UvSxmhp 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back2_en.jpg?itok=-UvSxmhp 1x, /sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back2_en.jpg?itok=-UvSxmhp 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=XUtnZqkP 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=XUtnZqkP 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=XUtnZqkP 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=XUtnZqkP 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=XUtnZqkP 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back2_en.jpg?itok=XUtnZqkP 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back2_en.jpg?itok=-UvSxmhp" alt="exterior view of the facility" class="img-fluid w-100" />
 
   </picture>
 
@@ -1716,12 +1716,12 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back_en.png?itok=VD5qp5gc 1x, /sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back_en.png?itok=VD5qp5gc 2x" media="all and (min-width: 1200px)" type="image/png" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back_en.png?itok=VD5qp5gc 1x, /sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back_en.png?itok=VD5qp5gc 2x" media="all and (min-width: 992px)" type="image/png" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=VT3Y4FB0 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=VT3Y4FB0 2x" media="all and (min-width: 768px)" type="image/png" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=VT3Y4FB0 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=VT3Y4FB0 2x" media="all and (min-width: 481px)" type="image/png" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=VT3Y4FB0 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=VT3Y4FB0 2x" type="image/png" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back_en.png?itok=VD5qp5gc" alt="exterior view of the facility" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back_en.png?itok=fWt-OrKP 1x, /sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back_en.png?itok=fWt-OrKP 2x" media="all and (min-width: 1200px)" type="image/png" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back_en.png?itok=fWt-OrKP 1x, /sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back_en.png?itok=fWt-OrKP 2x" media="all and (min-width: 992px)" type="image/png" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=a_GZniwZ 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=a_GZniwZ 2x" media="all and (min-width: 768px)" type="image/png" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=a_GZniwZ 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=a_GZniwZ 2x" media="all and (min-width: 481px)" type="image/png" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=a_GZniwZ 1x, /sites/default/files/styles/slider_mobile/public/2024-02/BillingsEstate_back_en.png?itok=a_GZniwZ 2x" type="image/png" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-02/BillingsEstate_back_en.png?itok=fWt-OrKP" alt="exterior view of the facility" class="img-fluid w-100" />
 
   </picture>
 
@@ -1736,39 +1736,39 @@ Cost: $75 </span>+ tax (per person)<span>. <a href="https://anc.ca.apm.activecom
 
 <ul class="slides">
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-05/Billings%201.JPG?itok=wGYnna2O 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-05/Billings%201.JPG?itok=MM9BQ0a5 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Billings%201.JPG?itok=eiqMhJon 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Billings%201.JPG?itok=fN7o45HQ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Billings%201.JPG?itok=eiqMhJon 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Billings%201.JPG?itok=fN7o45HQ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Billings%201.JPG?itok=eiqMhJon 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Billings%201.JPG?itok=eiqMhJon 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Billings%201.JPG?itok=eiqMhJon 1x" type="image/jpeg" width="900" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-05/Billings%201.JPG?itok=9t-n3UqK" alt="The house was built in a late Georgian and early neoclassical style often found in New England.  " />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-05/Billings%201.JPG?itok=M_whmv8I 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-05/Billings%201.JPG?itok=5ac0_3O6 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Billings%201.JPG?itok=UrqaJdy4 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Billings%201.JPG?itok=U7BgDAiG 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Billings%201.JPG?itok=UrqaJdy4 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-05/Billings%201.JPG?itok=U7BgDAiG 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Billings%201.JPG?itok=UrqaJdy4 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Billings%201.JPG?itok=UrqaJdy4 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-05/Billings%201.JPG?itok=UrqaJdy4 1x" type="image/jpeg" width="900" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-05/Billings%201.JPG?itok=rSqW9atb" alt="The house was built in a late Georgian and early neoclassical style often found in New England.  " />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-02/BillingsEstate_back2_en.jpg?itok=5heWpvMm 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-02/BillingsEstate_back2_en.jpg?itok=eZHb0T53 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1031" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=kz1DmGVa 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=f8QeDap3 2x" media="all and (min-width: 992px)" type="image/jpeg" width="798" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=kz1DmGVa 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=f8QeDap3 2x" media="all and (min-width: 768px)" type="image/jpeg" width="798" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=kz1DmGVa 1x" media="all and (min-width: 641px)" type="image/jpeg" width="798" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=kz1DmGVa 1x" media="all and (min-width: 481px)" type="image/jpeg" width="798" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=kz1DmGVa 1x" type="image/jpeg" width="798" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-02/BillingsEstate_back2_en.jpg?itok=wjjIgqAd" alt="exterior view of the facility" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-02/BillingsEstate_back2_en.jpg?itok=G--_Gtqb 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-02/BillingsEstate_back2_en.jpg?itok=5kJX8ZSa 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1031" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=j-PzYzTE 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=sc0DdAtN 2x" media="all and (min-width: 992px)" type="image/jpeg" width="798" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=j-PzYzTE 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=sc0DdAtN 2x" media="all and (min-width: 768px)" type="image/jpeg" width="798" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=j-PzYzTE 1x" media="all and (min-width: 641px)" type="image/jpeg" width="798" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=j-PzYzTE 1x" media="all and (min-width: 481px)" type="image/jpeg" width="798" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back2_en.jpg?itok=j-PzYzTE 1x" type="image/jpeg" width="798" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-02/BillingsEstate_back2_en.jpg?itok=f88OWVjl" alt="exterior view of the facility" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-02/BillingsEstate_back_en.png?itok=gHYMVZlS 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-02/BillingsEstate_back_en.png?itok=dAxBEIwh 2x" media="all and (min-width: 1200px)" type="image/png" width="1378" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=Gkr76PJW 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=YpRAxRJq 2x" media="all and (min-width: 992px)" type="image/png" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=Gkr76PJW 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=YpRAxRJq 2x" media="all and (min-width: 768px)" type="image/png" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=Gkr76PJW 1x" media="all and (min-width: 641px)" type="image/png" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=Gkr76PJW 1x" media="all and (min-width: 481px)" type="image/png" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=Gkr76PJW 1x" type="image/png" width="1067" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-02/BillingsEstate_back_en.png?itok=2r_wioLx" alt="exterior view of the facility" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-02/BillingsEstate_back_en.png?itok=hEftQFXn 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-02/BillingsEstate_back_en.png?itok=b1OAYZOQ 2x" media="all and (min-width: 1200px)" type="image/png" width="1378" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=kqlkBbS3 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=rJETF3Me 2x" media="all and (min-width: 992px)" type="image/png" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=kqlkBbS3 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=rJETF3Me 2x" media="all and (min-width: 768px)" type="image/png" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=kqlkBbS3 1x" media="all and (min-width: 641px)" type="image/png" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=kqlkBbS3 1x" media="all and (min-width: 481px)" type="image/png" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-02/BillingsEstate_back_en.png?itok=kqlkBbS3 1x" type="image/png" width="1067" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-02/BillingsEstate_back_en.png?itok=yQALcW9D" alt="exterior view of the facility" />
 
   </picture>
 </li>
@@ -2130,7 +2130,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t1pj7h" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=16&cb=2014030244" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=16&cb=1370852970" async></script></body>
 </html>
 
 

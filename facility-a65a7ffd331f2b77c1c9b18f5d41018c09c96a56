@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; nlbi_243507=71JWQaZEnWIdmaIMaXmSIAAAAADJ9evHYz34qvKsOqwXymbQ; incap_ses_1842_243507=oHq/XuKcMyIED1U2xxmQGUt72GgAAAAAeqJWfbc0SA2106ghfQiiWQ==
+Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 548
+Age: 441
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 28 Sep 2025 00:07:32 GMT
-Etag: "1759017502-gzip"
+Date: Mon, 29 Sep 2025 00:07:18 GMT
+Etag: "1759103994-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 27 Sep 2025 23:58:22 GMT
-Set-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; expires=Sun, 27 Sep 2026 07:29:43 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Sun, 28 Sep 2025 23:59:54 GMT
+Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,8 +28,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 62-197511045-197511050 SNNy RT(1759017804015 247994) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 60779565 60249303
+X-Iinfo: 54-132542517-132568920 SNNN RT(1759104193740 244303) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 64310533 64310274
 
 12f17
 
@@ -59,7 +59,7 @@ X-Varnish: 60779565 60249303
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031622","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"4c11b7b791a1efe68969b1e899b7a3ad803a0bdf40bb7e4561cb272b92e9e653"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031622","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-89e40a2b2fc599733c30a8acb80c6566063e7337805c151ecafa92697bd10a69">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4f49a2cb217adac70101691e65f24dc06712c5553ce80112e1cdc04d02a460f5">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-46e205f99d37a267b21bc04787741f65dcb137b4a45d47fa93a3df4f4b1c2a04">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d43084fc456dee9c47f935b9a4f402ea3c9f18020e6050d2d165ee3ab791a2de">
   
     
       
@@ -431,7 +431,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-93a92afa852cd2b72056d59c6aebdce3a36d06548cf29d2a2b132ecab9025b5a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c775353fde7897fe5def6575c516a8d2054b2e321694979a63c2f1de437f03b0">
   
     
       
@@ -445,7 +445,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c7342189f845d703c43092f4b98a9d2aee4dd25f86fe5a75b3fb512424ef843c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a716b5eeb9ad2a4a665c46db7ec93d8964fa1e205bdb93b2c83e5f976c36f515">
   
     
       
@@ -835,7 +835,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-432ca56d4af1aa60ed8e65ebde8286146c6d69ad8db7e9cbed93ed1f98af063c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-250feed5e28b010f4af86a8a37152612400e3096002bbbcc936ba880c63c28ab">
   
     
       
@@ -849,7 +849,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1efb010d4f2717e3dd65e40feb10cad292b927294a98f31a26de9fb0f8621c75">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1aecfe17d34a4679ba6bc33943dabc12c78e4433a1519c0ab55982cf300fa9fc">
   
     
       
@@ -983,7 +983,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9722d63ea336d1e033c93fc6d3562837d79ca9cc4e549083e97cc5c69ecd8827">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1ee65b8ed165a3489ebd918d54a27c03f464e52cbc3414cade33ed892241a23b">
   
     
       
@@ -997,7 +997,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1fe76bccbe2656f856f5a074dd2e4c8f58b6da34e052ee78069c6b3aa16f03ab">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5bc6dab6b10bc772df7b5b2ada7eb3875315755fed454b2d6208a84c84d36297">
   
     
       
@@ -1317,7 +1317,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fe1512904858ecfa4936092942f2cfdc5ab12374a44a799eea7d764d7e1b1653">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-89506e78ac424632779164b2e8cd0b515fb0bcca322c96445ba92ddf9fcb9df2">
   
     
       
@@ -1331,7 +1331,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-137f8ece6b7268d4a3dfef7c65afabf0a7f1e32baeb09f4f9d879edaef663889">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-255c5feaabc6a225347fd796282691469f8db2d68f536601e0126cbff180ba4e">
   
     
       
@@ -1501,7 +1501,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-114c3eb21a168488cf39b5956cf37dba5012c8423f387c4e343e979d026b8f4f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-784ebc7e7d553aec95ecfef68e9cdff1efebe89641b8eddc126142736fedbec7">
   
     
       
@@ -1515,7 +1515,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e3ac0f43e527766a2d9e828e4fb7acef868d97596ac3707e324ffd5c1f30d552">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-da857245b5c5c0174d841459e95a0d4c0a72c0860f2ec665bc76b3f5c9a0b548">
   
     
       
@@ -1685,7 +1685,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-326f17d849e1a26e0a12ed507343903c884ae8a0d22c8717e4f33a03f012ff59">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8919349cb4975cf902debbaedf0182c098be1177032f8c2e911c7a8e2e7313a0">
   
     
       
@@ -1699,7 +1699,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-674bb375a2b4c816d0a4efaccd757fb5a53d03a12f001e369e26635a1dcf418f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-334d224a79a3e72cee6dc551c79c095661f4ae02ce4fc7db6025f144f1616601">
   
     
       
@@ -1903,7 +1903,7 @@ X-Varnish: 60779565 60249303
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-fcf18107279448519c11297c2480747c012cd78dcd3da5d7423e96f2398c452d">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-148e124240bfa32427fd411fe2719e67f21b2b3f6051aa461ca888f834ef9b47">
   
     
       <div class="view-header">

@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/jim-tubman-chevrolet-rink HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; nlbi_243507=71JWQaZEnWIdmaIMaXmSIAAAAADJ9evHYz34qvKsOqwXymbQ; incap_ses_1842_243507=oHq/XuKcMyIED1U2xxmQGUt72GgAAAAAeqJWfbc0SA2106ghfQiiWQ==
+Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 106
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 28 Sep 2025 00:05:28 GMT
-Etag: "1759017821-gzip"
+Date: Mon, 29 Sep 2025 00:05:16 GMT
+Etag: "1759104316-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 28 Sep 2025 00:03:41 GMT
-Set-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; expires=Sun, 27 Sep 2026 07:29:43 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Mon, 29 Sep 2025 00:05:16 GMT
+Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 62-197511045-197511050 SNNy RT(1759017804015 124301) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 63738444 63770565
+X-Iinfo: 54-132542517-132542521 SNNy RT(1759104193740 122306) q(0 1 1 -1) r(4 4) U24
+X-Varnish: 57890074
 
-11c57
+13673
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ X-Varnish: 63738444 63770565
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-tubman-chevrolet-rink" />
 <meta name="dcterms.title" content="Jim Tubman Chevrolet Rink" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-02" />
+<meta name="dcterms.date" content="2025-09-28" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -59,7 +59,7 @@ X-Varnish: 63738444 63770565
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUNFuwzAI_CEvftn_RNgmCQsxFuA22dc3W1c12gu6O9AdkETcXKF9xgSGIb35zJKAP8wPpjpfOxuawYwW8oqFXHSkWrB6YslrvOCQRTEW7Q14gC_Yn0IV3YDpGwPufpqvr5E_GibG3ZgK6unmOCs4SQ0Mh3QfC1mWG-oRpWIWDjJNlHFcpKvFKxmnnyR31CDuGUZfcMP_l11bJ-77cKcyo4cGCmd2W-y14FsZem09MdmCJdhhjtvzgzfCu8XfOmxSOuMDdaqMMQ" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3009871","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1110891":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1110891"},"slider-gallery-carousel--1110891":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1110891","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1110891"}},"instances":{"slider-gallery--1110891":"slider-gallery--1110891","slider-gallery-carousel--1110891":"slider-gallery-carousel--1110891"}},"user":{"uid":0,"permissionsHash":"4c11b7b791a1efe68969b1e899b7a3ad803a0bdf40bb7e4561cb272b92e9e653"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3009871","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1110891":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1110891"},"slider-gallery-carousel--1110891":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1110891","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1110891"}},"instances":{"slider-gallery--1110891":"slider-gallery--1110891","slider-gallery-carousel--1110891":"slider-gallery-carousel--1110891"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ X-Varnish: 63738444 63770565
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0a97ed117fa40895f05a882c0fdac8cf178ae976a1dcd68897d8b5669dc9e8e4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-30f57929fc7a78ffefa29613411f8d4cfdda4f891074756d463665d71bfd7a1b">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 63738444 63770565
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c2a339cb812d6c99265ea7ebc870522cf30dc257b3c3ceff3cb5dc114edbf49a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1a21747b189e15140b299d75b83d8a6ddf4f41ac6ba45308d56accdf82668dcd">
   
     
       
@@ -257,7 +257,29 @@ X-Varnish: 63738444 63770565
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>10 am to 7 pm</span></span></span></span></li>
+</ul>
+</li>
+</ul>
+</div>
+      
+
+<div class="mb-3">
 
 
 
@@ -389,13 +411,13 @@ X-Varnish: 63738444 63770565
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=cV9SfVU0 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=-drWVw4b 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="674"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=xhV7iyvs 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=KjdUZuNC 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1020" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=xhV7iyvs 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=KjdUZuNC 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1020" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=xhV7iyvs 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1020" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=xhV7iyvs 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1020" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=xhV7iyvs 1x" type="image/jpeg" width="1020" height="600"/>
-                  <img loading="eager" width="136" height="80" src="/sites/default/files/styles/rectangle_xs/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=fGBENrWP" alt="view of the rink" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=2Bi6-Cyv 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=AkjHa1vw 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="674"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=H7wq8FVZ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=omdnH1v3 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1020" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=H7wq8FVZ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=omdnH1v3 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1020" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=H7wq8FVZ 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1020" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=H7wq8FVZ 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1020" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=H7wq8FVZ 1x" type="image/jpeg" width="1020" height="600"/>
+                  <img loading="eager" width="136" height="80" src="/sites/default/files/styles/rectangle_xs/public/2024-11/jim_tubman_refrigerated_rink_en.jpg?itok=OxbooWu8" alt="view of the rink" class="img-fluid w-100" />
 
   </picture>
 
@@ -424,13 +446,13 @@ X-Varnish: 63738444 63770565
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-12/tubman_logo_en.jpg?itok=wi9UWS2M 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-12/tubman_logo_en.jpg?itok=OE1Cm7XQ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="400" height="118"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=86Laf9pf 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=IXm-wiqx 2x" media="all and (min-width: 992px)" type="image/jpeg" width="400" height="118"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=86Laf9pf 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=IXm-wiqx 2x" media="all and (min-width: 768px)" type="image/jpeg" width="400" height="118"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=86Laf9pf 1x" media="all and (min-width: 641px)" type="image/jpeg" width="400" height="118"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=86Laf9pf 1x" media="all and (min-width: 481px)" type="image/jpeg" width="400" height="118"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=86Laf9pf 1x" type="image/jpeg" width="400" height="118"/>
-                  <img loading="eager" width="160" height="47" src="/sites/default/files/styles/rectangle_xs/public/2024-12/tubman_logo_en.jpg?itok=pTndkVLB" alt="logo" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-12/tubman_logo_en.jpg?itok=OLf23pa_ 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-12/tubman_logo_en.jpg?itok=QyZcSyqi 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="400" height="118"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=GcIFYL9t 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=hSgQExNj 2x" media="all and (min-width: 992px)" type="image/jpeg" width="400" height="118"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=GcIFYL9t 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=hSgQExNj 2x" media="all and (min-width: 768px)" type="image/jpeg" width="400" height="118"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=GcIFYL9t 1x" media="all and (min-width: 641px)" type="image/jpeg" width="400" height="118"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=GcIFYL9t 1x" media="all and (min-width: 481px)" type="image/jpeg" width="400" height="118"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-12/tubman_logo_en.jpg?itok=GcIFYL9t 1x" type="image/jpeg" width="400" height="118"/>
+                  <img loading="eager" width="160" height="47" src="/sites/default/files/styles/rectangle_xs/public/2024-12/tubman_logo_en.jpg?itok=uKIB0mK8" alt="logo" class="img-fluid w-100" />
 
   </picture>
 
@@ -447,6 +469,164 @@ X-Varnish: 63738444 63770565
                         </div>
                                           
                     
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 row">
+
+            
+                              <div class="col collapse-region">
+                  <h2 class="no-toc">
+                              
+  <button aria-expanded="false" aria-controls="section-181ce601-e109-4937-8b48-61239db0ce2b" data-target="#section-181ce601-e109-4937-8b48-61239db0ce2b" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - Thanksgiving Day</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-181ce601-e109-4937-8b48-61239db0ce2b">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - Thanksgiving Day</h2>
+</span>
+
+
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-08376a4af80e9abe1ab58b73f4475b6cdb0534ee8d6ed393ce80f81e514ea86c">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-516d19219afff87e6164de1fc36681d4f9a0c499ec04f11ae10ad27129729aa7">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 row">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>For information about skating at Jim Tubman Chevrolet Rink, please phone 613-580-3600 or send an email to&nbsp;<a href="mailto:JTCrink@ottawa.ca">JTCrink@ottawa.ca</a>.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-culture/skating/drop-skating">Play free, additional details, descriptions, fees and cancellation information.</a></p>
+<p>The schedules listed in the charts below are subject to change.</p>
+<p>Changes will be reflected in the online reservation process.</p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/JimTubmanRink">Reserve a spot at Jim Tubman Chevrolet Rink</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
+	<caption>Jim Tubman Chevrolet Rink - all drop-ins - Monday, October 13</caption>
+	<thead>
+	</thead>
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<th>Monday,&nbsp;October 13</th>
+		</tr>
+		<tr>
+			<th>Ball hockey - 50+</th>
+			<td>10 - 11:30 am</td>
+		</tr>
+		<tr>
+			<th>Ball hockey - child</th>
+			<td>2:30 - 4:30 pm</td>
+		</tr>
+		<tr>
+			<th>Basketball - adult</th>
+			<td>12:30 - 2:30 pm</td>
+		</tr>
+		<tr>
+			<th>Basketball - youth</th>
+			<td>11:30 am - 12:30 pm</td>
+		</tr>
+		<tr>
+			<th>Roller hockey - youth</th>
+			<td>4:30 - 7 pm</td>
+		</tr>
+	</tbody>
+</table></div>
+      </div>
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
                 
             </div>
           
@@ -488,7 +668,7 @@ X-Varnish: 63738444 63770565
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6d87c6f6e6488f977c52dba99a88780b40f7ad26fa9f2d9d760d8d8f0d439eb7">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0aa48b35dfdd70ffaa6def7db98a5a5e2f8e3494723cf2f3905dbfa836dc1ff9">
   
     
       
@@ -502,7 +682,7 @@ X-Varnish: 63738444 63770565
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a11a31f762b60511878ea923bb29817b2b893149c48689eb4196890a8b3cceb5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b08012077e6323e58e418302f927f60d19c15024c619794a1251222998215f4f">
   
     
       
@@ -532,6 +712,19 @@ X-Varnish: 63738444 63770565
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>For information please phone <a href="tel:613-580-3600">613-580-3600</a> or send an email to&nbsp;<a href="mailto:JTCrink@ottawa.ca">JTCrink@ottawa.ca</a>.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness#section-c17098d1-2f01-48fe-8c4d-57c5072be830">Play free, additional details, descriptions, fees and cancellation information</a>.</p>
 <p><strong>*Reservations not required</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><span><span>Schedule change</span></span></span></span></h3>
+<ul>
+<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>See <a href="https://ottawa.ca/en/jim-tubman-chevrolet-rink-holiday-drop-schedule">Thanksgiving Day schedule</a>.</span></span></span></span></li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -691,12 +884,12 @@ X-Varnish: 63738444 63770565
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=94FVFu8p 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=94FVFu8p 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=94FVFu8p 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=94FVFu8p 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=fbtrX8VU 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=fbtrX8VU 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=fbtrX8VU 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=fbtrX8VU 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=fbtrX8VU 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=fbtrX8VU 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=94FVFu8p" alt="daytime photo of the rink after being flooded" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=KxdsCxw9 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=KxdsCxw9 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=KxdsCxw9 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=KxdsCxw9 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=xTg5Gcx8 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=xTg5Gcx8 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=xTg5Gcx8 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=xTg5Gcx8 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=xTg5Gcx8 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=xTg5Gcx8 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=KxdsCxw9" alt="daytime photo of the rink after being flooded" class="img-fluid w-100" />
 
   </picture>
 
@@ -708,12 +901,12 @@ X-Varnish: 63738444 63770565
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman_drills_en.jpeg?itok=bsaJ2EqU 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman_drills_en.jpeg?itok=bsaJ2EqU 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman_drills_en.jpeg?itok=bsaJ2EqU 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman_drills_en.jpeg?itok=bsaJ2EqU 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=cvbFwKfG 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=cvbFwKfG 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=cvbFwKfG 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=cvbFwKfG 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=cvbFwKfG 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=cvbFwKfG 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman_drills_en.jpeg?itok=bsaJ2EqU" alt="daytime image of the rink from the stands - people watching children do hockey drills" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman_drills_en.jpeg?itok=xcoElIIQ 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman_drills_en.jpeg?itok=xcoElIIQ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman_drills_en.jpeg?itok=xcoElIIQ 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman_drills_en.jpeg?itok=xcoElIIQ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=klTP0sbA 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=klTP0sbA 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=klTP0sbA 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=klTP0sbA 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=klTP0sbA 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman_drills_en.jpeg?itok=klTP0sbA 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman_drills_en.jpeg?itok=xcoElIIQ" alt="daytime image of the rink from the stands - people watching children do hockey drills" class="img-fluid w-100" />
 
   </picture>
 
@@ -725,12 +918,12 @@ X-Varnish: 63738444 63770565
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=mS_ZG4pd 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=mS_ZG4pd 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=mS_ZG4pd 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=mS_ZG4pd 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=QUsnNvQU 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=QUsnNvQU 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=QUsnNvQU 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=QUsnNvQU 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=QUsnNvQU 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=QUsnNvQU 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=mS_ZG4pd" alt="close-up of an untied hockey skate" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=YKFUb8bd 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=YKFUb8bd 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=YKFUb8bd 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=YKFUb8bd 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=0XoS-mfo 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=0XoS-mfo 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=0XoS-mfo 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=0XoS-mfo 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=0XoS-mfo 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=0XoS-mfo 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=YKFUb8bd" alt="close-up of an untied hockey skate" class="img-fluid w-100" />
 
   </picture>
 
@@ -742,12 +935,12 @@ X-Varnish: 63738444 63770565
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=lW2f-Pvs 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=lW2f-Pvs 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=lW2f-Pvs 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=lW2f-Pvs 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=QM0Wa73e 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=QM0Wa73e 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=QM0Wa73e 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=QM0Wa73e 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=QM0Wa73e 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=QM0Wa73e 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=lW2f-Pvs" alt="child skating at Jim Tubman Chevrolet Rink" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=3bu0abwi 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=3bu0abwi 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=3bu0abwi 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=3bu0abwi 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=hvDijRBG 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=hvDijRBG 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=hvDijRBG 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=hvDijRBG 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=hvDijRBG 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=hvDijRBG 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=3bu0abwi" alt="child skating at Jim Tubman Chevrolet Rink" class="img-fluid w-100" />
 
   </picture>
 
@@ -759,12 +952,12 @@ X-Varnish: 63738444 63770565
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=ZOm5zdIQ 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=ZOm5zdIQ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=ZOm5zdIQ 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=ZOm5zdIQ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=as9czBvB 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=as9czBvB 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=as9czBvB 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=as9czBvB 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=as9czBvB 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=as9czBvB 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=ZOm5zdIQ" alt="daytime image of a group of people skating at Jim Tubman Chevrolet Rink" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=qO4WC__f 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=qO4WC__f 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=qO4WC__f 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=qO4WC__f 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=1FIczIBS 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=1FIczIBS 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=1FIczIBS 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=1FIczIBS 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=1FIczIBS 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=1FIczIBS 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=qO4WC__f" alt="daytime image of a group of people skating at Jim Tubman Chevrolet Rink" class="img-fluid w-100" />
 
   </picture>
 
@@ -776,12 +969,12 @@ X-Varnish: 63738444 63770565
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=faZAOchB 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=faZAOchB 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=faZAOchB 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=faZAOchB 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=5anQm7JN 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=5anQm7JN 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=5anQm7JN 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=5anQm7JN 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=5anQm7JN 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=5anQm7JN 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=faZAOchB" alt="daytime image of a group of people skating at Jim Tubman Chevrolet Rink" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=E4h8k0Tc 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=E4h8k0Tc 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=E4h8k0Tc 1x, /sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=E4h8k0Tc 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=yxxv4fh1 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=yxxv4fh1 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=yxxv4fh1 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=yxxv4fh1 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=yxxv4fh1 1x, /sites/default/files/styles/slider_mobile/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=yxxv4fh1 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=E4h8k0Tc" alt="daytime image of a group of people skating at Jim Tubman Chevrolet Rink" class="img-fluid w-100" />
 
   </picture>
 
@@ -796,78 +989,78 @@ X-Varnish: 63738444 63770565
 
 <ul class="slides">
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=EDkX40LW 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=QfKePspz 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=qQ3bcb3s 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=b4cwp2bH 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=qQ3bcb3s 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=b4cwp2bH 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=qQ3bcb3s 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=qQ3bcb3s 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=qQ3bcb3s 1x" type="image/jpeg" width="600" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=C20FBmwh" alt="daytime photo of the rink after being flooded" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=ANkoZKVw 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=bk2rFdiJ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=T1Kvbr9O 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=IhJn4CpS 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=T1Kvbr9O 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=IhJn4CpS 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=T1Kvbr9O 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=T1Kvbr9O 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=T1Kvbr9O 1x" type="image/jpeg" width="600" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman-rink_flooded_en.jpeg?itok=OMvgB4bL" alt="daytime photo of the rink after being flooded" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman_drills_en.jpeg?itok=rydLrR1J 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman_drills_en.jpeg?itok=FGAC6XRn 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=SCjEBQZZ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=R5NLzK3n 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=SCjEBQZZ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=R5NLzK3n 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=SCjEBQZZ 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=SCjEBQZZ 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=SCjEBQZZ 1x" type="image/jpeg" width="600" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman_drills_en.jpeg?itok=0r-e4j8z" alt="daytime image of the rink from the stands - people watching children do hockey drills" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman_drills_en.jpeg?itok=e86QyyQg 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman_drills_en.jpeg?itok=DdS0ATvW 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=E7YN7x9n 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=LqTSJUwi 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=E7YN7x9n 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=LqTSJUwi 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=E7YN7x9n 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=E7YN7x9n 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman_drills_en.jpeg?itok=E7YN7x9n 1x" type="image/jpeg" width="600" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman_drills_en.jpeg?itok=eUuEYmG1" alt="daytime image of the rink from the stands - people watching children do hockey drills" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=xnQUjBaQ 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=YbNMb3v3 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=J3YLRXML 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=zb5MYGRL 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=J3YLRXML 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=zb5MYGRL 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=J3YLRXML 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=J3YLRXML 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=J3YLRXML 1x" type="image/jpeg" width="600" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=Icl3nT9j" alt="close-up of an untied hockey skate" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=AHx6FFg3 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=-szDb4-Z 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=aIJ9uV4K 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=D8nCHLSv 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=aIJ9uV4K 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=D8nCHLSv 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=aIJ9uV4K 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=aIJ9uV4K 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=aIJ9uV4K 1x" type="image/jpeg" width="600" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman-rink-skate_en.jpeg?itok=P5MX26Gj" alt="close-up of an untied hockey skate" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=ALu5Tq9z 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=B-VE3_sb 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=fNUQGifg 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=zE0GdQDC 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=fNUQGifg 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=zE0GdQDC 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=fNUQGifg 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=fNUQGifg 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=fNUQGifg 1x" type="image/jpeg" width="600" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=aZYV54d6" alt="child skating at Jim Tubman Chevrolet Rink" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=yVdRLC0C 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=Wn7_qR3j 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=JYPYFvBv 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=Rl-HLQi8 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=JYPYFvBv 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=Rl-HLQi8 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=JYPYFvBv 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=JYPYFvBv 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=JYPYFvBv 1x" type="image/jpeg" width="600" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman-rink-_young-skater_en.jpeg?itok=Az92YdRE" alt="child skating at Jim Tubman Chevrolet Rink" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=5Ksk5L4Z 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=F06u0tzb 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=02852F5o 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=NzFKl3PN 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=02852F5o 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=NzFKl3PN 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=02852F5o 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=02852F5o 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=02852F5o 1x" type="image/jpeg" width="600" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=2s7JygVg" alt="daytime image of a group of people skating at Jim Tubman Chevrolet Rink" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=_2_5rGtE 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=7SDxS3uA 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=8hOEZDIB 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=9p0w3qwH 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=8hOEZDIB 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=9p0w3qwH 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=8hOEZDIB 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=8hOEZDIB 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=8hOEZDIB 1x" type="image/jpeg" width="600" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman-rink_blur-skate_en.jpeg?itok=TH7kiEZt" alt="daytime image of a group of people skating at Jim Tubman Chevrolet Rink" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=0Mg1IyB2 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=DZcJK0P8 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=OvNeWcRq 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=cKCVAQNo 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=OvNeWcRq 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=cKCVAQNo 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=OvNeWcRq 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=OvNeWcRq 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=OvNeWcRq 1x" type="image/jpeg" width="600" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=r2hPMhwb" alt="daytime image of a group of people skating at Jim Tubman Chevrolet Rink" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=m20e8XPu 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=Bi23fngT 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=YzLVe7gx 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=A0R-AbI1 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=YzLVe7gx 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=A0R-AbI1 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=YzLVe7gx 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=YzLVe7gx 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=YzLVe7gx 1x" type="image/jpeg" width="600" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-02/jim-tubman-rink_public-skate_en.jpeg?itok=FaDs4KMB" alt="daytime image of a group of people skating at Jim Tubman Chevrolet Rink" />
 
   </picture>
 </li>
@@ -1233,7 +1426,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t1pj7h" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 
-  </body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=62&cb=888250115" async></script></body>
 </html>
 
 

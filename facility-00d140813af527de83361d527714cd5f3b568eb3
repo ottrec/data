@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/hunt-club-riverside-park-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; nlbi_243507=71JWQaZEnWIdmaIMaXmSIAAAAADJ9evHYz34qvKsOqwXymbQ; incap_ses_1842_243507=oHq/XuKcMyIED1U2xxmQGUt72GgAAAAAeqJWfbc0SA2106ghfQiiWQ==
+Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 141
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 28 Sep 2025 00:05:18 GMT
-Etag: "1759017774-gzip"
+Date: Mon, 29 Sep 2025 00:05:07 GMT
+Etag: "1759104306-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 28 Sep 2025 00:02:54 GMT
-Set-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; expires=Sun, 27 Sep 2026 07:29:43 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Mon, 29 Sep 2025 00:05:06 GMT
+Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 62-197511045-197511050 SNNy RT(1759017804015 114303) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 59888370 61797809
+X-Iinfo: 54-132542517-132542521 SNNy RT(1759104193740 112304) q(0 1 1 -1) r(15 15) U24
+X-Varnish: 64218355
 
-1023a
+10239
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -59,7 +59,7 @@ X-Varnish: 59888370 61797809
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031579","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"4c11b7b791a1efe68969b1e899b7a3ad803a0bdf40bb7e4561cb272b92e9e653"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031579","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ X-Varnish: 59888370 61797809
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-951b50ce73d7694ed7c6b8d662d187f2851193d5a28d30cf8a168a083427fabd">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a40955949e57b00dc5d8457c7372e91ebbb9168b490f8c9c13d8b20ecb37c32f">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 59888370 61797809
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-056dea262537a5f37b90db78891eac76f896454bd3b1f5a829a6a3850f185125">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bb5cdf567895c188e7397e64d9853e505655836f521176564155d59b34d33b5b">
   
     
       
@@ -413,13 +413,13 @@ X-Varnish: 59888370 61797809
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/featured/DSC_0012.JPG?itok=hIM2q5Xs 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/featured/DSC_0012.JPG?itok=8Zk45YPx 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1027" height="680"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0012.JPG?itok=cgW1QV1V 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0012.JPG?itok=F9G-IqiU 2x" media="all and (min-width: 992px)" type="image/jpeg" width="906" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0012.JPG?itok=cgW1QV1V 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0012.JPG?itok=F9G-IqiU 2x" media="all and (min-width: 768px)" type="image/jpeg" width="906" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0012.JPG?itok=cgW1QV1V 1x" media="all and (min-width: 641px)" type="image/jpeg" width="906" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0012.JPG?itok=cgW1QV1V 1x" media="all and (min-width: 481px)" type="image/jpeg" width="906" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0012.JPG?itok=cgW1QV1V 1x" type="image/jpeg" width="906" height="600"/>
-                  <img loading="eager" width="121" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/featured/DSC_0012.JPG?itok=9nLlLHBT" alt="Hunt Club-Riverside Park Community Centre" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/featured/DSC_0012.JPG?itok=u4Q4arW1 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/featured/DSC_0012.JPG?itok=HyoIygdu 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1027" height="680"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0012.JPG?itok=E0osrzGH 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0012.JPG?itok=9E8sXBC_ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="906" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0012.JPG?itok=E0osrzGH 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0012.JPG?itok=9E8sXBC_ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="906" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0012.JPG?itok=E0osrzGH 1x" media="all and (min-width: 641px)" type="image/jpeg" width="906" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0012.JPG?itok=E0osrzGH 1x" media="all and (min-width: 481px)" type="image/jpeg" width="906" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0012.JPG?itok=E0osrzGH 1x" type="image/jpeg" width="906" height="600"/>
+                  <img loading="eager" width="121" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/featured/DSC_0012.JPG?itok=Z9Mb1EoP" alt="Hunt Club-Riverside Park Community Centre" class="img-fluid w-100" />
 
   </picture>
 
@@ -475,7 +475,7 @@ X-Varnish: 59888370 61797809
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-616125bb40f1124a90b53af6f70ce7ec27aea1130a4f63d39b6140c8491b3c67">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-35a9ebb6f95e17004911dd4a517742d919d55efc04e88477f6c0f029481bd66d">
   
     
       
@@ -489,7 +489,7 @@ X-Varnish: 59888370 61797809
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7ef8b285bd67e9f9e77223a1a645bf9b8454107cde44e7e8767b598040b25211">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-48a6d86c15ad6b06f8628141b13d392cca566b4f73f7275cc5080fbb45935f42">
   
     
       
@@ -622,7 +622,7 @@ X-Varnish: 59888370 61797809
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dfd369d932a572863a0e210f3295c646e60ac67b494f74d8a0e8b4c46124c489">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ec69948ca33b6acc11ecbf12af9512f10e08335fd366c8b319fcfce23cb31fb3">
   
     
       
@@ -636,7 +636,7 @@ X-Varnish: 59888370 61797809
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0a2f1b3b39a8b0bb5c408283c5f73479afd189ac7c4ca92571c4ed793a8f0921">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2ad9ad3e01afab61dc37d477738aa1a3fd9ada4f4925d2b737b5231831fe3ac2">
   
     
       
@@ -824,7 +824,7 @@ X-Varnish: 59888370 61797809
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6ad98d1264cddacc910a9de2fa821e06759726adced06db017758de280d42a58">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b0e069a0162023ba9a9b85947d6fbb9af4356fa81de1733fd7981ca450978e7b">
   
     
       
@@ -838,7 +838,7 @@ X-Varnish: 59888370 61797809
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d97be2b7e78f3007951ea3b2ff3ee70100c960444e134df970bd4e3d57d45c9f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dd9d6e5eae015845a623b5c4cb18579c9d201970c662c00f9f7e6e75313a18a1">
   
     
       
@@ -1039,7 +1039,7 @@ X-Varnish: 59888370 61797809
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-65aa77fde96d03d8b6811ab06b9c24e4f8c199af958673bac5e5971ff69e0c7d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4ef9c591ffe242b1a6ab3fd24c708d8ea02c9ee2e78d09374bf163a4ecaab8a0">
   
     
       
@@ -1053,7 +1053,7 @@ X-Varnish: 59888370 61797809
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-457c500c329d5de2058961454862d857165042c5a97378808ec5b24a9ff9e7b2">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-294c636a18c03bc27ed8d9231d0050464b8ffb72381f2f52ffd0bda4945d5b71">
   
     
       
@@ -1321,7 +1321,7 @@ X-Varnish: 59888370 61797809
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-487e5802fd3a36f1ea326712bf287277c8bbeab6c6aeab4e0fa0e963c7e0886c">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-b16cb5d4e7a8326f7d6d16b27a630f882a4df4bbd249d8671c984646cfe07a3c">
   
     
       <div class="view-header">
@@ -1718,7 +1718,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=57&cb=1694162014" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=57&cb=957973862" async></script></body>
 </html>
 
 

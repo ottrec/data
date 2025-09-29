@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; nlbi_243507=71JWQaZEnWIdmaIMaXmSIAAAAADJ9evHYz34qvKsOqwXymbQ; incap_ses_1842_243507=oHq/XuKcMyIED1U2xxmQGUt72GgAAAAAeqJWfbc0SA2106ghfQiiWQ==
+Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,28 +8,28 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 698
+Age: 527
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 28 Sep 2025 00:06:45 GMT
-Etag: "1759017306-gzip"
+Date: Mon, 29 Sep 2025 00:06:32 GMT
+Etag: "1759103862-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 27 Sep 2025 23:55:06 GMT
-Set-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; expires=Sun, 27 Sep 2026 07:29:43 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Sun, 28 Sep 2025 23:57:42 GMT
+Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 62-197511045-197511050 SNNy RT(1759017804015 201719) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 41475548 60803768
+X-Iinfo: 54-132542517-132568920 SNNN RT(1759104193740 198319) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 64218430 64619304
 
 113ac
 
@@ -59,7 +59,7 @@ X-Varnish: 41475548 60803768
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031632","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"4c11b7b791a1efe68969b1e899b7a3ad803a0bdf40bb7e4561cb272b92e9e653"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031632","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ X-Varnish: 41475548 60803768
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-297907a70cb87214e83ae45e779bcd9fa9ded9265e76d78ca1594a44d21a344d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f6128015323ab50cc1c2b5a5b15589984d4d89557d4e1628ee49e264607c6620">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 41475548 60803768
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d7e0ca0d189b08935d1a1d61fe6904b4bdc8578154037eb2541d7e80ccf3d1f3">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ec7e23af30d1ce84dce7a21cdf7570b5e20b355b9784ca26234fdcdde363f0f0">
   
     
       
@@ -415,13 +415,13 @@ X-Varnish: 41475548 60803768
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=JRDGpqe1 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=0KUhsfRc 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="790" height="564"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=M3QLdWEW 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=jgOjArzl 2x" media="all and (min-width: 992px)" type="image/jpeg" width="790" height="564"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=M3QLdWEW 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=jgOjArzl 2x" media="all and (min-width: 768px)" type="image/jpeg" width="790" height="564"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=M3QLdWEW 1x" media="all and (min-width: 641px)" type="image/jpeg" width="790" height="564"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=M3QLdWEW 1x" media="all and (min-width: 481px)" type="image/jpeg" width="790" height="564"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=M3QLdWEW 1x" type="image/jpeg" width="790" height="564"/>
-                  <img loading="eager" width="112" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=xZZkVZjL" alt="Ray Friel Recreation Complex" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=oET6X5zi 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=BtzJAND5 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="790" height="564"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=0qE_9xxK 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=LOUt-m7h 2x" media="all and (min-width: 992px)" type="image/jpeg" width="790" height="564"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=0qE_9xxK 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=LOUt-m7h 2x" media="all and (min-width: 768px)" type="image/jpeg" width="790" height="564"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=0qE_9xxK 1x" media="all and (min-width: 641px)" type="image/jpeg" width="790" height="564"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=0qE_9xxK 1x" media="all and (min-width: 481px)" type="image/jpeg" width="790" height="564"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=0qE_9xxK 1x" type="image/jpeg" width="790" height="564"/>
+                  <img loading="eager" width="112" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/featured/ray_friel_general_web_05_v02.jpg?itok=qjoTQ3ff" alt="Ray Friel Recreation Complex" class="img-fluid w-100" />
 
   </picture>
 
@@ -477,7 +477,7 @@ X-Varnish: 41475548 60803768
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-034a12e600c56c09d26c3251a002d41f4ce821e7c16bbd913039a06aa71da15b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-60d0dbce37c0f900b14ef1304e726c72897aaf1a5f76e10dfd28f7687bcd328c">
   
     
       
@@ -491,7 +491,7 @@ X-Varnish: 41475548 60803768
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d19b8bbe7b5d8ac404a8818d71807ef4e87aeea5f6ac4b75c676ebbfb547c6f6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7f2dfd43a01d31156c8635ea08c117146b20b0172429b8d454877187534aabee">
   
     
       
@@ -598,7 +598,7 @@ X-Varnish: 41475548 60803768
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d5d01ad8e1d91f0f5a03eea4ee39d54a5015b41f1a3f611171b316827479af41">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e240f9920a44cc77f6e3eb3d821edd4d369120e86256a1893d6180c3d38e5a60">
   
     
       
@@ -612,7 +612,7 @@ X-Varnish: 41475548 60803768
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d9bfc9022523b3999602b1ddfba027125005e0d3c99d6a2421655ee25732b4df">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f38ed72e0640884484cfa5cfea77cd53c3c3a12337f8da3149530e22ee9b02bc">
   
     
       
@@ -761,7 +761,7 @@ X-Varnish: 41475548 60803768
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-63873849e6ee5087b3aaadd9c408bc56b5587209ca5e73ccf29b0320e33f3cea">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0cf806381043f230b44a206be1d0681edbf9b0d3fa1f3f0081088b5c0344cefb">
   
     
       
@@ -775,7 +775,7 @@ X-Varnish: 41475548 60803768
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-317b986dcd49cfc777e0e15a0c5b2d3bd78adf521c50e1a3b9f0a75dba116828">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4a6fc93f659736bcf6bd448fec6e7ab7e3db7314510b287475df2e6e9fc602b8">
   
     
       
@@ -1398,7 +1398,7 @@ X-Varnish: 41475548 60803768
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ff1860c308fcab350f03e8b78769a26180a542ebaed1176f96a8dc9f496a7963">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-073bb2c6911d3b0873fdc9b68a21d70dee0d874b5e064906911a838948f26ad1">
   
     
       
@@ -1412,7 +1412,7 @@ X-Varnish: 41475548 60803768
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-770e0c425cd5fd27f0d8fe0f3ef2462607d0c99b777ac4ecdfd180ca554677c5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-00afcda2407cb5237bd35c0203bdb9ccb8d2b3dc8fd68391ae31f161e6c7efe4">
   
     
       
@@ -1645,7 +1645,7 @@ X-Varnish: 41475548 60803768
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-2b68c1803489b70b6f5e293ace5c0ed5b5a55c52e760303842a117595340f970">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-215be520675c310b392d157f7dcb4f26d725f455a0439de55899f52ec5b30c99">
   
     
       <div class="view-header">

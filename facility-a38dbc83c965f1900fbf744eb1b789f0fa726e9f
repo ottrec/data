@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/john-g-mlacak-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; nlbi_243507=71JWQaZEnWIdmaIMaXmSIAAAAADJ9evHYz34qvKsOqwXymbQ; incap_ses_1842_243507=oHq/XuKcMyIED1U2xxmQGUt72GgAAAAAeqJWfbc0SA2106ghfQiiWQ==
+Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,28 +8,28 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 89
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 28 Sep 2025 00:05:32 GMT
-Etag: "1759017930-gzip"
+Date: Mon, 29 Sep 2025 00:05:18 GMT
+Etag: "1759104227-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 28 Sep 2025 00:05:30 GMT
-Set-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; expires=Sun, 27 Sep 2026 07:29:43 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Mon, 29 Sep 2025 00:03:47 GMT
+Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 62-197511045-197511050 SNNy RT(1759017804015 126306) q(0 0 0 -1) r(24 24) U24
-X-Varnish: 63738445
+X-Iinfo: 54-132542517-132542521 SNNy RT(1759104193740 124303) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 64242255 64242160
 
 c3c0
 
@@ -59,7 +59,7 @@ c3c0
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFuOwyAMvBANP3ufyMCIsDE4wqZNevqNtls12h9rHpZn5CBiap22Lx9I4cKHZ5ZAfFM7uLR8dSpUKUNdXJGKSZ9LS2gWWOLqL9hF6fCpj414om_aX0KTXonLEw67ncfX98ofdUyHDJtT0Sh39MNLQxR2YhZptgUV_-tdrROPfXqUlGFuo075rL3oO-WjTKNtI3DRBcnpoYb6esO94KH-d05V0mD8AJyWdHo" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031568","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kk1yBCEIhS9kt5vcpwuVcsigWIIz0zl9zH_3LLKheO8DStEgYmod2osPoOjCQf-my6suDIZqR55ZAvCitjPVfCQFVSGjunjFRCZ9o5qwWmCJV3_IXZSOvkovwPSGDh82Z1196qMBr9_SZZHMuBlkn2d41iu8wuNsFsewy7AtkUa5Yd-9VIzC03_b_UdwYhZhswsW9JMwNJ3tkueUE3u65xHNfDzWO6WMdgKtU7VFJdLsDMNMqp4KlAyptD7PtkAF3o2iugYd8lzhRX9W8Oeso7YRmPSCyTVpo206-g13fxST3LEH2rAETP6klsg0N_9_yVCTMt-iO93VsHx9ixvhXf1nXIukwfgOuTPfrQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"4c11b7b791a1efe68969b1e899b7a3ad803a0bdf40bb7e4561cb272b92e9e653"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031568","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kk1yBCEIhS9kt5vcpwuVcsigWIIz0zl9zH_3LLKheO8DStEgYmod2osPoOjCQf-my6suDIZqR55ZAvCitjPVfCQFVSGjunjFRCZ9o5qwWmCJV3_IXZSOvkovwPSGDh82Z1196qMBr9_SZZHMuBlkn2d41iu8wuNsFsewy7AtkUa5Yd-9VIzC03_b_UdwYhZhswsW9JMwNJ3tkueUE3u65xHNfDzWO6WMdgKtU7VFJdLsDMNMqp4KlAyptD7PtkAF3o2iugYd8lzhRX9W8Oeso7YRmPSCyTVpo206-g13fxST3LEH2rAETP6klsg0N_9_yVCTMt-iO93VsHx9ixvhXf1nXIukwfgOuTPfrQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ c3c0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-371cf152c1688d8971a85c06fb4915014bd33f94afdab36a59e152f9b80b011f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-87e8eceda93792683d00323bc939d547096dd1bf46509bc515b7636205c41e6a">
   
     
       
@@ -198,7 +198,7 @@ c3c0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-123c2aae8abc29d86fffe69a6dc4d941157eb2cb1aaae687614cf876bd4201a1">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7e7e7cd8caf90c62758ce8a3de5285b40cccfae9905efe905001045004bea32e">
   
     
       
@@ -389,13 +389,13 @@ c3c0
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/featured/DSC_0040.JPG?itok=Up8n_9vp 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/featured/DSC_0040.JPG?itok=j2NjBAo3 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="581" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0040.JPG?itok=ml75H6PG 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0040.JPG?itok=Owo3P9FN 2x" media="all and (min-width: 992px)" type="image/jpeg" width="450" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0040.JPG?itok=ml75H6PG 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0040.JPG?itok=Owo3P9FN 2x" media="all and (min-width: 768px)" type="image/jpeg" width="450" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0040.JPG?itok=ml75H6PG 1x" media="all and (min-width: 641px)" type="image/jpeg" width="450" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0040.JPG?itok=ml75H6PG 1x" media="all and (min-width: 481px)" type="image/jpeg" width="450" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0040.JPG?itok=ml75H6PG 1x" type="image/jpeg" width="450" height="600"/>
-                  <img loading="eager" width="60" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/featured/DSC_0040.JPG?itok=5JD106S5" alt="John G Mlacak Community Centre" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/featured/DSC_0040.JPG?itok=0Nj1OSGc 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/featured/DSC_0040.JPG?itok=ClgN12NB 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="581" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0040.JPG?itok=iTyojSGL 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0040.JPG?itok=bV3bVhSm 2x" media="all and (min-width: 992px)" type="image/jpeg" width="450" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0040.JPG?itok=iTyojSGL 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/DSC_0040.JPG?itok=bV3bVhSm 2x" media="all and (min-width: 768px)" type="image/jpeg" width="450" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0040.JPG?itok=iTyojSGL 1x" media="all and (min-width: 641px)" type="image/jpeg" width="450" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0040.JPG?itok=iTyojSGL 1x" media="all and (min-width: 481px)" type="image/jpeg" width="450" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/DSC_0040.JPG?itok=iTyojSGL 1x" type="image/jpeg" width="450" height="600"/>
+                  <img loading="eager" width="60" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/featured/DSC_0040.JPG?itok=Y5KZil_c" alt="John G Mlacak Community Centre" class="img-fluid w-100" />
 
   </picture>
 
@@ -451,7 +451,7 @@ c3c0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4583a08dc467e7ef1153dda74dd2aae36cb41b8a2aa58df4cdb69f156cb20d82">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b0904508ab169ab4ba0adbe050f5909762344c4ecc9b74ab609f5078a2aae057">
   
     
       
@@ -465,7 +465,7 @@ c3c0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0251f80798ba6ec4ffa477217f3b077fe7b7b0fb7b0c33c921ae7e76ebe1729f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-63cd9b088113950b823ba3b8578213cf4fe8acfb667c5a428431a5b956eb5a23">
   
     
       
@@ -604,7 +604,7 @@ c3c0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-87db3156fb3fef2f9063cf7da7cfb3ebb8337505c99cf90ed16d9b60e5337945">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-884bb7ded4b830b3dfab23f13135e8104c260b63a62b192b3ccf86938c7a50ad">
   
     
       
@@ -618,7 +618,7 @@ c3c0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-718164f109ff6f4a883a8d2c39a09fa750faa3d5cab3e89eae86422ff2ef7863">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4aee71d353dc7df440fd87ba796c9804a990514f9b7273525bf96da3e1623446">
   
     
       
@@ -816,7 +816,7 @@ c3c0
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-b5f647170b64f1968a4dc0b7ae072de589503a48ec31270f18493416f7337ec3">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-6b56ecf81df62d9d6d2c56967c2adf4745a1de51e8bdff66218a49e2bdaa5dda">
   
     
       <div class="view-header">

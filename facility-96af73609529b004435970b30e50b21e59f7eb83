@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/cumberland-heritage-village-museum HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; nlbi_243507=71JWQaZEnWIdmaIMaXmSIAAAAADJ9evHYz34qvKsOqwXymbQ; incap_ses_1842_243507=oHq/XuKcMyIED1U2xxmQGUt72GgAAAAAeqJWfbc0SA2106ghfQiiWQ==
+Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,28 +8,28 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 508
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 28 Sep 2025 00:04:26 GMT
-Etag: "1759017356-gzip"
+Date: Mon, 29 Sep 2025 00:04:16 GMT
+Etag: "1759104255-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 27 Sep 2025 23:55:56 GMT
-Set-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; expires=Sun, 27 Sep 2026 07:29:43 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Mon, 29 Sep 2025 00:04:15 GMT
+Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 62-197511045-197511050 SNNy RT(1759017804015 62234) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 62339287 60631681
+X-Iinfo: 54-132542517-132542521 SNNy RT(1759104193740 61968) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 64106477
 
 24d20
 
@@ -59,7 +59,7 @@ X-Varnish: 62339287 60631681
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUNFuwzAI_CEvftn_RNgmCQsxFuA22dc3W1c12gu6O9AdkETcXKF9xgSGIb35zJKAP8wPpjpfOxuawYwW8oqFXHSkWrB6YslrvOCQRTEW7Q14gC_Yn0IV3YDpGwPufpqvr5E_GibG3ZgK6unmOCs4SQ0Mh3QfC1mWG-oRpWIWDjJNlHFcpKvFKxmnnyR31CDuGUZfcMP_l11bJ-77cKcyo4cGCmd2W-y14FsZem09MdmCJdhhjtvzgzfCu8XfOmxSOuMDdaqMMQ" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3013601","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1293712"},"slider-gallery-carousel--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1293712","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1293712"}},"instances":{"slider-gallery--1293712":"slider-gallery--1293712","slider-gallery-carousel--1293712":"slider-gallery-carousel--1293712"}},"user":{"uid":0,"permissionsHash":"4c11b7b791a1efe68969b1e899b7a3ad803a0bdf40bb7e4561cb272b92e9e653"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3013601","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1293712"},"slider-gallery-carousel--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1293712","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1293712"}},"instances":{"slider-gallery--1293712":"slider-gallery--1293712","slider-gallery-carousel--1293712":"slider-gallery-carousel--1293712"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ X-Varnish: 62339287 60631681
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-336eb1417f4beaeb2f55079311b35f3e06939677d9c5659f5e192446a4a37bd8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a716246dfe5bc93dd20ac620c9b697cda5554392c4cddca8ede45d6ae87dfb4d">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 62339287 60631681
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f1449c68116c04450272cbc346aebfc41cb43805e8c7898b6d394e6e1057e321">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-39d5b0972b7a20299138be7f3738d0529d502447d47d266d44414a94a6c7ebb5">
   
     
       
@@ -394,7 +394,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fef1bea89f8e00d7319ebb539a38f5b88850bf22ee330c7fd5b144c75aed18eb">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e4b172ab6e190ef4a4857359b9af14376fb055a6cb78523863d5326f0c95b4b1">
   
     
       
@@ -408,7 +408,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ec4b66b4aef5298ab523298fb5de87cab157b41210dc0bfc254c08fd153ed04c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-41c2c41b4fff539c2941b1ff7f6ceef0ad6586c3787fadcc7410bab846956c0e">
   
     
       
@@ -508,7 +508,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-821a2acad263fe9cab4bdbcbb83b76b5268128416fd73f597f0bba511d9430e8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9f2292f811cff142779d9fbdc4915e0948ce9638df3b1e6e342e82d46b9ab888">
   
     
       
@@ -522,7 +522,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bdfafa8cb13ee81da1f629b42b7a9c48587972daf5578f082520acdcb8cfdcd7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a3e801554bb10ce9ec20d21931b37ef6bb01ef099e5d94305c066c8ed1bc734b">
   
     
       
@@ -648,7 +648,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-aa546dfcb939b88c2523f318ff95a775c1d170a396973e131cbd8e4c4adb4ea2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-72e71db1920f5359c5642e71d12d2228a773edb76fa91f689dd8100e47157d50">
   
     
       
@@ -662,7 +662,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b73894e5122da1491d98d1614562f3ce701b895acc1e3d6541532155f5ee5f29">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-41146552c17ebba98565cb734a5d9e76820d70735826df56a6e9dd86340c78a5">
   
     
       
@@ -776,7 +776,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c76fa8323cc2c2ba3472ba7ce26bf5b3570b395bf3ff47d45ee3b7abf3bec7e3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-45f73a2e9077e26e7a985c967742295c92ad8b65a6e2ea5288e35555dff961a7">
   
     
       
@@ -790,7 +790,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-68799927ad10ceb513a8e2d590deffe06093d9e1850bc083f415ce43c46481c0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-308cbec7ad0627d4c91e01a05d71a8d098039ffab081b15eae8972602bffef19">
   
     
       
@@ -1113,7 +1113,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1804baabf5c410238fe333697fcfc936350a1d9a49d45a314b63a07cd6f448a5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8d77388546d36274138814fdd8be1235a7dfe3ace1e86229fe123441389e5090">
   
     
       
@@ -1127,7 +1127,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f145f8d3babc627be96929684fe0efbba0cab1d0693ba6aa9ad0a56901a4147c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e67e334dbde17c0e3753627ccfee8bc00993ca8a0c2ef8f6799165fc36b8e504">
   
     
       
@@ -1253,7 +1253,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0dc3f39fb3a84d8630d9213fe1a52ff9e43d1eca0dac642b981088d4606a52ee">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c060a3c2d6241ee18f59e674a372a92a1c2b06a1421428330f6b26f0ef924238">
   
     
       
@@ -1267,7 +1267,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-88d5427b5feab7bec2b93eb17ed9bf970398f5f8e83207d9bf974547522552bf">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3166562580d0f004a75c67245d84eee7be39be5e3f788baaeeb4b387ab571941">
   
     
       
@@ -1393,7 +1393,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1c37e369286017a16f4c7db1088caf140a99c69259b395573f201efecf1ce860">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2be56dce6f811e3b1145731d87469ff715feb2fa7d4bc1dda641cadfc1f87a2d">
   
     
       
@@ -1407,7 +1407,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-86b084445fa083ee4be6e090aa17fd30506e7fb41d940c28891e586f1ea05535">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-af48037a593163ec88f33ce94200d364512ab1687a58f2280e84544a550283d6">
   
     
       
@@ -1509,7 +1509,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d2fcc9069fd98f2cb256ca583b0adc63a38a8ab22439a6ed491d112fbe447390">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f62364b28e5371a4108283f703b828d6f8d7588cb3593cebf22d439dda73a551">
   
     
       
@@ -1523,7 +1523,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8215cc505293f2070c53f8ce8f340537dca56194110994cda5a315ac59a02aa2">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d3939aeb79a2d58f41ad2f0d7f41660ffc259aa8a6315bf5f8b1ee87909c2240">
   
     
       
@@ -1626,7 +1626,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-aa4887705ec1d666155e2def135c1ff23aec62ad0b0cbcc2d51dee2384113711">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-da577b303fa019d8337400fed81124ef85939a74d3d86ce161981134b7815605">
   
     
       
@@ -1640,7 +1640,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5fddee836cad6fe0058344660a9ab4360711eeece3a309698ec21c9a7b5da520">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e96ac05c72db78aed099ebdd41f2409b6e174160a7ca12a32f43c16f9f36b704">
   
     
       
@@ -1741,7 +1741,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5d0abe58e1da9304842a689ae7cb4bb9b7cca4634ea2a3098e3617e5df334727">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9e0156aa5565df5c57d921dc8241c40491902d6c3f171a9221d7da9c6a1a82e2">
   
     
       
@@ -1755,7 +1755,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bcddf1c64f43a9d99de5c76d50e94eca60b979caab966e709927ec897e3d7d1a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7e9bbb9c83bbfa3b63bf92c94c20f6f4d79ff6ac18f9c2d1d0a29b7f3bb89f22">
   
     
       
@@ -1973,12 +1973,12 @@ Cost: $77.21 + tax (per person)<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Y6QDf5g_ 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Y6QDf5g_ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Y6QDf5g_ 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Y6QDf5g_ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=gqFFMzgO 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=gqFFMzgO 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=gqFFMzgO 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=gqFFMzgO 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=gqFFMzgO 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=gqFFMzgO 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Y6QDf5g_" alt="view of the grounds" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=uqWOR-pl 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=uqWOR-pl 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=uqWOR-pl 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=uqWOR-pl 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=WSHXFrI3 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=WSHXFrI3 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=WSHXFrI3 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=WSHXFrI3 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=WSHXFrI3 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=WSHXFrI3 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=uqWOR-pl" alt="view of the grounds" class="img-fluid w-100" />
 
   </picture>
 
@@ -1990,12 +1990,12 @@ Cost: $77.21 + tax (per person)<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=-mIaI_Ma 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=-mIaI_Ma 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=-mIaI_Ma 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=-mIaI_Ma 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=ehOjm9qH 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=ehOjm9qH 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=ehOjm9qH 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=ehOjm9qH 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=ehOjm9qH 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=ehOjm9qH 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=-mIaI_Ma" alt="view of the exterior" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=Tt2mJdK1 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=Tt2mJdK1 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=Tt2mJdK1 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=Tt2mJdK1 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=yQrZZICx 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=yQrZZICx 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=yQrZZICx 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=yQrZZICx 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=yQrZZICx 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=yQrZZICx 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=Tt2mJdK1" alt="view of the exterior" class="img-fluid w-100" />
 
   </picture>
 
@@ -2007,12 +2007,12 @@ Cost: $77.21 + tax (per person)<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=0sx1ZbTz 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=0sx1ZbTz 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=0sx1ZbTz 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=0sx1ZbTz 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=RFYlHPJ- 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=RFYlHPJ- 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=RFYlHPJ- 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=RFYlHPJ- 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=RFYlHPJ- 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=RFYlHPJ- 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=0sx1ZbTz" alt="view of the grounds" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=9TIQRWZC 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=9TIQRWZC 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=9TIQRWZC 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=9TIQRWZC 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=-J67a_M8 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=-J67a_M8 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=-J67a_M8 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=-J67a_M8 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=-J67a_M8 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=-J67a_M8 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=9TIQRWZC" alt="view of the grounds" class="img-fluid w-100" />
 
   </picture>
 
@@ -2024,12 +2024,12 @@ Cost: $77.21 + tax (per person)<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=a9PrVKis 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=a9PrVKis 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=a9PrVKis 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=a9PrVKis 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jVehKtG_ 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jVehKtG_ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jVehKtG_ 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jVehKtG_ 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jVehKtG_ 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jVehKtG_ 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=a9PrVKis" alt="view of the grounds" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=NOC22Q-C 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=NOC22Q-C 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=NOC22Q-C 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=NOC22Q-C 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jU8yLcJN 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jU8yLcJN 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jU8yLcJN 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jU8yLcJN 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jU8yLcJN 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=jU8yLcJN 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=NOC22Q-C" alt="view of the grounds" class="img-fluid w-100" />
 
   </picture>
 
@@ -2041,12 +2041,12 @@ Cost: $77.21 + tax (per person)<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_04_en.JPG?itok=6wIS0hBF 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_04_en.JPG?itok=6wIS0hBF 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_04_en.JPG?itok=6wIS0hBF 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_04_en.JPG?itok=6wIS0hBF 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=c2DUN7qq 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=c2DUN7qq 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=c2DUN7qq 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=c2DUN7qq 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=c2DUN7qq 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=c2DUN7qq 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_04_en.JPG?itok=6wIS0hBF" alt="view of the interior" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_04_en.JPG?itok=FtTqv3c0 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_04_en.JPG?itok=FtTqv3c0 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_04_en.JPG?itok=FtTqv3c0 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_04_en.JPG?itok=FtTqv3c0 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=xKSQ_BW- 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=xKSQ_BW- 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=xKSQ_BW- 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=xKSQ_BW- 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=xKSQ_BW- 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_church_04_en.JPG?itok=xKSQ_BW- 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_church_04_en.JPG?itok=FtTqv3c0" alt="view of the interior" class="img-fluid w-100" />
 
   </picture>
 
@@ -2058,12 +2058,12 @@ Cost: $77.21 + tax (per person)<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_trio_en.JPG?itok=wvz7SVhb 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_trio_en.JPG?itok=wvz7SVhb 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_trio_en.JPG?itok=wvz7SVhb 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_trio_en.JPG?itok=wvz7SVhb 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=qiWkEuUo 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=qiWkEuUo 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=qiWkEuUo 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=qiWkEuUo 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=qiWkEuUo 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=qiWkEuUo 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_trio_en.JPG?itok=wvz7SVhb" alt="view of the grounds" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_trio_en.JPG?itok=Q8-iZlNg 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_trio_en.JPG?itok=Q8-iZlNg 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_trio_en.JPG?itok=Q8-iZlNg 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_trio_en.JPG?itok=Q8-iZlNg 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=cm649VFL 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=cm649VFL 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=cm649VFL 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=cm649VFL 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=cm649VFL 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_trio_en.JPG?itok=cm649VFL 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_trio_en.JPG?itok=Q8-iZlNg" alt="view of the grounds" class="img-fluid w-100" />
 
   </picture>
 
@@ -2075,12 +2075,12 @@ Cost: $77.21 + tax (per person)<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_wedding_en.JPG?itok=-Lhm96GW 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_wedding_en.JPG?itok=-Lhm96GW 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_wedding_en.JPG?itok=-Lhm96GW 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_wedding_en.JPG?itok=-Lhm96GW 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=rXHxAaBW 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=rXHxAaBW 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=rXHxAaBW 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=rXHxAaBW 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=rXHxAaBW 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=rXHxAaBW 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_wedding_en.JPG?itok=-Lhm96GW" alt="view of the grounds" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_wedding_en.JPG?itok=1KYtWJ-i 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_wedding_en.JPG?itok=1KYtWJ-i 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_wedding_en.JPG?itok=1KYtWJ-i 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_wedding_en.JPG?itok=1KYtWJ-i 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=hlMg5tAC 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=hlMg5tAC 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=hlMg5tAC 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=hlMg5tAC 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=hlMg5tAC 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_wedding_en.JPG?itok=hlMg5tAC 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_wedding_en.JPG?itok=1KYtWJ-i" alt="view of the grounds" class="img-fluid w-100" />
 
   </picture>
 
@@ -2092,12 +2092,12 @@ Cost: $77.21 + tax (per person)<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=gy2gGFlC 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=gy2gGFlC 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=gy2gGFlC 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=gy2gGFlC 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=yPVWDsJc 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=yPVWDsJc 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=yPVWDsJc 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=yPVWDsJc 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=yPVWDsJc 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=yPVWDsJc 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=gy2gGFlC" alt="view of the exterior" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=0ghFpBp2 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=0ghFpBp2 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=0ghFpBp2 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=0ghFpBp2 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=xen3uxZz 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=xen3uxZz 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=xen3uxZz 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=xen3uxZz 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=xen3uxZz 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=xen3uxZz 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=0ghFpBp2" alt="view of the exterior" class="img-fluid w-100" />
 
   </picture>
 
@@ -2109,12 +2109,12 @@ Cost: $77.21 + tax (per person)<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=NJm6MRzS 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=NJm6MRzS 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=NJm6MRzS 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=NJm6MRzS 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=_hx1EAVz 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=_hx1EAVz 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=_hx1EAVz 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=_hx1EAVz 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=_hx1EAVz 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=_hx1EAVz 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=NJm6MRzS" alt="view of the interior" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=NEaxOhLi 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=NEaxOhLi 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=NEaxOhLi 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=NEaxOhLi 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=iQAdcCJS 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=iQAdcCJS 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=iQAdcCJS 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=iQAdcCJS 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=iQAdcCJS 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=iQAdcCJS 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=NEaxOhLi" alt="view of the interior" class="img-fluid w-100" />
 
   </picture>
 
@@ -2126,12 +2126,12 @@ Cost: $77.21 + tax (per person)<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_en.JPG?itok=U2cIiM63 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_en.JPG?itok=U2cIiM63 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_en.JPG?itok=U2cIiM63 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_en.JPG?itok=U2cIiM63 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=sfXdPknL 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=sfXdPknL 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=sfXdPknL 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=sfXdPknL 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=sfXdPknL 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=sfXdPknL 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_en.JPG?itok=U2cIiM63" alt="ariel view of the museum grounds" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_en.JPG?itok=YjsUTXnK 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_en.JPG?itok=YjsUTXnK 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_en.JPG?itok=YjsUTXnK 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_en.JPG?itok=YjsUTXnK 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=6DCTTKlx 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=6DCTTKlx 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=6DCTTKlx 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=6DCTTKlx 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=6DCTTKlx 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_en.JPG?itok=6DCTTKlx 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_en.JPG?itok=YjsUTXnK" alt="ariel view of the museum grounds" class="img-fluid w-100" />
 
   </picture>
 
@@ -2143,12 +2143,12 @@ Cost: $77.21 + tax (per person)<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=mHuTG7i0 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=mHuTG7i0 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=mHuTG7i0 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=mHuTG7i0 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=iQDhqkdu 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=iQDhqkdu 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=iQDhqkdu 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=iQDhqkdu 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=iQDhqkdu 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=iQDhqkdu 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=mHuTG7i0" alt="view of the grounds" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=w0jWOq0X 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=w0jWOq0X 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=w0jWOq0X 1x, /sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=w0jWOq0X 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=WNNcX0Ph 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=WNNcX0Ph 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=WNNcX0Ph 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=WNNcX0Ph 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=WNNcX0Ph 1x, /sites/default/files/styles/slider_mobile/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=WNNcX0Ph 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=w0jWOq0X" alt="view of the grounds" class="img-fluid w-100" />
 
   </picture>
 
@@ -2163,143 +2163,143 @@ Cost: $77.21 + tax (per person)<br>
 
 <ul class="slides">
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=wYe763NL 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=mRmJ3elP 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="767"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=lvYfvhYF 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=7MJz0X6N 2x" media="all and (min-width: 992px)" type="image/jpeg" width="896" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=lvYfvhYF 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=7MJz0X6N 2x" media="all and (min-width: 768px)" type="image/jpeg" width="896" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=lvYfvhYF 1x" media="all and (min-width: 641px)" type="image/jpeg" width="896" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=lvYfvhYF 1x" media="all and (min-width: 481px)" type="image/jpeg" width="896" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=lvYfvhYF 1x" type="image/jpeg" width="896" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=7rZ5KvC7" alt="view of the grounds" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=ixq5_NA9 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=rG1UYIWS 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="767"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Z0sFr5v1 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Zk3rF6Jv 2x" media="all and (min-width: 992px)" type="image/jpeg" width="896" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Z0sFr5v1 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Zk3rF6Jv 2x" media="all and (min-width: 768px)" type="image/jpeg" width="896" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Z0sFr5v1 1x" media="all and (min-width: 641px)" type="image/jpeg" width="896" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Z0sFr5v1 1x" media="all and (min-width: 481px)" type="image/jpeg" width="896" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=Z0sFr5v1 1x" type="image/jpeg" width="896" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_cinderella_alley_en.JPG?itok=UBoIdlOG" alt="view of the grounds" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=MKWvqBpz 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=vKz8UaZl 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="517" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=9QuFC0Ck 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=jpEl7i8e 2x" media="all and (min-width: 992px)" type="image/jpeg" width="400" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=9QuFC0Ck 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=jpEl7i8e 2x" media="all and (min-width: 768px)" type="image/jpeg" width="400" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=9QuFC0Ck 1x" media="all and (min-width: 641px)" type="image/jpeg" width="400" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=9QuFC0Ck 1x" media="all and (min-width: 481px)" type="image/jpeg" width="400" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=9QuFC0Ck 1x" type="image/jpeg" width="400" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=3AzE_eIu" alt="view of the exterior" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=nzh1zW-R 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=hbNZW5hU 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="517" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=9ZRm3OyK 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=gjZrkqmW 2x" media="all and (min-width: 992px)" type="image/jpeg" width="400" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=9ZRm3OyK 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=gjZrkqmW 2x" media="all and (min-width: 768px)" type="image/jpeg" width="400" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=9ZRm3OyK 1x" media="all and (min-width: 641px)" type="image/jpeg" width="400" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=9ZRm3OyK 1x" media="all and (min-width: 481px)" type="image/jpeg" width="400" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=9ZRm3OyK 1x" type="image/jpeg" width="400" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_church_01_en_0.JPG?itok=emik1alO" alt="view of the exterior" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=ZRmdQcPO 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=rJO8lV8V 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=dHp3S9zL 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=L2HCZhQD 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=dHp3S9zL 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=L2HCZhQD 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=dHp3S9zL 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=dHp3S9zL 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=dHp3S9zL 1x" type="image/jpeg" width="900" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=T5gbynrx" alt="view of the grounds" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=gqQmC5CN 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=kBQTcZ0C 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=pb67Y3HS 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=zwHDrnG2 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=pb67Y3HS 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=zwHDrnG2 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=pb67Y3HS 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=pb67Y3HS 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=pb67Y3HS 1x" type="image/jpeg" width="900" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_grounds_01_en.JPG?itok=EwkPUhBO" alt="view of the grounds" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=zW-hzfNj 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=fb5fT8u2 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=1i0RyA6j 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=SrZLgbXm 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=1i0RyA6j 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=SrZLgbXm 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=1i0RyA6j 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=1i0RyA6j 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=1i0RyA6j 1x" type="image/jpeg" width="900" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=KDiVundN" alt="view of the grounds" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=Jxj1I0KD 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=9cFY8by9 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=4zElKwlE 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=iLuokk-l 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=4zElKwlE 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=iLuokk-l 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=4zElKwlE 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=4zElKwlE 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=4zElKwlE 1x" type="image/jpeg" width="900" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_grounds_03_en.JPG?itok=7GZR-Ab6" alt="view of the grounds" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_church_04_en.JPG?itok=stS3jMdX 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_church_04_en.JPG?itok=UgRK3-oU 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=7JGzBHjU 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=tWq_wVyf 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=7JGzBHjU 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=tWq_wVyf 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=7JGzBHjU 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=7JGzBHjU 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=7JGzBHjU 1x" type="image/jpeg" width="900" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_church_04_en.JPG?itok=3r0vhF_7" alt="view of the interior" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_church_04_en.JPG?itok=0fyokIVf 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_church_04_en.JPG?itok=AyffTu5c 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=KaFSqR-b 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=1eQnPjix 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=KaFSqR-b 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=1eQnPjix 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=KaFSqR-b 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=KaFSqR-b 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_church_04_en.JPG?itok=KaFSqR-b 1x" type="image/jpeg" width="900" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_church_04_en.JPG?itok=mfvvyX7e" alt="view of the interior" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_trio_en.JPG?itok=N3aConBL 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_trio_en.JPG?itok=RF8id851 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1033" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=KbzGTANK 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=7DP0HpGO 2x" media="all and (min-width: 992px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=KbzGTANK 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=7DP0HpGO 2x" media="all and (min-width: 768px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=KbzGTANK 1x" media="all and (min-width: 641px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=KbzGTANK 1x" media="all and (min-width: 481px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=KbzGTANK 1x" type="image/jpeg" width="800" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_trio_en.JPG?itok=YdZfTfIv" alt="view of the grounds" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_trio_en.JPG?itok=DOrn2eHC 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_trio_en.JPG?itok=jb3MnwQs 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1033" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=y0Ny07b- 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=9Z4qQOBv 2x" media="all and (min-width: 992px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=y0Ny07b- 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=9Z4qQOBv 2x" media="all and (min-width: 768px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=y0Ny07b- 1x" media="all and (min-width: 641px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=y0Ny07b- 1x" media="all and (min-width: 481px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_trio_en.JPG?itok=y0Ny07b- 1x" type="image/jpeg" width="800" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_trio_en.JPG?itok=c7SXulbM" alt="view of the grounds" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_wedding_en.JPG?itok=wc-nUidX 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_wedding_en.JPG?itok=2nbp4vwX 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="763"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=43vQjDQc 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=vMZRc0BB 2x" media="all and (min-width: 992px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=43vQjDQc 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=vMZRc0BB 2x" media="all and (min-width: 768px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=43vQjDQc 1x" media="all and (min-width: 641px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=43vQjDQc 1x" media="all and (min-width: 481px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=43vQjDQc 1x" type="image/jpeg" width="901" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_wedding_en.JPG?itok=4lBsh392" alt="view of the grounds" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_wedding_en.JPG?itok=t_GOyFi9 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_wedding_en.JPG?itok=NaqqYrc2 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="763"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=wJIcor25 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=G_X70UVZ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=wJIcor25 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=G_X70UVZ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=wJIcor25 1x" media="all and (min-width: 641px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=wJIcor25 1x" media="all and (min-width: 481px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_wedding_en.JPG?itok=wJIcor25 1x" type="image/jpeg" width="901" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_wedding_en.JPG?itok=mJTDK4Mn" alt="view of the grounds" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=mPHx6AjL 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=BP4ACYUT 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=BnD2IpAw 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=tMuARgax 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=BnD2IpAw 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=tMuARgax 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=BnD2IpAw 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=BnD2IpAw 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=BnD2IpAw 1x" type="image/jpeg" width="900" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=2ke0u4iZ" alt="view of the exterior" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=35swdw_k 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=GNK_a7jb 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=2dhG52xQ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=nJRfEn3p 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=2dhG52xQ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=nJRfEn3p 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=2dhG52xQ 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=2dhG52xQ 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=2dhG52xQ 1x" type="image/jpeg" width="900" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_community_hall_01_en.JPG?itok=ohzsfbxS" alt="view of the exterior" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=eGE3ES4r 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=r7rZpNS1 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=s423mvXX 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=PjFUPu-V 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=s423mvXX 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=PjFUPu-V 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=s423mvXX 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=s423mvXX 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=s423mvXX 1x" type="image/jpeg" width="900" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=1S41sT-D" alt="view of the interior" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=ejr_ew3j 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=wo9AKiak 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="764"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=S7X_jNX3 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=XOff8xdC 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=S7X_jNX3 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=XOff8xdC 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=S7X_jNX3 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=S7X_jNX3 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=S7X_jNX3 1x" type="image/jpeg" width="900" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_community_hall_en.JPG?itok=mqMqvsav" alt="view of the interior" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_grounds_en.JPG?itok=x3o92riS 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_grounds_en.JPG?itok=fMZAavX0 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="645"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=rOQs-1w1 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=hmEoDOwv 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=rOQs-1w1 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=hmEoDOwv 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=rOQs-1w1 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=rOQs-1w1 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=rOQs-1w1 1x" type="image/jpeg" width="1066" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_grounds_en.JPG?itok=xR6ruJmM" alt="ariel view of the museum grounds" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_grounds_en.JPG?itok=2srp2Xa1 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_grounds_en.JPG?itok=-kUZiugF 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1146" height="645"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=8JNYzN_e 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=_YkmBhEX 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=8JNYzN_e 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=_YkmBhEX 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=8JNYzN_e 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=8JNYzN_e 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_en.JPG?itok=8JNYzN_e 1x" type="image/jpeg" width="1066" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_grounds_en.JPG?itok=quxI9-aE" alt="ariel view of the museum grounds" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=1xM6jJ5f 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=h611wxcd 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1033" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=KLWq_BiA 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=CIMa5DqI 2x" media="all and (min-width: 992px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=KLWq_BiA 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=CIMa5DqI 2x" media="all and (min-width: 768px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=KLWq_BiA 1x" media="all and (min-width: 641px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=KLWq_BiA 1x" media="all and (min-width: 481px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=KLWq_BiA 1x" type="image/jpeg" width="800" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=offoqBX9" alt="view of the grounds" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=mFXiUMdn 1x, /sites/default/files/styles/2x_rectangle_xl/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=jGjJTMCP 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1033" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=-xzFNVM5 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=R3hCv9zR 2x" media="all and (min-width: 992px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=-xzFNVM5 1x, /sites/default/files/styles/2x_rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=R3hCv9zR 2x" media="all and (min-width: 768px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=-xzFNVM5 1x" media="all and (min-width: 641px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=-xzFNVM5 1x" media="all and (min-width: 481px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=-xzFNVM5 1x" type="image/jpeg" width="800" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2024-09/cumberland_museum_grounds_02_en.JPG?itok=C6N5Gho4" alt="view of the grounds" />
 
   </picture>
 </li>
@@ -2659,7 +2659,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t1pj7h" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=72810556" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=91754199" async></script></body>
 </html>
 
 

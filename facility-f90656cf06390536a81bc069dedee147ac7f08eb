@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lansdowne-park HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; nlbi_243507=71JWQaZEnWIdmaIMaXmSIAAAAADJ9evHYz34qvKsOqwXymbQ; incap_ses_1842_243507=oHq/XuKcMyIED1U2xxmQGUt72GgAAAAAeqJWfbc0SA2106ghfQiiWQ==
+Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 592
+Age: 597
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 28 Sep 2025 00:05:46 GMT
-Etag: "1759017352-gzip"
+Date: Mon, 29 Sep 2025 00:05:34 GMT
+Etag: "1759103734-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 27 Sep 2025 23:55:52 GMT
-Set-Cookie: visid_incap_243507=7IVjlnbkSF2zHxHoAAotS0t72GgAAAAAQUIPAAAAAADtva/kjw3cvMmr+FRwgDRP; expires=Sun, 27 Sep 2026 07:29:43 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Sun, 28 Sep 2025 23:55:34 GMT
+Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,8 +28,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 62-197511045-197511050 SNNy RT(1759017804015 142770) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 63738471 63738172
+X-Iinfo: 54-132542517-132542521 SNNy RT(1759104193740 140306) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 64556918 64619145
 
 25b95
 
@@ -59,7 +59,7 @@ X-Varnish: 63738471 63738172
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvBANP71PZGCa0BiMsNlNevqNul1t1B9rHtaM5SBiap3apw-kcOHNF5ZA_KF2cK7L1SlQpQXq4oaUTfqca0K1wBI3f8EuSodPfTTiib5pfwpVeiHOP3DY7QzfXit_1H0xduWc0M80w9LJslTHdMiwOWWNckM_vFREYSdmkWZbUfD_6qt14rFP95wWmGvU6cxtq77K38o0ahuBs65ITg81lOd3bhl39b9zKpIG4wGR832r" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031552","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9ksuyIyEIhl_IbjfzPl2ojPEExRJM0nn6YXIu053FbCh-PqAQDMwqOqD_8gEEXTjoH3f5kIVAUfTIM3EAWkR3Ki0fSUURyCguXjEV5bGVlrBpII5Xf_Bd5IG-8ahA5YkOH2q9rj6N2YHWL-l-Ez6ESsJhxYp5gBZuLjNnwk0h-2zmXa_wAY9zsDqCnaduqUjkG47dc8PIZPHn7v8ax6oRNr1gRW-EoIuVc7YuJ_b2_CMyfz7We0kZ9QT6sPkX4VisMkxVbnJKkKJYah822wINaNcS3zJee9gyENn4rsMA20e_yPfS_kXW2foMVOSCyXXus28yxw13fxRG7jhC2bAGTP6klkjFbvX_lCnK1a43nOyiWD8_0q3gXfzLrpXTJPwDlYfzmA","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1098746":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1098746"},"slider-gallery-carousel--1098746":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1098746","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1098746"}},"instances":{"slider-gallery--1098746":"slider-gallery--1098746","slider-gallery-carousel--1098746":"slider-gallery-carousel--1098746"}},"user":{"uid":0,"permissionsHash":"4c11b7b791a1efe68969b1e899b7a3ad803a0bdf40bb7e4561cb272b92e9e653"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031552","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9ksuyIyEIhl_IbjfzPl2ojPEExRJM0nn6YXIu053FbCh-PqAQDMwqOqD_8gEEXTjoH3f5kIVAUfTIM3EAWkR3Ki0fSUURyCguXjEV5bGVlrBpII5Xf_Bd5IG-8ahA5YkOH2q9rj6N2YHWL-l-Ez6ESsJhxYp5gBZuLjNnwk0h-2zmXa_wAY9zsDqCnaduqUjkG47dc8PIZPHn7v8ax6oRNr1gRW-EoIuVc7YuJ_b2_CMyfz7We0kZ9QT6sPkX4VisMkxVbnJKkKJYah822wINaNcS3zJee9gyENn4rsMA20e_yPfS_kXW2foMVOSCyXXus28yxw13fxRG7jhC2bAGTP6klkjFbvX_lCnK1a43nOyiWD8_0q3gXfzLrpXTJPwDlYfzmA","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1098746":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1098746"},"slider-gallery-carousel--1098746":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1098746","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1098746"}},"instances":{"slider-gallery--1098746":"slider-gallery--1098746","slider-gallery-carousel--1098746":"slider-gallery-carousel--1098746"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ X-Varnish: 63738471 63738172
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3d3c76715badfc0fd5d34c64e64f94b41b53cde7f280495cd91f6407c288f719">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5b7bfa7790fa49d2f11c79fe975d8569418fa52ca4e5cd39d8838cfab85a107b">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 63738471 63738172
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4a7da2e4e1ab1255613a67931019cd662d0f329f5c6ca51b57d2617e3c814d64">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a411d873606f81727093b5ef7d466382fe7d9b19f79d99d77ada60e2b7501f4a">
   
     
       
@@ -230,11 +230,11 @@ X-Varnish: 63738471 63738172
             <div class="field field--name-field-featured field--type-entity-reference-label-override field--label-hidden field__item"><div class="card card-overlay">
   
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/banner_xl/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=qPhzV7oE 1x, /sites/default/files/styles/2x_banner_lg/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=Ib0Mp1tn 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1200" height="730"/>
-              <source srcset="/sites/default/files/styles/banner_lg/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=T2xtKANy 1x, /sites/default/files/styles/2x_banner_lg/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=Ib0Mp1tn 2x" media="all and (min-width: 992px)" type="image/jpeg" width="992" height="603"/>
-              <source srcset="/sites/default/files/styles/banner_lg/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=T2xtKANy 1x, /sites/default/files/styles/2x_banner_lg/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=Ib0Mp1tn 2x" media="all and (min-width: 768px)" type="image/jpeg" width="992" height="603"/>
-              <source srcset="/sites/default/files/styles/banner_md/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=6lMiKUx1 1x" media="all and (min-width: 641px)" type="image/jpeg" width="768" height="466"/>
-                  <img loading="lazy" width="768" height="466" src="/sites/default/files/styles/banner_md/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=6lMiKUx1" alt="Team participating in fire truck pull" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/banner_xl/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=ifSUBZSM 1x, /sites/default/files/styles/2x_banner_lg/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=YXlpFlql 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1200" height="730"/>
+              <source srcset="/sites/default/files/styles/banner_lg/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=1VdVczM4 1x, /sites/default/files/styles/2x_banner_lg/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=YXlpFlql 2x" media="all and (min-width: 992px)" type="image/jpeg" width="992" height="603"/>
+              <source srcset="/sites/default/files/styles/banner_lg/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=1VdVczM4 1x, /sites/default/files/styles/2x_banner_lg/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=YXlpFlql 2x" media="all and (min-width: 768px)" type="image/jpeg" width="992" height="603"/>
+              <source srcset="/sites/default/files/styles/banner_md/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=vB5pZTsw 1x" media="all and (min-width: 641px)" type="image/jpeg" width="768" height="466"/>
+                  <img loading="lazy" width="768" height="466" src="/sites/default/files/styles/banner_md/public/2022-10/Firetruckpull.jpg?h=56d0ca2e&amp;itok=vB5pZTsw" alt="Team participating in fire truck pull" class="img-fluid w-100" />
 
   </picture>
 
@@ -410,7 +410,7 @@ X-Varnish: 63738471 63738172
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bcb63d31462eae69f6cd2a2d11ac36f08b830b5777e1d758cfa0c1d449668411">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3fa48bb581eea44cfc85ff5a35fa7c25050bba5f48df47b0a10a47a77bc9c524">
   
     
       
@@ -424,7 +424,7 @@ X-Varnish: 63738471 63738172
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5934f92b9a102f0f8fbfe0f5e25a2b772eecb8a1093594bf3b90f0ebf9bd8411">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b7240671664cf0593190a4c49dc91fb3111f5b621aef351420c2c8941fc5ba4f">
   
     
       
@@ -532,7 +532,7 @@ X-Varnish: 63738471 63738172
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-66d7927d09755cb1f6440ba2aa56a64fee75eb64eaa3407e99d3d0819162b0b9">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-db11611bc3633fc69439e023ca949b813bed0c1cf7f8009c503d79c126347cf6">
   
     
       <div class="view-header">
@@ -623,7 +623,7 @@ X-Varnish: 63738471 63738172
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0e8b4e8c184d42e34781e1be955b9689bc18ade297296270ccd43031097cdb3c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2cacc668ea804e9338a2cb6ebc7931ef408065aeff94adbfe5682505d8ece1e7">
   
     
       
@@ -637,7 +637,7 @@ X-Varnish: 63738471 63738172
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-40ffbcb1522f40a74b9d5f6b8872e9690c6c0d023c1a790bfff70ba85ad2c29e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-66ea8c6fefb5dfb38f1ea0f651e5a79c2c76ef483d2e5fffd93a9e5fc2399dae">
   
     
       
@@ -809,7 +809,7 @@ X-Varnish: 63738471 63738172
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1b7949d3339d51d30b718d333456ac18ab943617d8e79d1ecf5ffd29a8393a46">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c375f90c3d8051d54037d7d7cc5b756653fa61f89e314a31dcfef5eeaebc3a94">
   
     
       
@@ -823,7 +823,7 @@ X-Varnish: 63738471 63738172
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-259930287d63cc246c6edb52983495f6c5af4e14013f5118c7639e29624ef287">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5df938b9800a792d38abc3a8d557dbc4ba227f3239843ec34bd638ed956ce679">
   
     
       
@@ -866,13 +866,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/map.jpg?itok=OJo4p982 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/map.jpg?itok=t1ovB15i 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="368" height="300"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/map.jpg?itok=eF5gXCUx 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/map.jpg?itok=FP3lM38s 2x" media="all and (min-width: 992px)" type="image/jpeg" width="368" height="300"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/map.jpg?itok=eF5gXCUx 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/map.jpg?itok=FP3lM38s 2x" media="all and (min-width: 768px)" type="image/jpeg" width="368" height="300"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/map.jpg?itok=eF5gXCUx 1x" media="all and (min-width: 641px)" type="image/jpeg" width="368" height="300"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/map.jpg?itok=eF5gXCUx 1x" media="all and (min-width: 481px)" type="image/jpeg" width="368" height="300"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/map.jpg?itok=eF5gXCUx 1x" type="image/jpeg" width="368" height="300"/>
-                  <img loading="eager" width="98" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/map.jpg?itok=bJMKiPH3" alt="Carte Google de Lansdowne" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/map.jpg?itok=zLql1f0w 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/map.jpg?itok=tYIvpRMY 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="368" height="300"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/map.jpg?itok=mYbWnGRh 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/map.jpg?itok=uAQpgYTX 2x" media="all and (min-width: 992px)" type="image/jpeg" width="368" height="300"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/map.jpg?itok=mYbWnGRh 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/map.jpg?itok=uAQpgYTX 2x" media="all and (min-width: 768px)" type="image/jpeg" width="368" height="300"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/map.jpg?itok=mYbWnGRh 1x" media="all and (min-width: 641px)" type="image/jpeg" width="368" height="300"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/map.jpg?itok=mYbWnGRh 1x" media="all and (min-width: 481px)" type="image/jpeg" width="368" height="300"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/map.jpg?itok=mYbWnGRh 1x" type="image/jpeg" width="368" height="300"/>
+                  <img loading="eager" width="98" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/map.jpg?itok=VuTYzgH7" alt="Carte Google de Lansdowne" class="img-fluid w-100" />
 
   </picture>
 
@@ -967,7 +967,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9401237f6e7ee3592e9d9c97f40f8e113cf9ca0350cd7b522b79cf37bbc625c2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ca20a24257e506cadb59d94f152441db20bba24054a4f33da081209bdb442388">
   
     
       
@@ -981,7 +981,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-31efa547ce371067991750976f24821f0e768c3e473a666d9842bf3e9d3a2b9e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f05330690a1a49f79249c367be7e3d437044ff7ee3bed93c540d3723a34844ab">
   
     
       
@@ -1049,13 +1049,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/wayfinding_en.png?itok=lEOSkBPa 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/wayfinding_en.png?itok=YOMyOdgF 2x" media="all and (min-width: 1200px)" type="image/png" width="550" height="365"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/wayfinding_en.png?itok=EnwDg2AS 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/wayfinding_en.png?itok=TLo6mfBG 2x" media="all and (min-width: 992px)" type="image/png" width="550" height="365"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/wayfinding_en.png?itok=EnwDg2AS 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/wayfinding_en.png?itok=TLo6mfBG 2x" media="all and (min-width: 768px)" type="image/png" width="550" height="365"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/wayfinding_en.png?itok=EnwDg2AS 1x" media="all and (min-width: 641px)" type="image/png" width="550" height="365"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/wayfinding_en.png?itok=EnwDg2AS 1x" media="all and (min-width: 481px)" type="image/png" width="550" height="365"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/wayfinding_en.png?itok=EnwDg2AS 1x" type="image/png" width="550" height="365"/>
-                  <img loading="eager" width="121" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/wayfinding_en.png?itok=buzAkI3h" alt="Wayfinding map of Lansdowne Park" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/wayfinding_en.png?itok=pYGIk7o3 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/wayfinding_en.png?itok=9sJezd2Q 2x" media="all and (min-width: 1200px)" type="image/png" width="550" height="365"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/wayfinding_en.png?itok=L2zI-Xwc 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/wayfinding_en.png?itok=je0U-4sV 2x" media="all and (min-width: 992px)" type="image/png" width="550" height="365"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/wayfinding_en.png?itok=L2zI-Xwc 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/wayfinding_en.png?itok=je0U-4sV 2x" media="all and (min-width: 768px)" type="image/png" width="550" height="365"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/wayfinding_en.png?itok=L2zI-Xwc 1x" media="all and (min-width: 641px)" type="image/png" width="550" height="365"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/wayfinding_en.png?itok=L2zI-Xwc 1x" media="all and (min-width: 481px)" type="image/png" width="550" height="365"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/wayfinding_en.png?itok=L2zI-Xwc 1x" type="image/png" width="550" height="365"/>
+                  <img loading="eager" width="121" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/wayfinding_en.png?itok=6QANmp6Y" alt="Wayfinding map of Lansdowne Park" class="img-fluid w-100" />
 
   </picture>
 
@@ -1085,13 +1085,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/aberdeen_pavilion.jpg?itok=3pw7KxEo 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/aberdeen_pavilion.jpg?itok=UOyM17GJ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1160" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=YczezCBo 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=i6QBfHYI 2x" media="all and (min-width: 992px)" type="image/jpeg" width="898" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=YczezCBo 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=i6QBfHYI 2x" media="all and (min-width: 768px)" type="image/jpeg" width="898" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=YczezCBo 1x" media="all and (min-width: 641px)" type="image/jpeg" width="898" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=YczezCBo 1x" media="all and (min-width: 481px)" type="image/jpeg" width="898" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=YczezCBo 1x" type="image/jpeg" width="898" height="600"/>
-                  <img loading="eager" width="120" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/aberdeen_pavilion.jpg?itok=nNUagLA9" alt="Aberdeen Pavilion" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/aberdeen_pavilion.jpg?itok=eBAsGi-k 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/aberdeen_pavilion.jpg?itok=7SlQhlL6 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1160" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=CS6e3KOX 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=pDbEP__C 2x" media="all and (min-width: 992px)" type="image/jpeg" width="898" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=CS6e3KOX 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=pDbEP__C 2x" media="all and (min-width: 768px)" type="image/jpeg" width="898" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=CS6e3KOX 1x" media="all and (min-width: 641px)" type="image/jpeg" width="898" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=CS6e3KOX 1x" media="all and (min-width: 481px)" type="image/jpeg" width="898" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/aberdeen_pavilion.jpg?itok=CS6e3KOX 1x" type="image/jpeg" width="898" height="600"/>
+                  <img loading="eager" width="120" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/aberdeen_pavilion.jpg?itok=n66sAkNF" alt="Aberdeen Pavilion" class="img-fluid w-100" />
 
   </picture>
 
@@ -1121,13 +1121,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/casino_lac_leamy_plaza.jpg?itok=dj8BCLfJ 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/casino_lac_leamy_plaza.jpg?itok=UyUixGjY 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1280" height="676"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=weJVgah6 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=2Ud3TwFe 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1136" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=weJVgah6 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=2Ud3TwFe 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1136" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=weJVgah6 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1136" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=weJVgah6 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1136" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=weJVgah6 1x" type="image/jpeg" width="1136" height="600"/>
-                  <img loading="eager" width="151" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/casino_lac_leamy_plaza.jpg?itok=fOpTawrE" alt="Casino Lac Leamy Plaza" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/casino_lac_leamy_plaza.jpg?itok=g4nMy1K7 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/casino_lac_leamy_plaza.jpg?itok=HSYSH96D 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1280" height="676"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=T-j-XmDn 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=fEy6Co0E 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1136" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=T-j-XmDn 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=fEy6Co0E 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1136" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=T-j-XmDn 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1136" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=T-j-XmDn 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1136" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/casino_lac_leamy_plaza.jpg?itok=T-j-XmDn 1x" type="image/jpeg" width="1136" height="600"/>
+                  <img loading="eager" width="151" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/casino_lac_leamy_plaza.jpg?itok=hL7SoFmS" alt="Casino Lac Leamy Plaza" class="img-fluid w-100" />
 
   </picture>
 
@@ -1157,13 +1157,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/skating_court.jpg?itok=eq838eKm 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/skating_court.jpg?itok=QlQfsqlv 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1175" height="661"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/skating_court.jpg?itok=zsSu6x9J 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/skating_court.jpg?itok=uehAl7oB 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/skating_court.jpg?itok=zsSu6x9J 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/skating_court.jpg?itok=uehAl7oB 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/skating_court.jpg?itok=zsSu6x9J 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/skating_court.jpg?itok=zsSu6x9J 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/skating_court.jpg?itok=zsSu6x9J 1x" type="image/jpeg" width="1067" height="600"/>
-                  <img loading="eager" width="142" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/skating_court.jpg?itok=8ngfQ12J" alt="Skating court and basketball court" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/skating_court.jpg?itok=kLMLUGHM 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/skating_court.jpg?itok=xzzFw2JJ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1175" height="661"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/skating_court.jpg?itok=hPdZ72Sw 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/skating_court.jpg?itok=Re7N1Rkr 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/skating_court.jpg?itok=hPdZ72Sw 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/skating_court.jpg?itok=Re7N1Rkr 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/skating_court.jpg?itok=hPdZ72Sw 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/skating_court.jpg?itok=hPdZ72Sw 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/skating_court.jpg?itok=hPdZ72Sw 1x" type="image/jpeg" width="1067" height="600"/>
+                  <img loading="eager" width="142" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/skating_court.jpg?itok=U6K2gY_-" alt="Skating court and basketball court" class="img-fluid w-100" />
 
   </picture>
 
@@ -1193,13 +1193,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/teaching_circle.jpg?itok=62ULOsub 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/teaching_circle.jpg?itok=UMjM9mut 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="546" height="359"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/teaching_circle.jpg?itok=cRVWhjPS 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/teaching_circle.jpg?itok=Q8xS5cU4 2x" media="all and (min-width: 992px)" type="image/jpeg" width="546" height="359"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/teaching_circle.jpg?itok=cRVWhjPS 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/teaching_circle.jpg?itok=Q8xS5cU4 2x" media="all and (min-width: 768px)" type="image/jpeg" width="546" height="359"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/teaching_circle.jpg?itok=cRVWhjPS 1x" media="all and (min-width: 641px)" type="image/jpeg" width="546" height="359"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/teaching_circle.jpg?itok=cRVWhjPS 1x" media="all and (min-width: 481px)" type="image/jpeg" width="546" height="359"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/teaching_circle.jpg?itok=cRVWhjPS 1x" type="image/jpeg" width="546" height="359"/>
-                  <img loading="eager" width="122" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/teaching_circle.jpg?itok=fx--J03K" alt="Image of the Algonquin Teaching Circle" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/teaching_circle.jpg?itok=XIsyD-tA 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/teaching_circle.jpg?itok=yFxA5Kjr 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="546" height="359"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/teaching_circle.jpg?itok=HtNAELuw 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/teaching_circle.jpg?itok=LUoLQgHW 2x" media="all and (min-width: 992px)" type="image/jpeg" width="546" height="359"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/teaching_circle.jpg?itok=HtNAELuw 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/teaching_circle.jpg?itok=LUoLQgHW 2x" media="all and (min-width: 768px)" type="image/jpeg" width="546" height="359"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/teaching_circle.jpg?itok=HtNAELuw 1x" media="all and (min-width: 641px)" type="image/jpeg" width="546" height="359"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/teaching_circle.jpg?itok=HtNAELuw 1x" media="all and (min-width: 481px)" type="image/jpeg" width="546" height="359"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/teaching_circle.jpg?itok=HtNAELuw 1x" type="image/jpeg" width="546" height="359"/>
+                  <img loading="eager" width="122" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/teaching_circle.jpg?itok=H8J_kEN5" alt="Image of the Algonquin Teaching Circle" class="img-fluid w-100" />
 
   </picture>
 
@@ -1229,13 +1229,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/childrens_play_area.jpg?itok=xV99Oeiu 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/childrens_play_area.jpg?itok=q2pqhCgS 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1164" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=CJDrwI7E 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=9YI3MMSZ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=CJDrwI7E 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=9YI3MMSZ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=CJDrwI7E 1x" media="all and (min-width: 641px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=CJDrwI7E 1x" media="all and (min-width: 481px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=CJDrwI7E 1x" type="image/jpeg" width="901" height="600"/>
-                  <img loading="eager" width="120" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/childrens_play_area.jpg?itok=uZ-i4ZbC" alt="Children&#039;s play area" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/childrens_play_area.jpg?itok=Ld6cORGD 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/childrens_play_area.jpg?itok=_8-UDgnR 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1164" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=-85RvWKZ 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=1PdGziFv 2x" media="all and (min-width: 992px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=-85RvWKZ 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=1PdGziFv 2x" media="all and (min-width: 768px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=-85RvWKZ 1x" media="all and (min-width: 641px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=-85RvWKZ 1x" media="all and (min-width: 481px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/childrens_play_area.jpg?itok=-85RvWKZ 1x" type="image/jpeg" width="901" height="600"/>
+                  <img loading="eager" width="120" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/childrens_play_area.jpg?itok=ogZFGX8K" alt="Children&#039;s play area" class="img-fluid w-100" />
 
   </picture>
 
@@ -1265,13 +1265,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/civic_garden.jpg?itok=O5VrBLga 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/civic_garden.jpg?itok=ppRI-xen 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1377" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/civic_garden.jpg?itok=6sisewpS 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/civic_garden.jpg?itok=_xXABvan 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/civic_garden.jpg?itok=6sisewpS 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/civic_garden.jpg?itok=_xXABvan 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/civic_garden.jpg?itok=6sisewpS 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/civic_garden.jpg?itok=6sisewpS 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/civic_garden.jpg?itok=6sisewpS 1x" type="image/jpeg" width="1066" height="600"/>
-                  <img loading="eager" width="142" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/civic_garden.jpg?itok=0dUHQN2U" alt="Civic gardens" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/civic_garden.jpg?itok=Cs_iqZSE 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/civic_garden.jpg?itok=t_Xn1Pv_ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1377" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/civic_garden.jpg?itok=nC1rULKE 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/civic_garden.jpg?itok=A55xyEQh 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/civic_garden.jpg?itok=nC1rULKE 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/civic_garden.jpg?itok=A55xyEQh 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/civic_garden.jpg?itok=nC1rULKE 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/civic_garden.jpg?itok=nC1rULKE 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/civic_garden.jpg?itok=nC1rULKE 1x" type="image/jpeg" width="1066" height="600"/>
+                  <img loading="eager" width="142" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/civic_garden.jpg?itok=aoRj2F-M" alt="Civic gardens" class="img-fluid w-100" />
 
   </picture>
 
@@ -1301,13 +1301,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/east_court.jpg?itok=c_4w4KJd 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/east_court.jpg?itok=nAEaRcYp 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1378" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/east_court.jpg?itok=ZPLSXLYT 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/east_court.jpg?itok=IlNqHqI8 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/east_court.jpg?itok=ZPLSXLYT 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/east_court.jpg?itok=IlNqHqI8 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/east_court.jpg?itok=ZPLSXLYT 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/east_court.jpg?itok=ZPLSXLYT 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1067" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/east_court.jpg?itok=ZPLSXLYT 1x" type="image/jpeg" width="1067" height="600"/>
-                  <img loading="eager" width="142" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/east_court.jpg?itok=OOMzfVtD" alt="East court" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/east_court.jpg?itok=f8lMr1eM 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/east_court.jpg?itok=m629aAUd 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1378" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/east_court.jpg?itok=nXmR48uh 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/east_court.jpg?itok=8IO3FURv 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/east_court.jpg?itok=nXmR48uh 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/east_court.jpg?itok=8IO3FURv 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/east_court.jpg?itok=nXmR48uh 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/east_court.jpg?itok=nXmR48uh 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1067" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/east_court.jpg?itok=nXmR48uh 1x" type="image/jpeg" width="1067" height="600"/>
+                  <img loading="eager" width="142" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/east_court.jpg?itok=NFcGutNJ" alt="East court" class="img-fluid w-100" />
 
   </picture>
 
@@ -1339,13 +1339,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/event_square.jpg?itok=pymanCxI 1x, /sites/default/files/styles/2x_rectangle_xl/public/event_square.jpg?itok=Fp3Zg0t- 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1164" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/event_square.jpg?itok=Vr8mg12- 1x, /sites/default/files/styles/2x_rectangle_lg/public/event_square.jpg?itok=1L7W72Ty 2x" media="all and (min-width: 992px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/event_square.jpg?itok=Vr8mg12- 1x, /sites/default/files/styles/2x_rectangle_lg/public/event_square.jpg?itok=1L7W72Ty 2x" media="all and (min-width: 768px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/event_square.jpg?itok=Vr8mg12- 1x" media="all and (min-width: 641px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/event_square.jpg?itok=Vr8mg12- 1x" media="all and (min-width: 481px)" type="image/jpeg" width="901" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/event_square.jpg?itok=Vr8mg12- 1x" type="image/jpeg" width="901" height="600"/>
-                  <img loading="eager" width="120" height="80" src="/sites/default/files/styles/rectangle_xs/public/event_square.jpg?itok=zm1c4xph" alt="Photo of Event Square" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/event_square.jpg?itok=b10Fxcxz 1x, /sites/default/files/styles/2x_rectangle_xl/public/event_square.jpg?itok=BAcghrmi 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1164" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/event_square.jpg?itok=1IOC8fNM 1x, /sites/default/files/styles/2x_rectangle_lg/public/event_square.jpg?itok=mq6oUden 2x" media="all and (min-width: 992px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/event_square.jpg?itok=1IOC8fNM 1x, /sites/default/files/styles/2x_rectangle_lg/public/event_square.jpg?itok=mq6oUden 2x" media="all and (min-width: 768px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/event_square.jpg?itok=1IOC8fNM 1x" media="all and (min-width: 641px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/event_square.jpg?itok=1IOC8fNM 1x" media="all and (min-width: 481px)" type="image/jpeg" width="901" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/event_square.jpg?itok=1IOC8fNM 1x" type="image/jpeg" width="901" height="600"/>
+                  <img loading="eager" width="120" height="80" src="/sites/default/files/styles/rectangle_xs/public/event_square.jpg?itok=yjVLCJHX" alt="Photo of Event Square" class="img-fluid w-100" />
 
   </picture>
 
@@ -1375,13 +1375,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/great_lawn.jpg?itok=8-303hO8 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/great_lawn.jpg?itok=Ob9W0CXQ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1161" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/great_lawn.jpg?itok=QlcpMuiK 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/great_lawn.jpg?itok=wjC06xeo 2x" media="all and (min-width: 992px)" type="image/jpeg" width="899" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/great_lawn.jpg?itok=QlcpMuiK 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/great_lawn.jpg?itok=wjC06xeo 2x" media="all and (min-width: 768px)" type="image/jpeg" width="899" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/great_lawn.jpg?itok=QlcpMuiK 1x" media="all and (min-width: 641px)" type="image/jpeg" width="899" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/great_lawn.jpg?itok=QlcpMuiK 1x" media="all and (min-width: 481px)" type="image/jpeg" width="899" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/great_lawn.jpg?itok=QlcpMuiK 1x" type="image/jpeg" width="899" height="600"/>
-                  <img loading="eager" width="120" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/great_lawn.jpg?itok=dvAa2gc0" alt="Great lawn" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/great_lawn.jpg?itok=EnTcXGgf 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/great_lawn.jpg?itok=cHaFFFxB 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1161" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/great_lawn.jpg?itok=itf3AltU 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/great_lawn.jpg?itok=XW4OaAGY 2x" media="all and (min-width: 992px)" type="image/jpeg" width="899" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/great_lawn.jpg?itok=itf3AltU 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/great_lawn.jpg?itok=XW4OaAGY 2x" media="all and (min-width: 768px)" type="image/jpeg" width="899" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/great_lawn.jpg?itok=itf3AltU 1x" media="all and (min-width: 641px)" type="image/jpeg" width="899" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/great_lawn.jpg?itok=itf3AltU 1x" media="all and (min-width: 481px)" type="image/jpeg" width="899" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/great_lawn.jpg?itok=itf3AltU 1x" type="image/jpeg" width="899" height="600"/>
+                  <img loading="eager" width="120" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/great_lawn.jpg?itok=3A4DOvk7" alt="Great lawn" class="img-fluid w-100" />
 
   </picture>
 
@@ -1411,13 +1411,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/heirloom_orchard.jpg?itok=KHfScLN2 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/heirloom_orchard.jpg?itok=t8Ju_4lx 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="640" height="478"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=8neHJl2a 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=TfR2_k8b 2x" media="all and (min-width: 992px)" type="image/jpeg" width="640" height="478"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=8neHJl2a 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=TfR2_k8b 2x" media="all and (min-width: 768px)" type="image/jpeg" width="640" height="478"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=8neHJl2a 1x" media="all and (min-width: 641px)" type="image/jpeg" width="640" height="478"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=8neHJl2a 1x" media="all and (min-width: 481px)" type="image/jpeg" width="640" height="478"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=8neHJl2a 1x" type="image/jpeg" width="640" height="478"/>
-                  <img loading="eager" width="107" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/heirloom_orchard.jpg?itok=4Gh6JxzC" alt="Heirloom orchard" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/heirloom_orchard.jpg?itok=JNpYS-XM 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/heirloom_orchard.jpg?itok=VI3nzLQ3 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="640" height="478"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=EpTJirv- 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=ncsy-NmR 2x" media="all and (min-width: 992px)" type="image/jpeg" width="640" height="478"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=EpTJirv- 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=ncsy-NmR 2x" media="all and (min-width: 768px)" type="image/jpeg" width="640" height="478"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=EpTJirv- 1x" media="all and (min-width: 641px)" type="image/jpeg" width="640" height="478"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=EpTJirv- 1x" media="all and (min-width: 481px)" type="image/jpeg" width="640" height="478"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/heirloom_orchard.jpg?itok=EpTJirv- 1x" type="image/jpeg" width="640" height="478"/>
+                  <img loading="eager" width="107" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/heirloom_orchard.jpg?itok=tive4jUM" alt="Heirloom orchard" class="img-fluid w-100" />
 
   </picture>
 
@@ -1448,13 +1448,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/the_hill.jpg?itok=RCDzzRTf 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/the_hill.jpg?itok=HapFRZhY 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1033" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/the_hill.jpg?itok=pxVHZMP_ 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/the_hill.jpg?itok=n-ZLKyy_ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/the_hill.jpg?itok=pxVHZMP_ 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/the_hill.jpg?itok=n-ZLKyy_ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/the_hill.jpg?itok=pxVHZMP_ 1x" media="all and (min-width: 641px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/the_hill.jpg?itok=pxVHZMP_ 1x" media="all and (min-width: 481px)" type="image/jpeg" width="800" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/the_hill.jpg?itok=pxVHZMP_ 1x" type="image/jpeg" width="800" height="600"/>
-                  <img loading="eager" width="107" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/the_hill.jpg?itok=xcGXdMgv" alt="Lansdowne hill featuring Moving surfaces installation" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/the_hill.jpg?itok=mXFHFuL_ 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/the_hill.jpg?itok=_X56kthS 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1033" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/the_hill.jpg?itok=8JMCU6tB 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/the_hill.jpg?itok=pJyF5FOo 2x" media="all and (min-width: 992px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/the_hill.jpg?itok=8JMCU6tB 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/the_hill.jpg?itok=pJyF5FOo 2x" media="all and (min-width: 768px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/the_hill.jpg?itok=8JMCU6tB 1x" media="all and (min-width: 641px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/the_hill.jpg?itok=8JMCU6tB 1x" media="all and (min-width: 481px)" type="image/jpeg" width="800" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/the_hill.jpg?itok=8JMCU6tB 1x" type="image/jpeg" width="800" height="600"/>
+                  <img loading="eager" width="107" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/the_hill.jpg?itok=Yl0PGjT6" alt="Lansdowne hill featuring Moving surfaces installation" class="img-fluid w-100" />
 
   </picture>
 
@@ -1484,13 +1484,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/featured/horticulture_building.jpg?itok=csHX3B6V 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/featured/horticulture_building.jpg?itok=tJWDgNAI 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1179" height="750"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/horticulture_building.jpg?itok=rbxK4QtS 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/horticulture_building.jpg?itok=SmaHaf53 2x" media="all and (min-width: 992px)" type="image/jpeg" width="943" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/horticulture_building.jpg?itok=rbxK4QtS 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/horticulture_building.jpg?itok=SmaHaf53 2x" media="all and (min-width: 768px)" type="image/jpeg" width="943" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/horticulture_building.jpg?itok=rbxK4QtS 1x" media="all and (min-width: 641px)" type="image/jpeg" width="943" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/horticulture_building.jpg?itok=rbxK4QtS 1x" media="all and (min-width: 481px)" type="image/jpeg" width="943" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/horticulture_building.jpg?itok=rbxK4QtS 1x" type="image/jpeg" width="943" height="600"/>
-                  <img loading="eager" width="126" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/featured/horticulture_building.jpg?itok=Cv_ZeEAP" alt="Horticulture Building at Lansdowne Park" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/images/featured/horticulture_building.jpg?itok=Ksw9n8gs 1x, /sites/default/files/styles/2x_rectangle_xl/public/images/featured/horticulture_building.jpg?itok=YUuFKA1p 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1179" height="750"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/horticulture_building.jpg?itok=ptKoe8Io 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/horticulture_building.jpg?itok=R9lVie1f 2x" media="all and (min-width: 992px)" type="image/jpeg" width="943" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/horticulture_building.jpg?itok=ptKoe8Io 1x, /sites/default/files/styles/2x_rectangle_lg/public/images/featured/horticulture_building.jpg?itok=R9lVie1f 2x" media="all and (min-width: 768px)" type="image/jpeg" width="943" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/horticulture_building.jpg?itok=ptKoe8Io 1x" media="all and (min-width: 641px)" type="image/jpeg" width="943" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/horticulture_building.jpg?itok=ptKoe8Io 1x" media="all and (min-width: 481px)" type="image/jpeg" width="943" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/images/featured/horticulture_building.jpg?itok=ptKoe8Io 1x" type="image/jpeg" width="943" height="600"/>
+                  <img loading="eager" width="126" height="80" src="/sites/default/files/styles/rectangle_xs/public/images/featured/horticulture_building.jpg?itok=OaMW-wxc" alt="Horticulture Building at Lansdowne Park" class="img-fluid w-100" />
 
   </picture>
 
@@ -1527,13 +1527,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/skateboard.jpg?itok=aPeVdopH 1x, /sites/default/files/styles/2x_rectangle_xl/public/skateboard.jpg?itok=fQxHRP1Y 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1038" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/skateboard.jpg?itok=LVZuQhzg 1x, /sites/default/files/styles/2x_rectangle_lg/public/skateboard.jpg?itok=pLdBt_UP 2x" media="all and (min-width: 992px)" type="image/jpeg" width="804" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/skateboard.jpg?itok=LVZuQhzg 1x, /sites/default/files/styles/2x_rectangle_lg/public/skateboard.jpg?itok=pLdBt_UP 2x" media="all and (min-width: 768px)" type="image/jpeg" width="804" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/skateboard.jpg?itok=LVZuQhzg 1x" media="all and (min-width: 641px)" type="image/jpeg" width="804" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/skateboard.jpg?itok=LVZuQhzg 1x" media="all and (min-width: 481px)" type="image/jpeg" width="804" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/skateboard.jpg?itok=LVZuQhzg 1x" type="image/jpeg" width="804" height="600"/>
-                  <img loading="eager" width="107" height="80" src="/sites/default/files/styles/rectangle_xs/public/skateboard.jpg?itok=aDi8wbgc" alt="Skateboard Ramps at Lansdowne Park" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/skateboard.jpg?itok=2vlOBXL_ 1x, /sites/default/files/styles/2x_rectangle_xl/public/skateboard.jpg?itok=tENkyShd 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1038" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/skateboard.jpg?itok=e75oX560 1x, /sites/default/files/styles/2x_rectangle_lg/public/skateboard.jpg?itok=icMfidWq 2x" media="all and (min-width: 992px)" type="image/jpeg" width="804" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/skateboard.jpg?itok=e75oX560 1x, /sites/default/files/styles/2x_rectangle_lg/public/skateboard.jpg?itok=icMfidWq 2x" media="all and (min-width: 768px)" type="image/jpeg" width="804" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/skateboard.jpg?itok=e75oX560 1x" media="all and (min-width: 641px)" type="image/jpeg" width="804" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/skateboard.jpg?itok=e75oX560 1x" media="all and (min-width: 481px)" type="image/jpeg" width="804" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/skateboard.jpg?itok=e75oX560 1x" type="image/jpeg" width="804" height="600"/>
+                  <img loading="eager" width="107" height="80" src="/sites/default/files/styles/rectangle_xs/public/skateboard.jpg?itok=Fy7H_rkP" alt="Skateboard Ramps at Lansdowne Park" class="img-fluid w-100" />
 
   </picture>
 
@@ -1563,13 +1563,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/southcourt_great_lawn_sep_18_14.jpg?itok=bjqN7nqr 1x, /sites/default/files/styles/2x_rectangle_xl/public/southcourt_great_lawn_sep_18_14.jpg?itok=e3beGeDw 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="775" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=ubETuS6i 1x, /sites/default/files/styles/2x_rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=tgDr1PRJ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=ubETuS6i 1x, /sites/default/files/styles/2x_rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=tgDr1PRJ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=ubETuS6i 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=ubETuS6i 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=ubETuS6i 1x" type="image/jpeg" width="600" height="600"/>
-                  <img loading="eager" width="80" height="80" src="/sites/default/files/styles/rectangle_xs/public/southcourt_great_lawn_sep_18_14.jpg?itok=IWVWA76-" alt="Photo of South Court" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/southcourt_great_lawn_sep_18_14.jpg?itok=-elK0Izz 1x, /sites/default/files/styles/2x_rectangle_xl/public/southcourt_great_lawn_sep_18_14.jpg?itok=M_zj5QH3 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="775" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=76RpkmB5 1x, /sites/default/files/styles/2x_rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=GYLUt7vW 2x" media="all and (min-width: 992px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=76RpkmB5 1x, /sites/default/files/styles/2x_rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=GYLUt7vW 2x" media="all and (min-width: 768px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=76RpkmB5 1x" media="all and (min-width: 641px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=76RpkmB5 1x" media="all and (min-width: 481px)" type="image/jpeg" width="600" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/southcourt_great_lawn_sep_18_14.jpg?itok=76RpkmB5 1x" type="image/jpeg" width="600" height="600"/>
+                  <img loading="eager" width="80" height="80" src="/sites/default/files/styles/rectangle_xs/public/southcourt_great_lawn_sep_18_14.jpg?itok=ysZbWPXl" alt="Photo of South Court" class="img-fluid w-100" />
 
   </picture>
 
@@ -1600,13 +1600,13 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/water_plaza.jpg?itok=ssLar37a 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/water_plaza.jpg?itok=YAyh4zMD 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1377" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/water_plaza.jpg?itok=o5_HoUjI 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/water_plaza.jpg?itok=hwSjBarX 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/water_plaza.jpg?itok=o5_HoUjI 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/water_plaza.jpg?itok=hwSjBarX 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/water_plaza.jpg?itok=o5_HoUjI 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/water_plaza.jpg?itok=o5_HoUjI 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1066" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/water_plaza.jpg?itok=o5_HoUjI 1x" type="image/jpeg" width="1066" height="600"/>
-                  <img loading="eager" width="142" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/water_plaza.jpg?itok=2oGTQIhn" alt="Water plaza at Lansdowne" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/inline-media/water_plaza.jpg?itok=BQx6tQLp 1x, /sites/default/files/styles/2x_rectangle_xl/public/inline-media/water_plaza.jpg?itok=vZaF4B-W 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1377" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/water_plaza.jpg?itok=fWIuus_v 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/water_plaza.jpg?itok=9ZED0Ds0 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/water_plaza.jpg?itok=fWIuus_v 1x, /sites/default/files/styles/2x_rectangle_lg/public/inline-media/water_plaza.jpg?itok=9ZED0Ds0 2x" media="all and (min-width: 768px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/water_plaza.jpg?itok=fWIuus_v 1x" media="all and (min-width: 641px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/water_plaza.jpg?itok=fWIuus_v 1x" media="all and (min-width: 481px)" type="image/jpeg" width="1066" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/inline-media/water_plaza.jpg?itok=fWIuus_v 1x" type="image/jpeg" width="1066" height="600"/>
+                  <img loading="eager" width="142" height="80" src="/sites/default/files/styles/rectangle_xs/public/inline-media/water_plaza.jpg?itok=FHO026zO" alt="Water plaza at Lansdowne" class="img-fluid w-100" />
 
   </picture>
 
@@ -1688,7 +1688,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-11b47a76a9bc54adf86e8316b8cf77404ff2bb99fa1c0ef7880a53d12da69019">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0c42fb3de1f9752860f1680dd3c80804540d6ff8ccbc1d6b05a170c97d59bcc9">
   
     
       
@@ -1702,7 +1702,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-52f0850d3c2cfa2226b007c26b2f2d8ba6fde866af1ef9a18e0b80d27ca95fc2">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0fc5c957db67d0f5fca3fe86bf198dc52494793eb0b9df5aa72466b2f5154d0f">
   
     
       
@@ -1802,7 +1802,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5a8c137ac94b0af5203276ebddd8ad55c4f7007b85e1375b685c976b32d66952">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2753286c6b51012077ef48885c27c7f976b1295cee4eea7fc9849efe5d4540b3">
   
     
       
@@ -1816,7 +1816,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-548cdb2680928a40bdd6f7b914c8cef67b474e764993b83007ca4d9df84a79b4">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f15a8a5d1688a0a398fcdcd5682fe8af25e2c6f1710795710db4c3487aaab5a2">
   
     
       
@@ -1917,7 +1917,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8100d53ccb4f51623fe81dfcac202f29b7d18d712fe08aee9cd53a81ebd28bba">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4bcf5a7dd6b75beb12fd738c4213f3d7eaab15823ef7f2f1fa3ecded98fd3b20">
   
     
       
@@ -1931,7 +1931,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3a66f01485c155307778f0186da9084b0283e8d7342153b7725f3c1f7e9787c0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-448519aa8076e66be55eafcd9a6beee9310f3f8cffb08ebec2b828c6f7a37d81">
   
     
       
@@ -1972,12 +1972,12 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=PLkJ1Bls 1x, /sites/default/files/styles/slider_desktop/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=PLkJ1Bls 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=PLkJ1Bls 1x, /sites/default/files/styles/slider_desktop/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=PLkJ1Bls 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=llnqNANQ 1x, /sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=llnqNANQ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=llnqNANQ 1x, /sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=llnqNANQ 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=llnqNANQ 1x, /sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=llnqNANQ 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=PLkJ1Bls" alt="Marque commercial Redblacks" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=g3DLhgPf 1x, /sites/default/files/styles/slider_desktop/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=g3DLhgPf 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=g3DLhgPf 1x, /sites/default/files/styles/slider_desktop/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=g3DLhgPf 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=UJ2Ag6bC 1x, /sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=UJ2Ag6bC 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=UJ2Ag6bC 1x, /sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=UJ2Ag6bC 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=UJ2Ag6bC 1x, /sites/default/files/styles/slider_mobile/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=UJ2Ag6bC 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=g3DLhgPf" alt="Marque commercial Redblacks" class="img-fluid w-100" />
 
   </picture>
 
@@ -1989,12 +1989,12 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=aHIUV-_w 1x, /sites/default/files/styles/slider_desktop/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=aHIUV-_w 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=aHIUV-_w 1x, /sites/default/files/styles/slider_desktop/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=aHIUV-_w 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=BEuQwJiQ 1x, /sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=BEuQwJiQ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=BEuQwJiQ 1x, /sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=BEuQwJiQ 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=BEuQwJiQ 1x, /sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=BEuQwJiQ 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=aHIUV-_w" alt="Marque commercial Ottawa Black Jacks" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=D_8v9G6Z 1x, /sites/default/files/styles/slider_desktop/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=D_8v9G6Z 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=D_8v9G6Z 1x, /sites/default/files/styles/slider_desktop/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=D_8v9G6Z 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=XDRDVnB_ 1x, /sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=XDRDVnB_ 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=XDRDVnB_ 1x, /sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=XDRDVnB_ 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=XDRDVnB_ 1x, /sites/default/files/styles/slider_mobile/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=XDRDVnB_ 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=D_8v9G6Z" alt="Marque commercial Ottawa Black Jacks" class="img-fluid w-100" />
 
   </picture>
 
@@ -2006,12 +2006,12 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/67s%20logo_FR.jpg?itok=FTamDSi1 1x, /sites/default/files/styles/slider_desktop/public/2023-01/67s%20logo_FR.jpg?itok=FTamDSi1 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/67s%20logo_FR.jpg?itok=FTamDSi1 1x, /sites/default/files/styles/slider_desktop/public/2023-01/67s%20logo_FR.jpg?itok=FTamDSi1 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=FzJ3eE1l 1x, /sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=FzJ3eE1l 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=FzJ3eE1l 1x, /sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=FzJ3eE1l 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=FzJ3eE1l 1x, /sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=FzJ3eE1l 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-01/67s%20logo_FR.jpg?itok=FTamDSi1" alt="Marque commercial Ottawa 67&#039;s" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/67s%20logo_FR.jpg?itok=H_EM4xlQ 1x, /sites/default/files/styles/slider_desktop/public/2023-01/67s%20logo_FR.jpg?itok=H_EM4xlQ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/67s%20logo_FR.jpg?itok=H_EM4xlQ 1x, /sites/default/files/styles/slider_desktop/public/2023-01/67s%20logo_FR.jpg?itok=H_EM4xlQ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=GGZbFNSl 1x, /sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=GGZbFNSl 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=GGZbFNSl 1x, /sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=GGZbFNSl 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=GGZbFNSl 1x, /sites/default/files/styles/slider_mobile/public/2023-01/67s%20logo_FR.jpg?itok=GGZbFNSl 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-01/67s%20logo_FR.jpg?itok=H_EM4xlQ" alt="Marque commercial Ottawa 67&#039;s" class="img-fluid w-100" />
 
   </picture>
 
@@ -2023,12 +2023,12 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=ABej6Q5j 1x, /sites/default/files/styles/slider_desktop/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=ABej6Q5j 2x" media="all and (min-width: 1200px)" type="image/png" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=ABej6Q5j 1x, /sites/default/files/styles/slider_desktop/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=ABej6Q5j 2x" media="all and (min-width: 992px)" type="image/png" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=KA1Wf2Bm 1x, /sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=KA1Wf2Bm 2x" media="all and (min-width: 768px)" type="image/png" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=KA1Wf2Bm 1x, /sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=KA1Wf2Bm 2x" media="all and (min-width: 481px)" type="image/png" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=KA1Wf2Bm 1x, /sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=KA1Wf2Bm 2x" type="image/png" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=ABej6Q5j" alt="Marque commercial Atletico Ottawa" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=_1FGB8R7 1x, /sites/default/files/styles/slider_desktop/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=_1FGB8R7 2x" media="all and (min-width: 1200px)" type="image/png" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=_1FGB8R7 1x, /sites/default/files/styles/slider_desktop/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=_1FGB8R7 2x" media="all and (min-width: 992px)" type="image/png" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=WvNMVdoj 1x, /sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=WvNMVdoj 2x" media="all and (min-width: 768px)" type="image/png" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=WvNMVdoj 1x, /sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=WvNMVdoj 2x" media="all and (min-width: 481px)" type="image/png" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=WvNMVdoj 1x, /sites/default/files/styles/slider_mobile/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=WvNMVdoj 2x" type="image/png" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=_1FGB8R7" alt="Marque commercial Atletico Ottawa" class="img-fluid w-100" />
 
   </picture>
 
@@ -2043,52 +2043,52 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 <ul class="slides">
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=wTHA3bNZ 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=8ucHYZjB 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="639" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=4K5NSIxC 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=hTz9wiP6 2x" media="all and (min-width: 992px)" type="image/jpeg" width="495" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=4K5NSIxC 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=hTz9wiP6 2x" media="all and (min-width: 768px)" type="image/jpeg" width="495" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=4K5NSIxC 1x" media="all and (min-width: 641px)" type="image/jpeg" width="495" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=4K5NSIxC 1x" media="all and (min-width: 481px)" type="image/jpeg" width="495" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=4K5NSIxC 1x" type="image/jpeg" width="495" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=ElcRE-kp" alt="Marque commercial Redblacks" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=cL_nRLzj 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=CGLchEsu 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="639" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=CTrk3iP5 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=NBNggme2 2x" media="all and (min-width: 992px)" type="image/jpeg" width="495" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=CTrk3iP5 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=NBNggme2 2x" media="all and (min-width: 768px)" type="image/jpeg" width="495" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=CTrk3iP5 1x" media="all and (min-width: 641px)" type="image/jpeg" width="495" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=CTrk3iP5 1x" media="all and (min-width: 481px)" type="image/jpeg" width="495" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=CTrk3iP5 1x" type="image/jpeg" width="495" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-01/REDBLACKS%20Logo_FR.jpg?itok=SA6iaGbi" alt="Marque commercial Redblacks" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=3qQWG2OP 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=cEsqQwid 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="623" height="502"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=HgjqAFB1 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=SryspkQA 2x" media="all and (min-width: 992px)" type="image/jpeg" width="623" height="502"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=HgjqAFB1 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=SryspkQA 2x" media="all and (min-width: 768px)" type="image/jpeg" width="623" height="502"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=HgjqAFB1 1x" media="all and (min-width: 641px)" type="image/jpeg" width="623" height="502"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=HgjqAFB1 1x" media="all and (min-width: 481px)" type="image/jpeg" width="623" height="502"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=HgjqAFB1 1x" type="image/jpeg" width="623" height="502"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=081lHc5Z" alt="Marque commercial Ottawa Black Jacks" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=cd_D6Yfa 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=ObsKJhDy 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="623" height="502"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=BedhLRrQ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=6ofojd3F 2x" media="all and (min-width: 992px)" type="image/jpeg" width="623" height="502"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=BedhLRrQ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=6ofojd3F 2x" media="all and (min-width: 768px)" type="image/jpeg" width="623" height="502"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=BedhLRrQ 1x" media="all and (min-width: 641px)" type="image/jpeg" width="623" height="502"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=BedhLRrQ 1x" media="all and (min-width: 481px)" type="image/jpeg" width="623" height="502"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=BedhLRrQ 1x" type="image/jpeg" width="623" height="502"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-01/OttawaBlackJacks_Primary_Black%2BRedWordmark_FR.jpg?itok=eLLHxkMe" alt="Marque commercial Ottawa Black Jacks" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-01/67s%20logo_FR.jpg?itok=9dxXAywO 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-01/67s%20logo_FR.jpg?itok=mmcO5DRH 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="715" height="775"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=qI5ORT2o 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=H2DIBG9k 2x" media="all and (min-width: 992px)" type="image/jpeg" width="553" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=qI5ORT2o 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=H2DIBG9k 2x" media="all and (min-width: 768px)" type="image/jpeg" width="553" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=qI5ORT2o 1x" media="all and (min-width: 641px)" type="image/jpeg" width="553" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=qI5ORT2o 1x" media="all and (min-width: 481px)" type="image/jpeg" width="553" height="600"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=qI5ORT2o 1x" type="image/jpeg" width="553" height="600"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-01/67s%20logo_FR.jpg?itok=ZI3xzVWt" alt="Marque commercial Ottawa 67&#039;s" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-01/67s%20logo_FR.jpg?itok=DQHpZzel 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-01/67s%20logo_FR.jpg?itok=2QvZXhVH 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="715" height="775"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=evvtTzRa 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=z596ec-S 2x" media="all and (min-width: 992px)" type="image/jpeg" width="553" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=evvtTzRa 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=z596ec-S 2x" media="all and (min-width: 768px)" type="image/jpeg" width="553" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=evvtTzRa 1x" media="all and (min-width: 641px)" type="image/jpeg" width="553" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=evvtTzRa 1x" media="all and (min-width: 481px)" type="image/jpeg" width="553" height="600"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/67s%20logo_FR.jpg?itok=evvtTzRa 1x" type="image/jpeg" width="553" height="600"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-01/67s%20logo_FR.jpg?itok=EfdCtXKq" alt="Marque commercial Ottawa 67&#039;s" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=nPC2AgWp 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=d9jSXaEh 2x" media="all and (min-width: 1200px)" type="image/png" width="485" height="516"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=dIB3VBG8 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=Jt3P82NX 2x" media="all and (min-width: 992px)" type="image/png" width="485" height="516"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=dIB3VBG8 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=Jt3P82NX 2x" media="all and (min-width: 768px)" type="image/png" width="485" height="516"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=dIB3VBG8 1x" media="all and (min-width: 641px)" type="image/png" width="485" height="516"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=dIB3VBG8 1x" media="all and (min-width: 481px)" type="image/png" width="485" height="516"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=dIB3VBG8 1x" type="image/png" width="485" height="516"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=nMkvdbUm" alt="Marque commercial Atletico Ottawa" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=xLTirx-N 1x, /sites/default/files/styles/2x_rectangle_xl/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=92KLQN0W 2x" media="all and (min-width: 1200px)" type="image/png" width="485" height="516"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=DN1F85ZY 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=dpoKd_jY 2x" media="all and (min-width: 992px)" type="image/png" width="485" height="516"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=DN1F85ZY 1x, /sites/default/files/styles/2x_rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=dpoKd_jY 2x" media="all and (min-width: 768px)" type="image/png" width="485" height="516"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=DN1F85ZY 1x" media="all and (min-width: 641px)" type="image/png" width="485" height="516"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=DN1F85ZY 1x" media="all and (min-width: 481px)" type="image/png" width="485" height="516"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=DN1F85ZY 1x" type="image/png" width="485" height="516"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2023-01/Atletico%20Primary%20Mark_FR.png?itok=bMiuLf4y" alt="Marque commercial Atletico Ottawa" />
 
   </picture>
 </li>
@@ -2192,7 +2192,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-985310d7fc85f9b0031130ed5ced1fba30449384d2cab2691297df8a517e28ea">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-407628c98a5534273306631e51e3ef481c872411b853613e9a3d94320d99deec">
   
     
       
@@ -2206,7 +2206,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f93231db50b5ca1c860dbf291c558405fa8fc89288ab9ccdfd1073b15e2e7e59">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-17210d52098181c297f2dd1803a94568f4fd87e9f5486f93e2f9b6997bd8da2a">
   
     
       
@@ -2314,7 +2314,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5da2b13bfc2199a2b045cc7477ebb0d100411f5fb45951a9d11c92afda527116">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-944e4a947d1c357a97f3730dff2f10460a243a59018d449ea3f3b786e808392c">
   
     
       
@@ -2328,7 +2328,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-928e767a86d218c0ca24f9493690f12dbd1cadfbcdd2c781760217026b144294">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d37ef6d27c8a73d1af09fc115fbb10002b9246e37b8a09f07a92cfd2a5d5e69c">
   
     
       
