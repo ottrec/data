@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/hintonburg-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
+Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; nlbi_243507=TYnODx3PVAESY5LnaXmSIAAAAACo4ClkTuRQhm8grX4ZeO2I; incap_ses_1844_243507=FRciYAN10EsRayDyuDSXGVMe22gAAAAATIWeHK8tEZICz0qnU82akg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 296
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 29 Sep 2025 00:05:02 GMT
-Etag: "1759104004-gzip"
+Date: Tue, 30 Sep 2025 00:05:22 GMT
+Etag: "1759190721-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 29 Sep 2025 00:00:04 GMT
-Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Tue, 30 Sep 2025 00:05:21 GMT
+Set-Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; expires=Tue, 29 Sep 2026 08:01:30 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 54-132542517-132542521 SNNy RT(1759104193740 108314) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 64536672 64408709
+X-Iinfo: 51-110808225-110808233 SNNN RT(1759190610989 110111) q(0 0 0 -1) r(14 14) U24
+X-Varnish: 56946939
 
-ce84
+d486
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ ce84
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/hintonburg-community-centre" />
 <meta name="dcterms.title" content="Hintonburg Community Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-02" />
+<meta name="dcterms.date" content="2025-09-29" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -184,7 +184,7 @@ ce84
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2be0c2126e5937cedeaad3a9087502d4e4f3426bc27f89665829c57419fb8bc6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c23a37b23d237f5ff9c67435e74e2dbb8b661c82eb442dff1f74244deafa0fdd">
   
     
       
@@ -198,7 +198,7 @@ ce84
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2c63ef465c782ef38c7750c5fb48d4e30fa8b86c738b92e5259c21411c15c387">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e9c51b0b67008a17072ae508f3f831c7dd9e4744b84151dda509e68c90e7f06b">
   
     
       
@@ -267,7 +267,29 @@ ce84
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><span><strong><span>Saturday, October 11 to Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>Closed</span></span></span></span></li>
+</ul>
+</li>
+</ul>
+</div>
+      
+
+<div class="mb-3">
 
 
 
@@ -445,7 +467,7 @@ ce84
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b1d311204b92980defd58c0fed936f43c8bb5a38ea8e05ffc94fc2b7453dff4d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fe160b3a0d2a017f3fdfb4cad5acc1a871f5e4c04eaf424d6feb76cfd09da0f9">
   
     
       
@@ -459,7 +481,7 @@ ce84
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ebb016a892bab4d8a5a53f1eaaf9ac92727eaecd039d6d5767320d3f5edd2108">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6b577f986ddfe5124bff608211ad2351594c226dba3572c0dc5ce5fc423ccfa9">
   
     
       
@@ -494,6 +516,19 @@ ce84
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/hintonburgcc">Reserve a spot at Hintonburg Community Centre</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Saturday, October 11 to Monday, October 13</strong>
+<ul>
+<li>The facility is closed and all programs cancelled.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -625,7 +660,7 @@ ce84
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5879dd09fedd4a12447c9a52c14c383441bfd479af21243070ed3166e3bb34ae">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-88b2bcf8dd00e7810ba95b5fcd6fe91fa97a303c509558cf9fd0929ce7bfbd1c">
   
     
       
@@ -639,7 +674,7 @@ ce84
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5a6a91921cd57d93a937345b634f5ac3558a4e265c9ab75da58bb78fa7e979d9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ae76e04f609673c972ab94a5c22dc9f5b77f61f829d8db8fde25de20e55dfa23">
   
     
       
@@ -674,6 +709,19 @@ ce84
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/hintonburgcc">Reserve a spot at Hintonburg Community Centre</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><span><span>Schedule change</span></span></span></span></h3>
+<ul>
+<li><span><span><strong><span>Saturday, October 11 to Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>The facility is closed and all programs cancelled.</span></span></span></span></li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -814,7 +862,7 @@ ce84
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-870f359d036c0f95e9c816f47d364134153d911b0381476edfc1bb79923e24ef">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-4e15b1399402f7c675f74f6d2fb07fba8d817a0b2cd9bd0968d0e666ce54e9ba">
   
     
       <div class="view-header">
@@ -1220,7 +1268,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=55&cb=869757402" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=55&cb=899487986" async></script></body>
 </html>
 
 

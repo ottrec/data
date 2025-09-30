@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/jack-purcell-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; nlbi_243507=c0TFMjYNGEzEJxf9aXmSIAAAAADNDyo/FIFsNostMqax3K0a; incap_ses_1841_243507=wKPdMHbUrRvGXzaTSIyMGcHM2WgAAAAAQQzTkrTQKqkfhTzeaf7qXg==
+Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; nlbi_243507=TYnODx3PVAESY5LnaXmSIAAAAACo4ClkTuRQhm8grX4ZeO2I; incap_ses_1844_243507=FRciYAN10EsRayDyuDSXGVMe22gAAAAATIWeHK8tEZICz0qnU82akg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 320
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 29 Sep 2025 00:05:12 GMT
-Etag: "1759103990-gzip"
+Date: Tue, 30 Sep 2025 00:05:31 GMT
+Etag: "1759190731-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 28 Sep 2025 23:59:50 GMT
-Set-Cookie: visid_incap_243507=sQT6sF1aQGOSCcASECwRAMHM2WgAAAAAQUIPAAAAAAAZ9uOVdzCCeDdIuT3yaYDo; expires=Mon, 28 Sep 2026 07:13:44 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Tue, 30 Sep 2025 00:05:31 GMT
+Set-Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; expires=Tue, 29 Sep 2026 08:01:30 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 54-132542517-132542521 SNNy RT(1759104193740 118336) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 64468381 64652758
+X-Iinfo: 51-110808225-110808233 SNNN RT(1759190610989 120157) q(0 0 0 -1) r(7 7) U24
+X-Varnish: 62249997
 
-d590
+db49
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ d590
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jack-purcell-community-centre" />
 <meta name="dcterms.title" content="Jack Purcell Community Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-02" />
+<meta name="dcterms.date" content="2025-09-29" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -184,7 +184,7 @@ d590
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ba806a7ba761893b41e17c168699cc7aa9f3848ea267d641088fc5afbfa3531e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-971cd3bc0c0558411d37cbbe22b29b4be349be79b80ef557e092feaa27842e03">
   
     
       
@@ -198,7 +198,7 @@ d590
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ba00150177ea9870affe0ffbccac88a23bcead197cd373dcf1e587bbfdeef03a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-36f2dd60eae79ee92314a04525c068e0b6b158628f772aae21d36d09a339b455">
   
     
       
@@ -268,7 +268,29 @@ d590
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>Closed</span></span></span></span></li>
+</ul>
+</li>
+</ul>
+</div>
+      
+
+<div class="mb-3">
 
 
 
@@ -452,7 +474,7 @@ d590
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5141aa1a7b1b654f97eb4a958a9b6e8897c1209c900aac0a16f48f2ca64d9c5b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2d2c9d52999574af88f2c86b1710a32e4dcbb2584f8e6fc50b0de2e183584d91">
   
     
       
@@ -466,7 +488,7 @@ d590
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fd9ff4bdcb28d5845e66ce9320095741085f94047c214aedca4a77dfe32ce898">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bfdff717abf954013736d68c5b938bb9ca364eb80a20f028111b2fd3f5727a11">
   
     
       
@@ -502,6 +524,19 @@ d590
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/jpcc">Reserve a spot for Alternate Needs Swim</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Monday, October 13</strong>
+<ul>
+<li>The facility is closed and all programs cancelled.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -827,7 +862,7 @@ d590
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-449c0ebf99b58607694d8694dfac3f71fcb7f8eb4ba9e17f3bf958bfe0462278">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9f422ce1fce7b65d0a3d73463739203d5fc853032ef1a950cab2b663a422fd66">
   
     
       
@@ -841,7 +876,7 @@ d590
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fbc956e900bca6fbc40215fcff33c62adeeb552ed5e4c712930844c5ecca0f0a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-94ca827a5169532b9783289c6b5e283e81fdb3d65ea1fb8986faf959ee588f62">
   
     
       
@@ -871,6 +906,19 @@ d590
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Additional details, descriptions, fees and cancellation information.</a></p>
 <p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><span><span>Schedule change</span></span></span></span></h3>
+<ul>
+<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>The facility is closed and all programs cancelled.</span></span></span></span></li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -1010,7 +1058,7 @@ d590
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-65a71621f784594dd73f5fc0bec8ab8a3675f09361c5f8d8958af58ffbc9f375">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-4e3166c3ae89b75a350f8aaf41e0f488461e0ae707046588faa8f3fd5050a3ce">
   
     
       <div class="view-header">
@@ -1412,7 +1460,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=60&cb=1825508509" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=60&cb=345303058" async></script></body>
 </html>
 
 
