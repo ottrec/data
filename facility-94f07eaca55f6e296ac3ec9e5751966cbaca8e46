@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/brewer-pool-and-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; nlbi_243507=TYnODx3PVAESY5LnaXmSIAAAAACo4ClkTuRQhm8grX4ZeO2I; incap_ses_1844_243507=FRciYAN10EsRayDyuDSXGVMe22gAAAAATIWeHK8tEZICz0qnU82akg==
+Cookie: visid_incap_243507=33eIe9TkR3OAZM3I4S7CYd1v3GgAAAAAQUIPAAAAAAA8TZvgOLPHki2JugRRiRKr; nlbi_243507=bwfJL4cjBmpHaItcaXmSIAAAAACTek26STGyOB3q5Of9gzIO; incap_ses_170_243507=8ifEU+N2QmIXgU++mfZbAt1v3GgAAAAA3TUWS/nqmWkzmUONMtpEXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 435
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 30 Sep 2025 00:04:06 GMT
-Etag: "1759190645-gzip"
+Date: Wed, 01 Oct 2025 00:04:15 GMT
+Etag: "1759276618-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 30 Sep 2025 00:04:05 GMT
-Set-Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; expires=Tue, 29 Sep 2026 08:01:30 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Tue, 30 Sep 2025 23:56:58 GMT
+Set-Cookie: visid_incap_243507=33eIe9TkR3OAZM3I4S7CYd1v3GgAAAAAQUIPAAAAAAA8TZvgOLPHki2JugRRiRKr; expires=Wed, 30 Sep 2026 07:44:22 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 51-110808225-110808233 SNNN RT(1759190610989 34289) q(0 1 1 -1) r(9 9) U24
-X-Varnish: 42034292
+X-Iinfo: 53-182088324-182088331 SNNy RT(1759277021178 33942) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 66915303 66947286
 
-d492
+da4d
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ d492
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/brewer-pool-and-arena" />
 <meta name="dcterms.title" content="Brewer Pool and Arena" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-25" />
+<meta name="dcterms.date" content="2025-09-30" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -184,7 +184,7 @@ d492
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e1ae5e0b51965a8fa745c4a89d0ab4f8717d25030c1a3f0981809cfa807a615d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ba2e144df5620fa4e241321a2770a2ccfc7020d4e782963fff55376437bc1c27">
   
     
       
@@ -198,7 +198,7 @@ d492
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d64146971b5366661bd42bdef34ac00e5faba19d87155103fc6bbe9cf863faa6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4e759ae074e682e5b8c321c1d273a445ed016f97db0ad510a251bb98ac33b2da">
   
     
       
@@ -268,7 +268,29 @@ d492
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>Closed</span></span></span></span></li>
+</ul>
+</li>
+</ul>
+</div>
+      
+
+<div class="mb-3">
 
 
 
@@ -454,7 +476,7 @@ d492
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-911a6a3fee1459100e3469af456114660592dc6be4ab578727beaa71118d759e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ecc6ada68518c9631f06c3629cd9e45389d2973de83769299919d8a1d21f2926">
   
     
       
@@ -468,7 +490,7 @@ d492
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-075035fb6d624d571cf33f05eca4352522abe72f76be729d5f1e3b43f982fec8">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-781ff2f6a37cf0bcd08a7405b38c22da25f3cfb26b6523985abe149df1161f9f">
   
     
       
@@ -498,6 +520,19 @@ d492
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.&nbsp;</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/swimming/drop-swimming-and-aquafit#">Play free, additional details, descriptions, fees and cancellation information</a>.</p>
 <p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><span><span>Schedule change</span></span></span></span></h3>
+<ul>
+<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>The facility is closed and all programs cancelled.</span></span></span></span></li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -672,7 +707,7 @@ d492
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-62d84da51abe02e0e45e58aaf0cd77a20fe3c41157487b1c804b5b7fd9720799">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0c0701203b5f0bba8cc8d4d3e8fbee3a0d2e5edea8e88a122ff7c685ab1727b9">
   
     
       
@@ -686,7 +721,7 @@ d492
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ab46a487ad9fa2168784bfa39f761666da4b8765e01b06ffd574e35adf368dec">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6591051362494c72c174b3de56c9469593869c2910141f476f8eaaaf984aa067">
   
     
       
@@ -716,6 +751,19 @@ d492
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/skating/drop-skating">Additional details, descriptions, fees and cancellation information.</a></p>
 <p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Monday, October 13</strong>
+<ul>
+<li>The facility is closed and all programs cancelled.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -868,7 +916,7 @@ d492
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-7f78c600e12da6f864acc9899985503b2a74ceaee74a6ea0e6c95cce0e0b45f7">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-353a9d04ad1accb4e85e7329035a8d4ccf1d102b4bf52d54ce52b82ad4cbb054">
   
     
       <div class="view-header">
@@ -1308,7 +1356,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=79768034" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=19160874" async></script></body>
 </html>
 
 

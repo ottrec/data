@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/tony-graham-recreation-complex-kanata HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; nlbi_243507=TYnODx3PVAESY5LnaXmSIAAAAACo4ClkTuRQhm8grX4ZeO2I; incap_ses_1844_243507=FRciYAN10EsRayDyuDSXGVMe22gAAAAATIWeHK8tEZICz0qnU82akg==
+Cookie: visid_incap_243507=33eIe9TkR3OAZM3I4S7CYd1v3GgAAAAAQUIPAAAAAAA8TZvgOLPHki2JugRRiRKr; nlbi_243507=bwfJL4cjBmpHaItcaXmSIAAAAACTek26STGyOB3q5Of9gzIO; incap_ses_170_243507=8ifEU+N2QmIXgU++mfZbAt1v3GgAAAAA3TUWS/nqmWkzmUONMtpEXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 683
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 30 Sep 2025 00:07:35 GMT
-Etag: "1759190171-gzip"
+Date: Wed, 01 Oct 2025 00:07:45 GMT
+Etag: "1759277264-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 29 Sep 2025 23:56:11 GMT
-Set-Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; expires=Tue, 29 Sep 2026 08:01:30 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Wed, 01 Oct 2025 00:07:44 GMT
+Set-Cookie: visid_incap_243507=33eIe9TkR3OAZM3I4S7CYd1v3GgAAAAAQUIPAAAAAAA8TZvgOLPHki2JugRRiRKr; expires=Wed, 30 Sep 2026 07:44:22 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 51-110808225-110808233 SNNN RT(1759190610989 244542) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 65740700 65484896
+X-Iinfo: 53-182088324-182088331 SNNy RT(1759277021178 243100) q(0 0 0 -1) r(18 18) U24
+X-Varnish: 67020795
 
-c7af
+cd6b
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ c7af
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tony-graham-recreation-complex-kanata" />
 <meta name="dcterms.title" content="Tony Graham Recreation Complex – Kanata" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-19" />
+<meta name="dcterms.date" content="2025-09-30" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -184,7 +184,7 @@ c7af
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-49630c9ea06c5da1d13961c0a1c487b32493d2fed3f5d431fa7054bbf22e4024">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c454834d4ed19b794626a9129ab9b2d122ddd8be5dc50de7783d2493020037a3">
   
     
       
@@ -198,7 +198,7 @@ c7af
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-94022d8b1357b7d413d624391095806c76532d27c0a4ef129cf5564b0021eb7c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7fe022cf73d22a39f4d59c408fb2a05d79020cb61324b4086fb6c490468ff10f">
   
     
       
@@ -268,7 +268,29 @@ c7af
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>Closed</span></span></span></span></li>
+</ul>
+</li>
+</ul>
+</div>
+      
+
+<div class="mb-3">
 
 
 
@@ -276,7 +298,7 @@ c7af
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -478,7 +500,7 @@ c7af
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-23cce60547eee58673f0207198f8c43335e66f1a6025cabef2f43ef439cbef30">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-53b5bae6b354aa7914de43c9b338d956195715cb175c7b46c6f661131c95fd34">
   
     
       
@@ -492,7 +514,7 @@ c7af
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6d8c8cd637db3fe3a7c1f47452bd94f4e07687521b157310801c9037ec03cbde">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ec9fc5e15ce08f2dfecc70da05386de81ad2218eaf007804b991eead56f5fff7">
   
     
       
@@ -522,6 +544,19 @@ c7af
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/skating/drop-skating">Play free, additional details, descriptions, fees and cancellation information</a>.</p>
 <p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><span><span>Schedule change</span></span></span></span></h3>
+<ul>
+<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>The facility is closed and all programs cancelled.</span></span></span></span></li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -628,7 +663,7 @@ c7af
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-66d3dc079e7146a71b03619278909ad3f0efe2c0bb8cd12d4beeb2951962eac2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8543dd7877e0838e467943e2e32af5a6724d2f7de3924916d3726a7224648fa8">
   
     
       
@@ -642,7 +677,7 @@ c7af
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-76b9b3b8a3a484580c532c736a2581554ed02e8dff9e1b5d9b99ef981c1d5de0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-116d6232d3b5bb6d12561d3c1ac5f7069d38dda2b4eb11f3d1ddf2d82b30f259">
   
     
       
@@ -677,6 +712,19 @@ c7af
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/ArenaKanata">Ice sports - Reserve a spot at Tony Graham Recreation Complex – Kanata</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Monday, October 13</strong>
+<ul>
+<li>The facility is closed and all programs cancelled.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -780,7 +828,7 @@ c7af
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-f5a9d1759bff7bd710ac71313e538bc85d4f098afa2a629285edccc85a8aa109">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-bae16fea6749bc37a7c9c23faf21199e58ebf8d201cb138165f1e6ac3430db52">
   
     
       <div class="view-header">

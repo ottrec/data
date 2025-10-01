@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/terry-fox-athletic-facility HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; nlbi_243507=TYnODx3PVAESY5LnaXmSIAAAAACo4ClkTuRQhm8grX4ZeO2I; incap_ses_1844_243507=FRciYAN10EsRayDyuDSXGVMe22gAAAAATIWeHK8tEZICz0qnU82akg==
+Cookie: visid_incap_243507=33eIe9TkR3OAZM3I4S7CYd1v3GgAAAAAQUIPAAAAAAA8TZvgOLPHki2JugRRiRKr; nlbi_243507=bwfJL4cjBmpHaItcaXmSIAAAAACTek26STGyOB3q5Of9gzIO; incap_ses_170_243507=8ifEU+N2QmIXgU++mfZbAt1v3GgAAAAA3TUWS/nqmWkzmUONMtpEXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 713
+Age: 638
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 30 Sep 2025 00:07:31 GMT
-Etag: "1759190136-gzip"
+Date: Wed, 01 Oct 2025 00:07:40 GMT
+Etag: "1759276621-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 29 Sep 2025 23:55:36 GMT
-Set-Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; expires=Tue, 29 Sep 2026 08:01:30 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Tue, 30 Sep 2025 23:57:01 GMT
+Set-Cookie: visid_incap_243507=33eIe9TkR3OAZM3I4S7CYd1v3GgAAAAAQUIPAAAAAAA8TZvgOLPHki2JugRRiRKr; expires=Wed, 30 Sep 2026 07:44:22 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 51-110808225-110808233 SNNN RT(1759190610989 240223) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 63684554 65543801
+X-Iinfo: 53-182088324-182088331 SNNy RT(1759277021178 239098) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 62217826 66818928
 
-a4e3
+a56e
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ a4e3
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/terry-fox-athletic-facility" />
 <meta name="dcterms.title" content="Terry Fox Athletic Facility" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-11" />
+<meta name="dcterms.date" content="2025-09-30" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -184,7 +184,7 @@ a4e3
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-96df545e1929521fcc4582068a9c92693b9d7594faedfefe296dc2e73b29c779">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1d2cd191a2c38af646247afd7986b87fa7532a1052245442c9998e3d95dd432b">
   
     
       
@@ -198,7 +198,7 @@ a4e3
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-49c5abc2cb26e0839c9f1248ecf5f973a82664d9e9d4229eadb7ad8482f881d7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-237fdc08e8af60ae08997edaa5921c9dd0db391f6d845dc2d2c0a0522981ea39">
   
     
       
@@ -286,10 +286,17 @@ a4e3
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>The facility is not available 9 am to 3 pm on the following dates:</p>
 <ul>
-<li><strong>September 26 and 27</strong></li>
 <li><strong>October 6 to 10</strong></li>
+<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>Closed</span></span></span></span></li>
+</ul>
+</li>
 <li><strong>October 15 and 16</strong></li>
-<li><strong>October 21 to 23</strong></li>
+<li>
+<ul>
+	</ul>
+<p>	<strong>October 21 to 23</strong></p></li>
 </ul>
 </div>
       
@@ -528,7 +535,7 @@ a4e3
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-275d9518134bc57c8a3f1d0b731a95e0d23a578fc06046107c5447099040c71c">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-da66a78778bda2dac5c3d17d2b68913703aca7617fe30c17d71aab7f3ca9b843">
   
     
       <div class="view-header">

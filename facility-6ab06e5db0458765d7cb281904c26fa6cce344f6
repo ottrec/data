@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/sawmill-creek-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; nlbi_243507=TYnODx3PVAESY5LnaXmSIAAAAACo4ClkTuRQhm8grX4ZeO2I; incap_ses_1844_243507=FRciYAN10EsRayDyuDSXGVMe22gAAAAATIWeHK8tEZICz0qnU82akg==
+Cookie: visid_incap_243507=33eIe9TkR3OAZM3I4S7CYd1v3GgAAAAAQUIPAAAAAAA8TZvgOLPHki2JugRRiRKr; nlbi_243507=bwfJL4cjBmpHaItcaXmSIAAAAACTek26STGyOB3q5Of9gzIO; incap_ses_170_243507=8ifEU+N2QmIXgU++mfZbAt1v3GgAAAAA3TUWS/nqmWkzmUONMtpEXg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 668
+Age: 562
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 30 Sep 2025 00:07:17 GMT
-Etag: "1759190166-gzip"
+Date: Wed, 01 Oct 2025 00:07:26 GMT
+Etag: "1759276683-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 29 Sep 2025 23:56:06 GMT
-Set-Cookie: visid_incap_243507=DpDI9kO6St2wP/Ee66nhQFIe22gAAAAAQUIPAAAAAAD1xUCzIPQ+YFxWuPOPuqmB; expires=Tue, 29 Sep 2026 08:01:30 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Tue, 30 Sep 2025 23:58:03 GMT
+Set-Cookie: visid_incap_243507=33eIe9TkR3OAZM3I4S7CYd1v3GgAAAAAQUIPAAAAAAA8TZvgOLPHki2JugRRiRKr; expires=Wed, 30 Sep 2026 07:44:22 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 51-110808225-110808233 PNNN RT(1759190610989 226262) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 64480650 64679455
+X-Iinfo: 53-182088324-182088331 SNNy RT(1759277021178 225096) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 67011197 66850991
 
-d80d
+ee0e
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ d80d
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sawmill-creek-community-centre-and-pool" />
 <meta name="dcterms.title" content="Sawmill Creek Community Centre and Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-25" />
+<meta name="dcterms.date" content="2025-09-30" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -184,7 +184,7 @@ d80d
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-264f0ba1321a94202b5fae418d255202aa055e5e3237f3267a5341e50c566e58">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a06c9574dfc9f779eb06157a757942d6ebfb4c2d11938211c1c4d4ebfb1e5c7f">
   
     
       
@@ -198,7 +198,7 @@ d80d
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e05b0ed2a94bd70d9dd0656f70ed9a07b44259501866d40ab7bd854861d8c8ff">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-18a0d441a1cac54e508fd034a9791a44a0e84f8ac170693aecc4f993755e55cc">
   
     
       
@@ -261,7 +261,7 @@ d80d
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
 </div>
       
 
@@ -270,11 +270,6 @@ d80d
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Sunday, September 28</strong>
-<ul>
-<li>Lane swim, 7 to 8 pm, cancelled</li>
-</ul>
-</li>
 <li><strong>Saturday, October 4</strong>
 <ul>
 <li>Lane swim, 7:30 to 8:30 pm, cancelled</li>
@@ -440,6 +435,173 @@ d80d
                               <div class="col collapse-region">
                   <h2 class="no-toc">
                               
+  <button aria-expanded="false" aria-controls="section-b776f227-5f1c-4c85-bd50-c8c3269ff56b" data-target="#section-b776f227-5f1c-4c85-bd50-c8c3269ff56b" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - Thanksgiving weekend</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-b776f227-5f1c-4c85-bd50-c8c3269ff56b">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - Thanksgiving weekend</h2>
+</span>
+
+
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b7b35a3f15ebf64068e2f7bbea2181049907e4eb062cdcc036c6db37fa65986f">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0bc3e2e623698a679641af9890f108ef876d43beecfe3c9773c06d24e8c4e23b">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 row">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.</p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
+	<caption>Sawmill Creek Community Centre and Pool - swim - October 11 to 13</caption>
+	<thead>
+		<tr>
+			<th>
+			&nbsp;
+			</th>
+			<th>
+			<strong>Saturday, </strong>October 11
+			</th>
+			<th>
+			<strong>Sunday, </strong>October 12
+			</th>
+			<th>Monday, October 13</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>
+			Lane swim
+			</th>
+			<td>
+			11 am - 1 pm
+			</td>
+			<td>11 am - 1 pm</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>
+			Public swim
+			</th>
+			<td>1 - 3 pm</td>
+			<td>1 - 3 pm</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>Lane swim (shared pool)&nbsp;</th>
+			<td>n/a</td>
+			<td>7 - 8 pm</td>
+			<td>n/a</td>
+		</tr>
+	</tbody>
+</table></div>
+      </div>
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 row">
+
+            
+                              <div class="col collapse-region">
+                  <h2 class="no-toc">
+                              
   <button aria-expanded="false" aria-controls="section-6ade11f0-0d70-4d66-85df-ac284de9ca24" data-target="#section-6ade11f0-0d70-4d66-85df-ac284de9ca24" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - swim and aquafit</button>
 
                   </h2>
@@ -466,7 +628,7 @@ d80d
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1252d0803ec6b64aa3b1d996041ca1c849ddf28425194fbe8f713d271edfbadc">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d1099c6c97fc443d35ab8322745c57e37c6bc790dd688ea3ea4d042e574c3917">
   
     
       
@@ -480,7 +642,7 @@ d80d
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-42ea70e6f92e5567f4d5a8885eba0dfd0207e8f20ad008b9d66309bd4d557c6c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2d5d61ea187b5a43b97ad999a8fec4eec34f88e12e80baa338545b822e777f29">
   
     
       
@@ -517,14 +679,14 @@ d80d
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
-<li><strong>Sunday, September 28</strong>
-<ul>
-<li>Lane swim, 7 to 8 pm, cancelled</li>
-</ul>
-</li>
 <li><strong>Saturday, October 4</strong>
 <ul>
 <li>Lane swim, 7:30 to 8:30 pm, cancelled</li>
+</ul>
+</li>
+<li><span><span><strong><span>Saturday, October 11 to Monday, October 13</span></strong></span></span>
+<ul>
+<li><span><span><span><span>See <a href="https://ottawa.ca/en/sawmill-creek-community-centre-and-pool-holiday-drop-schedule">Thanksgiving weekend schedule</a>.</span></span></span></span></li>
 </ul>
 </li>
 </ul>
@@ -847,7 +1009,7 @@ d80d
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6abb6996fb12f632e30904b947a23cdcdc22c38138961b3896cb8f9a607e2abc">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ce25287dbebe1b7e051ae39658e85c91a59a08d38ab15518280192118341e940">
   
     
       
@@ -861,7 +1023,7 @@ d80d
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f20dc288df881fbf3743e57c20d4db67e2e745f592b5fd45eae2ea05384149e0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e8abefa043e590b4d2c73558e85e54ed54073e44732e6ee49f266c8e7e8a6fbd">
   
     
       
@@ -891,6 +1053,19 @@ d80d
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Additional details, descriptions, fees and cancellation information.</a></p>
 <p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Saturday, October 11 to Monday, October 13</strong>
+<ul>
+<li>See <a href="https://ottawa.ca/en/sawmill-creek-community-centre-and-pool-holiday-drop-schedule">Thanksgiving weekend schedule</a>.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -1062,7 +1237,7 @@ d80d
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-86d5056d1da05c357bbfb70a7eb2845a2044b796d88adec766f54c2d07cf0860">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-582df4af80c49a5b0e44a198a958428e385ad1536ff74464bfd01d87fdcf3a36">
   
     
       <div class="view-header">
