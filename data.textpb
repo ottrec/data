@@ -266,6 +266,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at Bell Centennial Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/bellcentennial"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - skating"
@@ -653,6 +657,7 @@ facilities {
       activities {
         label: "Racquetball - courts 4, 6, and 8 *Reservations required."
         _name: "racquetball court 4, 6, and 8"
+        _resv: true
         days {
           times {
             label: "8:15 - 9:15 am"
@@ -701,6 +706,7 @@ facilities {
       activities {
         label: "Squash courts 1, 2, 3, 5, 7 and 9 *Reservations required."
         _name: "squash courts 1, 2, 3, 5, 7 and 9"
+        _resv: true
         days {
           times {
             label: "8 - 9 am"
@@ -772,6 +778,10 @@ facilities {
           }
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Bob MacQuarrie Recreation Complex - Orléans"
+      url: "https://reservation.frontdesksuite.ca/rcfs/bobmacquarrie"
     }
   }
   schedule_groups {
@@ -1504,6 +1514,7 @@ facilities {
       activities {
         label: "Indoor cycling *Reservations required"
         _name: "indoor cycling"
+        _resv: true
         days {
           times {
             label: "8:30 - 9:25 am"
@@ -1711,6 +1722,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot for indoor cycling"
+      url: "https://reservation.frontdesksuite.ca/rcfs/bobmacquarrie"
     }
   }
   schedule_groups {
@@ -2863,6 +2878,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Bob MacQuarrie Recreation Complex - Orléans"
+      url: "https://reservation.frontdesksuite.ca/rcfs/bobmacquarrie"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - skating"
@@ -3426,6 +3445,7 @@ facilities {
       activities {
         label: "Public swim *Reservations not required."
         _name: "public swim"
+        _resv: false
         days {
           times {
             label: "Noon - 3 pm"
@@ -3480,6 +3500,7 @@ facilities {
       activities {
         label: "Public skating *Reservations not required."
         _name: "public skate"
+        _resv: false
         days {
           times {
             label: "5 - 6 pm"
@@ -3496,6 +3517,7 @@ facilities {
       activities {
         label: "Family skating *Reservations not required."
         _name: "family skate"
+        _resv: false
         days {
           times {
             label: "4 - 5 pm"
@@ -3512,6 +3534,7 @@ facilities {
       activities {
         label: "Adult skating *Reservations not required."
         _name: "adult skate"
+        _resv: false
         days {
         }
         days {
@@ -3519,6 +3542,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Canterbury Recreation Complex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/canterbury"
     }
   }
   schedule_groups {
@@ -3673,6 +3700,7 @@ facilities {
       activities {
         label: "Public swim *Reservations not required"
         _name: "public swim"
+        _resv: false
         days {
           times {
             label: "10 - 11 am"
@@ -3778,6 +3806,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Canterbury Recreation Complex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/canterbury"
     }
   }
   schedule_groups {
@@ -3902,6 +3934,7 @@ facilities {
       activities {
         label: "Open gym *Reservations not required"
         _name: "open gym"
+        _resv: false
         days {
         }
         days {
@@ -3995,6 +4028,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Canterbury Recreation Complex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/canterbury"
     }
   }
   schedule_groups {
@@ -4220,6 +4257,7 @@ facilities {
       activities {
         label: "Preschool swim *Reservations not required."
         _name: "preschool swim"
+        _resv: false
         days {
           times {
             label: "11:30 am - 12:30 pm"
@@ -4276,6 +4314,7 @@ facilities {
       activities {
         label: "Public swim with slide *Reservations not required."
         _name: "public swim with slide"
+        _resv: false
         days {
           times {
             label: "1:30 - 4 pm"
@@ -4314,6 +4353,7 @@ facilities {
       activities {
         label: "Weight and cardio room *Reservations not required."
         _name: "weight and cardio room"
+        _resv: false
         days {
           times {
             label: "7:30 am - 4 pm"
@@ -4358,6 +4398,7 @@ facilities {
       activities {
         label: "Yoga *Reservations not required."
         _name: "yoga"
+        _resv: false
         days {
           times {
             label: "8:30 - 9:30 am"
@@ -4374,6 +4415,7 @@ facilities {
       activities {
         label: "Cardio and strength *Reservations not required."
         _name: "cardio and strength"
+        _resv: false
         days {
           times {
             label: "9 - 10 am"
@@ -4440,6 +4482,7 @@ facilities {
       activities {
         label: "Family skate *Reservations not required."
         _name: "family skate"
+        _resv: false
         days {
           times {
             label: "2:15 - 3:05 pm"
@@ -4462,6 +4505,7 @@ facilities {
       activities {
         label: "Public skate *Reservations not required."
         _name: "public skate"
+        _resv: false
         days {
           times {
             label: "3:15 - 4:05 pm"
@@ -4478,6 +4522,7 @@ facilities {
       activities {
         label: "50+ skate *Reservations not required."
         _name: "skate 50+"
+        _resv: false
         days {
         }
         days {
@@ -4510,6 +4555,7 @@ facilities {
       activities {
         label: "Kinderplay *Reservations not required."
         _name: "kinderplay"
+        _resv: false
         days {
         }
         days {
@@ -4529,6 +4575,14 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at CARDELREC Recreation Complex Goulbourn"
+      url: "https://reservation.frontdesksuite.ca/rcfs/cardelrec"
+    }
+    reservation_links {
+      label: "Skating - Reserve a spot at CARDELREC Recreation Complex Goulbourn"
+      url: "https://reservation.frontdesksuite.ca/rcfs/arenacardelrec"
     }
   }
   schedule_groups {
@@ -4708,6 +4762,7 @@ facilities {
       activities {
         label: "Preschool swim *Reservations not required"
         _name: "preschool swim"
+        _resv: false
         days {
           times {
             label: "11:15 am - 12:15 pm"
@@ -4858,6 +4913,7 @@ facilities {
       activities {
         label: "Public swim with slide *Reservations not required"
         _name: "public swim with slide"
+        _resv: false
         days {
         }
         days {
@@ -4888,6 +4944,7 @@ facilities {
       activities {
         label: "Public swim with no slide *Reservations not required"
         _name: "public swim with no slide"
+        _resv: false
         days {
           times {
             label: "1:15 - 2:15 pm"
@@ -5002,6 +5059,7 @@ facilities {
       activities {
         label: "Alternate needs swim *Reservations not required"
         _name: "alternate needs swim"
+        _resv: false
         days {
         }
         days {
@@ -5023,6 +5081,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at CARDELREC Recreation Complex Goulbourn"
+      url: "https://reservation.frontdesksuite.ca/rcfs/cardelrec"
     }
   }
   schedule_groups {
@@ -5405,6 +5467,7 @@ facilities {
       activities {
         label: "Indoor cycling *Requires reservations"
         _name: "indoor cycling"
+        _resv: true
         days {
           times {
             label: "7 - 8 am"
@@ -5600,6 +5663,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot for indoor cycling"
+      url: "https://reservation.frontdesksuite.ca/rcfs/cardelrec"
     }
   }
   schedule_groups {
@@ -5807,6 +5874,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at CARDELREC Recreation Complex Goulbourn"
+      url: "https://reservation.frontdesksuite.ca/rcfs/cardelrec"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - sports"
@@ -5907,6 +5978,7 @@ facilities {
       activities {
         label: "Kinderplay *Reservations not required"
         _name: "kinderplay"
+        _resv: false
         days {
         }
         days {
@@ -5982,6 +6054,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at CARDELREC Recreation Complex Goulbourn"
+      url: "https://reservation.frontdesksuite.ca/rcfs/cardelrec"
     }
   }
   schedule_groups {
@@ -6065,6 +6141,7 @@ facilities {
       activities {
         label: "Pick-up hockey 35+ *Reservations required."
         _name: "pick-up hockey 35+"
+        _resv: true
         days {
           times {
             label: "Noon - 12:50 pm"
@@ -6176,6 +6253,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Skating - Reserve a spot at CARDELREC Recreation Complex Goulbourn"
+      url: "https://reservation.frontdesksuite.ca/rcfs/arenacardelrec"
     }
   }
 }
@@ -7161,6 +7242,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Dempsey Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/dempseycc"
+    }
   }
 }
 facilities {
@@ -7764,6 +7849,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Greenboro Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/greenborocommunitycentre"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - racquet sports"
@@ -7904,6 +7993,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Greenboro Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/greenborocommunitycentre"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - sports"
@@ -7932,6 +8025,7 @@ facilities {
       activities {
         label: "Kindergym *Reservations not required."
         _name: "kindergym"
+        _resv: false
         days {
         }
         days {
@@ -8052,6 +8146,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Earl Armstrong Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/earlarmstrongarena"
     }
   }
   schedule_groups {
@@ -8302,6 +8400,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Eva James Memorial Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/evajamescc"
     }
   }
   schedule_groups {
@@ -8720,6 +8822,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Eva James Memorial Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/evajamescc"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - sports"
@@ -8858,6 +8964,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Eva James Memorial Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/evajamescc"
     }
   }
 }
@@ -9303,6 +9413,10 @@ facilities {
           }
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at François Dupuis Recreation Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/francoisdupuis"
     }
   }
   schedule_groups {
@@ -10697,6 +10811,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at François Dupuis Recreation Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/francoisdupuis"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - sports"
@@ -10872,6 +10990,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at François Dupuis Recreation Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/francoisdupuis"
     }
   }
 }
@@ -11105,6 +11227,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at Fred Barrett Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/arenafredbarrett"
     }
   }
 }
@@ -11669,6 +11795,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Hintonburg Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/hintonburgcc"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - sports"
@@ -11724,6 +11854,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Hintonburg Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/hintonburgcc"
     }
   }
 }
@@ -11783,6 +11917,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at Howard Darwin Centennial Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/arenahowarddarwin"
     }
   }
   schedule_groups {
@@ -12171,6 +12309,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Hunt Club-Riverside Park Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/huntclubCC"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - Racquet sports"
@@ -12335,6 +12477,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Hunt Club-Riverside Park Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/huntclubCC"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - Sports"
@@ -12462,6 +12608,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Hunt Club-Riverside Park Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/huntclubCC"
     }
   }
 }
@@ -12656,6 +12806,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot for figure skating"
+      url: "https://reservation.frontdesksuite.ca/rcfs/ArenaJADulude"
+    }
   }
 }
 facilities {
@@ -12831,6 +12985,7 @@ facilities {
       activities {
         label: "Alternate needs swim *Reservations required"
         _name: "alternate needs swim"
+        _resv: true
         days {
           times {
             label: "10 am - noon"
@@ -13225,6 +13380,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot for Alternate Needs Swim"
+      url: "https://reservation.frontdesksuite.ca/rcfs/jpcc"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - weight and cardio room"
@@ -13572,6 +13731,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at Jim Durrell Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/arenajimdurrell"
+    }
   }
 }
 facilities {
@@ -13668,6 +13831,10 @@ facilities {
           }
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Jim Tubman Chevrolet Rink"
+      url: "https://reservation.frontdesksuite.ca/rcfs/JimTubmanRink"
     }
   }
   schedule_groups {
@@ -14145,6 +14312,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at John G Mlacak Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/ArenaJohnGMlacak"
     }
   }
   schedule_groups {
@@ -15610,6 +15781,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Lois Kemp Arena (Blackburn)"
+      url: "https://reservation.frontdesksuite.ca/rcfs/loiskemp"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - skating"
@@ -16081,6 +16256,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Lowertown Community Centre and Pool"
+      url: "https://reservation.frontdesksuite.ca/rcfs/lowertown"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - sports"
@@ -16277,6 +16456,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at Mike O'Neil Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/arenamanotick"
     }
   }
   schedule_groups {
@@ -16494,6 +16677,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at McNabb Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/arenamcnabb"
     }
   }
   schedule_groups {
@@ -16736,6 +16923,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at Larry Robinson Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/arenalarryrobinson"
+    }
   }
 }
 facilities {
@@ -16807,6 +16998,7 @@ facilities {
       activities {
         label: "Lane swim *Reservations not required."
         _name: "lane swim"
+        _resv: false
         days {
           times {
             label: "12:15 - 2:15 pm"
@@ -16835,6 +17027,7 @@ facilities {
       activities {
         label: "Preschool swim *Reservations not required."
         _name: "preschool swim"
+        _resv: false
         days {
           times {
             label: "12:15 - 2:15 pm"
@@ -16863,6 +17056,7 @@ facilities {
       activities {
         label: "Public swim *Reservations not required."
         _name: "public swim"
+        _resv: false
         days {
           times {
             label: "2:30 - 5:30 pm"
@@ -16891,6 +17085,7 @@ facilities {
       activities {
         label: "Public Swim with WIBIT *Reservations not required."
         _name: "public swim with wibit"
+        _resv: false
         days {
           times {
             label: "7 - 9 pm"
@@ -17024,6 +17219,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Minto Recreation Complex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/mintobarrhaven"
     }
   }
   schedule_groups {
@@ -17371,6 +17570,7 @@ facilities {
       activities {
         label: "Aquafit - general * Reservations are required"
         _name: "aquafit - general"
+        _resv: true
         days {
           times {
             label: "8:30 - 9:30 am"
@@ -17446,6 +17646,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot for Aquafit at Minto Recreation Complex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/mintobarrhaven"
     }
   }
   schedule_groups {
@@ -18000,6 +18204,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Minto Recreation Complex - Barrhaven"
+      url: "https://reservation.frontdesksuite.ca/rcfs/mintobarrhaven"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - racquet sports"
@@ -18199,6 +18407,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Minto Recreation Complex - Barrhaven"
+      url: "https://reservation.frontdesksuite.ca/rcfs/mintobarrhaven"
     }
   }
   schedule_groups {
@@ -18400,6 +18612,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Minto Recreation Complex - Barrhaven"
+      url: "https://reservation.frontdesksuite.ca/rcfs/mintobarrhaven"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - skating"
@@ -18509,6 +18725,10 @@ facilities {
           }
         }
       }
+    }
+    reservation_links {
+      label: "Skating - Reserve a spot at Minto Recreation Complex - Barrhaven"
+      url: "https://reservation.frontdesksuite.ca/rcfs/arenaminto"
     }
   }
 }
@@ -18969,6 +19189,7 @@ facilities {
       activities {
         label: "Lane swim - 25m pool *Reservations not required."
         _name: "lane swim - 25m pool"
+        _resv: false
         days {
           times {
             label: "7 - 8 am"
@@ -18981,6 +19202,7 @@ facilities {
       activities {
         label: "Public swim - 25m pool *Reservations not required."
         _name: "public swim - 25m pool"
+        _resv: false
         days {
           times {
             label: "11 am - 1 pm"
@@ -18993,6 +19215,7 @@ facilities {
       activities {
         label: "Lane swim - 50m short course *Reservations not required."
         _name: "lane swim - 50m short course"
+        _resv: false
         days {
           times {
             label: "8:30 am - 1 pm"
@@ -19318,6 +19541,10 @@ facilities {
           }
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Nepean Sportsplex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/nepeansportsplex"
     }
   }
   schedule_groups {
@@ -20276,6 +20503,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Nepean Sportsplex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/nepeansportsplex"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - racquet sports"
@@ -20626,6 +20857,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Nepean Sportsplex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/nepeansportsplex"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - sports"
@@ -20699,6 +20934,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Nepean Sportsplex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/nepeansportsplex"
     }
   }
   schedule_groups {
@@ -20779,6 +21018,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Skating - Reserve a spot at Nepean Sportsplex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/arenanepean"
     }
   }
   schedule_groups {
@@ -20871,6 +21114,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Nepean Sportsplex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/nepeansportsplex"
     }
   }
 }
@@ -21050,6 +21297,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at Stuart Holmes Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/ArenaStuartHolmes"
     }
   }
 }
@@ -21390,6 +21641,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Overbrook Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/overbrookcc"
+    }
   }
 }
 facilities {
@@ -21571,6 +21826,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Pat Clark Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/patclarkcc"
+    }
   }
 }
 facilities {
@@ -21630,6 +21889,7 @@ facilities {
       activities {
         label: "Public swim *Reservations not required."
         _name: "public swim"
+        _resv: false
         days {
           times {
             label: "12:30 - 1:45 pm"
@@ -21694,6 +21954,7 @@ facilities {
       activities {
         label: "Weight and cardio room *Reservations not required."
         _name: "weight and cardio room"
+        _resv: false
         days {
           times {
             label: "9:30 am - 2:30 pm"
@@ -21778,6 +22039,7 @@ facilities {
       activities {
         label: "Public skate *Reservations not required."
         _name: "public skate"
+        _resv: false
         days {
         }
         days {
@@ -21800,6 +22062,7 @@ facilities {
       activities {
         label: "Family skate *Reservations not required."
         _name: "family skate"
+        _resv: false
         days {
         }
         days {
@@ -21810,6 +22073,7 @@ facilities {
       activities {
         label: "Public skate 50+ *Reservations not required."
         _name: "public skate 50+"
+        _resv: false
         days {
         }
         days {
@@ -21837,6 +22101,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Pinecrest Recreation Complex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/pinecrest"
     }
   }
   schedule_groups {
@@ -21871,6 +22139,7 @@ facilities {
       activities {
         label: "Public Swim *Reservations not required."
         _name: "public swim"
+        _resv: false
         days {
         }
         days {
@@ -22295,6 +22564,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Pinecrest Recreation Complex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/pinecrest"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - weight and cardio room"
@@ -22323,6 +22596,7 @@ facilities {
       activities {
         label: "Weight and cardio room *Reservations not required."
         _name: "weight and cardio room"
+        _resv: false
         days {
           times {
             label: "7:30 am - 9 pm"
@@ -22671,6 +22945,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Pinecrest Recreation Complex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/pinecrest"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - skating"
@@ -22866,6 +23144,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Pinecrest Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/ArenaPinecrestRC"
     }
   }
 }
@@ -24700,6 +24982,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Skating - Reserve a spot at Ray Friel Recreation Complex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/rayfriel"
+    }
   }
 }
 facilities {
@@ -24756,6 +25042,7 @@ facilities {
       activities {
         label: "Lane swim *Reservations not required."
         _name: "lane swim"
+        _resv: false
         days {
           times {
             label: "8 am - 1:30 pm"
@@ -24784,6 +25071,7 @@ facilities {
       activities {
         label: "Public swim *Reservations not required."
         _name: "public swim"
+        _resv: false
         days {
           times {
             label: "1:30 - 4 pm"
@@ -24812,6 +25100,7 @@ facilities {
       activities {
         label: "Public swim - leisure pool only *Reservations not required."
         _name: "public swim - leisure pool only"
+        _resv: false
         days {
           times {
             label: "8:30 am - 1:30 pm"
@@ -24840,6 +25129,7 @@ facilities {
       activities {
         label: "Sauna *Reservations not required."
         _name: "sauna"
+        _resv: false
         days {
           times {
             label: "8:30 am - 4 pm"
@@ -24964,6 +25254,7 @@ facilities {
       activities {
         label: "Reduced lane swim *Reservations not required."
         _name: "lane swim - reduced capacity"
+        _resv: false
         days {
           times {
             label: "6:15 - 8:30 am"
@@ -25024,6 +25315,7 @@ facilities {
       activities {
         label: "Lane swim *Reservations not required."
         _name: "lane swim"
+        _resv: false
         days {
           times {
             label: "8:30 - 10:30 am"
@@ -25150,6 +25442,7 @@ facilities {
       activities {
         label: "Public swim - leisure pool only *Reservations not required."
         _name: "public swim - leisure pool only"
+        _resv: false
         days {
           times {
             label: "10:30 - 11:30 am"
@@ -25210,6 +25503,7 @@ facilities {
       activities {
         label: "Public swim *Reservations not required."
         _name: "public swim"
+        _resv: false
         days {
           times {
             label: "7:30 - 9 pm"
@@ -25246,6 +25540,7 @@ facilities {
       activities {
         label: "Preschool swim - leisure pool only *Reservations not required."
         _name: "preschool swim - leisure pool only"
+        _resv: false
         days {
         }
         days {
@@ -25396,6 +25691,7 @@ facilities {
       activities {
         label: "Sauna *Reservations not required."
         _name: "sauna"
+        _resv: false
         days {
           times {
             label: "6:15 am - 1 pm"
@@ -25483,6 +25779,10 @@ facilities {
           }
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Richcraft Recreation Complex-Kanata"
+      url: "https://reservation.frontdesksuite.ca/rcfs/richcraftkanata"
     }
   }
   schedule_groups {
@@ -25923,6 +26223,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Richcraft Recreation Complex-Kanata"
+      url: "https://reservation.frontdesksuite.ca/rcfs/richcraftkanata"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - racquet sports"
@@ -26242,6 +26546,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Richcraft Recreation Complex-Kanata"
+      url: "https://reservation.frontdesksuite.ca/rcfs/richcraftkanata"
     }
   }
   schedule_groups {
@@ -26647,6 +26955,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Richcraft Recreation Complex-Kanata"
+      url: "https://reservation.frontdesksuite.ca/rcfs/richcraftkanata"
+    }
   }
 }
 facilities {
@@ -26971,6 +27283,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Richelieu Vanier Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/richelieuvanier"
+    }
   }
 }
 facilities {
@@ -27131,6 +27447,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at Richmond Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/arenarichmond"
     }
   }
 }
@@ -27310,6 +27630,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Rideauview Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/rideauviewcc"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - racquet sports"
@@ -27417,6 +27741,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Rideauview Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/rideauviewcc"
     }
   }
 }
@@ -27700,6 +28028,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Routhier Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/routhiercc"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - sports"
@@ -27833,6 +28165,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Routhier Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/routhiercc"
     }
   }
 }
@@ -27982,6 +28318,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at Sandy Hill Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/SandyHillArena/Home/Index?Culture=en&PageId=aea58844-1959-4812-8756-5888bf0d1a59&ShouldStartReserveTimeFlow=False&ButtonId=00000000-0000-0000-0000-000000000000"
     }
   }
 }
@@ -28716,6 +29056,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at South Fallingbrook Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/southfallingbrook"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - sports"
@@ -29036,6 +29380,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at South Fallingbrook Community Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/southfallingbrook"
     }
   }
 }
@@ -30137,6 +30485,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at St. Laurent Complex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/slc"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - sports"
@@ -30249,6 +30601,7 @@ facilities {
       activities {
         label: "Open gym *Reservations not required"
         _name: "open gym"
+        _resv: false
         days {
           times {
             label: "9 - 10 am"
@@ -30408,6 +30761,10 @@ facilities {
           }
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at St. Laurent Complex"
+      url: "https://reservation.frontdesksuite.ca/rcfs/slc"
     }
   }
   schedule_groups {
@@ -30718,6 +31075,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Tom Brown Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/ArenaTomBrown"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - skating"
@@ -30993,6 +31354,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at Tony Graham Recreation Complex - Kanata"
+      url: "https://reservation.frontdesksuite.ca/rcfs/ArenaKanata"
+    }
   }
 }
 facilities {
@@ -31183,6 +31548,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Ice sports - Reserve a spot at W. Erskine Johnston Arena"
+      url: "https://reservation.frontdesksuite.ca/rcfs/ArenaWErskine"
+    }
   }
 }
 facilities {
@@ -31314,6 +31683,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Walter Baker Sports Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/walterbaker"
     }
   }
   schedule_groups {
@@ -31892,6 +32265,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Walter Baker Sports Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/walterbaker"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - weight and cardio room"
@@ -32235,6 +32612,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Walter Baker Sports Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/walterbaker"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - racquet sports"
@@ -32321,6 +32702,10 @@ facilities {
         }
       }
     }
+    reservation_links {
+      label: "Reserve a spot at Walter Baker Sports Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/walterbaker"
+    }
   }
   schedule_groups {
     label: "Drop-in schedule - sports"
@@ -32370,6 +32755,10 @@ facilities {
         days {
         }
       }
+    }
+    reservation_links {
+      label: "Reserve a spot at Walter Baker Sports Centre"
+      url: "https://reservation.frontdesksuite.ca/rcfs/walterbaker"
     }
   }
   schedule_groups {
