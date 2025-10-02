@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/earl-armstrong-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=33eIe9TkR3OAZM3I4S7CYd1v3GgAAAAAQUIPAAAAAAA8TZvgOLPHki2JugRRiRKr; nlbi_243507=bwfJL4cjBmpHaItcaXmSIAAAAACTek26STGyOB3q5Of9gzIO; incap_ses_170_243507=8ifEU+N2QmIXgU++mfZbAt1v3GgAAAAA3TUWS/nqmWkzmUONMtpEXg==
+Cookie: visid_incap_243507=I5yI4eIzSfu487R2aaG9OzjB3WgAAAAAQUIPAAAAAAC7YgiPD0y/L755OoLQnDK0; nlbi_243507=SXLaLaW5AkQyO6lgaXmSIAAAAAAsfT7TUa5blk6qQsZAeC82; incap_ses_7224_243507=+TsSHcFCOiViGWPlOc5AZDjB3WgAAAAAqznb05WcP0TrTh7hFyqyYA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,28 +8,28 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 473
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 01 Oct 2025 00:04:53 GMT
-Etag: "1759276618-gzip"
+Date: Thu, 02 Oct 2025 00:04:18 GMT
+Etag: "1759363457-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 30 Sep 2025 23:56:58 GMT
-Set-Cookie: visid_incap_243507=33eIe9TkR3OAZM3I4S7CYd1v3GgAAAAAQUIPAAAAAAA8TZvgOLPHki2JugRRiRKr; expires=Wed, 30 Sep 2026 07:44:22 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Thu, 02 Oct 2025 00:04:17 GMT
+Set-Cookie: visid_incap_243507=I5yI4eIzSfu487R2aaG9OzjB3WgAAAAAQUIPAAAAAAC7YgiPD0y/L755OoLQnDK0; expires=Thu, 01 Oct 2026 07:44:50 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 53-182088324-182088331 SNNy RT(1759277021178 71930) q(0 1 1 -1) r(1 1) U24
-X-Varnish: 66352398 66883607
+X-Iinfo: 9-69670549-69670554 SNNN RT(1759363384220 72989) q(0 0 0 -1) r(11 11) U24
+X-Varnish: 66610716
 
 b111
 
@@ -184,7 +184,7 @@ b111
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-399e15d2cb7b690ec8f07e30a2d45d6ab6bea4c0ff4404d138de49c147e67a92">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d2527e3f44b4e4e9134881603ff4818d980881aebda06c9086068f8789353c32">
   
     
       
@@ -198,7 +198,7 @@ b111
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b0e225c4362056eb6c0c05288e739884d3e17ab551d4e545a2482feff83ea0c5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b49774f6cdce3e6295ca7e313d5b13794610dfe16ca9f2806e1dc6cdeb3a8ed8">
   
     
       
@@ -372,7 +372,7 @@ b111
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a53bde38a9662bf553f8e1fb282cb7c97be858f61b184e959bce524daf3d1b30">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ae0fd8d15036239a4f5dd8c1548d30d39abf697c04763cf65141fe82b5f40b2c">
   
     
       
@@ -386,7 +386,7 @@ b111
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fc81ca9f05d3b33893005d8793fc1ac94073722de3e3bbc548c31804d6bda235">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-264086e2c73c3c6273464f193e31dbbf55410c68b2bd0f5606b72044291a44a1">
   
     
       
@@ -526,7 +526,7 @@ b111
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3227ecd7cbac5d2205f1b6f0216d3567f0954cb076b7bf4d4c980aab28edcd9f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3a6dd74ed7677b60cdd58ed700f3863882b3261d0813e25b3b4863e2bc91e014">
   
     
       
@@ -540,7 +540,7 @@ b111
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d5fc2b4afcf2fce7b0feead121941c3dde3fa12a11e808729cbfbf7b88ddb975">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-26ed86cc0eaaf54dfbbf818699635a28288338b6d2df880dbe0e4920f0b46f38">
   
     
       
@@ -709,7 +709,7 @@ b111
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-7944480416701e7d8590abdafef9a13e248364d3ed0de881ade88bd334a1b9e8">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-9f65f9f21d95a6e9a8d8b01bb3cbfe680c650a7f58d03174e799ea42a534d663">
   
     
       <div class="view-header">
@@ -1087,7 +1087,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=37&cb=1768224990" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=37&cb=1876458759" async></script></body>
 </html>
 
 
