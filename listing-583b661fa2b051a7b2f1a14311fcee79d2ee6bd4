@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing?page=3 HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=I5yI4eIzSfu487R2aaG9OzjB3WgAAAAAQUIPAAAAAAC7YgiPD0y/L755OoLQnDK0; nlbi_243507=SXLaLaW5AkQyO6lgaXmSIAAAAAAsfT7TUa5blk6qQsZAeC82; incap_ses_7224_243507=+TsSHcFCOiViGWPlOc5AZDjB3WgAAAAAqznb05WcP0TrTh7hFyqyYA==
+Cookie: visid_incap_243507=gOY+oSJmT12JO2Ld2eoJxbUS32gAAAAAQUIPAAAAAABlHyGT2wNckT1ybertU6zU; nlbi_243507=61woCcb7STKmN7E/aXmSIAAAAAC/yPenBgrRl+mrrxMxFxux; incap_ses_1347_243507=gbVvJYWo3SxKCLs1yIGxErUS32gAAAAA1TUjNI2uJCQpSvl63LBtYQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 624
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 02 Oct 2025 00:05:42 GMT
-Etag: "1759362917-gzip"
+Date: Fri, 03 Oct 2025 00:05:39 GMT
+Etag: "1759449939-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 01 Oct 2025 23:55:17 GMT
-Set-Cookie: visid_incap_243507=I5yI4eIzSfu487R2aaG9OzjB3WgAAAAAQUIPAAAAAAC7YgiPD0y/L755OoLQnDK0; expires=Thu, 01 Oct 2026 07:44:50 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Fri, 03 Oct 2025 00:05:39 GMT
+Set-Cookie: visid_incap_243507=gOY+oSJmT12JO2Ld2eoJxbUS32gAAAAAQUIPAAAAAABlHyGT2wNckT1ybertU6zU; expires=Fri, 02 Oct 2026 06:50:05 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
@@ -28,8 +28,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 9-69670549-69670554 SNNN RT(1759363384220 157979) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 68456827 23672430
+X-Iinfo: 11-99716273-99716274 SNNN RT(1759449782705 156693) q(0 0 0 -1) r(3 3) U24
+X-Varnish: 68111754
 
 10d7d
 
@@ -236,7 +236,7 @@ X-Varnish: 68456827 23672430
 
 
 
-  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-5a50d4ad900b921f921b18c304c15993e03e8ed64ce906cf546b886b26644745">
+  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-ccd7bc476c12e7467f278f2fd437c156003882784d3977cde6c3808b2e0db1ee">
   
     
       <div class="view-header">

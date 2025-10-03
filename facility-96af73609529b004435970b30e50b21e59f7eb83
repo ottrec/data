@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/cumberland-heritage-village-museum HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=I5yI4eIzSfu487R2aaG9OzjB3WgAAAAAQUIPAAAAAAC7YgiPD0y/L755OoLQnDK0; nlbi_243507=SXLaLaW5AkQyO6lgaXmSIAAAAAAsfT7TUa5blk6qQsZAeC82; incap_ses_7224_243507=+TsSHcFCOiViGWPlOc5AZDjB3WgAAAAAqznb05WcP0TrTh7hFyqyYA==
+Cookie: visid_incap_243507=gOY+oSJmT12JO2Ld2eoJxbUS32gAAAAAQUIPAAAAAABlHyGT2wNckT1ybertU6zU; nlbi_243507=61woCcb7STKmN7E/aXmSIAAAAAC/yPenBgrRl+mrrxMxFxux; incap_ses_1347_243507=gbVvJYWo3SxKCLs1yIGxErUS32gAAAAA1TUjNI2uJCQpSvl63LBtYQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 303
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 02 Oct 2025 00:04:09 GMT
-Etag: "1759363446-gzip"
+Date: Fri, 03 Oct 2025 00:04:04 GMT
+Etag: "1759449540-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 02 Oct 2025 00:04:06 GMT
-Set-Cookie: visid_incap_243507=I5yI4eIzSfu487R2aaG9OzjB3WgAAAAAQUIPAAAAAAC7YgiPD0y/L755OoLQnDK0; expires=Thu, 01 Oct 2026 07:44:50 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Thu, 02 Oct 2025 23:59:00 GMT
+Set-Cookie: visid_incap_243507=gOY+oSJmT12JO2Ld2eoJxbUS32gAAAAAQUIPAAAAAABlHyGT2wNckT1ybertU6zU; expires=Fri, 02 Oct 2026 06:50:05 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 9-69670549-69670554 SNNN RT(1759363384220 61936) q(0 1 1 -1) r(30 30) U24
-X-Varnish: 67498179
+X-Iinfo: 11-99716273-99716274 SNNN RT(1759449782705 61976) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 61337283 67828329
 
-24f1a
+25059
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ X-Varnish: 67498179
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/cumberland-heritage-village-museum" />
 <meta name="dcterms.title" content="Cumberland Heritage Village Museum" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-26" />
+<meta name="dcterms.date" content="2025-10-02" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -184,7 +184,7 @@ X-Varnish: 67498179
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-32580ee41730c55e755f878e7ffd3c031c834f50537be35c4b5ca94f92b5f733">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8cf52876169c58a11b717be815e67a0994633b95795c200a0152273820b0c2cf">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 67498179
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d152ff3b861c08b7cb290005ffeb3fdf72fe2749a1d9f9a4eeec3d18da1222ff">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f132d077cdef5c7c6c249220bc039dbb58fc86bbe9e374b3076b72ddbab9d8e4">
   
     
       
@@ -257,7 +257,23 @@ X-Varnish: 67498179
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Seasonal closure</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>The final day of the 2025 regular operating season will be <strong>Friday, October 10</strong>. Stay tuned for programs and special events year-round.</p>
+</div>
+      
+
+<div class="mb-3">
 
 
 
@@ -394,7 +410,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-91caa064cc7d8cc585963880c076e65db9e0be33e0ade07780548cd3230ce5bb">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a869b717346ca212f94660b781210be64dd5df66dff9f1a7ed11c6b04499b2ff">
   
     
       
@@ -408,7 +424,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9db96d8438d72ab3f35cc22918909501a2e768e52fb223ca2d5d682c0665489d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3e09b3511e624fdc898214e413416bf705cb1a819e07087d936e30a1d9c8d723">
   
     
       
@@ -508,7 +524,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f16eea74299817930d4eaf6b48cf53d3e6d1f68270053c5f94bbbdd65217bbd5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-080bd5384bee1777f9251e005457db60d0a9a38968534e89d1b7d74c14892d8b">
   
     
       
@@ -522,7 +538,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9b1f5268eb3463d55a0a56191f4b19a560cf0ace255f4ea8df910dd0468cdd4b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1f801d1f02b73eeafec706a88679af29e8e48f7fcb623b80345c1583cbfb2540">
   
     
       
@@ -597,28 +613,6 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
                   <div class="layout layout--bootstrap-grid-row-1 row">
 
             
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
-          
-      </div>
-
-                        </div>
-                                          
-                    
-                
-            </div>
-          
-      </div>
-</div>
-              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
-                  
-                          
-                
-                  <div class="layout layout--bootstrap-grid-row-1 row">
-
-            
                               <div class="col collapse-region">
                   <h2 class="no-toc">
                               
@@ -648,7 +642,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1a17d0d4a1915e0598fe50ca3028a1ce2ea894ac0b96ee72d4d28214eae83dd3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4c4873ac43925f9786747a29b4015a40996d01dc2640a29b454c7da7d872b915">
   
     
       
@@ -662,7 +656,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-33a224b1d453da4429a447a4e99d22901da6312bc7c17fab3e6b3714843f2301">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5c6edbee92a68ed5c8b23f5694da31786653ee84e4a915018d39196cd75e5664">
   
     
       
@@ -694,7 +688,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 <strong>Cost: $23.35 per group, plus tax&nbsp;</strong>(maximum of 6 people per group; children under 2 are not counted toward the group total).<br>
 <a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?locale=en-US&amp;activity_select_param=2&amp;activity_keyword=Halloween%20Hijinks&amp;viewMode=list">Advance registration is required.</a></p>
 <p><span>Celebrate all things silly, fun and a little bit spooky at Cumberland Heritage Village Museum. Activities are best suited for children 10 and under. Costumes are encouraged! </span> Admission ($23.35 plus tax) includes entry for up to 6 people (at least one group member in attendance must be an adult over the age of 18). Children under two are not counted toward the group total.&nbsp;</p>
-<p><strong>Featuring!&nbsp; Luciano Lu - stilt walker;&nbsp;</strong><strong>Chris Pilsworth - magician; Airbrush temporary tattoo artist.</strong></p>
+<p><strong>Featuring!&nbsp; Luciano Lu - stilt walker;&nbsp;</strong><strong>Chris Pilsworth - magician; Jacky - airbrush temporary tattoo artist.</strong></p>
 <p>*The Ottawa Valley Live Steamers and Model Engineers will be on site providing complementary demonstrations of their large-scale model locomotives on Sunday, October 27 only. Train demonstrations are weather dependent and may be cancelled without notice in the event of poor conditions.</p>
 <h4><strong>Notes</strong></h4>
 <ul>
@@ -776,7 +770,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-685e5872c04632c32220c207de73f1f3ef780c8765aaef23ac5e8a845072625e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fd75bf83079fa348270135508bd15b6636ef833afbd761d7fb1df255bac5000f">
   
     
       
@@ -790,7 +784,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-03d0a1ba3f1693da4b1851ee619deebab1a8f2eadd2386ba66e3e043452e2d93">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bbea69194b96fe1fb5fd742765f1a52635a61e8826e14e1b3349a9dd0e27c659">
   
     
       
@@ -1106,6 +1100,28 @@ Cost: $77.21 + tax (per person)<br>
                   <div class="layout layout--bootstrap-grid-row-1 row">
 
             
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 row">
+
+            
                               <div class="col collapse-region">
                   <h2 class="no-toc">
                               
@@ -1135,7 +1151,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6c2b2fbdf83bbff503141ab388e770d8cd045b4cb961e171cc70c0f2e3949c93">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-995d91b0f9ed71b3edd1b4a554dca6c548c7c94388cf1fec3848c5b766ce28d2">
   
     
       
@@ -1149,7 +1165,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-24c8d48779f322f6144a9b29a2d88b9f30eb0911ed596b857a9697c5e9fb4d44">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f3f7381575d4c193168198f513f008cd8be3a7dbf92ab7229275a082de7cdcaf">
   
     
       
@@ -1259,7 +1275,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-90ffb809c2cca928dce1c21e278608c4be9fa278b607855c55b63cfb47de2d9e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3b0d66b575009690ac853b0268fb838dab395f63601379ae795746f55e9d0a1f">
   
     
       
@@ -1273,7 +1289,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5cd36ae595784bc9e74e9c4ef5b8157a80f95e9bff92c58aa4885340d1a69abe">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b4a95648edcb6e7eee740ab51cb6f359d80e2c12784b2f02f0f9e640389631b0">
   
     
       
@@ -1305,10 +1321,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 <p><strong>Cost per child:</strong>&nbsp;<strong>$6.46 taxes included.</strong>&nbsp;A one to seven (1:7) adult to child ratio is required. There is no charge for adult chaperones.&nbsp;&nbsp;</p>
 <p><strong>Availability: </strong>November 26 to December 18, 2025. <strong>Wednesdays and Thursdays only</strong> from <strong>10 am to 12 pm</strong> and <strong>12 pm to 2 pm.</strong></p>
 <p><strong><a href="https://reservation.frontdesksuite.ca/rcfs/CumberlandHeritageVillageMuseum/Home/Index?pageId=4a800872-ed63-451a-8345-491f5d4c5061&amp;culture=en&amp;uiculture=en">New! Online booking form</a>.&nbsp;</strong>Your visit can be booked a maximum of 100 days in advance.&nbsp;<strong>By submitting the booking form, you confirm that you have read, acknowledged, and agreed to the information provided below ("Your health and safety" and "Other items to be aware of").</strong></p>
-<ul>
-<li>When completing the booking form, please use the address field to provide the museum with the name of the school/group and the grade (or age) of the children.</li>
-<li>After submitting the booking form, you will receive an automated confirmation email. If additional information is required to help prepare for your visit, a member of the museum team will follow up with you directly.</li>
-</ul>
+<p>After submitting the booking form, you will receive an automated confirmation email. If additional information is required to help prepare for your visit, a member of the museum team will follow up with you directly.</p>
 <h4><strong>Your health and safety</strong></h4>
 <ol>
 <li><span>Cumberland Heritage Village Museum is mainly an outdoor facility with hard packed gravel pathways between buildings. Visitors may encounter uneven ground. In winter, please wear proper footwear for snowy or icy conditions. </span></li>
@@ -1399,7 +1412,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8192234575688799d079523ddb4d4b63c4ac623af02fa8df8494c9c92e39085e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-64e31f48822c05f5715c4f3a22aac2f06e819e37b16ecd02f18d6278731cfddf">
   
     
       
@@ -1413,7 +1426,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4b72115b3b41bca62b59ad0c532e8a61b3bf8f705e4175d40b5a04c667da74ee">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-800ba49f01e24a4e143b43f70116b6ec6dacbb863239eadfd0a84cb6c7bfc4aa">
   
     
       
@@ -1515,7 +1528,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3c6fb7740222f74fb76ceae3871c5108d056f536368d325312af73eabb7fb4dc">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-852b12cf86467f61e98d5268721cedbc1b7f4f4b1caaa7176c886c029fd23d3f">
   
     
       
@@ -1529,7 +1542,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0ff206a341f2f21e58ef42d6cc74ba7abf0db25b8019783e4cf52acea7caf6fb">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fb88e14a8cd32fd14f354d56ae0ecad31aab7b8162fe57dca12a68819d15cba5">
   
     
       
@@ -1632,7 +1645,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2bef1e95bd825bb5454c34863c809fcabc4f0e70f8c7988e1776ccd61aaec4b3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-526a994f03dc3e9ca756747e284483f474dfc246cbffd6665f15f7822de3f363">
   
     
       
@@ -1646,7 +1659,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-177da0b8427113f8a82fe666e6b6c00c885a00b316af34ef7f63960c2f0b1c99">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-de539646ecb36bf040207e918f00b26fb63bbda1b19919e95555e79db462ed67">
   
     
       
@@ -1747,7 +1760,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4b9737051a30df1b29e02f7c02b6691172233392c26d55cc1cff30e2a6612603">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-200a4b4b39110fa2c2de4aefc779dcc784d6619d469aa63cb3b6f35e83b3f70e">
   
     
       
@@ -1761,7 +1774,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a2844304e2c696d080c933b3e6f562d5c46fd4c3bf1b55533d2a0acb8f07a710">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1d43a07c414f449fc1d063270b0a1daee8193c48da3ad652084cb430272341c7">
   
     
       
@@ -2665,7 +2678,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t1pj7h" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=57588467" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=6293787" async></script></body>
 </html>
 
 

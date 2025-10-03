@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/jack-charron-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=I5yI4eIzSfu487R2aaG9OzjB3WgAAAAAQUIPAAAAAAC7YgiPD0y/L755OoLQnDK0; nlbi_243507=SXLaLaW5AkQyO6lgaXmSIAAAAAAsfT7TUa5blk6qQsZAeC82; incap_ses_7224_243507=+TsSHcFCOiViGWPlOc5AZDjB3WgAAAAAqznb05WcP0TrTh7hFyqyYA==
+Cookie: visid_incap_243507=gOY+oSJmT12JO2Ld2eoJxbUS32gAAAAAQUIPAAAAAABlHyGT2wNckT1ybertU6zU; nlbi_243507=61woCcb7STKmN7E/aXmSIAAAAAC/yPenBgrRl+mrrxMxFxux; incap_ses_1347_243507=gbVvJYWo3SxKCLs1yIGxErUS32gAAAAA1TUjNI2uJCQpSvl63LBtYQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 113
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 02 Oct 2025 00:05:01 GMT
-Etag: "1759363386-gzip"
+Date: Fri, 03 Oct 2025 00:04:59 GMT
+Etag: "1759449898-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 02 Oct 2025 00:03:06 GMT
-Set-Cookie: visid_incap_243507=I5yI4eIzSfu487R2aaG9OzjB3WgAAAAAQUIPAAAAAAC7YgiPD0y/L755OoLQnDK0; expires=Thu, 01 Oct 2026 07:44:50 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Fri, 03 Oct 2025 00:04:58 GMT
+Set-Cookie: visid_incap_243507=gOY+oSJmT12JO2Ld2eoJxbUS32gAAAAAQUIPAAAAAABlHyGT2wNckT1ybertU6zU; expires=Fri, 02 Oct 2026 06:50:05 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,8 +28,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 9-69670549-69670554 SNNN RT(1759363384220 116992) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 66997758 68029545
+X-Iinfo: 11-99716273-99716274 SNNN RT(1759449782705 116225) q(0 0 0 -1) r(10 10) U24
+X-Varnish: 69405498
 
 9c7b
 
@@ -184,7 +184,7 @@ X-Varnish: 66997758 68029545
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-df71f575e0ba3c47e9e1b7e980aca8e116fb6d76579a262b5adb0bd7cfb1fc92">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-558b642b535f04e1fabe135b0c47847ab6dd83b2ae92e70fa96698d7e10679bd">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 66997758 68029545
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-07d3ad50fad76fbd8f4eafa697154045f11f33256d3a10c15ae716a1f03af577">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4e6b8d446da3014b49bccd66bd847416db741425b0e013f8803658f0077a42de">
   
     
       
@@ -385,7 +385,7 @@ X-Varnish: 66997758 68029545
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-53f34ebe2125ce7e1255388b1e9cb3043c71f0c136944d16974ae9b34b9bc092">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-77e77de0093487f37fc3cf47d46d373a8df99933dd3755316d760ca896b8a492">
   
     
       
@@ -399,7 +399,7 @@ X-Varnish: 66997758 68029545
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-66b9d29aed2dca9bcf9f60685b49fd8387c8fa7e324285fdbbc38d4b995c8390">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-511ef321e4b542f946395db74fc7682a048343ee9ced15335437407f955fcc9f">
   
     
       
@@ -607,7 +607,7 @@ X-Varnish: 66997758 68029545
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-05560f2a5839b7e43c4ba2801cf3417215bc96b0c2391d513b3ea3ef790f62d7">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-4e3d36fb54af43f41289dfde90e4373ecea1ae0d09c371029bdfd300bf8e07d7">
   
     
       <div class="view-header">
@@ -985,7 +985,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=59&cb=803763558" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=59&cb=652940970" async></script></body>
 </html>
 
 
