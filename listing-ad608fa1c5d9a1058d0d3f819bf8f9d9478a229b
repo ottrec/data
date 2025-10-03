@@ -1,25 +1,25 @@
 GET /en/recreation-and-parks/facilities/place-listing HTTP/1.1
 Host: ottawa.ca
-User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
+User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 407
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 03 Oct 2025 00:03:02 GMT
-Etag: "1759449375-gzip"
+Date: Fri, 03 Oct 2025 04:13:18 GMT
+Etag: "1759464798-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 02 Oct 2025 23:56:15 GMT
-Set-Cookie: visid_incap_243507=gOY+oSJmT12JO2Ld2eoJxbUS32gAAAAAQUIPAAAAAABlHyGT2wNckT1ybertU6zU; expires=Fri, 02 Oct 2026 06:50:05 GMT; HttpOnly; path=/; Domain=.ottawa.ca
-Set-Cookie: nlbi_243507=61woCcb7STKmN7E/aXmSIAAAAAC/yPenBgrRl+mrrxMxFxux; HttpOnly; path=/; Domain=.ottawa.ca
-Set-Cookie: incap_ses_1347_243507=gbVvJYWo3SxKCLs1yIGxErUS32gAAAAA1TUjNI2uJCQpSvl63LBtYQ==; path=/; Domain=.ottawa.ca
+Last-Modified: Fri, 03 Oct 2025 04:13:18 GMT
+Set-Cookie: visid_incap_243507=rdphiO7aTA+kxBxk0fqmsl1N32gAAAAAQUIPAAAAAABNQy/6z26QhvggqzdITUrY; expires=Fri, 02 Oct 2026 07:29:49 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Set-Cookie: nlbi_243507=/4kyTlp6K3NwHYVraXmSIAAAAAAtEVki7yG8lRk34NnXE2zQ; HttpOnly; path=/; Domain=.ottawa.ca
+Set-Cookie: incap_ses_1842_243507=84BoT6z7ij1RWINUxxmQGV5N32gAAAAAGgH/AH/r7al7huJsDPdvkw==; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
@@ -29,10 +29,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 11-99716273-99716274 NNNN CT(31 46 0) RT(1759449782705 14) q(0 0 1 1) r(1 1) U24
-X-Varnish: 69600490 69024136
+X-Iinfo: 55-225734186-225734192 NNNY CT(31 43 0) RT(1759464798094 41) q(0 0 0 1) r(4 4) U24
+X-Varnish: 69737461
 
-108c0
+108c1
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -236,7 +236,7 @@ X-Varnish: 69600490 69024136
 
 
 
-  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-708048fc55c691893bf8f65a7fe3e396ca98b3c1bf6d321501a70f075a3428e8">
+  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-b299f0347d50ee9264bef9c2c261ba58c38221e207e84087a7bd1560efe26368">
   
     
       <div class="view-header">
@@ -764,7 +764,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9kEuugzAMRTeUkEn3g5zgUrcOjhKnQFffVPCeoINOLN_j35W9iBbNkC7O_6f2XiyDYlGDizJNDzfkmoC7XZorBNTyRzfVhRuGh5fFzjSMqGYUGRl7hdGNLXzrDu6wnGE0DK_VfYIR1QB9kElxUredsBlZYLBXCbXsHXrDiM6vDDNTc3yk29QJfez31Naeccvr0u3Gj4WUaVJbJBCw9VX1e7KELMyYz5AUKaYsT7QwAa9KoZgkqaa-1PzE1R1Fq8yYPfUYPQ7upGxgah_43VKLSqQX5jf1CLYR"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=761061708" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1456256184" async></script></body>
 </html>
 
 
