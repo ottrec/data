@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/john-g-mlacak-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=rdphiO7aTA+kxBxk0fqmsl1N32gAAAAAQUIPAAAAAABNQy/6z26QhvggqzdITUrY; nlbi_243507=/4kyTlp6K3NwHYVraXmSIAAAAAAtEVki7yG8lRk34NnXE2zQ; incap_ses_1842_243507=84BoT6z7ij1RWINUxxmQGV5N32gAAAAAGgH/AH/r7al7huJsDPdvkw==
+Cookie: visid_incap_243507=R3BUTCIWQlypMxg5cYZ1VkJk4GgAAAAAQUIPAAAAAAAOxiCZJM2RZph+y9ebqMtQ; nlbi_243507=uCqwPSczgl2K5ESBaXmSIAAAAAB6jCC2rguM9IKstDesobQf; incap_ses_170_243507=EFhIKokrK0MsMr3LmfZbAkJk4GgAAAAA+Ip+dWdqLF79hEVuNOekKA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 123
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 03 Oct 2025 04:15:23 GMT
-Etag: "1759464922-gzip"
+Date: Sat, 04 Oct 2025 00:05:21 GMT
+Etag: "1759536197-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 03 Oct 2025 04:15:22 GMT
-Set-Cookie: visid_incap_243507=rdphiO7aTA+kxBxk0fqmsl1N32gAAAAAQUIPAAAAAABNQy/6z26QhvggqzdITUrY; expires=Fri, 02 Oct 2026 07:29:49 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Sat, 04 Oct 2025 00:03:17 GMT
+Set-Cookie: visid_incap_243507=R3BUTCIWQlypMxg5cYZ1VkJk4GgAAAAAQUIPAAAAAAAOxiCZJM2RZph+y9ebqMtQ; expires=Sat, 03 Oct 2026 07:44:27 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 55-225734186-225734192 SNNy RT(1759464798094 124456) q(0 0 0 -1) r(8 8) U24
-X-Varnish: 58425023
+X-Iinfo: 56-261577393-261577396 SNNy RT(1759536194145 127485) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 80396330 91085675
 
-c3c0
+c795
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ c3c0
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/john-g-mlacak-centre" />
 <meta name="dcterms.title" content="John G. Mlacak Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-02" />
+<meta name="dcterms.date" content="2025-10-03" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -184,7 +184,7 @@ c3c0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a08c22bd8f4a1a9f62e2182cbea89d647732b6d0fd81450fb8e47dd84f99baa9">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ebab8f217f72bd83a01dafa6e7be122ced729e1b2a67929c03340388085d1175">
   
     
       
@@ -198,7 +198,7 @@ c3c0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5fb18fd392072d1656762a23128a5bafe3a4327ed4811111d0b5931ccc9ae633">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7cf45798f6ab6a5e24eef9924822ff3765eeff4e428d30f067e404c738496c3a">
   
     
       
@@ -268,6 +268,29 @@ c3c0
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
                                                     
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Saturday, October 25</strong>
+<ul>
+<li>Family skate, 6 to&nbsp;6:50 pm,&nbsp;cancelled</li>
+<li>Public skate, 7 to&nbsp;7:50 pm,&nbsp;cancelled</li>
+</ul>
+</li>
+</ul>
+</div>
+      
+
+
 
 
   
@@ -451,7 +474,7 @@ c3c0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1d0fd823ef8cb9401dd865eda62b30fa768c6e8ccc1cfa9700c793470ece8a92">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-58d908d76f42b1e44fb3008689504d9559aedbebc90c4eb9ad49577ccefcb28f">
   
     
       
@@ -465,7 +488,7 @@ c3c0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ad2d6c942cf1518738ba918890919d34ea01fe6bf26b73dc0f8ef18d0491bc61">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-15a5900a6074fce080e30ff1c04908428a9c936fb6ccdf540d409170d2df382b">
   
     
       
@@ -604,7 +627,7 @@ c3c0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-633f6aa81155c6275d96d19fd3609480eac41adf704b8c5be82da649dedcc81e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1b54bad8986b37a9c98642293b786ada8a0c78b587127adb6192cdfa18d44f88">
   
     
       
@@ -618,7 +641,7 @@ c3c0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-88a8177bee3944ebbe3a14805026f7787e4885b362d27933c1ad180d5cb28593">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4bd4aa13f0ca3f9db71127d16262c68b3f6e9392503c711537f12d6b6f80f7d3">
   
     
       
@@ -649,6 +672,20 @@ c3c0
 <p><a href="https://ottawa.ca/en/recreation-and-culture/skating/drop-skating">Additional details, descriptions, fees and cancellation information</a>.</p>
 <p><strong><a href="https://ottawa.ca/en/recreation-and-parks/skating/safety-regulations" hreflang="en">Safety and regulations</a></strong></p>
 <p>Reservations not required.</p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Saturday, October 25</strong>
+<ul>
+<li>Family skate, 6 to&nbsp;6:50 pm,&nbsp;cancelled</li>
+<li>Public skate, 7 to&nbsp;7:50 pm,&nbsp;cancelled</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -816,7 +853,7 @@ c3c0
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-a1d83f7ab221cfea487d68b7fd18bce1e147bfb44684f569c086b12c1d0da6ce">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-e5c27f6b241ed88f78b0ebbcce81720abba8046b062ada2c1e840ffd12da8125">
   
     
       <div class="view-header">
