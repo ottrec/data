@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/overbrook-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=KjQgtiOsTcCmGbY9xXuw1Mq14WgAAAAAQUIPAAAAAABKrdzFUePqVIGRK6TL1OBc; nlbi_243507=mP+EXkBgRwkTfFSjaXmSIAAAAADCMXDUTBFAy9dsVahRcH6M; incap_ses_4558_243507=HanAGLg9x1Q/xJD7EUVBP8q14WgAAAAAA1F/3EiVcGG0eCOiD3it8g==
+Cookie: visid_incap_243507=bjb8IpUWRI6zLvnJQSzhWH3C4WgAAAAAQUIPAAAAAAAvo/X1ITerZZk7BQSqgbAa; nlbi_243507=3KnvdISguw/DXessaXmSIAAAAAD0Qe3jVXsCJvP45nkZHa9K; incap_ses_552_243507=BB7VA6KRIgdheCp7fhmpB33C4WgAAAAAp+phUfbi002DopKwCmz7qQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 633
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 05 Oct 2025 00:06:30 GMT
-Etag: "1759622156-gzip"
+Date: Sun, 05 Oct 2025 01:00:44 GMT
+Etag: "1759626043-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 04 Oct 2025 23:55:56 GMT
-Set-Cookie: visid_incap_243507=KjQgtiOsTcCmGbY9xXuw1Mq14WgAAAAAQUIPAAAAAABKrdzFUePqVIGRK6TL1OBc; expires=Sun, 04 Oct 2026 06:36:31 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Sun, 05 Oct 2025 01:00:43 GMT
+Set-Cookie: visid_incap_243507=bjb8IpUWRI6zLvnJQSzhWH3C4WgAAAAAQUIPAAAAAAAvo/X1ITerZZk7BQSqgbAa; expires=Sun, 04 Oct 2026 06:33:49 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
@@ -28,8 +28,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 57-282147006-282181983 SNNy RT(1759622603537 187182) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 101885884 105371846
+X-Iinfo: 10-172820858-172820862 SNNN RT(1759625853728 190076) q(0 0 0 -1) r(12 12) U24
+X-Varnish: 104444653
 
 bfa7
 
@@ -184,7 +184,7 @@ bfa7
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b34083eaa2a40f2286769b690e8e5658053c7386397cedd05ac9311790e50689">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0a02ccd6581210656c3d82ac37df9755468ec939d8a84dde7ee250c91e5e157e">
   
     
       
@@ -198,7 +198,7 @@ bfa7
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b797e9b419124a204cba0703325ecfa5affbf23ba574514ac3832a7aa4ce11fe">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f95289aefd446db6caa81c7c6705dd3c817a74f77a9b7a4015ede1c31f13edaa">
   
     
       
@@ -468,7 +468,7 @@ bfa7
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2e1ebd739e00cc2a0f486226fe13d151a7a87dca3b0d859fb358b4396d88b4d3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cc8b163aa694e4a7bc1c4bba41eeaaf1e2e4bd6ec1e628854b6a6fbf2f81c511">
   
     
       
@@ -482,7 +482,7 @@ bfa7
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7481452b94ca81ed9c5a6969f8d06f1484ef6aef3745b549a2de2d500118cb9b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-36fd433480f4ae7955884c033592b40e16b27cce22ab09a242e4c270d47bea8d">
   
     
       
@@ -740,7 +740,7 @@ bfa7
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-209a8d1f3c863a713a881484aa4e56fb08068c970928a035fdce2ce46778aa10">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-b24a6e67ea526aaa6b1b190554077ae8ad4de25133de4ace9045ec271e4adf1e">
   
     
       <div class="view-header">
