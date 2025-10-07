@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/plant-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=yinn0Dy3SSStZEzgP6ujJ0AH42gAAAAAQUIPAAAAAAB6mUvXFBEqTgzRh5DYfP9R; nlbi_243507=4GBOSntMin3wcXTLaXmSIAAAAADY3amb5IHMUN3GcNmCUMPA; incap_ses_1847_243507=HVTRCa075ysWCOPFHd2hGUAH42gAAAAA8TUZkkGYlaxZNJoNfb6dRA==
+Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; nlbi_243507=eonudyrZdTJH0UFYaXmSIAAAAAAcYaBDzFGfsO1LUA0Z1AWR; incap_ses_551_243507=U5Qqeit8FE2yZgWA/YulB8JY5GgAAAAABVYTlOlV+zEUwzVW/bLqRw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 646
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 06 Oct 2025 00:06:33 GMT
-Etag: "1759708545-gzip"
+Date: Tue, 07 Oct 2025 00:06:33 GMT
+Etag: "1759795593-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 05 Oct 2025 23:55:45 GMT
-Set-Cookie: visid_incap_243507=yinn0Dy3SSStZEzgP6ujJ0AH42gAAAAAQUIPAAAAAAB6mUvXFBEqTgzRh5DYfP9R; expires=Mon, 05 Oct 2026 07:47:30 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Tue, 07 Oct 2025 00:06:33 GMT
+Set-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; expires=Tue, 06 Oct 2026 06:34:09 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 35-86261731-86261733 SNNy RT(1759708992248 200733) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 106054706 106404033
+X-Iinfo: 4-152682263-152682264 SNNN RT(1759795395579 197490) q(0 0 0 -1) r(9 9) U24
+X-Varnish: 103496617
 
-10842
+10840
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -184,7 +184,7 @@ X-Varnish: 106054706 106404033
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-916a79eaab8e8ac2a2ccf911415b413b1effb45f01ee03135c3ea02919e3b322">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-13b40f4e97278430b212df92c68814cd04f8061e12fe5a3a117768741204b2a1">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 106054706 106404033
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-567e0900108af5657c828b83a67b7b34e3911d4f3d24472d35e6eea918b08ece">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4487d27777632e2741e777279ae5cc6d6c51de2601cf64ee06c9724f76e4b4c9">
   
     
       
@@ -302,7 +302,7 @@ X-Varnish: 106054706 106404033
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 7:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 7:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -477,7 +477,7 @@ X-Varnish: 106054706 106404033
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a450cb3ffa9e6ccd1779ec8e0129570b442b9f975dd9ccdd3b24dce6d69fdb1c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-80deedfd5491f421808a0735e81466b4b5cb452558699e71c91c88df19b6f7ab">
   
     
       
@@ -491,7 +491,7 @@ X-Varnish: 106054706 106404033
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-02e2810d968d8a161da187912461aaa49f79e7726145024b2a14519eec74ab16">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1f6b58782cb67768d3bfcf085b3c4571ce66f8b5f77d78a776d88f267e928a9d">
   
     
       
@@ -627,7 +627,7 @@ X-Varnish: 106054706 106404033
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8449648ab6bb52224387475bd68e8b1cd3d29be9e7735aad435fdf4fa731802d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4244f280f6efb169ebfd6d89e1f512c7b1f1504bf515b75bcb23ab865f977167">
   
     
       
@@ -641,7 +641,7 @@ X-Varnish: 106054706 106404033
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f384908919cc003e7c61c55dfd098a75099eda28d08d7caa340488160a86bb7b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-084fb04bd22fdbd1ad7cc2106e9ed305a0e1c3072db3b0039e936d21fbbd7902">
   
     
       
@@ -968,7 +968,7 @@ X-Varnish: 106054706 106404033
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3b0ac3d40db5d397520dd97e7ecc90d26da307a655578ff22fc12403d94fd1bf">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-033450e36bf9e1d3a1efa8083fba29d45c16339d4e8d57cac3acc6c1ea4c6c1c">
   
     
       
@@ -982,7 +982,7 @@ X-Varnish: 106054706 106404033
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4a23ed0978dc3f9df73f7a0b1000c365a6813f3db841f414854be44d0376cff4">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-581f5479fb3af37fa7ab23405c70447a4355ccaa21f1ecbe7020c309fe22a467">
   
     
       
@@ -1165,7 +1165,7 @@ X-Varnish: 106054706 106404033
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-65c3636f6c1b04e6e52736661a1c9a56406e2688bfb8ecb4b5c20dfe641eb149">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d9da82cc812eb103355af731c492be8153d6c05c139f9ce219ada342480581b6">
   
     
       
@@ -1179,7 +1179,7 @@ X-Varnish: 106054706 106404033
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c0bd182392ae6ae228d43415a0b0fa83021779f77e315d7b3c3077ce2e8f8819">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3bfb2c0176804e4d9c38ec28151ada844a51049ea9e222445375a49c2d459b7b">
   
     
       
@@ -1578,7 +1578,7 @@ X-Varnish: 106054706 106404033
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-f802800f24ae612b4511b957d7868b64d87bdd18827a6d783d240d2233075066">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-5b619f5541a099143df98c33e4573dc94c76e428bf329d8acdf28c0ac067bb5d">
   
     
       <div class="view-header">
