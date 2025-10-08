@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/brewer-pool-and-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; nlbi_243507=eonudyrZdTJH0UFYaXmSIAAAAAAcYaBDzFGfsO1LUA0Z1AWR; incap_ses_551_243507=U5Qqeit8FE2yZgWA/YulB8JY5GgAAAAABVYTlOlV+zEUwzVW/bLqRw==
+Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; nlbi_243507=qH8UGwaXx2dN1kSqaXmSIAAAAAD7RnBehcxmJhi05p3ap7dT; incap_ses_1842_243507=QXtdUGP0xAS4smRxxxmQGT2q5WgAAAAAJaZ2RyKAkiEAwTOSRnlpOQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 12
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 07 Oct 2025 00:03:50 GMT
-Etag: "1759795429-gzip"
+Date: Wed, 08 Oct 2025 00:03:44 GMT
+Etag: "1759881811-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 07 Oct 2025 00:03:49 GMT
-Set-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; expires=Tue, 06 Oct 2026 06:34:09 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Wed, 08 Oct 2025 00:03:31 GMT
+Set-Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; expires=Wed, 07 Oct 2026 07:29:53 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 4-152682263-152682264 SNNN RT(1759795395579 33969) q(0 0 0 -1) r(8 8) U24
-X-Varnish: 106998833
+X-Iinfo: 53-241680360-241680369 SNNy RT(1759881789729 34494) q(0 0 0 -1) r(2 2) U24
+X-Varnish: 100977107 100977091
 
-da4f
+de24
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ da4f
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/brewer-pool-and-arena" />
 <meta name="dcterms.title" content="Brewer Pool and Arena" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-30" />
+<meta name="dcterms.date" content="2025-10-07" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -59,7 +59,7 @@ da4f
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031566","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031566","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"5","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,10 +184,60 @@ da4f
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b7d4a4710e06291946225eb15fffc1b7fa35aa5d2dc1a8934cd8822d61f8e87c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-df21bda2cd280cb975c15caa675aa472082620f0e22bbf34915bc0fbdcb0a304">
   
     
       
+      <div class="view-content">
+          <div>
+<article class="node node--type-alert node--view-mode-default">
+  
+  <div class="node__content">
+    
+          
+  
+<div class="alert-info alert-dismissible fade show alert">
+  <div class="alert-message">
+      <h4 class="alert-heading"><div>
+
+
+  <span class="field field--name-title field--type-string field--label-hidden">Drop-ins: Technical problems with reservations</span>
+
+
+</div>
+</h4>
+    
+
+
+  
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>We are currently experiencing technical problems with our drop-in reservation system and hope to have it resolved soon. We apologize for the inconvenience.</p>
+</div>
+      
+
+
+  </div>
+      <button type="button" class="close" data-dismiss="alert">
+      <span class="sr-only">Close <h4 class="alert-heading"><div>
+
+
+  <span class="field field--name-title field--type-string field--label-hidden">Drop-ins: Technical problems with reservations</span>
+
+
+</div>
+</h4></span>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
+
+
+  </div>
+
+</article>
+</div>
+
+    </div>
   
           </div>
 </div>
@@ -198,7 +248,7 @@ da4f
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dd1485c2c96ca41a2448e082a1dbd56bc7f36c400a65672a9faf8441169173d9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-546e38392dce71b2cc3d7f59e46cf3330eafbf4ba6b7b92de1c9fc6904ff5e8e">
   
     
       
@@ -343,7 +393,7 @@ da4f
 <li><a href="https://ottawa.ca/en/recreation-and-parks/facilities/facility-rentals?facility_rentals_facets%5B0%5D=facility%3ABrewer%20Pool%20and%20Arena">Facility rentals</a></li>
 <li><a href="https://ottawa.ca/en/recreation-and-parks/facilities-and-rentals/rental-information/rent-ice#section-1860cc75-5216-4770-bae3-72b9b07a0e59">Ice or slab rentals</a></li>
 <li>
-<p><a href="https://www.ottawa.ca/en/recreation-and-parks/facilities-and-rentals/rental-information/pool-rentals">Pool rentals</a></p>
+<p>Pool rentals - please contact the facility.</p>
 </li>
 </ul>
 <p><strong>Program inquiries:</strong></p>
@@ -476,7 +526,7 @@ da4f
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ed4a3a937f8d914fad111e568b60f575f249a721e4822e5911686e36c2393983">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5c4e3ea06b41c591afe33006d7dbfc472ad1ca4a52360e0bc5fd6da50b56bd75">
   
     
       
@@ -490,7 +540,7 @@ da4f
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-604cbabe3046078b85966025d0eac1e6eb9b08d012022bc55ccaf195d10235a5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-41357511b094964e86bada0fc9192c34f1570321495786d01f24aceaea99b720">
   
     
       
@@ -707,7 +757,7 @@ da4f
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2ed5ba452c513a99b4b475d49f57d72b86c513a4cd452e23da1f58db521677ec">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-806ff020ccb2712b194d5ea2ac6da37c00fa391225ce63b79ccb1cfe56c12983">
   
     
       
@@ -721,7 +771,7 @@ da4f
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a941b444c6c2e07e90c9c4ac0768cc3b3a264415f7f902859eb6c497e5f02739">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2aad0934163ecaec5dfb7d690286913aa216e993dc7f4389adfb1150044439c8">
   
     
       
@@ -864,7 +914,7 @@ da4f
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a href="https://ottawa.ca/en/recreation-and-parks/facilities/facility-rentals?facility_rentals_facets%5B0%5D=facility%3ABrewer%20Pool%20and%20Arena">Enquire about availability and/or reserve a space with this facility</a>.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/facilities-and-rentals/rental-information/rent-ice#section-1860cc75-5216-4770-bae3-72b9b07a0e59">Ice or slab rentals</a><br>
-<a href="https://www.ottawa.ca/en/recreation-and-parks/facilities-and-rentals/rental-information/pool-rentals">Pool rentals</a></p>
+Pool rentals - please contact the facility.</p>
 <p>The City of Ottawa has hundreds of indoor and outdoor spaces suitable for special events, meetings, sports, and gatherings of all kinds. <a href="https://ottawa.ca/en/recreation-and-parks/facilities-and-rentals/rental-information">Find out more</a>.</p>
 </div>
       
@@ -916,7 +966,7 @@ da4f
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-f3093556b9875097d79d5614dc92bc281a11659ec31f5b1c485dc0012a710131">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-7e7a02f01bec936d396e9b864cf26e136032bd84546f1f25a42368dc9775376a">
   
     
       <div class="view-header">
@@ -1335,14 +1385,14 @@ da4f
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8HsLONJs53maLbM">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -1356,7 +1406,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1690098224" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1742837150" async></script></body>
 </html>
 
 

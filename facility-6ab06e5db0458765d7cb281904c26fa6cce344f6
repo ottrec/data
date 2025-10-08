@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/sawmill-creek-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; nlbi_243507=eonudyrZdTJH0UFYaXmSIAAAAAAcYaBDzFGfsO1LUA0Z1AWR; incap_ses_551_243507=U5Qqeit8FE2yZgWA/YulB8JY5GgAAAAABVYTlOlV+zEUwzVW/bLqRw==
+Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; nlbi_243507=qH8UGwaXx2dN1kSqaXmSIAAAAAD7RnBehcxmJhi05p3ap7dT; incap_ses_1842_243507=QXtdUGP0xAS4smRxxxmQGT2q5WgAAAAAJaZ2RyKAkiEAwTOSRnlpOQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 246
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 07 Oct 2025 00:06:59 GMT
-Etag: "1759795370-gzip"
+Date: Wed, 08 Oct 2025 00:06:53 GMT
+Etag: "1759882012-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 07 Oct 2025 00:02:50 GMT
-Set-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; expires=Tue, 06 Oct 2026 06:34:09 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Wed, 08 Oct 2025 00:06:52 GMT
+Set-Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; expires=Wed, 07 Oct 2026 07:29:53 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 4-152682263-152682264 SNNN RT(1759795395579 223484) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 106258844 107929346
+X-Iinfo: 53-241680360-241680369 SNNy RT(1759881789729 222664) q(0 0 0 -1) r(12 12) U24
+X-Varnish: 109029955
 
-ee17
+f294
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -59,7 +59,7 @@ ee17
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031642","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031642","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"5","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,10 +184,60 @@ ee17
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d697e5c7fc1f38e95ae5f79ff984f6b580fe395ddef851da1f9f643e76e727c9">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-50f262c324add57c89120f03bf55aa63f2fd09ad27c46698282bdda884b01e01">
   
     
       
+      <div class="view-content">
+          <div>
+<article class="node node--type-alert node--view-mode-default">
+  
+  <div class="node__content">
+    
+          
+  
+<div class="alert-info alert-dismissible fade show alert">
+  <div class="alert-message">
+      <h4 class="alert-heading"><div>
+
+
+  <span class="field field--name-title field--type-string field--label-hidden">Drop-ins: Technical problems with reservations</span>
+
+
+</div>
+</h4>
+    
+
+
+  
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>We are currently experiencing technical problems with our drop-in reservation system and hope to have it resolved soon. We apologize for the inconvenience.</p>
+</div>
+      
+
+
+  </div>
+      <button type="button" class="close" data-dismiss="alert">
+      <span class="sr-only">Close <h4 class="alert-heading"><div>
+
+
+  <span class="field field--name-title field--type-string field--label-hidden">Drop-ins: Technical problems with reservations</span>
+
+
+</div>
+</h4></span>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
+
+
+  </div>
+
+</article>
+</div>
+
+    </div>
   
           </div>
 </div>
@@ -198,7 +248,7 @@ ee17
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dc24ebcc2940126aae8d496133fe549be67884bbb5fa9830ef821ff9b60db838">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-090c1a5dd985e9c6a2106a862ff471330e5aef0d5da9ab547a5c6db82fc30f25">
   
     
       
@@ -461,7 +511,7 @@ ee17
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f67ef1cd1aa06ea3a0d6ffe11bb3600349839499d4b9a462eaa6a62cd5aba45f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-eca7e86aa7a141ce6f6c51591101bc1346533edaca66f7e1225a124a35761413">
   
     
       
@@ -475,7 +525,7 @@ ee17
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d7c7a5820eb113deb9d525174ffbcbb55973f307e28867451ef6c5a370a19895">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3f3adc5ae62c981812219d0050bebab822886a9a45ca3b42af8da3c7b44c3830">
   
     
       
@@ -628,7 +678,7 @@ ee17
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8aef554c3ca55f7c5d96a126cd5d0c379f67faa3e6bde1c23d30aa60434aa44d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-90ba67cf6f6676289914db9608e974cd08ebb725f7d6d0cf422bd0a5a76ad059">
   
     
       
@@ -642,7 +692,7 @@ ee17
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9fc51fb72409bd6ab06c137732452d4fa8643b1723556680f00e510a98046000">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3a9d51cc3e0aca0a75e7cfb8d8f01130259670c572357e9349a8bdb279d83645">
   
     
       
@@ -1010,7 +1060,7 @@ ee17
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-05d16ca28f8d612af7d2ca5b752a8cb44d72162b75448a10feef0d4b3d2cf253">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c6acceb986d053621b87d7bdd0d59894b847079a37282c38d1b048f4de5b274a">
   
     
       
@@ -1024,7 +1074,7 @@ ee17
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d90a744f608c3d88ccb1cbc97e83b8723d0aa672ccb3c3bc1a80c0cd93f0a5b6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a6484001611cc1d21ca661f38d3f207617b1565bb9fb25b773950a16921aa444">
   
     
       
@@ -1238,7 +1288,7 @@ ee17
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-2ea6c154f757e3b7865dc410edb4fd7c487200118f994a8cf40e54c10b3c5ad4">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-61f6d3cf30bd13660d0f249e65d8b5d65bff93b2f2346dfd482515065b46e017">
   
     
       <div class="view-header">
@@ -1620,14 +1670,14 @@ ee17
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8HsLONJs53maLbM">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

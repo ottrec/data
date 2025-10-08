@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/cumberland-heritage-village-museum HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; nlbi_243507=eonudyrZdTJH0UFYaXmSIAAAAAAcYaBDzFGfsO1LUA0Z1AWR; incap_ses_551_243507=U5Qqeit8FE2yZgWA/YulB8JY5GgAAAAABVYTlOlV+zEUwzVW/bLqRw==
+Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; nlbi_243507=qH8UGwaXx2dN1kSqaXmSIAAAAAD7RnBehcxmJhi05p3ap7dT; incap_ses_1842_243507=QXtdUGP0xAS4smRxxxmQGT2q5WgAAAAAJaZ2RyKAkiEAwTOSRnlpOQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 494
+Age: 231
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 07 Oct 2025 00:04:17 GMT
-Etag: "1759794961-gzip"
+Date: Wed, 08 Oct 2025 00:04:13 GMT
+Etag: "1759881616-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 06 Oct 2025 23:56:01 GMT
-Set-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; expires=Tue, 06 Oct 2026 06:34:09 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Wed, 08 Oct 2025 00:00:16 GMT
+Set-Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; expires=Wed, 07 Oct 2026 07:29:53 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 4-152682263-152682264 SNNN RT(1759795395579 62164) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 100025201 107042081
+X-Iinfo: 53-241680360-241680369 SNNy RT(1759881789729 63252) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 93379122 109124091
 
-2518f
+248cb
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -59,7 +59,7 @@ X-Varnish: 100025201 107042081
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUNFuwzAI_CEvftn_RNgmCQsxFuA22dc3W1c12gu6O9AdkETcXKF9xgSGIb35zJKAP8wPpjpfOxuawYwW8oqFXHSkWrB6YslrvOCQRTEW7Q14gC_Yn0IV3YDpGwPufpqvr5E_GibG3ZgK6unmOCs4SQ0Mh3QfC1mWG-oRpWIWDjJNlHFcpKvFKxmnnyR31CDuGUZfcMP_l11bJ-77cKcyo4cGCmd2W-y14FsZem09MdmCJdhhjtvzgzfCu8XfOmxSOuMDdaqMMQ" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3013601","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1293712"},"slider-gallery-carousel--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1293712","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1293712"}},"instances":{"slider-gallery--1293712":"slider-gallery--1293712","slider-gallery-carousel--1293712":"slider-gallery-carousel--1293712"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3013601","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"5","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1293712"},"slider-gallery-carousel--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1293712","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1293712"}},"instances":{"slider-gallery--1293712":"slider-gallery--1293712","slider-gallery-carousel--1293712":"slider-gallery-carousel--1293712"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ X-Varnish: 100025201 107042081
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-56e2910fe65b32545d36e0e2449f0d0bc8b71aa8285328d1c90b637145a5ebff">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dda733e922a308728638ac1d54db3e189d4eda098c975a7670bc285eea24b6ed">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 100025201 107042081
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0a5f7d45c6686babc76c740e14c5542fc669f6e254e3ea5f7cc4b8e0c801e5eb">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9d9008a5a68810c35442bce1c2e79b020b11d399d639449a3e05bf9731c37206">
   
     
       
@@ -410,7 +410,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-99ead1ea490185abf01b88746322c647256ebb0fac77e22623bfe7d4a5e50bca">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-37163a7386555d5554b6d3ca906e7b8df33f42431b4cda2f8d524dbf80426963">
   
     
       
@@ -424,7 +424,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2dbe9686eb0a46182a7cbf13edb3dea11d519970fe6b9eb25203ee5108422694">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b418aea523c323e90cfd57e4ab46c4588ea445e7ff773cbaf1b0f653d308ae0d">
   
     
       
@@ -524,7 +524,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f844c6b5b92e7c862ec3faa9365a859ea54793cbb2528456638cbd4aa6ceea90">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b12200100c8d180fae0dccc41fb6316a9db9d1e8faedb32fadbabffd8df56778">
   
     
       
@@ -538,7 +538,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8d76070e2ce49dd0f3144aa138c92f3e30e9ad2ecf96d90e3f3c93d412bad6d3">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-62b07f4ac35c2ec39d97e827f20945bc25e20ac49a11ab7581c9c55ffd0f4c63">
   
     
       
@@ -642,7 +642,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-23f93d7bccfc14e3ad72668e38e451915305a421c2f8b8cd1400dd79f7cb0e7f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-05b49f36081071a0f7312da49410e00738094c0e604042dcffb5e299488f1224">
   
     
       
@@ -656,7 +656,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8baa4996cbe0126c6f9cc7ceccc4291c363e37a592d53f3758e0b23f5f527a4c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3c930dca965f8547be24c4d52e43235c737604f916a48fb493725aa6a86170e3">
   
     
       
@@ -770,7 +770,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-04a238e3d49d83beb4a1cc93575c3de70a12f3a893da1bd495a198960dbf2bf7">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0ce6de8860aa4200bf7fff7b1a079b03589616f5c8e9f506481979ad03eadb5c">
   
     
       
@@ -784,7 +784,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-56ec9b75a51f67feef369a33aa657a446801625fecfcfb1e6c2125ff5f2c8225">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f4235a2c275303709f8552edbd6c867e79cbca2af3edb3e5a95499230ff15e5a">
   
     
       
@@ -812,7 +812,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Introduction to stained glass</strong></h3>
-<p>September 28, October 19 and November 2 from 1 pm to 5 pm<br>
+<p>October 19 and November 2 from 1 pm to 5 pm<br>
 Ages 16 and up<br>
 Cost: $102.95 + tax (per person)<br>
 <a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?locale=en-US&amp;activity_select_param=2&amp;center_ids=511&amp;activity_keyword=stained%20glass&amp;viewMode=list">Advance registration is required.&nbsp;</a></p>
@@ -820,20 +820,6 @@ Cost: $102.95 + tax (per person)<br>
 <p><strong>Notes:</strong></p>
 <ul>
 <li><span>The primary language of delivery for this program is English.</span></li>
-<li><span>Advance registration is required. Workshops with insufficient registration may be cancelled. If an alternative cannot be offered, a refund will be issued.</span></li>
-<li><span>Visit the <a href="https://ottawa.ca/en/family-and-social-services/older-adults/financial-assistance#section-89551f56-14c3-4f6e-b24c-5e5072350977">Ottawa Hand in Hand</a> web page for information on available financial supports to facilitate participation in recreation and culture programs.</span></li>
-<li><span>Please check-in at the Train Station (adjacent to the parking lot) on arrival at the museum. The pathways between buildings are packed gravel.</span></li>
-<li><span>If you have questions or concerns regarding accessibility, please contact the museum by phone at 613-580-2988 or by email at <a href="mailto:museecumberlandmuseum@ottawa.ca">museecumberlandmuseum@ottawa.ca</a>. Additional <a href="https://ottawa.ca/en/arts-heritage-and-events/museums-and-historic-sites/cumberland-heritage-village-museum/accessibility">information about accessibility</a> can be found on the museum web page.</span></li>
-</ul>
-<h3>"Initiation à la linogravure" (Introduction to linocut printmaking - presented in French)</h3>
-<p>October 5 from 1 pm to 5 pm<br>
-Ages 16 and up<br>
-Cost: $77.21 + tax (per person)<br>
-<a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search/detail/137496?onlineSiteId=0&amp;locale=fr-CA&amp;from_original_cui=true">Advance registration is required.&nbsp;</a></p>
-<p>Discover the basics of linocut printmaking and create your own greeting cards. Participants will familiarize themselves with the tools of the trade and learn beginner-friendly techniques to transfer an image onto an engraving block, carve the design, ink a block, and print the final product. You’ll leave with six cards to share with friends and family. All skill levels, including beginners, are welcome. A selection of design templates will be provided to spark inspiration. Supplies are included in the cost of registration. Light refreshments will be served.</p>
-<p><strong>Notes:</strong></p>
-<ul>
-<li><span><strong>The primary language of delivery for this program is French</strong>.</span></li>
 <li><span>Advance registration is required. Workshops with insufficient registration may be cancelled. If an alternative cannot be offered, a refund will be issued.</span></li>
 <li><span>Visit the <a href="https://ottawa.ca/en/family-and-social-services/older-adults/financial-assistance#section-89551f56-14c3-4f6e-b24c-5e5072350977">Ottawa Hand in Hand</a> web page for information on available financial supports to facilitate participation in recreation and culture programs.</span></li>
 <li><span>Please check-in at the Train Station (adjacent to the parking lot) on arrival at the museum. The pathways between buildings are packed gravel.</span></li>
@@ -1151,7 +1137,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fe10fb74799003d4ef2f0fc40a61eddc90282eb718b9e68c14e9ce262923c2f0">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3b6a27f0174281cf4d671d4d061224e18be367bb625dd3054f6602e9c0f00d7e">
   
     
       
@@ -1165,7 +1151,7 @@ Cost: $77.21 + tax (per person)<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2a972e650cdde092789aa3074622007c566a062912900d52b906e613cc394e31">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-df09f74a11da6539d60d7de95ac323c2e2d43a91ed59f40f70b72cb1d14865a1">
   
     
       
@@ -1275,7 +1261,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-76d7528ff2fb5869540bddf8fb3e5accd4e96f23b19b22b8b579f74ebf68aaf8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bbf14b106a36887684e53cad99c787801fc165f7673b899e86fb12f8a9fece5a">
   
     
       
@@ -1289,7 +1275,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1640c3c12bcd9ac69e1c8bbe6fe186e689f98932e442e5e30b3329722c6abea5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a1c6704bb693a69fa58c4f97999db3267cea7fc467bdea4efd27f9325aeab7c1">
   
     
       
@@ -1412,7 +1398,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-34006ad98b5b4e387b03b594e1f96ddf3a3df215bd6cb6d0765eb0ba4176c609">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-38498b6818ff00d675bebdec396fe6351a73e656ef1aeb25352da30687261827">
   
     
       
@@ -1426,7 +1412,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-76d7d208d4149d8d7279cf169a9ac52470469527a126ac3ce29a83c833b7a1f6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9cc97187e281b494d2a7122f3e5653432a0ec4cad3caf2ae2ae98cffc71a1431">
   
     
       
@@ -1528,7 +1514,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2f85cad6544efc82d3b92e238a49766b0aba8513956856682ed1bee7e6d47927">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0bc0b404efc83c972bbef5479471624272a2c1953c693eca4760a1ac25d0d365">
   
     
       
@@ -1542,7 +1528,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f7ed45f0824a3fd8028f619aaa81157771664f4a238df87d016089075b034914">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c273205b7fbe30dff9bdaff6c48e5a85b460b340b3b7c8e8d6589c96da0dcb1b">
   
     
       
@@ -1645,7 +1631,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3fbb86dba7a0ba8cb6746b81ab162062ccf750b04b5cb7264d9ddcda558a627c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2d8ff2842279251dea509cd838f48873227b1e13e40a930b9764fe5492a88fef">
   
     
       
@@ -1659,7 +1645,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-07600f38bfa59049051bf27b2784abb2c92734d048e88ed82ae94c5a6bd7366e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7af05bb57da38f90a625df4a29f792f6edacbb47b3c93849614cd015bf3359cb">
   
     
       
@@ -1760,7 +1746,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-774bf8ed23732323fbb474281c59f7b625ea2dbae3c4b386e90b9f04a06b579a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9cd110a53d2655f3ae4107bb8d1f099c204bca07b464bc6cf47650dfd0ab616f">
   
     
       
@@ -1774,7 +1760,7 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e5849707b78d6cad5c3c05c63e776165ff669609bdab20014360f5e608f12d44">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c2ced8a216091773a3c7a073bea2f1db2d1b571bd43d4dc0862076536f576362">
   
     
       
@@ -2656,14 +2642,14 @@ November 1, 7, 8, 14, 15, 21 and 22</p>
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8HsLONJs53maLbM">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -2678,7 +2664,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t1pj7h" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=349625928" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=574692073" async></script></body>
 </html>
 
 

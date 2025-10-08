@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/cardelrec-recreation-complex-goulbourn HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; nlbi_243507=eonudyrZdTJH0UFYaXmSIAAAAAAcYaBDzFGfsO1LUA0Z1AWR; incap_ses_551_243507=U5Qqeit8FE2yZgWA/YulB8JY5GgAAAAABVYTlOlV+zEUwzVW/bLqRw==
+Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; nlbi_243507=qH8UGwaXx2dN1kSqaXmSIAAAAAD7RnBehcxmJhi05p3ap7dT; incap_ses_1842_243507=QXtdUGP0xAS4smRxxxmQGT2q5WgAAAAAJaZ2RyKAkiEAwTOSRnlpOQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 202
+Age: 479
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 07 Oct 2025 00:03:55 GMT
-Etag: "1759795232-gzip"
+Date: Wed, 08 Oct 2025 00:03:50 GMT
+Etag: "1759881348-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 07 Oct 2025 00:00:32 GMT
-Set-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; expires=Tue, 06 Oct 2026 06:34:09 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Tue, 07 Oct 2025 23:55:48 GMT
+Set-Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; expires=Wed, 07 Oct 2026 07:29:53 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 4-152682263-152682264 SNNN RT(1759795395579 39969) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 107974426 107101020
+X-Iinfo: 53-241680360-241680369 SNNy RT(1759881789729 40342) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 108928248 108927916
 
-16b4c
+16f22
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ X-Varnish: 107974426 107101020
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/cardelrec-recreation-complex-goulbourn" />
 <meta name="dcterms.title" content="CARDELREC Recreation Complex Goulbourn" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-09-28" />
+<meta name="dcterms.date" content="2025-10-07" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -59,7 +59,7 @@ X-Varnish: 107974426 107101020
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031607","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031607","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UsuSAyEI_CFnvOz_WKjEkKhYgklmv37NPmdy2EsXTYNQjZ5ZRTu0N-tB0Pgd_w2XiywZFEX3esrsIS-iW6aa9kpBEUgoJlwxknJ3VCNW9ZnD1e5iE7ijrdwLZHpHgw-db11t7KNBXr-pScwpo1NINk145Stc4HFMFpNh46EukgS-Yd8sVwycZ_59s08wfDpRQHfm0cXuiTs9F1LFblg1gNMzFrSzO0OTOYLTnHTQXrzYSzMej_VOMaEehNap6iIcaHb6ocpVDgVCilRan_svUCFvSkFMgw5p2nyWH5v-MuuobfhMcsZoGrfRnIx-w83uyVTu2D05LB6jPbAlZJrX-b9kiHKZ9-pGNlEsX1_nRngX-4lr4TgyfgCH7u4z","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"5","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,10 +184,60 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-880630650851869d4231f9dcdb76c801a3a6889d36c6b87206131b42df5020a6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c8e405eb6809e12bd0c4d7f0de1edcbe0f200e96dd48120238da1ae3accb87c1">
   
     
       
+      <div class="view-content">
+          <div>
+<article class="node node--type-alert node--view-mode-default">
+  
+  <div class="node__content">
+    
+          
+  
+<div class="alert-info alert-dismissible fade show alert">
+  <div class="alert-message">
+      <h4 class="alert-heading"><div>
+
+
+  <span class="field field--name-title field--type-string field--label-hidden">Drop-ins: Technical problems with reservations</span>
+
+
+</div>
+</h4>
+    
+
+
+  
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>We are currently experiencing technical problems with our drop-in reservation system and hope to have it resolved soon. We apologize for the inconvenience.</p>
+</div>
+      
+
+
+  </div>
+      <button type="button" class="close" data-dismiss="alert">
+      <span class="sr-only">Close <h4 class="alert-heading"><div>
+
+
+  <span class="field field--name-title field--type-string field--label-hidden">Drop-ins: Technical problems with reservations</span>
+
+
+</div>
+</h4></span>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
+
+
+  </div>
+
+</article>
+</div>
+
+    </div>
   
           </div>
 </div>
@@ -198,7 +248,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-077cbe5ac5048ebf56e81eab65f824ec5852a390af775deaf495cddd46bfdce0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1c2422e2bb19fc51de1199aa5255f3bab10b50ec3173e185a099c9980eac19eb">
   
     
       
@@ -342,7 +392,7 @@ X-Varnish: 107974426 107101020
 <li><a href="https://ottawa.ca/en/recreation-and-parks/facilities/facility-rentals?facility_rentals_facets%5B0%5D=facility%3ACARDELREC%20Recreation%20Complex%20Goulbourn">Facility rentals</a></li>
 <li><a href="https://ottawa.ca/en/recreation-and-parks/facilities-and-rentals/rental-information/rent-ice#section-1860cc75-5216-4770-bae3-72b9b07a0e59">Ice or slab rentals</a></li>
 <li>
-<p><a href="https://www.ottawa.ca/en/recreation-and-parks/facilities-and-rentals/rental-information/pool-rentals">Pool rentals</a></p>
+<p>Pool rentals - please contact the facility.</p>
 </li>
 </ul>
 </div>
@@ -473,7 +523,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bb3392bc34360395f910a0a533f2ab7075ed2c927aadca9aa46b06191138b957">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5e93b81019ac569bbfaf4bf8298998290c87fdb464d1ddbe6c41fa253ff3f93a">
   
     
       
@@ -487,7 +537,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-290dfdb7bab9b0988c3ace7d9c81dfcee36dd7f20cecf8b6cb0f53719a160499">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dff7cfb518f921e5df998a5c7813728c5b0db7f31c41839a9c6f562ab7f6ad3c">
   
     
       
@@ -737,7 +787,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a990b003ffd249a9bbfb1ebe7e762e712f9d324f0c26bbf02c278c7846310651">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a469ba0ab9b90511d2462824f9bb76ba1d78173696074efbc938875c52abc5a1">
   
     
       
@@ -751,7 +801,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5efb2c4ab983bbc45bb5ccdb19395a10c8ace12f906728d82dc202c23e3e82c7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f9e370c8f44a31f1b85cdade7d1505f114e8778f3acbbabc94e77d3abc53ac2e">
   
     
       
@@ -990,7 +1040,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e584dc83ff973469d187223787f1205f5c2b55863b36599bdaea21c66a993835">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c685b6b739d1168765a1db30d4b8bd54a89c0023cc01e2995415f8e00d074c17">
   
     
       
@@ -1004,7 +1054,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f615081b80af68269f5b93a24c70fb61f196e5d408d4dcc96781186d335cb987">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b4622a1023f7222db761ed9942f524cac9f2bb1ea54756af1a7e229a8d19db57">
   
     
       
@@ -1182,7 +1232,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-74b08f22cd446229c2fda2d11e15c1bfd0917c4353dfa9700f65e5a4008efd3c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5350f05e1974ce355a9506f21bebeda9535227ab2fd97244cbbd4a6d9d79feae">
   
     
       
@@ -1196,7 +1246,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-85e940c731b21e7c409be4320ca4922a55253ba6ca4cfe7385f14dadba11ce46">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2b34631e452756785b5cbb411dd7e4ff9cbded6f77efe6d628b7992f8df7b7bd">
   
     
       
@@ -1570,7 +1620,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d6238127dfbfd101a586e613270eb61d8e70bfe669d658c7edd628f9889d4a3a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-65725f8f66b79459a9f41faa8103ac33907fabc9df067a631575b9057f4a2615">
   
     
       
@@ -1584,7 +1634,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cc0fe4fa185f187bbd297382a28367c48fe67e99b52d65271d02bc8fc5e3c9bd">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d959d03a7a915391967eb233b391423dac8bb5d5c18d4a8957df155da44944e7">
   
     
       
@@ -1809,7 +1859,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0c0acbb0df017c341c4de9013784f76a6de0bdf6f1e1ba139047660a45b2c42f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c659c08d8a0c23707961da205118a7c8b40031ed5a1b160a0ec702358b42e0a6">
   
     
       
@@ -1823,7 +1873,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-55e47b69248ddf296a363a8aa233b51720bbc5cbe86a56253cd7016045d0dea5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5d0fcc033dd0b7d2339382007e8cd426809a89f102dd18fe9274a9a946825d3b">
   
     
       
@@ -2069,7 +2119,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-95d00f65be82e8ce6457b18965b10b268d14af07ac8e092acb07c1e5470de8a6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-823f637f15418f503f2628b89925fefb31d227f9550fd0329b22bead96b31184">
   
     
       
@@ -2083,7 +2133,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c754379ca6760f6570287f4c2907920096894aea87168766951453974d39a8a9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-008c289fd179f6ba012f9c64c8ce5b62514873d6b4cb3453b4aa549bc82ada7b">
   
     
       
@@ -2303,7 +2353,7 @@ X-Varnish: 107974426 107101020
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a href="https://ottawa.ca/en/recreation-and-parks/facilities/facility-rentals?facility_rentals_facets%5B0%5D=facility%3ACARDELREC%20Recreation%20Complex%20Goulbourn">Enquire about availability and/or reserve a space with this facility</a>.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/facilities-and-rentals/rental-information/rent-ice#section-1860cc75-5216-4770-bae3-72b9b07a0e59">Ice or slab rentals</a><br>
-<a href="https://www.ottawa.ca/en/recreation-and-parks/facilities-and-rentals/rental-information/pool-rentals">Pool rentals</a></p>
+Pool rentals - please contact the facility.</p>
 <p>The City of Ottawa has hundreds of indoor and outdoor spaces suitable for special events, meetings, sports, and gatherings of all kinds. <a href="https://ottawa.ca/en/recreation-and-parks/facilities-and-rentals/rental-information">Find out more</a>.</p>
 </div>
       
@@ -2355,7 +2405,7 @@ X-Varnish: 107974426 107101020
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-c106a81414b5398c2649c1a18512aa44e655a7943b6612126aea17578f1593dc">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-c54aeaed9b3893cdfeb4881aca3f6a09bd6a57d74ad5911c75ba0901fce3f5fe">
   
     
       <div class="view-header">
@@ -2775,14 +2825,14 @@ X-Varnish: 107974426 107101020
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8HsLONJs53maLbM">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -2796,7 +2846,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=21&cb=468359754" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=21&cb=1998634619" async></script></body>
 </html>
 
 

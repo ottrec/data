@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/pinheys-point-historic-site-0 HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; nlbi_243507=eonudyrZdTJH0UFYaXmSIAAAAAAcYaBDzFGfsO1LUA0Z1AWR; incap_ses_551_243507=U5Qqeit8FE2yZgWA/YulB8JY5GgAAAAABVYTlOlV+zEUwzVW/bLqRw==
+Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; nlbi_243507=qH8UGwaXx2dN1kSqaXmSIAAAAAD7RnBehcxmJhi05p3ap7dT; incap_ses_1842_243507=QXtdUGP0xAS4smRxxxmQGT2q5WgAAAAAJaZ2RyKAkiEAwTOSRnlpOQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 433
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 07 Oct 2025 00:06:32 GMT
-Etag: "1759795589-gzip"
+Date: Wed, 08 Oct 2025 00:06:24 GMT
+Etag: "1759881550-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 07 Oct 2025 00:06:29 GMT
-Set-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; expires=Tue, 06 Oct 2026 06:34:09 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Tue, 07 Oct 2025 23:59:10 GMT
+Set-Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; expires=Wed, 07 Oct 2026 07:29:53 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 4-152682263-152682264 SNNN RT(1759795395579 194184) q(0 0 0 -1) r(33 33) U24
-X-Varnish: 107077560
+X-Iinfo: 53-241680360-241680369 SNNy RT(1759881789729 194669) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 108802193 108584859
 
-16925
+155b2
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -59,7 +59,7 @@ X-Varnish: 107077560
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvBANP71PZGCa0BiMsNlNevqNul1t1B9rHtaM5SBiap3apw-kcOHNF5ZA_KF2cK7L1SlQpQXq4oaUTfqca0K1wBI3f8EuSodPfTTiib5pfwpVeiHOP3DY7QzfXit_1H0xduWc0M80w9LJslTHdMiwOWWNckM_vFREYSdmkWZbUfD_6qt14rFP95wWmGvU6cxtq77K38o0ahuBs65ITg81lOd3bhl39b9zKpIG4wGR832r" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3015886","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9ksuyIyEIhl_IbjfzPl2ojPEExRJM0nn6YXIu053FbCh-PqAQDMwqOqD_8gEEXTjoH3f5kIVAUfTIM3EAWkR3Ki0fSUURyCguXjEV5bGVlrBpII5Xf_Bd5IG-8ahA5YkOH2q9rj6N2YHWL-l-Ez6ESsJhxYp5gBZuLjNnwk0h-2zmXa_wAY9zsDqCnaduqUjkG47dc8PIZPHn7v8ax6oRNr1gRW-EoIuVc7YuJ_b2_CMyfz7We0kZ9QT6sPkX4VisMkxVbnJKkKJYah822wINaNcS3zJee9gyENn4rsMA20e_yPfS_kXW2foMVOSCyXXus28yxw13fxRG7jhC2bAGTP6klkjFbvX_lCnK1a43nOyiWD8_0q3gXfzLrpXTJPwDlYfzmA","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1295296":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1295296"},"slider-gallery-carousel--1295296":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1295296","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1295296"}},"instances":{"slider-gallery--1295296":"slider-gallery--1295296","slider-gallery-carousel--1295296":"slider-gallery-carousel--1295296"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3015886","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9ksuyIyEIhl_IbjfzPl2ojPEExRJM0nn6YXIu053FbCh-PqAQDMwqOqD_8gEEXTjoH3f5kIVAUfTIM3EAWkR3Ki0fSUURyCguXjEV5bGVlrBpII5Xf_Bd5IG-8ahA5YkOH2q9rj6N2YHWL-l-Ez6ESsJhxYp5gBZuLjNnwk0h-2zmXa_wAY9zsDqCnaduqUjkG47dc8PIZPHn7v8ax6oRNr1gRW-EoIuVc7YuJ_b2_CMyfz7We0kZ9QT6sPkX4VisMkxVbnJKkKJYah822wINaNcS3zJee9gyENn4rsMA20e_yPfS_kXW2foMVOSCyXXus28yxw13fxRG7jhC2bAGTP6klkjFbvX_lCnK1a43nOyiWD8_0q3gXfzLrpXTJPwDlYfzmA","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"5","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1295296":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1295296"},"slider-gallery-carousel--1295296":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1295296","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1295296"}},"instances":{"slider-gallery--1295296":"slider-gallery--1295296","slider-gallery-carousel--1295296":"slider-gallery-carousel--1295296"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ X-Varnish: 107077560
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dd2eda1ae150a51e080d358562832392848c542588d724e0b46704b00b9f71ad">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9ea83d9c79b33a5aca62d554106eb902843cd8e7cb4a8ff1f49b561cd75fa65d">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 107077560
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-93da42a6f737bc4f5b8b247346869cd86f446846378d49604fa89f96c9474d28">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5d756efb7937e2ec54da1c9ce7d7cd68b30a9ee464d087a2ab9007c725ab729e">
   
     
       
@@ -395,7 +395,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b42f1c45fca0a735dc67313e5d4860a5b74e159287e0ac1a2ca58fa7f57f0d06">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ae99693e8240771a7ed2ce202ec6cce796dd46a8af2a72195b7dd7fa850948d8">
   
     
       
@@ -409,7 +409,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-34ea03422162f4edbe401615c5a239d93bba28d8f895581ca06de2b5c5a9708d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9017bb5e48038bf3408c4b400265fdd34db2162be99245e4da87f351084fcb5b">
   
     
       
@@ -526,119 +526,16 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
                   <div class="layout layout--bootstrap-grid-row-1 row">
 
             
-                              <div class="col collapse-region">
-                  <h2 class="no-toc">
-                              
-  <button aria-expanded="false" aria-controls="section-dfba48b6-1af0-4003-9fbf-9d3e1c1f2fd1" data-target="#section-dfba48b6-1af0-4003-9fbf-9d3e1c1f2fd1" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Upcoming workshops</button>
-
-                  </h2>
-                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-dfba48b6-1af0-4003-9fbf-9d3e1c1f2fd1">
-                  
+              
                                                                                       <div  class="layout__region layout__region--main col-12">
                           
                                                       <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
           
-            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
-<article class="node node--type-article node--view-mode-default">
-  
-  <div class="node__content">
-      <div class="layout layout--onecol">
-    <div  class="layout__region layout__region--content">
-      
-
-
-  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Upcoming workshops</h2>
-</span>
-
-
-<div class="views-element-container">
-
-
-
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c142dc833f2231b96595ebec58a8c21029bfe234623fc438f632eb86c01a3a1e">
-  
-    
-      
-  
-          </div>
-</div>
-
-
-</div>
-<div class="views-element-container">
-
-
-
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e6e6e3b9c4b9b7d4a356012338c02e73dd6ddcef37601e7c8bd049e48ef201fe">
-  
-    
-      
-  
-          </div>
-</div>
-
-
-</div>
-
-
-
-  
-      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
-              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
-                  
-                          
-                                  
-                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 row">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Wet felting: Flowers</h3>
-<p>Sunday, September 21 from 1 pm to 5 pm<br>
-Ages 16 and up.<br>
-Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search/detail/150213?onlineSiteId=0&amp;locale=en-US&amp;from_original_cui=true"><strong>Advance registration is required.</strong></a></p>
-<p>Learn to make felted flowers in a unique heritage setting. Led by Ann from Shepherds’ Spring Farm, you will combine merino wool and silk fibers to make felt using a wet felting process. You’ll then create two different styles of felted flowers, including making stems and stamens to add interest to your pieces. At the end of the workshop, participants will receive a pattern to inspire future projects at home. All skill levels, including beginners, are welcome. Supplies are included in the cost of registration; light refreshments will be served.</p>
-<p>&nbsp;<strong>Notes:</strong></p>
-<ul>
-<li>The primary language of delivery for this program is English.</li>
-<li>There are two accessible parking spaces located in the parking lot closest to the museum. The workshop will take place outside on a grass lawn and under sun cover, or inside the museum on the main floor. There is an accessible bathroom located via gravel path. Additional&nbsp;<a href="https://ottawa.ca/en/node/1007490/">information about accessibility</a>&nbsp;can be found on the museum web page. If you have questions or concerns regarding accessibility, please contact the museum by phone at 613-832-4347 or by email at&nbsp;<a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a>.</li>
-<li>Advance registration is required. Workshops with insufficient registration may be cancelled. If an alternative cannot be offered, a refund will be issued.</li>
-<li>Visit the&nbsp;<a href="https://ottawa.ca/en/family-and-social-services/older-adults/financial-assistance#section-89551f56-14c3-4f6e-b24c-5e5072350977">Ottawa Hand in Hand</a>&nbsp;web page for information on available financial supports to facilitate participation in recreation and culture programs.</li>
-</ul>
-</div>
-      
       </div>
 
                         </div>
                                           
                     
-                
-            </div>
-          
-      </div>
-</div>
-          </div>
-  
-
-
-    </div>
-  </div>
-
-  </div>
-
-</article>
-</div>
-      
-      </div>
-
-                        </div>
-                                          
-                                        </div>
-                  </div>
-                
                 
             </div>
           
@@ -746,7 +643,7 @@ Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommuni
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-da36a63d4ba9f0bc589f41e5e70f97951392b546be1a2225c2bc48cd6102e8a6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9c0bacec06848bb3f0875c2f8aa58d8c7b5c443663841dc349010c6ed6f6b87d">
   
     
       
@@ -760,7 +657,7 @@ Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommuni
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2c9b82e48956c72e58e7bd1f5a170a90186290bc74b56921fb02ff0dc4f86c79">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-15df786380190bd74078c04e7e10582cd2fcac2526d6c2e899b67a2d90d5b8cc">
   
     
       
@@ -887,7 +784,7 @@ Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommuni
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8155ebce9a855e3679ef3e766da51b8a60d76330c1a92b49cd591137f3cbcc41">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b88906d5daf5d12964a1a45384ff81db4731997d854f8d1e8007d3eeefc880ef">
   
     
       
@@ -901,7 +798,7 @@ Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommuni
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8d6646ca865cd7e457e618e99784b51af38314a583f3ce55ac6813703b8e9191">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5390b33c2fc348a873c7c20e034b72dd1429fb8a93b41226c66505e549f557e6">
   
     
       
@@ -1001,7 +898,7 @@ Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommuni
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0a270ac0b82dab05952688c9d090995f17064358d13762048953b665075f2135">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-13ef09a23cfadd1f3e3ff4e8570dad7b4703b0ec93c289a3f95b46d98f19e875">
   
     
       
@@ -1015,7 +912,7 @@ Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommuni
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-82a5ac0d6d4cc1c2ad0dfb8582cdfa9300fbe3bd7e40317353e217dd6ddac928">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-272370dcbd287f90dc41d6577163df7bba3c17215e581e8318c41f071a9bb758">
   
     
       
@@ -1118,7 +1015,7 @@ Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommuni
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e5243ca6ee9c1e73434569b56e6af94a22aa999d01b50d63824174b15b0c76f4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-592e7490396005cb6879e0f06f55419e92b8c1b63b7fb0fcb0ad039c4aaa611f">
   
     
       
@@ -1132,7 +1029,7 @@ Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommuni
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-26cb6c62cf708172f26c74e068d2041ae3ec03c19774a7dc04516787fba1e84c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-27368b8768867160f54b5b97204ff695dc5996c5a85c2a7d7e2a9c7ea29b50fc">
   
     
       
@@ -1233,7 +1130,7 @@ Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommuni
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-456e425259422c422ffb1e9094e17cd46cfcb24edbe75595e0c0189d2a68a8d4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3802c7bc38507049955f13caf6dbb62627ace84128ee2960c80b056e9b7f6e88">
   
     
       
@@ -1247,7 +1144,7 @@ Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommuni
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7068dc7593e2d9c6b125453ea4aa538aa494343b9df2447d8e5e10ab5ad09ee2">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f97cf8d11c5d995e60fac96aa0f4e2ea038f7a9b1ecd6a398c3dba1478c92111">
   
     
       
@@ -1897,14 +1794,14 @@ Cost: $62.50 + tax (per person) .&nbsp;<a href="https://anc.ca.apm.activecommuni
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8HsLONJs53maLbM">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

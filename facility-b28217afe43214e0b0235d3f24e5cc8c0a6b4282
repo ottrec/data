@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/st-laurent-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; nlbi_243507=eonudyrZdTJH0UFYaXmSIAAAAAAcYaBDzFGfsO1LUA0Z1AWR; incap_ses_551_243507=U5Qqeit8FE2yZgWA/YulB8JY5GgAAAAABVYTlOlV+zEUwzVW/bLqRw==
+Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; nlbi_243507=qH8UGwaXx2dN1kSqaXmSIAAAAAD7RnBehcxmJhi05p3ap7dT; incap_ses_1842_243507=QXtdUGP0xAS4smRxxxmQGT2q5WgAAAAAJaZ2RyKAkiEAwTOSRnlpOQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 54
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 07 Oct 2025 00:07:11 GMT
-Etag: "1759795629-gzip"
+Date: Wed, 08 Oct 2025 00:07:02 GMT
+Etag: "1759881965-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 07 Oct 2025 00:07:09 GMT
-Set-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; expires=Tue, 06 Oct 2026 06:34:09 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Wed, 08 Oct 2025 00:06:05 GMT
+Set-Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; expires=Wed, 07 Oct 2026 07:29:53 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -28,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 4-152682263-152682264 SNNN RT(1759795395579 233482) q(0 0 0 -1) r(23 23) U24
-X-Varnish: 106929296
+X-Iinfo: 53-241680360-241680369 SNNy RT(1759881789729 232661) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 109187472 108798681
 
-19d5a
+1a1d7
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -59,7 +59,7 @@ X-Varnish: 106929296
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUNFuwzAI_CEvftn_RNgmCQsxFuA22dc3W1c12gu6O9AdkETcXKF9xgSGIb35zJKAP8wPpjpfOxuawYwW8oqFXHSkWrB6YslrvOCQRTEW7Q14gC_Yn0IV3YDpGwPufpqvr5E_GibG3ZgK6unmOCs4SQ0Mh3QfC1mWG-oRpWIWDjJNlHFcpKvFKxmnnyR31CDuGUZfcMP_l11bJ-77cKcyo4cGCmd2W-y14FsZem09MdmCJdhhjtvzgzfCu8XfOmxSOuMDdaqMMQ" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031634","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--986736":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--986736"},"slider-gallery-carousel--986736":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--986736","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--986736"}},"instances":{"slider-gallery--986736":"slider-gallery--986736","slider-gallery-carousel--986736":"slider-gallery-carousel--986736"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031634","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkuWAyEIvJDdbuY-PlRinKD4BJN0Tj9O5tedxWx4FAUChZ5ZRTu0N-tB0Pgd_nWXd1kIFEX3fCL2QIvoRrmmPVNQBBKKCReMWbm7XCNW9cThYne-CdzRVu4FKD_Q4F3nWxcb-2hA6zc0J8K7UI7YZ7Fi6qCZq0nMidApJJumecUrvMP9GCyGYOOhLmYJfMW-Wa4YmGb8sdlPY_h0ygHdmUcXuwfu9DmnKnbDqgGcnrGgndUETWYLTrPTgXuRaE9Nf9zXW44J9UC0PndchEOelX6ocpVDgmTFXFqf8y9QgTbN4SXjqZVLQDRXNA06TM3aWX6E_Yuso7bhKcsZo2ncRnMy-hU3uweTuWH32WHxGO0BLYHyvOf_KUOUy7xwN7KJYvn6bNeMN7FPuxaOg_ADN3UCLQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"5","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--986736":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--986736"},"slider-gallery-carousel--986736":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--986736","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--986736"}},"instances":{"slider-gallery--986736":"slider-gallery--986736","slider-gallery-carousel--986736":"slider-gallery-carousel--986736"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,10 +184,60 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-da52aeddc7b886e18fe58e85181f6abb82fe6114d75a6b33cb496402640e174b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-80367a3e477f0c508612cf397c47b2fde46969e14810de8dbd112a35d4fc381f">
   
     
       
+      <div class="view-content">
+          <div>
+<article class="node node--type-alert node--view-mode-default">
+  
+  <div class="node__content">
+    
+          
+  
+<div class="alert-info alert-dismissible fade show alert">
+  <div class="alert-message">
+      <h4 class="alert-heading"><div>
+
+
+  <span class="field field--name-title field--type-string field--label-hidden">Drop-ins: Technical problems with reservations</span>
+
+
+</div>
+</h4>
+    
+
+
+  
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>We are currently experiencing technical problems with our drop-in reservation system and hope to have it resolved soon. We apologize for the inconvenience.</p>
+</div>
+      
+
+
+  </div>
+      <button type="button" class="close" data-dismiss="alert">
+      <span class="sr-only">Close <h4 class="alert-heading"><div>
+
+
+  <span class="field field--name-title field--type-string field--label-hidden">Drop-ins: Technical problems with reservations</span>
+
+
+</div>
+</h4></span>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
+
+
+  </div>
+
+</article>
+</div>
+
+    </div>
   
           </div>
 </div>
@@ -198,7 +248,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-945bd46903bcedc78f7eedcfb419ac5d2307110bb0ac1d1198b436161fb30c7d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5a94e4fdc0f316223f0734b38e46623587eb7605aa3f16567b14325163e6e4a1">
   
     
       
@@ -471,7 +521,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f1674623331e5c562d11bd95fced44619358c7eb4a6a9251fe87387c2f928225">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b0a9b5a92fc8985c8545a8b03ff5411ee0c939f15654c9b43cb00d35bc0dbbf0">
   
     
       
@@ -485,7 +535,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cfb417de6f3c1b7a0ddb7daa6e1a0f9c601167da1c44cc0607af2721d889aecd">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c11466180d2fdc48a669e10ee180af8ae9c4eb6cc4d18bc8f9da463c5765a9c2">
   
     
       
@@ -658,7 +708,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8ed9ebc3b5adb73d93b91df83642bfcf5cfbb23e05b4997376e15721d7e3cd91">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7002cbe922f56cd486983a24a23031a8abdff9dbf578f824c106a1fcab7468fd">
   
     
       
@@ -672,7 +722,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-af442475311c7a10d094ba71923a360e9b3fc5e3c6707b590560662c73dbcb8e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9763f5bc086bad6dd5a6bccec2c8aa0762535dfd42738eaac1f93ba1a5c5a233">
   
     
       
@@ -787,7 +837,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b804690e0f5d243ae2f52f191c76e51f33bfd52b5ca2c8a92fa6164ea66f6acb">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-651a1e5e9c6068e7351f1082ad5a29feeafad2630e8f3d0dd001f96eb8e8ebf3">
   
     
       
@@ -801,7 +851,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bd3b6cd90dbfad87618e2b93f8eea6e2e9cedccb139f7ffe4efeb7b396c47a6d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c2a7773d0812ba2d3e63e11000668079d4c0f76688adeadca661b0e40ba59449">
   
     
       
@@ -963,7 +1013,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cb38d0136ebe54f76cb575b1b84a5af32eab8a26b149f19abbdb823e275d281f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-010c13f038d6f7d3cf30f7e31aa11578384e81c8b625fc37c39c49b10bcd4f8e">
   
     
       
@@ -977,7 +1027,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-451a206f0cea9e3c77185c3cb9cfa4a21383227851f837a101e4504ccfa52d0a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f54f0289f1d8829069615a61bc45f2ecc544d0f16bf72c4217ce3256e15e4a9e">
   
     
       
@@ -1196,7 +1246,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e0fced198605244e4aeceb75f45fd7d88a5852ce2429de2aafc7353a5757355d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9f2db13441a70f607a97694e1fd473460d5a7ab84a8823e58903bfe5e2ef19ec">
   
     
       
@@ -1210,7 +1260,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-733fa292a83c5e9d7839326865e772f93bcad55d58b020c3c05080b5c7a5613b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b3fb53329a870c2ed62a50b79c0235a769b410b068689f95cd72034188b7fc54">
   
     
       
@@ -1381,7 +1431,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6edbb3e204169e74df02f510de11fe42667e1f9cbfabfae17468e2d18e0385fe">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8277ec68d88f72fb478fe33dfa0f43f5fe5a463f227ba3585d540233c3c611b4">
   
     
       
@@ -1395,7 +1445,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-47a14b98614a0b15af67bafb21dadf3861de0c44e1b8d5f3d04d5a7745c0ac37">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-363edc9bd6a6e06c128dc14cb15934c0bbf270cfaac9e27ad396dc05dc03ee44">
   
     
       
@@ -1602,7 +1652,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0a1b359af2f20a56cb966dd5a11fb70e843e424eb4e37689e63ef2a3127a6e71">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0a5b4090f73289090bae22195759e691349226779340f1c4553abd0dd00bf778">
   
     
       
@@ -1616,7 +1666,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-01b60bcfb870b976a00cde93a3076d8232ee1df38ef00dd1bb53aa68e1737af7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3d0a23fd3d86bff38d0525f5603562e32e59e2d56230cf9f576703c01bb1772e">
   
     
       
@@ -1883,7 +1933,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-bf8968cbf0adccefab9cadb783144f2150ec76a5f99786281bea8bc9f1da1a3a">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-5ada8eca20c8647f997fe78d7f14d5113cc3dacaaef8b7efe4f4dddca0a1b529">
   
     
       <div class="view-header">
@@ -1974,7 +2024,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-eda2bcabcd9ebc6ddf2e8347887f8bddfe8abf28c28714b2d02dcebd12fc97fa">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0c06a2366dddd9ade6cb7b0dd16577a087ecac5f3485818627a00ab2a5ecd93c">
   
     
       
@@ -1988,7 +2038,7 @@ X-Varnish: 106929296
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fa3a4810f8fe66b2c57caf4609c95a6d3f8f65fa1224121f0bb427fa29c39855">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0198193755c792d28b09feca679272b4d4df617d5327f982101185090eaa5a18">
   
     
       
@@ -2557,14 +2607,14 @@ City of Ottawa</p>
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8HsLONJs53maLbM">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

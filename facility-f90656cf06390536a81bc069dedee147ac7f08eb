@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lansdowne-park HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; nlbi_243507=eonudyrZdTJH0UFYaXmSIAAAAAAcYaBDzFGfsO1LUA0Z1AWR; incap_ses_551_243507=U5Qqeit8FE2yZgWA/YulB8JY5GgAAAAABVYTlOlV+zEUwzVW/bLqRw==
+Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; nlbi_243507=qH8UGwaXx2dN1kSqaXmSIAAAAAD7RnBehcxmJhi05p3ap7dT; incap_ses_1842_243507=QXtdUGP0xAS4smRxxxmQGT2q5WgAAAAAJaZ2RyKAkiEAwTOSRnlpOQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 466
+Age: 549
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 07 Oct 2025 00:05:37 GMT
-Etag: "1759795068-gzip"
+Date: Wed, 08 Oct 2025 00:05:32 GMT
+Etag: "1759881380-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 06 Oct 2025 23:57:48 GMT
-Set-Cookie: visid_incap_243507=EQ515m0HQqSaLAXqZHgJCcJY5GgAAAAAQUIPAAAAAABDfMvg2kd7YOj/y2o6GgcR; expires=Tue, 06 Oct 2026 06:34:09 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Tue, 07 Oct 2025 23:56:20 GMT
+Set-Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; expires=Wed, 07 Oct 2026 07:29:53 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 4-152682263-152682264 SNNN RT(1759795395579 141857) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 107929534 107951211
+X-Iinfo: 53-241680360-241680369 SNNy RT(1759881789729 142344) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 107231814 108515293
 
-25d67
+25d4e
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -59,7 +59,7 @@ X-Varnish: 107929534 107951211
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css__BzoYDnbHMmrYiFSh96avEQ3e9ez5OKomOkGZuSJfmQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvBANP71PZGCa0BiMsNlNevqNul1t1B9rHtaM5SBiap3apw-kcOHNF5ZA_KF2cK7L1SlQpQXq4oaUTfqca0K1wBI3f8EuSodPfTTiib5pfwpVeiHOP3DY7QzfXit_1H0xduWc0M80w9LJslTHdMiwOWWNckM_vFREYSdmkWZbUfD_6qt14rFP95wWmGvU6cxtq77K38o0ahuBs65ITg81lOd3bhl39b9zKpIG4wGR832r" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031552","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9ksuyIyEIhl_IbjfzPl2ojPEExRJM0nn6YXIu053FbCh-PqAQDMwqOqD_8gEEXTjoH3f5kIVAUfTIM3EAWkR3Ki0fSUURyCguXjEV5bGVlrBpII5Xf_Bd5IG-8ahA5YkOH2q9rj6N2YHWL-l-Ez6ESsJhxYp5gBZuLjNnwk0h-2zmXa_wAY9zsDqCnaduqUjkG47dc8PIZPHn7v8ax6oRNr1gRW-EoIuVc7YuJ_b2_CMyfz7We0kZ9QT6sPkX4VisMkxVbnJKkKJYah822wINaNcS3zJee9gyENn4rsMA20e_yPfS_kXW2foMVOSCyXXus28yxw13fxRG7jhC2bAGTP6klkjFbvX_lCnK1a43nOyiWD8_0q3gXfzLrpXTJPwDlYfzmA","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1098746":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1098746"},"slider-gallery-carousel--1098746":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1098746","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1098746"}},"instances":{"slider-gallery--1098746":"slider-gallery--1098746","slider-gallery-carousel--1098746":"slider-gallery-carousel--1098746"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031552","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9ksuyIyEIhl_IbjfzPl2ojPEExRJM0nn6YXIu053FbCh-PqAQDMwqOqD_8gEEXTjoH3f5kIVAUfTIM3EAWkR3Ki0fSUURyCguXjEV5bGVlrBpII5Xf_Bd5IG-8ahA5YkOH2q9rj6N2YHWL-l-Ez6ESsJhxYp5gBZuLjNnwk0h-2zmXa_wAY9zsDqCnaduqUjkG47dc8PIZPHn7v8ax6oRNr1gRW-EoIuVc7YuJ_b2_CMyfz7We0kZ9QT6sPkX4VisMkxVbnJKkKJYah822wINaNcS3zJee9gyENn4rsMA20e_yPfS_kXW2foMVOSCyXXus28yxw13fxRG7jhC2bAGTP6klkjFbvX_lCnK1a43nOyiWD8_0q3gXfzLrpXTJPwDlYfzmA","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"5","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1098746":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1098746"},"slider-gallery-carousel--1098746":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1098746","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1098746"}},"instances":{"slider-gallery--1098746":"slider-gallery--1098746","slider-gallery-carousel--1098746":"slider-gallery-carousel--1098746"}},"user":{"uid":0,"permissionsHash":"1bbb9d09ebb40a46108c20044dcd1455eea6e881c1d34c038d28d59babdc6a4f"}}</script>
 <script src="/sites/default/files/js/js_IUhsbUvX21Ps3hl64WY4cANcOV18BWSTsBE14gne23g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t1pj7h"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t1pj7h"></script>
@@ -184,7 +184,7 @@ X-Varnish: 107929534 107951211
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3007ece889b9c455bc26f644878ffd7b00410c8dfdfeb50d6b3a4ff0f82b1d04">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-093f4d28eb27536302ae23071aef0ab88047077758ec5f77dcc7359ade45b9ec">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 107929534 107951211
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-69a645622bdd2187b6ab80d38c5f17272a2e027fb86ef4de25a02768b6adbc06">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9cb82c63215179bb47158efbe33002eb8491329a62e6d84642f0af99e5332c17">
   
     
       
@@ -409,7 +409,7 @@ X-Varnish: 107929534 107951211
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ab4c42510acdf5efe0d96ae8fdf27b87c01ecaa95ae037b5f388a826b817fa35">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c9bbe8598f7521210117bfffb931cc0723ba8952d17727fb8feec8a1091b0dcc">
   
     
       
@@ -423,7 +423,7 @@ X-Varnish: 107929534 107951211
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-98442a09c201a4049e952bf4f7107a90f1935d822c700e9eccab74b25cc4734d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-299f58469e93963a0ec87a5c54294e10856a937303c1fe8ed8d9e02812c77d5c">
   
     
       
@@ -559,7 +559,7 @@ X-Varnish: 107929534 107951211
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-a1bd4353ca1f5a7ed18e5879c0bb86c5d70ecdf24b7a10e62ac1673b9752120c">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-4c14c80f31cc3e9c8a95e2c2ff558156743d737ef1b31eee996c3d0970a4caad">
   
     
       <div class="view-header">
@@ -650,7 +650,7 @@ X-Varnish: 107929534 107951211
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dc35a6f7df2e7259b6e95c989d918441f400693b6a2a3635aa58ac595d2a7570">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-68c8f3e5562685767317a371230de425c67e60d7c894509cbaec33e1d066fa62">
   
     
       
@@ -664,7 +664,7 @@ X-Varnish: 107929534 107951211
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5315842e3279b2c0dde728082848b82c0aa0c81f313c2710821420e0efa9970c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7e42373da8ed81dffbf1d954dd380dfce0d912b1255d2a8ded0170ad03f721ad">
   
     
       
@@ -812,7 +812,7 @@ X-Varnish: 107929534 107951211
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a89a9ff2e2d0713982531ec826c5422040b1560bdd4100d0b8ed40ef11f7c4af">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6aac6b0af69f835a78c381a60768f4dc207c7ee810b68b230715c0f6bf45917c">
   
     
       
@@ -826,7 +826,7 @@ X-Varnish: 107929534 107951211
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1812d1f7d2952507ee4d0baefda2ad1dbe080c24e1c4c1ba3eeeee94bd257e03">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1fb68c11daecd8e2901bb02cc6969120511194ff072412b99077331d8a8b2073">
   
     
       
@@ -970,7 +970,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-58957057a19ea7f9b31f14fd56292cc96ed8e267d8eb5fa0dc6d512589360641">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ca35c2633f67c05cfeb7a6a374b273b7ca63904bb384b6602da7d65321091183">
   
     
       
@@ -984,7 +984,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0b2cc2856ff23e55a14db2299cb551a31d39ef7ca94492bc680c6a16cd1a7ff0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-418f59a73dcb7e9726c2d080e38ccef16ca797032c11ca1506ff12830f7c0fe9">
   
     
       
@@ -1691,7 +1691,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-378c6a3a65eaf02023192dc71345ae5e8cb99568a0d596d6f988e20ccd65b31d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-adec52d7c13bea7736a0e6dc1926b2f03d5bff73f4bf0135d2dbf674bf7c282a">
   
     
       
@@ -1705,7 +1705,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dcefa1eca525d9cfd2de91d34bac87d27e63d8c9ef69d72cdcdd814839c21098">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-df1f1dcbcfc4dfb4ed85ffedd8cd6472c946266464b46b29ae3119d77709d599">
   
     
       
@@ -1805,7 +1805,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ebfd48274976634ffda080f913e51b30eccf80637b83096648dcb9de24a25f52">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-db3fbac434498a0ea8cacdaaa8bfdbe9861525d48a0637a3493aeb3e00270b12">
   
     
       
@@ -1819,7 +1819,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-59f39adc19f124d7659772b4a542b9193b225e94b3b376f55b3a1ed011a5a54e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0d7bad3f0c2d2a910c0be7623d62579e44667cfa8d21ab92a4a0d68734f72f8a">
   
     
       
@@ -1920,7 +1920,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cf311aae9c343024dc8b5ab768a2607020568b165b5bd187ec63ffb1304b2154">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9398a8a7d69900f0b3fa886321d73e3bbf6be46abda8757565e9332b6a14a0a5">
   
     
       
@@ -1934,7 +1934,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3bf1d7ecc1b6d03d13a2fe72afc6e7fc934e33e7dbce2aaf72ae51086d992cb9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5ffb95bb315db1be282afa82c52d2411198e472a1f5e6376fefc7c5265fd9e95">
   
     
       
@@ -2195,7 +2195,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e25742d67905a9dd39038735914b101c4a4307261a0d1db84c3e0fe6ba55e3da">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-030a8560f366f29e1f8fd04d6b1004cc717b0399d170ccca2f200882fd95f31b">
   
     
       
@@ -2209,7 +2209,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-01627490f060578227496f4cd86578b555a5981b83b583b3f04de85a9adf8bd9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-28dee0259c11156b213ff5d0c1c5b4057315c0c04730c28d9e1820af2c24986d">
   
     
       
@@ -2321,7 +2321,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3fd8b727110bc7d9301bff97883c0d2a5b1457bdce4bb8aa845bccb187ad3dbd">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5d878e1616ec41d0c3597d223ac41230e48b4bf1b9cd9a3a2f0bb8b3b229e190">
   
     
       
@@ -2335,7 +2335,7 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-74dbdfa4d48e8ab975e566fa8927f66628113a267226a708563371565f87d28d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dc6686ca7caa8206145a44de80d2d54200f206d6b6d2f1b41c8140881dacf7e5">
   
     
       
@@ -2753,14 +2753,14 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8HsLONJs53maLbM">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
