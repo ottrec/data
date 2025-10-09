@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/pinheys-point-historic-site-0 HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; nlbi_243507=qH8UGwaXx2dN1kSqaXmSIAAAAAD7RnBehcxmJhi05p3ap7dT; incap_ses_1842_243507=QXtdUGP0xAS4smRxxxmQGT2q5WgAAAAAJaZ2RyKAkiEAwTOSRnlpOQ==
+Cookie: visid_incap_243507=q5ZLcMXRRSCdxn1BWTHF3sD75mgAAAAAQUIPAAAAAABB2HO+ECMYMM+zCDLBtvMU; nlbi_243507=n6cNccPyJ3UoNqiXaXmSIAAAAACoDZMWiAyc9aOLZWTnK2GV; incap_ses_173_243507=JGXSVtqNwSJFVjfGMZ9mAsD75mgAAAAAeb0Qr2w45fAWEdUlAZjuNQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 433
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 08 Oct 2025 00:06:24 GMT
-Etag: "1759881550-gzip"
+Date: Thu, 09 Oct 2025 00:06:28 GMT
+Etag: "1759968388-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 07 Oct 2025 23:59:10 GMT
-Set-Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; expires=Wed, 07 Oct 2026 07:29:53 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Thu, 09 Oct 2025 00:06:28 GMT
+Set-Cookie: visid_incap_243507=q5ZLcMXRRSCdxn1BWTHF3sD75mgAAAAAQUIPAAAAAABB2HO+ECMYMM+zCDLBtvMU; expires=Thu, 08 Oct 2026 06:36:05 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
@@ -28,8 +28,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 53-241680360-241680369 SNNy RT(1759881789729 194669) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 108802193 108584859
+X-Iinfo: 62-438188642-438188650 SNNN RT(1759968192844 195223) q(0 3 3 -1) r(7 7) U24
+X-Varnish: 109737058
 
 155b2
 
@@ -184,7 +184,7 @@ X-Varnish: 108802193 108584859
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9ea83d9c79b33a5aca62d554106eb902843cd8e7cb4a8ff1f49b561cd75fa65d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c7c0b72193e02eaf496f3cae9221aa80272ee08295e39bb9e2f1aad956b88354">
   
     
       
@@ -198,7 +198,7 @@ X-Varnish: 108802193 108584859
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5d756efb7937e2ec54da1c9ce7d7cd68b30a9ee464d087a2ab9007c725ab729e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b306b35cb10fb187909b34f71efb14f8b99a72a0327b8e693631351f933b04f9">
   
     
       
@@ -395,7 +395,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ae99693e8240771a7ed2ce202ec6cce796dd46a8af2a72195b7dd7fa850948d8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7fb3a7da29e739fdc70288d5c354adc72580c304b4d205e4a600114cc36c0fec">
   
     
       
@@ -409,7 +409,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9017bb5e48038bf3408c4b400265fdd34db2162be99245e4da87f351084fcb5b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a4f93e40d02c7d6afe36145cc143207f8f2c91a5700d28bf3ef1d884a673d984">
   
     
       
@@ -643,7 +643,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9c0bacec06848bb3f0875c2f8aa58d8c7b5c443663841dc349010c6ed6f6b87d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-31a9046f13982f0c7cfe71ba4b63e767e1c216f3c613d06c845ae1aef1e876e3">
   
     
       
@@ -657,7 +657,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-15df786380190bd74078c04e7e10582cd2fcac2526d6c2e899b67a2d90d5b8cc">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8d9ee2e226b0d019a8df78f1af4fc2aded6d2fc363e67960e063e4d9cbfd36ef">
   
     
       
@@ -784,7 +784,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b88906d5daf5d12964a1a45384ff81db4731997d854f8d1e8007d3eeefc880ef">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8d5f165e0461c594e6c1c2d3f996e64ebb36d17aa8cc1d212990abe0f9ef007a">
   
     
       
@@ -798,7 +798,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5390b33c2fc348a873c7c20e034b72dd1429fb8a93b41226c66505e549f557e6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e8a5dbbb901ed168f552d10ef8a525a4124bc2a6e041372080671101bfd5f5ca">
   
     
       
@@ -898,7 +898,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-13ef09a23cfadd1f3e3ff4e8570dad7b4703b0ec93c289a3f95b46d98f19e875">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5498dab59d24a401b7d34f4e3decc97aefddbe40b9674ab6d9a5e8fcaf98e3be">
   
     
       
@@ -912,7 +912,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-272370dcbd287f90dc41d6577163df7bba3c17215e581e8318c41f071a9bb758">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a620acdecacd060db057e35d735bb77161697add257d947bb1a334e7d60321eb">
   
     
       
@@ -1015,7 +1015,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-592e7490396005cb6879e0f06f55419e92b8c1b63b7fb0fcb0ad039c4aaa611f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-64dcaa48791923edf6476cde0fbc402792ae2158ecf3ae2d2c5c0b9c7a7c238e">
   
     
       
@@ -1029,7 +1029,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-27368b8768867160f54b5b97204ff695dc5996c5a85c2a7d7e2a9c7ea29b50fc">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e967ae3fcc778260e270fc1352681ae0c62c0b844efbe25ef6f45ac6691542f6">
   
     
       
@@ -1130,7 +1130,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3802c7bc38507049955f13caf6dbb62627ace84128ee2960c80b056e9b7f6e88">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-901b42e0ca85b9a58be241818f896922821e946df5b6c1ed43da36096b398772">
   
     
       
@@ -1144,7 +1144,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f97cf8d11c5d995e60fac96aa0f4e2ea038f7a9b1ecd6a398c3dba1478c92111">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dfd7c535d97e9091c64fc12348c4039ef7018f196dd9b0b074ccde7a1e41ec6d">
   
     
       

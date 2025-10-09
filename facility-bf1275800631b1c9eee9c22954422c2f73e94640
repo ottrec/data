@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/sandy-hill-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; nlbi_243507=qH8UGwaXx2dN1kSqaXmSIAAAAAD7RnBehcxmJhi05p3ap7dT; incap_ses_1842_243507=QXtdUGP0xAS4smRxxxmQGT2q5WgAAAAAJaZ2RyKAkiEAwTOSRnlpOQ==
+Cookie: visid_incap_243507=q5ZLcMXRRSCdxn1BWTHF3sD75mgAAAAAQUIPAAAAAABB2HO+ECMYMM+zCDLBtvMU; nlbi_243507=n6cNccPyJ3UoNqiXaXmSIAAAAACoDZMWiAyc9aOLZWTnK2GV; incap_ses_173_243507=JGXSVtqNwSJFVjfGMZ9mAsD75mgAAAAAeb0Qr2w45fAWEdUlAZjuNQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 661
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 08 Oct 2025 00:06:50 GMT
-Etag: "1759881348-gzip"
+Date: Thu, 09 Oct 2025 00:06:55 GMT
+Etag: "1759968414-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 07 Oct 2025 23:55:48 GMT
-Set-Cookie: visid_incap_243507=rGyl4eQUQNGB7Fmb1q/WSj2q5WgAAAAAQUIPAAAAAABj8IxuB6DOAbCoq1Q+8unn; expires=Wed, 07 Oct 2026 07:29:53 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Thu, 09 Oct 2025 00:06:54 GMT
+Set-Cookie: visid_incap_243507=q5ZLcMXRRSCdxn1BWTHF3sD75mgAAAAAQUIPAAAAAABB2HO+ECMYMM+zCDLBtvMU; expires=Thu, 08 Oct 2026 06:36:05 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
@@ -28,8 +28,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 53-241680360-241680369 SNNy RT(1759881789729 220663) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 107305477 108287473
+X-Iinfo: 62-438188642-438188650 SNNN RT(1759968192844 221763) q(0 1 1 -1) r(12 12) U24
+X-Varnish: 110084321
 
 b483
 
@@ -184,7 +184,7 @@ b483
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bde31311abd92ecb134679c35f8665f2f5a0bd83c1e9ef0621eed1f02e97e307">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9d4e14bfc202fd84c3232ae50bfeb9a75d7243118b2065b811ea01ed79ddb8e9">
   
     
       
@@ -248,7 +248,7 @@ b483
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-37971dc7069f6387708b184b5774b0f64fcb7d8434a376a7ab6c1eb2ece47874">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9627a5be19085eecde6e3bfc29beb3d6ee255d24221b7156639e1cc8a5f5a055">
   
     
       
@@ -550,7 +550,7 @@ b483
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-9bfe850a26ec10899711189417d3533b868d88cd5d257facd363932cf18fe7e4">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-5db658290e79f9ee449bae0f903738faf8d6e2c2c1c4ee074bb2437f89febac6">
   
     
       <div class="view-header">
