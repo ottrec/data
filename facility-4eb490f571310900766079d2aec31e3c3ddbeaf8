@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/jack-purcell-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=pwKp4ahcQWOfKn5tUCAwCExN6GgAAAAAQUIPAAAAAACorDA0Uce0ar7akfzj3qRf; nlbi_243507=QO2WS7+Yfz230WpDaXmSIAAAAACrOZGUVWR9PygP5Jv2zHso; incap_ses_543_243507=bdmISyGdJ158vtWbCiCJB0xN6GgAAAAAD8z96a4yoTt8zTU2JKRIxg==
+Cookie: visid_incap_243507=zOsv55ofTtGizUPyaIgdm8Ge6WgAAAAAQUIPAAAAAABDnoTJf82Cw6NCPcsFDOPP; nlbi_243507=7kwiIWGYgQ1IOkltaXmSIAAAAAACAwLq3Hww9M7HzX/PiZVw; incap_ses_1845_243507=sVSpeD7/ZhTF7GCLPMKaGcKe6WgAAAAA2yU/91VLOXWEOpfo95n8QQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 467
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 10 Oct 2025 00:05:25 GMT
-Etag: "1760054723-gzip"
+Date: Sat, 11 Oct 2025 00:05:14 GMT
+Etag: "1760140646-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 10 Oct 2025 00:05:23 GMT
+Last-Modified: Fri, 10 Oct 2025 23:57:26 GMT
+Set-Cookie: visid_incap_243507=zOsv55ofTtGizUPyaIgdm8Ge6WgAAAAAQUIPAAAAAABDnoTJf82Cw6NCPcsFDOPP; expires=Sat, 10 Oct 2026 08:02:22 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 6-2620306-2620311 SNNy RT(1760054604431 118967) q(0 0 0 -1) r(21 21) U24
-X-Varnish: 111544104
+X-Iinfo: 53-267694124-267694127 SNNN RT(1760140994816 120130) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 112113510 112591615
 
-df1e
+e00b
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +42,7 @@ df1e
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jack-purcell-community-centre" />
 <meta name="dcterms.title" content="Jack Purcell Community Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-10-07" />
+<meta name="dcterms.date" content="2025-10-10" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -183,7 +184,7 @@ df1e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-42ce866ffdedb8134917c08910d8b945ef1fcf3365c3530250620aadd3ffd668">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a3bd72542690a5ce79603bc3549340eeb06ebc419a984911fa286fcd5c63ead2">
   
     
       
@@ -247,7 +248,7 @@ df1e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c8f08dda85845d6ef13162ea6ece79452ecd61eada87e256a861052e5be3b94b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-85c0af6df3b6892246f6910634cc2b3f98543c46560b7bd61a1d33a1141a0c73">
   
     
       
@@ -321,7 +322,7 @@ df1e
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
 </div>
       
 
@@ -330,6 +331,11 @@ df1e
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><span><strong><span>Friday, October 10</span></strong></span></span>
+<ul>
+<li>Lane swim, 7 to 8 pm, cancelled</li>
+</ul>
+</li>
 <li><span><span><strong><span>Monday, October 13</span></strong></span></span>
 <ul>
 <li><span><span><span><span>Closed</span></span></span></span></li>
@@ -347,7 +353,7 @@ df1e
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 5:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 5:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -523,7 +529,7 @@ df1e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8f100d3a2538442793f9d8c2b5dfb1dc4011187170ac3b2fee2cc9574308942d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-50d1a54708468a0dbf7031f7266a7432d9eb6ce3343b3ca04d328a3628777af4">
   
     
       
@@ -537,7 +543,7 @@ df1e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6944ac53754557d49b9fcc99e9be79429af5dc85ba06a7159eab37c139c0604b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1f51c3b54b0e5406d00c503e490af3b1c8b399faef61327ffb12d288e4c3309f">
   
     
       
@@ -578,8 +584,13 @@ df1e
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
+<li><strong>Friday, October 10</strong>
+<ul>
+<li>Lane swim, 7 to 8 pm, cancelled</li>
+</ul>
+</li>
 <li><strong>Monday, October 13</strong>
 <ul>
 <li>The facility is closed and all programs cancelled.</li>
@@ -911,7 +922,7 @@ df1e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b71ca4043630891fa3b4f79c3d8f9665346cd4a28f552a85778ec5291ba4e9fa">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4f6a31031956093cbd7b89a1aae8a8e2fe37c68407e2eddb32770edcd768a418">
   
     
       
@@ -925,7 +936,7 @@ df1e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-305e0066206c0c3fff791a72882e87251b4bbd91d33ce26b0d88a3777c71d118">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b6834656935d5d435bf43cfda8d9a2aa98fe3e3a3a139f8a7e85d3a3bc431ca0">
   
     
       
@@ -1107,7 +1118,7 @@ df1e
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-e25cd5e151a3680ec6d976cf0bf90e4ef329dde20d899730240e13e4d3fe82fa">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-76e8f6dd199043e349f050d4e9231ab9990c53197412a3fc8af941fcb9e5fe01">
   
     
       <div class="view-header">
@@ -1263,12 +1274,12 @@ df1e
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/en/form/feedback" class="angle-right nav-link">Problem with the website</a>
+        <a href="https://ottawa.ca/en/forms/feedback" class="angle-right nav-link">Problem with the website</a>
               </li>
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/fr/form/feedback" class="angle-right nav-link">Un problème concernant le site Web</a>
+        <a href="https://ottawa.ca/fr/forms/feedback" class="angle-right nav-link">Un problème concernant le site Web</a>
               </li>
         </ul>
   
@@ -1509,7 +1520,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=60&cb=327606457" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=60&cb=143654428" async></script></body>
 </html>
 
 

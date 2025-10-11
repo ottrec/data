@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/nepean-seniors-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=pwKp4ahcQWOfKn5tUCAwCExN6GgAAAAAQUIPAAAAAACorDA0Uce0ar7akfzj3qRf; nlbi_243507=QO2WS7+Yfz230WpDaXmSIAAAAACrOZGUVWR9PygP5Jv2zHso; incap_ses_543_243507=bdmISyGdJ158vtWbCiCJB0xN6GgAAAAAD8z96a4yoTt8zTU2JKRIxg==
+Cookie: visid_incap_243507=zOsv55ofTtGizUPyaIgdm8Ge6WgAAAAAQUIPAAAAAABDnoTJf82Cw6NCPcsFDOPP; nlbi_243507=7kwiIWGYgQ1IOkltaXmSIAAAAAACAwLq3Hww9M7HzX/PiZVw; incap_ses_1845_243507=sVSpeD7/ZhTF7GCLPMKaGcKe6WgAAAAA2yU/91VLOXWEOpfo95n8QQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -14,10 +14,11 @@ Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 10 Oct 2025 00:06:20 GMT
-Etag: "1760054779-gzip"
+Date: Sat, 11 Oct 2025 00:06:12 GMT
+Etag: "1760141171-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 10 Oct 2025 00:06:19 GMT
+Last-Modified: Sat, 11 Oct 2025 00:06:11 GMT
+Set-Cookie: visid_incap_243507=zOsv55ofTtGizUPyaIgdm8Ge6WgAAAAAQUIPAAAAAABDnoTJf82Cw6NCPcsFDOPP; expires=Sat, 10 Oct 2026 08:02:22 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -27,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 6-2620306-2620311 SNNy RT(1760054604431 175098) q(0 0 0 -1) r(9 9) U24
-X-Varnish: 107597927
+X-Iinfo: 53-267694124-267694127 SNNN RT(1760140994816 176659) q(0 0 0 -1) r(14 14) U24
+X-Varnish: 109880840
 
-c6f7
+c6fb
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -183,7 +184,7 @@ c6f7
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5dd12e30f003f229ca1e33fc482bdbd07d31609b3115ae66a8e9857eaee4d82c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-275e4da55a306fa528f48f667f5b8374df7a79a5dbf870792793e7c00a88395e">
   
     
       
@@ -197,7 +198,7 @@ c6f7
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0d8704872e345e6b83ad634cf6af5a90e434b000f116ce1752edf7cb4da259bc">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cfb4cd8cb8aeb567c6ab2e32b5254658cc5c268892999f7b981bf4452f0cc7fe">
   
     
       
@@ -286,7 +287,7 @@ c6f7
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -435,7 +436,7 @@ c6f7
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f34ad05bbd10522af4b2d90ea789589dc977048c4d0cc77268b8bcb13a011c5e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-163e2663521ecc8d855697155a976271411ded0925e496d9a10a326ac85381ff">
   
     
       
@@ -449,7 +450,7 @@ c6f7
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5d6896de375a41d150f309758f89ff1ef93cee1cb2c50fe16dd2d0a150b351b5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-246293a291ac4bb75caa18961adbe29ffee41e7b52f21d36cb3e1826afd676cc">
   
     
       
@@ -838,7 +839,7 @@ c6f7
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-63e05e55eb9b3449482b6e69909a24c073cb1308e9919504d1c332bd983a970b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2f6efc49624b5fe45c3b272a58c0d9b7daa3a5304dd038bf88f2619d0b44050f">
   
     
       
@@ -852,7 +853,7 @@ c6f7
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7b8fa1b3f1fd1ec13740de849a9a813736231c14f949eefa48a278545ba0a547">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-958658bae246b04cfe3ed20f1971ac003bb2e9dcb8e5bbadc9bdce1a8bc0ad77">
   
     
       
@@ -1000,7 +1001,7 @@ c6f7
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-5f2d6b22b2d7c4657e50152adc795f55f6a1cdbb5e4f0d5d72b0cf624971573e">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-5689f00f178061cfb3152aaa46c296e48c2bed37ba1c2d0bfe0f27c0da7f17fb">
   
     
       <div class="view-header">
@@ -1132,12 +1133,12 @@ c6f7
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/en/form/feedback" class="angle-right nav-link">Problem with the website</a>
+        <a href="https://ottawa.ca/en/forms/feedback" class="angle-right nav-link">Problem with the website</a>
               </li>
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/fr/form/feedback" class="angle-right nav-link">Un problème concernant le site Web</a>
+        <a href="https://ottawa.ca/fr/forms/feedback" class="angle-right nav-link">Un problème concernant le site Web</a>
               </li>
         </ul>
   

@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/brewer-pool-and-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=pwKp4ahcQWOfKn5tUCAwCExN6GgAAAAAQUIPAAAAAACorDA0Uce0ar7akfzj3qRf; nlbi_243507=QO2WS7+Yfz230WpDaXmSIAAAAACrOZGUVWR9PygP5Jv2zHso; incap_ses_543_243507=bdmISyGdJ158vtWbCiCJB0xN6GgAAAAAD8z96a4yoTt8zTU2JKRIxg==
+Cookie: visid_incap_243507=zOsv55ofTtGizUPyaIgdm8Ge6WgAAAAAQUIPAAAAAABDnoTJf82Cw6NCPcsFDOPP; nlbi_243507=7kwiIWGYgQ1IOkltaXmSIAAAAAACAwLq3Hww9M7HzX/PiZVw; incap_ses_1845_243507=sVSpeD7/ZhTF7GCLPMKaGcKe6WgAAAAA2yU/91VLOXWEOpfo95n8QQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 504
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 10 Oct 2025 00:03:58 GMT
-Etag: "1760054132-gzip"
+Date: Sat, 11 Oct 2025 00:03:49 GMT
+Etag: "1760141028-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 09 Oct 2025 23:55:32 GMT
+Last-Modified: Sat, 11 Oct 2025 00:03:48 GMT
+Set-Cookie: visid_incap_243507=zOsv55ofTtGizUPyaIgdm8Ge6WgAAAAAQUIPAAAAAABDnoTJf82Cw6NCPcsFDOPP; expires=Sat, 10 Oct 2026 08:02:22 GMT; HttpOnly; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
@@ -27,10 +28,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 6-2620306-2620311 SNNy RT(1760054604431 34116) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 111226756 106165491
+X-Iinfo: 53-267694124-267694127 SNNN RT(1760140994816 34048) q(0 0 0 -1) r(7 7) U24
+X-Varnish: 108425986
 
-de26
+de27
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -183,7 +184,7 @@ de26
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f22070724b68934bef47ee520ba0dd8379f3273c4681bb829bf26ec62d697587">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fa76b2572246259457695cd4fe00c4d6a81e0a5be684c99d6741aaa8f963ebd1">
   
     
       
@@ -247,7 +248,7 @@ de26
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1e087a84ec922125b67b77ae938ce266e2645dc733b4e0306ec57df6e9366ba5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-32868b83ca126bcc0149204c0302e4e8bdf6bf3e53d8de848d1d5250952f3056">
   
     
       
@@ -525,7 +526,7 @@ de26
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1bdc3d600efd94306037afa9525a809febaf8ad8fb1fe9606b5b0ef3d7275f0b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-452586e13157bed18c27d18fbe0a7976e14fe3eb5b54e99ea5e48003d4d49892">
   
     
       
@@ -539,7 +540,7 @@ de26
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-42fc1e1872265afa19a62e4e0fc914f11bf8fb5151cc58ef38bf6155e24dcd16">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dafe6108c0c85bc84018681b21bb277987b7239b636a414f61918db74ac87df4">
   
     
       
@@ -756,7 +757,7 @@ de26
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5df3976b89910fbfabeb9ad04bd267e5172d2095eb5a8a7535c8c7b6f51f879e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-879d70c4c051891c52b9616bd5c4d1507237d059809f81f07eba84a637455bca">
   
     
       
@@ -770,7 +771,7 @@ de26
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-72832d238c56b16b1953eb0e975050ef4962576d48e8ec36d5ebfdef1e89c75b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9f84f02d23a1800bc7efab8f067d6a9e2eb71c1305f239d827c61e9e389209b0">
   
     
       
@@ -965,7 +966,7 @@ Pool rentals - please contact the facility.</p>
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-e3f56b8ab34c690754317dec899c445893adf089d2af35698336bc99fd991e5b">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-12305146d3ef5113a2b62feecd0dbc5f29e584aead6b954446d02755af3643ac">
   
     
       <div class="view-header">
@@ -1159,12 +1160,12 @@ Pool rentals - please contact the facility.</p>
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/en/form/feedback" class="angle-right nav-link">Problem with the website</a>
+        <a href="https://ottawa.ca/en/forms/feedback" class="angle-right nav-link">Problem with the website</a>
               </li>
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/fr/form/feedback" class="angle-right nav-link">Un problème concernant le site Web</a>
+        <a href="https://ottawa.ca/fr/forms/feedback" class="angle-right nav-link">Un problème concernant le site Web</a>
               </li>
         </ul>
   
@@ -1405,7 +1406,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1310691958" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=965876724" async></script></body>
 </html>
 
 
