@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/terry-fox-athletic-facility HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=ioiNMxWISJ2q2NH67d7OBMhB7GgAAAAAQUIPAAAAAABW5UHnNgFsBf10qsNjGunJ; nlbi_243507=Lj0CHoXu8GOcvaJCaXmSIAAAAAAjehiiPQLEQ5N+FJnt8gh/; incap_ses_1845_243507=Pf4fVS2ZAHBLNlOUPMKaGchB7GgAAAAA3ps9dA/1kVgwa+ZB6MRveQ==
+Cookie: visid_incap_243507=RncB6xSbRtyImFflDbHddTiT7WgAAAAAQUIPAAAAAACvoRJFkIDkNgnmjnuUxa+6; nlbi_243507=qLnDY4j98RpTAL86aXmSIAAAAADq3pUQaSSB5i9fIgSdDgj6; incap_ses_1815_243507=E1ruITAuvH6Tmib+WC0wGTiT7WgAAAAA+aSI9TtGRVZHPAXKNNnC9w==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 542
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 13 Oct 2025 00:07:16 GMT
-Etag: "1760314035-gzip"
+Date: Tue, 14 Oct 2025 00:07:01 GMT
+Etag: "1760399878-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 13 Oct 2025 00:07:15 GMT
-Set-Cookie: visid_incap_243507=ioiNMxWISJ2q2NH67d7OBMhB7GgAAAAAQUIPAAAAAABW5UHnNgFsBf10qsNjGunJ; expires=Mon, 12 Oct 2026 08:02:23 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Last-Modified: Mon, 13 Oct 2025 23:57:58 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 59-422001173-422001183 SNNN RT(1760313801137 234803) q(0 0 0 -1) r(7 7) U24
-X-Varnish: 114624883
+X-Iinfo: 54-8256154-8257466 SNNy RT(1760400185269 236308) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 114326541 122390694
 
-d243
+d241
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -184,7 +183,7 @@ d243
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4b26ccd04c3e73a4dc53cbf391d53e85a5b2ee8ceb21e6803a859bf8c4bc872c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-022a3684b6c789cd63cb1a85db3dfa725c5c8d21047c955886ea32528b130683">
   
     
       
@@ -198,7 +197,7 @@ d243
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-610b126b40ec0504bf4d5eca16e32f2f02e588e863583615ca149c7c14ed1864">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f59f5bf4fa6f587ea7dfd52e94aaef945d30289bd940c3b87160f2eb013908f9">
   
     
       
@@ -309,7 +308,7 @@ d243
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">9:00 am - 4:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 4:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">9:00 am - 4:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 4:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -630,7 +629,7 @@ d243
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-b196daf1fb6da5a9f4f4c9ef62405efafd26edef57ea1683369b023faa4b7cd1">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-a3f67fdb168d5b17e1c8df281ddfd119728f8bf9534f6a1950b76cde890f58b9">
   
     
       <div class="view-header">
