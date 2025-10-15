@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=RncB6xSbRtyImFflDbHddTiT7WgAAAAAQUIPAAAAAACvoRJFkIDkNgnmjnuUxa+6; nlbi_243507=qLnDY4j98RpTAL86aXmSIAAAAADq3pUQaSSB5i9fIgSdDgj6; incap_ses_1815_243507=E1ruITAuvH6Tmib+WC0wGTiT7WgAAAAA+aSI9TtGRVZHPAXKNNnC9w==
+Cookie: visid_incap_243507=kwqb4WVCTlmCUSiY6oxgo8bk7mgAAAAAQUIPAAAAAAC5Nup4UkxVhd7Hp/aChyeb; nlbi_243507=hVYbJtsn9lhc6CO6aXmSIAAAAADtrYsmMneMLDdxH6EmHpw+; incap_ses_172_243507=gQyKXKLuSgNsOPu4JBFjAsbk7mgAAAAAe5/tKNryWAaHrLpKdnU1Wg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 588
+Age: 644
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 14 Oct 2025 00:07:11 GMT
-Etag: "1760399841-gzip"
+Date: Wed, 15 Oct 2025 00:07:25 GMT
+Etag: "1760486199-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 13 Oct 2025 23:57:21 GMT
+Last-Modified: Tue, 14 Oct 2025 23:56:39 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 54-8256154-8257466 SNNy RT(1760400185269 246310) q(0 1 1 -1) r(1 1) U24
-X-Varnish: 116776142 116775639
+X-Iinfo: 54-38980568-39030160 SNNN RT(1760486599061 246003) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 102821791 120961976
 
-197ab
+171ca
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 116776142 116775639
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre" />
 <meta name="dcterms.title" content="Walter Baker Sports Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-10-09" />
+<meta name="dcterms.date" content="2025-10-14" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -183,7 +183,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d0f70262d93688f0f772c898bb2af62bfe23703451da9f7015b30d0ba04a7edf">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-38d3d8133091dfefe899a5ecd8abeb73e1cc4a6a4726d01e36d994f0010ecf97">
   
     
       
@@ -247,7 +247,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7d5d1baa3ab44fd88629f261c0981ee3a8eb43fb210d221043fc6f210d9e51bd">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f1d2910968941f4ff2ac159c5479eee472cfb93afa481de8fc51a0a82eb0449e">
   
     
       
@@ -321,7 +321,7 @@ X-Varnish: 116776142 116775639
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Notice</h2>
 </div>
       
 
@@ -329,15 +329,7 @@ X-Varnish: 116776142 116775639
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
-<ul>
-<li><span><span><span><span>Closed</span></span></span></span></li>
-</ul>
-</li>
-</ul>
-<h3><span><span><span><span>Notice</span></span></span></span></h3>
-<p><strong>Squash courts 3 and 4 are closed until further notice.&nbsp;&nbsp;</strong></p>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>Squash courts 3 and 4 are closed until further notice.</p>
 </div>
       
 
@@ -456,237 +448,6 @@ X-Varnish: 116776142 116775639
                               <div class="col collapse-region">
                   <h2 class="no-toc">
                               
-  <button aria-expanded="false" aria-controls="section-cfd7d64b-28b3-4a95-aeeb-d73dab3e2f74" data-target="#section-cfd7d64b-28b3-4a95-aeeb-d73dab3e2f74" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - Thanksgiving weekend</button>
-
-                  </h2>
-                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-cfd7d64b-28b3-4a95-aeeb-d73dab3e2f74">
-                  
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
-          
-            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
-<article class="node node--type-article node--view-mode-default">
-  
-  <div class="node__content">
-      <div class="layout layout--onecol">
-    <div  class="layout__region layout__region--content">
-      
-
-
-  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - Thanksgiving weekend</h2>
-</span>
-
-
-<div class="views-element-container">
-
-
-
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-63f7728fd425ee466528fd6438c1abdd7cc949f2b5163a1afa52cdb3ab3000a1">
-  
-    
-      
-  
-          </div>
-</div>
-
-
-</div>
-<div class="views-element-container">
-
-
-
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e4f24bfc0d9dd2067d9c6b35c566a8c43509962d312f758ac9d2036eaae38586">
-  
-    
-      
-  
-          </div>
-</div>
-
-
-</div>
-
-
-
-  
-      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
-              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
-                  
-                          
-                                  
-                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 row">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.</p>
-</div>
-      
-      </div>
-
-                        </div>
-                                          
-                    
-                
-            </div>
-          
-      </div>
-</div>
-              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
-                  
-                          
-                                  
-                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 row">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/walterbaker" target="_blank" title="Opens in a new window.">Reserve a spot at Walter Baker Sports Centre</a></p>
-</div>
-      
-      </div>
-
-                        </div>
-                                          
-                    
-                
-            </div>
-          
-      </div>
-</div>
-              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
-                  
-                          
-                                  
-                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 row">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
-	<caption>Walter Baker Sports Centre - all drop-ins -&nbsp;October 11 to 13</caption>
-	<thead>
-		<tr>
-			<td>
-			&nbsp;
-			</td>
-			<th>
-			Saturday, October 11
-			</th>
-			<th>
-			Sunday, October 12
-			</th>
-			<th>
-			Monday, October 13
-			</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th>Hot tub and steam room</th>
-			<td>10 am - 4 pm</td>
-			<td>10 am - 4 pm</td>
-			<td>n/a</td>
-		</tr>
-		<tr>
-			<th>
-			Lane swim
-			</th>
-			<td>
-			10 am -&nbsp;1 pm
-			</td>
-			<td>
-			10 am -&nbsp;1 pm
-			</td>
-			<td>
-			n/a
-			</td>
-		</tr>
-		<tr>
-			<th>
-			Preschool swim
-			</th>
-			<td>
-			10 am -&nbsp;1 pm
-			</td>
-			<td>
-			10 am -&nbsp;1 pm
-			</td>
-			<td>
-			n/a
-			</td>
-		</tr>
-		<tr>
-			<th>
-			Public swim
-			</th>
-			<td>
-			1 -&nbsp;4 pm
-			</td>
-			<td>
-			1 -&nbsp;4 pm
-			</td>
-			<td>
-			n/a
-			</td>
-		</tr>
-	</tbody>
-</table></div>
-      </div>
-      </div>
-
-                        </div>
-                                          
-                    
-                
-            </div>
-          
-      </div>
-</div>
-          </div>
-  
-
-
-    </div>
-  </div>
-
-  </div>
-
-</article>
-</div>
-      
-      </div>
-
-                        </div>
-                                          
-                                        </div>
-                  </div>
-                
-                
-            </div>
-          
-      </div>
-</div>
-              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
-                  
-                          
-                
-                  <div class="layout layout--bootstrap-grid-row-1 row">
-
-            
-                              <div class="col collapse-region">
-                  <h2 class="no-toc">
-                              
   <button aria-expanded="false" aria-controls="section-00778bc9-9884-46d0-bd68-464aa977c37c" data-target="#section-00778bc9-9884-46d0-bd68-464aa977c37c" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - swim and aquafit</button>
 
                   </h2>
@@ -713,7 +474,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-32e9954561a4d5d829b8af8794c4c7d3f18aabf6ce79e59c653a8ee19d8f3d09">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bb9e8aebce0a8f35d671f54c7d4b9f21e059007a9cdd13301e1bdaba4abe1b31">
   
     
       
@@ -727,7 +488,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-65d3b5303c1b94115e6cf018eb897c8bbfcd42dfb881364f4db9c9135044ccbf">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-632ae352a6a9b559a7950b143e970c3005dc9d71d7cd75954c85944249c2435e">
   
     
       
@@ -763,24 +524,6 @@ X-Varnish: 116776142 116775639
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/walterbaker" target="_blank" title="Opens in a new window.">Reserve a spot at Walter Baker Sports Centre</a></p>
-</div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><span><span>Schedule changes</span></span></span></span></h3>
-<ul>
-<li><span><span><strong><span>Saturday, October 11 and Sunday, October 12</span></strong></span></span>
-<ul>
-<li><span><span><span><span>See <a href="https://ottawa.ca/en/walter-baker-sports-centre-holiday-drop-schedule">Thanksgiving weekend schedule</a>.</span></span></span></span></li>
-</ul>
-</li>
-<li><span><span><strong><span>Monday, October 13</span></strong></span></span>
-<ul>
-<li><span><span><span><span>The facility is closed and all programs cancelled.</span></span></span></span></li>
-</ul>
-</li>
-</ul>
 </div>
       
       </div>
@@ -1122,7 +865,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fc32e28b36689a7bcfbddedafa191e6ee186312b61b402405e2b6aafdd598715">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-75d95085f32a8abc9685896ae006e0bf56125dd207d3fc41790200b6faebdd1e">
   
     
       
@@ -1136,7 +879,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4c9bffa2b14e616b727da1c24d7ab626444c68f655752a35807db7f6b583dfd0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4be1fb5d72ff6cb2ec1a8386f5a0e4a43971c5b7c66dc4afecbb1db87c8dfff9">
   
     
       
@@ -1166,19 +909,6 @@ X-Varnish: 116776142 116775639
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Additional details, descriptions, fees and cancellation information.</a></p>
 <p><strong>Reservations not required.</strong></p>
-</div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
-<ul>
-<li><strong>Monday, October 13</strong>
-<ul>
-<li>The facility is closed and all programs cancelled.</li>
-</ul>
-</li>
-</ul>
 </div>
       
       </div>
@@ -1283,7 +1013,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-97c50c3d6e1a1531c85278204e1da7381f96ce3236c9850b9a603ee752717b28">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-736a0039a4e98f24410dc225142519ae9d09325c4a9f09f43d0dae1c23382b9e">
   
     
       
@@ -1297,7 +1027,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3f61ef63608ebbfe264bda471710c6b5ce1d59b03fec1001e895932fec5a6a14">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-35f83cbe2b6aa280607172a9b5af01e51f1e58e065f66e1c5255cb51513d7a89">
   
     
       
@@ -1332,19 +1062,6 @@ X-Varnish: 116776142 116775639
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/walterbaker" target="_blank" title="Opens in a new window.">Reserve a spot at Walter Baker Sports Centre</a></p>
-</div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
-<ul>
-<li><strong>Monday, October 13</strong>
-<ul>
-<li>The facility is closed and all programs cancelled.</li>
-</ul>
-</li>
-</ul>
 </div>
       
       </div>
@@ -1630,7 +1347,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2d46b8492b3f6e5d98ce8aff12ac3bc7b10b1f95f80a51eb7da5a9eee96501c2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-940091e85eec337dfe6969af6ad2e787bafb3fc123eb7d18aa23a22dfcbea5d3">
   
     
       
@@ -1644,7 +1361,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5d7c2c269a7cae27f1376d34cbe91dd186c6717b536427c314cfb24230fd1b28">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1da7522d8654a4d66803e5e4ebe6010054ef461819126eda06a697b9e3f0d8db">
   
     
       
@@ -1684,16 +1401,8 @@ X-Varnish: 116776142 116775639
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
-<ul>
-<li><strong>Monday, October 13</strong>
-<ul>
-<li>The facility is closed and all programs cancelled.</li>
-</ul>
-</li>
-</ul>
-<h3>Notice</h3>
-<p><strong>Squash courts 3 and 4 are closed until further notice.&nbsp;&nbsp;</strong></p>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Notice</h3>
+<p>Squash courts 3 and 4 are closed until further notice.&nbsp;&nbsp;</p>
 </div>
       
       </div>
@@ -1829,7 +1538,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f9e7592e88e641292d6711c4864f51d046c8bb81e9e202de6c4d6fb4ecbdae66">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ffa7b3a7ad02c4ddb80fe8c15f97a6df14ab2aa821aa54fe9e37d15f5338501f">
   
     
       
@@ -1843,7 +1552,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-eaacc79dda26ec71b857bdab4e6853970c79e48dc69da0725b30cec91db6b548">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c9b02a599b7af3412c90fd894c010c037370208d52bef48a8af39ff60717d486">
   
     
       
@@ -1878,19 +1587,6 @@ X-Varnish: 116776142 116775639
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/walterbaker" target="_blank" title="Opens in a new window.">Reserve a spot at Walter Baker Sports Centre</a></p>
-</div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
-<ul>
-<li><strong>Monday, October 13</strong>
-<ul>
-<li>The facility is closed and all programs cancelled.</li>
-</ul>
-</li>
-</ul>
 </div>
       
       </div>
@@ -2026,7 +1722,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ba79d3825653093d689699d5175510b49a924850cb259c4a1ebed2aeb31118a1">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7cf162ea9d7462524f7866295ffa4d3db43839a69488700a4d283714b1595891">
   
     
       
@@ -2040,7 +1736,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ebecc3c8872e8e3dfd72019de6abc90cbe8821ba406d2b2a49b9d8becb0ddfd7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-221ccf470a9a04e9d2372a8ae828624878e598557fa3f33430db9b16f697471d">
   
     
       
@@ -2070,19 +1766,6 @@ X-Varnish: 116776142 116775639
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. The changes will be reflected in the online reservation process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/skating/drop-skating">Play free, additional details, descriptions, fees and cancellation information.</a></p>
 <p><strong>No reservations&nbsp;<span>required.</span></strong></p>
-</div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
-<ul>
-<li><strong>Monday, October 13</strong>
-<ul>
-<li>The facility is closed and all programs cancelled.</li>
-</ul>
-</li>
-</ul>
 </div>
       
       </div>
@@ -2257,7 +1940,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-8599b580b1794b4562b5bd23d4268cc0dce8115a705131d5617f763f97dca729">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-c2f2444bbab31ce2536f4aba3078866878d86480b3155d958e844c77d8dc8b8b">
   
     
       <div class="view-header">
@@ -2348,7 +2031,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0e9c7fa8ae3ea8a94b6d7cb0c78f2196421f768c1a7f6cdd7c26c8427b328227">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5eb28c7d18a1dbbf79aec6569336c1f0f90d5316dfa56c4cac743852e1b459f1">
   
     
       
@@ -2362,7 +2045,7 @@ X-Varnish: 116776142 116775639
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d916580673ea5205d1a436dd49848bd8f3bf48f9cd1fc456bed2a4ec1013438a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cff66596cfcd45721534bfc691d138beb6367499e17222edfaca67797ef773a7">
   
     
       
