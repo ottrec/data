@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=/lFavufvRZm4tL08sBWO1kg28GgAAAAAQUIPAAAAAAASTKVIY1tHoX3TjnjyMMGm; nlbi_243507=UlpQf/KcFV9TicI3aXmSIAAAAAAfPqp1gfR7moY3VRh3RPOH; incap_ses_170_243507=hS2SHaBsmDyTLRTdm/ZbAkg28GgAAAAAWRadjM1QA0If18t1gxnptA==
+Cookie: visid_incap_243507=LUa9DLG7ROe5TuXpO/Qpu8+H8WgAAAAAQUIPAAAAAABoRjtwrZ8UmmTkm2qHn6kB; nlbi_243507=Vm3MFEr9j0F4yYIgaXmSIAAAAACXTDUgJ6kEahfUhVjIbNoV; incap_ses_1813_243507=/DE3EdJnhTeUUEQvNBIpGc+H8WgAAAAAYREfVu/t6Iq7ewgoWLpMEw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 6
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 16 Oct 2025 00:03:59 GMT
-Etag: "1760573031-gzip"
+Date: Fri, 17 Oct 2025 00:04:07 GMT
+Etag: "1760659445-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 16 Oct 2025 00:03:51 GMT
+Last-Modified: Fri, 17 Oct 2025 00:04:05 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 53-46560394-46560402 SNNy RT(1760573001001 38284) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 124582841 124055252
+X-Iinfo: 53-39410019-39410039 SNNy RT(1760659407714 37947) q(0 0 0 -1) r(15 15) U24
+X-Varnish: 125844468
 
-12fb8
+13650
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 124582841 124055252
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex" />
 <meta name="dcterms.title" content="Canterbury Recreation Complex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-10-14" />
+<meta name="dcterms.date" content="2025-10-16" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -183,7 +183,7 @@ X-Varnish: 124582841 124055252
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-87c366ccdc5684747aeee731dbb1830a30db85d2a422d68d35688f3ab5716d50">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ce6bd23e47bf8a7973c6530a883ba929fb1ec166e7548f7fd60ac0aa7ad7a0b6">
   
     
       
@@ -197,7 +197,7 @@ X-Varnish: 124582841 124055252
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ed37d3ce54a28b26a3ca6eac9565d24d559df61964a626df21dec9e65eeb56b9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-26a595c3df43b83df4494914f02318d1aab0cc2e1bbc306410244fcfccc2fa8d">
   
     
       
@@ -271,7 +271,7 @@ X-Varnish: 124582841 124055252
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Note</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Facility closure</h2>
 </div>
       
 
@@ -279,7 +279,23 @@ X-Varnish: 124582841 124055252
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>Construction will be taking place along the east and north access to the parking lot.</p>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Monday, October 20</strong>
+<ul>
+<li>The facility is closed from 6 am to 2 pm&nbsp;for maintenance.</li>
+</ul>
+</li>
+</ul>
+<h3>Note</h3>
+<p>Construction will be taking place along the east and north access to the parking lot.</p>
+<h3>Closure</h3>
+<ul>
+<li><strong>Monday, October 20</strong>
+<ul>
+<li>The pool is closed from 6 am to 3 pm</li>
+</ul>
+</li>
+</ul>
 </div>
       
 
@@ -502,7 +518,7 @@ X-Varnish: 124582841 124055252
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8407471cd1ea1647b0044092ee1901e25c52364d6af29c2e7c9568ae40642ecc">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2b7173fae5b4bf95d4b82ab0bacbd2fbba676b9a80197015833587d9e6df27bb">
   
     
       
@@ -516,7 +532,7 @@ X-Varnish: 124582841 124055252
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-059c5e9dcaad2b0c740d6ae5817e21a843b6d762d2eee83ebfd3bb160797da4a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1b52a46eb1f55895bba5f79a6c3901c7299b01c85aba2cfb910295616e789731">
   
     
       
@@ -551,6 +567,27 @@ X-Varnish: 124582841 124055252
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/canterbury">Reserve a spot at Canterbury Recreation Complex</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Facility closure</h3>
+<ul>
+<li><strong>Monday, October 20</strong>
+<ul>
+<li>The facility is closed from 6 am to 2 pm&nbsp;for maintenance.</li>
+</ul>
+</li>
+</ul>
+<h3>Closure</h3>
+<ul>
+<li><strong>Monday, October 20</strong>
+<ul>
+<li>The pool is closed from 6 am to 3 pm</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -746,7 +783,7 @@ X-Varnish: 124582841 124055252
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5ec6051d969c6e6daba5b473e33bf2b9a1a54037fcb7f789e68c0a9ca00f473a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e754e12ea283229037eba4c735e2595b7b425273f3ff7b0442ea967bfd34febf">
   
     
       
@@ -760,7 +797,7 @@ X-Varnish: 124582841 124055252
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9c60518c4cc1a158fc8e830efd675b5d7f9fa7dac7ccace77986d6adc4103b72">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-50968529dbf99a28ca577c880b859988461ea1b8513a5099648cff8e8c707f29">
   
     
       
@@ -795,6 +832,19 @@ X-Varnish: 124582841 124055252
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/canterbury">Reserve a spot at Canterbury Recreation Complex</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Facility closure</h3>
+<ul>
+<li><strong>Monday, October 20</strong>
+<ul>
+<li>The facility is closed from 6 am to 2 pm&nbsp;for maintenance.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -947,7 +997,7 @@ X-Varnish: 124582841 124055252
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5d1b25cecf051fc099a1cf0d1d3702fd1ad35d6a27188ec3c26d79ca834c0188">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4763a30c1ea8a70acbdefe545bc0825172e686302b958f172d1bcfaf58ce09d0">
   
     
       
@@ -961,7 +1011,7 @@ X-Varnish: 124582841 124055252
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-79675edc9126e3e323ae66000df9ef515f276f8216f69f7fa0d47671e2ce89cf">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-83bd131aa3b8522a58f04e544e0597639a0f465df0661990d2bae7ba958b524a">
   
     
       
@@ -991,6 +1041,19 @@ X-Varnish: 124582841 124055252
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change. Holiday hours and programs may vary.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/skating/drop-skating">Additional details, descriptions, fees and cancellation information</a>.</p>
 <p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Facility closure</h3>
+<ul>
+<li><strong>Monday, October 20</strong>
+<ul>
+<li>The facility is closed from 6 am to 2 pm&nbsp;for maintenance.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -1167,7 +1230,7 @@ Pool rentals - please contact the facility</p>
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-f01c31fe27f081c9ec7fe73f71cfc616151015d2c095cc5e8e685ee809999ab7">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-7ec60dd9d4545786074ba3e9dd5cee6447520e8ebf166a3b3c615f7bcf4421ad">
   
     
       <div class="view-header">
@@ -1258,7 +1321,7 @@ Pool rentals - please contact the facility</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-92720716f67ad8eb87fc8c95c30ba96c61c854b5bc6a51b6ca2c05e06d7325d7">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c433a11a100c7db7bb54815d2eafecec59792b0b7939dfc52017e9b07340ad95">
   
     
       
@@ -1272,7 +1335,7 @@ Pool rentals - please contact the facility</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bd90ceee2cc9c4b02add385e6ae9138dda8d5d12e347a0405f491fbec66e992b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-83d9c504938763d08c2c48776101cd99759cbcdab428f8b0397e057123639148">
   
     
       
@@ -1788,7 +1851,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t1pj7h" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=20&cb=1008539551" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=20&cb=1345311119" async></script></body>
 </html>
 
 
