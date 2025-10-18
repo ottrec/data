@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ja-dulude-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=LUa9DLG7ROe5TuXpO/Qpu8+H8WgAAAAAQUIPAAAAAABoRjtwrZ8UmmTkm2qHn6kB; nlbi_243507=Vm3MFEr9j0F4yYIgaXmSIAAAAACXTDUgJ6kEahfUhVjIbNoV; incap_ses_1813_243507=/DE3EdJnhTeUUEQvNBIpGc+H8WgAAAAAYREfVu/t6Iq7ewgoWLpMEw==
+Cookie: visid_incap_243507=6dVJdEO3TE6XjSrGd7dogUPZ8mgAAAAAQUIPAAAAAAC40+6F69UhfFHWUwfDMPJ0; nlbi_243507=8v7YUJCYLmpbw2jXaXmSIAAAAABAFeMi58bE5il9lIr7dlcP; incap_ses_1536_243507=AHczMoAa9HENoypzRfhQFUPZ8mgAAAAA5eY0IcIzSzFQOHT2Dwp94Q==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 1
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 17 Oct 2025 00:05:23 GMT
-Etag: "1760659520-gzip"
+Date: Sat, 18 Oct 2025 00:05:12 GMT
+Etag: "1760745911-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 17 Oct 2025 00:05:20 GMT
+Last-Modified: Sat, 18 Oct 2025 00:05:11 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 53-39410019-39410039 SNNy RT(1760659407714 115471) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 125844605 124864143
+X-Iinfo: 17-52589214-52589220 SNNN RT(1760745795869 115426) q(0 0 0 -1) r(12 12) U24
+X-Varnish: 127150142
 
-d002
+d001
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -183,7 +183,7 @@ d002
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7ed801d29d6471f89701704862d479d11debd1eba1dca4d7ecdf25aadb70c2c8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1f606e1329d556976309edbd7f916daaf4cb63eeb7e4e24ceb2cb8d2037ba4de">
   
     
       
@@ -197,7 +197,7 @@ d002
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9a55b4712ef1da7e24d3d7bed7e12f87f825fa1ca8e9c471567965994b8de890">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d817fc65e1197ce8e3499e7a8873e29ff7b11637200be58ebcf9ea35aa5b1bd3">
   
     
       
@@ -491,7 +491,7 @@ d002
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1abccd28b7e5321d70ad217d6d9ade1efcf3946b70e1f2558f2483863c3fac27">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-33c0349319bb49877a0d32e60fef33b1ab12cc31276fa465b2d53c738a7dd503">
   
     
       
@@ -505,7 +505,7 @@ d002
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2f2ce52d8e29afa63b9e7e5fed1508e97e12ec7e6b74417b9f97cfe5e8aa3087">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-18d465858f8386ace56701df09ec686cf96ed9f22f51424b02c1e85ad2ace1f5">
   
     
       
@@ -768,7 +768,7 @@ d002
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-335afbf7c574cd624378f3cb45cf52a428d53a42017d7df5b664af49f9f77af4">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-a12e86680a76e0ed3ebb1e7938186a8b3211905a89af36f78220d681343bb359">
   
     
       <div class="view-header">
@@ -1132,7 +1132,7 @@ If YES, a new window will open in the background so you can come back to it when
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8HsLONJs53maLbM">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_2f4bRPwa30pLtdk">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -1147,7 +1147,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t1pj7h" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEFuxCAM_BAsl_4HGeJSbx2MwGySff2SqqqWHHqxPGPPeOQgok0rlA8X_lp7b5ZBsanBXZnyt1tqL8C3X2g-GffGtGB1lBVTBSXJJokkRq-QXBrlim9wh30mV8PwPNxZjKhG8PqFK7pwMGxMI8E7G4UZShtiScNjmp25PEXJbaJH3_fbRkvC2avUkdw2iQRsQ1e9Klus4xzWmSRFWkuVB1rIwIdSvMh-3uITnNrDFCm9-NbrAw_3DsZkwxrI4xpwcROykQmz_r_Sm8pKT6wv1JyyYA"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=58&cb=1109226932" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=58&cb=898015893" async></script></body>
 </html>
 
 

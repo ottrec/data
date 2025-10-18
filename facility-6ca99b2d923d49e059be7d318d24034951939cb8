@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/south-fallingbrook-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=LUa9DLG7ROe5TuXpO/Qpu8+H8WgAAAAAQUIPAAAAAABoRjtwrZ8UmmTkm2qHn6kB; nlbi_243507=Vm3MFEr9j0F4yYIgaXmSIAAAAACXTDUgJ6kEahfUhVjIbNoV; incap_ses_1813_243507=/DE3EdJnhTeUUEQvNBIpGc+H8WgAAAAAYREfVu/t6Iq7ewgoWLpMEw==
+Cookie: visid_incap_243507=6dVJdEO3TE6XjSrGd7dogUPZ8mgAAAAAQUIPAAAAAAC40+6F69UhfFHWUwfDMPJ0; nlbi_243507=8v7YUJCYLmpbw2jXaXmSIAAAAABAFeMi58bE5il9lIr7dlcP; incap_ses_1536_243507=AHczMoAa9HENoypzRfhQFUPZ8mgAAAAA5eY0IcIzSzFQOHT2Dwp94Q==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 168
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 17 Oct 2025 00:07:14 GMT
-Etag: "1760659464-gzip"
+Date: Sat, 18 Oct 2025 00:07:03 GMT
+Etag: "1760746021-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 17 Oct 2025 00:04:24 GMT
+Last-Modified: Sat, 18 Oct 2025 00:07:01 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
@@ -27,8 +27,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 53-39410019-39410039 SNNy RT(1760659407714 226963) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 118749932 125844520
+X-Iinfo: 17-52589214-52589220 SNNN RT(1760745795869 225501) q(0 1 1 -1) r(21 21) U24
+X-Varnish: 127369765
 
 b1d9
 
@@ -183,7 +183,7 @@ b1d9
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9a28fa8e18280f2149c28f96868e52dc62fdf3086e05668ac85529fc2f1d623d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b3a1962b7aa171e6efe3769251b9cfecbe8e00d5e23e229db7909fee342ef259">
   
     
       
@@ -197,7 +197,7 @@ b1d9
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9ed2636f78a6a67552f34afd0d1d4961422c9a6ee8c9dccb60346e1136002ff9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-eef1e67c3f4a05b5031ac7eb1f981c39a8fdb3ae84bc8285cdbb8a34599e413f">
   
     
       
@@ -397,7 +397,7 @@ b1d9
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-46195a911dac2207cc66413b4da7d24f134418ff4d397920cc4c9c903511311a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-194bf2f5d5d46f6a9bb9854206dfaea6ed343aabddddca25eb109afeaa48e9e4">
   
     
       
@@ -411,7 +411,7 @@ b1d9
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f3796509b3b3a307fbb19af01b0c7204f4b82bee2d4669e74eb7a3dd15c9bec7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d6d93deca3dc8c1af5afdaa9412f50bdfde626ceca0b09553141bacebeb4bd6b">
   
     
       
@@ -661,7 +661,7 @@ b1d9
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-b81607fc6729c1fc2743aa18f0fa0a7d74ae098125e1d39df7b9e20c149666dc">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-e4e0c89df35a317d87523b58347975f9f0e222fa25989d04684f7316d45e40c6">
   
     
       <div class="view-header">
@@ -1044,7 +1044,7 @@ If YES, a new window will open in the background so you can come back to it when
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8HsLONJs53maLbM">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_2f4bRPwa30pLtdk">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/hintonburg-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=LUa9DLG7ROe5TuXpO/Qpu8+H8WgAAAAAQUIPAAAAAABoRjtwrZ8UmmTkm2qHn6kB; nlbi_243507=Vm3MFEr9j0F4yYIgaXmSIAAAAACXTDUgJ6kEahfUhVjIbNoV; incap_ses_1813_243507=/DE3EdJnhTeUUEQvNBIpGc+H8WgAAAAAYREfVu/t6Iq7ewgoWLpMEw==
+Cookie: visid_incap_243507=6dVJdEO3TE6XjSrGd7dogUPZ8mgAAAAAQUIPAAAAAAC40+6F69UhfFHWUwfDMPJ0; nlbi_243507=8v7YUJCYLmpbw2jXaXmSIAAAAABAFeMi58bE5il9lIr7dlcP; incap_ses_1536_243507=AHczMoAa9HENoypzRfhQFUPZ8mgAAAAA5eY0IcIzSzFQOHT2Dwp94Q==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 344
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 17 Oct 2025 00:05:18 GMT
-Etag: "1760659517-gzip"
+Date: Sat, 18 Oct 2025 00:05:05 GMT
+Etag: "1760745559-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 17 Oct 2025 00:05:17 GMT
+Last-Modified: Fri, 17 Oct 2025 23:59:19 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 53-39410019-39410039 SNNy RT(1760659407714 109470) q(0 0 0 -1) r(10 10) U24
-X-Varnish: 124379696
+X-Iinfo: 17-52589214-52589220 SNNN RT(1760745795869 109215) q(0 0 0 -1) r(2 2) U24
+X-Varnish: 126022091 127372453
 
-ce6e
+ce70
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -183,7 +183,7 @@ ce6e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9f68be3a9875f2baa25cab082386e1dc5e3834e284d5c8c7136624a8c1edfa90">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a8120c0ebd242bd2b73ec9ef8e8a2c15341d7e19017a5739b34c08c0365d585f">
   
     
       
@@ -197,7 +197,7 @@ ce6e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-98b3228ba9c97a922eddc4c1d0b4dd624e3de8e450a9adc1f6c6042a3131145d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2dff01c421cd0ac3141fac823263c17273aaad6939f0b39d7dea4b0d309a699e">
   
     
       
@@ -274,7 +274,7 @@ ce6e
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">9:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">9:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 3:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">9:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">9:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 3:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -444,7 +444,7 @@ ce6e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cf8952272c0a5944653a457ac9598f1ed713b8488345754b64e0a5b68f1f9a21">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8696402b546ecbbcd62e3ae3644db542ebf71da5a79d621213418d42e5026a98">
   
     
       
@@ -458,7 +458,7 @@ ce6e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-045734dc5488349dfea499b08eb35484b306e25c95322b2b38db0547559061ff">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f385dfa828d0b9e76397041cfb94289e5541252ee0ccd1a46d48ab3fbe74bd6e">
   
     
       
@@ -624,7 +624,7 @@ ce6e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-eb653ee2a13f7e4ddb8fdad9c78a9e38d05da59ed135b78a60f4542d7942b21f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a7ea47bc8f025a0b9a0bd6d1e992bccf71f96cabb650c3ab6ec5f8e6f5fafcbd">
   
     
       
@@ -638,7 +638,7 @@ ce6e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cd85d7bc6a3297a2eccd7d278a47a2caf5cfa0a01b790a3a2f202f12b1f6aa66">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9b9036007ef66037180de8977072f184c53d85c0cfcadd5c62c3d19258edccb1">
   
     
       
@@ -813,7 +813,7 @@ ce6e
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-035d78dd4401913307aa7fe3a3f358db9f7b016e3ce0e8a3170dd7478b03c66e">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-c13e58ff711b3fe7f01a33c1736e3d48a350c8ea2aff4090b99928a1687fcb94">
   
     
       <div class="view-header">
@@ -1205,7 +1205,7 @@ If YES, a new window will open in the background so you can come back to it when
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8HsLONJs53maLbM">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_2f4bRPwa30pLtdk">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -1219,7 +1219,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=55&cb=1572301312" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=55&cb=1507539663" async></script></body>
 </html>
 
 
