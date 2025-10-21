@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=HlLiQcuLQNehVeXYPOD7Alt89WgAAAAAQUIPAAAAAAAEVio+IxOZhjLa5X6QB+CN; nlbi_243507=4uIMDQT9gwbgOeYvaXmSIAAAAAAFXP42HpmBtJWZ9AeVnei+; incap_ses_4557_243507=n+4/fqcxumohN0NxnLc9P1t89WgAAAAA9ETtT5GNMHPfGQA6EqHl+w==
+Cookie: visid_incap_243507=ibNaeKRFS4eUxxTDBr0x3tfN9mgAAAAAQUIPAAAAAADZJYRz9dcugJXNPTFe04mQ; nlbi_243507=aPiyYgKwCToeKtHpaXmSIAAAAACdSBJMjc2v5+JicZiAFYfi; incap_ses_1607_243507=+P+4HsfwIlWLhCb1dzZNFtfN9mgAAAAA2SW8NHMA1IdVnZwPB6DTig==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 64
+Age: 534
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 20 Oct 2025 00:05:06 GMT
-Etag: "1760918640-gzip"
+Date: Tue, 21 Oct 2025 00:05:03 GMT
+Etag: "1761004567-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 20 Oct 2025 00:04:00 GMT
+Last-Modified: Mon, 20 Oct 2025 23:56:07 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-gm87m (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-hsbv7 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 59-137897706-137897726 SNNy RT(1760918619814 86318) q(0 1 1 -1) r(1 1) U24
-X-Varnish: 129245912 128643421
+X-Iinfo: 48-57287565-57287574 SNNy RT(1761005016421 87071) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 130777297 121726325
 
-12577
+129f9
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 129245912 128643421
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre" />
 <meta name="dcterms.title" content="François Dupuis Recreation Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-10-14" />
+<meta name="dcterms.date" content="2025-10-20" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -183,7 +183,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-95aa8a783ae9281d0d597c0fced6ba94849f4d1df02f97c3249feafe86814cf5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b098c40fcc847df62f98220a0b52f5e19ddc1c82eefe975309f2a10842a6e18d">
   
     
       
@@ -197,7 +197,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-abc6c1aba231b00e610ecf604e8b1fa4ee0244ca9e18bc70af1e7b4bf9a305ed">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c4e2b2adbcb1420fc5a6a853b2c87f6f5578c70403cf1838647514d0f92feafc">
   
     
       
@@ -270,7 +270,7 @@ X-Varnish: 129245912 128643421
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Closures</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
 </div>
       
 
@@ -278,7 +278,17 @@ X-Varnish: 129245912 128643421
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>The rock wall is closed for annual maintenance until further notice.</p>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Tuesday, November 4</strong>
+<ul>
+<li>Lane swim, 11:30 am to 2:30 pm, cancelled</li>
+<li>Public&nbsp;swim - therapeutic pool, 11:30 am to 2:30 pm, cancelled</li>
+<li>Public swim - 25m pool, 1 to 2:30 pm, cancelled</li>
+</ul>
+</li>
+</ul>
+<h3>Closures</h3>
+<p>The rock wall is closed for annual maintenance until further notice.</p>
 </div>
       
 
@@ -290,7 +300,7 @@ X-Varnish: 129245912 128643421
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -340,6 +350,18 @@ X-Varnish: 129245912 128643421
 </ul>
 </div>
       
+
+
+
+
+  
+  <div class="field field--name-field-emails field--type-email field--label-inline clearfix">
+    <div class="font-weight-normal field__label">Email</div>
+          <div class="field__items">
+              <div class="field__item"><a href="mailto:FDRC@ottawa.ca">FDRC@ottawa.ca</a></div>
+              </div>
+      </div>
+
 
 
 
@@ -454,7 +476,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a00839371e9f8b784dfef74631c3c94d6fd04d1581cbc1fa34cefbbfaad3add4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-afce8bc8a1d11f7cca68b65ecd5dc85eaa570a6c798e5297ef8a93b0689247e7">
   
     
       
@@ -468,7 +490,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4531e60eaa3413361082bb9e4cc3a11ac2e647bb71133d3f0b6b71575468b7bf">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b3af0944a91df160d555b918b6a660f3375fada85bd57ad2d4e6e70e2819e2e0">
   
     
       
@@ -498,6 +520,21 @@ X-Varnish: 129245912 128643421
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/swimming/drop-swimming-and-aquafit">Play free, additional details, descriptions, fees and cancellation information.</a></p>
 <p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Tuesday, November 4</strong>
+<ul>
+<li>Lane swim, 11:30 am to 2:30 pm, cancelled</li>
+<li>Public&nbsp;swim - therapeutic pool, 11:30 am to 2:30 pm, cancelled</li>
+<li>Public swim - 25m pool, 1 to 2:30 pm, cancelled</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -781,7 +818,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-17a6d76243fc80da1033769084fc8dbb8ec046864122a36dc43a5ac88f67ab92">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8c43adba53c1f1f8d1821182852e09fdbc864b3cd2c2de94a5c81ef439b2943c">
   
     
       
@@ -795,7 +832,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-395cb9c1bd32d5cfa831a72fbc1d92d15215d7cb357f40ac8727d2422db7417f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4f717cc73c595f36bda22d18970ed10eeef49cf948a9b8a04cf036449e9729fa">
   
     
       
@@ -950,7 +987,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9284dcbe6002c72d34f4ced9620da7da887f8dde95adae72fd3f204bce6da0da">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3510e1accfa206b849f65be35849ba8f2937285d02a124a837260271d0fe0d51">
   
     
       
@@ -964,7 +1001,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c32386bbad12dfba59ce0cdc971fe3607b3b5249494c7507b8a592d448af9744">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dafec9c45fad3b13ec63850da96b1c72dcd4b57c7a5b07da148b6ea7ed359a94">
   
     
       
@@ -1056,7 +1093,7 @@ X-Varnish: 129245912 128643421
 			<td>n/a</td>
 			<td>n/a</td>
 			<td>n/a</td>
-			<td>n/a</td>
+			<td>7:45 - 8:45 pm</td>
 			<td>n/a</td>
 			<td>10:45 - 11:45 am</td>
 		</tr>
@@ -1066,10 +1103,9 @@ X-Varnish: 129245912 128643421
 			<td>n/a</td>
 			<td>6:30 - 7:30 pm</td>
 			<td>n/a</td>
-			<td>6:30 - 7:30 pm,&nbsp;
-			7:45 - 8:45 pm</td>
+			<td>6:30 - 7:30 pm</td>
 			<td>n/a</td>
-			<td>n/a</td>
+			<td>9:30 - 10:30 am</td>
 		</tr>
 		<tr>
 			<th>Pilates 50+</th>
@@ -1108,7 +1144,7 @@ X-Varnish: 129245912 128643421
 		<tr>
 			<th>Yoga 50 +</th>
 			<td>10:45 - 11:45 am</td>
-			<td>n/a</td>
+			<td>11:15 am - 12:15 pm</td>
 			<td>1 - 2 pm</td>
 			<td>n/a</td>
 			<td>n/a</td>
@@ -1230,7 +1266,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8483edf5291e96bd796fda9d5d2d7dff2813f9475b3c59fd2c089e91efa905ac">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0416ded9159e8d4a9f87a3a991a354b5a69eea0d8a46d85e21a7746cc04c2aca">
   
     
       
@@ -1244,7 +1280,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b954091cc09444cf82266b7c9167a3ba80b37b996a39e03c89c317db1f116382">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-92a51be0121d0c4577661345a7e4a9d683c0468c819cb3dc17a33f384d3b5b2c">
   
     
       
@@ -1461,7 +1497,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-42bb8aa60db033ee65eb90c28d7f092068388b214ce47047032b6f17fcb2b99c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f651839a485756ba20d376b3f1fe3748264f90e82cc824bb1232e6f83902d95c">
   
     
       
@@ -1475,7 +1511,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-864082256f16d230ecd95e37e2b42f05749c2d4fca3622ea5fa964b073d426b9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c36d51e792fc19c0ae38f3af25f0992478b4a9e4ea24128d8ce2553a00c187ab">
   
     
       
@@ -1694,7 +1730,7 @@ X-Varnish: 129245912 128643421
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-115532abeca7eac7e289fddfd5844183d4eb0903b37e950b2a5a2dac8b057928">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-57231fc427023c1ccd8bae4ce659126211299d7ace43763b01e37db500fbe7ba">
   
     
       <div class="view-header">
@@ -2099,7 +2135,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jk1uAyEMhS8Ew6b3QYaxqBODEZjMTE5fIlVVyKIb673PP89BRLs2qF8u_El765ZBsavBU5nK3e1tVODt15okkhi9QnJplk-_wQ3OFWbD8LzcqxhRjeD1GzO6cDEcTDPqnUZhhtrnsqR5Y-m9HvAUpfQFTz3O7aA94XqrNipqu0QCtmGofm722GYcthWSIuXa5IEWCvClFLupUkf1fbQHXu7dzM6BLZDHHHB3i7ORCYv-PzK6SqYnth_KLp51"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=44&cb=1145576630" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=44&cb=1513553304" async></script></body>
 </html>
 
 
