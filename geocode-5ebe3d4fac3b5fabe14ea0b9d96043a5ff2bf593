@@ -1,7 +1,7 @@
 GET /v1.9/geocode?country=CA&q=3832+Carp+Road%0AOttawa+ON+K0A+1L0%0ACanada HTTP/1.1
 Host: api.geocod.io
 Authorization: redacted-65ffda17
-User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/orec2)
+User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 
 HTTP/2.0 200 OK
 Access-Control-Allow-Headers: Content-Type, User-Agent
@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 25 Sep 2025 15:56:42 GMT
-Request-Handler: api300
+Date: Mon, 17 Nov 2025 05:03:14 GMT
+Request-Handler: api307
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 974
-X-Request-Id: 40EC870A:6C50_05A11518:01BB_68D56637_3578E:AC6E
+X-Ratelimit-Remaining: 972
+X-Request-Id: 87E8B912:1410_05A11518:01BB_691AAC8F_16A539:0148
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"3832","street":"Carp","suffix":"Rd","state":"ON","zip":"K0A 1L0","country":"CA"},"formatted_address":"3832 Carp Rd, ON, K0A 1L0"},"results":[{"address_components":{"number":"3832","street":"Carp","suffix":"Rd","formatted_street":"Carp Rd","city":"Kanata","state":"ON","zip":"K0A","country":"CA"},"address_lines":["3832 Carp Rd","","Kanata, ON K0A"],"formatted_address":"3832 Carp Rd, Kanata, ON K0A","location":{"lat":45.348418,"lng":-76.040471},"accuracy":0.9,"accuracy_type":"rooftop","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"},{"address_components":{"number":"3832","street":"Carp","suffix":"Rd","formatted_street":"Carp Rd","city":"Kanata","state":"ON","zip":"K2W","country":"CA"},"address_lines":["3832 Carp Rd","","Kanata, ON K2W"],"formatted_address":"3832 Carp Rd, Kanata, ON K2W","location":{"lat":45.349134,"lng":-76.038775},"accuracy":0.8,"accuracy_type":"rooftop","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}]}
+{"input":{"address_components":{"number":"3832","city":"Carp","state":"ON","zip":"K0A 1L0","country":"CA"},"formatted_address":"3832, Carp, ON K0A 1L0"},"results":[{"address_components":{"city":"Carp","state":"ON","zip":"K0A","country":"CA"},"address_lines":["","","Carp, ON K0A"],"formatted_address":"Carp, ON K0A","location":{"lat":45.325221,"lng":-76.094892},"accuracy":0.5,"accuracy_type":"place","source":"CanVec+ by Natural Resources Canada"}]}
