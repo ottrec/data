@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/glen-cairn-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=2UHRu3PmS2icrEq1G307GcRDJmkAAAAAQUIPAAAAAAAOW6amB7XpN2+l9LLLCJca; nlbi_243507=R+aMSWEobQYuMgCxaXmSIAAAAAAVmSPk40+7e3FNQMOKSNEr; incap_ses_1840_243507=K6VXLyTqPkIUan68yf6IGcZDJmkAAAAAU9WDJlm4jrkObNmAP/VWvA==
+Cookie: visid_incap_243507=/YCJXWHqSymcY8Jl5qbrFEeVJ2kAAAAAQUIPAAAAAADJkjuBJFaRrsAWFB9T4Hux; nlbi_243507=PY2VchPELj7jfScwaXmSIAAAAADNBIIW+RtqAWfFU03EjYE+; incap_ses_1840_243507=NSGCQIAIA3UZ76nCyf6IGUeVJ2kAAAAAwYFgxTgRJoB1eJ6kUZI1kg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -14,21 +14,21 @@ Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 26 Nov 2025 00:05:02 GMT
+Date: Thu, 27 Nov 2025 00:04:59 GMT
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-xwj5h (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 60-32034162-32034177 SNNy RT(1764115396093 104445) q(0 0 0 -1) r(22 22) U24
-X-Varnish: 2278154
+X-Iinfo: 59-52324434-52324448 SNNy RT(1764201799888 98155) q(0 0 0 -1) r(15 15) U24
+X-Varnish: 2233320
 
-9652
+964f
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -192,7 +192,7 @@ X-Varnish: 2278154
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ba6ceca06de0564e6a287fbdeb69087eba8a30ec6b7c8e87098713f576a0a01d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fb0ac0f756fe01ab32c6f756f412a10ea0fffa004f15c8c0bcead85b480a8635">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 2278154
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9b914454d5a8870b290fbe3c43cab46c2f445e4cadc8e625c2e449a15d297834">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f2cd25b7c9ef619bd2d5dbe2c0e3b8c68c02a3e904eb2cef3911e1fb8f9f6848">
   
     
       
@@ -289,7 +289,7 @@ X-Varnish: 2278154
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">12:00 pm - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">4:00 pm - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">4:00 pm - 6:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">4:00 pm - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">4:00 pm - 6:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">4:00 pm - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">12:00 pm - 5:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">12:00 pm - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">4:00 pm - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">4:00 pm - 6:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">4:00 pm - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">4:00 pm - 6:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">4:00 pm - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">12:00 pm - 5:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -438,7 +438,7 @@ X-Varnish: 2278154
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-f27683983b8d56b295340375e2c0fa40311e39194a33afc1639f337fae4c27fb">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-5954c45def53afedd2a27c7bbcfd518ba05c7957e83dafe438d633540f19713b">
   
     
       <div class="view-header">
@@ -839,7 +839,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=50&cb=1950732632" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=50&cb=279632133" async></script></body>
 </html>
 
 
