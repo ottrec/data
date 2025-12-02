@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/shenkman-arts-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=sQDsnV36TxCiRKQn1dYzc5fbLGkAAAAAQUIPAAAAAAB4e0wK4l5v5zX83DZydT+V; nlbi_243507=ju2IZs5oUR/wMgNfaXmSIAAAAAClwE/WcV9K0CLVeJzW0MvY; incap_ses_187_243507=U/i+MHD2kz7wyUKDkFuYApfbLGkAAAAA6VSdnPiq4E/pODPrJ9TaCw==
+Cookie: visid_incap_243507=jfXu/xdNQEacOwnXjLK7Ns0sLmkAAAAAQUIPAAAAAAD7t8oktr5cKuj6JAVRxfMf; nlbi_243507=Pjr/LbYDtSlMxzBQaXmSIAAAAADyZmyXULCawwaY90IQ1MTC; incap_ses_887_243507=KeayAK3NvA1vkjNlSEJPDM0sLmkAAAAADg8mpswxzi5BJmQBlcrYtQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,24 +8,27 @@ HTTP/1.1 301 Moved Permanently
 Content-Length: 334
 Access-Control-Allow-Origin: *
 Age: 0
-Cache-Control: must-revalidate, no-cache, private
+Cache-Control: max-age=2764800, public
 Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=utf-8
-Date: Mon, 01 Dec 2025 00:08:22 GMT
+Date: Tue, 02 Dec 2025 00:07:08 GMT
+Etag: "1764631727"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 01 Dec 2025 23:28:47 GMT
 Location: http://shenkmanarts.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
+Vary: Cookie
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-ssdm8 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: MISS
+X-Drupal-Cache: HIT
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 42-114584740-114624985 SNNy RT(1764547479695 222973) q(0 0 0 -1) r(3 3) U24
+X-Iinfo: 4-57163963-57163967 SNNy RT(1764633805879 222768) q(0 0 0 -1) r(1 1) U24
 X-Redirect-Id: 356930
-X-Varnish: 8218035
+X-Varnish: 10658539
 
 <!DOCTYPE html>
 <html>

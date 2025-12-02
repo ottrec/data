@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=sQDsnV36TxCiRKQn1dYzc5fbLGkAAAAAQUIPAAAAAAB4e0wK4l5v5zX83DZydT+V; nlbi_243507=ju2IZs5oUR/wMgNfaXmSIAAAAAClwE/WcV9K0CLVeJzW0MvY; incap_ses_187_243507=U/i+MHD2kz7wyUKDkFuYApfbLGkAAAAA6VSdnPiq4E/pODPrJ9TaCw==
+Cookie: visid_incap_243507=jfXu/xdNQEacOwnXjLK7Ns0sLmkAAAAAQUIPAAAAAAD7t8oktr5cKuj6JAVRxfMf; nlbi_243507=Pjr/LbYDtSlMxzBQaXmSIAAAAADyZmyXULCawwaY90IQ1MTC; incap_ses_887_243507=KeayAK3NvA1vkjNlSEJPDM0sLmkAAAAADg8mpswxzi5BJmQBlcrYtQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,18 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
-Cache-Control: must-revalidate, no-cache, private
-Cache-Tags: MISS
+Age: 656
+Cache-Control: max-age=2764800, public
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 01 Dec 2025 00:08:01 GMT
+Date: Tue, 02 Dec 2025 00:06:46 GMT
+Etag: "1764633349-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 01 Dec 2025 23:55:49 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
-Vary: Accept-Encoding
+Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
@@ -25,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 42-114584740-114624985 SNNy RT(1764547479695 200733) q(0 0 0 -1) r(14 14) U24
-X-Varnish: 8535645
+X-Iinfo: 4-57163963-57163967 SNNy RT(1764633805879 200757) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 10469091 10968099
 
-14060
+13998
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -39,7 +41,7 @@ X-Varnish: 8535645
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata" />
 <meta name="dcterms.title" content="Richcraft Recreation Complex-Kanata" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-11-28" />
+<meta name="dcterms.date" content="2025-12-01" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -53,13 +55,13 @@ X-Varnish: 8535645
     <link rel="stylesheet" media="all" href="/sites/default/files/css/css_Bu7U1OWZO3pamOcWlpJoOyfRlG5V4LU-xy26iDR88A8.css?delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css_lFQOAR7zHt5PNGDxhGTwxU8SRrnHxN6zHhqP_He1qlA.css?delta=1&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
-<link rel="stylesheet" media="all" href="/sites/default/files/css/css_fdAJ2jFYM6r4-olZoRxGnLQf-u508FgmDcugx0Jbw3A.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_G5Mg50aXQMesPwLv_wzgzxGcVXqd3TUO62PzaalJZV8.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031635","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkmSwyAM_BA2l_kPJUDBJMKikEjivD5kVjuHuah6AUnV4JlVtEH9sB4Ejd_xXzidZSJQFN37idgDTaIb5TXtnYIikFBMuGDMys3lNeKqnjhc7A6bwA3tyq0A5QcavOvodbGx9Qo0f1OTmBOhU0g2jfLOZzjD_SgWQ7BxVxezBL5i2yyvGJiG_tjsqxg-nXJAt3BvYvfEnV4LqWIzrBrA6YIF7bhNUGWM4DQmHby3LPbWwP0-33JMqAdDsmIutY31JliBNs1BTIUGaaS4yE8Kf8rc19o9ZVkwmsq1Vye9XXGzezKcGzafHRaP0R7YFCiP8P8_0kW5jOdoRjZRLF8_45rxJvazzoVjJ3wCwljhOg","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?t5xla2"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?t5xla2"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?t6ljoe"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?t6ljoe"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -192,7 +194,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2f868e3601c0c187a59e595dd730c0971e4e40ca4f1f009f50aa820892672608">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-387eb06ac3ed49cc207b1275f985034a7350f25b611b0fe98d1a6043c36763ec">
   
     
       
@@ -206,7 +208,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c2aba7ed1d7e765a67c224d07c170cdfecb21f822aebf88eb55300cc919662e6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-94ab0deb390c2a9d8fac6b1492d07a09a7d1e13d3f517d3d20240f8f22a7718f">
   
     
       
@@ -275,34 +277,7 @@ X-Varnish: 8535645
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    
-
-
-  
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
-</div>
-      
-
-
-
-
-  
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Friday, November 28</strong>
-<ul>
-<li>Basketball, 11 am to noon, cancelled</li>
-<li>Basketball, noon to 1 pm, cancelled</li>
-<li>Badminton doubles - adult, 11 am to noon, cancelled</li>
-<li>Badminton doubles - adult, noon to 1 pm, cancelled</li>
-<li>Pickleball - rotations, 1:30 to 2:30 pm, cancelled</li>
-<li>Pickleball - rotations, 2:30-3:30 pm - cancelled</li>
-</ul>
-</li>
-</ul>
-</div>
-      
-
-<div class="mb-3">
+                                                    <div class="mb-3">
 
 
 
@@ -484,7 +459,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-74967047da34ccdd96e2d52171f0677245bd47760cf30e21522184c9f7e5a167">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1d34089eba1f7e3257f2683d28702c184aed42f9edc6cffccecd62f683cc1e61">
   
     
       
@@ -498,7 +473,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0b6d2e01ab04efc3f156a9fde09e3cb27185650c01d4af43a43944f8c3890291">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-48ddc0119e5474400897ac792e66dd5b3a3b6aaf203c99bc9b15dd83d4724f55">
   
     
       
@@ -854,7 +829,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4527f3448658bd8b7153663ac318dbf4e226528bcc7d002387f2470a0eca95c8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fb918f3cc22bf3f0812f44200a854ab5be44572065e50ea401af3d1d1bd682ec">
   
     
       
@@ -868,7 +843,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-46ab3c9f959ff4da1d213c12f053afb4ed24134c1cba5fce9725d44654f32a0b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7eaa1d98e8715ba884298bba2c8a5eef57a2a9c166a2f169368eb0d234b66164">
   
     
       
@@ -1003,7 +978,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bb2d6615581d763870f69b2335b0bae92b064ed2a73ce0d67680f8ce54b822a4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ff8b77e2dea386a9ecaa2519e5086a870924623dc3ca99ba0a5022c914ec455e">
   
     
       
@@ -1017,7 +992,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b8d0a358590c653c63480bcbac90fd89f33f9081852b619b16dc166c2f8c560b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e078de187e490a2b2504e2e9e15ab22173529420171681e2d8b05856282fff18">
   
     
       
@@ -1261,7 +1236,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-19a7a44c09b0161c89c86a3410747838d916df5433121f991b314212b953d289">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b779b3feebfc249e6e72e7c314b2984e367ebc21b9cf800527c7b87ba7caead0">
   
     
       
@@ -1275,7 +1250,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b4036b53661025ccbca212d278ff57b0f380b17bd8ee1839395f7b2faeba6826">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fd890ac6d6ff78ea0ff8a0131746999b4c874f354b971f43aada80385ba71ce5">
   
     
       
@@ -1305,22 +1280,6 @@ X-Varnish: 8535645
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Play free, additional details, descriptions, fees and cancellation information.</a></p>
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/richcraftkanata">Reserve a spot at Richcraft Recreation Complex-Kanata</a></p>
-</div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
-<ul>
-<li><strong>Friday, November 28</strong>
-<ul>
-<li>Badminton doubles - adult, 11 am to noon, cancelled</li>
-<li>Badminton doubles - adult, noon to 1 pm, cancelled</li>
-<li>Pickleball - rotations, 1:30 to 2:30 pm, cancelled</li>
-<li>Pickleball - rotations, 2:30-3:30 pm - cancelled</li>
-</ul>
-</li>
-</ul>
 </div>
       
       </div>
@@ -1572,7 +1531,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6b5ba690ce28b1b35854f1441cb73cf137118f769a5f5e1cae64d5a42cc0e576">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-18ecabf4db7f7c0cd6c947135f4f4419c3f6689449a6b343a994b217bb69eac5">
   
     
       
@@ -1586,7 +1545,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-292bed6202379b4faa73dd2e7dc62ac2f6b7bc432d421e49b1feeb7b5a8b42cb">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c18991b6bd3323984bc23a82a055eba0fd1c1ab4a0da4cd32449a12b1c092b74">
   
     
       
@@ -1616,19 +1575,6 @@ X-Varnish: 8535645
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Additional details, descriptions, fees and cancellation information.</a></p>
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/richcraftkanata">Reserve a spot at Richcraft Recreation Complex-Kanata</a></p>
-</div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Friday, November 28</strong>
-<ul>
-<li>Basketball, 11 am to noon, cancelled</li>
-<li>Basketball, noon to 1 pm, cancelled</li>
-</ul>
-</li>
-</ul>
 </div>
       
       </div>
@@ -2002,7 +1948,7 @@ X-Varnish: 8535645
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-7636863fd6249ba2465e3b53c2f4161f2b829158c1e2537e76f5dd6508974978">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-216d85339869ad4c3ba6f09aad30d107007eb7b1db2618c4534317a579011e64">
   
     
       <div class="view-header">

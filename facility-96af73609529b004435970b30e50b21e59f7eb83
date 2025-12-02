@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/cumberland-heritage-village-museum HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=sQDsnV36TxCiRKQn1dYzc5fbLGkAAAAAQUIPAAAAAAB4e0wK4l5v5zX83DZydT+V; nlbi_243507=ju2IZs5oUR/wMgNfaXmSIAAAAAClwE/WcV9K0CLVeJzW0MvY; incap_ses_187_243507=U/i+MHD2kz7wyUKDkFuYApfbLGkAAAAA6VSdnPiq4E/pODPrJ9TaCw==
+Cookie: visid_incap_243507=jfXu/xdNQEacOwnXjLK7Ns0sLmkAAAAAQUIPAAAAAAD7t8oktr5cKuj6JAVRxfMf; nlbi_243507=Pjr/LbYDtSlMxzBQaXmSIAAAAADyZmyXULCawwaY90IQ1MTC; incap_ses_887_243507=KeayAK3NvA1vkjNlSEJPDM0sLmkAAAAADg8mpswxzi5BJmQBlcrYtQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,18 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
-Cache-Control: must-revalidate, no-cache, private
-Cache-Tags: MISS
+Age: 309
+Cache-Control: max-age=2764800, public
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 01 Dec 2025 00:05:42 GMT
+Date: Tue, 02 Dec 2025 00:04:27 GMT
+Etag: "1764633556-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 01 Dec 2025 23:59:16 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
-Vary: Accept-Encoding
+Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-ssdm8 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
@@ -25,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 42-114584740-114584748 SNNy RT(1764547479695 61945) q(0 0 0 -1) r(5 5) U24
-X-Varnish: 8723449
+X-Iinfo: 4-57163963-57163967 SNNy RT(1764633805879 61973) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 9686078 10498044
 
-22dcd
+22dcf
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -53,13 +55,13 @@ X-Varnish: 8723449
     <link rel="stylesheet" media="all" href="/sites/default/files/css/css_UTus01hHyWqkjY3wHV5qy2ul29K7IdbFMcwznMSj5Ks.css?delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUNFuwzAI_CEvftn_RNgmCQsxFuA22dc3W1c12gu6O9AdkETcXKF9xgSGIb35zJKAP8wPpjpfOxuawYwW8oqFXHSkWrB6YslrvOCQRTEW7Q14gC_Yn0IV3YDpGwPufpqvr5E_GibG3ZgK6unmOCs4SQ0Mh3QfC1mWG-oRpWIWDjJNlHFcpKvFKxmnnyR31CDuGUZfcMP_l11bJ-77cKcyo4cGCmd2W-y14FsZem09MdmCJdhhjtvzgzfCu8XfOmxSOuMDdaqMMQ" />
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css_lFQOAR7zHt5PNGDxhGTwxU8SRrnHxN6zHhqP_He1qlA.css?delta=1&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUNFuwzAI_CEvftn_RNgmCQsxFuA22dc3W1c12gu6O9AdkETcXKF9xgSGIb35zJKAP8wPpjpfOxuawYwW8oqFXHSkWrB6YslrvOCQRTEW7Q14gC_Yn0IV3YDpGwPufpqvr5E_GibG3ZgK6unmOCs4SQ0Mh3QfC1mWG-oRpWIWDjJNlHFcpKvFKxmnnyR31CDuGUZfcMP_l11bJ-77cKcyo4cGCmd2W-y14FsZem09MdmCJdhhjtvzgzfCu8XfOmxSOuMDdaqMMQ" />
 <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
-<link rel="stylesheet" media="all" href="/sites/default/files/css/css_fdAJ2jFYM6r4-olZoRxGnLQf-u508FgmDcugx0Jbw3A.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUNFuwzAI_CEvftn_RNgmCQsxFuA22dc3W1c12gu6O9AdkETcXKF9xgSGIb35zJKAP8wPpjpfOxuawYwW8oqFXHSkWrB6YslrvOCQRTEW7Q14gC_Yn0IV3YDpGwPufpqvr5E_GibG3ZgK6unmOCs4SQ0Mh3QfC1mWG-oRpWIWDjJNlHFcpKvFKxmnnyR31CDuGUZfcMP_l11bJ-77cKcyo4cGCmd2W-y14FsZem09MdmCJdhhjtvzgzfCu8XfOmxSOuMDdaqMMQ" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_G5Mg50aXQMesPwLv_wzgzxGcVXqd3TUO62PzaalJZV8.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUNFuwzAI_CEvftn_RNgmCQsxFuA22dc3W1c12gu6O9AdkETcXKF9xgSGIb35zJKAP8wPpjpfOxuawYwW8oqFXHSkWrB6YslrvOCQRTEW7Q14gC_Yn0IV3YDpGwPufpqvr5E_GibG3ZgK6unmOCs4SQ0Mh3QfC1mWG-oRpWIWDjJNlHFcpKvFKxmnnyR31CDuGUZfcMP_l11bJ-77cKcyo4cGCmd2W-y14FsZem09MdmCJdhhjtvzgzfCu8XfOmxSOuMDdaqMMQ" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3013601","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkmSwyAM_BA2l_kPJYOMSYRFIZHYef2QzGbnMBeVWq2NFhOzilYoH3YCQTMd8K87XGQgUBQ98pF4AhpEd0prPDIZRSCiGH_FkJSrS2vAVSdif7UH33iuaFeuGSg90OCmvdfVhtoK0PgNzUy4CaWAtRcrxgqaeDWRORI6hWhjN-94hAts52A2BDs3dSGJ5xvW3fKKnqnHH7t9GsPznDy6hVsVewRufu6pitWwqgenC2a0vZqgSB_BsU86cW8SHanut228pxBRT4QkxZRL7esNsALtmrycM15SuAhE_QWmQIUuSVnkR7e_yNjW0iZKsmAwhUsrTlq94W6PoDN3rFNymCcM9oQGT6mf6_-UJsq5H7Aa2UUxf_2lW8K72JcdM4dG-AnkHvUl","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1293712"},"slider-gallery-carousel--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1293712","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1293712"}},"instances":{"slider-gallery--1293712":"slider-gallery--1293712","slider-gallery-carousel--1293712":"slider-gallery-carousel--1293712"}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?t5xla2"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?t5xla2"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?t6ljoe"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?t6ljoe"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -192,7 +194,7 @@ X-Varnish: 8723449
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3c00d6eb0932742b34a25d9754e51aab64148d940a9493e4e867647067d57af3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6a321c81c9d7425341ee493c66ed35e5fe0ad989b682f60cfccc97212056854b">
   
     
       
@@ -206,7 +208,7 @@ X-Varnish: 8723449
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-17eff8824aa871588d2dbeaa26f3efdda3c2c7f43ebf3039de39ca201aa2cd6b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b6dab22eb23596b1d8afe0f1de91aa1409a6687e821cfe504619e11f80171e88">
   
     
       
@@ -273,7 +275,7 @@ X-Varnish: 8723449
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -383,7 +385,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7b804cd471909c85c588355e6b1805eef4131857791aaf4235d5a046e3042e1e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-55492043efe1023760b44e92f52dcc192299de8f6b6fa9dff4cda5dcc0284c4c">
   
     
       
@@ -397,7 +399,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-55be25b322436bcd2644812d8fe533dc6af4c1da3f38a128c76b287d81f88de6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-08949a064999eab591981477045218466064c74da21095c6569bb635bd639535">
   
     
       
@@ -497,7 +499,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-535b8da7316df2bd312598f529d34e76d2027f37a8d713e1eeae32a66ebbebfd">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3a39bb933e4e94463845233c5a1d57e51d6bcd3dc79e6653d54099912eef3431">
   
     
       
@@ -511,7 +513,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ee3e1a271661a5434000f83428e89b8a3d9a2956569b3c6f89f2cbb750b92aea">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b41b77bf7af361b2fd30303f682fbe57da6d2a28804366a76dc5afa34c032d2f">
   
     
       
@@ -629,7 +631,7 @@ Cost: $26.14 per group, taxes included (up to six people per group; children und
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9b2b626ff180c85434a5b1922826322e5c208ce65b550e4c3e68cbfb492cea5b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-48939d6782a49be0db79fb1e634c47d7810d9676711dc8600afd288813d8f74b">
   
     
       
@@ -643,7 +645,7 @@ Cost: $26.14 per group, taxes included (up to six people per group; children und
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-47430349d398f243d2bb09f0c595a9c51f67ad2d0e9710891bff9e4c86e9fea9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fe0e2b0b3a840abab137eac7a6491578e14511b8bf4503557f7f6aecc4ddd2a1">
   
     
       
@@ -748,7 +750,7 @@ Cost: Include with your Vintage Village of Lights registration for Friday, Novem
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3ccf0f236a9e051dea1d8742cc70cbf2196f94562a751507622a3f3a87444314">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d98957023712e3598a24bfc9a71e5ba2c1dce652d2fc5e317dc9000a1b408659">
   
     
       
@@ -762,7 +764,7 @@ Cost: Include with your Vintage Village of Lights registration for Friday, Novem
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b810e7b0fbc413958569d3f0e48a1c4a3f59a34d69f0948868b7bed2914ef9af">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cfad2ba9598aa835fa4e3bc11a4613c634ba263317a5a494f5332df240a56731">
   
     
       
@@ -1151,7 +1153,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-972bfeff93ddb090c4411a23d90cee8500f97cfd36ab622c64c0163fe3a70be3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-78ba340b0201f73b6fb620fb1914e2a8ab73a43f2941714206c2549273c6ebf8">
   
     
       
@@ -1165,7 +1167,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-229df22be5115c8a5c75249f65a018b926636fb421c092897ac73b5f8acfb665">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dc21b36e7f2a831b450d6c602e3f746c3c0b32c46d25fe55e2fe46486dd32c48">
   
     
       
@@ -1288,7 +1290,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-598df70d12e82aebaa58f1f99afc7a7baabae7e85192eb70dd72563d13bcd058">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9e68c6c02906895f683420008f40eee0bf9af755738e8b454bcd0e5b936f59f5">
   
     
       
@@ -1302,7 +1304,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-448d47b332416953292a8962a2e5a4fe95bd6abec736718ca25c3dc8223f8ba4">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7c9c88ada02aca733ff3d9f262d84c5d292e94822e0bcd8139e0d9d420f61116">
   
     
       
@@ -1404,7 +1406,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2149af984b70d9e64440258a6f9781db604dbe3f33c407338ddba542876d55b0">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d3b320aca91218d085717abc6c23c229e1eaa17f71a328ef8e014c562b4f7778">
   
     
       
@@ -1418,7 +1420,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0dc2b73b17de2f5e26523029b2d37ad6750a6deb5a23d269e072b364c2321445">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c192bfe2de3632d83a0ea838e64b87d73fceaf7dd21c752bb203094091d12473">
   
     
       
@@ -1521,7 +1523,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1d79b50b9fe8a988dc347d1fecdd67bfadeb04b6499e52e4c1d4590fcf888627">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e4c1406ee480ef676d5ffcec155b19d91830bab359e4be80f7f00496ba96112b">
   
     
       
@@ -1535,7 +1537,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ca8c71b952ff58c0f844f451eb03c0116e85524484f69b75eb62b99e59f8639e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9e162fccc724a2cafe3014509fc8d68e5a7fede7e05857ff11347f7ad7b6fe78">
   
     
       
@@ -1642,7 +1644,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d65d6e35df303a958caf26f4d9100c67ebe142b45b93ac8cfaf7061c4557a116">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-753e206475446f6c3f8a59cc29f24835ea7f5ed81ce6e68fb2d84acd03eb2cc0">
   
     
       
@@ -1656,7 +1658,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-efa55990044511bb04c74a0132d906f61697c00020ada0bca311b5b151086fdd">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b777a39e88038f599af631bfc24e3ae11dc36882d377ef9c3af6e47297acc2f6">
   
     
       
@@ -2557,10 +2559,10 @@ Thank you for considering to help out.
 <script src="//ottux.ottawa.ca/widgets/v1.4.29/js/app.js" async></script>
 <script src="/sites/default/files/js/js_wj8SBYkdspG9bzBEgxkTEFwb-6QZJ2r5OmkgJK0b2fk.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
-<script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t5xla2" async></script>
+<script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t6ljoe" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=451041736" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=598845933" async></script></body>
 </html>
 
 

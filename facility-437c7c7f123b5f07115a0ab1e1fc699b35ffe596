@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/cardelrec-recreation-complex-goulbourn HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=sQDsnV36TxCiRKQn1dYzc5fbLGkAAAAAQUIPAAAAAAB4e0wK4l5v5zX83DZydT+V; nlbi_243507=ju2IZs5oUR/wMgNfaXmSIAAAAAClwE/WcV9K0CLVeJzW0MvY; incap_ses_187_243507=U/i+MHD2kz7wyUKDkFuYApfbLGkAAAAA6VSdnPiq4E/pODPrJ9TaCw==
+Cookie: visid_incap_243507=jfXu/xdNQEacOwnXjLK7Ns0sLmkAAAAAQUIPAAAAAAD7t8oktr5cKuj6JAVRxfMf; nlbi_243507=Pjr/LbYDtSlMxzBQaXmSIAAAAADyZmyXULCawwaY90IQ1MTC; incap_ses_887_243507=KeayAK3NvA1vkjNlSEJPDM0sLmkAAAAADg8mpswxzi5BJmQBlcrYtQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,27 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
-Cache-Control: must-revalidate, no-cache, private
-Cache-Tags: MISS
+Age: 299
+Cache-Control: max-age=2764800, public
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 01 Dec 2025 00:05:20 GMT
+Date: Tue, 02 Dec 2025 00:04:05 GMT
+Etag: "1764633545-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 01 Dec 2025 23:59:05 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
-Vary: Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
+Vary: Cookie,Accept-Encoding
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-ssdm8 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 42-114584740-114584748 SNNy RT(1764547479695 40034) q(0 0 0 -1) r(12 12) U24
-X-Varnish: 8655198
+X-Iinfo: 4-57163963-57163967 SNNy RT(1764633805879 39929) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 3393128 10367475
 
-14868
+147a7
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -39,7 +41,7 @@ X-Varnish: 8655198
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/cardelrec-recreation-complex-goulbourn" />
 <meta name="dcterms.title" content="CARDELREC Recreation Complex Goulbourn" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-11-30" />
+<meta name="dcterms.date" content="2025-12-01" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -53,13 +55,13 @@ X-Varnish: 8655198
     <link rel="stylesheet" media="all" href="/sites/default/files/css/css_Bu7U1OWZO3pamOcWlpJoOyfRlG5V4LU-xy26iDR88A8.css?delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css_lFQOAR7zHt5PNGDxhGTwxU8SRrnHxN6zHhqP_He1qlA.css?delta=1&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
-<link rel="stylesheet" media="all" href="/sites/default/files/css/css_fdAJ2jFYM6r4-olZoRxGnLQf-u508FgmDcugx0Jbw3A.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_G5Mg50aXQMesPwLv_wzgzxGcVXqd3TUO62PzaalJZV8.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031607","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkmSwyAM_BA2l_kPJUDBJMKikEjivD5kVjuHuah6AUnV4JlVtEH9sB4Ejd_xXzidZSJQFN37idgDTaIb5TXtnYIikFBMuGDMys3lNeKqnjhc7A6bwA3tyq0A5QcavOvodbGx9Qo0f1OTmBOhU0g2jfLOZzjD_SgWQ7BxVxezBL5i2yyvGJiG_tjsqxg-nXJAt3BvYvfEnV4LqWIzrBrA6YIF7bhNUGWM4DQmHby3LPbWwP0-33JMqAdDsmIutY31JliBNs1BTIUGaaS4yE8Kf8rc19o9ZVkwmsq1Vye9XXGzezKcGzafHRaP0R7YFCiP8P8_0kW5jOdoRjZRLF8_45rxJvazzoVjJ3wCwljhOg","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?t5xla2"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?t5xla2"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?t6ljoe"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?t6ljoe"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -192,7 +194,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7586e8dff1553c3ea092b0e81032ac3278cf6efa2b68117fe6505bd62c54ef7d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-118ebd94f902d1f5068f8cf28f2923cdc874cbe58ad96f60903163656e7df500">
   
     
       
@@ -206,7 +208,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-55fa6de405d50ead744b8bd8220e01b32f0b546f461d620c0f35b0de42b4f754">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-db9e30bea74c95177ae42d48e75ed4ac4a5d42a83b977727745e16f3ae33af59">
   
     
       
@@ -290,8 +292,6 @@ X-Varnish: 8655198
 </ul>
 </li>
 </ul>
-<h3>Pool closure</h3>
-<p><strong>&nbsp;The pool is closed&nbsp;until Sunday, November 30.&nbsp;</strong></p>
 </div>
       
 
@@ -479,7 +479,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-afe3863bcaa4ac60c61b2e352c478805f2c0a6968dbee57c96b0ea3b963ceb15">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c097ef8a54f0332e2f8cc37560449f7548d0717f0c04abbb0f4b3f5d01728e13">
   
     
       
@@ -493,7 +493,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5b8e2ca47a5f3b554a6b948998a9a181b8c5b2999059bcf594bba0315d32498f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-16c5806ec0a0c5e8bc16988c5517897eeb8ca9ffc6d201b51e4b9ac08bd71295">
   
     
       
@@ -541,8 +541,6 @@ X-Varnish: 8655198
 </ul>
 </li>
 </ul>
-<h3>Pool closure</h3>
-<p><strong>The pool is closed until November 30.</strong></p>
 </div>
       
       </div>
@@ -759,7 +757,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-21398075ab1df4c36a99e37cefd0550ae7a7bac11267b3e706ef3f508a928e77">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-23e948cdc94bbd4b8491c0b0fd773ac47b4f50688c5ab377006462f839840e7c">
   
     
       
@@ -773,7 +771,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7b1652985a0dbe1af519e509cfa389dd57ca17825235f4485490616ad5bacf55">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c7b93e9b58fcb86beb169ac730bfcb62a282c51c1f42bdb15a2756bb17d6e8fa">
   
     
       
@@ -938,7 +936,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1411a7dbd533c9b6e130de95fead0df1677246839fca7cdd742726dd103adfd5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-25d812cdb626429858e723406a685420f4b4f148df929ec5d2d436fc371d8469">
   
     
       
@@ -952,7 +950,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0b8611f0efbebc4775700f9f7b4905a0aaa76617067ead2f1fa206fa1b0228b0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1fde4a2f46bd3c9a62693104ff2736033f95ed9a14ef7fd6d9863303b2107c0d">
   
     
       
@@ -1326,7 +1324,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-adf2534bcf1e970650fd7122ba4d26d21c9e224f486bcaded16471398a7c41d7">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-59481c7f80ab0e8fc177525ae198c6817abca93e905c9971dca51b463048a64b">
   
     
       
@@ -1340,7 +1338,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d4e88907a0df72601c3b597b7da63725679253f1ae37cc0ea6f47f6491bdae15">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-80159eb0bf9f26e61b0c22b0885830e5d5a891dd21c849ed83831a0bdf2e60c3">
   
     
       
@@ -1552,7 +1550,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dceb5038f85a9c6a46129e3dc5640edd903bd2c2c4e36ae32092d9a8b861beb5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-101c48be4d8c2fc1efe6c910387e6ec582eaf7ae9ff382442e730d162aaeb0ab">
   
     
       
@@ -1566,7 +1564,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1e7afdaca78efbc254c6b3c49d775756b0343911609b35bee9fa9649371bd892">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-94921a8846893526ef20e996d0b3b43050215f599aab2827792e1d6376ff2df2">
   
     
       
@@ -1799,7 +1797,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-86840fdcad1c391d18788f989b87f787eb9440013fd4ef9544634f13004e56b6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c733a7b63b08d75fa61ce3ea7366e785294bfdd0333407ecf1eb4002082cf5d1">
   
     
       
@@ -1813,7 +1811,7 @@ X-Varnish: 8655198
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-644adab3c1e5a410e8e4db3eda8fc62252da496d00f97e9f82960adfac2e894d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b02e664e0e1a5c34daa7a207c1daab5086b862dc7ad3f8867fa0c4339f2a3b0c">
   
     
       
@@ -2072,7 +2070,7 @@ Pool rentals - please contact the facility.</p>
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-11971b93c03b73a3fc6b590d1d13ffd7628197e7e307d582815e0bd6916d3f16">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-0e1d5fbf6615bfc1f44cd2b4bab463d5ad5f5c856e2f6673f07a4afb8af66e9e">
   
     
       <div class="view-header">
@@ -2513,7 +2511,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=21&cb=756344644" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=21&cb=787666879" async></script></body>
 </html>
 
 
