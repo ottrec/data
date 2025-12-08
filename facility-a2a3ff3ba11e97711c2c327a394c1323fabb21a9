@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=8TsCdh/hSpSCG2ia7QX1JYrENGkAAAAAQUIPAAAAAABsLsXwl4RXeR+LtoXuqmMx; nlbi_243507=usZlHS4IH1fO7i85aXmSIAAAAADX7/iYHlpTkqpLpakEOFpq; incap_ses_187_243507=Dsk/aCirGCliMDyskFuYAorENGkAAAAAdPmZrGu/lSJAzEsJ6BwdLA==
+Cookie: visid_incap_243507=BPhPhqA1QrC+JeZyc209I94VNmkAAAAAQUIPAAAAAAAaURabGw3hpkDLl4HEZl3L; nlbi_243507=pQ3MU+kVo1A3vWMJaXmSIAAAAACqvthhLpxCtdyIa6AqzVCG; incap_ses_1349_243507=ux2MRczhGngSLP0a0Zy4Et8VNmkAAAAAma7q08VyX5v/xkSd34zzig==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 129
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 07 Dec 2025 00:06:26 GMT
-Etag: "1765065857-gzip"
+Date: Mon, 08 Dec 2025 00:05:44 GMT
+Etag: "1765152344-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 07 Dec 2025 00:04:17 GMT
+Last-Modified: Mon, 08 Dec 2025 00:05:44 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 53-419095301-419090904 SNNy RT(1765065866792 119884) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 15853532 15474913
+X-Iinfo: 4-36296731-36296734 SNNN RT(1765152223121 121249) q(0 0 0 -1) r(4 4) U24
+X-Varnish: 16771231
 
-c3df
+ca33
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ c3df
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre" />
 <meta name="dcterms.title" content="Jim Durrell Recreation Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-12-05" />
+<meta name="dcterms.date" content="2025-12-07" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ c3df
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ec264e3870b0193eac901437c96e1a2757c85a232ce39c95b4dba36cb3d628f1">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-712853117e4422be044db71b7b663d20eb47e172d408c8f5759fcb12a62969a3">
   
     
       
@@ -208,7 +208,7 @@ c3df
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-38c311ff0688a6033366862ad1e605d2d1c09d578a1489b59815cc79b4272da7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-598c989e3c9f07f33febe3a93e382c72ccf5aa0c1e8454097a2099b2ebda02e9">
   
     
       
@@ -281,7 +281,7 @@ c3df
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Winter Break hours</h2>
 </div>
       
 
@@ -290,6 +290,13 @@ c3df
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><span><strong><span>Wednesday, December 24</span></strong><span><span>, 8 am to 2 pm</span></span></span></span></li>
+<li><span><span><strong><span>December 25 and 26</span></strong><span><span>, closed</span></span></span></span></li>
+<li><span><span><strong><span>Wednesday, December 31</span></strong><span><span>,&nbsp; 8 am to 2 pm</span></span></span></span></li>
+<li><span><span><strong><span>Thursday, January 1</span></strong><span><span>, closed</span></span></span></span></li>
+</ul>
+<h3>Schedule changes&nbsp;</h3>
+<ul>
 <li><strong>Thursday, December 11</strong>
 <ul>
 <li>Adult 18 + skate, 11 to 11:50 am, cancelled</li>
@@ -497,7 +504,7 @@ c3df
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b3f8433c91cd45ba63dd293fdefaea79d1c5e655813c377a98dc5f67b667404a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-467917d3e387236fb4148ad946724c933dc0b566519b70e250c2bd1f384d8f9a">
   
     
       
@@ -511,7 +518,7 @@ c3df
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0e8f4d5d131dd2ea6d2c7f976314d35573da9cafe9de2673242e9d74db7e80cf">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fbfc9479dc1506c661158c46e96a913c86c0099c3e0eaa0db08dfc888bea7b0c">
   
     
       
@@ -553,6 +560,16 @@ c3df
 <ul>
 <li>Adult 18 + skate, 11 to 11:50 am, cancelled</li>
 <li>Public skate, noon to 12:50 pm, cancelled</li>
+</ul>
+</li>
+<li><span><span><strong><span>December 25 and 26</span></strong></span></span>
+<ul>
+<li>The facility is closed and all programs cancelled.</li>
+</ul>
+</li>
+<li><span><span><strong><span>Thursday, January 1</span></strong></span></span>
+<ul>
+<li>The facility is closed and all programs cancelled.</li>
 </ul>
 </li>
 </ul>
@@ -711,7 +728,7 @@ c3df
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-db1fe0e5c5fbcc58ad5f3efade45f410e5986a4fb8fc8b86761c0d220c929186">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-775ef43c1026b494e7852787335e033c96e14acbdf6d9065a380c0f73e25518e">
   
     
       
@@ -725,7 +742,7 @@ c3df
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b34c3b4a3f3a633277a16bf50a11e8a5477d77d0c1138475e29cdd1a542903de">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-122bdd87850c65b9a815153626746420e75b30eae8c38fda01d7610d2853f144">
   
     
       
@@ -761,6 +778,24 @@ c3df
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/arenajimdurrell">Ice sports - Reserve a spot at Jim Durrell Arena</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><strong><span>Schedule changes</span></strong></span></span></h3>
+<ul>
+<li><span><span><strong><span>December 25 and 26</span></strong></span></span>
+<ul>
+<li><span><span><span><span>The facility is closed and all programs cancelled.</span></span></span></span></li>
+</ul>
+</li>
+<li><span><span><strong><span>Thursday, January 1</span></strong></span></span>
+<ul>
+<li><span><span><span><span>The facility is closed and all programs cancelled.</span></span></span></span></li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -1279,7 +1314,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=61&cb=1658149037" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=61&cb=926821283" async></script></body>
 </html>
 
 
