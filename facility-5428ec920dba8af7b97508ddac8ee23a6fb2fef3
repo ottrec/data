@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=BPhPhqA1QrC+JeZyc209I94VNmkAAAAAQUIPAAAAAAAaURabGw3hpkDLl4HEZl3L; nlbi_243507=pQ3MU+kVo1A3vWMJaXmSIAAAAACqvthhLpxCtdyIa6AqzVCG; incap_ses_1349_243507=ux2MRczhGngSLP0a0Zy4Et8VNmkAAAAAma7q08VyX5v/xkSd34zzig==
+Cookie: visid_incap_243507=mnzBr9P3T0SIys/yq+WtAU1nN2kAAAAAQUIPAAAAAACL5oHICKXXO+BGL4LTku8t; nlbi_243507=58oYK3FQe2comGLbaXmSIAAAAAB0cvmuF0lvY3OW6nN538fM; incap_ses_1847_243507=Ii3bRl2r1ncb43yeO92hGU1nN2kAAAAAYOeBKyF/oSRiFbAy36G25A==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 712
+Age: 526
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 08 Dec 2025 00:07:06 GMT
-Etag: "1765151713-gzip"
+Date: Tue, 09 Dec 2025 00:06:47 GMT
+Etag: "1765238279-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 07 Dec 2025 23:55:13 GMT
+Last-Modified: Mon, 08 Dec 2025 23:57:59 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-ssdm8 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 4-36296731-36296734 SNNN RT(1765152223121 203194) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 17431810 18055395
+X-Iinfo: 46-56440203-56440208 SNNN RT(1765238605817 201935) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 18663773 7700405
 
-13f23
+18ed7
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 17431810 18055395
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata" />
 <meta name="dcterms.title" content="Richcraft Recreation Complex-Kanata" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-12-03" />
+<meta name="dcterms.date" content="2025-12-08" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e82d029f7b4759de86a7a24272960b78ee7ca30b2dbfc47536f60a2535d72a0b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e4722f90f5329f3e68ecd8051e45c804e05f6d031f6d825e19301bf6847535de">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2d10092953f9263cc10e0c9c8384e6eb11fb8feafa2f1de0ac63ae611f6db93a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-985883d1459ba5b0b16faedd8f63195d46d6d1f9c9cdfcb6f5fed3541e7910b0">
   
     
       
@@ -281,7 +281,7 @@ X-Varnish: 17431810 18055395
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
 </div>
       
 
@@ -290,11 +290,9 @@ X-Varnish: 17431810 18055395
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Friday, December 5</strong>
+<li><span><span><strong><span>Monday, December 22 to Sunday, January 4</span></strong></span></span>
 <ul>
-<li>Basketball - adult, all drop-ins, cancelled</li>
-<li>Badminton doubles - adult, all drop-ins, cancelled</li>
-<li>Pickleball - rotations, all drop-ins, cancelled</li>
+<li><span><span><span><span>See <a href="https://ottawa.ca/en/richcraft-recreation-complex-kanata-holiday-drop-schedule">Winter Break schedule</a>.</span></span></span></span></li>
 </ul>
 </li>
 </ul>
@@ -457,6 +455,1221 @@ X-Varnish: 17431810 18055395
                               <div class="col collapse-region">
                   <h2 class="no-toc">
                               
+  <button aria-expanded="false" aria-controls="section-e756fb99-98b1-4965-8324-36740738238c" data-target="#section-e756fb99-98b1-4965-8324-36740738238c" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - Winter Break</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-e756fb99-98b1-4965-8324-36740738238c">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - Winter Break</h2>
+</span>
+
+
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-37531b108b1c990febbbcafe2f771a9d81f993f74f2f29b1e53af22c4d00f752">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c336664e9833d8fc4d52d95342b4add1dab3609547951713c1f11620784f685f">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 row">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>December 22 to January 4</h3>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.</p>
+<p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/richcraftkanata">Reserve a spot at Richcraft Recreation Complex-Kanata</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
+	<caption>Richcraft Recreation Complex Kanata - all drop-in activities - December 22 to 28</caption>
+	<thead>
+		<tr>
+			<td>
+			&nbsp;
+			</td>
+			<th>
+			Monday, December 22
+			</th>
+			<th>
+			Tuesday, December 23
+			</th>
+			<th>
+			Wednesday, December 24
+			</th>
+			<th>
+			Thursday, December 25
+			</th>
+			<th>
+			Friday, December 26
+			</th>
+			<th>
+			Saturday, December 27
+			</th>
+			<th>
+			Sunday, December 28
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>
+			Reduced lane swim 
+			*Reservations not required.&nbsp;
+			</th>
+			<td>
+			7:30 - 8:30 am
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			7:30 - 8:30 am
+			</td>
+			<td>n/a</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Lane swim
+			*Reservations not required.&nbsp;
+			</th>
+			<td>
+			6:15 - 7:30 am,
+			8:30 am -&nbsp;1 pm,
+			4 -&nbsp;6 pm,
+			8 -&nbsp;9 pm
+			</td>
+			<td>6:15 - 7:30 am,&nbsp;
+			10:30 am - 1 pm,&nbsp;
+			7 - 9 pm</td>
+			<td>
+			8:30 am - 1 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			8:30 am - 1:30 pm
+			</td>
+			<td>
+			8:30 am - 1:30 pm
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Public swim - leisure pool only
+			*Reservations not required.&nbsp;
+			</th>
+			<td>10:30 am -&nbsp;1 pm&nbsp;&nbsp;</td>
+			<td>
+			10:30 am - 1 pm
+			</td>
+			<td>
+			10:30 am - 1 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>n/a</td>
+			<td>
+			8:30 am - 1:30 pm
+			</td>
+			<td>
+			8:30 am - 1:30 pm
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Public swim 
+			*Reservations not required.&nbsp;
+			</th>
+			<td>
+			1 - 4 pm,&nbsp;
+			6 - 8 pm
+			</td>
+			<td>1 - 4 pm</td>
+			<td>2 - 4 pm</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			1:30 - 4 pm
+			</td>
+			<td>
+			1:30 - 4 pm
+			</td>
+		</tr>
+		<tr>
+			<th>Preschool swim - leisure pool only&nbsp;
+			*Reservations not required.</th>
+			<td>8:30 - 10:30 am</td>
+			<td>8:30 - 10:30 am</td>
+			<td>8:30 - 10:30 am</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>
+			Aquafit - deep&nbsp;
+			</th>
+			<td>
+			n/a
+			</td>
+			<td>8:30&nbsp;-&nbsp;9:30 am,
+			9:30&nbsp;-&nbsp;10:30 am&nbsp;</td>
+			<td>
+			1 - 2 pm
+			</td>
+			<td>n/a</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Aquafit - shallow&nbsp;
+			</th>
+			<td>
+			n/a
+			</td>
+			<td>8:30&nbsp;-&nbsp;9:30 am,
+			9:30&nbsp;-&nbsp;10:30 am&nbsp;</td>
+			<td>
+			1 - 2 pm
+			</td>
+			<td>n/a</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Sauna&nbsp;
+			*Reservations not required.
+			</th>
+			<td>
+			6:15 am - 9 pm
+			</td>
+			<td>
+			6:15 am - 4 pm,&nbsp;
+			7 - 9 pm
+			</td>
+			<td>
+			7:30 - 4&nbsp;pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			8:30 am - 4&nbsp;pm
+			</td>
+			<td>
+			8:30 am - 4&nbsp;pm
+			</td>
+		</tr>
+		<tr>
+			<th>Bootcamp</th>
+			<td>7:30 - 8:30 am</td>
+			<td>n/a</td>
+			<td>7:30 - 8:30 am</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>Cardio and strength</th>
+			<td>6:15 - 7:15 pm</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>Cardio 50+</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>9:30 - 10:30 am</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>Indoor cycling</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>9 - 10 am</td>
+		</tr>
+		<tr>
+			<th>TRX</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>10:15 - 11:15 am</td>
+		</tr>
+		<tr>
+			<th>Zumba</th>
+			<td>7:30 - 8:30 pm</td>
+			<td>9:30 - 10:30 am,&nbsp;
+			6:15 - 7:15 pm</td>
+			<td>
+			n/a
+			</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>Zumba Gold</th>
+			<td>9:30 - 10:30 am</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>
+			Badminton doubles - adult
+			</th>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>11 am - noon,&nbsp;
+			Noon - 1 pm</td>
+			<td>
+			n/a
+			</td>
+			<td>n/a</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			11:45 am - 12:45 pm,&nbsp;
+			12:45 - 1:45 pm
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Badminton - family 
+			</th>
+			<td>
+			n/a 
+			</td>
+			<td>n/a</td>
+			<td>
+			n/a 
+			</td>
+			<td>
+			n/a 
+			</td>
+			<td>
+			n/a 
+			</td>
+			<td>
+			8:30 - 9:30 am,
+			9:30 - 10:30 am  ,&nbsp;
+			10:30&nbsp; - 11:30 am
+			</td>
+			<td>
+			n/a 
+			</td>
+		</tr>
+		<tr>
+			<th>Pickleball - rotations</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>1:30 - 2:30 pm,&nbsp;
+			2:30 - 3:30 pm</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>Noon - 1 pm,&nbsp;
+			1 - 2 pm</td>
+			<td>6 - 7 pm,&nbsp;
+			7 - 8 pm</td>
+		</tr>
+		<tr>
+			<th>Table Tennis doubles - adult &nbsp;</th>
+			<td>n/a &nbsp;</td>
+			<td>n/a &nbsp;</td>
+			<td>n/a &nbsp;</td>
+			<td>n/a &nbsp;</td>
+			<td>n/a</td>
+			<td>6 - 7 pm,&nbsp;
+			7 - 8 pm</td>
+			<td>n/a &nbsp;</td>
+		</tr>
+		<tr>
+			<th>
+			Kinderplay
+			</th>
+			<td>
+			8:30 - 9:30 am,&nbsp;
+			9:30 - 10:30 am
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			8:30 - 9:30 am,&nbsp;
+			9:30 - 10:30 am
+			</td>
+			<td>
+			n/a &nbsp;
+			</td>
+			<td>
+			n/a &nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			8:30 - 9:30 am,&nbsp;
+			9:30 - 10:30 am,&nbsp;
+			10:30&nbsp;- 11:30 am&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Open Gym 
+			</th>
+			<td>
+			1:30 - 2:30 pm,&nbsp;
+			2:30 - 3:30 pm,&nbsp;
+			6:45 - 7:45 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>n/a</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			10:30 - 11:30 am
+			</td>
+			<td>
+			2 - 3 pm,&nbsp;
+			3 - 4 pm
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Open Gym - youth &nbsp;
+			</th>
+			<td>
+			3:45 - 4:45 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			4:15 - 5:15 pm
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Open Gym - family &nbsp;
+			</th>
+			<td>
+			4:45 - 5:45 pm,&nbsp;
+			5:45 - 6:45 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			8:30 - 9:30 am,&nbsp;
+			9:30 - 10:30 am,&nbsp;
+			2:15 - 3:15 pm,&nbsp;
+			3:15 - 4:15 pm
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Basketball - adult &nbsp;
+			</th>
+			<td>
+			11 am - noon,&nbsp;
+			Noon - 1 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			Noon - 1 pm,&nbsp;
+			1 - 2 pm
+			</td>
+			<td>
+			4:45 - 5:45 pm
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Rockwall  &nbsp;
+			</th>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			8:30 - 9:30 am,&nbsp;
+			9:30 - 10:30 am,&nbsp;
+			10:30 - 11:30 am
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Volleyball - adult &nbsp;
+			</th>
+			<td>
+			8 - 9 pm, &nbsp;
+			9 - 10 pm &nbsp;
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a &nbsp;
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			6 - 7 pm,&nbsp;
+			7 - 8 pm
+			</td>
+			<td>
+			6 - 7 pm,&nbsp;
+			7 - 8 pm
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Volleyball - youth&nbsp;
+			</th>
+			<td>
+			8:45 - 9 :45 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+      </div>
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
+	<caption>Richcraft Recreation Complex Kanata - all drop-in activities - December 29 to January 4</caption>
+	<thead>
+		<tr>
+			<td>
+			&nbsp;
+			</td>
+			<th>
+			Monday, December 29
+			</th>
+			<th>
+			Tuesday, December 30
+			</th>
+			<th>
+			Wednesday, December 31
+			</th>
+			<th>
+			Thursday, January 1
+			</th>
+			<th>
+			Friday, January 2
+			</th>
+			<th>
+			Saturday, January 3
+			</th>
+			<th>
+			Sunday, January 4
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>
+			Reduced lane swim 
+			*Reservations not required.&nbsp;
+			</th>
+			<td>
+			7:30 - 8:30 am
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			7:30 - 8:30 am
+			</td>
+			<td>n/a</td>
+			<td>
+			7:30 - 8:30 am
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Lane swim
+			*Reservations not required.&nbsp;
+			</th>
+			<td>
+			6:15 - 7:30 am,
+			10:30 am - 1 pm,
+			4 -&nbsp;6 pm,
+			8 -&nbsp;9 pm
+			</td>
+			<td>6:15 - 7:30 am,&nbsp;
+			10:30 am - 1 pm,&nbsp;
+			4 -&nbsp;6 pm,
+			8 - 9 pm</td>
+			<td>
+			10:30 am - 1 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			6:15 - 7:30 am,&nbsp;
+			10:30 am - 1 pm
+			</td>
+			<td>
+			8:30 am - 1:30 pm
+			</td>
+			<td>
+			8:30 am - 1:30 pm
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Public swim - leisure pool only
+			*Reservations not required.&nbsp;
+			</th>
+			<td>10:30 am -&nbsp;1 pm&nbsp;&nbsp;</td>
+			<td>
+			10:30 am - 1 pm
+			</td>
+			<td>
+			10:30 am - 1 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>10:30 am - 1 pm</td>
+			<td>
+			8:30 am - 1:30 pm
+			</td>
+			<td>
+			8:30 am - 1:30 pm
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Public swim 
+			*Reservations not required.&nbsp;
+			</th>
+			<td>
+			2 - 4 pm,&nbsp;
+			6 - 8 pm
+			</td>
+			<td>2 - 4 pm,&nbsp;
+			6 - 8 pm</td>
+			<td>2 - 4 pm</td>
+			<td>n/a</td>
+			<td>2 - 4 pm</td>
+			<td>
+			1:30 - 4 pm
+			</td>
+			<td>
+			1:30 - 4 pm
+			</td>
+		</tr>
+		<tr>
+			<th>Preschool swim - leisure pool only&nbsp;
+			*Reservations not required.</th>
+			<td>8:30 - 10:30 am</td>
+			<td>8:30 - 10:30 am</td>
+			<td>8:30 - 10:30 am</td>
+			<td>n/a</td>
+			<td>8:30 - 10:30 am</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>
+			Sauna&nbsp;
+			*Reservations not required.
+			</th>
+			<td>
+			6:15 am - 9 pm
+			</td>
+			<td>
+			6:15 am - 9 pm
+			</td>
+			<td>
+			7:30 am - 4&nbsp;pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			6:15 am - 4&nbsp;pm
+			</td>
+			<td>
+			8:30 am - 4&nbsp;pm
+			</td>
+			<td>
+			8:30 am - 4&nbsp;pm
+			</td>
+		</tr>
+		<tr>
+			<th>Cardio 50+</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>9:30 - 10:30 am</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>Indoor cycling</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>9 - 10 am</td>
+		</tr>
+		<tr>
+			<th>TRX</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>10:15 - 11:15 am</td>
+		</tr>
+		<tr>
+			<th>Zumba</th>
+			<td>7:30 - 8:30 pm</td>
+			<td>9:30 - 10:30 am</td>
+			<td>
+			n/a
+			</td>
+			<td>n/a</td>
+			<td>6 - 7 pm,&nbsp;
+			7 - 8 pm</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>Zumba Gold</th>
+			<td>9:30 - 10:30 am</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>9:30 - 10:30 am</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>Zumba Toning</th>
+			<td>n/a</td>
+			<td>6:15 - 7:15 pm</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>
+			Badminton doubles - adult
+			</th>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>n/a</td>
+			<td>
+			n/a
+			</td>
+			<td>n/a</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			11:45 am - 12:45 pm,&nbsp;
+			12:45 - 1:45 pm
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Badminton - family 
+			</th>
+			<td>
+			n/a 
+			</td>
+			<td>7:30 - 8:30 pm,&nbsp;
+			8:30 - 9:30 pm</td>
+			<td>
+			n/a 
+			</td>
+			<td>
+			n/a 
+			</td>
+			<td>
+			n/a 
+			</td>
+			<td>
+			8:30 - 9:30 am,
+			9:30 - 10:30 am  ,&nbsp;
+			10:30&nbsp; - 11:30 am
+			</td>
+			<td>
+			n/a 
+			</td>
+		</tr>
+		<tr>
+			<th>Pickleball - rotations</th>
+			<td>n/a</td>
+			<td>6:15 - 7:15 pm</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>Noon - 1 pm,&nbsp;
+			1 - 2 pm</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>Table Tennis doubles - adult &nbsp;</th>
+			<td>n/a &nbsp;</td>
+			<td>n/a &nbsp;</td>
+			<td>n/a &nbsp;</td>
+			<td>n/a &nbsp;</td>
+			<td>7 - 8 pm,&nbsp;
+			8 - 9 pm</td>
+			<td>6 - 7 pm,&nbsp;
+			7 - 8 pm</td>
+			<td>n/a &nbsp;</td>
+		</tr>
+		<tr>
+			<th>
+			Kinderplay
+			</th>
+			<td>n/a&nbsp;</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>n/a&nbsp;</td>
+			<td>
+			n/a &nbsp;
+			</td>
+			<td>
+			n/a &nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			8:30 - 9:30 am,&nbsp;
+			9:30 - 10:30 am,&nbsp;
+			10:30&nbsp;- 11:30 am&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Open Gym 
+			</th>
+			<td>
+			4 - 5 pm,&nbsp;
+			5 - 6 pm
+			</td>
+			<td>
+			4 - 5 pm,&nbsp;
+			5 - 6 pm
+			</td>
+			<td>n/a</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			10:30 - 11:30 am
+			</td>
+			<td>
+			2 - 3 pm,&nbsp;
+			3 - 4 pm
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Open Gym - youth &nbsp;
+			</th>
+			<td>
+			4 - 5 pm
+			</td>
+			<td>
+			4 - 5 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			4 - 5 pm
+			</td>
+			<td>
+			4:15 - 5:15 pm
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Open Gym - family
+			</th>
+			<td>
+			5 - 6 pm,&nbsp;
+			6 - 7 pm
+			</td>
+			<td>
+			5 - 6 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			5 - 6 pm
+			</td>
+			<td>
+			8:30 - 9:30 am,&nbsp;
+			9:30 - 10:30 am,&nbsp;
+			2:15 - 3:15 pm,&nbsp;
+			3:15 - 4:15 pm
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Basketball - adult &nbsp;
+			</th>
+			<td>
+			n/a
+			</td>
+			<td>
+			7:30 - 8:30 pm,&nbsp;
+			8:30 - 9:30 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			Noon - 1 pm,&nbsp;
+			1 - 2 pm
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Rockwall  &nbsp;
+			</th>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			8:30 - 9:30 am,&nbsp;
+			9:30 - 10:30 am,&nbsp;
+			10:30 - 11:30 am
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Volleyball - adult &nbsp;
+			</th>
+			<td>
+			8 - 9 pm, &nbsp;
+			9 - 10 pm &nbsp;
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a &nbsp;
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			6 - 7 pm,&nbsp;
+			7 - 8 pm
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+      </div>
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 row">
+
+            
+                              <div class="col collapse-region">
+                  <h2 class="no-toc">
+                              
   <button aria-expanded="false" aria-controls="section-abca7af1-e370-40d8-91f5-139764ffc7db" data-target="#section-abca7af1-e370-40d8-91f5-139764ffc7db" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - swim and aquafit </button>
 
                   </h2>
@@ -483,7 +1696,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ec196ecbb34feab7c22876da6f1b3576134bd0997e404bbe9967e66b04247bba">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0ca2fbe7bd0ad293943ef0ba43b522ef5fdc0d27752a374c64d695be60f84d01">
   
     
       
@@ -497,7 +1710,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b5bb7dd695be5593ceeac46ed1f4a6ab6bcbb47257ef9e43e18d798e416c46ad">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9cae7fe3aece7a2621591addf157133274cab9941ac13ac6a70d55770fffbe29">
   
     
       
@@ -528,6 +1741,19 @@ X-Varnish: 17431810 18055395
 <p>Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-culture/swimming/drop-swimming-and-aquafit">Play free, additional details, descriptions, fees and cancellation information.</a></p>
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/richcraftkanata">Reserve a spot at Richcraft Recreation Complex-Kanata</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><strong><span>Schedule change</span></strong></span></span></h3>
+<ul>
+<li><span><span><strong><span>Monday, December 22 to Sunday, January 4</span></strong></span></span>
+<ul>
+<li><span><span><span><span>See <a href="https://ottawa.ca/en/richcraft-recreation-complex-kanata-holiday-drop-schedule">Winter Break schedule</a>.</span></span></span></span></li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -853,7 +2079,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-50acb967b8936f15c56a2690dd85ec62209ecfd97f99a77b247e241aacee80c0">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c34655fcfe22b55c24682f4e297f249dbe38ff2a2e043e60e0d900c2e9d20f58">
   
     
       
@@ -867,7 +2093,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a092c2deec0a9715cb0980c813010b60d1cf54519579c0c0c9dc6076d997c616">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c6da4bfdbaea61a10a26615b9ebbcbfa416c3fa0c9e7d544ff54bf13e1adaf60">
   
     
       
@@ -1002,7 +2228,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d380d91c23bdf398eb1484b975ca2a06246e57304ad8240d46ba332b4badf347">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-db36e5be581362af7e573912b2570863cb2fb0b9d96aef8fb0b2155420f6ed15">
   
     
       
@@ -1016,7 +2242,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-51e57996fd035c68ec107497be94b23571595fb9e403ad23300b520f95bb9e3f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1e8bcd58ab202b80e9027b5cb8a0b72fa980df91f3035d67853a2892dadf9f29">
   
     
       
@@ -1052,6 +2278,19 @@ X-Varnish: 17431810 18055395
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/richcraftkanata">Reserve a spot at Richcraft Recreation Complex-Kanata</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
+<ul>
+<li><strong>Monday, December 22 to Sunday, January 4</strong>
+<ul>
+<li>See <a href="https://ottawa.ca/en/richcraft-recreation-complex-kanata-holiday-drop-schedule">Winter Break schedule</a>.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -1260,7 +2499,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-76fc2b23a75f8400170a680807ca6edfa30b04b88c88ea0dc0f987b0296d3a83">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-019fe5e3ef2f1f4f5d6f1155ae2ad70d34b4dc08473efd9922ce2ee30b5e01b9">
   
     
       
@@ -1274,7 +2513,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7a808d026dc583b1028759ea2aaa8e3d8428493fc9511ef46e87ac9e9a1bbdb8">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-049923e7770085558988f671f81acf7ad88bbe444aefa359af1c2a3a3751111a">
   
     
       
@@ -1309,12 +2548,11 @@ X-Varnish: 17431810 18055395
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
 <ul>
-<li><strong>Friday, December 5</strong>
+<li><strong>Monday, December 22 to Sunday, January 4</strong>
 <ul>
-<li>Badminton doubles - adult, all drop-ins, cancelled</li>
-<li>Pickleball - rotations, all drop-ins, cancelled</li>
+<li>See <a href="https://ottawa.ca/en/richcraft-recreation-complex-kanata-holiday-drop-schedule">Winter Break schedule</a>.</li>
 </ul>
 </li>
 </ul>
@@ -1569,7 +2807,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0c40bef7154c209118748a844fdfd15a9ffdf7e4fa5f2462ca31a31bacbf30a8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-890f05299321f56e0a37253f7db04644f9feb1b219eff41a090f3a42ecdfaad2">
   
     
       
@@ -1583,7 +2821,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1c0be30533fec55eb828ccafa85927a54d9d6c9d30796ad97f97eedfac0d1069">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5a0a5883ea7aff187a3b08ae9e45f0ab8e70c563cb2ba2034a950590b90ee640">
   
     
       
@@ -1618,11 +2856,11 @@ X-Varnish: 17431810 18055395
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
 <ul>
-<li><strong>Friday, December 5</strong>
+<li><strong>Monday, December 22 to Sunday, January 4</strong>
 <ul>
-<li>Basketball - adult, all drop-ins, cancelled</li>
+<li>See <a href="https://ottawa.ca/en/richcraft-recreation-complex-kanata-holiday-drop-schedule">Winter Break schedule</a>.</li>
 </ul>
 </li>
 </ul>
@@ -1999,7 +3237,7 @@ X-Varnish: 17431810 18055395
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-288df8ef962be29f91ba617f552bad584c612e4e235d60834b633f9bb625b055">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-24b11ad82344ba30b59e0dc5b0cec7b57febf3d1ba4227ae36b50d34e22c2a5c">
   
     
       <div class="view-header">
