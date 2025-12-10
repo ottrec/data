@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=mnzBr9P3T0SIys/yq+WtAU1nN2kAAAAAQUIPAAAAAACL5oHICKXXO+BGL4LTku8t; nlbi_243507=58oYK3FQe2comGLbaXmSIAAAAAB0cvmuF0lvY3OW6nN538fM; incap_ses_1847_243507=Ii3bRl2r1ncb43yeO92hGU1nN2kAAAAAYOeBKyF/oSRiFbAy36G25A==
+Cookie: visid_incap_243507=9fRT1LPkQWKjy/e7hlfhA8m4OGkAAAAAQUIPAAAAAADph+iUQPZoiBkMCGaLB/pW; nlbi_243507=NT5nCbBbH1FccnFCaXmSIAAAAAAkUpdAKiyIMnuIxioTRd+p; incap_ses_1547_243507=iKOlDuWEPB4vjQ00yQx4Fcm4OGkAAAAAPmNVcSbOV9uu1VK+lwLoBw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 217
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 09 Dec 2025 00:06:37 GMT
-Etag: "1765238577-gzip"
+Date: Wed, 10 Dec 2025 00:06:34 GMT
+Etag: "1765325192-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 09 Dec 2025 00:02:57 GMT
+Last-Modified: Wed, 10 Dec 2025 00:06:32 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-ssdm8 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 46-56440203-56440208 SNNN RT(1765238605817 191254) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 19374573 16642169
+X-Iinfo: 14-155826586-155826611 SNNy RT(1765325001902 190665) q(0 2 2 -1) r(16 16) U24
+X-Varnish: 20781842
 
-15dbb
+1a7b3
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 19374573 16642169
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex" />
 <meta name="dcterms.title" content="Pinecrest Recreation Complex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-12-04" />
+<meta name="dcterms.date" content="2025-12-09" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4759444f09674879d48287eb040e1a97467992312822f9a11d96504b93dac49e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-45a2f0851ff46d6563071f331122a7fb4cafb5163863bec56c95a70ce8a7594e">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9b821432caf6dc379367dd8bf7d8fce0656546e6fa0c4e70f8e3ebfc12538fdb">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b18d498ed37b9f0c0c03b2a5df6a3c1ed496e13328a3d4cd379f2c1267372c90">
   
     
       
@@ -277,7 +277,30 @@ X-Varnish: 19374573 16642169
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Winter Break hours</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><span><strong><span>Friday, December 20</span></strong><span><span>, 9:30 am to 2:30 pm</span></span></span></span></li>
+<li><span><span><strong><span>Saturday, December 21</span></strong><span><span>, 11:30 am to 4 pm</span></span></span></span></li>
+<li><span><span><strong><span>December 24 to 26</span></strong><span><span>, closed</span></span></span></span></li>
+<li><span><span><strong><span>Saturday, December 27</span></strong><span><span>, 9:30 am to 2:30 pm</span></span></span></span></li>
+<li><span><span><strong><span>Sunday, December 28</span></strong><span><span>, 11:30 am to 4 pm</span></span></span></span></li>
+<li><span><span><strong><span>December 31 and January 1</span></strong><span><span>, closed</span></span></span></span></li>
+</ul>
+</div>
+      
+
+<div class="mb-3">
 
 
 
@@ -437,6 +460,871 @@ X-Varnish: 19374573 16642169
                               <div class="col collapse-region">
                   <h2 class="no-toc">
                               
+  <button aria-expanded="false" aria-controls="section-283f9427-ada9-4dde-bad0-ff1c0c16eccf" data-target="#section-283f9427-ada9-4dde-bad0-ff1c0c16eccf" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - Winter Break</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-283f9427-ada9-4dde-bad0-ff1c0c16eccf">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - Winter Break</h2>
+</span>
+
+
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-04cc289baf3b7fb504ec88099141a495729a8a87ec0ecd6c84fb062a86cac00c">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-41ea66d81389a4027171898ffa98b43ab9c85dc6b825391cf0a0e7cd8d1b4756">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 row">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>December 20 to January 2</h3>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
+<p>The schedules listed in the charts below are subject to change.</p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/pinecrest">Reserve a spot at Pinecrest Recreation Complex</a></p>
+<p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/ArenaPinecrestRC">Ice sports - Reserve a spot at Pinecrest Arena</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr">
+	<caption>Pinecrest Recreation Complex -&nbsp;all drop-in activities&nbsp;-&nbsp;December 20 to 26</caption>
+	<thead>
+		<tr>
+			<td>
+			&nbsp;
+			</td>
+			<th>Saturday, December 20</th>
+			<th>Sunday, December 21</th>
+			<th>
+			Monday, December 22
+			</th>
+			<th>
+			Tuesday, December 23
+			</th>
+			<th>
+			Wednesday, December 24
+			</th>
+			<th>
+			Thursday, December&nbsp;25
+			</th>
+			<th>
+			Friday, December 26
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>
+			Public Swim
+			*Reservations not required.&nbsp;
+			</th>
+			<td>12:30 - 1:45 pm</td>
+			<td>12:30 - 1:45 pm</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			11:30 am - 12:45 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Lane Swim&nbsp;
+			</th>
+			<td>11:30 am - 12:30 pm</td>
+			<td>11:30 am - 12:30 pm</td>
+			<td>7:30 -&nbsp;8:30 am,
+			10:30 -&nbsp;11:30 am,
+			11:30 am – 12:30 pm,
+			4 -&nbsp;5 pm&nbsp;</td>
+			<td>6:30 -&nbsp;7:30 am,
+			7:30 -&nbsp;8:30 am,
+			10:30 -&nbsp;11:30 am,
+			7 - 8 pm&nbsp;</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Aqua General - Shallow&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			8:30 -&nbsp;9:30 am, 9:30 -&nbsp;10:30 am&nbsp;
+			</td>
+			<td>8:30 - 9:30 am,
+			9:30 -&nbsp;10:30 am,
+			12:45 -&nbsp;1:45 pm,
+			8 -&nbsp;9 pm</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>
+			Aqua General - Deep&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			8:30 -&nbsp;9:30 am, 9:30 -&nbsp;10:30 am&nbsp;
+
+			&nbsp;
+			</td>
+			<td>
+			8:30 - 9:30 am,
+			9:30 -&nbsp;10:30 am,
+			12:45 -&nbsp;1:45 pm,
+			8 -&nbsp;9 pm
+			</td>
+			<td>n/a</td>
+			<td>
+			n/a
+			</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>
+			Weight and cardio room
+			*Reservations not required.&nbsp;
+			</th>
+			<td>9:30 am - 2:30 pm</td>
+			<td>9:30 am - 2:30 pm</td>
+			<td>
+			7:30 am -&nbsp;9 pm&nbsp;
+			</td>
+			<td>
+			6:30 am -&nbsp;9 pm&nbsp;
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Yoga&nbsp;
+			</th>
+			<td>10:30 - 11:30 am</td>
+			<td>n/a</td>
+			<td>
+			Noon - 1 pm
+			</td>
+			<td>
+			7:15 - 8:15 pm
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Cardio and Strength 50+&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			1:30 - 2:30 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Strength 50+&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			9:15 - 10:15 am&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Core Conditioning 50+&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			9:30 - 10:30 am&nbsp;
+			</td>
+			<td>
+			10:30 - 11:30 am&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Zumba&nbsp;
+			</th>
+			<td>9:30 - 10:30 am&nbsp;</td>
+			<td>n/a</td>
+			<td>
+			7:15 - 8:15 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Public skate&nbsp;
+			*Reservations not required.
+			</th>
+			<td>n/a</td>
+			<td>2 - 2:50 pm,&nbsp;
+			3 - 3:50 pm</td>
+			<td>
+			1 -&nbsp;1:50 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Public skate 50+&nbsp;
+			*Reservations not required.
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			11 -&nbsp;11:50 am&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Pick-up Hockey 18+&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			Noon - 12:50 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Pick-up Hockey 50+&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			10 -&nbsp;10:50 am&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+      </div>
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr">
+	<caption>Pinecrest Recreation Complex -&nbsp;all drop-in activities&nbsp;-&nbsp;December 27 to January 2</caption>
+	<thead>
+		<tr>
+			<td>
+			&nbsp;
+			</td>
+			<th>Saturday, December 27</th>
+			<th>Sunday, December 28</th>
+			<th>
+			Monday, December 29
+			</th>
+			<th>
+			Tuesday, December 30
+			</th>
+			<th>
+			Wednesday, December 31
+			</th>
+			<th>
+			Thursday, January 1
+			</th>
+			<th>
+			Friday, January 2
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>
+			Public Swim
+			*Reservations not required.&nbsp;
+			</th>
+			<td>12:30 - 1:45 pm</td>
+			<td>12:30 - 1:45 pm</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			11:30 am -&nbsp;12:45 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+
+			&nbsp;
+			</td>
+			<td>
+			12:30 -&nbsp;1:30 pm&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Lane Swim&nbsp;
+			</th>
+			<td>11:30 am - 12:30 pm</td>
+			<td>11:30 am - 12:30 pm</td>
+			<td>
+			7:30 -&nbsp;8:30 am,
+			10:30 -&nbsp;11:30 am,
+			11:30 am - 12:30 pm,
+			4 -&nbsp;5 pm&nbsp;
+			</td>
+			<td>
+			6:30 -&nbsp;7:30 am,
+			7:30 -&nbsp;8:30 am,
+			10:30 - 11:30 am,
+			7 -&nbsp;8 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>n/a&nbsp;</td>
+			<td>7:30 -&nbsp;8:30 am,
+			10:30 -&nbsp;11:30 am,
+			11:30 am -&nbsp;12:30 pm,
+			4 -&nbsp;5 pm,
+			8 -&nbsp;9 pm&nbsp;</td>
+		</tr>
+		<tr>
+			<th>
+			Aqua General - Shallow&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			8:30 -&nbsp;9:30 am,
+			9:30 - 10:30 am&nbsp;
+			</td>
+			<td>
+			8:30 -&nbsp;9:30 am,
+			9:30 -&nbsp;10:30 am,
+			12:45 -&nbsp;1:45 pm,
+			8 -&nbsp;9 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+
+			&nbsp;
+			</td>
+			<td>n/a&nbsp;</td>
+			<td>
+			8:30 -&nbsp;9:30 am,
+			9:30 - 10:30 am
+
+			&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Aqua General - Deep&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			8:30 -&nbsp;9:30 am,
+			9:30 - 10:30 am&nbsp;&nbsp;
+
+			&nbsp;
+			</td>
+			<td>
+			8:30 -&nbsp;9:30 am,
+			9:30 -&nbsp;10:30 am,
+			12:45 -&nbsp;1:45 pm,
+			8 -&nbsp;9 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+
+			&nbsp;
+			</td>
+			<td>n/a&nbsp;</td>
+			<td>
+			8:30 -&nbsp;9:30 am,
+			​​​​​​​9:30 - 10:30 am
+
+			&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>Women’s Only Swim
+			*Reservations not required.&nbsp;</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>5:15 - 6:15 pm</td>
+		</tr>
+		<tr>
+			<th>
+			Weight and cardio room
+			*Reservations not required.&nbsp;
+			</th>
+			<td>9:30 am - 2:30 pm</td>
+			<td>11:30 am - 4 pm</td>
+			<td>
+			7:30 am -&nbsp;9 pm&nbsp;
+			</td>
+			<td>
+			6:30 am -&nbsp;9 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>n/a&nbsp;</td>
+			<td>
+			7:30 am -&nbsp;9 pm&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Yoga&nbsp;
+			</th>
+			<td>10:30 - 11:30 am</td>
+			<td>n/a</td>
+			<td>
+			Noon - 1 pm&nbsp;
+			</td>
+			<td>
+			7:15 - 8:15 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>n/a&nbsp;</td>
+			<td>
+			Noon - 1 pm&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Cardio and Strength 50+&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			1:30 - 2:30 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Strength 50+&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			9:15 - 10:15 am&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>n/a&nbsp;</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Strength Circuit 50+&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			n/a
+			</td>
+			<td>
+			9:30 - 10:30 am&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Core Conditioning 50+&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			9:30 - 10:30 am&nbsp;
+			</td>
+			<td>
+			10:30 - 11:30 am&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>n/a&nbsp;</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Zumba&nbsp;
+			</th>
+			<td>9:30 - 10:30 am</td>
+			<td>n/a</td>
+			<td>
+			7:15 - 8:15 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Public skate&nbsp;
+			*Reservations not required.
+			</th>
+			<td>n/a</td>
+			<td>2 - 2:50 pm,&nbsp;
+			3 - 3:50 pm</td>
+			<td>
+			1 -&nbsp;1:50 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>n/a&nbsp;</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Public skate 50+&nbsp;
+			*Reservations not required.
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			11 -&nbsp;11:50 am&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Pick-up Hockey 18+&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			Noon - 12:50 pm&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Pick-up Hockey 50+&nbsp;
+			</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			10 -&nbsp;10:50 am&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>
+			n/a&nbsp;
+			</td>
+		</tr>
+	</tbody>
+</table></div>
+      </div>
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 row">
+
+            
+                              <div class="col collapse-region">
+                  <h2 class="no-toc">
+                              
   <button aria-expanded="false" aria-controls="section-7333ce2e-da71-4d3a-bbaa-c8ad566aa5a0" data-target="#section-7333ce2e-da71-4d3a-bbaa-c8ad566aa5a0" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - swim and aquafit</button>
 
                   </h2>
@@ -463,7 +1351,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-285c6c84b62623ee4d9ee35fbb2e77a4daaa85fdc08a34a74a611fe47760ae9f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5871ad53bfe7d215141e9ff4edb062321b91cb09e37aa8a3b158717210544b80">
   
     
       
@@ -477,7 +1365,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-42cb5f03d30502cedececf686050650d945a0fd35256192b56e9753401d09aba">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2c3b476055b0909e4273a0dbfc6890f1dcf926c6ea8201202dd32a8f3a74b46a">
   
     
       
@@ -506,7 +1394,7 @@ X-Varnish: 19374573 16642169
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
 <p>Changes will be reflected through the booking process.</p>
-<p><a href="https://ottawa.ca/en/recreation-and-culture/swimming/drop-swimming-and-aquafit#section-e519c17e-8afa-4d89-95bd-dcde9c2f4007">Play free, additional details, descriptions, fees and cancellation information.</a></p>
+<p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
 </div>
       
       </div>
@@ -516,10 +1404,23 @@ X-Varnish: 19374573 16642169
 </div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><strong><span>Schedule change</span></strong></span></span></h3>
+<ul>
+<li><span><span><strong><span>Saturday, December 20 to Friday, January 2</span></strong></span></span>
+<ul>
+<li><span><span><span><span>See <a href="https://ottawa.ca/en/pinecrest-recreation-complex-holiday-drop-schedule">Winter Break schedule</a>.</span></span></span></span></li>
+</ul>
+</li>
+</ul>
+</div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr">
-	<caption>Pinecrest Recreation Complex – Swimming and aquafit – September 8 to December 20</caption>
+	<caption>Pinecrest Recreation Complex -&nbsp;Swimming and aquafit -&nbsp;September 8 to December 19</caption>
 	<thead>
 		<tr>
 			<td>
@@ -749,7 +1650,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ddfaf0b07cdfa6a0b208febe58b55519e292816d0ca8d650fab6cc176beb68fb">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a18e97bb1b0003b50e0b3dc49cdcb6e9ae0b709f341c7542948ac438530fd947">
   
     
       
@@ -763,7 +1664,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c430ffe8f4a6f93c29bd424ba0e416cf20736e7f4c29f3ce667fc46c78239f27">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-be07334fd228fd54bb380ba953007016803858dbcfba533a656b30f9ca2b16d0">
   
     
       
@@ -791,15 +1692,28 @@ X-Varnish: 19374573 16642169
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
-<p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Additional details, descriptions, fees and cancellation information.</a></p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></p>
 <p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
+<ul>
+<li><strong>Saturday, December 20 to Friday, January 2</strong>
+<ul>
+<li>See <a href="https://ottawa.ca/en/pinecrest-recreation-complex-holiday-drop-schedule">Winter Break schedule</a>.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr">
-	<caption>Pinecrest Recreation Complex – Weight and cardio room – September 6 to December 20</caption>
+	<caption>Pinecrest Recreation Complex -&nbsp;Weight and cardio room - September 6 to December 19</caption>
 	<thead>
 		<tr>
 			<td>
@@ -930,7 +1844,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6d811cd6304f372ea79ba4ab89f0d067eb7543e12d49f033b20608c603e83713">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-606e7509e010869d98bd833ece47fa88737653d5f0f07f6b25018d4d2e5a3c28">
   
     
       
@@ -944,7 +1858,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ce4015d4b26f28e6fead5ea6bf38107ad96feae65727d5f9a30cd3376b6b3357">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0c26dca1e04e81c8780744bf65bd482d5534f6500b06d8af689e8b84593df93d">
   
     
       
@@ -972,15 +1886,28 @@ X-Varnish: 19374573 16642169
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.&nbsp;Changes will be reflected through the booking process.</p>
-<p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Additional details, descriptions, fees and cancellation information.</a></p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></p>
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/pinecrest">Reserve a spot at Pinecrest Recreation Complex</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
+<ul>
+<li><strong>Saturday, December 20 to Friday, January 2</strong>
+<ul>
+<li>See <a href="https://ottawa.ca/en/pinecrest-recreation-complex-holiday-drop-schedule">Winter Break schedule</a>.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr">
-	<caption>Pinecrest Recreation Complex – Group fitness – September 6 to December 20</caption>
+	<caption>Pinecrest Recreation Complex -&nbsp;Group fitness -&nbsp;September 6 to December 19</caption>
 	<thead>
 		<tr>
 			<td>
@@ -1288,7 +2215,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7c2d3b5a1c7eac2c4b8a229fe507597052cf9a98d9ac3f2dc58954c21e32baee">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4734df4802dde74f3787986798e8533ed4985d47d6b165dcbf550430c8c776ce">
   
     
       
@@ -1302,7 +2229,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-849fddd79cc25032f47210fc7b797a44c01f0c0722bf6e7c75b854bb714849c8">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5fa2f1325b5c211e93bb5d3227ebcd027a224d10877ce8ef9d15fcc5393e6ba5">
   
     
       
@@ -1330,16 +2257,29 @@ X-Varnish: 19374573 16642169
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
-<p><a href="https://ottawa.ca/en/recreation-and-culture/skating/drop-skating">Additional details, descriptions, fees and cancellation information</a>.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></p>
 <p><strong><a href="https://ottawa.ca/en/recreation-and-parks/skating/safety-regulations" hreflang="en">Safety and regulations</a></strong></p>
-<p>Reservations not required.</p>
+<p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
+<ul>
+<li><strong>Saturday, December 20 to Friday, January 2</strong>
+<ul>
+<li>See <a href="https://ottawa.ca/en/pinecrest-recreation-complex-holiday-drop-schedule">Winter Break schedule</a>.</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr">
-	<caption>Pinecrest Recreation Complex – skating – September 7&nbsp;to December 20</caption>
+	<caption>Pinecrest Recreation Complex -&nbsp;skating -&nbsp;September 7&nbsp;to December 19</caption>
 	<thead>
 		<tr>
 			<td>
@@ -1522,7 +2462,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f6df36f84978eab39f6fa51e0912d23a6150fb418005385d055563c314179ec0">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-71f82688e5fedbca07af25c3e291765301625bea15c1a2fdcc85c53ec630c80d">
   
     
       
@@ -1536,7 +2476,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-df61c7674688015c55a2a73a9c739bb148ab63de48a35e538da015ca456de23f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5e061fc3d54c4d97fdf43698f53a6a097857f76b855f0aed1c101954a9512fb3">
   
     
       
@@ -1564,7 +2504,7 @@ X-Varnish: 19374573 16642169
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
-<p><a href="https://ottawa.ca/en/recreation-and-culture/skating/drop-skating">Additional details, descriptions, fees and cancellation information</a>.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/skating/safety-regulations"><strong>Safety and regulations</strong></a></p>
 </div>
       
@@ -1575,10 +2515,23 @@ X-Varnish: 19374573 16642169
 </div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
+<ul>
+<li><strong>Saturday, December 20 to Friday, January 2</strong>
+<ul>
+<li>See <a href="https://ottawa.ca/en/pinecrest-recreation-complex-holiday-drop-schedule">Winter Break schedule</a>.</li>
+</ul>
+</li>
+</ul>
+</div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr">
-	<caption>Pinecrest Recreation Complex - ice sports -&nbsp;September 7 to December 20</caption>
+	<caption>Pinecrest Recreation Complex - ice sports -&nbsp;September 7 to December 19</caption>
 	<thead>
 		<tr>
 			<td>
@@ -1770,7 +2723,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-efe2967be677223159ef74606525bca46ac97f324d9f9f8e70200f8593457809">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-60b42b6ab91432e49110c86fd44dd9d029860c55cac4e6bf8b77b5a2a63e7102">
   
     
       <div class="view-header">
@@ -1861,7 +2814,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bde850c96dfd6d724390d890a003c0e66b9e57953d2be3782bdc62689602cc1c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2bed1955842d0534f4c8f41953c417685bb11286e1d9f7319702844c32c6a29a">
   
     
       
@@ -1875,7 +2828,7 @@ X-Varnish: 19374573 16642169
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-76c6eb5e9fc303da2213f5927daf3f821a9696c17e6a49ae628b34bb5b479359">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-87b584a26f9877dfa335fc1aa81232c6791ad109f45d54dd12d9687940dc98c0">
   
     
       

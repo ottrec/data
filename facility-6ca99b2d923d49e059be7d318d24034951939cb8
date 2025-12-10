@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/south-fallingbrook-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=mnzBr9P3T0SIys/yq+WtAU1nN2kAAAAAQUIPAAAAAACL5oHICKXXO+BGL4LTku8t; nlbi_243507=58oYK3FQe2comGLbaXmSIAAAAAB0cvmuF0lvY3OW6nN538fM; incap_ses_1847_243507=Ii3bRl2r1ncb43yeO92hGU1nN2kAAAAAYOeBKyF/oSRiFbAy36G25A==
+Cookie: visid_incap_243507=9fRT1LPkQWKjy/e7hlfhA8m4OGkAAAAAQUIPAAAAAADph+iUQPZoiBkMCGaLB/pW; nlbi_243507=NT5nCbBbH1FccnFCaXmSIAAAAAAkUpdAKiyIMnuIxioTRd+p; incap_ses_1547_243507=iKOlDuWEPB4vjQ00yQx4Fcm4OGkAAAAAPmNVcSbOV9uu1VK+lwLoBw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 685
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 09 Dec 2025 00:07:14 GMT
-Etag: "1765238833-gzip"
+Date: Wed, 10 Dec 2025 00:07:07 GMT
+Etag: "1765324540-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 09 Dec 2025 00:07:13 GMT
+Last-Modified: Tue, 09 Dec 2025 23:55:40 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-ssdm8 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 46-56440203-56440208 SNNN RT(1765238605817 227187) q(0 0 0 -1) r(17 17) U24
-X-Varnish: 18276096
+X-Iinfo: 14-155826586-155826611 SNNy RT(1765325001902 225194) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 15198499 20752758
 
-b257
+d511
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ b257
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/south-fallingbrook-community-centre" />
 <meta name="dcterms.title" content="South Fallingbrook Community Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-10-14" />
+<meta name="dcterms.date" content="2025-12-09" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ b257
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8541761c57e018d8c4ad538b2b4a694c46dcb285e32eff63c8a4db593356613a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-31ed4813b657ba733704ad7862e1cdc6f3156aa14f4d5bf046bc2f5c80161b4d">
   
     
       
@@ -208,7 +208,7 @@ b257
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0e8b11ff0952a4721e36af2982eea1396be4e4ba436788a325c4d1a547e2f551">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6b9b4e458be60210d8dbbe461dcfd731c8ccd66933fa6f67b8e11b41377c27e9">
   
     
       
@@ -277,7 +277,31 @@ b257
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Winter Break hours</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><span><strong><span>December 22 and 23</span></strong><span><span>, 8:30 am to 9 pm</span></span></span></span></li>
+<li><strong><span>December 24 to 28</span></strong><span><span>, closed</span></span></li>
+<li><span><span><strong><span>December 29 and 30</span></strong><span><span>, 8:30 am to 9 pm</span></span></span></span></li>
+<li><span><span><strong><span>Wednesday, December 31</span></strong><span><span>, 8:30 am to 5 pm</span></span></span></span></li>
+<li><span><span><strong><span>Thursday, January 1</span></strong><span><span>, closed</span></span></span></span></li>
+<li><span><span><strong><span>Friday, January 2</span></strong><span><span>, 8:30 am to 9 pm</span></span></span></span></li>
+<li><span><span><strong><span>January 3 and </span></strong><span><span><strong>4</strong>, 8:45 am to 6 pm</span></span></span></span></li>
+</ul>
+</div>
+      
+
+<div class="mb-3">
 
 
 
@@ -382,6 +406,262 @@ b257
                               <div class="col collapse-region">
                   <h2 class="no-toc">
                               
+  <button aria-expanded="false" aria-controls="section-4b37099f-106f-4511-9344-9bb9112a3948" data-target="#section-4b37099f-106f-4511-9344-9bb9112a3948" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - Winter Break</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-4b37099f-106f-4511-9344-9bb9112a3948">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - Winter Break</h2>
+</span>
+
+
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-17812269b82ecbbb6371f0afb91ab36080d34a08cada3f2d08ba11ac69a4a673">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c0c855c645a52e420bc3a450a3dd8ea452e17a3716f0de4b3d099d3e27045f5e">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 row">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>December 22 to January 4</h3>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
+<p>The schedules listed in the charts below are subject to change.</p>
+<p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/southfallingbrook">Reserve a spot at South Fallingbrook Community Centre</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
+	<caption>South Fallingbrook Community Centre - sports - December 22 to 28</caption>
+	<thead>
+		<tr>
+			<td>
+			&nbsp;
+			</td>
+			<th>
+			Monday, December 22
+			</th>
+			<th>
+			Tuesday, December 23
+			</th>
+			<th>
+			Wednesday, December 24
+			</th>
+			<th>
+			Thursday, December 25
+			</th>
+			<th>
+			Friday, December 26
+			</th>
+			<th>
+			Saturday, December 27
+			</th>
+			<th>
+			Sunday, December 28
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Pickleball - adult</th>
+			<td>n/a</td>
+			<td>5:30 - 6:30 pm,&nbsp;
+			6:30 - 7:30 pm,&nbsp;
+			7:45 - 8:45 pm</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+	</tbody>
+</table></div>
+      </div>
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
+	<caption>South Fallingbrook Community Centre - sports - December 29 to January 4</caption>
+	<thead>
+		<tr>
+			<td>
+			&nbsp;
+			</td>
+			<th>
+			Monday, December 29
+			</th>
+			<th>
+			Tuesday, December 30
+			</th>
+			<th>
+			Wednesday, December 31
+			</th>
+			<th>
+			Thursday, January 1
+			</th>
+			<th>
+			Friday, January 2
+			</th>
+			<th>
+			Saturday, January 3
+			</th>
+			<th>
+			Sunday, January 4
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Pickleball - adult</th>
+			<td>n/a</td>
+			<td>5:30 - 6:30 pm,&nbsp;
+			6:30 - 7:30 pm,&nbsp;
+			7:45 - 8:45 pm</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>8:45 - 9:45 am,
+			9:45 - 10:45 am,
+			11 am -&nbsp;noon,
+			Noon -&nbsp;1 pm&nbsp;&nbsp;&nbsp;</td>
+			<td>8:45 -&nbsp;9:45 am,
+			9:45 - 10:45 am,
+			11 am -&nbsp;noon,
+			Noon - 1 pm&nbsp;&nbsp;&nbsp;</td>
+		</tr>
+		<tr>
+			<th>Badminton - adult</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>5:30 - 6:30 pm,&nbsp;
+			6:30 - 7:30 pm,&nbsp;
+			7:45 - 8:45 pm</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+		<tr>
+			<th>Kinderplay</th>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>
+			10 - 11 am,&nbsp;
+			11 am - noon,&nbsp;
+			Noon - 1 pm,&nbsp;
+			1 - 2 pm
+			</td>
+			<td>10 - 11 am,&nbsp;
+			11 am - noon,&nbsp;
+			Noon - 1 pm,&nbsp;
+			1 - 2 pm</td>
+		</tr>
+	</tbody>
+</table></div>
+      </div>
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 row">
+
+            
+                              <div class="col collapse-region">
+                  <h2 class="no-toc">
+                              
   <button aria-expanded="false" aria-controls="section-8a97d637-7078-431e-985a-013f6038f91f" data-target="#section-8a97d637-7078-431e-985a-013f6038f91f" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - sports</button>
 
                   </h2>
@@ -408,7 +688,7 @@ b257
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a92eaf9733d7151a7e108925069cc9bca70d23d84e2d3c42b40eef2698e2dc0c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0e287e6251e739706cfdd15981e08411b64062b54147bd9c6a72e30fe7fd2467">
   
     
       
@@ -422,7 +702,7 @@ b257
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-15abc967b5bbd24656347d2d6c6b93f3a2b9699ae72f1cb87b402bc463c73ff1">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0a4196596c42e16bcc847e4cfb4fa1b8b313c4c653be2d12196bc4419c58ce98">
   
     
       
@@ -450,7 +730,7 @@ b257
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
-<p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Additional details, descriptions, fees and cancellation information.</a></p>
+<p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
 </div>
       
       </div>
@@ -460,10 +740,23 @@ b257
 </div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><strong><span>Schedule change</span></strong></span></span></h3>
+<ul>
+<li><span><span><strong><span>Monday, December 22 to Sunday, January 4</span></strong></span></span>
+<ul>
+<li><span><span><span><span>See <a href="https://ottawa.ca/en/south-fallingbrook-community-centre-holiday-drop-schedule">Winter Break schedule</a>.</span></span></span></span></li>
+</ul>
+</li>
+</ul>
+</div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
-	<caption>South Fallingbrook Community Centre - sports - October 14 to December 19</caption>
+	<caption>South Fallingbrook Community Centre - sports - October 14 to December 21</caption>
 	<thead>
 		<tr>
 			<td>
@@ -672,7 +965,7 @@ b257
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-9b0e9991028f746f6e620dd3b27ef1f0282982d5a680d01f0bec7c263905dc41">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-cd4e179bea9f31eba1f1db3ec53cf05c2069c1089fd9b8b9e02898f4fab9da78">
   
     
       <div class="view-header">

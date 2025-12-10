@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/hunt-club-riverside-park-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=mnzBr9P3T0SIys/yq+WtAU1nN2kAAAAAQUIPAAAAAACL5oHICKXXO+BGL4LTku8t; nlbi_243507=58oYK3FQe2comGLbaXmSIAAAAAB0cvmuF0lvY3OW6nN538fM; incap_ses_1847_243507=Ii3bRl2r1ncb43yeO92hGU1nN2kAAAAAYOeBKyF/oSRiFbAy36G25A==
+Cookie: visid_incap_243507=9fRT1LPkQWKjy/e7hlfhA8m4OGkAAAAAQUIPAAAAAADph+iUQPZoiBkMCGaLB/pW; nlbi_243507=NT5nCbBbH1FccnFCaXmSIAAAAAAkUpdAKiyIMnuIxioTRd+p; incap_ses_1547_243507=iKOlDuWEPB4vjQ00yQx4Fcm4OGkAAAAAPmNVcSbOV9uu1VK+lwLoBw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 578
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 09 Dec 2025 00:05:17 GMT
-Etag: "1765238137-gzip"
+Date: Wed, 10 Dec 2025 00:05:15 GMT
+Etag: "1765325113-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 08 Dec 2025 23:55:37 GMT
+Last-Modified: Wed, 10 Dec 2025 00:05:13 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-ssdm8 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 46-56440203-56440208 SNNN RT(1765238605817 112125) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 18019331 19088342
+X-Iinfo: 14-155826586-155826611 SNNy RT(1765325001902 111976) q(0 0 0 -1) r(14 14) U24
+X-Varnish: 18800561
 
-133f4
+1359a
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9648c68e4b57231d2714c3280a428f42e496c524fb73c4de9a5111e803a24e5d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cadfcf0c1a6824157793d8957f49481b952862d5a5032031e6dd55854384a23c">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e80b57bb54716473171c1f8cf33a0c39742e0b102b90251c41f53c4a962cd7ec">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a5a98ce259bb388ffded982478a41f2990d2fe59fe71890db3bf37c80d44a01c">
   
     
       
@@ -479,7 +479,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-76021b100fe3aa7c08ce58767dca119b45abb36bb4174bbe89fa4d9f79e85739">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-45b82da6037726dc53d68f00a9ce70c6a224e82b4ec9461314e5c9cda6b63cb7">
   
     
       
@@ -493,7 +493,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6e0c6d987f873854bf9c6ad43721d832087fb42f390d9cf6ad5e9bf5ff63ea7b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-326f472ec9fda01f64a9f38f52e1f4badcbc6e4b91ecede4653633c002555750">
   
     
       
@@ -527,6 +527,7 @@ X-Varnish: 18019331 19088342
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/huntclubCC">Reserve a spot at Hunt Club-Riverside Park Community Centre</a></p>
 </div>
       
@@ -998,7 +999,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b327b1a7b69e0a0e7db6a32757065f96045e9814c9f07d117daf1d0997350120">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-35d48ea6502c72e2a7d78ea49072ee514e967a879e82ea403b4329d68c956d73">
   
     
       
@@ -1012,7 +1013,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-081ed1a1b9b443ac53e2fab50ed86c882986b1e48846d5e785b3e3acf50e5326">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6f2f7814de670b146ff9673a602b18f6c953941029790d4157fc4f50a2068d1c">
   
     
       
@@ -1040,7 +1041,7 @@ X-Varnish: 18019331 19088342
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
-<p><a href="http://ottawa.ca/en/node/3036916">Additional details, descriptions, fees and cancellation information</a>.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 <p><strong>Reservations not required.</strong></p>
 </div>
       
@@ -1145,7 +1146,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-89341ad67ccd5a6af0608a4732a6a8c2fe720203d73d785e9d8b2ce6aa820485">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9ab18637df620d3c7038aaef4ed35164b5bbb09792c9ca1b7768ecfca7e6686f">
   
     
       
@@ -1159,7 +1160,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-443cc576ea5629fe664ec69dd65b547dfed262138526cbc3b22203bf6404b55c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b3eee58f5ac6c98fffe0616b1e7bd72019bf86f179bf0a2f0aa5a8538ac11fff">
   
     
       
@@ -1187,7 +1188,7 @@ X-Varnish: 18019331 19088342
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. The changes will be reflected in the online reservation process.</p>
-<p><a href="http://ottawa.ca/en/node/3036916">Additional details, descriptions, fees and cancellation information</a>.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 </div>
       
       </div>
@@ -1350,7 +1351,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9f25623249b58d2954f9fea9474a5311dc0088b96f34b27608d77872169660d1">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-aefe8fe1ed3b703afc69a6c46ac9adc659de41f3b28d005ff96d739a1fa757db">
   
     
       
@@ -1364,7 +1365,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1181ae7c9ba39e394b523ff875e6a80eb0ccfa3e5851cd89cb4567ed1db6963d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-61cac4141439e022651979f8badbeb565ae741a763edaba8e93b4e47fa56e489">
   
     
       
@@ -1392,7 +1393,7 @@ X-Varnish: 18019331 19088342
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. The changes will be reflected in the online reservation process.</p>
-<p><a href="https://ottawa.ca/en/node/3036916">Additional details, descriptions, fees and cancellation information</a>.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 </div>
       
       </div>
@@ -1570,7 +1571,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-78313ec22ea05c757b607f9150f96974ba8a89ffa453220df3f3940de47a3013">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-29b32d7d7c5ce52693e46ea42a3bc639b23bfa318cebd70fd0149966c381f63e">
   
     
       
@@ -1584,7 +1585,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-20e8ba7178525bb9924f22cfb124ac9d075db17c5e8186a7ad34edac03b0ba7b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cf9d93fbd9988baef5dba41f0a400ec5238385cdc24a4d7da6768a31f96ac2be">
   
     
       
@@ -1612,7 +1613,7 @@ X-Varnish: 18019331 19088342
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. The changes will be reflected in the online reservation process.</p>
-<p><a href="http://ottawa.ca/en/node/3036916">Additional details, descriptions, fees and cancellation information</a>.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 </div>
       
       </div>
@@ -1865,7 +1866,7 @@ X-Varnish: 18019331 19088342
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-36c265075f575587852ba79abf30fa310f7d04c5c99a0fdbf8594556d8f132cd">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-e98f6e84d7d93e46dc9b36b4501bf75be9dd623c625d5eab411ae2bfd792ccba">
   
     
       <div class="view-header">
@@ -2262,7 +2263,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=56&cb=506323588" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=57&cb=388277348" async></script></body>
 </html>
 
 
