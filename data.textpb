@@ -6150,6 +6150,9 @@ facilities {
     }
     _noresv: true
   }
+  _errors:
+    "group \"Drop-in schedule - Winter Break\": warning: failed to parse time range \"\\u00a0\\n"
+    "\\t\\t\\t2 - 50 pm\""
 }
 facilities {
   name: "Brewer Pool and Arena"
@@ -12032,6 +12035,7 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/arenacardelrec"
     }
   }
+  _errors: "group \"Drop-in schedule - Winter Break\": warning: failed to parse time range \"10:15 - 11:!5 am\""
 }
 facilities {
   name: "Carleton Heights Community Centre"
@@ -53600,6 +53604,7 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/ArenaKanata"
     }
   }
+  _errors: "group \"Drop-in schedule - Winter Break\": warning: failed to parse time range \"12:!5 - 1:05 pm\""
 }
 facilities {
   name: "Vernon Recreation Centre"
