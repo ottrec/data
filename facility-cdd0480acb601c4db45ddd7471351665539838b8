@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/diane-deans-greenboro-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=9fRT1LPkQWKjy/e7hlfhA8m4OGkAAAAAQUIPAAAAAADph+iUQPZoiBkMCGaLB/pW; nlbi_243507=NT5nCbBbH1FccnFCaXmSIAAAAAAkUpdAKiyIMnuIxioTRd+p; incap_ses_1547_243507=iKOlDuWEPB4vjQ00yQx4Fcm4OGkAAAAAPmNVcSbOV9uu1VK+lwLoBw==
+Cookie: visid_incap_243507=uW8nlOpKQWiayA2Si8QytUkKOmkAAAAAQUIPAAAAAAABa7Njk+mQmQuTLBEaCPFL; nlbi_243507=UYSLT5zLGVsTK5x1aXmSIAAAAADdxk9yvTAnF/yNbK2BpuPQ; incap_ses_177_243507=eg2FDJ+rljhjK+BQntR0AkkKOmkAAAAAbvn5ms7swid6To6DqinWDg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 543
+Age: 422
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 10 Dec 2025 00:04:29 GMT
-Etag: "1765324525-gzip"
+Date: Thu, 11 Dec 2025 00:04:31 GMT
+Etag: "1765411047-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 09 Dec 2025 23:55:25 GMT
+Last-Modified: Wed, 10 Dec 2025 23:57:27 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-ssdm8 (Varnish/7.6)
@@ -27,8 +27,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 14-155826586-155826611 SNNy RT(1765325001902 67975) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 18927217 19720942
+X-Iinfo: 48-437098219-437094780 SNNy RT(1765411401904 69630) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 22334791 22569211
 
 12d56
 
@@ -60,8 +60,8 @@ X-Varnish: 18927217 19720942
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031631","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkmSwyAM_BA2l_kPJUDBJMKikEjivD5kVjuHuah6AUnV4JlVtEH9sB4Ejd_xXzidZSJQFN37idgDTaIb5TXtnYIikFBMuGDMys3lNeKqnjhc7A6bwA3tyq0A5QcavOvodbGx9Qo0f1OTmBOhU0g2jfLOZzjD_SgWQ7BxVxezBL5i2yyvGJiG_tjsqxg-nXJAt3BvYvfEnV4LqWIzrBrA6YIF7bhNUGWM4DQmHby3LPbWwP0-33JMqAdDsmIutY31JliBNs1BTIUGaaS4yE8Kf8rc19o9ZVkwmsq1Vye9XXGzezKcGzafHRaP0R7YFCiP8P8_0kW5jOdoRjZRLF8_45rxJvazzoVjJ3wCwljhOg","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?t6ljoe"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?t6ljoe"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?t72vno"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?t72vno"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -194,7 +194,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-634dc04d4a75e3e6e8f6c8be1492d0eaa8f195511be367f4eaedd70efb0bdd15">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9bd9fe6b365f2bc9bf63fefc6647665758b81257350112612c9a40789dc925aa">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c00ca2305608a9c80da04382ea791dbca500b6077b6346e421c48d292eacb7ba">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3f287c1091bab413a13278df8d3e9bfcf8497ddf16f699b50800de8271bb660f">
   
     
       
@@ -476,7 +476,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7c24db75e0cc40a809b5878bc4adc7c3b0508799d08669cbd15c26823f375794">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-52643e3435d9efd6f57a77c55a820d361e418894b981765d92298491b5a4255c">
   
     
       
@@ -490,7 +490,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d6695101759a6186112e529a6d213f5893915c0884416dcf9890f51fe0cc7606">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-87c190273de77c08bdd6c3c6dd0a94ec7b11054744e5cf229b62ce4fde43c8cf">
   
     
       
@@ -905,7 +905,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ae6a6c12d8bfc724bdd14f4dce3a9d3d3bd9f3bf2ff5e8b13e15f593a306e783">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b67675615836d8a155ee371a966a1143a1d68d068e10d3340cd1ce25003f3ec8">
   
     
       
@@ -919,7 +919,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6b85e49eff824c93c92b36401942c27aeab60ce7ceecbcaa04f935ff3dc3f250">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ab267d69ad2b3f37bd469cba509cb760233511ad677ce7d218be6f540d11a581">
   
     
       
@@ -955,7 +955,7 @@ X-Varnish: 18927217 19720942
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
-	<caption>Diane Deans Greenboro Community Centre - weight and cardio room - September 2 to December 21</caption>
+	<caption>Diane Deans Greenboro Community Centre - weight and cardio room - September 2 to December 19</caption>
 	<thead>
 		<tr>
 			<td>&nbsp;</td>
@@ -1052,7 +1052,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1f7919e2a8122dffeeac6ca362b52754233c47d542334203b17009010fb74485">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5c765f5cf2471477635834723955e088c1f9de4e267a6b554c76df0734eb782f">
   
     
       
@@ -1066,7 +1066,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4b34a9f5b55bc4ccec796d8491a91df1f0871c2f1bc16c655a4f612ee93051f9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bbfec17ed0bb261985b9d219ad04bacaee827b8514d69579d902188e0ae8aecb">
   
     
       
@@ -1120,7 +1120,7 @@ X-Varnish: 18927217 19720942
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
-	<caption>Diane Deans Greenboro Community Centre - group fitness - September 2 to December 21</caption>
+	<caption>Diane Deans Greenboro Community Centre - group fitness - September 2 to December 19</caption>
 	<thead>
 		<tr>
 			<td>&nbsp;</td>
@@ -1347,7 +1347,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0cfa1d85bf12fab3bdaa3599d46a3aefb086ff73ba7a07d2f121b76d4b8399d6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d83f8185291594358dd02187ccc9751b525411959ab088ece236b4d41cf173e8">
   
     
       
@@ -1361,7 +1361,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9a63db892215b5c4f9817edf27d3f4b8ffe3f92208bbb9e16ff822cfb41c33c6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bbb513795583b2642b9e55b6fa5ec2ef8a00281ebca028d2214cf777aeccdf46">
   
     
       
@@ -1402,7 +1402,7 @@ X-Varnish: 18927217 19720942
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr">
-	<caption>Diane Deans Greenboro Community Centre - racquet sports - September 15 to December 21</caption>
+	<caption>Diane Deans Greenboro Community Centre - racquet sports - September 15 to December 19</caption>
 	<thead>
 		<tr>
 			<td>&nbsp;</td>
@@ -1533,7 +1533,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-652ca7f4795af3808f2ce4f013fcd98bdb144309eb512e96ff0e1c5f9bf18138">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-011fa58e559182f6e50d1e779cad10751d41df36bfe04a67216373ddb80774ff">
   
     
       
@@ -1547,7 +1547,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e69e2c77b439fbac2651d9439da5d461c4dbaa06b1753573b8795f96645fb1e5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e3a846a82cbab74b0560a42d28221ea43033baa35da8e143f3ae759ad7551ffa">
   
     
       
@@ -1582,7 +1582,7 @@ X-Varnish: 18927217 19720942
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
-	<caption>Diane Deans Greenboro Community Centre - sports&nbsp;- September 15 to December 21</caption>
+	<caption>Diane Deans Greenboro Community Centre - sports&nbsp;- September 15 to December 19</caption>
 	<thead>
 		<tr>
 			<th>&nbsp;</th>
@@ -1715,7 +1715,7 @@ X-Varnish: 18927217 19720942
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-c7b9610a8cfa334607bca4193a64188cc36f33358fdaa02961f48f8c19a22eeb">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-beb511fec83bedd03539b839fdd97b85a22754bcc74c89cc2dfb862d084163eb">
   
     
       <div class="view-header">
@@ -2110,7 +2110,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=35&cb=1109271313" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=35&cb=1815358709" async></script></body>
 </html>
 
 

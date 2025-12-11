@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/tony-graham-recreation-complex-kanata HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=9fRT1LPkQWKjy/e7hlfhA8m4OGkAAAAAQUIPAAAAAADph+iUQPZoiBkMCGaLB/pW; nlbi_243507=NT5nCbBbH1FccnFCaXmSIAAAAAAkUpdAKiyIMnuIxioTRd+p; incap_ses_1547_243507=iKOlDuWEPB4vjQ00yQx4Fcm4OGkAAAAAPmNVcSbOV9uu1VK+lwLoBw==
+Cookie: visid_incap_243507=uW8nlOpKQWiayA2Si8QytUkKOmkAAAAAQUIPAAAAAAABa7Njk+mQmQuTLBEaCPFL; nlbi_243507=UYSLT5zLGVsTK5x1aXmSIAAAAADdxk9yvTAnF/yNbK2BpuPQ; incap_ses_177_243507=eg2FDJ+rljhjK+BQntR0AkkKOmkAAAAAbvn5ms7swid6To6DqinWDg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,27 +8,27 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 704
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 10 Dec 2025 00:07:21 GMT
-Etag: "1765324535-gzip"
+Date: Thu, 11 Dec 2025 00:07:36 GMT
+Etag: "1765411653-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 09 Dec 2025 23:55:35 GMT
+Last-Modified: Thu, 11 Dec 2025 00:07:33 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-ssdm8 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 14-155826586-155826611 SNNy RT(1765325001902 239229) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 14349977 20752743
+X-Iinfo: 48-437098219-437094780 SNNy RT(1765411401904 251617) q(0 1 1 -1) r(32 32) U24
+X-Varnish: 23078300
 
 ee76
 
@@ -60,8 +60,8 @@ ee76
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031630","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkmSwyAM_BA2l_kPJUDBJMKikEjivD5kVjuHuah6AUnV4JlVtEH9sB4Ejd_xXzidZSJQFN37idgDTaIb5TXtnYIikFBMuGDMys3lNeKqnjhc7A6bwA3tyq0A5QcavOvodbGx9Qo0f1OTmBOhU0g2jfLOZzjD_SgWQ7BxVxezBL5i2yyvGJiG_tjsqxg-nXJAt3BvYvfEnV4LqWIzrBrA6YIF7bhNUGWM4DQmHby3LPbWwP0-33JMqAdDsmIutY31JliBNs1BTIUGaaS4yE8Kf8rc19o9ZVkwmsq1Vye9XXGzezKcGzafHRaP0R7YFCiP8P8_0kW5jOdoRjZRLF8_45rxJvazzoVjJ3wCwljhOg","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?t6ljoe"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?t6ljoe"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?t72vno"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?t72vno"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -194,7 +194,7 @@ ee76
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d501e77fe9c3e1802b8fc800744395b98c71892fb3d1c03ba0e5d8b4bd07e4d8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5d53b01e9dfd0b840c1f95ff27ef5e1bfd6f9e930e38ed2202e51ede0b18389b">
   
     
       
@@ -208,7 +208,7 @@ ee76
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f17935a98858fbe8527d306feadfe4f98a36158a75e7fa9011541b97b6f28cdf">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c7123e41308706ff84531e44c64818d6c5a77b740950b6b58ed6d97dfc7fd426">
   
     
       
@@ -516,7 +516,7 @@ ee76
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6acea41c056dbef720599ba34457945fd566310ed553f3812d6516846df51941">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b5dd9308fbc53a1c2b9d71890d0f28794e4ffb613362ee5c770c847748083b35">
   
     
       
@@ -530,7 +530,7 @@ ee76
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f8772febc1c1aba89a29b76306a74db20dffc274cc46962b7da1c6805e77e343">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-206f774ea93f77edc64f1006a197ac6b3f62edac2b060cf613ffe411b4f377fb">
   
     
       
@@ -604,7 +604,7 @@ ee76
 			<th>18+ Pick-up hockey</th>
 			<td>n/a</td>
 			<td>n/a</td>
-			<td>12:!5 - 1:05 pm</td>
+			<td>12:15 - 1:05 pm</td>
 			<td>n/a</td>
 			<td>n/a</td>
 			<td>n/a</td>
@@ -717,7 +717,7 @@ ee76
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a8d225cb760d14311da8eab711a9072949c2e6d6263bc0dfeed6633a014d7f72">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8f83fe096647aa03fbc92ac40f5b59b0d45988e32a46fe69615d79e6cec207e9">
   
     
       
@@ -731,7 +731,7 @@ ee76
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1d6308917dc77ddd6cea81e57679f6fdbfe448d5a140c60303b3d7f0e52153a6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d016eaf0302d47912044c64501de953cf85a44eb63dc5624aab0e63c41c2d31c">
   
     
       
@@ -880,7 +880,7 @@ ee76
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2b3182330b83599c99764b7af391f0e879849c918ec3ed4982e4c9c8036bff92">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2648f0bad78c5a9b7b57e0a33d566cd39a7a1da049aefc4a951bdfcc934cdf7e">
   
     
       
@@ -894,7 +894,7 @@ ee76
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ba11a1a069d9336e0f4e43c13d763d22b12a8a73e32c48e507ba3754ea7672e6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-500db6e21ae4785499c840bc6751886f42303adb7aa45a79c182d1efbda6d1da">
   
     
       
@@ -1046,7 +1046,7 @@ ee76
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-8f7de94b644f99a690b7eb97144c9dc15bf47b2ebe0c9f9b7115f43c568d7175">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-9f9adf630218d55767c140c397f997869ff6e5d8fbd2fc68d7757824ce36a002">
   
     
       <div class="view-header">

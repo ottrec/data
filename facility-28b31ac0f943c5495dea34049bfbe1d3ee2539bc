@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/routhier-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=9fRT1LPkQWKjy/e7hlfhA8m4OGkAAAAAQUIPAAAAAADph+iUQPZoiBkMCGaLB/pW; nlbi_243507=NT5nCbBbH1FccnFCaXmSIAAAAAAkUpdAKiyIMnuIxioTRd+p; incap_ses_1547_243507=iKOlDuWEPB4vjQ00yQx4Fcm4OGkAAAAAPmNVcSbOV9uu1VK+lwLoBw==
+Cookie: visid_incap_243507=uW8nlOpKQWiayA2Si8QytUkKOmkAAAAAQUIPAAAAAAABa7Njk+mQmQuTLBEaCPFL; nlbi_243507=UYSLT5zLGVsTK5x1aXmSIAAAAADdxk9yvTAnF/yNbK2BpuPQ; incap_ses_177_243507=eg2FDJ+rljhjK+BQntR0AkkKOmkAAAAAbvn5ms7swid6To6DqinWDg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 284
+Age: 332
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 10 Dec 2025 00:06:57 GMT
-Etag: "1765324931-gzip"
+Date: Thu, 11 Dec 2025 00:07:08 GMT
+Etag: "1765411294-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 10 Dec 2025 00:02:11 GMT
+Last-Modified: Thu, 11 Dec 2025 00:01:34 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 14-155826586-155826611 SNNy RT(1765325001902 215189) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 14208590 21200931
+X-Iinfo: 48-437098219-437094780 SNNy RT(1765411401904 226219) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 23078229 10175712
 
-c81a
+c828
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -60,8 +60,8 @@ c81a
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031624","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkmSwyAM_BA2l_kPJUDBJMKikEjivD5kVjuHuah6AUnV4JlVtEH9sB4Ejd_xXzidZSJQFN37idgDTaIb5TXtnYIikFBMuGDMys3lNeKqnjhc7A6bwA3tyq0A5QcavOvodbGx9Qo0f1OTmBOhU0g2jfLOZzjD_SgWQ7BxVxezBL5i2yyvGJiG_tjsqxg-nXJAt3BvYvfEnV4LqWIzrBrA6YIF7bhNUGWM4DQmHby3LPbWwP0-33JMqAdDsmIutY31JliBNs1BTIUGaaS4yE8Kf8rc19o9ZVkwmsq1Vye9XXGzezKcGzafHRaP0R7YFCiP8P8_0kW5jOdoRjZRLF8_45rxJvazzoVjJ3wCwljhOg","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?t6ljoe"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?t6ljoe"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?t72vno"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?t72vno"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -194,7 +194,7 @@ c81a
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-51608d58f6379d32a7658d0fa0b6a5ec19983faf181e9e30a8b2e0ceb5b25310">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8213e776e7e1d57ed9d1b07e5e62c75d3377ea1532f94b7c790bf2e56e99314f">
   
     
       
@@ -208,7 +208,7 @@ c81a
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cf070b2a6c08fed811ae53c5ccbb7f6dade6fc63ecca29919936f6ba9965c8cf">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-76f3f3568051672b4b9e91f9812a0d6d9f3afc7a7475537f0cc73f80c1659d29">
   
     
       
@@ -412,7 +412,7 @@ c81a
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e3b7680662f317f5f51a39bd2917c23126de48b55b58101fc38c2b23bd92e881">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d753d5424af22b93804ed9dac43c806313b5bf5304ad32d7c00a679409dcce30">
   
     
       
@@ -426,7 +426,7 @@ c81a
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6f71be106360aea05720487da6bd9898a17e0554d1f9173bc79fc45a82f58ee5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-64aeee1da54a136b16e2865ac06394200b3734b5bf08e0421d9e69e66ac46b62">
   
     
       
@@ -454,7 +454,7 @@ c81a
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change. Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
-<p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Additional details, descriptions, fees and cancellation information</a>.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 </div>
       
       </div>
@@ -719,7 +719,7 @@ c81a
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-039802d195eabc7a2ce325c455eadfada90de23020023605c4be64475d02b2cd">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-40cac82fe73a9a1ae9b9a6a6d69d4ce6c79f0a49f60d18586e97e3454e48159d">
   
     
       
@@ -733,7 +733,7 @@ c81a
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-272df559021c24aa9d1c5c75114827d5647e191129ecd14fb3b31a94ce3372b0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bf67bd651bb9cde7739fa226023694109f38921b19bde7355e1ebb88fc445526">
   
     
       
@@ -761,7 +761,7 @@ c81a
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change. Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
-<p><a href="https://ottawa.ca/en/recreation-and-culture/sports-and-fitness/drop-sport-and-fitness">Additional details, descriptions, fees and cancellation information</a>.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 </div>
       
       </div>
@@ -992,7 +992,7 @@ c81a
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-733263dc9f55e8d765192ed1768b2c752784332085be88810c7c4f910011102a">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-557376c1a9bc3852c56c489cadf62ec072693b9059d377151ad2e68ac506751d">
   
     
       <div class="view-header">

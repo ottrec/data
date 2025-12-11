@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/mcnabb-arena-and-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=9fRT1LPkQWKjy/e7hlfhA8m4OGkAAAAAQUIPAAAAAADph+iUQPZoiBkMCGaLB/pW; nlbi_243507=NT5nCbBbH1FccnFCaXmSIAAAAAAkUpdAKiyIMnuIxioTRd+p; incap_ses_1547_243507=iKOlDuWEPB4vjQ00yQx4Fcm4OGkAAAAAPmNVcSbOV9uu1VK+lwLoBw==
+Cookie: visid_incap_243507=uW8nlOpKQWiayA2Si8QytUkKOmkAAAAAQUIPAAAAAAABa7Njk+mQmQuTLBEaCPFL; nlbi_243507=UYSLT5zLGVsTK5x1aXmSIAAAAADdxk9yvTAnF/yNbK2BpuPQ; incap_ses_177_243507=eg2FDJ+rljhjK+BQntR0AkkKOmkAAAAAbvn5ms7swid6To6DqinWDg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 161
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 10 Dec 2025 00:06:00 GMT
-Etag: "1765324998-gzip"
+Date: Thu, 11 Dec 2025 00:06:07 GMT
+Etag: "1765411566-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 10 Dec 2025 00:03:18 GMT
+Last-Modified: Thu, 11 Dec 2025 00:06:06 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
@@ -27,8 +27,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 14-155826586-155826611 SNNy RT(1765325001902 158365) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 20863628 20715807
+X-Iinfo: 48-437098219-437094780 SNNy RT(1765411401904 164435) q(0 0 0 -1) r(9 9) U24
+X-Varnish: 15680476
 
 c942
 
@@ -60,8 +60,8 @@ c942
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031619","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kUuSwyAMRC-EzWbu4xKgIsQCUUgkIacf5m9nMZuubj0QJeGYVbRBfbMOBI075F-7XGUhUBQ98kjsgBbRQanEI8koAhHF-B1DUm5bKgGLOmK_24M3nhvawi0DpScafOjstdvQegVav6OJzJFwU4g2TnnNK1zhcS5mQzC46xaSeL5hG5YLeqZZfw77IYZVPWx6wYx2EoIq8zrH2eXEXuY8oun7Y72nEFFPQJJiyrXNpxcoQEOTF1OhQZwbusjPhH-VtZfaHSW5YDCVa6-b9HbDYY9hkjs2lzbMDoM9pcVTmov9_0gX5TxX3YwMUcxfv35LeBf7qWvm0AnfAdMB0rQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?t6ljoe"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?t6ljoe"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?t72vno"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?t72vno"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -194,7 +194,7 @@ c942
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dd9a305ec97fb2097caf5d93109ffb3e91db918ce61ca11ef685116039e47e5e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3e99655ccddbaa958be4293ebb6e7657d50f72917252a1e197cb0ef701d12a3d">
   
     
       
@@ -208,7 +208,7 @@ c942
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1f9a06ae0df75eb2541c03056c245eb87febd38fcaf504ce694a2f402c442f9b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cee221079c3b071929599ecef1dc0d770bc91be366a602348adf462a34f93ace">
   
     
       
@@ -447,7 +447,7 @@ Email:&nbsp;<a href="mailto:mcnabb@ottawa.ca">mcnabb@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d9424e17ca75ad2197043cbed6d9f09d09836d76a945580f2c1216ad13bbcd17">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f2c2fb78c4b5fcf1b724596210633e19c4e6de73edbfbd7ec9cb487468801fc2">
   
     
       
@@ -461,7 +461,7 @@ Email:&nbsp;<a href="mailto:mcnabb@ottawa.ca">mcnabb@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-23a51fa93bd792f611cf4bddb33afcab1a47958a5562b257d5415ea7919b862d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4e195323fccaa77f9036cc3c06010cfbc0c5063d305bb6b62de17f04636d6ac1">
   
     
       
@@ -626,7 +626,7 @@ Email:&nbsp;<a href="mailto:mcnabb@ottawa.ca">mcnabb@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cefd9f1f136989788549b9680837e31a2ac7bacac485a25e480a6ad1dbbb04e6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f03564d9e89f9e6a69610ac6dd3be08489b7a63eea1b92e549a0948f06ca50d4">
   
     
       
@@ -640,7 +640,7 @@ Email:&nbsp;<a href="mailto:mcnabb@ottawa.ca">mcnabb@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ca4aaa27e55a5be16b50e5d908809bbe71324eb3654d1df818f35735ae8df792">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ad8cd2caa88137bf7e1d1c38c80c0507c05803f11750e1226af45123628c276d">
   
     
       
@@ -870,7 +870,7 @@ Email:&nbsp;<a href="mailto:mcnabb@ottawa.ca">mcnabb@ottawa.ca</a></p>
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-6180af525d107073e7d163d7de238ad88e7b2f825c48458750ec946565aeb050">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-6ecc29a6d1dc360f75953b5d224320d0e9d1a33abb3c54b7f45965066fc9ff20">
   
     
       <div class="view-header">

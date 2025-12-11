@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/cumberland-heritage-village-museum HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=9fRT1LPkQWKjy/e7hlfhA8m4OGkAAAAAQUIPAAAAAADph+iUQPZoiBkMCGaLB/pW; nlbi_243507=NT5nCbBbH1FccnFCaXmSIAAAAAAkUpdAKiyIMnuIxioTRd+p; incap_ses_1547_243507=iKOlDuWEPB4vjQ00yQx4Fcm4OGkAAAAAPmNVcSbOV9uu1VK+lwLoBw==
+Cookie: visid_incap_243507=uW8nlOpKQWiayA2Si8QytUkKOmkAAAAAQUIPAAAAAAABa7Njk+mQmQuTLBEaCPFL; nlbi_243507=UYSLT5zLGVsTK5x1aXmSIAAAAADdxk9yvTAnF/yNbK2BpuPQ; incap_ses_177_243507=eg2FDJ+rljhjK+BQntR0AkkKOmkAAAAAbvn5ms7swid6To6DqinWDg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 525
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 10 Dec 2025 00:04:23 GMT
-Etag: "1765324536-gzip"
+Date: Thu, 11 Dec 2025 00:04:27 GMT
+Etag: "1765411465-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 09 Dec 2025 23:55:36 GMT
+Last-Modified: Thu, 11 Dec 2025 00:04:25 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
@@ -27,8 +27,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 14-155826586-155826611 SNNy RT(1765325001902 61971) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 20715855 20565724
+X-Iinfo: 48-437098219-437094780 SNNy RT(1765411401904 63636) q(0 0 0 -1) r(19 19) U24
+X-Varnish: 10176052
 
 21da8
 
@@ -60,8 +60,8 @@ X-Varnish: 20715855 20565724
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3013601","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkmSwyAM_BA2l_kPJYOMSYRFIZHYef2QzGbnMBeVWq2NFhOzilYoH3YCQTMd8K87XGQgUBQ98pF4AhpEd0prPDIZRSCiGH_FkJSrS2vAVSdif7UH33iuaFeuGSg90OCmvdfVhtoK0PgNzUy4CaWAtRcrxgqaeDWRORI6hWhjN-94hAts52A2BDs3dSGJ5xvW3fKKnqnHH7t9GsPznDy6hVsVewRufu6pitWwqgenC2a0vZqgSB_BsU86cW8SHanut228pxBRT4QkxZRL7esNsALtmrycM15SuAhE_QWmQIUuSVnkR7e_yNjW0iZKsmAwhUsrTlq94W6PoDN3rFNymCcM9oQGT6mf6_-UJsq5H7Aa2UUxf_2lW8K72JcdM4dG-AnkHvUl","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1293712"},"slider-gallery-carousel--1293712":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1293712","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1293712"}},"instances":{"slider-gallery--1293712":"slider-gallery--1293712","slider-gallery-carousel--1293712":"slider-gallery-carousel--1293712"}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?t6ljoe"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?t6ljoe"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?t72vno"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?t72vno"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -194,7 +194,7 @@ X-Varnish: 20715855 20565724
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-72b3d7e60d6fc4d4af3dd8e9f7e40e364683b3d6f2f0699f6866ad90bba0cdaa">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e65cb9862897072f1cebda76bc6d044d60b6d3d641e4ddbb5d36524c78803862">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 20715855 20565724
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-609b25a50771d95dadf9c996d1283f31da0c30dc3f44c647d45cfeefdb3c2329">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3ab7cab447b6b7eecaa441449c848f63d7699a42ef8edb6b45f8e6a58a6e7a5a">
   
     
       
@@ -385,7 +385,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ad1b33c46159ff5d13f2d5a29f0095029622af1fa6dc6c1eb4460a1f0642a421">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e747feac05a72cb1a981f2cb7847deee7a077d652b286d1fe64032a8128d359a">
   
     
       
@@ -399,7 +399,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5048406d58d92df630561b7e26362d3344907d229d02cae4c619a2a4cc772133">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-db0c61c7ecc38559a5c1ac699e2a8d5fd9436cfa1bac4fdf5cf28896b0862592">
   
     
       
@@ -499,7 +499,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ae3ba41099cb5a0ec6c823cd810aaae2f606dc1f53ba01772359e81b3b854537">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cddf44d538b2c432859da29d4351c7e795fedccd1d6ae2c9ca329968d4c4c0e1">
   
     
       
@@ -513,7 +513,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b1a779b733322ab083128758bf78f31e8521b1f57a187afdb4260a3ebf25e6c1">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0fae607c0dee5bad968575bdcd60d117842b5a6edf63947141f841573de1ffe3">
   
     
       
@@ -653,7 +653,7 @@ Cost: $26.14 per group, taxes included (up to six people per group; children und
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b6e8980d03687aade2736d366563be36870ebce372543716a2723011c828ffd5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fa55d6f6f2af247c5905b1cd48a464136566e82cc78a1dab51142a34bdee15f4">
   
     
       
@@ -667,7 +667,7 @@ Cost: $26.14 per group, taxes included (up to six people per group; children und
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-40eb59046f0752a31e7355f361e0d1b78737e1161b5d32fbefa4dbff2c8615c0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-03dc1cba07e764c01680e9e0c2ec0479be8d214b8056107cba49f95b48f17f33">
   
     
       
@@ -1056,7 +1056,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7bfb45b0ac4a0e381436dae99b465cec550eb10a9d8541fe9b1999fc9bcddac3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-16c787013101c33ed079eb77c041720562b04c7a77bbc3b4936273313ccb8102">
   
     
       
@@ -1070,7 +1070,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-45c15c31410b204b24781460a132bf02974a9e55368320ea34504ee6610b82de">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4491aa8bce49de0b45563d542ad84112488b48acb880ea157f899b6c85472f78">
   
     
       
@@ -1193,7 +1193,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dec93daeb9a9705ac657dedb0881d487a9902b34aa31907f4eea6a40fa272dc4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-aa328419fab845195d7ec4fb815994eeac5826c877f0586f32f30acc99d0fe02">
   
     
       
@@ -1207,7 +1207,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a34ec7934e28f10882a3a5433a4e1806e5f5a695ef22a1ad0bac156eea2bdc36">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-08a895bb20536f714ae44d5717f8c23bc868e62103ce0c7705c40e026237b51e">
   
     
       
@@ -1309,7 +1309,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bd0033bf8c4390a5ab554b41d1ac5af14c6c7bc1d09aa56ca6149dd2f92057ea">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3bf8011e2334415eedc40fb1b5c7f005b12bb502bfae7732dc7eeb1072759c33">
   
     
       
@@ -1323,7 +1323,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-002e8c48d37dbb382de630cfdb967d88bc03ac69161671b8cfc2e0db5a600e9e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9e898dfb9750b9a36b82bb6887e7cc83e58f25a2ca2fcc320a954d94d53a03a4">
   
     
       
@@ -1426,7 +1426,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-38c0c6d5ff32b7d1d295dc72cccaece58aba2045d540aa8ac11d7ed12fed881f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9cda063a7e402babd64a644ae4f4376eaad3c9b1d3158aca593da89e7847227c">
   
     
       
@@ -1440,7 +1440,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f153b9b6bb3172482cfeeb1df076bb98eb3c5edc0cf1bae22f69d2d0e3744bbe">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-064b300e8c2f7d7d6229dee519bfd22da9ecda7e1a9ed46c04a5bf80fbb77817">
   
     
       
@@ -1547,7 +1547,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cfb5ed74bbbb989b2673f96eec627762c99b121a096cab9c07f484e4bf48bf95">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-77100e6cb483da14ef5d054839da9c90b59ad996260884693d6dfc8b16e5ea90">
   
     
       
@@ -1561,7 +1561,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a77f6f5c4ea0e89d32b4678bfd080919c16bed1bc38d5fb100e3b72d27b537e0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d71cedab3268bb02aa917d701f3a774e74e8566db9e451134ce1140bdb7f1163">
   
     
       
@@ -2462,10 +2462,10 @@ Thank you for considering to help out.
 <script src="//ottux.ottawa.ca/widgets/v1.4.29/js/app.js" async></script>
 <script src="/sites/default/files/js/js_wj8SBYkdspG9bzBEgxkTEFwb-6QZJ2r5OmkgJK0b2fk.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
-<script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t6ljoe" async></script>
+<script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t72vno" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=741062647" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=358313699" async></script></body>
 </html>
 
 
