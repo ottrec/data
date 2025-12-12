@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/howard-darwin-centennial-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=uW8nlOpKQWiayA2Si8QytUkKOmkAAAAAQUIPAAAAAAABa7Njk+mQmQuTLBEaCPFL; nlbi_243507=UYSLT5zLGVsTK5x1aXmSIAAAAADdxk9yvTAnF/yNbK2BpuPQ; incap_ses_177_243507=eg2FDJ+rljhjK+BQntR0AkkKOmkAAAAAbvn5ms7swid6To6DqinWDg==
+Cookie: visid_incap_243507=wCCZHXN/Qz25uzTJgxEPDNdbO2kAAAAAQUIPAAAAAADuW5FX+PVUY9LG9LOL9IyL; nlbi_243507=FfWhYN6eIV5V1bRRaXmSIAAAAAAC5wmHjXMD/ALz92Uf+uc6; incap_ses_102_243507=YzVRJBH56mow15JshmBqAdhbO2kAAAAAd15OfnxwaxVLCJ827ywhlA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,27 +8,27 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 577
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 11 Dec 2025 00:05:18 GMT
-Etag: "1765411515-gzip"
+Date: Fri, 12 Dec 2025 00:05:26 GMT
+Etag: "1765497348-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 11 Dec 2025 00:05:15 GMT
+Last-Modified: Thu, 11 Dec 2025 23:55:48 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 48-437098219-437094780 SNNy RT(1765411401904 113516) q(0 1 1 -1) r(31 31) U24
-X-Varnish: 21318613
+X-Iinfo: 41-273631806-273631834 SNNy RT(1765497816197 110637) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 1065989 2411569
 
 c61b
 
@@ -60,8 +60,8 @@ c61b
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031578","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kUuSwyAMRC-EzWbu4xKgIsQCUUgkIacf5m9nMZuubj0QJeGYVbRBfbMOBI075F-7XGUhUBQ98kjsgBbRQanEI8koAhHF-B1DUm5bKgGLOmK_24M3nhvawi0DpScafOjstdvQegVav6OJzJFwU4g2TnnNK1zhcS5mQzC46xaSeL5hG5YLeqZZfw77IYZVPWx6wYx2EoIq8zrH2eXEXuY8oun7Y72nEFFPQJJiyrXNpxcoQEOTF1OhQZwbusjPhH-VtZfaHSW5YDCVa6-b9HbDYY9hkjs2lzbMDoM9pcVTmov9_0gX5TxX3YwMUcxfv35LeBf7qWvm0AnfAdMB0rQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?t72vno"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?t72vno"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?t73srg"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?t73srg"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -194,7 +194,7 @@ c61b
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-45cce61c2734498a72a6ce11451caa32a49f3a45fa5c59550977a13c4abf5038">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-00e11762b6852ebc6c6073ceeffc7c3002d8b4cb13c1e1f13ae258deacfe7db8">
   
     
       
@@ -208,7 +208,7 @@ c61b
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1b96d09124b4be598418866884d1bde31e43d50b64df75de3971e50ea44abd82">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-66464555b7236ae8ba573ed268d8722d8272f9650d1428a4791c77ff2f5a36c6">
   
     
       
@@ -484,7 +484,7 @@ c61b
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ce62fd17c4916a5ff71c2716d6968a0ee6c9ad320251380125a0465b8b2430b8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-17ee9095d92e5b3e93424a8490f1c8e3848c7c7108f51932a138077355bed08c">
   
     
       
@@ -498,7 +498,7 @@ c61b
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-50ff7ffc42ff1035052539ac36fd5a72ec857549f82c91b9738a27213e66b054">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-34d8a458250fbecf2ccea3cad5592fb7d7337930809b983ebde3e485a1a7c7d6">
   
     
       
@@ -666,7 +666,7 @@ c61b
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5ee487ad04cfca6f098ab634cc5109058eaceca3b09cb741227e278fb02d39c1">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bcc70418f73bec67de7b6bd4a60a357e5a91009693bb3d806d8e32586f49c5ff">
   
     
       
@@ -680,7 +680,7 @@ c61b
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9e33d696e41a39abe56110060e947c0e939ef280b9ab6af77f8f3fc5cebf51da">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1f32e162fd1cfbf9fae8bd43dd01ee44f93cf8c98cb00255e32f73724fdcce3d">
   
     
       
@@ -911,7 +911,7 @@ c61b
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-d6d1da1e6dd4c9dc5f975279bbc69763470d1c1baa1e0747e9613e2e1e6f22f6">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-c91223ad7aafa8ceb5cca7cd8880eb9adfc3ea70709de01309dcee9904188e0d">
   
     
       <div class="view-header">
@@ -1283,7 +1283,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=56&cb=1915286635" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=56&cb=1821628507" async></script></body>
 </html>
 
 

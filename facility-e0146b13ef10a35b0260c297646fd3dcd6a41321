@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/metcalfe-community-centre-and-larry-robinson-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=uW8nlOpKQWiayA2Si8QytUkKOmkAAAAAQUIPAAAAAAABa7Njk+mQmQuTLBEaCPFL; nlbi_243507=UYSLT5zLGVsTK5x1aXmSIAAAAADdxk9yvTAnF/yNbK2BpuPQ; incap_ses_177_243507=eg2FDJ+rljhjK+BQntR0AkkKOmkAAAAAbvn5ms7swid6To6DqinWDg==
+Cookie: visid_incap_243507=wCCZHXN/Qz25uzTJgxEPDNdbO2kAAAAAQUIPAAAAAADuW5FX+PVUY9LG9LOL9IyL; nlbi_243507=FfWhYN6eIV5V1bRRaXmSIAAAAAAC5wmHjXMD/ALz92Uf+uc6; incap_ses_102_243507=YzVRJBH56mow15JshmBqAdhbO2kAAAAAd15OfnxwaxVLCJ827ywhlA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,27 +8,27 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 653
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 11 Dec 2025 00:06:10 GMT
-Etag: "1765410914-gzip"
+Date: Fri, 12 Dec 2025 00:06:20 GMT
+Etag: "1765497979-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 10 Dec 2025 23:55:14 GMT
+Last-Modified: Fri, 12 Dec 2025 00:06:19 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-5649cb78b8-972hd (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 48-437098219-437094780 SNNy RT(1765411401904 168415) q(0 1 1 -1) r(2 2) U24
-X-Varnish: 15680487 18962552
+X-Iinfo: 41-273631806-273631834 SNNy RT(1765497816197 163272) q(0 0 0 -1) r(11 11) U24
+X-Varnish: 1597272
 
 b8d3
 
@@ -60,8 +60,8 @@ b8d3
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031558","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kUuSwyAMRC-EzWbu4xKgIsQCUUgkIacf5m9nMZuubj0QJeGYVbRBfbMOBI075F-7XGUhUBQ98kjsgBbRQanEI8koAhHF-B1DUm5bKgGLOmK_24M3nhvawi0DpScafOjstdvQegVav6OJzJFwU4g2TnnNK1zhcS5mQzC46xaSeL5hG5YLeqZZfw77IYZVPWx6wYx2EoIq8zrH2eXEXuY8oun7Y72nEFFPQJJiyrXNpxcoQEOTF1OhQZwbusjPhH-VtZfaHSW5YDCVa6-b9HbDYY9hkjs2lzbMDoM9pcVTmov9_0gX5TxX3YwMUcxfv35LeBf7qWvm0AnfAdMB0rQ","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?t72vno"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?t72vno"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?t73srg"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?t73srg"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -194,7 +194,7 @@ b8d3
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-27e9caead6f4d91eaca46299a1f7b55da70ea57d090af72018713edc877eea96">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6c40c947fb6e5a654822a201848a327413fd9f468202aa306f04ff4abf1351c2">
   
     
       
@@ -208,7 +208,7 @@ b8d3
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bbeab7473f0676db0de5f55f69502e9fb66bb3bb220c3fc387f3af1ae7beb3ad">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e6d70194bd59e8c5f62fbebd35f6e83dc39cb6231132d15ca8d719f6b9ef101c">
   
     
       
@@ -398,7 +398,7 @@ b8d3
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-987bdc84353d415e0a7b76bc7a24aaa9435f6999f88fc9d33ea7bcd300407ce4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-10a1e604aa43b0e9ec5fd94493b8db21d6e3949bc5d2a8887814c50c7f4563d4">
   
     
       
@@ -412,7 +412,7 @@ b8d3
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8aec41914b92b7729febacd0fdb21dcdfdad6ad6ef1f372e5867ed4591f37aca">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5c5104e75daaf03f50b65f2f50fd8e9aab6527eb2379fd6e3ffb2b19249da6d7">
   
     
       
@@ -605,7 +605,7 @@ b8d3
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-28f3d672b8f7964f1cbec33aa1e78a2dfec216e875a621deca572b8d5288e945">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7fd1a051d897ad7a373a6fd236d471c837531aabb7f2f2c5ff67458eb9504fce">
   
     
       
@@ -619,7 +619,7 @@ b8d3
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0d5885bdda20490f25b48add05fce1b9aa451cfa169458b6058dbc9bba13e7bd">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e2c1a1c971e5010e46e89e6b6902d38171a4fd4dc526718b436e32501877b587">
   
     
       
@@ -824,7 +824,7 @@ b8d3
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-b92c889d44bf38ca74d80c4173bd07b2ccc2436fcf3e4aeac8125866fbd88b45">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-36314637cdd25291f3a750da98ab710920fd39f21031a6eacf3f6d49c42e4685">
   
     
       <div class="view-header">
