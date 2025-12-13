@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/cumberland-heritage-village-museum HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=wCCZHXN/Qz25uzTJgxEPDNdbO2kAAAAAQUIPAAAAAADuW5FX+PVUY9LG9LOL9IyL; nlbi_243507=FfWhYN6eIV5V1bRRaXmSIAAAAAAC5wmHjXMD/ALz92Uf+uc6; incap_ses_102_243507=YzVRJBH56mow15JshmBqAdhbO2kAAAAAd15OfnxwaxVLCJ827ywhlA==
+Cookie: visid_incap_243507=qnNgxuAUQO2UatUZ4M+0B0WtPGkAAAAAQUIPAAAAAAD8golJC/ccQ5E46pZXsaDA; nlbi_243507=1sDEEL3qVlUsZWemaXmSIAAAAAD64iXAjdPmbCCfH4umF5Al; incap_ses_1346_243507=t5nwKDAQ0BLIfEZHVfStEkWtPGkAAAAA24kcg5iDeLNtqjBTZitVjA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 452
+Age: 226
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 12 Dec 2025 00:04:38 GMT
-Etag: "1765497424-gzip"
+Date: Sat, 13 Dec 2025 00:04:20 GMT
+Etag: "1765584031-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 11 Dec 2025 23:57:04 GMT
+Last-Modified: Sat, 13 Dec 2025 00:00:31 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 41-273631806-273631834 SNNy RT(1765497816197 62361) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 2313859 522484
+X-Iinfo: 7-104517378-104517380 SNNN RT(1765584198040 62085) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 3716590 2567467
 
-21da8
+21e66
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 2313859 522484
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2fd051a506cdb68c5afd681181280df517be29e524536f17458aa0a715dddb6c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5c2bc190f393907bb1613cef1c4a0459927795777f6a62d7c5d10d15847f9d94">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 2313859 522484
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-41d46e7b934f7bebdb060fb2d1b8a42bb38ac33e702245915d3e549881d5c760">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-285c59c7ce5f9396f78ab36fe924cf1d24b324660367e38170769c8bbbfa397c">
   
     
       
@@ -275,7 +275,7 @@ X-Varnish: 2313859 522484
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">4:00 pm - 9:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -385,7 +385,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5ccba1faacb5de6bcbe310b172e439bbdbb5fe3112e86b190c95ba0bc189a4e3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2206e79e768bdafff8021be71a605548f3221d7c4683a5d57c0d7541498cbe16">
   
     
       
@@ -399,7 +399,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-200b8bae226e8b012dff53f1fb386ad3a5dd6d7004c605da927508de56193247">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bb7cb7234a444deff6018c2fce74df9b2cc8ebc5893efde3c31d5743a61bdb3c">
   
     
       
@@ -499,7 +499,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c98bcdbb2da4e1358fb79b4c56e136fb796b9709593058bd62749ba7276b35f6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d6dc00ac4e6bbf2fba7e6eca728a0326161d9401478f4eb490dec723c7fdb460">
   
     
       
@@ -513,7 +513,7 @@ Subscribe to our monthly "<a href="https://forms.ottawa.ca/en/form/esubscription
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1d1dd95a26c1caf9f61461487c524678df4a2b9b8ac69344b9be35366a73bc24">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c772ef9cf435ad76a9e63c523d843ed2883d43a9831509cf8615942ad449c11f">
   
     
       
@@ -554,8 +554,9 @@ Cost: $26.14 per group, taxes included (up to six people per group; children und
 <li>Children under two years of age are not counted toward the 6 person per group maximum.&nbsp;</li>
 <li>This event includes both indoor and outdoor activities. Please dress appropriately for weather conditions, including wind chill.&nbsp;</li>
 <li>There is no public transit to the museum. Free parking is available on site.</li>
-<li><strong>The event runs as scheduled in most weather conditions.</strong> <strong>Your registration will be honoured for the date and entry timeslot you selected at the time of booking.</strong>&nbsp;<strong>Your registration is non-refundable and non-transferable. </strong></li>
-<li>The main pathways at the museum are packed gravel. Most buildings used for activities and demonstrations have ramp access, however, ramp access may not be available at every entry/exit point. Staff are happy to direct you to the nearest accessible entry or exit. Please note that because our heritage buildings were built to the standards of their time, a limited number of spaces may not be accessible to all.</li>
+<li><strong>The event runs as scheduled in most weather conditions.</strong> <strong>Your registration will be honoured for the date and entry timeslot you selected at the time of booking.</strong>&nbsp;</li>
+<li><span>The main pathways between buildings at the museum are packed gravel. While we work to maintain clear pathways and parking, during periods of heavy snowfall pathways may be more challenging than usual to navigate if you are using a stroller, wheelchair or other mobility devices. </span></li>
+<li><span>Most buildings used for activities and demonstrations have ramp access, however, ramp access may not be available at every entry/exit point. Staff are happy to direct you to the nearest accessible entry or exit. Please note that because our heritage buildings were built to the standards of their time, a limited number of spaces may not be accessible to all.</span></li>
 <li><a href="https://ottawa.ca/en/node/1007409/">Information about accessibility </a>can be found on the museum’s webpage.&nbsp;If you have questions regarding accessibility, please contact 613-580-2988 or <a href="mailto:museecumberlandmuseum@ottawa.ca">museecumberlandmuseum@ottawa.ca</a>.</li>
 <li>In the rare event an evening is cancelled due to extreme weather or other unforeseen circumstances, updates will be published to the <a href="https://www.facebook.com/cumberlandmuseum">Cumberland Heritage Village Museum Facebook</a> page and all registered visitors will be contacted by email with further information.</li>
 </ul>
@@ -653,7 +654,7 @@ Cost: $26.14 per group, taxes included (up to six people per group; children und
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5193c5ee5f31997ab8beadfe60279b98eb653816b208875f049fb97dbdc611ea">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-82b8acf13ad369abfee4ac27e048e500e61bb5f06272e9bb95abccefef6a4e3b">
   
     
       
@@ -667,7 +668,7 @@ Cost: $26.14 per group, taxes included (up to six people per group; children und
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9bfe3032e1ab4460d8106eb130565e2d7b92bb277b3e20841a17ad3dc1d6b422">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d8fc5b5ccb1155e333d2ec5272f9bbfb47999f85aa00a8c9a0c793f98be31afb">
   
     
       
@@ -1056,7 +1057,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e1c7cd0fb5d601c1ea802daf0558293a44e9dcb7e2ffb2a6bb96a6af1fd99e99">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-643e9f3c3dd961775ce468bc992065970f974f099de75bc23f89297d59a0facc">
   
     
       
@@ -1070,7 +1071,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c3b491dbde48ff1aca5adb65842a98b8200f16fb69b9d0d1a277d1a13e7618e7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d62b11a6528322fa82e2d431df5e3641ea2e0a6c39f570fd6b6dd60de1901723">
   
     
       
@@ -1193,7 +1194,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b40c84f4bb86a4a03d1c2da213d6af2f54c20da644edfbf1085752c9b364f594">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cd23f56b532a227cf5cfee08bb8b9025b07844b886d870c4392e01b7a78c2bfa">
   
     
       
@@ -1207,7 +1208,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3c6740f418687574f6be1b6ab873562f8fd5cbf33873f0ff66db77ddeacbcd90">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-84798180be08ceb943031b5fbd8034cae98a88016e3e4d5476e7a6b93c6ed054">
   
     
       
@@ -1309,7 +1310,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dbba71fe1fce21443c7fe23b1157dc5b9c4a2e26a65e1e3585e84ae70e5f4df6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a9de3b6ca60cdc247ea9680f9a7704379c15f5c746ea610d20122fc271abcf0b">
   
     
       
@@ -1323,7 +1324,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a1fc483b6ca761bfbaa3b2ab53710cfddc35d547ae4f39e20156e3cb36e20f45">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-288d7dac17fb657a88280cdc9a5b61375a53ee847f448deff06598cf95a4db95">
   
     
       
@@ -1426,7 +1427,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e50df15a8836f1838c4630f8ec101c7dfda0b67daf4e35fd67ec3d13deacc8e2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-369a8f0d891f07becd207010774fd117ed4933afd8660959b57258a9d2671cbb">
   
     
       
@@ -1440,7 +1441,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1b845c2d825370cc8b03ebb1ad0fd445476f2ed6b7a85482599993078d073c0e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3a4ef2de64bd227a852f1ba63e4e257c39894ded09178a1b451fdecee868a7f8">
   
     
       
@@ -1547,7 +1548,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7849c66bf7d69d86ea48faf9879d133e5ac9be9809bb080a9266b193fc35935a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9adea5b4526e9e717a8423b217d1d5f050a2e8dd72e8ee4829ba28b4d090552f">
   
     
       
@@ -1561,7 +1562,7 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-691e592f4af7a6abc8d31e04770e056f4fce3962a0398760eaa6de7a2d4ebd19">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-36d277d06e171ea92f69980db390f733c82879cd8800e21486d38bce7935f742">
   
     
       
@@ -2443,14 +2444,14 @@ December 21– 4 pm to 6:30 pm / 7 pm to 9:30 pm</strong></p>
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/366a543a4883e0ec2f3925c53ffbddd7">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -2465,7 +2466,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t73srg" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=896560472" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=1074436926" async></script></body>
 </html>
 
 
