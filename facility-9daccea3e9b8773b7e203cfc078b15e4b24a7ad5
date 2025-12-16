@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/splash-wave-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=wnmcHzqMQuCI1VqaxGn8EFhQP2kAAAAAQUIPAAAAAAAVi9HlzZk1SXWQ/YAT1O0u; nlbi_243507=y3vKTzzbuw/XbMJGaXmSIAAAAADA42DfvHV1ZpOXYS+zgtHg; incap_ses_1313_243507=zW83Nqar02xiWiwhmbY4ElhQP2kAAAAA0qwFUBwb/u5TIAGZHt21/Q==
+Cookie: visid_incap_243507=vS58KpDJTiigr45kVVhLk9mhQGkAAAAAQUIPAAAAAABI5n2h5MtJCnthq7DZWGQl; nlbi_243507=i5DqcNJHUg10AY2haXmSIAAAAACDGqGnQIk87CJvXn+qz0bD; incap_ses_1251_243507=Hq/7c8VBjQK3lELxXHJcEdmhQGkAAAAAOh25J55kOTI9Aw6uoCBzjQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 642
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 15 Dec 2025 00:07:29 GMT
-Etag: "1765757247-gzip"
+Date: Tue, 16 Dec 2025 00:08:03 GMT
+Etag: "1765843039-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 15 Dec 2025 00:07:27 GMT
+Last-Modified: Mon, 15 Dec 2025 23:57:19 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 11-62756234-62756237 SNNN RT(1765757016272 231435) q(0 0 0 -1) r(14 14) U24
-X-Varnish: 2107572
+X-Iinfo: 12-5265420-5263609 SNNy RT(1765843417963 265826) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 26086206 29167812
 
-145b9
+145ec
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 2107572
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/splash-wave-pool" />
 <meta name="dcterms.title" content="Splash Wave Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-12-13" />
+<meta name="dcterms.date" content="2025-12-15" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 2107572
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b804628b546b56487bff5d501f741ea8e7d4a0dc816f31826c3e6d315f118450">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e1d0a74344a382216c1fc2cc330c075e4684192c10ccf7ea7b77fc05d81aff7a">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 2107572
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d806dd3877deb6fde8a31f7c396a5a14ecc11809676143d2f1e426f80d2f8b02">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c07518f7db1c5b1a79bf34b2bfd6cfea6f349fc3897f716926c328f7abd23589">
   
     
       
@@ -282,7 +282,7 @@ X-Varnish: 2107572
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Notice: December 5</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
 </div>
       
 
@@ -291,7 +291,14 @@ X-Varnish: 2107572
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li>The air heater at our facility is not working. The building may feel colder than usual.</li>
+<li><strong>Tuesday, December 16</strong>
+<ul>
+<li>Public swim, 4:30 to 9 pm, cancelled</li>
+</ul>
+</li>
+</ul>
+<h3>Notice: December 5</h3>
+<ul>
 <li>The lap pool heater is out of order, the water will feel colder.</li>
 </ul>
 </div>
@@ -305,7 +312,7 @@ X-Varnish: 2107572
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -509,7 +516,7 @@ X-Varnish: 2107572
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6f05ff129d2f424d9a5d2984a4fe9c6e3dd62c2fdc4b1278d673bbbb03765ea7">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a30f61e814415374cc4972c026c6417055f7e06e3cbfe327ad042e199c0ef98f">
   
     
       
@@ -523,7 +530,7 @@ X-Varnish: 2107572
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c4d89b9637d2447ac1cf1eb6c7668c4196704253ee20288cc16f8a485b9379b2">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d54dd5f1c3d39cbc0778ac37639da246f57236e4002b5a35f8fbe975897c7e89">
   
     
       
@@ -944,7 +951,7 @@ X-Varnish: 2107572
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-51502b986f7a47049762a8d599e8d6a8c55c393c54e20e8445858403c0636d92">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-36fabadc67e685701b30f32cfc8aface48a7d04f9185e61f65e6b949a4751f8b">
   
     
       
@@ -958,7 +965,7 @@ X-Varnish: 2107572
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bab0d7fa6b45f67c8bb8b57a1bbfa38c301c86d3e0184c24e5bb90f48894848c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0b20d074f6467945460eb1f4731cd7969d07d9c94fb21aee39845a75a10e217c">
   
     
       
@@ -993,8 +1000,13 @@ X-Varnish: 2107572
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><strong><span>Schedule change</span></strong></span></span></h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><span><strong><span>Schedule changes</span></strong></span></span></h3>
 <ul>
+<li><strong>Tuesday, December 16</strong>
+<ul>
+<li>Public swim, 4:30 to 9 pm, cancelled</li>
+</ul>
+</li>
 <li><span><span><strong><span>Monday, December 22 to Friday, January 2</span></strong></span></span>
 <ul>
 <li><span><span><span><span>See <a href="https://ottawa.ca/en/splash-wave-pool-holiday-drop-schedule">Winter Break schedule</a>.</span></span></span></span></li>
@@ -1003,7 +1015,6 @@ X-Varnish: 2107572
 </ul>
 <h3>Notice: December 5</h3>
 <ul>
-<li>The air heater at our facility is not working. The building may feel colder than usual.</li>
 <li>The lap pool heater is out of order, the water will feel colder.</li>
 </ul>
 </div>
@@ -1567,7 +1578,7 @@ X-Varnish: 2107572
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-6541d040d5328e5580af0a02cdae29f2fbd79ae1053f2429db4f8fd6b23a066d">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-8ecb76706257408b5a15a235394910c43a1dee54320a310a0266674a5ef64da1">
   
     
       <div class="view-header">
@@ -1658,7 +1669,7 @@ X-Varnish: 2107572
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c29742f22fa8c4a6ef7c2eecb7b663e51eb3a3584ec327072ece5439179d4805">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3dbf77909111fa5e92f0c6f4e26340ba3550df902160460a8567eeca2b0388a1">
   
     
       
@@ -1672,7 +1683,7 @@ X-Varnish: 2107572
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c1cfb5b5840f427664e56a126a08809b605428f7ce180fdbb5ca8a7f5963e553">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bf6363c10ea98d13398b349d9f1e3ea726f43afca722c48847f8b6fa0d6d644c">
   
     
       

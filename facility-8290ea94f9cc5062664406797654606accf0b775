@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=wnmcHzqMQuCI1VqaxGn8EFhQP2kAAAAAQUIPAAAAAAAVi9HlzZk1SXWQ/YAT1O0u; nlbi_243507=y3vKTzzbuw/XbMJGaXmSIAAAAADA42DfvHV1ZpOXYS+zgtHg; incap_ses_1313_243507=zW83Nqar02xiWiwhmbY4ElhQP2kAAAAA0qwFUBwb/u5TIAGZHt21/Q==
+Cookie: visid_incap_243507=vS58KpDJTiigr45kVVhLk9mhQGkAAAAAQUIPAAAAAABI5n2h5MtJCnthq7DZWGQl; nlbi_243507=i5DqcNJHUg10AY2haXmSIAAAAACDGqGnQIk87CJvXn+qz0bD; incap_ses_1251_243507=Hq/7c8VBjQK3lELxXHJcEdmhQGkAAAAAOh25J55kOTI9Aw6uoCBzjQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 436
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 15 Dec 2025 00:04:09 GMT
-Etag: "1765757048-gzip"
+Date: Tue, 16 Dec 2025 00:04:13 GMT
+Etag: "1765843013-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 15 Dec 2025 00:04:08 GMT
+Last-Modified: Mon, 15 Dec 2025 23:56:53 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 11-62756234-62756237 SNNN RT(1765757016272 32055) q(0 0 0 -1) r(16 16) U24
-X-Varnish: 6422566
+X-Iinfo: 12-5265420-5263609 SNNy RT(1765843417963 35318) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 6327986 12065354
 
-19b1a
+199cd
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 6422566
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans" />
 <meta name="dcterms.title" content="Bob MacQuarrie Recreation Complex - Orléans" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-12-13" />
+<meta name="dcterms.date" content="2025-12-15" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0252b0fd5d57feb624620eb92a1de2c9b66835022d760225ed1f13a6ca6779fd">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-46d952e9d7e38fad268403e4e5887f5a7f4c372a0a57ec0b0633d562c081fe2d">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-85491033346031accba7d5f87f0fb31126bee7e645242067e6b3be31608f97c5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b2df9f2d0f10a8096861359859246e764daa0b69bab7ca17ddce98ab657eb6af">
   
     
       
@@ -291,12 +291,6 @@ X-Varnish: 6422566
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Sunday, December 14</strong>
-<ul>
-<li>Public skating,&nbsp;1 to 1:50 pm, cancelled</li>
-<li>Public skating,&nbsp;2 to 2:50 pm, cancelled</li>
-</ul>
-</li>
 <li><strong>Saturday, December 20</strong>
 <ul>
 <li>Women's only public swim, 8:15 to 9:15 pm, <strong>added</strong></li>
@@ -314,7 +308,7 @@ X-Varnish: 6422566
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -490,7 +484,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ccee176422b825bb3a12e641a202f5700621f29854cdd553b5cea9a966d6bbe1">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-933e888e677a931163892546307dc3e409747cef8eabf2e58258a9713a0bbd7c">
   
     
       
@@ -504,7 +498,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9178bbc7f0547f661a2ff91ed4ab8ec6878841d76b9ae8751efc0d8f3e0595f1">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9c600acb1e2727d65beab925a5e88fdf91b605558f79901080d22f58b5b4923b">
   
     
       
@@ -1570,7 +1564,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-843fcaa6920f458b0aef83fec770d225fe90ab22364995ea1cd10c16ec60b37c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-aa70890f358c0b09040d2f8eb6c329e3ac1c5c5b5e57c2c2eedc2bad5c10a001">
   
     
       
@@ -1584,7 +1578,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6d14c1de5c050fe574f9b67b2faf095a9ce3600e19cb19d80e6d261954b3fc8c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-103ccc220df187c5e1e747b5e934ce41c91b5dae9edeac817fc0a3f60c5bd6f1">
   
     
       
@@ -2182,7 +2176,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f316525ebc2984e8b8266f5e0034806a1183a91a355fe8e560ef2145054c0c93">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-07fd5c6ebde0d252c5c2dd74e3bb027890cb6fa7d1e3e2c3325b28e2af13ccb7">
   
     
       
@@ -2196,7 +2190,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-178bfbe7ef48159e27270f5e790306c2e4008cd877cd79fa63ca5bec5f4b7425">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fd62cf7eaf67254e15794110aa8ae60eb34dcb95d14dd55b9996d40c4621588e">
   
     
       
@@ -2342,7 +2336,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ff33a54e4f924cef5954d61c8608d86b6f46be6714937de54ab0008a9a50a400">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3c072dc79d908a34eed2c8c5dcd5eaf30d1e95694d6202305f4d66640d372383">
   
     
       
@@ -2356,7 +2350,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-24d65bf8b8c1316e87eddc30ea8ad6f54de940432f3f201597e9605c24a4c51e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9b732c2ef84ca05513261f70cdd0856a629d8ec0776a92499442f1b507467a68">
   
     
       
@@ -2728,7 +2722,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4e2431305417bbc75f926b4db0dc1add43811abee93822b8762dcb3ecbff9a7b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d8bd4e222298a7fd5f6cfee7a3cf2b3b0428d2cedbf32398d28f9be55a8cb538">
   
     
       
@@ -2742,7 +2736,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8e16e136076214270332c9c9eb1cf3f1288e7129320433ffdcc4da07275e71cd">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f9e9b73f857883a180621624ec94db16d0f4c1655ca1762f9e1767b0a482a4b4">
   
     
       
@@ -3059,7 +3053,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6d036084f5923c12abfe66cfbd42767a905ddc7d74857af821fbc949cd4cf565">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-762a0d7d3ff752d3c9e1ac0d945a16d1621b6b5ff7877a0fbfadf219c0e5252b">
   
     
       
@@ -3073,7 +3067,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5812c2f73286b4b17aae135f0405be045f9925709705084ff9372c0a95e2a7d8">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-448547eac8675079756ce3437fd184d7f8d309dc6d6d9ad74206926e1e4683fb">
   
     
       
@@ -3110,12 +3104,6 @@ X-Varnish: 6422566
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
-<li><strong>Sunday, December 14</strong>
-<ul>
-<li>Public skating,&nbsp;1 to 1:50 pm, cancelled</li>
-<li>Public skating,&nbsp;2 to 2:50 pm, cancelled</li>
-</ul>
-</li>
 <li><strong>Monday, December 22 to Sunday, January 4</strong>
 <ul>
 <li>See <a href="https://ottawa.ca/en/bob-macquarrie-recreation-complex-holiday-drop-schedule">Winter Break schedule</a>.</li>
@@ -3310,7 +3298,7 @@ X-Varnish: 6422566
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-64bb73d498700d3444f02ff202b308d909c0acaa163624dbb987ff17662f508d">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-4d1c468e0468816d9f2cf2f325e09b91f5828b4555e9829addddeaaef4ddd841">
   
     
       <div class="view-header">
@@ -3748,7 +3736,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=17&cb=462639476" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=17&cb=1105126732" async></script></body>
 </html>
 
 
