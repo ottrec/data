@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ben-franklin-place-rink HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=vS58KpDJTiigr45kVVhLk9mhQGkAAAAAQUIPAAAAAABI5n2h5MtJCnthq7DZWGQl; nlbi_243507=i5DqcNJHUg10AY2haXmSIAAAAACDGqGnQIk87CJvXn+qz0bD; incap_ses_1251_243507=Hq/7c8VBjQK3lELxXHJcEdmhQGkAAAAAOh25J55kOTI9Aw6uoCBzjQ==
+Cookie: visid_incap_243507=0IzJdZmWR720C9GTxhnsikXzQWkAAAAAQUIPAAAAAADPRnzqrg1G1vg+vl0heuy+; nlbi_243507=TEsjaxXQZyvMeVvDaXmSIAAAAACHZTz1bOrAqdRa5352TtVQ; incap_ses_887_243507=qsDOUumGFBQ42br8TEJPDEXzQWkAAAAABp66O/UQkTziTSYD5cD8Wg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 42
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 16 Dec 2025 00:04:07 GMT
-Etag: "1765843447-gzip"
+Date: Wed, 17 Dec 2025 00:03:43 GMT
+Etag: "1765929780-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 16 Dec 2025 00:04:07 GMT
+Last-Modified: Wed, 17 Dec 2025 00:03:00 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 12-5265420-5263609 SNNy RT(1765843417963 29321) q(0 0 0 -1) r(6 6) U24
-X-Varnish: 2690946
+X-Iinfo: 11-8875316-8875317 SNNN RT(1765929797411 26528) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 103723004 50273106
 
-8082
+8081
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -58,7 +58,7 @@ X-Varnish: 2690946
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css_G5Mg50aXQMesPwLv_wzgzxGcVXqd3TUO62PzaalJZV8.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFlywyAMvRAxP7mPR8AzpgbkQaK2e_q6TTLx5EfzFu2OWUUbrXfrSGDcm8fMjvJN9MipxqtTIEIRYvyCkJTbmGpAVZfZL_aCjecGG1pfKQ_0RftDqNwK5fQDg13P5ssr5UkNT1PyGGfuTeyVjNNfqSqaYVVPo84o-Fz1ap2478OWQoSalRrF84RZXhPfytDr2l1OMiMYOURRHi_5TtjE_sehcOgZvzvDeVA" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3009386","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kUtyAyEMRC_EDJvchxIgM7JhRCFhe3L64HyxF9l09VNTUGo8s4o2qG_Wg6DxE__a5SxLBkXROU-ZPeRF9Mi0pzkpKAIJxYQLRlJujvaIu_rM4WInbwI3tDu3Apne0eBdx10XG1uvkNdvNIk5ZXQKyaYhr7zCGe7Pw2IyvB_2IYZPJwroNu5N7Azu9HhYFZth1QBONyz4utccDd_v641iQn0KhBSp1MZXXGCHfCgFMRUapNHIJj8b_U3WvtfuM8mG0VSuvTrp7YqHnWEkN2yeHBaP0T7REjKNIv8_0kW5jGqbkUMUy9cvXwlvYj91LRx7xg_iDsxu","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3009386","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kUtyAyEMRC_EDJvchxIgM7JhRCFhe3L64HyxF9l09VNTUGo8s4o2qG_Wg6DxE__a5SxLBkXROU-ZPeRF9Mi0pzkpKAIJxYQLRlJujvaIu_rM4WInbwI3tDu3Apne0eBdx10XG1uvkNdvNIk5ZXQKyaYhr7zCGe7Pw2IyvB_2IYZPJwroNu5N7Azu9HhYFZth1QBONyz4utccDd_v641iQn0KhBSp1MZXXGCHfCgFMRUapNHIJj8b_U3WvtfuM8mG0VSuvTrp7YqHnWEkN2yeHBaP0T7REjKNIv8_0kW5jGqbkUMUy9cvXwlvYj91LRx7xg_iDsxu","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"81830c4ec92ba7de740eae5dfe8d5f7d2289786622ac69a5e155affed52fe577"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jUsOwyAMRC9Ewqb3QYZY1K2JEZh8evomUlWFLroZzXseyV5EqxbIN-u_dXjUgUGxqsFNmeannUrLwOMHTRSJjE4h2njEL4_wgK2XyTC8dnuGEdUATu-Y0PqdYWU6Xl3t-cRRkLl2-uhtG1eaIvb7GoowY-klKVLKRRYcYAbelUI1WXLLrray4G6vcFxWLJ4cJo-T7WgITDjr_0mrKoleWN4JHoZg"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t73srg"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t73srg"></script>
@@ -194,7 +194,7 @@ X-Varnish: 2690946
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7313d8157d9537cf92db8b184acaddd96b1cf2816579390c859b7f05403d580d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-abbadd559b5d3562195e9f562c773b7736c72fb0da5098dfe8e42ac77a3030e9">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 2690946
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6ece72bd75f4df9cb87b2cada10085c5fd415a655db343c584d1c88843404d7c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-74f8e721dadeee81e36135c60dbd3e59b3c8291b420996c00e3408fbb0fd4263">
   
     
       
@@ -217,7 +217,7 @@ X-Varnish: 2690946
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    
-            <img loading="lazy" width="64" height="64" src="/sites/default/files/styles/square_xs/public/2023-02/skating-on_0.png?h=46bfd753&amp;itok=y4n2s7vP" alt="Skating permitted" class="img-fluid w-100" />
+            <img loading="lazy" width="64" height="64" src="/sites/default/files/styles/square_xs/public/2023-02/skating-on_0.png?h=46bfd753&amp;itok=ABD2YU9D" alt="Skating permitted" class="img-fluid w-100" />
 
   
 
@@ -713,7 +713,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jUsOwyAMRC9Ewqb3QYZY1K2JEZh8evomUlWFLroZzXseyV5EqxbIN-u_dXjUgUGxqsFNmeannUrLwOMHTRSJjE4h2njEL4_wgK2XyTC8dnuGEdUATu-Y0PqdYWU6Xl3t-cRRkLl2-uhtG1eaIvb7GoowY-klKVLKRRYcYAbelUI1WXLLrray4G6vcFxWLJ4cJo-T7WgITDjr_0mrKoleWN4JHoZg"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=14&cb=2013762487" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=14&cb=342827824" async></script></body>
 </html>
 
 

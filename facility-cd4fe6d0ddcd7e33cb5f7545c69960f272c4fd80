@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/fred-barrett-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=vS58KpDJTiigr45kVVhLk9mhQGkAAAAAQUIPAAAAAABI5n2h5MtJCnthq7DZWGQl; nlbi_243507=i5DqcNJHUg10AY2haXmSIAAAAACDGqGnQIk87CJvXn+qz0bD; incap_ses_1251_243507=Hq/7c8VBjQK3lELxXHJcEdmhQGkAAAAAOh25J55kOTI9Aw6uoCBzjQ==
+Cookie: visid_incap_243507=0IzJdZmWR720C9GTxhnsikXzQWkAAAAAQUIPAAAAAADPRnzqrg1G1vg+vl0heuy+; nlbi_243507=TEsjaxXQZyvMeVvDaXmSIAAAAACHZTz1bOrAqdRa5352TtVQ; incap_ses_887_243507=qsDOUumGFBQ42br8TEJPDEXzQWkAAAAABp66O/UQkTziTSYD5cD8Wg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 586
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 16 Dec 2025 00:05:19 GMT
-Etag: "1765842931-gzip"
+Date: Wed, 17 Dec 2025 00:04:49 GMT
+Etag: "1765929888-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 15 Dec 2025 23:55:31 GMT
+Last-Modified: Wed, 17 Dec 2025 00:04:48 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,8 +27,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 12-5265420-5263609 SNNy RT(1765843417963 101732) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 10588745 38505119
+X-Iinfo: 11-8875316-8875317 SNNN RT(1765929797411 91052) q(0 0 0 -1) r(15 15) U24
+X-Varnish: 105983118
 
 108be
 
@@ -58,7 +58,7 @@ X-Varnish: 10588745 38505119
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css_G5Mg50aXQMesPwLv_wzgzxGcVXqd3TUO62PzaalJZV8.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvBANP71PZGCa0BiMsNlNevqNul1t1B9rHtaM5SBiap3apw-kcOHNF5ZA_KF2cK7L1SlQpQXq4oaUTfqca0K1wBI3f8EuSodPfTTiib5pfwpVeiHOP3DY7QzfXit_1H0xduWc0M80w9LJslTHdMiwOWWNckM_vFREYSdmkWZbUfD_6qt14rFP95wWmGvU6cxtq77K38o0ahuBs65ITg81lOd3bhl39b9zKpIG4wGR832r" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031574","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kluWwyAIhjdk4svsJweVsTYoHsE26erH6dySPswLh58PUETHrKIN6pt1IGjcQf-601UmAkXRI4_EDmgS3SmVeCQZRSCiGL9iSMptSSVgUUfsV3vwjeeGtnDLQOmBBjcdvVYbWq9A87c074SbUArYRrFibKCJi4nMkXBRiDYO86pnuMJ2DmZDsHPXJSTxfMO2Wy7omUb8sdtPY1jVw6IXzGgHIagyyjmOLif2Mv4RDb9v8z2FiHoCkhRTrm0cPUEB2jV5OWc8x1wiEI3bmQoNxrj1Ij9v8heZe6ndUZILBlO59rpIbzfc7VEMcsfm0oLZYbAnNXlKYxX_p3RRzmM5zcguivnrn9wS3sU-7Zw5dMIPIaPmnw","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1327015":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1327015"},"slider-gallery-carousel--1327015":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1327015","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1327015"}},"instances":{"slider-gallery--1327015":"slider-gallery--1327015","slider-gallery-carousel--1327015":"slider-gallery-carousel--1327015"}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031574","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kluWwyAIhjdk4svsJweVsTYoHsE26erH6dySPswLh58PUETHrKIN6pt1IGjcQf-601UmAkXRI4_EDmgS3SmVeCQZRSCiGL9iSMptSSVgUUfsV3vwjeeGtnDLQOmBBjcdvVYbWq9A87c074SbUArYRrFibKCJi4nMkXBRiDYO86pnuMJ2DmZDsHPXJSTxfMO2Wy7omUb8sdtPY1jVw6IXzGgHIagyyjmOLif2Mv4RDb9v8z2FiHoCkhRTrm0cPUEB2jV5OWc8x1wiEI3bmQoNxrj1Ij9v8heZe6ndUZILBlO59rpIbzfc7VEMcsfm0oLZYbAnNXlKYxX_p3RRzmM5zcguivnrn9wS3sU-7Zw5dMIPIaPmnw","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--1327015":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--1327015"},"slider-gallery-carousel--1327015":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--1327015","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--1327015"}},"instances":{"slider-gallery--1327015":"slider-gallery--1327015","slider-gallery-carousel--1327015":"slider-gallery-carousel--1327015"}},"user":{"uid":0,"permissionsHash":"81830c4ec92ba7de740eae5dfe8d5f7d2289786622ac69a5e155affed52fe577"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t73srg"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t73srg"></script>
@@ -194,7 +194,7 @@ X-Varnish: 10588745 38505119
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-55819ee148afb95808bd713deef1c692e58b4f0ec7ac5ed0c10d978eaba7e98d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d9c6ed0e9d7d4dc21c68e116cda3dd414bafe7a11e7b4bb7e09d489bce4bbb94">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 10588745 38505119
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a3098b28c43787e6ff6e60cd028fd0b512a30460a9aaeff2758c28c492ab5c29">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ca9e25b444b7e831935bdb0e84302691675054a52ee11655c63c43bedc01b3d9">
   
     
       
@@ -409,12 +409,12 @@ X-Varnish: 10588745 38505119
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior_en.jpg?itok=BFM_gmHo 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior_en.jpg?itok=BFM_gmHo 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior_en.jpg?itok=BFM_gmHo 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior_en.jpg?itok=BFM_gmHo 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=-Q5qDSgl 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=-Q5qDSgl 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=-Q5qDSgl 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=-Q5qDSgl 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=-Q5qDSgl 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=-Q5qDSgl 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior_en.jpg?itok=BFM_gmHo" alt="exterior view of the facility" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior_en.jpg?itok=zWjySOfl 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior_en.jpg?itok=zWjySOfl 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior_en.jpg?itok=zWjySOfl 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior_en.jpg?itok=zWjySOfl 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=LEvbiw_R 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=LEvbiw_R 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=LEvbiw_R 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=LEvbiw_R 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=LEvbiw_R 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior_en.jpg?itok=LEvbiw_R 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior_en.jpg?itok=zWjySOfl" alt="exterior view of the facility" class="img-fluid w-100" />
 
   </picture>
 
@@ -426,12 +426,12 @@ X-Varnish: 10588745 38505119
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior1_en.jpg?itok=CgZx9_nR 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior1_en.jpg?itok=CgZx9_nR 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior1_en.jpg?itok=CgZx9_nR 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior1_en.jpg?itok=CgZx9_nR 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=LmNOMGIY 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=LmNOMGIY 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=LmNOMGIY 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=LmNOMGIY 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=LmNOMGIY 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=LmNOMGIY 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior1_en.jpg?itok=CgZx9_nR" alt="exterior view of the facility" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior1_en.jpg?itok=2ry253tJ 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior1_en.jpg?itok=2ry253tJ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior1_en.jpg?itok=2ry253tJ 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior1_en.jpg?itok=2ry253tJ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=twP2buIh 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=twP2buIh 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=twP2buIh 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=twP2buIh 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=twP2buIh 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior1_en.jpg?itok=twP2buIh 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior1_en.jpg?itok=2ry253tJ" alt="exterior view of the facility" class="img-fluid w-100" />
 
   </picture>
 
@@ -443,12 +443,12 @@ X-Varnish: 10588745 38505119
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior2_en.jpg?itok=NV_jaUBv 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior2_en.jpg?itok=NV_jaUBv 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior2_en.jpg?itok=NV_jaUBv 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior2_en.jpg?itok=NV_jaUBv 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=XIaTVYoa 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=XIaTVYoa 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=XIaTVYoa 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=XIaTVYoa 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=XIaTVYoa 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=XIaTVYoa 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior2_en.jpg?itok=NV_jaUBv" alt="exterior view of the facility" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior2_en.jpg?itok=OsgnAR52 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior2_en.jpg?itok=OsgnAR52 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior2_en.jpg?itok=OsgnAR52 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior2_en.jpg?itok=OsgnAR52 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=E1EMEOkd 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=E1EMEOkd 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=E1EMEOkd 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=E1EMEOkd 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=E1EMEOkd 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior2_en.jpg?itok=E1EMEOkd 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior2_en.jpg?itok=OsgnAR52" alt="exterior view of the facility" class="img-fluid w-100" />
 
   </picture>
 
@@ -460,12 +460,12 @@ X-Varnish: 10588745 38505119
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior3_en.jpg?itok=WkS8RAZ5 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior3_en.jpg?itok=WkS8RAZ5 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior3_en.jpg?itok=WkS8RAZ5 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior3_en.jpg?itok=WkS8RAZ5 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=3no4X-lY 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=3no4X-lY 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=3no4X-lY 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=3no4X-lY 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=3no4X-lY 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=3no4X-lY 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior3_en.jpg?itok=WkS8RAZ5" alt="exterior view of the facility" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior3_en.jpg?itok=cMfS8ubA 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior3_en.jpg?itok=cMfS8ubA 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior3_en.jpg?itok=cMfS8ubA 1x, /sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior3_en.jpg?itok=cMfS8ubA 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=rtI9TXyA 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=rtI9TXyA 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=rtI9TXyA 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=rtI9TXyA 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=rtI9TXyA 1x, /sites/default/files/styles/slider_mobile/public/2025-10/fred_barrett_exterior3_en.jpg?itok=rtI9TXyA 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2025-10/fred_barrett_exterior3_en.jpg?itok=cMfS8ubA" alt="exterior view of the facility" class="img-fluid w-100" />
 
   </picture>
 
@@ -480,52 +480,52 @@ X-Varnish: 10588745 38505119
 
 <ul class="slides">
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-10/fred_barrett_exterior_en.jpg?itok=8-9HZsO9 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-10/fred_barrett_exterior_en.jpg?itok=WJ6APXhs 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="750" height="432"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=PhXAtda_ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=WGVOuWEV 2x" media="all and (min-width: 992px)" type="image/jpeg" width="750" height="432"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=PhXAtda_ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=WGVOuWEV 2x" media="all and (min-width: 768px)" type="image/jpeg" width="750" height="432"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=PhXAtda_ 1x" media="all and (min-width: 641px)" type="image/jpeg" width="750" height="432"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=PhXAtda_ 1x" media="all and (min-width: 481px)" type="image/jpeg" width="750" height="432"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=PhXAtda_ 1x" type="image/jpeg" width="750" height="432"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2025-10/fred_barrett_exterior_en.jpg?itok=oJR7AtJi" alt="exterior view of the facility" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-10/fred_barrett_exterior_en.jpg?itok=VbWAWwEt 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-10/fred_barrett_exterior_en.jpg?itok=KhmcYq59 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="750" height="432"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=WNF3lfJX 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=DV4sHPwN 2x" media="all and (min-width: 992px)" type="image/jpeg" width="750" height="432"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=WNF3lfJX 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=DV4sHPwN 2x" media="all and (min-width: 768px)" type="image/jpeg" width="750" height="432"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=WNF3lfJX 1x" media="all and (min-width: 641px)" type="image/jpeg" width="750" height="432"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=WNF3lfJX 1x" media="all and (min-width: 481px)" type="image/jpeg" width="750" height="432"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior_en.jpg?itok=WNF3lfJX 1x" type="image/jpeg" width="750" height="432"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2025-10/fred_barrett_exterior_en.jpg?itok=RAx2Caqn" alt="exterior view of the facility" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-10/fred_barrett_exterior1_en.jpg?itok=Z5ocv62w 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-10/fred_barrett_exterior1_en.jpg?itok=_WzdXzQN 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="800" height="418"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=W-qqsnff 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=nTD110I6 2x" media="all and (min-width: 992px)" type="image/jpeg" width="800" height="418"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=W-qqsnff 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=nTD110I6 2x" media="all and (min-width: 768px)" type="image/jpeg" width="800" height="418"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=W-qqsnff 1x" media="all and (min-width: 641px)" type="image/jpeg" width="800" height="418"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=W-qqsnff 1x" media="all and (min-width: 481px)" type="image/jpeg" width="800" height="418"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=W-qqsnff 1x" type="image/jpeg" width="800" height="418"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2025-10/fred_barrett_exterior1_en.jpg?itok=3lNgFO2u" alt="exterior view of the facility" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-10/fred_barrett_exterior1_en.jpg?itok=5NSatbwg 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-10/fred_barrett_exterior1_en.jpg?itok=dOw5NfUN 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="800" height="418"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=pAzcTYIO 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=uQgb4oJg 2x" media="all and (min-width: 992px)" type="image/jpeg" width="800" height="418"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=pAzcTYIO 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=uQgb4oJg 2x" media="all and (min-width: 768px)" type="image/jpeg" width="800" height="418"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=pAzcTYIO 1x" media="all and (min-width: 641px)" type="image/jpeg" width="800" height="418"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=pAzcTYIO 1x" media="all and (min-width: 481px)" type="image/jpeg" width="800" height="418"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior1_en.jpg?itok=pAzcTYIO 1x" type="image/jpeg" width="800" height="418"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2025-10/fred_barrett_exterior1_en.jpg?itok=_xKxhx_J" alt="exterior view of the facility" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-10/fred_barrett_exterior2_en.jpg?itok=5J2gaqUs 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-10/fred_barrett_exterior2_en.jpg?itok=qMeT-uDW 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="900" height="371"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=sA1sPaCG 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=Evdg7D8L 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="371"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=sA1sPaCG 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=Evdg7D8L 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="371"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=sA1sPaCG 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="371"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=sA1sPaCG 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="371"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=sA1sPaCG 1x" type="image/jpeg" width="900" height="371"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2025-10/fred_barrett_exterior2_en.jpg?itok=4fhHTOlg" alt="exterior view of the facility" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-10/fred_barrett_exterior2_en.jpg?itok=7tBzuIJW 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-10/fred_barrett_exterior2_en.jpg?itok=AuKS7Jw- 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="900" height="371"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=b1vQo1jk 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=Vn0GUHAH 2x" media="all and (min-width: 992px)" type="image/jpeg" width="900" height="371"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=b1vQo1jk 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=Vn0GUHAH 2x" media="all and (min-width: 768px)" type="image/jpeg" width="900" height="371"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=b1vQo1jk 1x" media="all and (min-width: 641px)" type="image/jpeg" width="900" height="371"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=b1vQo1jk 1x" media="all and (min-width: 481px)" type="image/jpeg" width="900" height="371"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior2_en.jpg?itok=b1vQo1jk 1x" type="image/jpeg" width="900" height="371"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2025-10/fred_barrett_exterior2_en.jpg?itok=w36xdPH3" alt="exterior view of the facility" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-10/fred_barrett_exterior3_en.jpg?itok=0xGwUfyF 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-10/fred_barrett_exterior3_en.jpg?itok=J-3Vuwzt 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="850" height="371"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=QpnKwgAb 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=iTeCX-TE 2x" media="all and (min-width: 992px)" type="image/jpeg" width="850" height="371"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=QpnKwgAb 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=iTeCX-TE 2x" media="all and (min-width: 768px)" type="image/jpeg" width="850" height="371"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=QpnKwgAb 1x" media="all and (min-width: 641px)" type="image/jpeg" width="850" height="371"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=QpnKwgAb 1x" media="all and (min-width: 481px)" type="image/jpeg" width="850" height="371"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=QpnKwgAb 1x" type="image/jpeg" width="850" height="371"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2025-10/fred_barrett_exterior3_en.jpg?itok=bALErtV3" alt="exterior view of the facility" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-10/fred_barrett_exterior3_en.jpg?itok=YxdKdaAl 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-10/fred_barrett_exterior3_en.jpg?itok=_h7odrW7 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="850" height="371"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=qpqeNCSg 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=QxJ5DPyY 2x" media="all and (min-width: 992px)" type="image/jpeg" width="850" height="371"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=qpqeNCSg 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=QxJ5DPyY 2x" media="all and (min-width: 768px)" type="image/jpeg" width="850" height="371"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=qpqeNCSg 1x" media="all and (min-width: 641px)" type="image/jpeg" width="850" height="371"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=qpqeNCSg 1x" media="all and (min-width: 481px)" type="image/jpeg" width="850" height="371"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/fred_barrett_exterior3_en.jpg?itok=qpqeNCSg 1x" type="image/jpeg" width="850" height="371"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2025-10/fred_barrett_exterior3_en.jpg?itok=HuQcNoGx" alt="exterior view of the facility" />
 
   </picture>
 </li>
@@ -580,7 +580,7 @@ X-Varnish: 10588745 38505119
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4254bca2e588e54ed76bf32689d4fa02a9bf167f12b7678e6895c497c11e97b3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d3a39cc00b3c9dfa6951442c0065b8195d1172f7bf5543831a55e262f163baa3">
   
     
       
@@ -594,7 +594,7 @@ X-Varnish: 10588745 38505119
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-47099e6d33a4e6cf9b235b86ec43f2734b22c229db7e73df0438578b4b7e31e4">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2ec3c575f7f8f2bfa703f5b9c9ee1b3e7c05eeac4854e3eaaee8a9a1cf064ab0">
   
     
       
@@ -764,7 +764,7 @@ X-Varnish: 10588745 38505119
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3568749c7591a206fa99934f89e18acd79557625648531390a2c8a9dabd4c3c4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-86c65e369580556d6ea166081848d66b340b458a463f7f7ebeb45f958b01d3b7">
   
     
       
@@ -778,7 +778,7 @@ X-Varnish: 10588745 38505119
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-36eca96e8bb68b8aa2313b0e645c7b7ace6436294cb9f36176b550d59f80650c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1bb061ba9a892f37f4fef6f48f86e5ff733bf5199eaf7729c18a6a263df42b80">
   
     
       
@@ -997,7 +997,7 @@ X-Varnish: 10588745 38505119
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-c262a831b1f5fcbd9189d49e17c9cb1bc37afaf4705b4d4b582dec0313af6356">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-21f2c13e15f60255c0ebdd511f682d0ba3cb788fd10ec3a10ba7e453213a13aa">
   
     
       <div class="view-header">
@@ -1397,7 +1397,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t73srg" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=45&cb=1353963214" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=45&cb=1114791933" async></script></body>
 </html>
 
 

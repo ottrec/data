@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/kanata-leisure-centre-and-wave-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=vS58KpDJTiigr45kVVhLk9mhQGkAAAAAQUIPAAAAAABI5n2h5MtJCnthq7DZWGQl; nlbi_243507=i5DqcNJHUg10AY2haXmSIAAAAACDGqGnQIk87CJvXn+qz0bD; incap_ses_1251_243507=Hq/7c8VBjQK3lELxXHJcEdmhQGkAAAAAOh25J55kOTI9Aw6uoCBzjQ==
+Cookie: visid_incap_243507=0IzJdZmWR720C9GTxhnsikXzQWkAAAAAQUIPAAAAAADPRnzqrg1G1vg+vl0heuy+; nlbi_243507=TEsjaxXQZyvMeVvDaXmSIAAAAACHZTz1bOrAqdRa5352TtVQ; incap_ses_887_243507=qsDOUumGFBQ42br8TEJPDEXzQWkAAAAABp66O/UQkTziTSYD5cD8Wg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,27 +8,27 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 531
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 16 Dec 2025 00:06:07 GMT
-Etag: "1765843564-gzip"
+Date: Wed, 17 Dec 2025 00:05:29 GMT
+Etag: "1765929396-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 16 Dec 2025 00:06:04 GMT
+Last-Modified: Tue, 16 Dec 2025 23:56:36 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 12-5265420-5263609 SNNy RT(1765843417963 146121) q(0 0 0 -1) r(34 34) U24
-X-Varnish: 13079209
+X-Iinfo: 11-8875316-8875317 SNNN RT(1765929797411 132400) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 53224026 20552522
 
 149d7
 
@@ -58,7 +58,7 @@ X-Varnish: 13079209
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css_G5Mg50aXQMesPwLv_wzgzxGcVXqd3TUO62PzaalJZV8.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUNFuwzAI_CEvftn_RNgmCQsxFuA22dc3W1c12gu6O9AdkETcXKF9xgSGIb35zJKAP8wPpjpfOxuawYwW8oqFXHSkWrB6YslrvOCQRTEW7Q14gC_Yn0IV3YDpGwPufpqvr5E_GibG3ZgK6unmOCs4SQ0Mh3QfC1mWG-oRpWIWDjJNlHFcpKvFKxmnnyR31CDuGUZfcMP_l11bJ-77cKcyo4cGCmd2W-y14FsZem09MdmCJdhhjtvzgzfCu8XfOmxSOuMDdaqMMQ" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031620","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkmSwyAM_BA2l_kPJYOMSYRFIZHYef2QzGbnMBeVWq2NFhOzilYoH3YCQTMd8K87XGQgUBQ98pF4AhpEd0prPDIZRSCiGH_FkJSrS2vAVSdif7UH33iuaFeuGSg90OCmvdfVhtoK0PgNzUy4CaWAtRcrxgqaeDWRORI6hWhjN-94hAts52A2BDs3dSGJ5xvW3fKKnqnHH7t9GsPznDy6hVsVewRufu6pitWwqgenC2a0vZqgSB_BsU86cW8SHanut228pxBRT4QkxZRL7esNsALtmrycM15SuAhE_QWmQIUuSVnkR7e_yNjW0iZKsmAwhUsrTlq94W6PoDN3rFNymCcM9oQGT6mf6_-UJsq5H7Aa2UUxf_2lW8K72JcdM4dG-AnkHvUl","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--991986":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--991986"},"slider-gallery-carousel--991986":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--991986","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--991986"}},"instances":{"slider-gallery--991986":"slider-gallery--991986","slider-gallery-carousel--991986":"slider-gallery-carousel--991986"}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031620","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkmSwyAM_BA2l_kPJYOMSYRFIZHYef2QzGbnMBeVWq2NFhOzilYoH3YCQTMd8K87XGQgUBQ98pF4AhpEd0prPDIZRSCiGH_FkJSrS2vAVSdif7UH33iuaFeuGSg90OCmvdfVhtoK0PgNzUy4CaWAtRcrxgqaeDWRORI6hWhjN-94hAts52A2BDs3dSGJ5xvW3fKKnqnHH7t9GsPznDy6hVsVewRufu6pitWwqgenC2a0vZqgSB_BsU86cW8SHanut228pxBRT4QkxZRL7esNsALtmrycM15SuAhE_QWmQIUuSVnkR7e_yNjW0iZKsmAwhUsrTlq94W6PoDN3rFNymCcM9oQGT6mf6_-UJsq5H7Aa2UUxf_2lW8K72JcdM4dG-AnkHvUl","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"flexslider":{"optionsets":{"slider-gallery--991986":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":true,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery--991986"},"slider-gallery-carousel--991986":{"animation":"slide","animationSpeed":600,"direction":"horizontal","slideshow":false,"easing":"swing","smoothHeight":false,"reverse":false,"slideshowSpeed":7000,"animationLoop":true,"randomize":false,"startAt":0,"itemWidth":210,"itemMargin":4,"minItems":0,"maxItems":0,"move":0,"directionNav":true,"controlNav":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"touch":true,"prevText":"Previous","nextText":"Next","namespace":"flex-","selector":".slides \u003E li","sync":"","asNavFor":"#slider-gallery--991986","initDelay":0,"useCSS":true,"video":false,"pausePlay":false,"pauseText":"Pause","playText":"Play","pauseOnAction":false,"pauseOnHover":false,"controlsContainer":"","manualControls":"","id":"slider-gallery-carousel--991986"}},"instances":{"slider-gallery--991986":"slider-gallery--991986","slider-gallery-carousel--991986":"slider-gallery-carousel--991986"}},"user":{"uid":0,"permissionsHash":"81830c4ec92ba7de740eae5dfe8d5f7d2289786622ac69a5e155affed52fe577"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t73srg"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t73srg"></script>
@@ -194,7 +194,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-57166d40435a7905e0a22d6eca95174730d5d334207775d088772eec0cd0ed3b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ab80d7ecc2b26d97cf940eb27fe6d4f93979f20d8e89b4ed647935ed5ebc85b5">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-947d817a197a5c5eca2dd1c65b193c6e185adc2a6e47c841c11878f05707b21e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-eaa5fe9997b7d56b0afea08fa2da82450708d26ee749b49c50c80efcdadf340a">
   
     
       
@@ -425,13 +425,13 @@ X-Varnish: 13079209
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-11/kanata_leisure_en.jpg?itok=LAA8UkIk 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-11/kanata_leisure_en.jpg?itok=lEGz4UTY 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="775" height="421"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=_orqcXpa 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=WRh3X5HA 2x" media="all and (min-width: 992px)" type="image/jpeg" width="775" height="421"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=_orqcXpa 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=WRh3X5HA 2x" media="all and (min-width: 768px)" type="image/jpeg" width="775" height="421"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=_orqcXpa 1x" media="all and (min-width: 641px)" type="image/jpeg" width="775" height="421"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=_orqcXpa 1x" media="all and (min-width: 481px)" type="image/jpeg" width="775" height="421"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=_orqcXpa 1x" type="image/jpeg" width="775" height="421"/>
-                  <img loading="eager" width="147" height="80" src="/sites/default/files/styles/rectangle_xs/public/2025-11/kanata_leisure_en.jpg?itok=luBWrREp" alt="Kanata Leisure Centre, a brick building with &#039;Ride the Wave!&#039; sign in large letters on the wall." class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-11/kanata_leisure_en.jpg?itok=pstS7jb_ 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-11/kanata_leisure_en.jpg?itok=i9DfCo3I 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="775" height="421"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=UP0DSRF_ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=mfb0VYM6 2x" media="all and (min-width: 992px)" type="image/jpeg" width="775" height="421"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=UP0DSRF_ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=mfb0VYM6 2x" media="all and (min-width: 768px)" type="image/jpeg" width="775" height="421"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=UP0DSRF_ 1x" media="all and (min-width: 641px)" type="image/jpeg" width="775" height="421"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=UP0DSRF_ 1x" media="all and (min-width: 481px)" type="image/jpeg" width="775" height="421"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-11/kanata_leisure_en.jpg?itok=UP0DSRF_ 1x" type="image/jpeg" width="775" height="421"/>
+                  <img loading="eager" width="147" height="80" src="/sites/default/files/styles/rectangle_xs/public/2025-11/kanata_leisure_en.jpg?itok=54Lvag7t" alt="Kanata Leisure Centre, a brick building with &#039;Ride the Wave!&#039; sign in large letters on the wall." class="img-fluid w-100" />
 
   </picture>
 
@@ -487,7 +487,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8dfd043d22c57079629b7e63c61c9b57d906087855460e9c0c08eb273d112fc1">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5a91076c01431b7b5e500f7a40356a893423a93889597d78b0da69d1a8e70128">
   
     
       
@@ -501,7 +501,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5f9de2df47261c03ae8203d023bd781efb6a8ed5a91ee56de251c781b16e86f9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d0c51c39ff6a3bca424646ae2f854c038d0b806202283d2e310efffe22ee69b9">
   
     
       
@@ -791,7 +791,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-74ecdc847e6d8663a38ade3bdecb46f3f0ae527e4e08188ab257cfcc4e086168">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ceb98d7d97b6fc860fdc7edeed2a7edac113187a4b31c9d20fd3d09e7d5e2c67">
   
     
       
@@ -805,7 +805,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a189a771b0246883461879542d21e745c2b561b9be97ffc8ef48c1a0eb1966ff">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0e3f1c7ee0920e1a00e216459a0cec30ff82a1e96ed0da4fa566bbcb5a342cc3">
   
     
       
@@ -920,7 +920,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2a1a4238a3b2228b0ee20d632a4022bd76bb6e701672d7c91a49c1351b99ef53">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f8804a49fc17a6be848bdbce7bbdefbe7e1420c0c5733c1ad221efa6cb55718f">
   
     
       
@@ -934,7 +934,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d9b0d37bb75a2ea559e0805c263ba4a73b0dac251b72daf5a030c5aa76c99100">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8df2b24e33f9038bd354d098651172ed182adab11308639bc16322dc037b2cb0">
   
     
       
@@ -1067,7 +1067,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a9a43972fe4d72aac2cfc38bbc134f937dd6c3d37623e5bff48cf2ca77f2fc3e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9d2ca3e0f2182cae1caf0a17fcbef616e9c1b738baed427c35b5b984ad07ccdc">
   
     
       
@@ -1081,7 +1081,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2f3cad1221ffa295478df7b7836bde99090f6d90bb74f9bf003ce1eeaef33ef5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7193a4bdb2a8fd475659dda8bda962e154e9ae28dca0b85cbe065d752ce7d149">
   
     
       
@@ -1333,7 +1333,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-b4e9118e2d3d8b788777557483bdc70b6d190f93810719efd7f7da3945b2ab6b">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-5e126e91c8d31856e3b561445723e532da3b15d2db7f6b64ced326247aee600a">
   
     
       <div class="view-header">
@@ -1424,7 +1424,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9338e3cadc9f079ffd4010dd9ac67c7c120198a3c9cfd7fb895cac92374c3546">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8d1655f60b757af523d4dc030d9ed7b034af6e78c951486ae033f7f0a59b4579">
   
     
       
@@ -1438,7 +1438,7 @@ X-Varnish: 13079209
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f185a2f50bb21a840c6efa0cb357d5a91f897f45f94733009f6761f7d712dbb8">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4e7de4d203768ab5840d7b1aed1d597b48a5194fd6da1b4443761675ff77ede2">
   
     
       
@@ -1514,12 +1514,12 @@ City of Ottawa</p>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2022-07/cap138626.jpg?itok=XEgpI2JZ 1x, /sites/default/files/styles/slider_desktop/public/2022-07/cap138626.jpg?itok=XEgpI2JZ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2022-07/cap138626.jpg?itok=XEgpI2JZ 1x, /sites/default/files/styles/slider_desktop/public/2022-07/cap138626.jpg?itok=XEgpI2JZ 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=mMPP4ha1 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=mMPP4ha1 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=mMPP4ha1 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=mMPP4ha1 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=mMPP4ha1 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=mMPP4ha1 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2022-07/cap138626.jpg?itok=XEgpI2JZ" alt="Kanata Leisure Centre and Wave pool" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2022-07/cap138626.jpg?itok=YLhY6fJg 1x, /sites/default/files/styles/slider_desktop/public/2022-07/cap138626.jpg?itok=YLhY6fJg 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2022-07/cap138626.jpg?itok=YLhY6fJg 1x, /sites/default/files/styles/slider_desktop/public/2022-07/cap138626.jpg?itok=YLhY6fJg 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=Q-yCjH3O 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=Q-yCjH3O 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=Q-yCjH3O 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=Q-yCjH3O 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=Q-yCjH3O 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138626.jpg?itok=Q-yCjH3O 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2022-07/cap138626.jpg?itok=YLhY6fJg" alt="Kanata Leisure Centre and Wave pool" class="img-fluid w-100" />
 
   </picture>
 
@@ -1531,12 +1531,12 @@ City of Ottawa</p>
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/slider_desktop/public/2022-07/cap138627.jpg?itok=XTyvL82X 1x, /sites/default/files/styles/slider_desktop/public/2022-07/cap138627.jpg?itok=XTyvL82X 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_desktop/public/2022-07/cap138627.jpg?itok=XTyvL82X 1x, /sites/default/files/styles/slider_desktop/public/2022-07/cap138627.jpg?itok=XTyvL82X 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=x3bOai1t 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=x3bOai1t 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=x3bOai1t 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=x3bOai1t 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
-              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=x3bOai1t 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=x3bOai1t 2x" type="image/jpeg" width="678" height="678"/>
-                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2022-07/cap138627.jpg?itok=XTyvL82X" alt="Kanata Leisure Centre and Wave pool" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/slider_desktop/public/2022-07/cap138627.jpg?itok=1gNwqLxT 1x, /sites/default/files/styles/slider_desktop/public/2022-07/cap138627.jpg?itok=1gNwqLxT 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_desktop/public/2022-07/cap138627.jpg?itok=1gNwqLxT 1x, /sites/default/files/styles/slider_desktop/public/2022-07/cap138627.jpg?itok=1gNwqLxT 2x" media="all and (min-width: 992px)" type="image/jpeg" width="1000" height="1000"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=-y_fbuG2 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=-y_fbuG2 2x" media="all and (min-width: 768px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=-y_fbuG2 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=-y_fbuG2 2x" media="all and (min-width: 481px)" type="image/jpeg" width="678" height="678"/>
+              <source srcset="/sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=-y_fbuG2 1x, /sites/default/files/styles/slider_mobile/public/2022-07/cap138627.jpg?itok=-y_fbuG2 2x" type="image/jpeg" width="678" height="678"/>
+                  <img loading="lazy" width="1000" height="1000" src="/sites/default/files/styles/slider_desktop/public/2022-07/cap138627.jpg?itok=1gNwqLxT" alt="Kanata Leisure Centre and Wave pool" class="img-fluid w-100" />
 
   </picture>
 
@@ -1551,26 +1551,26 @@ City of Ottawa</p>
 
 <ul class="slides">
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2022-07/cap138626.jpg?itok=85o9XPKn 1x, /sites/default/files/styles/2x_rectangle_xl/public/2022-07/cap138626.jpg?itok=-pxnGVmJ 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="250" height="166"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138626.jpg?itok=vOurcy7K 1x, /sites/default/files/styles/2x_rectangle_lg/public/2022-07/cap138626.jpg?itok=al91ZWXI 2x" media="all and (min-width: 992px)" type="image/jpeg" width="250" height="166"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138626.jpg?itok=vOurcy7K 1x, /sites/default/files/styles/2x_rectangle_lg/public/2022-07/cap138626.jpg?itok=al91ZWXI 2x" media="all and (min-width: 768px)" type="image/jpeg" width="250" height="166"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138626.jpg?itok=vOurcy7K 1x" media="all and (min-width: 641px)" type="image/jpeg" width="250" height="166"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138626.jpg?itok=vOurcy7K 1x" media="all and (min-width: 481px)" type="image/jpeg" width="250" height="166"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138626.jpg?itok=vOurcy7K 1x" type="image/jpeg" width="250" height="166"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2022-07/cap138626.jpg?itok=f5G5lKWJ" alt="Kanata Leisure Centre and Wave pool" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2022-07/cap138626.jpg?itok=pSeDd9s0 1x, /sites/default/files/styles/2x_rectangle_xl/public/2022-07/cap138626.jpg?itok=rjRlxcC7 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="250" height="166"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138626.jpg?itok=ELBUTePQ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2022-07/cap138626.jpg?itok=6QXgTALl 2x" media="all and (min-width: 992px)" type="image/jpeg" width="250" height="166"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138626.jpg?itok=ELBUTePQ 1x, /sites/default/files/styles/2x_rectangle_lg/public/2022-07/cap138626.jpg?itok=6QXgTALl 2x" media="all and (min-width: 768px)" type="image/jpeg" width="250" height="166"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138626.jpg?itok=ELBUTePQ 1x" media="all and (min-width: 641px)" type="image/jpeg" width="250" height="166"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138626.jpg?itok=ELBUTePQ 1x" media="all and (min-width: 481px)" type="image/jpeg" width="250" height="166"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138626.jpg?itok=ELBUTePQ 1x" type="image/jpeg" width="250" height="166"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2022-07/cap138626.jpg?itok=zgB2I6z6" alt="Kanata Leisure Centre and Wave pool" />
 
   </picture>
 </li>
 
 
 <li class="slider-item" tabindex="0">  <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2022-07/cap138627.jpg?itok=Jmty962z 1x, /sites/default/files/styles/2x_rectangle_xl/public/2022-07/cap138627.jpg?itok=V_UIVzJy 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="250" height="166"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138627.jpg?itok=gPlMohGM 1x, /sites/default/files/styles/2x_rectangle_lg/public/2022-07/cap138627.jpg?itok=G8rcvC5J 2x" media="all and (min-width: 992px)" type="image/jpeg" width="250" height="166"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138627.jpg?itok=gPlMohGM 1x, /sites/default/files/styles/2x_rectangle_lg/public/2022-07/cap138627.jpg?itok=G8rcvC5J 2x" media="all and (min-width: 768px)" type="image/jpeg" width="250" height="166"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138627.jpg?itok=gPlMohGM 1x" media="all and (min-width: 641px)" type="image/jpeg" width="250" height="166"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138627.jpg?itok=gPlMohGM 1x" media="all and (min-width: 481px)" type="image/jpeg" width="250" height="166"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138627.jpg?itok=gPlMohGM 1x" type="image/jpeg" width="250" height="166"/>
-                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2022-07/cap138627.jpg?itok=R2oa3aBv" alt="Kanata Leisure Centre and Wave pool" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2022-07/cap138627.jpg?itok=SbHN-2EG 1x, /sites/default/files/styles/2x_rectangle_xl/public/2022-07/cap138627.jpg?itok=5rMSlXnB 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="250" height="166"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138627.jpg?itok=AHfRgzTx 1x, /sites/default/files/styles/2x_rectangle_lg/public/2022-07/cap138627.jpg?itok=i9GtGpgN 2x" media="all and (min-width: 992px)" type="image/jpeg" width="250" height="166"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138627.jpg?itok=AHfRgzTx 1x, /sites/default/files/styles/2x_rectangle_lg/public/2022-07/cap138627.jpg?itok=i9GtGpgN 2x" media="all and (min-width: 768px)" type="image/jpeg" width="250" height="166"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138627.jpg?itok=AHfRgzTx 1x" media="all and (min-width: 641px)" type="image/jpeg" width="250" height="166"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138627.jpg?itok=AHfRgzTx 1x" media="all and (min-width: 481px)" type="image/jpeg" width="250" height="166"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2022-07/cap138627.jpg?itok=AHfRgzTx 1x" type="image/jpeg" width="250" height="166"/>
+                  <img class="img-fluid w-100" src="/sites/default/files/styles/rectangle_xs/public/2022-07/cap138627.jpg?itok=S4XzGC9W" alt="Kanata Leisure Centre and Wave pool" />
 
   </picture>
 </li>

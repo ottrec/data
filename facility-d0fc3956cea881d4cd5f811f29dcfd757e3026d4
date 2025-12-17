@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/dempsey-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=vS58KpDJTiigr45kVVhLk9mhQGkAAAAAQUIPAAAAAABI5n2h5MtJCnthq7DZWGQl; nlbi_243507=i5DqcNJHUg10AY2haXmSIAAAAACDGqGnQIk87CJvXn+qz0bD; incap_ses_1251_243507=Hq/7c8VBjQK3lELxXHJcEdmhQGkAAAAAOh25J55kOTI9Aw6uoCBzjQ==
+Cookie: visid_incap_243507=0IzJdZmWR720C9GTxhnsikXzQWkAAAAAQUIPAAAAAADPRnzqrg1G1vg+vl0heuy+; nlbi_243507=TEsjaxXQZyvMeVvDaXmSIAAAAACHZTz1bOrAqdRa5352TtVQ; incap_ses_887_243507=qsDOUumGFBQ42br8TEJPDEXzQWkAAAAABp66O/UQkTziTSYD5cD8Wg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 570
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 16 Dec 2025 00:04:51 GMT
-Etag: "1765842918-gzip"
+Date: Wed, 17 Dec 2025 00:04:25 GMT
+Etag: "1765929865-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 15 Dec 2025 23:55:18 GMT
+Last-Modified: Wed, 17 Dec 2025 00:04:25 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 12-5265420-5263609 SNNy RT(1765843417963 73088) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 17502496 18060621
+X-Iinfo: 11-8875316-8875317 SNNN RT(1765929797411 67621) q(0 0 0 -1) r(9 9) U24
+X-Varnish: 40376382
 
-c393
+c391
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -58,7 +58,7 @@ c393
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css_G5Mg50aXQMesPwLv_wzgzxGcVXqd3TUO62PzaalJZV8.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdUFtuxCAMvJAbfnofZMAhNAZH2OwmPf2m3a426o81D2vkcRAxtY7bpwuoBOHNM0tA_lA7uLR8dSqpYiaFuFIqJt2XlqhZYImru2CI0smlPjbkCb9wfwpNekUu3wS02xm-vlb-KDAeMsynolFu1A8njaIwyDyXSH6R0dVdiZ9_Is2og5hF9LZQpf8VrtaJxz7dS8pksGHHfFZb9HXJW5lG20bgogsl0EON6vNVt0J3db9zqpIG0wM1WoMA" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031570","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkmSwyAM_BA2l_kPJUDBJMKikEjivD5kVjuHuah6AUnV4JlVtEH9sB4Ejd_xXzidZSJQFN37idgDTaIb5TXtnYIikFBMuGDMys3lNeKqnjhc7A6bwA3tyq0A5QcavOvodbGx9Qo0f1OTmBOhU0g2jfLOZzjD_SgWQ7BxVxezBL5i2yyvGJiG_tjsqxg-nXJAt3BvYvfEnV4LqWIzrBrA6YIF7bhNUGWM4DQmHby3LPbWwP0-33JMqAdDsmIutY31JliBNs1BTIUGaaS4yE8Kf8rc19o9ZVkwmsq1Vye9XXGzezKcGzafHRaP0R7YFCiP8P8_0kW5jOdoRjZRLF8_45rxJvazzoVjJ3wCwljhOg","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"500423f8b6342c3e9f0cd74a82d46404d329b58c47133e6f84b70c96df3c7ff4"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/1031570","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UkmSwyAM_BA2l_kPJUDBJMKikEjivD5kVjuHuah6AUnV4JlVtEH9sB4Ejd_xXzidZSJQFN37idgDTaIb5TXtnYIikFBMuGDMys3lNeKqnjhc7A6bwA3tyq0A5QcavOvodbGx9Qo0f1OTmBOhU0g2jfLOZzjD_SgWQ7BxVxezBL5i2yyvGJiG_tjsqxg-nXJAt3BvYvfEnV4LqWIzrBrA6YIF7bhNUGWM4DQmHby3LPbWwP0-33JMqAdDsmIutY31JliBNs1BTIUGaaS4yE8Kf8rc19o9ZVkwmsq1Vye9XXGzezKcGzafHRaP0R7YFCiP8P8_0kW5jOdoRjZRLF8_45rxJvazzoVjJ3wCwljhOg","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"81830c4ec92ba7de740eae5dfe8d5f7d2289786622ac69a5e155affed52fe577"}}</script>
 <script src="/sites/default/files/js/js_xOM1VJujvfTUFe_pTDMY9LoEj7xJk2vvd7kGQfeYaVc.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?t73srg"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?t73srg"></script>
@@ -194,7 +194,7 @@ c393
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-87fa1c4482cf0c5ad58c91d2192dccd9e33be310e658a3bbff65085b7feee490">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d33aff583c7c1bd1bd1779383ca36d9dd6c7c57f5410de4f08bc68e1ce26dd20">
   
     
       
@@ -208,7 +208,7 @@ c393
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3deb00e92b7af1c0841225bcd498e7c6119b9cba8de8d17e56bc2a03863cce05">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e857ed2a94c897aa64a958944b15451ae29ce60bf4985102edde65bb76340ad4">
   
     
       
@@ -423,13 +423,13 @@ c393
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    <picture>
-                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-10/dempsey_exterior_en.jpg?itok=FezwPBQF 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-10/dempsey_exterior_en.jpg?itok=EYVZcXkD 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="750" height="449"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=Ez7xB5BP 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=t9M4EWGe 2x" media="all and (min-width: 992px)" type="image/jpeg" width="750" height="449"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=Ez7xB5BP 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=t9M4EWGe 2x" media="all and (min-width: 768px)" type="image/jpeg" width="750" height="449"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=Ez7xB5BP 1x" media="all and (min-width: 641px)" type="image/jpeg" width="750" height="449"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=Ez7xB5BP 1x" media="all and (min-width: 481px)" type="image/jpeg" width="750" height="449"/>
-              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=Ez7xB5BP 1x" type="image/jpeg" width="750" height="449"/>
-                  <img loading="eager" width="134" height="80" src="/sites/default/files/styles/rectangle_xs/public/2025-10/dempsey_exterior_en.jpg?itok=mT_js_HV" alt="exterior view of the facility" class="img-fluid w-100" />
+                  <source srcset="/sites/default/files/styles/rectangle_xl/public/2025-10/dempsey_exterior_en.jpg?itok=p23_ppnU 1x, /sites/default/files/styles/2x_rectangle_xl/public/2025-10/dempsey_exterior_en.jpg?itok=ZcdawgMd 2x" media="all and (min-width: 1200px)" type="image/jpeg" width="750" height="449"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=znhty7d8 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=VgNJoyQw 2x" media="all and (min-width: 992px)" type="image/jpeg" width="750" height="449"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=znhty7d8 1x, /sites/default/files/styles/2x_rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=VgNJoyQw 2x" media="all and (min-width: 768px)" type="image/jpeg" width="750" height="449"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=znhty7d8 1x" media="all and (min-width: 641px)" type="image/jpeg" width="750" height="449"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=znhty7d8 1x" media="all and (min-width: 481px)" type="image/jpeg" width="750" height="449"/>
+              <source srcset="/sites/default/files/styles/rectangle_lg/public/2025-10/dempsey_exterior_en.jpg?itok=znhty7d8 1x" type="image/jpeg" width="750" height="449"/>
+                  <img loading="eager" width="134" height="80" src="/sites/default/files/styles/rectangle_xs/public/2025-10/dempsey_exterior_en.jpg?itok=zjBZ1iTR" alt="exterior view of the facility" class="img-fluid w-100" />
 
   </picture>
 
@@ -485,7 +485,7 @@ c393
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e4e9a02f2163fa078f756fb89352ed179cc7ae063306d90dfbe8bdc91a0b78ec">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-abb9a1222ef7f15f3791c8c28807727539c199c2e505d1debd245f95c3ebcaac">
   
     
       
@@ -499,7 +499,7 @@ c393
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c66b94cc964483fe191bad2af1231e41a336163a8bd45415397c2d51464d43ca">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d632d8c86d3192bed5e527085e51f9547e6fa1595dd3fdf61487a344d73afdf2">
   
     
       
@@ -1086,7 +1086,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=34&cb=1935337590" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=34&cb=35330740" async></script></body>
 </html>
 
 
