@@ -8,7 +8,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/albion-heatherington-recreation-centre"
     _date {
-      seconds: 1766102619
+      seconds: 1766188995
     }
   }
   address:
@@ -23,7 +23,8 @@ facilities {
     "<ul>\n"
     "<li><strong>December 20</strong>, 3:30 pm to 11 pm</li>\n"
     "<li><strong>December 21</strong>, 9 am to 3 pm</li>\n"
-    "<li><strong>December 22 to 24</strong>, 9 am to 8 pm</li>\n"
+    "<li><strong>December 22</strong>, 8 am to 8 pm</li>\n"
+    "<li><strong>December 23 and 24</strong>, 9 am to 8 pm</li>\n"
     "<li><strong>December 25 to 27</strong>, closed</li>\n"
     "<li><strong>December 28</strong>, 9 am to 3 pm</li>\n"
     "<li><strong>December 29 to 31</strong>, 9 am to 8 pm</li>\n"
@@ -42,7 +43,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/alexander-community-centre"
     _date {
-      seconds: 1766102621
+      seconds: 1766188996
     }
   }
   address:
@@ -65,7 +66,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/alfred-taylor-recreation-centre"
     _date {
-      seconds: 1766102624
+      seconds: 1766188998
     }
   }
   address:
@@ -85,7 +86,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/aquaview-community-hall"
     _date {
-      seconds: 1766102625
+      seconds: 1766189000
     }
   }
   address:
@@ -104,7 +105,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bayshore-community-building"
     _date {
-      seconds: 1766102627
+      seconds: 1766189003
     }
   }
   address:
@@ -125,7 +126,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/beacon-hill-north-community-centre"
     _date {
-      seconds: 1766102629
+      seconds: 1766189004
     }
   }
   address:
@@ -143,7 +144,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bearbrook-community-building"
     _date {
-      seconds: 1766102631
+      seconds: 1766189006
     }
   }
   address:
@@ -161,7 +162,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bearbrook-pool"
     _date {
-      seconds: 1766102633
+      seconds: 1766189009
     }
   }
   address:
@@ -179,7 +180,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/beaverbrook-pool-kanata"
     _date {
-      seconds: 1766102635
+      seconds: 1766189010
     }
   }
   address:
@@ -197,7 +198,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bell-centennial-arena"
     _date {
-      seconds: 1766102638
+      seconds: 1766189013
     }
   }
   address:
@@ -210,16 +211,41 @@ facilities {
   }
   special_hours_html:
     "<ul>\n"
-    "<li><strong>Tuesday, December 30 </strong>\n"
+    "<li><strong>Wednesday, December 24</strong>\n"
+    "<ul>\n"
+    "<li>Public skate, 4 to 4:50 pm, cancelled</li>\n"
+    "<li>Ringette, 5 to 5:50 pm, cancelled</li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Tuesday, December 30</strong>\n"
     "<ul>\n"
     "<li>Family Skate, 2 to 2:50 pm, added </li>\n"
-    "<li>Public Skate, 3 to 3:50 pm, added </li>\n"
+    "<li>Public Skate, 3 to 3:50 pm, added</li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Wednesday, December 31</strong>\n"
+    "<ul>\n"
+    "<li>Public skate, 4 to 4:50 pm, cancelled</li>\n"
+    "<li>Ringette, 5 to 5:50 pm, cancelled</li>\n"
     "</ul>\n"
     "</li>\n"
     "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Wednesday, December 24</strong>\n"
+      "<ul>\n"
+      "<li>Ringette, 5 to 5:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Wednesday, December 31</strong>\n"
+      "<ul>\n"
+      "<li>Ringette, 5 to 5:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Bell Centennial Arena - ice sports - September 3, 2025 to March 22, 2026"
       _name: "ice sports"
@@ -297,6 +323,25 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Wednesday, December 24</strong>\n"
+      "<ul>\n"
+      "<li>Public skate, 4 to 4:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Tuesday, December 30</strong>\n"
+      "<ul>\n"
+      "<li>Family Skate, 2 to 2:50 pm, added </li>\n"
+      "<li>Public Skate, 3 to 3:50 pm, added</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Wednesday, December 31</strong>\n"
+      "<ul>\n"
+      "<li>Public skate, 4 to 4:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Bell Centennial Arena - skating - September 3, 2025, to March 22, 2026"
       _name: "skating"
@@ -362,7 +407,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/belltown-dome"
     _date {
-      seconds: 1766102640
+      seconds: 1766189016
     }
   }
   address:
@@ -380,7 +425,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ben-franklin-place"
     _date {
-      seconds: 1766102641
+      seconds: 1766189016
     }
   }
   address:
@@ -402,7 +447,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ben-franklin-place-rink"
     _date {
-      seconds: 1766102643
+      seconds: 1766189018
     }
   }
   address:
@@ -427,7 +472,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena"
     _date {
-      seconds: 1766102645
+      seconds: 1766189020
     }
   }
   address:
@@ -609,7 +654,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/billings-estate-national-historic-site"
     _date {
-      seconds: 1766102646
+      seconds: 1766189022
     }
   }
   address:
@@ -632,7 +677,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans"
     _date {
-      seconds: 1766102648
+      seconds: 1766189024
     }
   }
   address:
@@ -7035,7 +7080,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/brewer-pool-and-arena"
     _date {
-      seconds: 1766102651
+      seconds: 1766189026
     }
   }
   address:
@@ -7139,7 +7184,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bridlewood-community-centre"
     _date {
-      seconds: 1766102654
+      seconds: 1766189028
     }
   }
   address:
@@ -7165,7 +7210,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex"
     _date {
-      seconds: 1766102654
+      seconds: 1766189030
     }
   }
   address:
@@ -7476,12 +7521,6 @@ facilities {
         days {
         }
         days {
-          times {
-            label: "9 - 10 am"
-            _start: 540
-            _end: 600
-            _wkday: FRIDAY
-          }
         }
         days {
         }
@@ -9054,7 +9093,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/cardelrec-recreation-complex-goulbourn"
     _date {
-      seconds: 1766102656
+      seconds: 1766189033
     }
   }
   address:
@@ -14561,7 +14600,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/carleton-heights-community-centre"
     _date {
-      seconds: 1766102659
+      seconds: 1766189035
     }
   }
   address:
@@ -14584,7 +14623,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/carlington-recreation-centre"
     _date {
-      seconds: 1766102661
+      seconds: 1766189036
     }
   }
   address:
@@ -14613,7 +14652,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/champagne-fitness-centre"
     _date {
-      seconds: 1766102662
+      seconds: 1766189038
     }
   }
   address:
@@ -14945,9 +14984,9 @@ facilities {
             _wkday: MONDAY
           }
           times {
-            label: "8:30 - 9:30 pm"
-            _start: 1230
-            _end: 1290
+            label: "6:30 am - 7:30 pm"
+            _start: 390
+            _end: 1170
             _wkday: MONDAY
           }
         }
@@ -15181,7 +15220,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/chapman-mills-community-building"
     _date {
-      seconds: 1766102665
+      seconds: 1766189042
     }
   }
   address:
@@ -15204,7 +15243,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/charlie-conacher-community-building"
     _date {
-      seconds: 1766102668
+      seconds: 1766189043
     }
   }
   address:
@@ -15227,7 +15266,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/churchill-seniors-centre"
     _date {
-      seconds: 1766102671
+      seconds: 1766189048
     }
   }
   address:
@@ -15378,7 +15417,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/constance-and-buckhams-bay-community-centre"
     _date {
-      seconds: 1766102673
+      seconds: 1766189049
     }
   }
   address:
@@ -15395,7 +15434,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/corkstown-pool"
     _date {
-      seconds: 1766102675
+      seconds: 1766189052
     }
   }
   address:
@@ -15413,7 +15452,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/crestview-pool"
     _date {
-      seconds: 1766102678
+      seconds: 1766189054
     }
   }
   address:
@@ -15431,7 +15470,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/cumberland-heritage-village-museum"
     _date {
-      seconds: 1766102678
+      seconds: 1766189054
     }
   }
   address:
@@ -15457,7 +15496,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/deborah-anne-kirwan-pool"
     _date {
-      seconds: 1766102681
+      seconds: 1766189058
     }
   }
   address:
@@ -16035,7 +16074,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/dempsey-community-centre"
     _date {
-      seconds: 1766102683
+      seconds: 1766189059
     }
   }
   address:
@@ -16232,7 +16271,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/diane-deans-greenboro-community-centre"
     _date {
-      seconds: 1766102684
+      seconds: 1766189060
     }
   }
   address:
@@ -18543,7 +18582,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/dovercourt-recreation-centre"
     _date {
-      seconds: 1766102686
+      seconds: 1766189062
     }
   }
   address:
@@ -18561,7 +18600,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/earl-armstrong-arena"
     _date {
-      seconds: 1766102690
+      seconds: 1766189064
     }
   }
   address:
@@ -18572,9 +18611,26 @@ facilities {
     lng: 45.4378
     lat: -75.60174
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><strong>Thursday, December 25</strong>\n"
+    "<ul>\n"
+    "<li>Public skate, 3 to 3:50 pm, cancelled</li>\n"
+    "<li>Stick and puck - preschool and child, 4 to 4:50 pm, cancelled</li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Thursday, December 25</strong>\n"
+      "<ul>\n"
+      "<li>Stick and puck - preschool and child, 4 to 4:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Earl Armstrong Arena - ice sports - September 11, 2025 to April 9, 2026"
       _name: "ice sports"
@@ -18628,6 +18684,14 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Thursday, December 25</strong>\n"
+      "<ul>\n"
+      "<li>Public skate, 3 to 3:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Earl Armstrong Arena - skating - September 11, 2025 to April 9, 2026"
       _name: "skating"
@@ -18680,7 +18744,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/entrance-pool"
     _date {
-      seconds: 1766102691
+      seconds: 1766189067
     }
   }
   address:
@@ -18702,7 +18766,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/eva-james-memorial-community-centre"
     _date {
-      seconds: 1766102692
+      seconds: 1766189068
     }
   }
   address:
@@ -20616,7 +20680,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fairfields-heritage-house"
     _date {
-      seconds: 1766102696
+      seconds: 1766189071
     }
   }
   address:
@@ -20636,7 +20700,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fallingbrook-community-centre"
     _date {
-      seconds: 1766102698
+      seconds: 1766189074
     }
   }
   address:
@@ -20657,7 +20721,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fisher-park-community-centre"
     _date {
-      seconds: 1766102700
+      seconds: 1766189075
     }
   }
   address:
@@ -20679,7 +20743,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/foster-farm-community-centre"
     _date {
-      seconds: 1766102702
+      seconds: 1766189078
     }
   }
   address:
@@ -20707,7 +20771,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre"
     _date {
-      seconds: 1766102702
+      seconds: 1766189078
     }
   }
   address:
@@ -22294,9 +22358,9 @@ facilities {
         }
         days {
           times {
-            label: "10:30 am - 3:30 pm"
+            label: "10:30 am - 2:30 pm"
             _start: 630
-            _end: 930
+            _end: 870
             _wkday: TUESDAY
           }
           times {
@@ -26758,7 +26822,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena"
     _date {
-      seconds: 1766102706
+      seconds: 1766189080
     }
   }
   address:
@@ -26771,6 +26835,17 @@ facilities {
   }
   special_hours_html:
     "<ul>\n"
+    "<li><strong>Friday, December 26</strong>\n"
+    "<ul>\n"
+    "<li>Figure skate, 3 to 3:50 pm, cancelled</li>\n"
+    "<li>Hockey - youth, 4 to 4:50 pm, cancelled</li>\n"
+    "<li>Hockey - child, 5 to 5:50 pm, cancelled</li>\n"
+    "<li>Ringette, 6 to 6:50 pm, cancelled</li>\n"
+    "<li>\n"
+    "<p>Public skate, 7 to 7:50 pm, cancelled</p>\n"
+    "</li>\n"
+    "</ul>\n"
+    "</li>\n"
     "<li><strong>Saturday, December 27 </strong>\n"
     "<ul>\n"
     "<li>Family skate, 1 to 1:50 pm, added </li>\n"
@@ -26861,6 +26936,17 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Friday, December 26</strong>\n"
+      "<ul>\n"
+      "<li>Figure skate, 3 to 3:50 pm, cancelled</li>\n"
+      "<li>Hockey - youth, 4 to 4:50 pm, cancelled</li>\n"
+      "<li>Hockey - child, 5 to 5:50 pm, cancelled</li>\n"
+      "<li>Ringette, 6 to 6:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Fred Barrett Arena - ice sports - September 9, 2025, to March 15, 2026"
       _name: "ice sports"
@@ -27019,7 +27105,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/general-burns-pool"
     _date {
-      seconds: 1766102709
+      seconds: 1766189084
     }
   }
   address:
@@ -27037,7 +27123,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/genest-pool"
     _date {
-      seconds: 1766102711
+      seconds: 1766189085
     }
   }
   address:
@@ -27061,7 +27147,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/glebe-community-centre"
     _date {
-      seconds: 1766102713
+      seconds: 1766189087
     }
   }
   address:
@@ -27079,7 +27165,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/glen-cairn-community-centre"
     _date {
-      seconds: 1766102714
+      seconds: 1766189090
     }
   }
   address:
@@ -27097,7 +27183,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/glen-cairn-pool"
     _date {
-      seconds: 1766102716
+      seconds: 1766189091
     }
   }
   address:
@@ -27115,7 +27201,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/greely-community-centre"
     _date {
-      seconds: 1766102718
+      seconds: 1766189093
     }
   }
   address:
@@ -27138,7 +27224,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/heron-road-community-centre"
     _date {
-      seconds: 1766102721
+      seconds: 1766189095
     }
   }
   address:
@@ -27436,7 +27522,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/heron-seniors-centre"
     _date {
-      seconds: 1766102725
+      seconds: 1766189099
     }
   }
   address:
@@ -27454,9 +27540,7 @@ facilities {
     "<li><strong>December 24 to 28</strong>, closed</li>\n"
     "<li><strong>December 29 to 30</strong>, 8 am to 4 pm</li>\n"
     "<li><strong>December 31,</strong> closed</li>\n"
-    "<li><strong>January 1</strong>, closed</li>\n"
-    "<li><strong>January 2</strong>, 8 am to 4 pm</li>\n"
-    "<li><strong>January 3 and 4</strong>, closed</li>\n"
+    "<li><strong>January 1 to 4</strong>, closed</li>\n"
     "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - older adult activities"
@@ -27747,7 +27831,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/hintonburg-community-centre"
     _date {
-      seconds: 1766102725
+      seconds: 1766189100
     }
   }
   address:
@@ -28154,7 +28238,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/howard-darwin-centennial-arena"
     _date {
-      seconds: 1766102727
+      seconds: 1766189102
     }
   }
   address:
@@ -28170,13 +28254,27 @@ facilities {
     "<li><strong>Monday, December 22</strong>\n"
     "<ul>\n"
     "<li>Family skate, 3 to 3:50 pm, added</li>\n"
-    "<li>Public skate, 4 to 4:50 pm, added </li>\n"
+    "<li>Public skate, 4 to 4:50 pm, added</li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Friday, December 26</strong>\n"
+    "<ul>\n"
+    "<li>Family skate, 7 to 7:50 pm, cancelled</li>\n"
+    "<li>Figure skate, 8 to 8:50 pm, cancelled</li>\n"
     "</ul>\n"
     "</li>\n"
     "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Friday, December 26</strong>\n"
+      "<ul>\n"
+      "<li>Figure skate, 8 to 8:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Howard Darwin Centennial Arena - skating - September 5, 2025, to March 22, 2026"
       _name: "skating"
@@ -28230,6 +28328,20 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Monday, December 22</strong>\n"
+      "<ul>\n"
+      "<li>Family skate, 3 to 3:50 pm, added</li>\n"
+      "<li>Public skate, 4 to 4:50 pm, added</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Friday, December 26</strong>\n"
+      "<ul>\n"
+      "<li>Family skate, 7 to 7:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Howard Darwin Centennial Arena - skating - September 5, 2025, to March 22, 2026"
       _name: "skating"
@@ -28332,7 +28444,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/hunt-club-riverside-park-community-centre"
     _date {
-      seconds: 1766102731
+      seconds: 1766189106
     }
   }
   address:
@@ -28350,14 +28462,6 @@ facilities {
     "title=\"https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-sportsplex/nepean-sportsplex-drop-schedule-gym-sports\"><strong>gymnasium "
     "sports schedule</strong></a><strong>.</strong></p>\n"
   special_hours_html:
-    "<ul>\n"
-    "<li><strong>Thursday, December 18</strong>\n"
-    "<ul>\n"
-    "<li>All pickleball cancelled</li>\n"
-    "</ul>\n"
-    "</li>\n"
-    "</ul>\n"
-    "<h3>Winter Break hours</h3>\n"
     "<ul>\n"
     "<li><span><span><strong><span>December 22 and 23</span></strong><span><span>, 7:30 am to 8 pm </span></span></span></span></li>\n"
     "<li><span><span><strong><span>Wednesday, December 24</span></strong><span><span>, 7:30 am to noon </span></span></span></span></li>\n"
@@ -29637,11 +29741,6 @@ facilities {
     _title: "Gymnasium Sports"
     schedule_changes_html:
       "<ul>\n"
-      "<li><strong>Thursday, December 18</strong>\n"
-      "<ul>\n"
-      "<li>All pickleball cancelled</li>\n"
-      "</ul>\n"
-      "</li>\n"
       "<li><strong>Saturday, December 20 to Sunday, January 4</strong>\n"
       "<ul>\n"
       "<li>See <a href=\"https://ottawa.ca/en/hunt-club-riverside-park-community-centre-holiday-drop-schedule\">Winter Break schedule</a>.</li>\n"
@@ -30181,7 +30280,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ja-dulude-arena"
     _date {
-      seconds: 1766102733
+      seconds: 1766189106
     }
   }
   address:
@@ -30192,9 +30291,31 @@ facilities {
     lng: 45.37477
     lat: -75.74637
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><strong>Thursday, December 25</strong>\n"
+    "<ul>\n"
+    "<li>50+ skate, 11 to 11:50 am, cancelled</li>\n"
+    "<li>Public skate, Noon to 12:50 pm, cancelled</li>\n"
+    "<li>Public skate, 6 to 6:50 pm, cancelled</li>\n"
+    "<li>Figure skate, 7 to 7:50 pm, cancelled</li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Thursday, December 25</strong>\n"
+      "<ul>\n"
+      "<li>50+ skate, 11 to 11:50 am, cancelled</li>\n"
+      "<li>Public skate, Noon to 12:50 pm, cancelled</li>\n"
+      "<li>Public skate, 6 to 6:50 pm, cancelled</li>\n"
+      "<li>Figure skate, 7 to 7:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "J.A. Dulude Arena - skating - September 8, 2025 to April 30, 2026"
       _name: "skating"
@@ -30405,7 +30526,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jack-charron-arena"
     _date {
-      seconds: 1766102734
+      seconds: 1766189109
     }
   }
   address:
@@ -30418,10 +30539,10 @@ facilities {
   }
   special_hours_html:
     "<ul>\n"
-    "<li><strong>Sunday, December 14</strong>\n"
+    "<li><strong>Friday, December 26 </strong>\n"
     "<ul>\n"
-    "<li>Family skating 3 to 3:50 pm, cancelled</li>\n"
-    "<li>Public skating 4 to 4:50 pm, cancelled</li>\n"
+    "<li>50+ Skate, 9 to 9:50 am, cancelled </li>\n"
+    "<li>Public skate, 10 to 10:50 am, cancelled </li>\n"
     "</ul>\n"
     "</li>\n"
     "</ul>\n"
@@ -30561,7 +30682,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jack-purcell-community-centre"
     _date {
-      seconds: 1766102737
+      seconds: 1766189112
     }
   }
   address:
@@ -32157,7 +32278,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre"
     _date {
-      seconds: 1766102737
+      seconds: 1766189112
     }
   }
   address:
@@ -32475,7 +32596,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-tubman-chevrolet-rink"
     _date {
-      seconds: 1766102739
+      seconds: 1766189114
     }
   }
   address:
@@ -32515,80 +32636,84 @@ facilities {
         label: "Public skating"
         _name: "public skate"
         days {
-          times {
-            label: "4:15 - 6 pm"
-            _start: 975
-            _end: 1080
-            _wkday: SUNDAY
-          }
         }
         days {
           times {
-            label: "8 - 10:30 am"
-            _start: 480
-            _end: 630
-            _wkday: MONDAY
-          }
-          times {
-            label: "4:45 - 6 pm"
-            _start: 1005
-            _end: 1080
+            label: "Noon - 1 pm"
+            _start: 720
+            _end: 780
             _wkday: MONDAY
           }
         }
         days {
-          times {
-            label: "8 - 10:30 am"
-            _start: 480
-            _end: 630
-            _wkday: TUESDAY
-          }
-          times {
-            label: "2:15 - 4:30 pm"
-            _start: 855
-            _end: 990
-            _wkday: TUESDAY
-          }
         }
         days {
-          times {
-            label: "10 am - 2 pm"
-            _start: 600
-            _end: 840
-            _wkday: WEDNESDAY
-          }
+        }
+        days {
         }
         days {
         }
         days {
           times {
-            label: "10 am - 2 pm"
-            _start: 600
-            _end: 840
-            _wkday: FRIDAY
+            label: "5 - 6 pm"
+            _start: 1020
+            _end: 1080
+            _wkday: SATURDAY
           }
         }
         days {
+        }
+      }
+      activities {
+        label: "Family skating"
+        _name: "family skate"
+        days {
+        }
+        days {
+        }
+        days {
+        }
+        days {
+        }
+        days {
+        }
+        days {
+        }
+        days {
           times {
-            label: "10 am - noon"
-            _start: 600
+            label: "4 - 5 pm"
+            _start: 960
+            _end: 1020
+            _wkday: SATURDAY
+          }
+        }
+        days {
+        }
+      }
+      activities {
+        label: "Adult skating"
+        _name: "adult skate"
+        days {
+        }
+        days {
+          times {
+            label: "11 am - noon"
+            _start: 660
             _end: 720
-            _wkday: SATURDAY
-          }
-          times {
-            label: "4:15 - 6 pm"
-            _start: 975
-            _end: 1080
-            _wkday: SATURDAY
+            _wkday: MONDAY
           }
         }
         days {
-          times {
-            label: "4:15 - 6 pm"
-            _start: 975
-            _end: 1080
-            _wkday: SUNDAY
-          }
+        }
+        days {
+        }
+        days {
+        }
+        days {
+        }
+        days {
+        }
+        days {
         }
       }
       activities {
@@ -32939,69 +33064,83 @@ facilities {
         _name: "public skate"
         days {
           times {
-            label: "8 - 10:30 am"
-            _start: 480
-            _end: 630
+            label: "Noon - 1 pm"
+            _start: 720
+            _end: 780
             _wkday: MONDAY
           }
+        }
+        days {
+        }
+        days {
+        }
+        days {
+        }
+        days {
           times {
-            label: "4:45 - 6 pm"
-            _start: 1005
+            label: "Noon - 1 pm"
+            _start: 720
+            _end: 780
+            _wkday: FRIDAY
+          }
+        }
+        days {
+          times {
+            label: "5 - 6 pm"
+            _start: 1020
             _end: 1080
-            _wkday: MONDAY
+            _wkday: SATURDAY
           }
         }
+      }
+      activities {
+        label: "Family skating"
+        _name: "family skate"
         days {
-          times {
-            label: "8 - 10:30 am"
-            _start: 480
-            _end: 630
-            _wkday: TUESDAY
-          }
-          times {
-            label: "2:15 - 4:30 pm"
-            _start: 855
-            _end: 990
-            _wkday: TUESDAY
-          }
         }
         days {
-          times {
-            label: "10 am - 2 pm"
-            _start: 600
-            _end: 840
-            _wkday: WEDNESDAY
-          }
+        }
+        days {
+        }
+        days {
         }
         days {
         }
         days {
           times {
-            label: "8 - 10:30 am"
-            _start: 480
-            _end: 630
-            _wkday: FRIDAY
-          }
-          times {
-            label: "6:15 - 8 pm"
-            _start: 1095
-            _end: 1200
-            _wkday: FRIDAY
+            label: "4 - 5 pm"
+            _start: 960
+            _end: 1020
+            _wkday: SATURDAY
           }
         }
+      }
+      activities {
+        label: "Adult skating"
+        _name: "adult skate"
         days {
           times {
-            label: "10 am - noon"
-            _start: 600
+            label: "11 am - noon"
+            _start: 660
             _end: 720
-            _wkday: SATURDAY
+            _wkday: MONDAY
           }
+        }
+        days {
+        }
+        days {
+        }
+        days {
+        }
+        days {
           times {
-            label: "4:15 - 6 pm"
-            _start: 975
-            _end: 1080
-            _wkday: SATURDAY
+            label: "11 am - noon"
+            _start: 660
+            _end: 720
+            _wkday: FRIDAY
           }
+        }
+        days {
         }
       }
       activities {
@@ -33742,7 +33881,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/john-g-mlacak-centre"
     _date {
-      seconds: 1766102743
+      seconds: 1766189117
     }
   }
   address:
@@ -33753,9 +33892,32 @@ facilities {
     lng: 45.32146
     lat: -75.89541
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><strong>Thursday, December 25</strong>\n"
+    "<ul>\n"
+    "<li>Public skating, 7 to  7:50 pm, cancelled </li>\n"
+    "<li>Figure skating - 18+, 8 to 8:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Saturday, December 27</strong>\n"
+    "<ul>\n"
+    "<li>Family skating, 6 to 6:50 pm, cancelled </li>\n"
+    "<li>Public skating, 7 to 7:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Thursday, December 25</strong>\n"
+      "<ul>\n"
+      "<li>Figure skating - 18+, 8 to 8:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "John G Mlacak - ice sports - September 6, 2025 to March 30, 2026"
       _name: "john g mlacak - ice sports"
@@ -33809,6 +33971,20 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Thursday, December 25</strong>\n"
+      "<ul>\n"
+      "<li>Public skating, 7 to  7:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Saturday, December 27</strong>\n"
+      "<ul>\n"
+      "<li>Family skating, 6 to 6:50 pm, cancelled </li>\n"
+      "<li>Public skating, 7 to 7:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "John G Mlacak - skating - September 6, 2025 to March 30, 2026"
       _name: "john g mlacak - skating"
@@ -33892,7 +34068,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/johnny-leroux-stittsville-community-arena"
     _date {
-      seconds: 1766102745
+      seconds: 1766189118
     }
   }
   address:
@@ -33912,7 +34088,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kanata-leisure-centre-and-wave-pool"
     _date {
-      seconds: 1766102748
+      seconds: 1766189120
     }
   }
   address:
@@ -34241,6 +34417,12 @@ facilities {
         days {
         }
         days {
+          times {
+            label: "10:30 - 11:30 am"
+            _start: 630
+            _end: 690
+            _wkday: FRIDAY
+          }
         }
         days {
         }
@@ -34445,7 +34627,7 @@ facilities {
     _title: "Group Fitness"
     schedule_changes_html:
       "<ul>\n"
-      "<li><span><span><strong><span>Monday, December 22 to Friday, January 4</span></strong></span></span>\n"
+      "<li><span><span><strong><span>Monday, December 22 to Sunday, January 4</span></strong></span></span>\n"
       "<ul>\n"
       "<li><span><span><span><span>See <a href=\"https://ottawa.ca/en/kanata-leisure-centre-and-wave-pool-holiday-drop-schedule\">Winter Break schedule</a>.</span></span></span></span></li>\n"
       "</ul>\n"
@@ -34713,7 +34895,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kanata-seniors-centre"
     _date {
-      seconds: 1766102749
+      seconds: 1766189122
     }
   }
   address:
@@ -35399,7 +35581,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kars-recreation-hall"
     _date {
-      seconds: 1766102751
+      seconds: 1766189125
     }
   }
   address:
@@ -35419,7 +35601,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/katimavik-pool"
     _date {
-      seconds: 1766102753
+      seconds: 1766189128
     }
   }
   address:
@@ -35441,7 +35623,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ken-ross-park-field-house"
     _date {
-      seconds: 1766102756
+      seconds: 1766189130
     }
   }
   address:
@@ -35461,7 +35643,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kenmore-community-centre"
     _date {
-      seconds: 1766102757
+      seconds: 1766189132
     }
   }
   address:
@@ -35485,7 +35667,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lansdowne-park"
     _date {
-      seconds: 1766102758
+      seconds: 1766189132
     }
   }
   address:
@@ -35560,7 +35742,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/larkin-house-community-centre"
     _date {
-      seconds: 1766102761
+      seconds: 1766189136
     }
   }
   address:
@@ -35578,7 +35760,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lindenlea-community-centre"
     _date {
-      seconds: 1766102763
+      seconds: 1766189138
     }
   }
   address:
@@ -35596,7 +35778,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lois-kemp-arena-blackburn"
     _date {
-      seconds: 1766102765
+      seconds: 1766189138
     }
   }
   address:
@@ -35615,16 +35797,41 @@ facilities {
     "<li>Public Skate, 1 to 1:50 pm, added</li>\n"
     "</ul>\n"
     "</li>\n"
+    "<li><strong>Wednesday, December 24</strong>\n"
+    "<ul>\n"
+    "<li>Public skate, 3 to 3:50 pm, cancelled</li>\n"
+    "<li>Hockey - child, 4 to 4:50 pm, cancelled</li>\n"
+    "</ul>\n"
+    "</li>\n"
     "<li><strong>Saturday, December 27 </strong>\n"
     "<ul>\n"
     "<li>Family Skate, 2 to 2:50 pm, added </li>\n"
     "<li>Public Skate, 3 to 3:50 pm, added</li>\n"
     "</ul>\n"
     "</li>\n"
+    "<li><strong>Wednesday, December 31</strong>\n"
+    "<ul>\n"
+    "<li>Public skate, 3 to 3:50 pm, cancelled</li>\n"
+    "<li>Hockey - child, 4 to 4:50 pm, cancelled</li>\n"
+    "</ul>\n"
+    "</li>\n"
     "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Wednesday, December 24</strong>\n"
+      "<ul>\n"
+      "<li>Hockey - child, 4 to 4:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Wednesday, December 31</strong>\n"
+      "<ul>\n"
+      "<li>Hockey - child, 4 to 4:50 pm, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Lois Kemp Arena (Blackburn) - ice sports - November 3, 2025, to March 29, 2026"
       _name: "ice sports"
@@ -35825,7 +36032,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool"
     _date {
-      seconds: 1766102766
+      seconds: 1766189142
     }
   }
   address:
@@ -35843,7 +36050,9 @@ facilities {
   special_hours_html:
     "<ul>\n"
     "<li><span><span><strong><span>December 24 to 26</span></strong><span><span>, closed</span></span></span></span></li>\n"
+    "<li><span><span><span><span><strong>December 27 and 28,</strong> 9 am to 4 pm</span></span></span></span></li>\n"
     "<li><span><span><strong><span>December 31 and January 1</span></strong><span><span>, closed</span></span></span></span></li>\n"
+    "<li><span><span><span><strong>January 3 and 4, </strong>9 am to 4 pm</span></span></span></li>\n"
     "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - Winter break"
@@ -37062,8 +37271,8 @@ facilities {
         }
         days {
           times {
-            label: "1:30 - 2:30 pm"
-            _start: 810
+            label: "12:30 - 2:30 pm"
+            _start: 750
             _end: 870
             _wkday: SATURDAY
           }
@@ -37087,34 +37296,22 @@ facilities {
         days {
         }
         days {
-          times {
-            label: "6 - 7 pm"
-            _start: 1080
-            _end: 1140
-            _wkday: THURSDAY
-          }
         }
         days {
           times {
-            label: "7 - 9 pm"
+            label: "7 - 10 pm"
             _start: 1140
-            _end: 1260
+            _end: 1320
             _wkday: FRIDAY
           }
         }
         days {
-          times {
-            label: "5:30 - 8:30 pm"
-            _start: 1050
-            _end: 1230
-            _wkday: SATURDAY
-          }
         }
         days {
           times {
-            label: "2 - 6 pm"
-            _start: 840
-            _end: 1080
+            label: "4:15 - 6:15 pm"
+            _start: 975
+            _end: 1095
             _wkday: SUNDAY
           }
         }
@@ -37134,9 +37331,9 @@ facilities {
         }
         days {
           times {
-            label: "10:30 am - 1:30 pm"
+            label: "10:30 am - 12:30 pm"
             _start: 630
-            _end: 810
+            _end: 750
             _wkday: SATURDAY
           }
         }
@@ -37148,25 +37345,25 @@ facilities {
         _name: "pickleball"
         days {
           times {
-            label: "8:30 - 11:30 am"
+            label: "8:30 - 10:30 am"
             _start: 510
-            _end: 690
+            _end: 630
             _wkday: MONDAY
           }
         }
         days {
           times {
-            label: "8:30 - 11:30 am"
-            _start: 510
-            _end: 690
+            label: "5:45 - 7:45 pm"
+            _start: 1065
+            _end: 1185
             _wkday: TUESDAY
           }
         }
         days {
           times {
-            label: "8:30 - 11:30 am"
+            label: "8:30 - 12:30 pm"
             _start: 510
-            _end: 690
+            _end: 750
             _wkday: WEDNESDAY
           }
         }
@@ -37187,8 +37384,20 @@ facilities {
           }
         }
         days {
+          times {
+            label: "5 - 9 pm"
+            _start: 1020
+            _end: 1260
+            _wkday: SATURDAY
+          }
         }
         days {
+          times {
+            label: "Noon - 4 pm"
+            _start: 720
+            _end: 960
+            _wkday: SUNDAY
+          }
         }
       }
     }
@@ -37200,7 +37409,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/manor-park-community-centre"
     _date {
-      seconds: 1766102769
+      seconds: 1766189144
     }
   }
   address:
@@ -37218,7 +37427,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/manotick-community-centre-and-mike-oneil-arena"
     _date {
-      seconds: 1766102772
+      seconds: 1766189146
     }
   }
   address:
@@ -37230,6 +37439,16 @@ facilities {
     lat: -75.68659
   }
   special_hours_html:
+    "<ul>\n"
+    "<li><strong>Wednesday, December 24 </strong>\n"
+    "<ul>\n"
+    "<li>Skating 50+, 9 to 9:50 am, cancelled </li>\n"
+    "<li>Public skating, 10 to 10:50 am, cancelled </li>\n"
+    "<li>Hockey 18+, 11 to 11:50 am, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
+    "<h3>Holiday skates</h3>\n"
     "<ul>\n"
     "<li><strong>Sunday, December 28 </strong>\n"
     "<ul>\n"
@@ -37247,6 +37466,14 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Wednesday, December 24 </strong>\n"
+      "<ul>\n"
+      "<li>Hockey 18+, 11 to 11:50 am, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Mike O'Neil Arena - hockey - September 2, 2025, to March 29, 2026"
       _name: "mike o'neil arena - hockey"
@@ -37300,6 +37527,15 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Wednesday, December 24 </strong>\n"
+      "<ul>\n"
+      "<li>Skating 50+, 9 to 9:50 am, cancelled </li>\n"
+      "<li>Public skating, 10 to 10:50 am, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Mike O'Neil Arena - skating - September 2, 2025, to March 29, 2026"
       _name: "mike o'neil arena - skating"
@@ -37422,7 +37658,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/margaret-rywak-community-building"
     _date {
-      seconds: 1766102773
+      seconds: 1766189148
     }
   }
   address:
@@ -37445,7 +37681,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/mcnabb-arena-and-community-centre"
     _date {
-      seconds: 1766102777
+      seconds: 1766189150
     }
   }
   address:
@@ -37456,9 +37692,48 @@ facilities {
     lng: 45.40931
     lat: -75.70174
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><strong>Wednesday, December 24 </strong>\n"
+    "<ul>\n"
+    "<li>Stick and puck - preschool and child, 5 to 5:50 pm, cancelled </li>\n"
+    "<li>Public skate, 6 to 6:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Wednesday, December 31 </strong>\n"
+    "<ul>\n"
+    "<li>Stick and puck - preschool and child, 5 to 5:50 pm, cancelled </li>\n"
+    "<li>Public skate, 6 to 6:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Friday, December 26 </strong>\n"
+    "<ul>\n"
+    "<li>Stick and puck - youth and adult, 4 to 4:50 pm, cancelled </li>\n"
+    "<li>Public skate, 5 to 5:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Wednesday, December 24 </strong>\n"
+      "<ul>\n"
+      "<li>Stick and puck - preschool and child, 5 to 5:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Wednesday, December 31 </strong>\n"
+      "<ul>\n"
+      "<li>Stick and puck - preschool and child, 5 to 5:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Friday, December 26 </strong>\n"
+      "<ul>\n"
+      "<li>Stick and puck - youth and adult, 4 to 4:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "McNabb Arena - ice sports - September 24, 2025 to March 30, 2026"
       _name: "ice sports"
@@ -37536,6 +37811,24 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Wednesday, December 24 </strong>\n"
+      "<ul>\n"
+      "<li>Public skate, 6 to 6:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Wednesday, December 31 </strong>\n"
+      "<ul>\n"
+      "<li>Public skate, 6 to 6:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Friday, December 26 </strong>\n"
+      "<ul>\n"
+      "<li>Public skate, 5 to 5:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "McNabb Arena - skating - September 24, 2025, to March 30, 2026"
       _name: "skating"
@@ -37625,7 +37918,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/meridian-theatres-centrepointe"
     _date {
-      seconds: 1766102778
+      seconds: 1766189153
     }
   }
   address:
@@ -37645,7 +37938,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/metcalfe-community-centre-and-larry-robinson-arena"
     _date {
-      seconds: 1766102781
+      seconds: 1766189155
     }
   }
   address:
@@ -37656,9 +37949,38 @@ facilities {
     lng: 45.22967
     lat: -75.46917
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><strong>Thursday, December 25 </strong>\n"
+    "<ul>\n"
+    "<li>Family skating, 4 to 4:50 pm, cancelled </li>\n"
+    "<li>Public skating, 5 to 5:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Friday, December 26 </strong>\n"
+    "<ul>\n"
+    "<li>Family skating, 3 to 3:50 pm, cancelled </li>\n"
+    "<li>Child Hockey (6 to 12 years), 4 to 4:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Thursday, December 25 </strong>\n"
+      "<ul>\n"
+      "<li>Family skating, 4 to 4:50 pm, cancelled </li>\n"
+      "<li>Public skating, 5 to 5:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Friday, December 26 </strong>\n"
+      "<ul>\n"
+      "<li>Family skating, 3 to 3:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Larry Robinson Arena - skating - October 16, 2025 to April 4, 2026"
       _name: "larry robinson arena - skating"
@@ -37751,6 +38073,14 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Friday, December 26 </strong>\n"
+      "<ul>\n"
+      "<li>Child Hockey (6 to 12 years), 4 to 4:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Larry Robinson Arena - ice sports - October 16, 2025, to April 4, 2026"
       _name: "larry robinson arena - ice sports"
@@ -37810,7 +38140,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/michele-heights-community-centre"
     _date {
-      seconds: 1766102783
+      seconds: 1766189157
     }
   }
   address:
@@ -37841,7 +38171,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven"
     _date {
-      seconds: 1766102784
+      seconds: 1766189158
     }
   }
   address:
@@ -43285,7 +43615,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/navan-memorial-centre"
     _date {
-      seconds: 1766102787
+      seconds: 1766189161
     }
   }
   address:
@@ -43296,9 +43626,38 @@ facilities {
     lng: 45.42134
     lat: -75.42137
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><strong>Monday, December 29</strong>\n"
+    "<ul>\n"
+    "<li>Family skating, 4 to 4:50 pm, cancelled </li>\n"
+    "<li>Public skating, 5 to 5:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Thursday, December 25 </strong>\n"
+    "<ul>\n"
+    "<li>Public skating, 4 to 4:50 pm, cancelled </li>\n"
+    "<li>Child hockey (6 to 12 years), 5 to 5:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Sunday, December 28</strong>\n"
+    "<ul>\n"
+    "<li>Family skating, 1 to 1:50 pm, cancelled </li>\n"
+    "<li>Public skating, 2 to 2:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Thursday, December 25 </strong>\n"
+      "<ul>\n"
+      "<li>Child hockey (6 to 12 years), 5 to 5:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Navan Memorial Centre - ice sports - November 17, 2025 to March 23, 2026"
       _name: "ice sports"
@@ -43352,6 +43711,26 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Monday, December 29</strong>\n"
+      "<ul>\n"
+      "<li>Family skating, 4 to 4:50 pm, cancelled </li>\n"
+      "<li>Public skating, 5 to 5:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Thursday, December 25 </strong>\n"
+      "<ul>\n"
+      "<li>Public skating, 4 to 4:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Sunday, December 28</strong>\n"
+      "<ul>\n"
+      "<li>Family skating, 1 to 1:50 pm, cancelled </li>\n"
+      "<li>Public skating, 2 to 2:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Navan Memorial Centre - skating - November 17, 2025 to March 23, 2026"
       _name: "skating"
@@ -43452,7 +43831,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-creative-arts-centre"
     _date {
-      seconds: 1766102789
+      seconds: 1766189164
     }
   }
   address:
@@ -43470,7 +43849,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-museum"
     _date {
-      seconds: 1766102792
+      seconds: 1766189164
     }
   }
   address:
@@ -43487,7 +43866,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-seniors-centre"
     _date {
-      seconds: 1766102794
+      seconds: 1766189167
     }
   }
   address:
@@ -43499,9 +43878,27 @@ facilities {
     lng: 45.32726
     lat: -75.744705
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><span><span><strong><span>December 24 to 26</span></strong><span><span>, closed</span></span></span></span></li>\n"
+    "<li><span><span><strong><span>December 31 and January 1</span></strong><span><span>, closed</span></span></span></span></li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in activities"
     _title: "Drop-In Activities"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><span><span><strong><span>December 25 and 26</span></strong></span></span>\n"
+      "<ul>\n"
+      "<li><span><span><span><span>The facility is closed and all programs cancelled.</span></span></span></span></li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><span><span><strong><span>Thursday, January 1</span></strong></span></span>\n"
+      "<ul>\n"
+      "<li><span><span><span><span>The facility is closed and all programs cancelled.</span></span></span></span></li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Nepean Seniors Centre"
       days: "Monday"
@@ -43839,7 +44236,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-sportsplex"
     _date {
-      seconds: 1766102794
+      seconds: 1766189168
     }
   }
   address:
@@ -48676,7 +49073,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-visual-arts-centre"
     _date {
-      seconds: 1766102796
+      seconds: 1766189172
     }
   }
   address:
@@ -48687,6 +49084,10 @@ facilities {
     lng: 45.32726
     lat: -75.744705
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><strong><span><strong><span>December 20 to January 12</span></strong></span></strong><span><span><span>, closed</span></span></span></li>\n"
+    "</ul>\n"
 }
 facilities {
   name: "Old Town Hall Community Centre"
@@ -48698,7 +49099,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/old-town-hall-community-centre"
     _date {
-      seconds: 1766102801
+      seconds: 1766189173
     }
   }
   address:
@@ -48716,7 +49117,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/osgoode-community-centre-and-stuart-holmes-arena"
     _date {
-      seconds: 1766102801
+      seconds: 1766189175
     }
   }
   address:
@@ -48893,7 +49294,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ottawa-south-community-centre"
     _date {
-      seconds: 1766102804
+      seconds: 1766189178
     }
   }
   address:
@@ -48917,7 +49318,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/overbrook-community-centre"
     _date {
-      seconds: 1766102806
+      seconds: 1766189179
     }
   }
   address:
@@ -49249,7 +49650,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pat-clark-community-centre"
     _date {
-      seconds: 1766102808
+      seconds: 1766189181
     }
   }
   address:
@@ -49277,7 +49678,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex"
     _date {
-      seconds: 1766102809
+      seconds: 1766189182
     }
   }
   address:
@@ -49296,6 +49697,8 @@ facilities {
     "<li><span><span><strong><span>Saturday, December 27</span></strong><span><span>, 9:30 am to 2:30 pm</span></span></span></span></li>\n"
     "<li><span><span><strong><span>Sunday, December 28</span></strong><span><span>, 11:30 am to 4 pm</span></span></span></span></li>\n"
     "<li><span><span><strong><span>December 31 and January 1</span></strong><span><span>, closed</span></span></span></span></li>\n"
+    "<li><strong>Saturday, January 3</strong>, 9:30 am to 2:30 pm</li>\n"
+    "<li><strong>Sunday, January 4</strong>, 11:30 am to 4 pm</li>\n"
     "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - Winter Break"
@@ -49842,11 +50245,11 @@ facilities {
       }
     }
     schedules {
-      caption: "Pinecrest Recreation Complex - all drop-in activities - December 27 to January 2"
+      caption: "Pinecrest Recreation Complex - all drop-in activities - December 27 to January 4"
       _name: "all drop-in activities"
-      _date: "December 27 to January 2"
+      _date: "December 27 to January 4"
       _from: 12270
-      _to: 1020
+      _to: 1040
       days: "Saturday, December 27"
       days: "Sunday, December 28"
       days: "Monday, December 29"
@@ -49854,6 +50257,8 @@ facilities {
       days: "Wednesday, December 31"
       days: "Thursday, January 1"
       days: "Friday, January 2"
+      days: "Saturday, January 3"
+      days: "Sunday, January 4"
       _daydates: 12277
       _daydates: 12281
       _daydates: 12292
@@ -49861,6 +50266,8 @@ facilities {
       _daydates: 12314
       _daydates: 1015
       _daydates: 1026
+      _daydates: 1037
+      _daydates: 1041
       activities {
         label: "Public Swim *Reservations not required."
         _name: "public swim"
@@ -49901,6 +50308,22 @@ facilities {
             _start: 750
             _end: 810
             _wkday: FRIDAY
+          }
+        }
+        days {
+          times {
+            label: "12:30 - 1:45 pm"
+            _start: 750
+            _end: 825
+            _wkday: SATURDAY
+          }
+        }
+        days {
+          times {
+            label: "12:30 - 1:45 pm"
+            _start: 750
+            _end: 825
+            _wkday: SUNDAY
           }
         }
       }
@@ -50011,6 +50434,22 @@ facilities {
             _wkday: FRIDAY
           }
         }
+        days {
+          times {
+            label: "11:30 am - 12:30 pm"
+            _start: 690
+            _end: 750
+            _wkday: SATURDAY
+          }
+        }
+        days {
+          times {
+            label: "11:30 am - 12:30 pm"
+            _start: 690
+            _end: 750
+            _wkday: SUNDAY
+          }
+        }
       }
       activities {
         label: "Aqua General - Shallow"
@@ -50076,6 +50515,10 @@ facilities {
             _end: 630
             _wkday: FRIDAY
           }
+        }
+        days {
+        }
+        days {
         }
       }
       activities {
@@ -50143,6 +50586,10 @@ facilities {
             _wkday: FRIDAY
           }
         }
+        days {
+        }
+        days {
+        }
       }
       activities {
         label: "Women's Only Swim *Reservations not required."
@@ -50167,6 +50614,10 @@ facilities {
             _end: 1095
             _wkday: FRIDAY
           }
+        }
+        days {
+        }
+        days {
         }
       }
       activities {
@@ -50217,6 +50668,22 @@ facilities {
             _wkday: FRIDAY
           }
         }
+        days {
+          times {
+            label: "9:30 am - 2:30 pm"
+            _start: 570
+            _end: 870
+            _wkday: SATURDAY
+          }
+        }
+        days {
+          times {
+            label: "11:30 am - 4 pm"
+            _start: 690
+            _end: 960
+            _wkday: SUNDAY
+          }
+        }
       }
       activities {
         label: "Yoga"
@@ -50259,6 +50726,16 @@ facilities {
             _wkday: FRIDAY
           }
         }
+        days {
+          times {
+            label: "10:30 - 11:30 am"
+            _start: 630
+            _end: 690
+            _wkday: SATURDAY
+          }
+        }
+        days {
+        }
       }
       activities {
         label: "Cardio and Strength 50+"
@@ -50274,6 +50751,10 @@ facilities {
             _end: 870
             _wkday: MONDAY
           }
+        }
+        days {
+        }
+        days {
         }
         days {
         }
@@ -50307,6 +50788,10 @@ facilities {
         }
         days {
         }
+        days {
+        }
+        days {
+        }
       }
       activities {
         label: "Strength Circuit 50+"
@@ -50331,6 +50816,10 @@ facilities {
             _wkday: FRIDAY
           }
         }
+        days {
+        }
+        days {
+        }
       }
       activities {
         label: "Core Conditioning 50+"
@@ -50354,6 +50843,10 @@ facilities {
             _end: 690
             _wkday: TUESDAY
           }
+        }
+        days {
+        }
+        days {
         }
         days {
         }
@@ -50388,6 +50881,16 @@ facilities {
         days {
         }
         days {
+        }
+        days {
+        }
+        days {
+          times {
+            label: "9:30 - 10:30 am"
+            _start: 570
+            _end: 630
+            _wkday: SATURDAY
+          }
         }
         days {
         }
@@ -50428,6 +50931,22 @@ facilities {
         }
         days {
         }
+        days {
+        }
+        days {
+          times {
+            label: "2 - 2:50 pm"
+            _start: 840
+            _end: 890
+            _wkday: SUNDAY
+          }
+          times {
+            label: "3 - 3:50 pm"
+            _start: 900
+            _end: 950
+            _wkday: SUNDAY
+          }
+        }
       }
       activities {
         label: "Public skate 50+ *Reservations not required."
@@ -50444,6 +50963,10 @@ facilities {
             _end: 710
             _wkday: MONDAY
           }
+        }
+        days {
+        }
+        days {
         }
         days {
         }
@@ -50477,6 +51000,10 @@ facilities {
         }
         days {
         }
+        days {
+        }
+        days {
+        }
       }
       activities {
         label: "Pick-up Hockey 50+"
@@ -50492,6 +51019,10 @@ facilities {
             _end: 650
             _wkday: MONDAY
           }
+        }
+        days {
+        }
+        days {
         }
         days {
         }
@@ -50517,7 +51048,7 @@ facilities {
     _title: "Swim And Aquafit"
     schedule_changes_html:
       "<ul>\n"
-      "<li><span><span><strong><span>Saturday, December 20 to Friday, January 2</span></strong></span></span>\n"
+      "<li><span><span><strong><span>Saturday, December 20 to Sunday, January 4</span></strong></span></span>\n"
       "<ul>\n"
       "<li><span><span><span><span>See <a href=\"https://ottawa.ca/en/pinecrest-recreation-complex-holiday-drop-schedule\">Winter Break schedule</a>.</span></span></span></span></li>\n"
       "</ul>\n"
@@ -50960,10 +51491,10 @@ facilities {
       }
     }
     schedules {
-      caption: "Pinecrest Recreation Complex - swimming and aquafit - January 3 to March 22"
+      caption: "Pinecrest Recreation Complex - swimming and aquafit - January 5 to March 22"
       _name: "swimming and aquafit"
-      _date: "January 3 to March 22"
-      _from: 1030
+      _date: "January 5 to March 22"
+      _from: 1050
       _to: 3220
       days: "Monday"
       days: "Tuesday"
@@ -51100,12 +51631,6 @@ facilities {
             label: "10:30 - 11:30 am"
             _start: 630
             _end: 690
-            _wkday: WEDNESDAY
-          }
-          times {
-            label: "11:30 am - 12:30 pm"
-            _start: 690
-            _end: 750
             _wkday: WEDNESDAY
           }
           times {
@@ -51315,7 +51840,7 @@ facilities {
     _title: "Weight And Cardio Room"
     schedule_changes_html:
       "<ul>\n"
-      "<li><strong>Saturday, December 20 to Friday, January 2</strong>\n"
+      "<li><strong>Saturday, December 20 to Sunday, January 4</strong>\n"
       "<ul>\n"
       "<li>See <a href=\"https://ottawa.ca/en/pinecrest-recreation-complex-holiday-drop-schedule\">Winter Break schedule</a>.</li>\n"
       "</ul>\n"
@@ -51404,10 +51929,10 @@ facilities {
       }
     }
     schedules {
-      caption: "Pinecrest Recreation Complex - weight and cardio room - January 3 to March 22"
+      caption: "Pinecrest Recreation Complex - weight and cardio room - January 5 to March 22"
       _name: "weight and cardio room"
-      _date: "January 3 to March 22"
-      _from: 1030
+      _date: "January 5 to March 22"
+      _from: 1050
       _to: 3220
       days: "Monday"
       days: "Tuesday"
@@ -51492,7 +52017,7 @@ facilities {
     _title: "Group Fitness"
     schedule_changes_html:
       "<ul>\n"
-      "<li><strong>Saturday, December 20 to Friday, January 2</strong>\n"
+      "<li><strong>Saturday, December 20 to Sunday, January 4</strong>\n"
       "<ul>\n"
       "<li>See <a href=\"https://ottawa.ca/en/pinecrest-recreation-complex-holiday-drop-schedule\">Winter Break schedule</a>.</li>\n"
       "</ul>\n"
@@ -51784,10 +52309,10 @@ facilities {
       }
     }
     schedules {
-      caption: "Pinecrest Recreation Complex - group fitness - January 3 to March 22"
+      caption: "Pinecrest Recreation Complex - group fitness - January 5 to March 22"
       _name: "group fitness"
-      _date: "January 3 to March 22"
-      _from: 1030
+      _date: "January 5 to March 22"
+      _from: 1050
       _to: 3220
       days: "Monday"
       days: "Tuesday"
@@ -52102,7 +52627,7 @@ facilities {
     _title: "Skating"
     schedule_changes_html:
       "<ul>\n"
-      "<li><strong>Saturday, December 20 to Friday, January 2</strong>\n"
+      "<li><strong>Saturday, December 20 to Sunday, January 4</strong>\n"
       "<ul>\n"
       "<li>See <a href=\"https://ottawa.ca/en/pinecrest-recreation-complex-holiday-drop-schedule\">Winter Break schedule</a>.</li>\n"
       "</ul>\n"
@@ -52226,10 +52751,10 @@ facilities {
       }
     }
     schedules {
-      caption: "Pinecrest Recreation Complex - skating - January 3 to March 22"
+      caption: "Pinecrest Recreation Complex - skating - January 5 to March 22"
       _name: "skating"
-      _date: "January 3 to March 22"
-      _from: 1030
+      _date: "January 5 to March 22"
+      _from: 1050
       _to: 3220
       days: "Monday"
       days: "Tuesday"
@@ -52349,7 +52874,7 @@ facilities {
     _title: "Ice Sports"
     schedule_changes_html:
       "<ul>\n"
-      "<li><strong>Saturday, December 20 to Friday, January 2</strong>\n"
+      "<li><strong>Saturday, December 20 to Sunday, January 4</strong>\n"
       "<ul>\n"
       "<li>See <a href=\"https://ottawa.ca/en/pinecrest-recreation-complex-holiday-drop-schedule\">Winter Break schedule</a>.</li>\n"
       "</ul>\n"
@@ -52425,10 +52950,10 @@ facilities {
       }
     }
     schedules {
-      caption: "Pinecrest Recreation Complex - ice sports - January 3 to March 22"
+      caption: "Pinecrest Recreation Complex - ice sports - January 5 to March 22"
       _name: "ice sports"
-      _date: "January 3 to March 22"
-      _from: 1030
+      _date: "January 5 to March 22"
+      _from: 1050
       _to: 3220
       days: "Monday"
       days: "Tuesday"
@@ -52504,7 +53029,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinheys-point-historic-site-0"
     _date {
-      seconds: 1766102813
+      seconds: 1766189185
     }
   }
   address:
@@ -52527,7 +53052,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/plant-recreation-centre"
     _date {
-      seconds: 1766102813
+      seconds: 1766189186
     }
   }
   address:
@@ -52556,10 +53081,9 @@ facilities {
     "<li><strong>December 22 and 23</strong>, 6:45 am to 9:30 pm</li>\n"
     "<li><strong>December 24</strong>, 6:45 am to 4 pm</li>\n"
     "<li><strong>December 25 and 26</strong>, closed</li>\n"
-    "<li><strong>December 27</strong>, 8:30 am to 9 pm</li>\n"
-    "<li><strong>December 28</strong>, 8:30 to 5 pm </li>\n"
-    "<li><strong>December 29</strong>, 6:45 am to 9:30 pm</li>\n"
-    "<li><strong>December 30</strong>, 6:45 am to 9:30 pm</li>\n"
+    "<li><strong>December 27</strong>, 8:30 am to 7 pm</li>\n"
+    "<li><strong>December 28</strong>, 8:30 to 5:30 pm </li>\n"
+    "<li><strong>December 29 and</strong> <strong>30</strong>, 6:45 am to 9:30 pm</li>\n"
     "<li><strong>December 31</strong>, 6:45 to 4 pm</li>\n"
     "<li><strong>January 1</strong>, closed</li>\n"
     "<li><strong>January 2</strong>, 6:45 am to 9:30 pm</li>\n"
@@ -52650,8 +53174,8 @@ facilities {
             _wkday: WEDNESDAY
           }
           times {
-            label: "10:30 am - 1 pm"
-            _start: 630
+            label: "11:30 am - 1 pm"
+            _start: 690
             _end: 780
             _wkday: WEDNESDAY
           }
@@ -53086,8 +53610,8 @@ facilities {
         }
       }
       activities {
-        label: "Stretch"
-        _name: "stretch"
+        label: "Yoga"
+        _name: "yoga"
         days {
           times {
             label: "Noon - 1 pm"
@@ -53631,7 +54155,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/rj-kennedy-community-centre-and-arena"
     _date {
-      seconds: 1766102816
+      seconds: 1766189189
     }
   }
   address:
@@ -53642,9 +54166,27 @@ facilities {
     lng: 45.51445
     lat: -75.40368
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><strong>Saturday, December 27</strong>\n"
+    "<ul>\n"
+    "<li>Public skating, 3 to 3:50 pm, cancelled </li>\n"
+    "<li>Public skating, 4 to 4:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Saturday, December 27</strong>\n"
+      "<ul>\n"
+      "<li>Public skating, 3 to 3:50 pm, cancelled </li>\n"
+      "<li>Public skating, 4 to 4:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "R.J. Kennedy Arena - skating - September 14, 2025 to March 21, 2026"
       _name: "r.j. kennedy arena - skating"
@@ -53704,7 +54246,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex"
     _date {
-      seconds: 1766102817
+      seconds: 1766189190
     }
   }
   address:
@@ -53717,17 +54259,12 @@ facilities {
   }
   special_hours_html:
     "<ul>\n"
-    "<li><strong>Thursday, December 18</strong>\n"
-    "<ul>\n"
-    "<li>The sauna is closed for maintenance.</li>\n"
-    "</ul>\n"
-    "</li>\n"
-    "</ul>\n"
-    "<h3><strong><span><strong><span>Winter Break hours</span></strong></span></strong></h3>\n"
-    "<ul>\n"
+    "<li><strong><span><strong><span>December 22 and 23, </span></strong></span></strong>6 am to 9 pm</li>\n"
     "<li><strong><span><strong><span>Wednesday, December 24</span></strong></span></strong><span><span><span>, 6 am to noon</span></span></span></li>\n"
     "<li><strong><span><strong><span>Thursday, December 25</span></strong></span></strong><span><span><span>, closed</span></span></span></li>\n"
     "<li><strong><span><strong><span>Friday, December 26</span></strong></span></strong><span><span><span>, 8 am to 4 pm</span></span></span></li>\n"
+    "<li><strong>December 27 and 28, </strong>8 am to 8 pm</li>\n"
+    "<li><strong>December 29 and 30, </strong>6 am to 9 pm</li>\n"
     "<li><strong><span><strong><span>Wednesday, December 31</span></strong></span></strong><span><span><span>, 6 am to noon</span></span></span></li>\n"
     "<li><strong><span><strong><span>Thursday, January 1</span></strong></span></strong><span><span><span>, closed</span></span></span></li>\n"
     "</ul>\n"
@@ -54075,8 +54612,8 @@ facilities {
         }
         days {
           times {
-            label: "8 am - noon"
-            _start: 480
+            label: "6 am - noon"
+            _start: 360
             _end: 720
             _wkday: WEDNESDAY
           }
@@ -54085,9 +54622,9 @@ facilities {
         }
         days {
           times {
-            label: "6 am - 9 pm"
-            _start: 360
-            _end: 1260
+            label: "8 am - 4 pm"
+            _start: 480
+            _end: 960
             _wkday: FRIDAY
           }
         }
@@ -54371,9 +54908,9 @@ facilities {
         _name: "yoga"
         days {
           times {
-            label: "10 - 11:55 am"
+            label: "10 - 10:55 am"
             _start: 600
-            _end: 715
+            _end: 655
             _wkday: MONDAY
           }
         }
@@ -54399,9 +54936,9 @@ facilities {
         }
         days {
           times {
-            label: "10 - 11:55 am"
-            _start: 600
-            _end: 715
+            label: "10:15 - 11:10 am"
+            _start: 615
+            _end: 670
             _wkday: SATURDAY
           }
         }
@@ -54604,8 +55141,8 @@ facilities {
             _wkday: TUESDAY
           }
           times {
-            label: "6 - 8 am"
-            _start: 360
+            label: "7 - 8 am"
+            _start: 420
             _end: 480
             _wkday: TUESDAY
           }
@@ -54906,8 +55443,8 @@ facilities {
         }
         days {
           times {
-            label: "8 am - noon"
-            _start: 480
+            label: "6 am - noon"
+            _start: 360
             _end: 720
             _wkday: WEDNESDAY
           }
@@ -55220,9 +55757,9 @@ facilities {
         _name: "yoga"
         days {
           times {
-            label: "10 - 11:55 am"
+            label: "10 - 10:55 am"
             _start: 600
-            _end: 715
+            _end: 655
             _wkday: MONDAY
           }
         }
@@ -55260,9 +55797,9 @@ facilities {
         }
         days {
           times {
-            label: "10 - 11:55 am"
-            _start: 600
-            _end: 715
+            label: "10:15 - 11:10 am"
+            _start: 615
+            _end: 670
             _wkday: SATURDAY
           }
         }
@@ -57735,7 +58272,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata"
     _date {
-      seconds: 1766102819
+      seconds: 1766189192
     }
   }
   address:
@@ -58356,6 +58893,18 @@ facilities {
         label: "Badminton doubles - adult"
         _name: "badminton doubles - adult"
         days {
+          times {
+            label: "11 am - noon"
+            _start: 660
+            _end: 720
+            _wkday: MONDAY
+          }
+          times {
+            label: "Noon - 1 pm"
+            _start: 720
+            _end: 780
+            _wkday: MONDAY
+          }
         }
         days {
         }
@@ -63399,7 +63948,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richelieu-vanier-community-centre"
     _date {
-      seconds: 1766102821
+      seconds: 1766189195
     }
   }
   address:
@@ -63601,7 +64150,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richmond-memorial-community-centre"
     _date {
-      seconds: 1766102826
+      seconds: 1766189198
     }
   }
   address:
@@ -63614,6 +64163,16 @@ facilities {
   }
   special_hours_html:
     "<ul>\n"
+    "<li><strong>Thursday, December 25 </strong>\n"
+    "<ul>\n"
+    "<li>Stick and puck (youth and adult), 3 to 3:50 pm, cancelled </li>\n"
+    "<li>Child hockey (6 to 12 years), 4 to 4:50 pm, cancelled </li>\n"
+    "<li>Public skating, 5 to 5:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
+    "<h3>Holiday skates</h3>\n"
+    "<ul>\n"
     "<li><strong>Tuesday, December 30 </strong>\n"
     "<ul>\n"
     "<li>Family Skate, 11 to 11:50 am, added </li>\n"
@@ -63624,6 +64183,14 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Thursday, December 25 </strong>\n"
+      "<ul>\n"
+      "<li>Public skating, 5 to 5:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Richmond Memorial Arena - skating - October 6, 2025, to March 28, 2026"
       _name: "richmond memorial arena - skating"
@@ -63710,6 +64277,15 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Thursday, December 25 </strong>\n"
+      "<ul>\n"
+      "<li>Stick and puck (youth and adult), 3 to 3:50 pm, cancelled </li>\n"
+      "<li>Child hockey (6 to 12 years), 4 to 4:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Richmond Memorial Arena - ice sports - October 6, 2025, to March 28, 2026"
       _name: "richmond memorial arena - ice sports"
@@ -63795,7 +64371,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/rideauview-community-centre"
     _date {
-      seconds: 1766102827
+      seconds: 1766189198
     }
   }
   address:
@@ -64364,7 +64940,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/rockcliffe-park-community-centre"
     _date {
-      seconds: 1766102832
+      seconds: 1766189204
     }
   }
   address:
@@ -64387,7 +64963,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ron-kolbus-lakeside-centre"
     _date {
-      seconds: 1766102833
+      seconds: 1766189204
     }
   }
   address:
@@ -64414,7 +64990,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/routhier-community-centre"
     _date {
-      seconds: 1766102835
+      seconds: 1766189207
     }
   }
   address:
@@ -64759,7 +65335,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"
     _date {
-      seconds: 1766102837
+      seconds: 1766189208
     }
   }
   address:
@@ -64932,7 +65508,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-community-centre"
     _date {
-      seconds: 1766102838
+      seconds: 1766189210
     }
   }
   address:
@@ -64949,7 +65525,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sawmill-creek-community-centre-and-pool"
     _date {
-      seconds: 1766102840
+      seconds: 1766189213
     }
   }
   address:
@@ -65988,7 +66564,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/shenkman-arts-centre"
     _date {
-      seconds: 1766102842
+      seconds: 1766189215
     }
   }
   address:
@@ -66015,7 +66591,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/south-fallingbrook-community-centre"
     _date {
-      seconds: 1766102844
+      seconds: 1766189216
     }
   }
   address:
@@ -66544,7 +67120,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/southpointe-community-building"
     _date {
-      seconds: 1766102847
+      seconds: 1766189219
     }
   }
   address:
@@ -66569,7 +67145,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/splash-wave-pool"
     _date {
-      seconds: 1766102848
+      seconds: 1766189220
     }
   }
   address:
@@ -67857,7 +68433,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex"
     _date {
-      seconds: 1766102850
+      seconds: 1766189222
     }
   }
   address:
@@ -69899,7 +70475,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tanglewood-community-centre"
     _date {
-      seconds: 1766102853
+      seconds: 1766189226
     }
   }
   address:
@@ -69926,7 +70502,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/terry-fox-athletic-facility"
     _date {
-      seconds: 1766102855
+      seconds: 1766189227
     }
   }
   address:
@@ -69946,7 +70522,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena"
     _date {
-      seconds: 1766102856
+      seconds: 1766189230
     }
   }
   address:
@@ -69957,9 +70533,48 @@ facilities {
     lng: 45.40779
     lat: -75.72285
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><strong>Wednesday, December 24 </strong>\n"
+    "<ul>\n"
+    "<li>Figure skating, 8 to 8:50 pm, cancelled </li>\n"
+    "<li>Adult 18+ skating, 9 to 9:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Wednesday, December 31 </strong>\n"
+    "<ul>\n"
+    "<li>Figure skating, 8 to 8:50 pm, cancelled </li>\n"
+    "<li>Adult 18+, 9 to 9:50 pm, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Thursday, December 25 </strong>\n"
+    "<ul>\n"
+    "<li>Public skating, 10 to 10:50 am, cancelled </li>\n"
+    "<li>Hockey 18+, 11 to 11:50 am, cancelled </li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Wednesday, December 24 </strong>\n"
+      "<ul>\n"
+      "<li>Figure skating, 8 to 8:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Wednesday, December 31 </strong>\n"
+      "<ul>\n"
+      "<li>Figure skating, 8 to 8:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Thursday, December 25 </strong>\n"
+      "<ul>\n"
+      "<li>Hockey 18+, 11 to 11:50 am, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Tom Brown Arena - ice sports - September 3, 2025, to April 29, 2026"
       _name: "ice sports"
@@ -70061,6 +70676,24 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Wednesday, December 24 </strong>\n"
+      "<ul>\n"
+      "<li>Adult 18+ skating, 9 to 9:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Wednesday, December 31 </strong>\n"
+      "<ul>\n"
+      "<li>Adult 18+, 9 to 9:50 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Thursday, December 25 </strong>\n"
+      "<ul>\n"
+      "<li>Public skating, 10 to 10:50 am, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Tom Brown Arena - skating - September 3, 2025, to April 29, 2026"
       _name: "skating"
@@ -70179,7 +70812,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tony-graham-recreation-complex-kanata"
     _date {
-      seconds: 1766102859
+      seconds: 1766189232
     }
   }
   address:
@@ -70531,7 +71164,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/vernon-recreation-centre"
     _date {
-      seconds: 1766102861
+      seconds: 1766189234
     }
   }
   address:
@@ -70548,7 +71181,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/w-erskine-johnston-arena"
     _date {
-      seconds: 1766102863
+      seconds: 1766189236
     }
   }
   address:
@@ -70561,20 +71194,37 @@ facilities {
   }
   special_hours_html:
     "<ul>\n"
-    "<li><strong>Friday, November 28</strong>\n"
+    "<li><strong>Tuesday, December 30</strong>\n"
     "<ul>\n"
-    "<li>All skating and ice sports drop-ins are cancelled.</li>\n"
+    "<li>Pick-up hockey 35+, 9:30 to 10:20 am, cancelled </li>\n"
+    "<li>Pick-up hockey 50+, 10:30 to 11:20 am, cancelled </li>\n"
+    "<li>Public skating, 11:30 am to 12:20 pm, cancelled </li>\n"
     "</ul>\n"
     "</li>\n"
-    "<li><strong>Sunday, November 30</strong>\n"
+    "<li><strong>Friday, December 26 </strong>\n"
     "<ul>\n"
-    "<li>Public skating, 2 to 3:50 pm, cancelled</li>\n"
+    "<li>Pick-up hockey 50+, 9:30 to 11:20 am, cancelled </li>\n"
+    "<li>Public skating, 11:30 am to 6 pm, cancelled </li>\n"
+    "<li>Stick and puck - youth and adult, 12:30 to 1:20 pm, cancelled </li>\n"
     "</ul>\n"
     "</li>\n"
     "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Tuesday, December 30</strong>\n"
+      "<ul>\n"
+      "<li>Public skating, 11:30 am to 12:20 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Friday, December 26 </strong>\n"
+      "<ul>\n"
+      "<li>Public skating, 11:30 am to 6 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "W. Erskine Johnston Arena - skating - October 10, 2025 to March 31, 2026"
       _name: "skating"
@@ -70643,6 +71293,21 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Tuesday, December 30</strong>\n"
+      "<ul>\n"
+      "<li>Pick-up hockey 35+, 9:30 to 10:20 am, cancelled </li>\n"
+      "<li>Pick-up hockey 50+, 10:30 to 11:20 am, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Friday, December 26 </strong>\n"
+      "<ul>\n"
+      "<li>Pick-up hockey 50+, 9:30 to 11:20 am, cancelled </li>\n"
+      "<li>Stick and puck - youth and adult, 12:30 to 1:20 pm, cancelled </li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "W. Erskine Johnston Arena - ice sports - October 10, 2025, to March 31, 2026"
       _name: "ice sports"
@@ -70758,7 +71423,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre"
     _date {
-      seconds: 1766102864
+      seconds: 1766189236
     }
   }
   address:
@@ -70778,6 +71443,14 @@ facilities {
     "</li>\n"
     "</ul>\n"
   special_hours_html:
+    "<ul>\n"
+    "<li><strong>December 26 to 28</strong>\n"
+    "<ul>\n"
+    "<li>All drop-in public skating, cancelled</li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
+    "<h3>Winter Break hours</h3>\n"
     "<ul>\n"
     "<li><span><span><strong><span>December 24 and 25</span></strong><span><span>, closed</span></span></span></span></li>\n"
     "<li><span><span><strong><span>Friday, December 26</span></strong><span><span>, 8 am to 5 pm</span></span></span></span></li>\n"
@@ -74233,6 +74906,11 @@ facilities {
     _title: "Skating"
     schedule_changes_html:
       "<ul>\n"
+      "<li><strong>December 26 to 28</strong>\n"
+      "<ul>\n"
+      "<li>All drop-in public skating, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
       "<li><span><span><strong><span>Saturday, December 20 to Sunday, January 4</span></strong></span></span>\n"
       "<ul>\n"
       "<li><span><span><span><span>See <a href=\"https://ottawa.ca/en/walter-baker-sports-centre-holiday-drop-schedule\">Winter Break schedule</a>.</span></span></span></span></li>\n"
@@ -74318,7 +74996,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/westcliffe-community-building"
     _date {
-      seconds: 1766102868
+      seconds: 1766189239
     }
   }
   address:
