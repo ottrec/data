@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ja-dulude-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=u3BbaomeS1+RQKjhQmyI9siKSGkAAAAAQUIPAAAAAABnqRhS/cufsCiEghXfWNhj; nlbi_243507=PMEEA3UtCQ7+jC5taXmSIAAAAAA0C+XpQjPXzDFqo1I2+dsO; incap_ses_482_243507=9WolFrr5DCcKLfD+72iwBsiKSGkAAAAAb6dDXk6lrcoBYke6qYXQQg==
+Cookie: visid_incap_243507=1sGHMn6wQzCOd2bZNeuniVLcSWkAAAAAQUIPAAAAAAAsXdSE9k2nKnmft6owEQ0t; nlbi_243507=eHkHEr4FOQKnouz+aXmSIAAAAAAxzKmvN4DkWKeosFN4nIZM; incap_ses_1700_243507=WYdNQ1ANbUktQrMPmJ2XF1PcSWkAAAAAUp3mDIkeykicvj9/uy5ekg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 557
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 22 Dec 2025 00:05:16 GMT
-Etag: "1766361358-gzip"
+Date: Tue, 23 Dec 2025 00:05:27 GMT
+Etag: "1766448326-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 21 Dec 2025 23:55:58 GMT
+Last-Modified: Tue, 23 Dec 2025 00:05:26 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 10-36321198-36321202 SNNy RT(1766361801502 115097) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 120562690 120192063
+X-Iinfo: 57-134277416-134277429 SNNy RT(1766448210997 115725) q(0 1 1 -1) r(10 10) U24
+X-Varnish: 58186954
 
-d639
+d64f
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ d639
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-21aece5dea9cf3b362b667933b266fa48ac3dccff8382c1dbfc8a89b8a13669a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c688fcd2938ca1a6c30bb79e936111675b7668071778a8a31e1c9c4925d3301e">
   
     
       
@@ -208,7 +208,7 @@ d639
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b5f64a12e6399ebfc5731ade96dc425a7cf8b0d9ed6b854580682be023f64f82">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7f1e60e342ab86b7b23f00c353df733c6eb96d71e4ae561162f1f9a8654daf2e">
   
     
       
@@ -531,7 +531,7 @@ d639
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9f3f0c0612d1d9b367faa5a9e87dca70ef30b0b6ac31462a8c398ec5455e7d8e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-df7354b3f59b0540b3243e57cdfb2f5b9e0eab8ded961e62f045f8c23a051cfa">
   
     
       
@@ -545,7 +545,7 @@ d639
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-42b4d7b2f0d3f881012d8fe8fe3c35de64b132666cb1fa366ae6ffea15e891ce">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6ab8635549c0fdbb98e071ebd69819a53d7e8373d0efdc583b3696e6b1e08859">
   
     
       
@@ -824,7 +824,7 @@ d639
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-60f1b883b2b4e64a37dd561147ad77d1896bbceca03056bc462a6966f796cc03">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-caeeba075299fac82d099c0e8ddd3344ac16a0eec125e1881fae3c673aa44c00">
   
     
       <div class="view-header">
@@ -1181,14 +1181,14 @@ d639
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/chalkmark/o5fcdnbx">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -1203,7 +1203,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t7hdku" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=58&cb=549308997" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=58&cb=2116316420" async></script></body>
 </html>
 
 
