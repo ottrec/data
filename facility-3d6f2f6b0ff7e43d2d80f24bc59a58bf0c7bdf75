@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=Zwy34ZaXScawmSp4VbyzzMktS2kAAAAAQUIPAAAAAAAdgy83AY7ZKZYHiDHW0Vp8; nlbi_243507=TT2icGpCAnw+Wc7YaXmSIAAAAACR95j9yT+h2L3sDQ6YxmfF; incap_ses_76_243507=B/OQS0ilRW1h1AJeFAIOAcktS2kAAAAA/gwNnO3volADgfp/uqiLqA==
+Cookie: visid_incap_243507=dRZe3vweSY2RPswtxfARnVJ/TGkAAAAAQUIPAAAAAAAMiRaKlQi0ffzWFbp6CLF1; nlbi_243507=UauRDYgXGQKeG2qSaXmSIAAAAAAH/4tJBkUNwphxMj2U6jFp; incap_ses_100_243507=tNgzcB95f282WrnliEVjAVJ/TGkAAAAARIMJBzr/XDi5RWaa5m0I2w==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 441
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 24 Dec 2025 00:06:35 GMT
-Etag: "1766534793-gzip"
+Date: Thu, 25 Dec 2025 00:06:43 GMT
+Etag: "1766620760-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 24 Dec 2025 00:06:33 GMT
+Last-Modified: Wed, 24 Dec 2025 23:59:20 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 10-49154345-49154348 SNNN RT(1766534602707 190862) q(0 1 1 -1) r(17 17) U24
-X-Varnish: 58947441
+X-Iinfo: 30-58676311-58676312 SNNN RT(1766621010719 192838) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 59716758 59716495
 
-1ad07
+1a855
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 58947441
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex" />
 <meta name="dcterms.title" content="Pinecrest Recreation Complex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-12-23" />
+<meta name="dcterms.date" content="2025-12-24" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2f0fd34a3d0f3d8552bfd1297ed354bebf3848c0b8bc6726f30593e05ba72a69">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7d9108dec41a556e04ec80439671c9a299c738ddcc5c2a04b87365134f63ed96">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-03b6c2535ea4bf7f113a2cf57ceea74249d4e596409ae29f4fd08886dd1e1949">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4a4cb7d5858d72e9821736d7bf10933f5c059c2c63ea2fcc5888a0192b592d70">
   
     
       
@@ -290,12 +290,15 @@ X-Varnish: 58947441
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><span><span><strong><span>December 24 to 26</span></strong><span><span>, closed</span></span></span></span></li>
-<li><span><span><strong><span>Saturday, December 27</span></strong><span><span>, 9:30 am to 2:30 pm</span></span></span></span></li>
-<li><span><span><strong><span>Sunday, December 28</span></strong><span><span>, 11:30 am to 4 pm</span></span></span></span></li>
-<li><span><span><strong><span>December 31 and January 1</span></strong><span><span>, closed</span></span></span></span></li>
-<li><strong>Saturday, January 3</strong>, 9:30 am to 2:30 pm</li>
-<li><strong>Sunday, January 4</strong>, 11:30 am to 4 pm</li>
+<li>December 24 to 26, closed  &nbsp;</li>
+<li>December 27,&nbsp;9:30 am&nbsp;to&nbsp;2:30 pm      &nbsp;</li>
+<li>December 28,&nbsp;11:30 am&nbsp;to&nbsp;4 pm  &nbsp;</li>
+<li>December 29, 7:30 am&nbsp;to&nbsp;9 pm  &nbsp;</li>
+<li>December 30,&nbsp;6:30 am&nbsp;to&nbsp;9 pm  &nbsp;</li>
+<li>December 31 and January 1, closed  &nbsp;</li>
+<li>January 2, 7:30 am&nbsp;to&nbsp;9 pm  &nbsp;</li>
+<li>January 3,&nbsp;9:30 am&nbsp;to&nbsp;2:30 pm&nbsp; &nbsp;</li>
+<li>January 4,&nbsp;11:30 am&nbsp;to&nbsp;4 pm&nbsp;</li>
 </ul>
 </div>
       
@@ -486,7 +489,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-249e6770784d11eb26b002c5d56436cd9bda0f98be563addbbd33ed226b3b260">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0c21024375e66098cccbb1ac8dad66d27532979d2afc8591f6669bf1c7d43846">
   
     
       
@@ -500,7 +503,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-145df708373fe4672bd0466aeaf5236367ea42889a2c903ca7ddcc5d173a6d34">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-67e543c729cf1ca36ccd2d0a01bf3f6b3c3fa9052b9748e888fe97c8b1d4f125">
   
     
       
@@ -1042,7 +1045,7 @@ X-Varnish: 58947441
 			<td>n/a</td>
 		</tr>
 		<tr>
-			<th>Women’s Only Swim
+			<th>Women’s Only Family Swim
 			*Reservations not required.&nbsp;</th>
 			<td>n/a</td>
 			<td>n/a</td>
@@ -1386,7 +1389,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4200ee6bbe2336c7f4711e9c3a668620d810666472259d95e44d9fb07a4779ef">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0459b155610ad044e36d97a8232d6b512c681b9e89078d37d519d9e898368f33">
   
     
       
@@ -1400,7 +1403,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1e9dc9dedc77ae5faf1296054a253241fb5db47cfbc3da26cc8a2947b1a8ec1d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-acfeec7e381ff930202ddf12da22e180152c8cf0fe6af56af9e17863e1fa52de">
   
     
       
@@ -1655,7 +1658,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e4444a1be24579f6f07355888630213cb13936c54b24750af3139237084862d7">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7736c355b3f8bdbe1b69a033674ea78a049886dec0c901582cf4afadf00bb467">
   
     
       
@@ -1669,7 +1672,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ef442f14619554c4caa4c26b5b6672069d9fa3c7f1512f59f36e289c86b7900b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cc29f495c59b0d8e85a2da416ab008be75edf62158c00f5fac4f60917a41aed1">
   
     
       
@@ -1710,71 +1713,6 @@ X-Varnish: 58947441
 </ul>
 </div>
       
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr">
-	<caption>Pinecrest Recreation Complex - weight and cardio room - September 6 to December 19</caption>
-	<thead>
-		<tr>
-			<td>
-			&nbsp;
-			</td>
-			<th>
-			Monday&nbsp;
-			</th>
-			<th>
-			Tuesday&nbsp;
-			</th>
-			<th>
-			Wednesday&nbsp;
-			</th>
-			<th>
-			Thursday&nbsp;
-			</th>
-			<th>
-			Friday&nbsp;
-			</th>
-			<th>
-			Saturday&nbsp;
-			</th>
-			<th>
-			Sunday&nbsp;
-			</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th>
-			Weight and cardio room *Reservations not required.&nbsp;
-			</th>
-			<td>
-			7:30 am – 9 pm&nbsp;
-			</td>
-			<td>
-			6:30 am – 9 pm&nbsp;
-			</td>
-			<td>
-			7:30 am – 9 pm&nbsp;
-			</td>
-			<td>
-			6:30 am – 9 pm&nbsp;
-
-			&nbsp;
-			</td>
-			<td>
-			7:30 am – 9 pm&nbsp;
-			</td>
-			<td>
-			7:30 am – 3 pm&nbsp;
-			</td>
-			<td>
-			9 am – 4:30 pm&nbsp;
-			</td>
-		</tr>
-	</tbody>
-</table></div>
-      </div>
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
@@ -1910,7 +1848,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-27970494f246712ac6608aedff754347a2e44432843e21a6a05c1ea9ac90024c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-11ec65b7685ddf0a56b66c2c5f751d5f69582e26a0ac9f683c7ab16e24cf4f6e">
   
     
       
@@ -1924,7 +1862,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cdd2f91c452ce367f0827f9da4d2b8fab17b9edaf4827f74cc768b811c33404d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-99af98b173a8e8542d2fc0d7836bce3ede78ea25aae3e4bb72c302be0c557e62">
   
     
       
@@ -2288,7 +2226,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3dd853c2464f9b861c24d587963f819a4a84dc08859749d9df93e48eee804072">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fc563c3aa09b4a963f28cece2c494a1894c81ea51b7355ad56c82ffc7acf95ce">
   
     
       
@@ -2302,7 +2240,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6d1ff0739054f96f4e7495649a4f2a7a10c1ceec1338e66332d15a5d9ed2e07a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-14decb2261aa6768b1c090c3f5b271c6b7c41093468231d39d28d9621868bd8a">
   
     
       
@@ -2531,7 +2469,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5f84749298b6a838fcb0276c27747805634a00d6f5711a30d7034f42ed2b19ad">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-532a58f655dfcae96ea5d68a17ce509dc80757c73001913d04cd6f5bd993bc7b">
   
     
       
@@ -2545,7 +2483,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e9ba1ac8a43206ab0edcdbc81c303e67ed1600aab67d440ddfbadda5a297744e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-365bcc433e9ab027ba11ddc2e97f76bef3d3f1df9d777bfd7b4adfbebddfd53a">
   
     
       
@@ -2788,7 +2726,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-b82fc0a48968bcf83e9f49f91817c546a0edb3b610f41b0d78256ae9a61e9930">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-1518ada66d586904b81f1bfb78deaa4aef1c40fdf5ff7e9bef2f88675c90fa59">
   
     
       <div class="view-header">
@@ -2879,7 +2817,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0bbbe3a2362b6d51875e0ef25a4aee09f9c2aac8b609bfd37e1dd8b8c1976b9e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2edcdc52651ed4dc73d1cc3916cb3c562d649d997fbacd97565e6ddf6af6b47b">
   
     
       
@@ -2893,7 +2831,7 @@ X-Varnish: 58947441
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c003f0d3a4e3f420c689988b6254efa9476583cdb0b05ea7ce8a108826067a58">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-99152e9ad4204d27d09ee84efab4e157fc7c7285f2b455366e72f5675ef481f3">
   
     
       
