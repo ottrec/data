@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/deborah-anne-kirwan-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=CqvlKjC5SWaU4btNgW7knXPFUWkAAAAAQUIPAAAAAACpoPSiUta1svXMYF26QmsW; nlbi_243507=8osaNNuZUl9U7qX0aXmSIAAAAAC+QisClyzk3wzPkT+d87bE; incap_ses_1286_243507=z3fJCgQrsFV/k9cxwMrYEXPFUWkAAAAAS9R8VEE+WKji4gAs2fdWng==
+Cookie: visid_incap_243507=C8jYAC1DSpCfmoxjzsI/+NgWU2kAAAAAQUIPAAAAAAB72lsI+CYJSSM/MYzrOzfZ; nlbi_243507=Z6LyR2UCFgBR7TmIaXmSIAAAAAARay/3w4Ocs1eU4bAElHnq; incap_ses_1546_243507=/KdNTt7TK2x1zOiNSn90FdgWU2kAAAAAci3SFBNHI9y3ZxyCgK3H3A==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 504
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 29 Dec 2025 00:05:08 GMT
-Etag: "1766966707-gzip"
+Date: Tue, 30 Dec 2025 00:04:41 GMT
+Etag: "1767052576-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 29 Dec 2025 00:05:07 GMT
+Last-Modified: Mon, 29 Dec 2025 23:56:16 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 12-134613196-134612212 SNNN RT(1766966643618 64097) q(0 0 0 -1) r(10 10) U24
-X-Varnish: 63729838
+X-Iinfo: 11-99003983-99003987 SNNy RT(1767053017071 64583) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 63776944 64675260
 
-f903
+f236
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ f903
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/deborah-anne-kirwan-pool" />
 <meta name="dcterms.title" content="Deborah Anne Kirwan Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-12-23" />
+<meta name="dcterms.date" content="2025-12-29" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ f903
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0acdfe2cf9536a06b17570cc3bf02f2af8622e2fea1571908f51188595f30c09">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-16bff2e58fe5b56b524ca449a5659ec890b2a92b4288900bbd00e4b5ab190352">
   
     
       
@@ -208,7 +208,7 @@ f903
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-103198e157a677ee4572a795b1eea489d317c2effa6449e84a6dedeefccd36dc">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b10de89bbcf82148780fe2743278c36e2c46e32b7d40d328234593eccd3d2caf">
   
     
       
@@ -290,9 +290,6 @@ f903
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><span><span><strong><span>December 22 and 23</span></strong><span><span>, 4 to 8 pm</span></span></span></span></li>
-<li><span><span><strong><span>December 24 to 26</span></strong><span><span>, closed</span></span></span></span></li>
-<li><span><span><strong><span>December 27 and 28</span></strong><span><span>, noon to 4 pm</span></span></span></span></li>
 <li><span><span><strong><span>December 29 and 30</span></strong><span><span>, 4 to 8 pm</span></span></span></span></li>
 <li><span><span><strong><span>December 31 and January 1</span></strong><span><span>, closed</span></span></span></span></li>
 <li><span><span><strong><span>January 3 and 4</span></strong><span><span>, noon to 4 pm</span></span></span></span></li>
@@ -308,7 +305,7 @@ f903
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 7:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">4:00 pm - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">4:00 pm - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">4:00 pm - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">4:00 pm - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">4:00 pm - 7:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 4:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 7:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">4:00 pm - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">4:00 pm - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">4:00 pm - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">4:00 pm - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">4:00 pm - 7:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 4:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -521,7 +518,7 @@ f903
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9a3e3a80a008644c65cd459a149694c5aa7e7911576e44109c2898696fa0b0a2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e4d967923d00234fd91c92c641acedf1bf8b55bc617a3d05141e1d163ebac0fd">
   
     
       
@@ -535,7 +532,7 @@ f903
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-801b5a12fd8958bf15eb106e28ec67186eb9748b7968eddede2692ef85a70b6c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4e440e4e8a795c8461501dffc56280ada0f8a7959f7a87d4494eb30d68c09511">
   
     
       
@@ -573,71 +570,6 @@ f903
 <p><strong>Reservations not required.</strong></p>
 </div>
       
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
-	<caption>Deborah Anne Kirwan Pool - swim - December 22 to 28</caption>
-	<thead>
-		<tr>
-			<td>&nbsp;</td>
-			<th>Monday, December 22</th>
-			<th>Tuesday, December 23</th>
-			<th>Wednesday, December 24</th>
-			<th>Thursday, December 25</th>
-			<th>Friday, December 26</th>
-			<th>Saturday, December 27</th>
-			<th>Sunday, December 28</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th>Lane swim</th>
-			<td>7 - 8 pm</td>
-			<td>7 - 8 pm</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-		</tr>
-		<tr>
-			<th>Public swim</th>
-			<td>5 - 7 pm</td>
-			<td>5 - 7 pm</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>1 - 4 pm</td>
-			<td>1 - 4 pm</td>
-		</tr>
-		<tr>
-			<th>50+ swim</th>
-			<td>
-			<span>4 - 5 pm</span>
-			</td>
-			<td><span>4 - 5 pm</span></td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>Noon - 1 pm</td>
-		</tr>
-		<tr>
-			<th>Preschool swim</th>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>Noon - 1 pm</td>
-			<td>n/a</td>
-		</tr>
-	</tbody>
-</table>
-
-&nbsp;</div>
-      </div>
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
@@ -773,7 +705,7 @@ f903
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e82cef3e6b6c7f0dbe289a56dd39828a5f6a94544e04961d8f0fbd842dd68ce2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-49733345711207ce006e80df129d470721b6e9e6946300634bfe524320e6d641">
   
     
       
@@ -787,7 +719,7 @@ f903
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-57686e6a38f21803436301b17262cc666adfe986ca5ead56f11f614ff78e337f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3a7b9ba09241a93eae3487dd6ea09d1ab39cc0d4ce7475279e90784e2e1095bf">
   
     
       
@@ -1008,7 +940,7 @@ f903
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-0371984c32c08f4210c11fb6e33b3c0e355607df856cc2d7e34c05079406dd7a">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-561b8380d7f66fe1a494d866bc72638ff757aaa48bedabfe737e1f98c314c0b7">
   
     
       <div class="view-header">
@@ -1414,7 +1346,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t7hdku" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=33&cb=101159090" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=33&cb=787574853" async></script></body>
 </html>
 
 

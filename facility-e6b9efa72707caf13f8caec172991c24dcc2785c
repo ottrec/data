@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/w-erskine-johnston-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=CqvlKjC5SWaU4btNgW7knXPFUWkAAAAAQUIPAAAAAACpoPSiUta1svXMYF26QmsW; nlbi_243507=8osaNNuZUl9U7qX0aXmSIAAAAAC+QisClyzk3wzPkT+d87bE; incap_ses_1286_243507=z3fJCgQrsFV/k9cxwMrYEXPFUWkAAAAAS9R8VEE+WKji4gAs2fdWng==
+Cookie: visid_incap_243507=C8jYAC1DSpCfmoxjzsI/+NgWU2kAAAAAQUIPAAAAAAB72lsI+CYJSSM/MYzrOzfZ; nlbi_243507=Z6LyR2UCFgBR7TmIaXmSIAAAAAARay/3w4Ocs1eU4bAElHnq; incap_ses_1546_243507=/KdNTt7TK2x1zOiNSn90FdgWU2kAAAAAci3SFBNHI9y3ZxyCgK3H3A==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 753
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 29 Dec 2025 00:08:09 GMT
-Etag: "1766966888-gzip"
+Date: Tue, 30 Dec 2025 00:07:42 GMT
+Etag: "1767052507-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 29 Dec 2025 00:08:08 GMT
+Last-Modified: Mon, 29 Dec 2025 23:55:07 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 12-134613196-134612212 SNNN RT(1766966643618 244759) q(0 0 0 -1) r(10 10) U24
-X-Varnish: 127117684
+X-Iinfo: 11-99003983-99003987 SNNy RT(1767053017071 245024) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 127793004 126876355
 
-c731
+c49d
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ c731
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/w-erskine-johnston-arena" />
 <meta name="dcterms.title" content="W. Erskine Johnston Arena" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-12-19" />
+<meta name="dcterms.date" content="2025-12-29" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ c731
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-95d3ce9fe414fc3263367dec4f2521e8e897e1250332c415cd9a721a778ac761">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a837432ddf9b175e9479a25d082356012eefcac0c947ce47a60fc3a77895e0d4">
   
     
       
@@ -208,7 +208,7 @@ c731
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-846c69bdc509d76f66469a31ce547a0c3a245d5814586a5f2c6ada1c6634da11">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-65ec96ad456cf674bdefb8178e098cff5fbea7fb8bdd09aaab3b5fc934e1f0cc">
   
     
       
@@ -282,16 +282,9 @@ c731
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
 <li><strong>Tuesday, December 30</strong>
 <ul>
-<li>Pick-up hockey 35+,&nbsp;9:30 to 10:20&nbsp;am, cancelled&nbsp;</li>
-<li>Pick-up hockey 50+,&nbsp;10:30 to 11:20&nbsp;am, cancelled&nbsp;</li>
-<li>Public skating,&nbsp;11:30&nbsp;am to 12:20 pm, cancelled&nbsp;</li>
-</ul>
-</li>
-<li><strong>Friday, December 26&nbsp;</strong>
-<ul>
-<li>Pick-up hockey 50+,&nbsp;9:30 to 11:20&nbsp;am, cancelled&nbsp;</li>
-<li>Public skating,&nbsp;11:30&nbsp;am to 6 pm, cancelled&nbsp;</li>
-<li>Stick and puck - youth and adult, 12:30 to 1:20 pm, cancelled&nbsp;</li>
+<li>Pick-up hockey 35+,&nbsp;9:30 to 10:20&nbsp;am, cancelled</li>
+<li>Pick-up hockey 50+,&nbsp;10:30 to 11:20&nbsp;am, cancelled</li>
+<li>Public skating,&nbsp;11:30&nbsp;am to 12:20 pm, cancelled</li>
 </ul>
 </li>
 </ul>
@@ -477,7 +470,7 @@ c731
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fe8f6a159ceee1c4310ec9f428603c0ba515c40d3f6073c5ef931160c449e139">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6d83a7816cedf083da4e4370ee9e0f00c6b345354f7a309ebc824bc5556fb139">
   
     
       
@@ -491,7 +484,7 @@ c731
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ff28fe4cf5fee3f302dd9fdce5221e9505117ee0e2eb72ab74a022788e764e28">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-94ddad99cb90fe2aa8c19779aa2f1b4168d3602eb2c58b8297db97b8d2f0df85">
   
     
       
@@ -531,12 +524,7 @@ c731
 <ul>
 <li><strong>Tuesday, December 30</strong>
 <ul>
-<li>Public skating,&nbsp;11:30&nbsp;am to 12:20 pm, cancelled&nbsp;</li>
-</ul>
-</li>
-<li><strong>Friday, December 26&nbsp;</strong>
-<ul>
-<li>Public skating,&nbsp;11:30&nbsp;am to 6 pm, cancelled&nbsp;</li>
+<li>Public skating,&nbsp;11:30&nbsp;am to 12:20 pm, cancelled</li>
 </ul>
 </li>
 </ul>
@@ -676,7 +664,7 @@ c731
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-25a23e4897b2208406e1e6ac1358b80d4e47a9ea34d21841c16b89470abe28f6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c395717f4e5b6754ca93ec174f38a394840ae21164af5ca0c25af42314f44b0f">
   
     
       
@@ -690,7 +678,7 @@ c731
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-77e1ba43ed2e8c4042c03d8ab482bfbb7396b8e7dca4b4ad99b44526dcf38ac6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9ee584bc742aa1749a77f9c48a066f895e4e2ea2911f10fab5c02aaee5459776">
   
     
       
@@ -736,13 +724,7 @@ c731
 <li><strong>Tuesday, December 30</strong>
 <ul>
 <li>Pick-up hockey 35+,&nbsp;9:30 to 10:20&nbsp;am, cancelled&nbsp;</li>
-<li>Pick-up hockey 50+,&nbsp;10:30 to 11:20&nbsp;am, cancelled&nbsp;</li>
-</ul>
-</li>
-<li><strong>Friday, December 26&nbsp;</strong>
-<ul>
-<li>Pick-up hockey 50+,&nbsp;9:30 to 11:20&nbsp;am, cancelled&nbsp;</li>
-<li>Stick and puck - youth and adult, 12:30 to 1:20 pm, cancelled&nbsp;</li>
+<li>Pick-up hockey 50+,&nbsp;10:30 to 11:20&nbsp;am, cancelled</li>
 </ul>
 </li>
 </ul>
@@ -935,7 +917,7 @@ c731
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-e45f443d20ecf6b0894501174e20bf13dd0d43e7f865bfeffeb5f6dcf164ff97">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-191c786ab968efdf3ba1b948f65bde21d8a0b7bb8e4b1e5cf05fb01163015258">
   
     
       <div class="view-header">

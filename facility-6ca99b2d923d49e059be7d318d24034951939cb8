@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/south-fallingbrook-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=CqvlKjC5SWaU4btNgW7knXPFUWkAAAAAQUIPAAAAAACpoPSiUta1svXMYF26QmsW; nlbi_243507=8osaNNuZUl9U7qX0aXmSIAAAAAC+QisClyzk3wzPkT+d87bE; incap_ses_1286_243507=z3fJCgQrsFV/k9cxwMrYEXPFUWkAAAAAS9R8VEE+WKji4gAs2fdWng==
+Cookie: visid_incap_243507=C8jYAC1DSpCfmoxjzsI/+NgWU2kAAAAAQUIPAAAAAAB72lsI+CYJSSM/MYzrOzfZ; nlbi_243507=Z6LyR2UCFgBR7TmIaXmSIAAAAAARay/3w4Ocs1eU4bAElHnq; incap_ses_1546_243507=/KdNTt7TK2x1zOiNSn90FdgWU2kAAAAAci3SFBNHI9y3ZxyCgK3H3A==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 9
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 29 Dec 2025 00:07:50 GMT
-Etag: "1766966859-gzip"
+Date: Tue, 30 Dec 2025 00:07:25 GMT
+Etag: "1767053243-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 29 Dec 2025 00:07:39 GMT
+Last-Modified: Tue, 30 Dec 2025 00:07:23 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 12-134613196-134612212 SNNN RT(1766966643618 226760) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 126143836 127274776
+X-Iinfo: 11-99003983-99003987 SNNy RT(1767053017071 226852) q(0 0 0 -1) r(18 18) U24
+X-Varnish: 128138411
 
-ce4e
+c9cc
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ ce4e
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/south-fallingbrook-community-centre" />
 <meta name="dcterms.title" content="South Fallingbrook Community Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-12-23" />
+<meta name="dcterms.date" content="2025-12-29" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ ce4e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4f39e4ac6b446e8f288ae2d9313105bbdf62197d3b1a82e8bb088316a38a2f83">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-67a3f7293919870f7968e13cebdffcdb4263aae1ff243c9ebf1094e354f48cac">
   
     
       
@@ -208,7 +208,7 @@ ce4e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a8eb66855915b5f4d8f1be97f13ff8d8604db1cc1562ac3df5e969d39036bac5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-46b7728de5c2994d4068fcbefe1efd6cf4c69a97b933a358d8a141ea2a859fe2">
   
     
       
@@ -290,10 +290,7 @@ ce4e
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Monday, December 22</strong>, 8:30 am to 7 pm</li>
-<li><strong>Tuesday, December 23</strong>, 8:30 am to 9 pm</li>
-<li><strong>December 24 to 28</strong>, closed</li>
-<li><strong>December 29</strong>, 8:30 am to 8 pm</li>
+<li>D<strong>ecember 29</strong>, 8:30 am to 8 pm</li>
 <li><strong>December 30</strong>, 8:30 am to 9 pm</li>
 <li><strong>Wednesday, December 31</strong>, 8:30 am to 5 pm</li>
 <li><strong>Thursday, January 1</strong>, closed</li>
@@ -313,7 +310,7 @@ ce4e
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -436,7 +433,7 @@ ce4e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3711a5cfa6d579e34267560a792ffc04058842903690e389ba225a03c8599907">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2a2ca921f1c1c66ec5195a306c4d9dda24604465c6ca688960f015f2c9fd9c75">
   
     
       
@@ -450,7 +447,7 @@ ce4e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-31e588d7010d929d294dcc9ee2f812d0b181c5553a0955fdbc92cc4579ddd8e1">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-db2f993dac78a6849051fd0908b42184c3461090c0a3dc8d46fc908ce5d3e03b">
   
     
       
@@ -488,55 +485,6 @@ ce4e
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/southfallingbrook">Reserve a spot at South Fallingbrook Community Centre</a></p>
 </div>
       
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
-	<caption>South Fallingbrook Community Centre - sports - December 22 to 28</caption>
-	<thead>
-		<tr>
-			<td>
-			&nbsp;
-			</td>
-			<th>
-			Monday, December 22
-			</th>
-			<th>
-			Tuesday, December 23
-			</th>
-			<th>
-			Wednesday, December 24
-			</th>
-			<th>
-			Thursday, December 25
-			</th>
-			<th>
-			Friday, December 26
-			</th>
-			<th>
-			Saturday, December 27
-			</th>
-			<th>
-			Sunday, December 28
-			</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th>Pickleball - adult</th>
-			<td>n/a</td>
-			<td>5:30 - 6:30 pm,&nbsp;
-			6:30 - 7:30 pm,&nbsp;
-			7:45 - 8:45 pm</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-		</tr>
-	</tbody>
-</table></div>
-      </div>
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
@@ -692,7 +640,7 @@ ce4e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e80816ea099568733c2fed18807f20117ab63103531462b1e01b7aa6d373d5e5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3d84e795af9960b9441000fddeeec9433f27723b35a1b71dc01c913b22b01395">
   
     
       
@@ -706,7 +654,7 @@ ce4e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9048cfdd5b7c7c276ce7ba0c8f28d0ad25baaf958e033cd785f3fe5e20906327">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f01f29aca74ebfab1c81d560a8f205291fde050b52cd5680149ff220d587cd8f">
   
     
       
@@ -874,7 +822,7 @@ ce4e
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-27f4af716e299fdca8f3cc3fe27140001b117317f673c5c2c1176d5f20f11f4e">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-acff1a308cfa0da79f1f15330692c990753fec155c73dd95fe83c928b45f2ab4">
   
     
       <div class="view-header">
