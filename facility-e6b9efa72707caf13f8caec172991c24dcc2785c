@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/w-erskine-johnston-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=M9Fe0D4gRmqP8F39ZO9d40RoVGkAAAAAQUIPAAAAAAC0y94BTZLJnfJu65/gAo1w; nlbi_243507=1t61Y8RnMmgR8MduaXmSIAAAAAACtK2p0dX6NCcQLxUnDGpO; incap_ses_1351_243507=zfG5E7AK31OjImYL07e/EkRoVGkAAAAAeS580IZlVCNTwnDhtUcXOA==
+Cookie: visid_incap_243507=htC5NejjRnqke1XwnCNpLxe6VWkAAAAAQUIPAAAAAAD3GBqtoYL6cbwtlMc+Z/rc; nlbi_243507=Z9yBRFIIgEJwuNEBaXmSIAAAAAB5kjazI614nuN7XuEz036s; incap_ses_100_243507=B/R/XOMRExYPx+0EiUVjARe6VWkAAAAAz2S4e2KkacfMh6mmwC3sSg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 470
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 31 Dec 2025 00:07:23 GMT
-Etag: "1767139642-gzip"
+Date: Thu, 01 Jan 2026 00:08:42 GMT
+Etag: "1767225651-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 31 Dec 2025 00:07:22 GMT
+Last-Modified: Thu, 01 Jan 2026 00:00:51 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 14-160457801-160465507 SNNy RT(1767139397292 245107) q(0 0 0 -1) r(9 9) U24
-X-Varnish: 66493801
+X-Iinfo: 34-119428905-119428907 SNNN RT(1767225879486 242797) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 129947011 129886505
 
-c49d
+c45f
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ c49d
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/w-erskine-johnston-arena" />
 <meta name="dcterms.title" content="W. Erskine Johnston Arena" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2025-12-29" />
+<meta name="dcterms.date" content="2025-12-31" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ c49d
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e51762460852874454c03749f93fe024e256f0193adf4b68a9d07af6a45a37e9">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-07bc9f0c00e337e2552c45da6e7b31489f35fcd6338b5b8b80503d2c5af5879e">
   
     
       
@@ -208,7 +208,7 @@ c49d
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1585b3b0a8c4865b4baa3663635bfb4c776cbeb97b765c0caeee9812e3c9e8e1">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cdc8e45bc6eb9473a48303c891df721fadb43bbfa0273bedf8114711e4cf860b">
   
     
       
@@ -271,7 +271,7 @@ c49d
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
 </div>
       
 
@@ -280,11 +280,11 @@ c49d
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Tuesday, December 30</strong>
+<li><strong>Friday, January 2</strong>
 <ul>
-<li>Pick-up hockey 35+,&nbsp;9:30 to 10:20&nbsp;am, cancelled</li>
-<li>Pick-up hockey 50+,&nbsp;10:30 to 11:20&nbsp;am, cancelled</li>
-<li>Public skating,&nbsp;11:30&nbsp;am to 12:20 pm, cancelled</li>
+<li>All&nbsp;drop-in public skating, cancelled</li>
+<li>Pick-up hockey 50+, 9:30 to 11:20 am, cancelled</li>
+<li>Stick and puck - youth and adult, 12:30 to 1:20 pm, cancelled</li>
 </ul>
 </li>
 </ul>
@@ -470,7 +470,7 @@ c49d
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ad18d3d70c58d3b66837c5b2e952dd216c6fd72874e83cf03c0899b24297384e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c5ed6a1f654dfa91c534815a84048dd0d8794c9fd37695661d76f6242cf12c24">
   
     
       
@@ -484,7 +484,7 @@ c49d
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ace7e42d5a6e80287bbe537c4f27f9fe9d6af8b2ddec4b43ed2229d3febe8456">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0eba8b299671e3d2d0110fb62ebf1615d4f4754b1d2a705dc357c87fbe261aa9">
   
     
       
@@ -520,11 +520,11 @@ c49d
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
 <ul>
-<li><strong>Tuesday, December 30</strong>
+<li><strong>Friday, January 2</strong>
 <ul>
-<li>Public skating,&nbsp;11:30&nbsp;am to 12:20 pm, cancelled</li>
+<li>All&nbsp;drop-in public skating, cancelled</li>
 </ul>
 </li>
 </ul>
@@ -664,7 +664,7 @@ c49d
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-00d4c3d86b0eef9af32f49861352e5ee708ee59a9137864e1422ca01f2a5e5fa">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b129dab90fbcdd0afd73329f39119f846071d725e5a22fe30ad0f45b6f2e2db5">
   
     
       
@@ -678,7 +678,7 @@ c49d
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-af76eca9e1e5ff64f65ff2906521888222b1aa6a202befa312cf684356b6ab6a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c43cf90bd79b43290430e5454b2391f4e0a75e2bb0a126f57307a40c77c75c56">
   
     
       
@@ -719,12 +719,12 @@ c49d
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
 <ul>
-<li><strong>Tuesday, December 30</strong>
+<li><strong>Friday, January 2</strong>
 <ul>
-<li>Pick-up hockey 35+,&nbsp;9:30 to 10:20&nbsp;am, cancelled&nbsp;</li>
-<li>Pick-up hockey 50+,&nbsp;10:30 to 11:20&nbsp;am, cancelled</li>
+<li>Pick-up hockey 50+, 9:30 to 11:20 am, cancelled</li>
+<li>Stick and puck - youth and adult, 12:30 to 1:20 pm, cancelled</li>
 </ul>
 </li>
 </ul>
@@ -917,7 +917,7 @@ c49d
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-a8f145d1c5562f77d888f4f6b8b964527235a0609cbc98ec262e2592a9cb5595">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-b57c94faab222c7563b019d1bbc99536b4fba5b1103d5af3ede47e2039f80a76">
   
     
       <div class="view-header">
