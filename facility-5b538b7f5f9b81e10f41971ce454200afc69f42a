@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=rrP8s0I5TsiUnMVySPX5Suv/WmkAAAAAQUIPAAAAAACjOwi1Q85agusdbeYhw9eJ; nlbi_243507=kWh2Tsm2/W0H5BAbaXmSIAAAAAAJDm3jJwarCY269u9/KaGQ; incap_ses_189_243507=3xJrbeQaJGt5M3drkHafAuv/WmkAAAAAU5fQHfQmM0GytLR4SYa24A==
+Cookie: visid_incap_243507=mN3/4+tfQICqxQXoUpSgml5RXGkAAAAAQUIPAAAAAAD5Bulgdd0GffsDQ0SF80hR; nlbi_243507=K49Idzjiegwz2XZJaXmSIAAAAAAouT7C4SqerQL45/BzZwSf; incap_ses_1842_243507=5wyKckCCl0fvZCrL2RmQGV5RXGkAAAAA1jvYGjgDlM9CFenTLCmTBg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 533
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 05 Jan 2026 00:04:34 GMT
-Etag: "1767570939-gzip"
+Date: Tue, 06 Jan 2026 00:04:23 GMT
+Etag: "1767657862-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 04 Jan 2026 23:55:39 GMT
+Last-Modified: Tue, 06 Jan 2026 00:04:22 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 54-679109767-679110430 SNNy RT(1767571435887 38579) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 72361867 71882779
+X-Iinfo: 54-122558196-122555310 SNNy RT(1767657823004 39716) q(0 0 0 -1) r(10 10) U24
+X-Varnish: 137148441
 
-14877
+13ab0
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 72361867 71882779
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex" />
 <meta name="dcterms.title" content="Canterbury Recreation Complex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-01-03" />
+<meta name="dcterms.date" content="2026-01-05" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 72361867 71882779
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-602fd38ca41cf5745afc1edf89c7ffdfcedefffa489ed69588e9c0a3651fec11">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ce2a067c1e55baf3ab6e5ffb236910e87b16b0099fb559690f30009202048121">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 72361867 71882779
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-501a0374f68b6ec4bebc9d2067fdae5ca9dd508483fa4bfd75335de58a79491e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-049e1bac9a6dcbf11c410d874d0b2fc2abd45f531e76d47c151a0b75fb5f2cad">
   
     
       
@@ -282,7 +282,7 @@ X-Varnish: 72361867 71882779
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Winter Break hours</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
 </div>
       
 
@@ -290,17 +290,12 @@ X-Varnish: 72361867 71882779
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><h4><span><span><strong><span>Community Centre</span></strong></span></span></h4>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Wednesday, January 7</strong>
 <ul>
-<li><span><span><strong><span>January 2 to 4</span></strong><span><span>, 8:30 am to 10 pm</span></span></span></span></li>
+<li>The facility is closed.</li>
 </ul>
-<h4><span><span><strong><span>Pool</span></strong></span></span></h4>
-<ul>
-<li><strong>F</strong><span><span><strong><span>riday, January 2</span></strong><span><span>, 7:30 am to 9:30 pm</span></span></span></span></li>
-<li><span><span><strong><span>January 3 and 4</span></strong><span><span>, 9 am to 5:30 pm</span></span></span></span></li>
-</ul>
-<h3><span><span><span><span>Schedule changes</span></span></span></span></h3>
-<ul>
+</li>
 <li><strong>Friday,&nbsp;January 16</strong>
 <ul>
 <li>Lane Swim, noon to 1:30 pm, cancelled</li>
@@ -511,381 +506,6 @@ X-Varnish: 72361867 71882779
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
-  <button aria-expanded="false" aria-controls="section-5ee8b816-b074-4423-931d-b106b42745fe" data-target="#section-5ee8b816-b074-4423-931d-b106b42745fe" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - Winter Break December 20 to Sunday, January 4</button>
-
-                  </h2>
-                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-5ee8b816-b074-4423-931d-b106b42745fe">
-                  
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
-          
-            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
-<article class="node node--type-article node--view-mode-default">
-  
-  <div class="node__content">
-      <div class="layout layout--onecol">
-    <div  class="layout__region layout__region--content">
-      
-
-
-  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - Winter Break December 20 to Sunday, January 4</h2>
-</span>
-
-
-<div class="views-element-container">
-
-
-
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9bb4b85a09533ccedb05dc9572ca31e3c90c694d3e3d80a38a7a899f8203efc7">
-  
-    
-      
-  
-          </div>
-</div>
-
-
-</div>
-<div class="views-element-container">
-
-
-
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3214f8a88d8f65f63212ea21d90fc133ee00033afefe5405cfb0c5174472bfc7">
-  
-    
-      
-  
-          </div>
-</div>
-
-
-</div>
-
-
-
-  
-      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
-              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
-                  
-                          
-                                  
-                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>December 20 to January 4</h3>
-</div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
-<p>The schedules listed in the charts below are subject to change.</p>
-<p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/canterbury">Reserve a spot at Canterbury Recreation Complex</a></p>
-</div>
-      
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
-	<caption>Canterbury Recreation Complex&nbsp;- all drop-in activities&nbsp;- December 29 to January 4</caption>
-	<thead>
-		<tr>
-			<td>&nbsp;</td>
-			<th>Monday, December 29</th>
-			<th>Tuesday, December 30</th>
-			<th>Wednesday, December 31</th>
-			<th>Thursday, January 1</th>
-			<th>Friday, January 2</th>
-			<th>Saturday, January 3</th>
-			<th>Sunday, January 4</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th>
-			Lane swim
-			</th>
-			<td>
-			7:30 - 8:55 am,
-			10:05 am -&nbsp;1:30 pm,
-			2:30 -&nbsp;5:25 pm,
-			8:35 - 9:30 pm&nbsp;
-			</td>
-			<td>
-			7:30 - 8:55 am,
-			11:05 am -&nbsp;1:30 pm,
-			2:30 -&nbsp;5:30 pm,
-			8:30 -&nbsp;9:30 pm
-			</td>
-			<td>
-			7:30 - 8:55 am,
-			11:05 am -&nbsp;1:30 pm&nbsp;
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			7:30 - 8:55 am,&nbsp;
-			11:05 am - 1:30 pm,
-			2:30 -&nbsp;5:30 pm,
-			8:30 -&nbsp;9:30 pm
-			</td>
-			<td>
-			9 - 11:55 am,
-			3:05 -&nbsp;5:30 pm&nbsp;
-			</td>
-			<td>
-			9 -&nbsp;11:55 am,
-			3:05 -&nbsp;5:30 pm&nbsp;
-			</td>
-		</tr>
-		<tr>
-			<th>
-			Public swim
-			*Reservations not required.
-			</th>
-			<td>
-			5:30 - 7:25pm&nbsp;
-			</td>
-			<td>
-			10 - 11 am,
-			5:30 -&nbsp;8:30 pm&nbsp;
-			</td>
-			<td>10 - 11 am</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			10 - 11 am,
-			5:30 -&nbsp;8:30 pm
-			</td>
-			<td>
-			Noon - 3 pm
-			</td>
-			<td>Noon - 3 pm</td>
-		</tr>
-		<tr>
-			<th>
-			Aquafit
-			</th>
-			<td>
-			9 - 10 am,&nbsp;
-			7:30 - 8:30 pm
-			</td>
-			<td>
-			9 - 10 am
-			</td>
-			<td>
-			9 - 10 am
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			9 - 10 am
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			n/a
-			</td>
-		</tr>
-		<tr>
-			<th>Open gym&nbsp;
-			*Reservations not required</th>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>11:45 am - 12:30 pm</td>
-			<td>n/a</td>
-			<td>n/a</td>
-		</tr>
-		<tr>
-			<th>Basketball - child&nbsp;</th>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>6:30 - 7:30 pm</td>
-			<td>6:30 - 7:30 pm</td>
-			<td>n/a</td>
-		</tr>
-		<tr>
-			<th>Basketball - youth&nbsp;</th>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>7:30 - 8:30 pm</td>
-			<td>7:30 - 8:30 pm</td>
-			<td>n/a</td>
-		</tr>
-		<tr>
-			<th>Basketball -&nbsp;adult&nbsp;</th>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>8:30 - 9:30 pm</td>
-			<td>8:30 - 9:30 pm</td>
-			<td>n/a</td>
-		</tr>
-	</tbody>
-</table></div>
-      </div>
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
-	<caption>Brian Kilrea Arena -&nbsp;skating -&nbsp;December 29 to January 3</caption>
-	<tbody>
-		<tr>
-			<td>
-			&nbsp;
-			</td>
-			<th>
-			Monday, December 29
-			</th>
-			<th>
-			Tuesday, December 30
-			</th>
-			<th>
-			Wednesday, December 31
-			</th>
-			<th>
-			Thursday, January 1
-			</th>
-			<th>
-			Friday, January 2
-			</th>
-			<th>
-			Saturday, January 3
-			</th>
-		</tr>
-		<tr>
-			<th>
-			Public skating&nbsp;
-			</th>
-			<td>
-			Noon -&nbsp;1 pm
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			Noon -&nbsp;1 pm
-			</td>
-			<td>
-			5 -&nbsp;6 pm
-			</td>
-		</tr>
-		<tr>
-			<th>
-			Family skating
-			</th>
-			<td>
-			n/a
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			4 -&nbsp;5 pm
-			</td>
-		</tr>
-		<tr>
-			<th>
-			Adult skating
-			</th>
-			<td>
-			11 am - noon&nbsp;
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			n/a
-			</td>
-			<td>
-			11 am - noon&nbsp;
-			</td>
-			<td>
-			n/a
-			</td>
-		</tr>
-	</tbody>
-</table></div>
-      </div>
-      </div>
-
-                        </div>
-                                          
-                    
-                
-            </div>
-          
-      </div>
-</div>
-          </div>
-  
-
-
-    </div>
-  </div>
-
-  </div>
-
-</article>
-</div>
-      
-      </div>
-
-                        </div>
-                                          
-                                        </div>
-                  </div>
-                
-                
-            </div>
-          
-      </div>
-</div>
-              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
-                  
-                          
-                
-                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
-
-            
-                              <div class="col collapse-region pl-0 pr-0">
-                  <h2 class="no-toc">
-                              
   <button aria-expanded="false" aria-controls="section-ae5c14bf-abf2-4b82-966b-5220a8539bcf" data-target="#section-ae5c14bf-abf2-4b82-966b-5220a8539bcf" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - swim and aquafit</button>
 
                   </h2>
@@ -912,7 +532,7 @@ X-Varnish: 72361867 71882779
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-17c4b9869865f555424d8d0460ac36f740d9b532c1ed04ab2d9116d1e3d7bb06">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ab95cd5159fef58fd499610afebf9cda1e2859804a469eba126589efca0d9266">
   
     
       
@@ -926,7 +546,7 @@ X-Varnish: 72361867 71882779
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-80f20adeecadc2d20da67322b0b55086d4bc2a70356274fd894e1e3c47d5cd92">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3a714fdb8f5ea51e31d23868d727aae0c1df701b8b3d188d4355f41b57c2cece">
   
     
       
@@ -968,7 +588,11 @@ X-Varnish: 72361867 71882779
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
-<li><span><span><strong><span>Saturday, December 20 to Sunday, January 4</span></strong></span></span>&nbsp;s<span><span><span><span>ee Winter Break schedule.</span></span></span></span></li>
+<li><strong>Wednesday, January 7</strong>
+<ul>
+<li>The facility is closed.</li>
+</ul>
+</li>
 <li><strong>Friday,&nbsp;January 16</strong>
 <ul>
 <li>Lane Swim, noon to 1:30 pm, cancelled</li>
@@ -1165,7 +789,7 @@ X-Varnish: 72361867 71882779
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0ea5b36a11ad1ab7b130c21197c5d76af4cd95891a146339290c89c415a3d54c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-20713d7a6dc5a348e1f03e02f357e5a99f58275ba39f7d3cc0b45c6451e75785">
   
     
       
@@ -1179,7 +803,7 @@ X-Varnish: 72361867 71882779
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d7d0d8702b247735240b2f68dd49cd6efe3bb92f8ce4e958c83fbf2dc1121720">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-eb0021fa1d6bfc71343b5b6c6e49093231337a33e6c0e16d0b3e793dfcafed06">
   
     
       
@@ -1221,7 +845,11 @@ X-Varnish: 72361867 71882779
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
 <ul>
-<li><strong>Saturday, December 20 to Sunday, January 4</strong>&nbsp;see Winter Break schedule.</li>
+<li><strong>Wednesday, January 7</strong>
+<ul>
+<li>The facility is closed.</li>
+</ul>
+</li>
 </ul>
 </div>
       
@@ -1349,6 +977,202 @@ X-Varnish: 72361867 71882779
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
+  <button aria-expanded="false" aria-controls="section-fd7256fb-6321-48dc-8347-60caeb41185d" data-target="#section-fd7256fb-6321-48dc-8347-60caeb41185d" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - skating</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-fd7256fb-6321-48dc-8347-60caeb41185d">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - skating</h2>
+</span>
+
+
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fe19413ccb14d74e81c6be9ffb1648d406f7a4ca84fba0c4ba413101c9fbc16a">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+<div class="views-element-container">
+
+
+
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d58df422f50f6dc1cea872f8e1c34109f13f726199ba224f9b87d5aedcb9aa84">
+  
+    
+      
+  
+          </div>
+</div>
+
+
+</div>
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change. Holiday hours and programs may vary.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
+<p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Wednesday, January 7</strong>
+<ul>
+<li>The facility is closed.</li>
+</ul>
+</li>
+</ul>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
+	<caption>Brian Kilrea Arena - skating - January 5 to March 14</caption>
+	<thead>
+		<tr>
+			<td>&nbsp;</td>
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+			<th>Saturday</th>
+			<th>Sunday</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>
+			Public skating
+			</th>
+			<td>
+			Noon - 1&nbsp;pm
+			</td>
+			<td>n/a</td>
+			<td>Noon - 1&nbsp;pm</td>
+			<td>n/a</td>
+			<td>Noon - 1&nbsp;pm</td>
+			<td>5 - 6 pm</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Family skating
+			</th>
+			<td>
+			n/a&nbsp;
+			</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>n/a</td>
+			<td>4 - 5&nbsp;pm</td>
+			<td>
+			n/a
+			</td>
+		</tr>
+		<tr>
+			<th>
+			Adult skating&nbsp;
+			</th>
+			<td>
+			11 am - noon
+			</td>
+			<td>n/a</td>
+			<td>11 am - noon</td>
+			<td>n/a</td>
+			<td>11 am - noon</td>
+			<td>n/a</td>
+			<td>n/a</td>
+		</tr>
+	</tbody>
+</table></div>
+      </div>
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+                              <div class="col collapse-region pl-0 pr-0">
+                  <h2 class="no-toc">
+                              
   <button aria-expanded="false" aria-controls="section-180429d6-e32d-4176-9ea5-07f5afcf42f8" data-target="#section-180429d6-e32d-4176-9ea5-07f5afcf42f8" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Rental information</button>
 
                   </h2>
@@ -1412,7 +1236,7 @@ Pool rentals - please contact the facility</p>
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-048f2a4b40405f0fe144bc75facbc248333af1a05004043f233c4062ce7145b8">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-b0737b5f1ea40619910e74b17f1532d02ff117e0111d3aead8434343976aa213">
   
     
       <div class="view-header">
@@ -1503,7 +1327,7 @@ Pool rentals - please contact the facility</p>
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fbf794b4d915117a7426f02de7bcebd29b42334cbd76dd0951846f46bf92a9e6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0d540d588c30ed26c0af7bea435fb5f42820f862513a92362e0afb6678178340">
   
     
       
@@ -1517,7 +1341,7 @@ Pool rentals - please contact the facility</p>
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bed459851ab8e0b7d075e67bb6db8e51391c2aede02a504845f5e399309e3ca1">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dc04553d5a12e5598e10967e86063082b1d014bd787acdca440588f9877f81e4">
   
     
       
@@ -2033,7 +1857,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?t7hdku" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=20&cb=699972381" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=20&cb=633769942" async></script></body>
 </html>
 
 
