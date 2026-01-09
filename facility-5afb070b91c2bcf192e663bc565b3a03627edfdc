@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=LhuyIDmbR0eb5icRBK5KfUz0XmkAAAAAQUIPAAAAAACoaR/nlate9AHnyXnNPOZ7; nlbi_243507=5UFgE7EDOFaDhkaxaXmSIAAAAABHt2u+NvtzrH6FHp/+46x+; incap_ses_144_243507=79klQj18UFxmqqbQw5f/AUz0XmkAAAAAKl4XYAWFZxNzHJPyq4tIog==
+Cookie: visid_incap_243507=kMPJuxPOSp2UbGQaxoHFU85FYGkAAAAAQUIPAAAAAAC9TroeC3YKxa5HREaV3ynL; nlbi_243507=nCN/al6x1F4IRnPMaXmSIAAAAABa8FWwxdjcokiZ2aK/l0Dg; incap_ses_1214_243507=AO+IDBK7+gmT4vDzGv/YEM5FYGkAAAAASI92o3/bMPG75vfRnBq2hw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 414
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 08 Jan 2026 00:05:57 GMT
-Etag: "1767830756-gzip"
+Date: Fri, 09 Jan 2026 00:05:59 GMT
+Etag: "1767916742-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 08 Jan 2026 00:05:56 GMT
+Last-Modified: Thu, 08 Jan 2026 23:59:02 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 5-161232760-161232648 SNNN RT(1767830604909 151482) q(0 0 0 -1) r(12 12) U24
-X-Varnish: 140624337
+X-Iinfo: 14-216926165-216926167 SNNy RT(1767917007785 151207) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 142548424 94206449
 
-11bed
+11f3c
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 140624337
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool" />
 <meta name="dcterms.title" content="Lowertown Community Centre and Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-01-05" />
+<meta name="dcterms.date" content="2026-01-08" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 140624337
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e7abcc4014219c01547e6f86ba4bf79832782abfdf37b999ea789a1d07683cab">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d7ff0f325aae4e0a0fbe6f9b8d2db27b63f491329a8d622366c3e0e8ce32efa7">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 140624337
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f44b8d0dbcd143eb364bfdac78a22a0973505a3f9d45acfce5831baa55f80bfc">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-19797469bf03cb7a92afbe5b70c7f9d004f9402bdd436e6886cf338eb3967b59">
   
     
       
@@ -277,7 +277,29 @@ X-Varnish: 140624337
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Friday, January 16</strong>
+<ul>
+<li>Pickleball, 8:30 to 10:30 am, cancelled</li>
+</ul>
+</li>
+</ul>
+</div>
+      
+
+<div class="mb-3">
 
 
 
@@ -601,7 +623,7 @@ X-Varnish: 140624337
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4dbadce0531035b977221c1bac425d9f5e96a93eaaf933bc94c60c8e18d7d793">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c9d0f070019bd3dfc93ffc412680d0345ca9fee2e85cfa4992944f5d2c927ddb">
   
     
       
@@ -615,7 +637,7 @@ X-Varnish: 140624337
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3d708dc7402c3278244456f98bcc1e66d45b3a0e0b608315c7cb7b75bff00232">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-86a38f7de04ee419dacb0e23951b998869db1ea624c3acc4fc13f3ad01fd4a77">
   
     
       
@@ -735,7 +757,7 @@ X-Varnish: 140624337
 			2 - 4 pm</td>
 			<td>2 - 4 pm</td>
 			<td>10 - 11 am,&nbsp;
-			2 - 4&nbsp;pm</td>
+			2 - 3&nbsp;pm</td>
 			<td>n/a</td>
 			<td>n/a</td>
 			<td>n/a</td>
@@ -823,7 +845,7 @@ X-Varnish: 140624337
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0ceb2d125b69c3de389d7079539fca8c1edd00a1f89cb4016b8619b2dc65dbf5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4462c55092b6bd03fda2fefb1cf1df3e32ef18f76fbdcce80b6da10c898a2b15">
   
     
       
@@ -837,7 +859,7 @@ X-Varnish: 140624337
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e623358e2fc31a79d5be192e01ef022721816e3d8d2c6afc884b72242a21d52c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4c8d8d0fdc815c82964d5d57722afce792ccf96b13c4bc4e769b65e5a4a83794">
   
     
       
@@ -872,6 +894,19 @@ X-Varnish: 140624337
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/lowertown/Home/Index?Culture=en&amp;PageId=ca5c7334-1292-4494-934e-15cb2f5dca34&amp;ShouldStartReserveTimeFlow=False&amp;ButtonId=00000000-0000-0000-0000-000000000000">Reserve a spot for pickleball</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Friday, January 16</strong>
+<ul>
+<li>Pickleball, 8:30 to 10:30 am, cancelled</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
@@ -1076,7 +1111,7 @@ X-Varnish: 140624337
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-d83e55a9b4ff466b25ea54cefaebcdc6a97423a61797f68a3f5d50944dbb86d4">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-5702b6d82a67eef621768855415c7ea4de008cd1c7e5032d8276946e23ba99fd">
   
     
       <div class="view-header">
