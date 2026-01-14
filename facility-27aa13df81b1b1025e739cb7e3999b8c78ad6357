@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/terry-fox-athletic-facility HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=YhmU/ewDQy2mbdDWuLjGgcCLZWkAAAAAQUIPAAAAAAAXz8u5/0KhbvZmbu9cG0Po; nlbi_243507=7MIPeWsKVQymo2oGaXmSIAAAAABb8BnLFDTSF0h/jgJapcWh; incap_ses_1841_243507=01mDPnXbDB4HUi4FWYyMGcCLZWkAAAAAoxiLNcXow7yRFHr/LZgVVg==
+Cookie: visid_incap_243507=vEwgGlewRzKSmT0dVLk/rE/dZmkAAAAAQUIPAAAAAAAlxl1op23O+Ka4WWHpCxqL; nlbi_243507=v/YuXwGPUEDFgkLMaXmSIAAAAADBD+QSzUfziZYoT65l0I/F; incap_ses_1845_243507=pjX2Zn9Fom0Wz7kCT8KaGU/dZmkAAAAAs1JBIbPvJ8djDEneftVUxw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 247
+Age: 556
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 13 Jan 2026 00:07:09 GMT
-Etag: "1768262580-gzip"
+Date: Wed, 14 Jan 2026 00:07:24 GMT
+Etag: "1768348687-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 13 Jan 2026 00:03:00 GMT
+Last-Modified: Tue, 13 Jan 2026 23:58:07 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 58-286294053-286296686 SNNy RT(1768262592395 236871) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 147830152 141901360
+X-Iinfo: 61-361235035-361234553 SNNy RT(1768349007408 236772) q(0 1 1 -1) r(2 2) U24
+X-Varnish: 84724488 86115456
 
-d246
+d248
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ d246
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-651e19f360f71eb0701fad33f96870efeb1ba02df1c279cf3bb39c5b1ec23afd">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f13eb206d622c9c20e70a9953c4e93043b9b77c2aef0a51077909a984350be29">
   
     
       
@@ -208,7 +208,7 @@ d246
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4f8c46e3f4f453116d5cfb3a9c103336bac64172c7cb70d3770784d9418aae41">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6ed9e3e245c9732c470528bac69196c8ea86550fd1799cb1ed2bb4e44ec2bfe1">
   
     
       
@@ -614,7 +614,7 @@ d246
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-3d17476af026154bce3bc0fe0fc81dc7b54063f202de715c0740fdd14dbe24df">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-e3eddce98ca44c5d94d638a7e4f6399247269170c4bcdb72c1122be7e7d3f635">
   
     
       <div class="view-header">
@@ -989,14 +989,14 @@ d246
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/10ac30e419bd07f4706e8337baacdee8">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

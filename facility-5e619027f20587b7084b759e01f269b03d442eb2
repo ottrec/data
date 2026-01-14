@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/nepean-visual-arts-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=YhmU/ewDQy2mbdDWuLjGgcCLZWkAAAAAQUIPAAAAAAAXz8u5/0KhbvZmbu9cG0Po; nlbi_243507=7MIPeWsKVQymo2oGaXmSIAAAAABb8BnLFDTSF0h/jgJapcWh; incap_ses_1841_243507=01mDPnXbDB4HUi4FWYyMGcCLZWkAAAAAoxiLNcXow7yRFHr/LZgVVg==
+Cookie: visid_incap_243507=vEwgGlewRzKSmT0dVLk/rE/dZmkAAAAAQUIPAAAAAAAlxl1op23O+Ka4WWHpCxqL; nlbi_243507=v/YuXwGPUEDFgkLMaXmSIAAAAADBD+QSzUfziZYoT65l0I/F; incap_ses_1845_243507=pjX2Zn9Fom0Wz7kCT8KaGU/dZmkAAAAAs1JBIbPvJ8djDEneftVUxw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 272
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 13 Jan 2026 00:06:13 GMT
-Etag: "1768262772-gzip"
+Date: Wed, 14 Jan 2026 00:06:27 GMT
+Etag: "1768348913-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 13 Jan 2026 00:06:12 GMT
+Last-Modified: Wed, 14 Jan 2026 00:01:53 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 58-286294053-286296686 SNNy RT(1768262592395 180191) q(0 0 0 -1) r(6 6) U24
-X-Varnish: 84945971
+X-Iinfo: 61-361235035-361234553 SNNy RT(1768349007408 180420) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 86030737 86000054
 
-a398
+a39a
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ a398
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-97a2b8df4caf27244e10721e5e532e1d0b1b8fcb05ce3e01784ca01686e4573d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c7d3da7cd07991fc36c622f71366ce36bb8c216f05c6e60423b17270da588a03">
   
     
       
@@ -208,7 +208,7 @@ a398
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e34df2db8c4be475eb75c3652ddd9d051fcee235f5bd21d6ffd347a1118a99fd">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2667a02e1623ca8cff430d53174022acacd890eee623edfb4fefb11910942a5a">
   
     
       
@@ -484,7 +484,7 @@ a398
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-4d2273454e91b8d69ec6d8373dc51da5f9894046b3da683dd54166f59725e49e">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-0a6fadb0633ba468310c9e4c51d71aaf449a85828599279c20aa7246a5f7f65d">
   
     
       <div class="view-header">
@@ -863,14 +863,14 @@ a398
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/10ac30e419bd07f4706e8337baacdee8">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

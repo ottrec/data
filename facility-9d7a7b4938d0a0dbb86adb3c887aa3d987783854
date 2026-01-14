@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/glebe-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=YhmU/ewDQy2mbdDWuLjGgcCLZWkAAAAAQUIPAAAAAAAXz8u5/0KhbvZmbu9cG0Po; nlbi_243507=7MIPeWsKVQymo2oGaXmSIAAAAABb8BnLFDTSF0h/jgJapcWh; incap_ses_1841_243507=01mDPnXbDB4HUi4FWYyMGcCLZWkAAAAAoxiLNcXow7yRFHr/LZgVVg==
+Cookie: visid_incap_243507=vEwgGlewRzKSmT0dVLk/rE/dZmkAAAAAQUIPAAAAAAAlxl1op23O+Ka4WWHpCxqL; nlbi_243507=v/YuXwGPUEDFgkLMaXmSIAAAAADBD+QSzUfziZYoT65l0I/F; incap_ses_1845_243507=pjX2Zn9Fom0Wz7kCT8KaGU/dZmkAAAAAs1JBIbPvJ8djDEneftVUxw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 44
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 13 Jan 2026 00:04:48 GMT
-Etag: "1768262687-gzip"
+Date: Wed, 14 Jan 2026 00:05:02 GMT
+Etag: "1768349057-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 13 Jan 2026 00:04:47 GMT
+Last-Modified: Wed, 14 Jan 2026 00:04:17 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 58-286294053-286296686 SNNy RT(1768262592395 94777) q(0 0 0 -1) r(12 12) U24
-X-Varnish: 78642379
+X-Iinfo: 61-361235035-361234553 SNNy RT(1768349007408 95065) q(0 1 1 -1) r(3 3) U24
+X-Varnish: 75628050 85649364
 
-9e65
+9e67
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 78642379
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ecab4a9d2f825fba691e472606170002980fd71e4ce0aa0e62df76bd51894edc">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-444e4c2369d492207323d76d03fff368d7400ebb6273f095c36d4c6903557075">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 78642379
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9dd41a369cc0df41f63eee49cb792b9671a20946830e57977ac45bc34d297575">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b2c380ca5f04eb07b90f898e8cde12ee707e92cb188c53d76a9435c0cbea876b">
   
     
       
@@ -493,7 +493,7 @@ X-Varnish: 78642379
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-8d2f34a6c18ff8063f2698e8b1424b35582844aebfdc64d3e38464b078ad5b6f">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-a6e66e467b15ecca39ff2a3b033bcbd181fe96cf90c4e59376c991684057e3ed">
   
     
       <div class="view-header">
@@ -870,14 +870,14 @@ X-Varnish: 78642379
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/10ac30e419bd07f4706e8337baacdee8">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -891,7 +891,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=48&cb=482049712" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=48&cb=980827438" async></script></body>
 </html>
 
 
