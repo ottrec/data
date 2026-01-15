@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/eva-james-memorial-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=vEwgGlewRzKSmT0dVLk/rE/dZmkAAAAAQUIPAAAAAAAlxl1op23O+Ka4WWHpCxqL; nlbi_243507=v/YuXwGPUEDFgkLMaXmSIAAAAADBD+QSzUfziZYoT65l0I/F; incap_ses_1845_243507=pjX2Zn9Fom0Wz7kCT8KaGU/dZmkAAAAAs1JBIbPvJ8djDEneftVUxw==
+Cookie: visid_incap_243507=2HKc5FusSUG8HfFK0Esl/dIuaGkAAAAAQUIPAAAAAAB24lQ//Vcoakt/oUNJVW9W; nlbi_243507=inhYUr10ZyYVnad/aXmSIAAAAACCUqW4H4ODSht7Q9Abjnjn; incap_ses_175_243507=oA26Gbzca3JEWFOcp7ltAtIuaGkAAAAAUKW5VbcqxWHMNEbdVbymeA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 418
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 14 Jan 2026 00:04:44 GMT
-Etag: "1768348664-gzip"
+Date: Thu, 15 Jan 2026 00:04:53 GMT
+Etag: "1768435492-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 13 Jan 2026 23:57:44 GMT
+Last-Modified: Thu, 15 Jan 2026 00:04:52 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 61-361235035-361234553 SNNy RT(1768349007408 76700) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 149326697 113331448
+X-Iinfo: 40-9613609-9613619 SNNy RT(1768435411201 81110) q(0 0 0 -1) r(9 9) U24
+X-Varnish: 97854981
 
-d61d
+d61e
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ d61d
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-45881e138616d628c4004b84c4953c27ce783befe2d7fdec97232c93767bd5bd">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a7613e91c8735f8bcd46ee53bc35bbabcf69f321ccf70d38acf353f9ee28d740">
   
     
       
@@ -208,7 +208,7 @@ d61d
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-22496580889da7cd98c669b06bc723fe3142910ef2e35f69da5a2b0dc9ba019c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9adf37631aa6a08be6a3caa5e4b924dc7801cc55e328c0f628f23b7c4e603625">
   
     
       
@@ -468,7 +468,7 @@ d61d
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a6d5c7a95adfd31825c99f76f458eb50668958e71d7cf8d52b320fc116464acf">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ad07b53fb2a0bb7525bc5c7f7e165da42e5f5085abcfbac10a6f29ff88146824">
   
     
       
@@ -482,7 +482,7 @@ d61d
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-277d4fd5f74769c1837313e0b0d1dde74cbe6eee06e4f65aa626a9f51866e51a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7e818e623817431d0a4af62fd1245af4576b5c87e263394ba5d80d4d6f503424">
   
     
       
@@ -1155,7 +1155,7 @@ d61d
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-8a06177cf30b9462c27dc43a3075010bba14790c4a6943e2c6b5a9e2f9d4fce8">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-44235e29489522059be09ace7e20e0ac859c06e360f2989e3722c12c6abd7dce">
   
     
       <div class="view-header">
@@ -1555,7 +1555,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=39&cb=746374158" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=39&cb=1817784519" async></script></body>
 </html>
 
 
