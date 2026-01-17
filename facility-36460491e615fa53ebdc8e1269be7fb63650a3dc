@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/albion-heatherington-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=yFlhJul8SRG6wRaOHsGulFqAaWkAAAAAQUIPAAAAAAAk8DzOlhbdpG8RjC//ZpvI; nlbi_243507=TQ1hLDShRBYwoKN0aXmSIAAAAABgcbeD56Hsfwf/OazAGm3V; incap_ses_189_243507=4okdfT8SbUptLqmqlHafAlqAaWkAAAAAzDitwMX7k5XWUwzLF/PZ5w==
+Cookie: visid_incap_243507=kDH21VZjQ4ulPpjOW4FSYNDRamkAAAAAQUIPAAAAAACvOCqZaNHOr7WjRY7xXGfJ; nlbi_243507=SvQpft97y3pejLNVaXmSIAAAAAAv2jKAXTmQVPU2CH+iG0qu; incap_ses_886_243507=P4e6f8CBEUHWpJiq17RLDNDRamkAAAAAEmvwotsVSwToPPwv32lzeg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 383
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 16 Jan 2026 00:03:42 GMT
-Etag: "1768521821-gzip"
+Date: Sat, 17 Jan 2026 00:03:30 GMT
+Etag: "1768607826-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 16 Jan 2026 00:03:41 GMT
+Last-Modified: Fri, 16 Jan 2026 23:57:06 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 48-59987336-59987352 SNNy RT(1768521819180 1920) q(0 1 1 -1) r(10 10) U24
-X-Varnish: 102983779
+X-Iinfo: 10-13236909-13236912 SNNy RT(1768608208379 1940) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 104903557 97634811
 
-a275
+a273
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ a275
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-38e340b412928144406c34467507cd1421cdf6f54c4eca9c5764a7f8f54ed4aa">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9baf6faa54440b8913c7f37ecfade0da0a2ba9f5ca982983748e75266981a169">
   
     
       
@@ -208,7 +208,7 @@ a275
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d852edb317eddf631871297434898cea817895cec7d0c0a845d12cfb46b7b3b4">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f33596253dd8ee4f7c906930763eb1ece228a1a01cef3b08e352d138ec730ded">
   
     
       
@@ -454,7 +454,7 @@ a275
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-78e16ae4f040813bc1c738a4cf3226566d84e86f8c6d049c1274c7bee2d3b7be">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-a9fbe07b6a63b097e9ef11ba665389238b9eefe85e0e994f86720886ed14fdf2">
   
     
       <div class="view-header">
@@ -864,14 +864,14 @@ a275
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/10ac30e419bd07f4706e8337baacdee8">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -885,7 +885,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=277037859" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=415000106" async></script></body>
 </html>
 
 

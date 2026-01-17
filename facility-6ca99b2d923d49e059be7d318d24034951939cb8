@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/south-fallingbrook-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=yFlhJul8SRG6wRaOHsGulFqAaWkAAAAAQUIPAAAAAAAk8DzOlhbdpG8RjC//ZpvI; nlbi_243507=TQ1hLDShRBYwoKN0aXmSIAAAAABgcbeD56Hsfwf/OazAGm3V; incap_ses_189_243507=4okdfT8SbUptLqmqlHafAlqAaWkAAAAAzDitwMX7k5XWUwzLF/PZ5w==
+Cookie: visid_incap_243507=kDH21VZjQ4ulPpjOW4FSYNDRamkAAAAAQUIPAAAAAACvOCqZaNHOr7WjRY7xXGfJ; nlbi_243507=SvQpft97y3pejLNVaXmSIAAAAAAv2jKAXTmQVPU2CH+iG0qu; incap_ses_886_243507=P4e6f8CBEUHWpJiq17RLDNDRamkAAAAAEmvwotsVSwToPPwv32lzeg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 490
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 16 Jan 2026 00:07:30 GMT
-Etag: "1768521559-gzip"
+Date: Sat, 17 Jan 2026 00:07:24 GMT
+Etag: "1768608443-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 15 Jan 2026 23:59:19 GMT
+Last-Modified: Sat, 17 Jan 2026 00:07:23 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 48-59987336-59987352 SNNy RT(1768521819180 231331) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 167084641 166427101
+X-Iinfo: 10-13236909-13236912 SNNy RT(1768608208379 235235) q(0 0 0 -1) r(11 11) U24
+X-Varnish: 167113599
 
-b30f
+b30d
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ b30f
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0347b5d5beb0d294e110137410806daf5e1e1efc2d0230ecb8c2b2dae8be8f47">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d1a1c1a0f4b5ff6124ac1bfb8f666b1bb0e32a4574270419eddc1f115fc3e2f6">
   
     
       
@@ -208,7 +208,7 @@ b30f
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-61a05446e59d680041baec9bef9ffd15eb0bd8938c1fa49eefdea092f9eb7973">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b19ab8c5ac1f060d9f6882ff155ad276421db9f41b3d493179d5189f1a59e42c">
   
     
       
@@ -408,7 +408,7 @@ b30f
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f35c7ee4075a3456e7617a147b5025c217c9753ddd032174b9a0f642814a90a3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c6f54471d44075449f82e8cda49bf3a2085854bb0185650c3e6ede2cb545d12d">
   
     
       
@@ -422,7 +422,7 @@ b30f
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f4dcddbd85557c4e13056f8e27c98411dc8330eccb0f9b273dee9787fd9849e4">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4f08edee50383b0939acd27d20dd87b402a20d7def8439c8b95df835549f9391">
   
     
       
@@ -672,7 +672,7 @@ b30f
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-6837e27bb741b5fd27623d07aff112b8aaed18e1f1b48f326077c7478fdebbdc">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-b86c897e7e9ab91bd85e591b2eabf140b5fa89b075ae20a663960be7a64904c2">
   
     
       <div class="view-header">
@@ -1048,14 +1048,14 @@ b30f
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/10ac30e419bd07f4706e8337baacdee8">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
