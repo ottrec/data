@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=fN27Ew+iRZuf1H3MORudwIIjbGkAAAAAQUIPAAAAAAB27QljmKLFim6PGhvfN8iW; nlbi_243507=NxWUQrQp5zHcgXu4aXmSIAAAAABqm+GYixH8YP5OvZr84Qtz; incap_ses_891_243507=ez//DHpcfFtaqw3jUHhdDIIjbGkAAAAA1rug1LU2tJgV02Pr2V7HIw==
+Cookie: visid_incap_243507=OOdj9hX6SCaHJz5VDepkWQl1bWkAAAAAQUIPAAAAAADynv7he7Mn43kP3ai1bjiu; nlbi_243507=S2j8NXRG/njcTyn+aXmSIAAAAADJ/uc82+5oiBMlOpmaYll/; incap_ses_176_243507=xoWkZ+uiRkH5mMpXJkdxAgl1bWkAAAAAO34M1JVNIFPQmZhykfc37Q==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 349
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 18 Jan 2026 00:06:55 GMT
-Etag: "1768694464-gzip"
+Date: Mon, 19 Jan 2026 00:07:05 GMT
+Etag: "1768781223-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 18 Jan 2026 00:01:04 GMT
+Last-Modified: Mon, 19 Jan 2026 00:07:03 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 7-30231208-30231212 SNNy RT(1768694658452 157215) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 168974536 169709303
+X-Iinfo: 46-86668986-86689148 SNNy RT(1768781065844 158023) q(0 0 0 -1) r(15 15) U24
+X-Varnish: 107483316
 
-11f5b
+121bf
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 168974536 169709303
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c2ba5ec12c970d84759650e0a807182d65af9ac20349deb24dcdc1d470104052">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-41339dd60cd3cc1dea22aa1301ec7d21cfd1fd221c711399682360b33482cedc">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 168974536 169709303
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3b04d26a98c21b1143530cea21e48060419b6408e3548f5d11255432631a0e46">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e5342d358e7b2d0446b15b21ff8ec413b20b9889b334b1e3889e917dba4042be">
   
     
       
@@ -623,7 +623,7 @@ X-Varnish: 168974536 169709303
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0236617f108c993016ee5c174374b1c64b401a90d222c0366fd9ebd4b298aca9">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-26bffd2df4f73962a6f4e44adac25584fc31fa2bcdeeefc786bc75052ce0b9a5">
   
     
       
@@ -637,7 +637,7 @@ X-Varnish: 168974536 169709303
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9703806389457141ea3cc67b3229014eec179a41a458acf08e6f41a562a90950">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c78fae3fc1072bce595a3c0168ac7d122547674b3ae2d61557d3f14ce704b5ef">
   
     
       
@@ -667,6 +667,13 @@ X-Varnish: 168974536 169709303
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change. Holiday hours and programs may vary.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 <p><strong>*Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Drop-in swimming is free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults.&nbsp;See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information. Wave&nbsp;swim&nbsp;not included.&nbsp;</p>
 </div>
       
       </div>
@@ -845,7 +852,7 @@ X-Varnish: 168974536 169709303
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bf936576a2401669177ebf15a121ddb69e0e2dc2c26a2c694201f6e57dcb08e4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-523f1b33d981e43803407d005f12c3615283be0b6c3c64ae33e6f48047eadfc4">
   
     
       
@@ -859,7 +866,7 @@ X-Varnish: 168974536 169709303
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-77be0087c81e0baf42ae53c87398ec49710c7e35125514738ed5558c5673e181">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d3790790e96a3d566532107cf809f18489b91235636874585a62a183e2336671">
   
     
       
@@ -1111,7 +1118,7 @@ X-Varnish: 168974536 169709303
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-0f06561c0408b8103a5bcfe864c7cf30b05ee534ea5d2b5f9001ec519dd3a525">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-343d2ed2c4bda9700e275cd1cfd49e9fbc7230b5c3d2a98e2d7e7e81eb115236">
   
     
       <div class="view-header">

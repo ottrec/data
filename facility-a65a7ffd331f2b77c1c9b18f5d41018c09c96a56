@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=fN27Ew+iRZuf1H3MORudwIIjbGkAAAAAQUIPAAAAAAB27QljmKLFim6PGhvfN8iW; nlbi_243507=NxWUQrQp5zHcgXu4aXmSIAAAAABqm+GYixH8YP5OvZr84Qtz; incap_ses_891_243507=ez//DHpcfFtaqw3jUHhdDIIjbGkAAAAA1rug1LU2tJgV02Pr2V7HIw==
+Cookie: visid_incap_243507=OOdj9hX6SCaHJz5VDepkWQl1bWkAAAAAQUIPAAAAAADynv7he7Mn43kP3ai1bjiu; nlbi_243507=S2j8NXRG/njcTyn+aXmSIAAAAADJ/uc82+5oiBMlOpmaYll/; incap_ses_176_243507=xoWkZ+uiRkH5mMpXJkdxAgl1bWkAAAAAO34M1JVNIFPQmZhykfc37Q==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 794
+Age: 541
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 18 Jan 2026 00:08:35 GMT
-Etag: "1768694118-gzip"
+Date: Mon, 19 Jan 2026 00:08:44 GMT
+Etag: "1768780781-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 17 Jan 2026 23:55:18 GMT
+Last-Modified: Sun, 18 Jan 2026 23:59:41 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 7-30231208-30231212 SNNy RT(1768694658452 256567) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 106374328 106403783
+X-Iinfo: 46-86668986-86717863 SNNy RT(1768781065844 258541) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 107417568 107387514
 
-139cc
+140bc
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2faec759e4963146bd9197a319fe87f2164d2c8edad6ca99aef004b61549831a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-05e391582b6789bf7fd2f213eca46d9378f79601adcf6489f172090c55f480c3">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1e396910a4ce0d04beb0cc2ae43686d03f9d5fcd2adb01402d600e28e115ef0d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-435dedd51826e66240a440b598d084ba0e69dbc547552c120fa1a56a94086a66">
   
     
       
@@ -462,7 +462,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1d500e3eadb1356452638e4496f623ea9f3fa3028674fb734807eaa8d4082c7a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-31ec84af14734ec0257d34b94dee67040ab64083f87063dd31fd22b1df52909f">
   
     
       
@@ -476,7 +476,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-99b59ad1c31920a2d813a6d3f0a91d764fbd3cae74bc89ed10783e088320584f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-33f734a52b447352572d460890d670f5171856390f63e63718c76fa4f8c10c21">
   
     
       
@@ -512,6 +512,13 @@ X-Varnish: 106374328 106403783
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/walterbaker" target="_blank" title="Opens in a new window.">Reserve a spot at Walter Baker Sports Centre</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Drop-in swimming is free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults.&nbsp;See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information. Wave&nbsp;swim&nbsp;not included.&nbsp;</p>
 </div>
       
       </div>
@@ -853,7 +860,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-694392dcee300488bc27005edb563147cfef3c4f693f145525b5f25fea45cb91">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ed1f05fe19eb5fcf462848acc9286fef9c4bdda278a778f6b53000aea4f71151">
   
     
       
@@ -867,7 +874,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-48e218d83605d590af90f6bb2296309412896077590600571898fb65ef6ee7d7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-59cff0f3bb2ebbb2113185981bc680311a8c0e691d8f4ed2d2600d1e9fcfe97b">
   
     
       
@@ -1001,7 +1008,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f105f7095a888bdbf0493956c6029774e5edf84fc77de4cc74b11c26d370bace">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7bb70e664e5815d55d1c759d02f30d42c88d95d45a2b01eb1cf200c27b204929">
   
     
       
@@ -1015,7 +1022,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fe999e7fd1cebaa75adf58334074f1c91436b5558a0452e9043abafdb930f1b6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-46ec7d7532384b241add84699fa2b7672df82ec69296075985d81a5ce2bcc321">
   
     
       
@@ -1341,7 +1348,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d34110368dd890d3119e2ea13d1d59b9d2990c9249177a4c7b9868577de6c754">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fdf8af198f73c28c22bcd4cfccaa48d1a69601431a491a41d23faad36c65a896">
   
     
       
@@ -1355,7 +1362,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-93b79267a62a7f90ba26fa55ea543d92cd574698b62a55e618b8640e6e3c6c78">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8fcf399bb89499bce6c06386f2ee7f2d53a4000917ef1ea91cde619654675509">
   
     
       
@@ -1390,6 +1397,13 @@ X-Varnish: 106374328 106403783
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/walterbaker" target="_blank" title="Opens in a new window.">Reserve a spot at Walter Baker Sports Centre</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Drop-in sports are free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults. See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information.&nbsp;</p>
 </div>
       
       </div>
@@ -1525,7 +1539,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-94b1d15fa764a6eadf86c95a6c93e51ae84f87856045f11075435340be68cce0">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-57d600081cd7e8385e8a7d9682363eff36c53e11e61365c397a94562a9979fcb">
   
     
       
@@ -1539,7 +1553,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5a14ad0787014fd1e3eaafb7fabd56d8b094d7f5909abdf8a6f53a4bd5f629fc">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-10fb5a6c7d05b8f2f77d1df3f559468f0088157d86bd831740d0ba5a1f539966">
   
     
       
@@ -1709,7 +1723,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-415c3e080c2c4ad5915680dd31709b1b040e4ef349e4f8083ffda5f6928eef04">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ebfbf68eb1ff7d8fd6d7759941739ef321942274068deb667f1261fc0616726a">
   
     
       
@@ -1723,7 +1737,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-993bd02dd1e03ebbb931c7b8982f75907fdd82cfa7e9c925f61305071cfaf0d7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-757d2e89025a7b8818754b8d1571c3aed14a6274c7d9e07cbce8d415662aa1bf">
   
     
       
@@ -1753,6 +1767,13 @@ X-Varnish: 106374328 106403783
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. The changes will be reflected in the online reservation process.</p>
 <p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
 <p><strong>No reservations&nbsp;<span>required.</span></strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Public and family skating sessions are free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults. See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information.&nbsp;</p>
 </div>
       
       </div>
@@ -1927,7 +1948,7 @@ X-Varnish: 106374328 106403783
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-a543ab8bf39e730c971b2693acdf591a984697a1b007599c0eb090d0dda460e6">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-e6fb09a01592f402fefc2cfaf04abc0e9b26e0af691ac69207ebad1a4790d177">
   
     
       <div class="view-header">

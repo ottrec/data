@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=fN27Ew+iRZuf1H3MORudwIIjbGkAAAAAQUIPAAAAAAB27QljmKLFim6PGhvfN8iW; nlbi_243507=NxWUQrQp5zHcgXu4aXmSIAAAAABqm+GYixH8YP5OvZr84Qtz; incap_ses_891_243507=ez//DHpcfFtaqw3jUHhdDIIjbGkAAAAA1rug1LU2tJgV02Pr2V7HIw==
+Cookie: visid_incap_243507=OOdj9hX6SCaHJz5VDepkWQl1bWkAAAAAQUIPAAAAAADynv7he7Mn43kP3ai1bjiu; nlbi_243507=S2j8NXRG/njcTyn+aXmSIAAAAADJ/uc82+5oiBMlOpmaYll/; incap_ses_176_243507=xoWkZ+uiRkH5mMpXJkdxAgl1bWkAAAAAO34M1JVNIFPQmZhykfc37Q==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 347
+Age: 475
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 18 Jan 2026 00:04:52 GMT
-Etag: "1768694344-gzip"
+Date: Mon, 19 Jan 2026 00:04:59 GMT
+Etag: "1768780620-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 17 Jan 2026 23:59:04 GMT
+Last-Modified: Sun, 18 Jan 2026 23:57:00 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: MISS
+X-Drupal-Cache: HIT
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 7-30231208-30231212 SNNy RT(1768694658452 34422) q(0 1 1 -1) r(1 1) U24
-X-Varnish: 105012966 105918784
+X-Iinfo: 46-86668986-86669000 SNNy RT(1768781065844 33256) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 170127895 169737620
 
-12a50
+12f1d
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a4c3ece92d83538378eb0c4bce59fd89928f023d4fb56af711ac51bcd211d9f5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-19100c6e2deab6259a7f62a34dcd6ae3d449444309414145b9736e88c2926c92">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c69888db1083ef943266ac8a49fb0defc52837582009d413cac91101685730ff">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d007a530e9398a9efa36e477f0f4edf608cc69442afe3f4c189843e5dbd2dedb">
   
     
       
@@ -462,7 +462,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4fd7b195bc7debf78bcd19d1fa03a4a0028c3802f373b5c8f9dfcf572c374d86">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-84b7446cb747394f078357dd839abc4488f41c54daa8d4a858e759938d2ddc78">
   
     
       
@@ -476,7 +476,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d5b1e60ae7d37b827a2efb1af5db771dd75b10c940f04ea62f0301ec45b8336c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ac0b734c0b2f91b25e027262c161a726492c164f05c946c31cf1520c46fc7fbb">
   
     
       
@@ -506,6 +506,13 @@ X-Varnish: 105012966 105918784
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change. Holiday hours and programs may vary. Reservations are not required for swim programs at this location.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></p>
 <p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Drop-in swimming is free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults.&nbsp;See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information. Wave&nbsp;swim&nbsp;not included.&nbsp;</p>
 </div>
       
       </div>
@@ -819,7 +826,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-501dba06c34ada0b200208a2b2048949ceb3b78008b82697711796ed7fee501b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-20bfbdf4b6e3c5e56c7ba0e977188308fc3891367bfd685805bf7d2cbb4a65d4">
   
     
       
@@ -833,7 +840,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c578fb91b765d49ba0322314199c143ce605653f020e32f89ee4265d794f4e22">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1d2a1d94da42e3456ce6a770994a24ffc149120bf90b200bb494f292b7f7ddfb">
   
     
       
@@ -966,7 +973,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2ba5eeee89ea4b75f9a5306adee04be279caaacc679f90207819afa75e4b3c41">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9629eead83e30a65bd52c051818462ff74a835f6f2623cacc04c63daffd8e8f8">
   
     
       
@@ -980,7 +987,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-28b7d44a63d75e4e578cc28c83928417541ca180047dda9f457469b1b9d5fc6b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a46ad89595c9d4f3c0efba43a440a71f1bc67380243f0a84807eeaa77b0c8406">
   
     
       
@@ -1211,7 +1218,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d34dea48a25d42ad179e73795678b45d9d3801651d3ab25f55701a91fadb5ab4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f7ca8b54e3dd3c3ae5bfe502f4553e521c6aaa4599f726e5992645525d8e13b5">
   
     
       
@@ -1225,7 +1232,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a155cec99f396abd5290bd543e116868bc590f5b2da2e5461673f57fb6a1e2fa">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a3078029b9c71835e235f339db2ca886d6a83a4915640b5c28cc60c844698da2">
   
     
       
@@ -1529,7 +1536,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dc354b507987ae2e9995ea48c115faa195696fd6e130d52b1335d9bb07e7b8c8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0edeb8597e84807db7439f0d81c960ae1017a48fc4ee044008314d92002b750a">
   
     
       
@@ -1543,7 +1550,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ac4b29be1e66ac71c719a5dcfad3d19bb3e4c772392caa40578e6d3797d1b5dc">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6b148a25908e0c6ab54c258ac7265d83c9feb52886b23279cd2c53f1963b413f">
   
     
       
@@ -1573,6 +1580,13 @@ X-Varnish: 105012966 105918784
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. The changes will be reflected in the online reservation process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></p>
 <p><strong>*Reservations not required</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Public and family skating sessions are free on Sundays&nbsp;at this location for children and youth (aged 17 and under)&nbsp;and accompanying adults.&nbsp;See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information.&nbsp;</p>
 </div>
       
       </div>
@@ -1761,7 +1775,7 @@ X-Varnish: 105012966 105918784
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-91d873a2012bac19933501e6876d7904db1127ba7f8941570a09a17f9c56834e">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-a85f9b0ba223fa833fc23210b2553fdce4f03049aa63b582b42497f6b103154e">
   
     
       <div class="view-header">
@@ -2199,7 +2213,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=17&cb=286882763" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=17&cb=1758820883" async></script></body>
 </html>
 
 

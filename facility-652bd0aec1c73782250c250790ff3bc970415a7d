@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/sandy-hill-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=fN27Ew+iRZuf1H3MORudwIIjbGkAAAAAQUIPAAAAAAB27QljmKLFim6PGhvfN8iW; nlbi_243507=NxWUQrQp5zHcgXu4aXmSIAAAAABqm+GYixH8YP5OvZr84Qtz; incap_ses_891_243507=ez//DHpcfFtaqw3jUHhdDIIjbGkAAAAA1rug1LU2tJgV02Pr2V7HIw==
+Cookie: visid_incap_243507=OOdj9hX6SCaHJz5VDepkWQl1bWkAAAAAQUIPAAAAAADynv7he7Mn43kP3ai1bjiu; nlbi_243507=S2j8NXRG/njcTyn+aXmSIAAAAADJ/uc82+5oiBMlOpmaYll/; incap_ses_176_243507=xoWkZ+uiRkH5mMpXJkdxAgl1bWkAAAAAO34M1JVNIFPQmZhykfc37Q==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 407
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 18 Jan 2026 00:08:08 GMT
-Etag: "1768694886-gzip"
+Date: Mon, 19 Jan 2026 00:08:16 GMT
+Etag: "1768780887-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 18 Jan 2026 00:08:06 GMT
+Last-Modified: Mon, 19 Jan 2026 00:01:27 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 7-30231208-30231212 SNNy RT(1768694658452 227547) q(0 0 0 -1) r(23 23) U24
-X-Varnish: 169327607
+X-Iinfo: 46-86668986-86717863 SNNy RT(1768781065844 230263) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 106774943 106284736
 
-dde0
+e030
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ dde0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-092e0a0679829e3c91deca1349ebb516a0a303032b1356b87ccbfd66a148a4a7">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a5aae42b53fdf646c1341fa0d46f7d9b581d2b84fac419e71cb93cf80625b41c">
   
     
       
@@ -208,7 +208,7 @@ dde0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f5b212f534894be37faeb95e8a633c4bd7f49bf9388e3a741eb7e28a928ac8dd">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-81f1e3df94c3faea2f200b0fb283f6ddcaece1c7b3bd43a3b07567b86d538ed6">
   
     
       
@@ -479,7 +479,7 @@ dde0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d8fd7e95947ad189ccfa9d3132f3d175a0fb530adcadcc723323b19ec3f12e14">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-668179f401beced81b7ba499cfa5928fc9a10a32d46af61661f6c8292020edd7">
   
     
       
@@ -493,7 +493,7 @@ dde0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4e99440898428c72d662dfff1184dd4d0ffe8c024518fec1715be264e6b25583">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-276f8c1503a15c05467dc5bb2bcaf5322bdc33e751562286a8931384fdabf90a">
   
     
       
@@ -524,6 +524,13 @@ dde0
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 <p><strong><a href="https://ottawa.ca/en/recreation-and-parks/skating/safety-regulations" hreflang="en">Safety and regulations</a></strong></p>
 <p>Reservations not required.</p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Public and family skating sessions are free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults. See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information.&nbsp;</p>
 </div>
       
       </div>
@@ -683,7 +690,7 @@ dde0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dbe38d7964665dc1401bae9eccd89efea87bbab36c300ec08b8ed758c744f440">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-79417d540a95d4de3060609482a79b4b6d61d9484f01129d9b8f440c5f57adff">
   
     
       
@@ -697,7 +704,7 @@ dde0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f7ff3bf13613c545c1fbe40de1c3db54b6a58c083a6c780ff19f6b1fdecfe936">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b057a6fc2815ee18359367148de195d240b43e9be5f6f28613832d5ca5d4efb2">
   
     
       
@@ -897,7 +904,7 @@ dde0
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-fe9aa0072f4b84a3ed352da1d6d7e2364aad79796f60b641c58dfe19107a6909">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-2795f2470172a2d275352c1cf2be7deb442eebaa2e26b4361f072c23d795f672">
   
     
       <div class="view-header">

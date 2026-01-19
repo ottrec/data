@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=fN27Ew+iRZuf1H3MORudwIIjbGkAAAAAQUIPAAAAAAB27QljmKLFim6PGhvfN8iW; nlbi_243507=NxWUQrQp5zHcgXu4aXmSIAAAAABqm+GYixH8YP5OvZr84Qtz; incap_ses_891_243507=ez//DHpcfFtaqw3jUHhdDIIjbGkAAAAA1rug1LU2tJgV02Pr2V7HIw==
+Cookie: visid_incap_243507=OOdj9hX6SCaHJz5VDepkWQl1bWkAAAAAQUIPAAAAAADynv7he7Mn43kP3ai1bjiu; nlbi_243507=S2j8NXRG/njcTyn+aXmSIAAAAADJ/uc82+5oiBMlOpmaYll/; incap_ses_176_243507=xoWkZ+uiRkH5mMpXJkdxAgl1bWkAAAAAO34M1JVNIFPQmZhykfc37Q==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 480
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 18 Jan 2026 00:07:39 GMT
-Etag: "1768694858-gzip"
+Date: Mon, 19 Jan 2026 00:07:46 GMT
+Etag: "1768780785-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 18 Jan 2026 00:07:38 GMT
+Last-Modified: Sun, 18 Jan 2026 23:59:45 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 7-30231208-30231212 SNNy RT(1768694658452 200284) q(0 0 0 -1) r(10 10) U24
-X-Varnish: 106023160
+X-Iinfo: 46-86668986-86717863 SNNy RT(1768781065844 200909) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 107325151 106818951
 
-11f7d
+1244a
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b3b4429fdaf95cbffebcd7c16637db2f473c9f35832bcc5c94e04b64af739df4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5fec8ddeb2ebb9479e8cee8ec94c2d72f97508503b13707e8ac91b70fc9568dc">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7fa4ca9d37184097923d10d7ee555fcc0dc3cf2e938d3e564600e2bbe30a5a67">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3f7ce2c819366a972018cc58aafb95b27df1094e3ad7082b4336255059908e1e">
   
     
       
@@ -463,7 +463,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a7861e27893039ebb72cbdadcaa47ea2b080a0259e8c91f91bf6f5e504e0bc1d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c26005e38c6889a7d7def5d0f2e95ebb4e2ebad4906da4c6a2e783c1c38ccc59">
   
     
       
@@ -477,7 +477,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-793883c7ea2731e4d5f09885f74354b631bd2e6f58d54bcddb04edc774bcaf6d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a009f6cd5b19c9da9d9fe3687c16a1fe1a57003ba1c44cf06a16ae4691504f62">
   
     
       
@@ -513,6 +513,14 @@ X-Varnish: 106023160
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/pinecrest">Reserve a spot at Pinecrest Recreation Complex</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Drop-in swimming is free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults.&nbsp;See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information. Wave&nbsp;swim&nbsp;not included.&nbsp;</p>
+
 </div>
       
       </div>
@@ -723,7 +731,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4af65f4d3556bbf3241616875ca9bce1aa99dc97c40c012c55428f629a85b6e3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-62401ca87a41a6279986dcc2ffa9ff30234fea085c473ad9b91a0b91055dda0e">
   
     
       
@@ -737,7 +745,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a8a3bf9d058a4d530c11cc603df84e89db7858f578f05fe0923f00f90408ea47">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7747e70ebb4a5a9f5dcdd715eded0a405e97b57df7fbbbbfe6021bb1f58a0ff0">
   
     
       
@@ -904,7 +912,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-77a8087e5942d285f7bb2628693768c1703b97691710e717776696425de47448">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ee8a823d5f38820304a98f03a9b9af87a8a463bc41fd3639b01ddcfd1ccde45f">
   
     
       
@@ -918,7 +926,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b8bc5917637e6f05ac17802fe91e600d5f045d74a2d6d530b62b8a31fa408914">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-45be71b10aa5738cc51a10905491b6e4eb94a4a8c745cca98aaa31ce60df686d">
   
     
       
@@ -1273,7 +1281,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f7ccf847457c95752b4f3d9a9acd7683834e93252cd388f79c548a61865ba474">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8254656313d8bc66d9c07a4072101722ca31ca0638c2bc2a4fd815eba3462800">
   
     
       
@@ -1287,7 +1295,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-acf6cec89bfc4f375f2380cecfc26e3d7fb22be9f2a38438d8a9dc90465e853c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-44c747b078abd4d0f322b6c01179d84ba6eae958b0e63169f6af16cdcbc1bf8d">
   
     
       
@@ -1318,6 +1326,13 @@ X-Varnish: 106023160
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></p>
 <p><strong><a href="https://ottawa.ca/en/recreation-and-parks/skating/safety-regulations" hreflang="en">Safety and regulations</a></strong></p>
 <p><strong>Reservations not required.</strong></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Public and family skating sessions are free on Sundays&nbsp;at this location for children and youth (aged 17 and under)&nbsp;and accompanying adults.&nbsp;See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information.&nbsp;</p>
 </div>
       
       </div>
@@ -1507,7 +1522,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e84ea20c0c1c554667fc5a68dfb636377df53f807719c565b4dd67e327f2ce39">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5ab096201a1a52c235c553fe1166b29f390e07803545ef75dd4c56d89db7d919">
   
     
       
@@ -1521,7 +1536,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1c54d9756215971191c1f890bcd6dfd6d4d1c08e3d474295e9260072de8b62ec">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b85f16994f0d462d9ff78454e9a91985c377329dd38c11f6e04821bb741724aa">
   
     
       
@@ -1755,7 +1770,7 @@ X-Varnish: 106023160
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-d82e8bb35bb5ec927194971e76e6ced973ba6cbd72e94291f58bd6544dd841d0">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-7f8ae7b4e23d9d2cc97b77e5d4dc2ed159675fe543e503480c4065e08538851e">
   
     
       <div class="view-header">

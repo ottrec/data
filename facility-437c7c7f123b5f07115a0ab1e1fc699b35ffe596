@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/cardelrec-recreation-complex-goulbourn HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=fN27Ew+iRZuf1H3MORudwIIjbGkAAAAAQUIPAAAAAAB27QljmKLFim6PGhvfN8iW; nlbi_243507=NxWUQrQp5zHcgXu4aXmSIAAAAABqm+GYixH8YP5OvZr84Qtz; incap_ses_891_243507=ez//DHpcfFtaqw3jUHhdDIIjbGkAAAAA1rug1LU2tJgV02Pr2V7HIw==
+Cookie: visid_incap_243507=OOdj9hX6SCaHJz5VDepkWQl1bWkAAAAAQUIPAAAAAADynv7he7Mn43kP3ai1bjiu; nlbi_243507=S2j8NXRG/njcTyn+aXmSIAAAAADJ/uc82+5oiBMlOpmaYll/; incap_ses_176_243507=xoWkZ+uiRkH5mMpXJkdxAgl1bWkAAAAAO34M1JVNIFPQmZhykfc37Q==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 558
+Age: 526
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 18 Jan 2026 00:05:00 GMT
-Etag: "1768694140-gzip"
+Date: Mon, 19 Jan 2026 00:05:09 GMT
+Etag: "1768780581-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 17 Jan 2026 23:55:40 GMT
+Last-Modified: Sun, 18 Jan 2026 23:56:21 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 7-30231208-30231212 SNNy RT(1768694658452 42431) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 169327437 169680204
+X-Iinfo: 46-86668986-86669000 SNNy RT(1768781065844 43951) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 170701206 170633234
 
-143e5
+14d10
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-44c68cdd3abc2f957d805281f25fe9adfe78bcded58dfe58943fd9179b76e00e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-348f1f9ce25b915b340723cb0bcc29d4eb6362d6ddb80e0c9279115034853227">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c7ee25da88500e6d99e10afcdd93f3df82e5cfd1ff9aa2b3e26b17a22ae6b6f6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f02cd9213f5344f6ca83f812e3000192c9d0e216e765fbf1eb8480b3698bbb56">
   
     
       
@@ -465,7 +465,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-58a1496ac5211e0705b0cbf506ebb2c56beb86fa93d2215bb9db0f4360d0059a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-63bc08a9cb314df22aa90a844f836c82bcd755bbf531382ba293e243d147f1f8">
   
     
       
@@ -479,7 +479,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bb40a09db11f894a26d1409f3710db2dd00af18b2f4e15c9e16897b4fd5271c1">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f0816b6e5613ec1fe5e0cf5beaa66909d2064b3ba11b34f926bd84a05ac0867b">
   
     
       
@@ -509,6 +509,13 @@ X-Varnish: 169327437 169680204
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/cardelrec">Reserve a spot at CARDELREC Recreation Complex Goulbourn</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Drop-in swimming is free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults.&nbsp;See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information. Wave&nbsp;swim&nbsp;not included.&nbsp;</p>
 </div>
       
       </div>
@@ -725,7 +732,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0d00ad1daafd2ecb76bae832c4ab3feace77f593294bcbea5cbc75ef17ff7fbe">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-259a75f33a1534182094eba407f811b2f063e4d5fb5f51d847431261f8e2e6b8">
   
     
       
@@ -739,7 +746,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cfa4e5723074dfed8c73b26cee510d59189fab35fb2399bfeddab544ec9456f5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4f8252b6f9f4b14d07f56d4d9358b6655afdc5462f03ccf0eb14ecfad5100fc8">
   
     
       
@@ -904,7 +911,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c3ce2d24a7c9840f895a579201e880d891d86b2c15152252ad2d8f41698e598e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3e52e7ed56cac989086d99c73df4eef882c7d5e38fa566cb83131e93108d1101">
   
     
       
@@ -918,7 +925,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b83fbb65311f9954b7cf0cff4446409dd56f5447e0b01dd511da4ea724a59032">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5a72f069320f762078d94404a004c453c7b22e441dd72037137e513129e197e8">
   
     
       
@@ -1279,7 +1286,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dcd078e47c2f83fe0fd3557647ca0cbe6138a231d2e5df7b949993787894f686">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3acaceb36ada7fc4dd6099620dde68e384435e78421ce0e4d13493fbc8979f80">
   
     
       
@@ -1293,7 +1300,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3ffe3af63d32df68230680ccfdcf0cb63b4ce21ab51d1f5feb1da1a5f68e74c4">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ac2224168f9fe54bb7d7de9615bb8e39ff491775e4d178faa2b9c3466f8d100e">
   
     
       
@@ -1323,6 +1330,13 @@ X-Varnish: 169327437 169680204
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/cardelrec">Reserve a spot at CARDELREC Recreation Complex Goulbourn</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Drop-in sports are free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults. See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information.&nbsp;</p>
 </div>
       
       </div>
@@ -1585,7 +1599,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fcac5f5513db69214b75ae249437001832fc1d20443f6711597798a07536ca83">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e729cdac6749fbe8ec3dfefe758cfebd4223b4bde4bc2a4d342f5644bd6121ad">
   
     
       
@@ -1599,7 +1613,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c61740d254261c8485853c5463b006016fecd393315b4ffbe7b4014b7a720f66">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-df3daf39925075ab9e2a6d81fcee9f14751a6618ed1e1f6be8ea2bbf7ad080c4">
   
     
       
@@ -1628,6 +1642,13 @@ X-Varnish: 169327437 169680204
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Drop-in sports are free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults. See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information.&nbsp;</p>
 </div>
       
       </div>
@@ -1748,7 +1769,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a4d8dca51928d3c48b0c1c9ea11f6346243df8707101d3acb774e017e067741f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1e80bcca97ceb5de005b8ad14fe77f7f32d1b0095041f4a1bc3f3d5aaf1bbd5d">
   
     
       
@@ -1762,7 +1783,7 @@ X-Varnish: 169327437 169680204
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1720e5abca54dc974b839e6f061351e9cd74970c1ee3b8d4f8f686f683287528">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-272b0b4df346679576da9b407cf5db0de00b601e9d236e04494482febab5bca6">
   
     
       
@@ -1792,6 +1813,13 @@ X-Varnish: 169327437 169680204
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. The changes will be reflected in the online reservation process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/arenacardelrec">Skating - Reserve a spot at CARDELREC Recreation Complex Goulbourn</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Public and family skating sessions are free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults. See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information.&nbsp;</p>
 </div>
       
       </div>
@@ -2021,7 +2049,7 @@ Pool rentals - please contact the facility.</p>
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-738b2f3a49631917cefea24f1b074cc79c33e21405e75d0d053afc8a0699f2eb">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-c9dcb3b2882b3dfc3465eff22adb0efc678df396a4285a64d22e19fdeb749580">
   
     
       <div class="view-header">
@@ -2462,7 +2490,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=21&cb=1416782715" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=21&cb=252277540" async></script></body>
 </html>
 
 
