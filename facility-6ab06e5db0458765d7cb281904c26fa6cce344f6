@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/sawmill-creek-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=OOdj9hX6SCaHJz5VDepkWQl1bWkAAAAAQUIPAAAAAADynv7he7Mn43kP3ai1bjiu; nlbi_243507=S2j8NXRG/njcTyn+aXmSIAAAAADJ/uc82+5oiBMlOpmaYll/; incap_ses_176_243507=xoWkZ+uiRkH5mMpXJkdxAgl1bWkAAAAAO34M1JVNIFPQmZhykfc37Q==
+Cookie: visid_incap_243507=qarb1Up6Ski1oqI/FQfOzVjGbmkAAAAAQUIPAAAAAAC8oaqOL3yy+xAcqHg5EK4R; nlbi_243507=sGDqPmx8ES/t0v4GaXmSIAAAAADaXLyCLi8+PeEbaImPzDS8; incap_ses_177_243507=ZY/GD+eQISueH/wDpdR0AljGbmkAAAAA3pVbbzu4F6FdrKK3fKf+kg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 648
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 19 Jan 2026 00:08:20 GMT
-Etag: "1768780651-gzip"
+Date: Tue, 20 Jan 2026 00:07:20 GMT
+Etag: "1768867640-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 18 Jan 2026 23:57:31 GMT
+Last-Modified: Tue, 20 Jan 2026 00:07:20 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 46-86668986-86717863 SNNy RT(1768781065844 234260) q(0 1 1 -1) r(1 1) U24
-X-Varnish: 107325194 107482992
+X-Iinfo: 44-89967278-89967286 SNNy RT(1768867416442 223598) q(0 0 0 -1) r(10 10) U24
+X-Varnish: 108760543
 
-f5bc
+f671
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ f5bc
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7832b7e8ce698eef02b0a9e5459b2bbb2a30967eadeefdb35c2d1218563ae5e2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-94d27d3b9394bc4d1b5e3db1f9f34c09e970e7627a849342f1e7f13aa7059ee7">
   
     
       
@@ -208,7 +208,7 @@ f5bc
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a76c1c576ca6c1ad5c08720dab816ea26b09b58c7871268e6b541e73bb7e4bcd">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-27996d761b8a17fc417f02d3c459c4031d8e861a2a398dd1c3258380a2eeffac">
   
     
       
@@ -501,7 +501,7 @@ f5bc
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-50b8d41edb64c95eb09f570be98af4e5e74a16591a328e19298a1c5e0d37d8c4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-66c5f6ecb3f59fae788766198f6d9cde1adc794952e225585d253fb991f4e75b">
   
     
       
@@ -515,7 +515,7 @@ f5bc
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e06ddcf954fe12de6bc2324423b4c1004b17a4a3be931c1c05d859b981958db0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2eb7d584fb874addd5777a7c991d99c4fcb745b177e0c5b0f5fd9b62882eff88">
   
     
       
@@ -598,8 +598,7 @@ f5bc
 			</td>
 			<td>
 			7 - 11&nbsp;am,&nbsp;
-			Noon -&nbsp;1 pm,&nbsp;
-			8:30 -&nbsp;9:30 pm&nbsp;
+			Noon -&nbsp;1 pm
 			</td>
 			<td>
 			11 am - 2&nbsp;pm,&nbsp;
@@ -621,6 +620,16 @@ f5bc
 			Noon - 1 pm,&nbsp;
 			7 - 8 pm
 			</td>
+		</tr>
+		<tr>
+			<th>Reduced lane swim</th>
+			<td>n/a&nbsp;</td>
+			<td>8:30 -&nbsp;9:30 pm&nbsp;</td>
+			<td>n/a&nbsp;</td>
+			<td>n/a&nbsp;</td>
+			<td>n/a&nbsp;</td>
+			<td>n/a&nbsp;</td>
+			<td>n/a&nbsp;</td>
 		</tr>
 		<tr>
 			<th>
@@ -838,7 +847,7 @@ f5bc
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bf2a504671c52130ee8c1bf39b6f96f99b02d727c1b9ee7d075c547672449161">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1ef6be231e0adada9675f93cf48df0985d5b69322aad88b307842bd6a2a33557">
   
     
       
@@ -852,7 +861,7 @@ f5bc
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-73edc1cae43f4d84abaec147ea38705dd2823c54111108ffb071ab9b9ea2fe5b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c80d4a16adea1603fa96d28abc61d41384bdf53d388040d39c8626e972fc2241">
   
     
       
@@ -1053,7 +1062,7 @@ f5bc
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-4bd4f832ee25401da348925b1434d97d942ee8cb274088cc97bee49029d118a7">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-5d3746dbaa18a117b9a805800b2ef586e05ae4a8ebc74d8f3a5047ff15f96d4f">
   
     
       <div class="view-header">
@@ -1435,14 +1444,14 @@ f5bc
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/4b407d613490de7ad56c5a88dfc2f9a0">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/dempsey-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=OOdj9hX6SCaHJz5VDepkWQl1bWkAAAAAQUIPAAAAAADynv7he7Mn43kP3ai1bjiu; nlbi_243507=S2j8NXRG/njcTyn+aXmSIAAAAADJ/uc82+5oiBMlOpmaYll/; incap_ses_176_243507=xoWkZ+uiRkH5mMpXJkdxAgl1bWkAAAAAO34M1JVNIFPQmZhykfc37Q==
+Cookie: visid_incap_243507=qarb1Up6Ski1oqI/FQfOzVjGbmkAAAAAQUIPAAAAAAC8oaqOL3yy+xAcqHg5EK4R; nlbi_243507=sGDqPmx8ES/t0v4GaXmSIAAAAADaXLyCLi8+PeEbaImPzDS8; incap_ses_177_243507=ZY/GD+eQISueH/wDpdR0AljGbmkAAAAA3pVbbzu4F6FdrKK3fKf+kg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 193
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 19 Jan 2026 00:05:38 GMT
-Etag: "1768780942-gzip"
+Date: Tue, 20 Jan 2026 00:04:43 GMT
+Etag: "1768867482-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 19 Jan 2026 00:02:22 GMT
+Last-Modified: Tue, 20 Jan 2026 00:04:42 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-4h6pg (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 46-86668986-86689148 NNNY CT(66 72 0) RT(1768781065844 72657) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 106755214 107546287
+X-Iinfo: 44-89967278-89967286 SNNy RT(1768867416442 66354) q(0 1 1 -1) r(6 6) U24
+X-Varnish: 172072014
 
-c257
+c259
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ c257
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-da471be00c0fed7efe850b29e2532811f9b1c44d9abcdfd877c9622e1a83e082">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-600989bc11d8fe969e840dd244a0623ffc08f4a1edcf0e8bbbab409617f6cd44">
   
     
       
@@ -208,7 +208,7 @@ c257
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-770c6d8d46d564ffba3e925d52da6fcb5ab77271f825f50b3b06505589980e79">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-625612d98052969b0c19bc7f4083c77bb1e3c5d229198001e39b0dc8b76bd1b9">
   
     
       
@@ -467,7 +467,7 @@ c257
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d69032b0399a50be6d27f6fd57a7d48845f55e4060030e689cb2769f9378de82">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-92232c22bc36396b126b6de490ee0182d4f8991fa41a8ea227a4deeca8435a17">
   
     
       
@@ -481,7 +481,7 @@ c257
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0303abac4732c2af6418f9fdbaa2ba6f81c8184d19eeb4e5f6bc27c62efb7390">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-89da2875b324f21d3aa471695a55442b39d3c5072619385c6a4a78761b01f93f">
   
     
       
@@ -1039,14 +1039,14 @@ Plot Rental for non-residents of Ottawa – $81.99</p>
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/4b407d613490de7ad56c5a88dfc2f9a0">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -1060,7 +1060,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=34&cb=1016046931" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=34&cb=2146923460" async></script></body>
 </html>
 
 
