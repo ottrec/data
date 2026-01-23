@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing?page=1 HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=n0SrqVXGR1yI2j8+NK9Nn1tpcWkAAAAAQUIPAAAAAADpryPppxetYtGlErby3D6Q; nlbi_243507=mrh/fesTDl04hpvzaXmSIAAAAAA47gCrzuTIN+vD2KYTPobu; incap_ses_100_243507=vEIRZXhpbxkPWZN4jUVjAVtpcWkAAAAARDZmxJSSrHOKo8Itz3Tx8Q==
+Cookie: visid_incap_243507=GxSPfnk5TGyOrCtPOISsHvS6cmkAAAAAQUIPAAAAAAC/dNhr4kYpxVrVX5VImcx5; nlbi_243507=0i+ZA9gbkyn9j2rQaXmSIAAAAABWlKFueU2hzEqUu0Zt2+F9; incap_ses_1841_243507=7Ci1etlfmj//DtkmW4yMGfS6cmkAAAAAqf+67d63+caMSJiAgWbamQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 398
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 22 Jan 2026 00:04:34 GMT
-Etag: "1769040274-gzip"
+Date: Fri, 23 Jan 2026 00:04:57 GMT
+Etag: "1769126297-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 22 Jan 2026 00:04:34 GMT
+Last-Modified: Thu, 22 Jan 2026 23:58:17 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,8 +27,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 50-186807789-186807799 SNNy RT(1769040220387 53976) q(0 0 0 -1) r(5 5) U24
-X-Varnish: 173417496
+X-Iinfo: 44-49321143-49321146 SNNy RT(1769126644528 53414) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 158932721 162931747
 
 10ed0
 
@@ -51,13 +51,13 @@ X-Varnish: 173417496
     <link rel="stylesheet" media="all" href="/sites/default/files/css/css_DSjbxU--aHKEMWczImkpJbOueRpOmhSb681pUGr_mUY.css?delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdT1sOwiAQvBCWH-_TLGWCWGAJu9jW09tYjY0_m3llM-OYVbRRvVpHAuN-PCR2lC6iW4olnJ0MEQoQM83wUbmNsXgUdYmn2Z6wmbjB-tYrpYHutB5C4ZYpxScMVt2fz9_IhxpWnWjUGzL-a5ytHfd1WKIPUFP3Rg3N5p40ViowsokiH7seEYvY9x0y-57wAsc6YaY" />
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css_m79msfgRbKOiQ249HW7ognheSmqG_DOQnbWkTtKE4qI.css?delta=1&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdT1sOwiAQvBCWH-_TLGWCWGAJu9jW09tYjY0_m3llM-OYVbRRvVpHAuN-PCR2lC6iW4olnJ0MEQoQM83wUbmNsXgUdYmn2Z6wmbjB-tYrpYHutB5C4ZYpxScMVt2fz9_IhxpWnWjUGzL-a5ytHfd1WKIPUFP3Rg3N5p40ViowsokiH7seEYvY9x0y-57wAsc6YaY" />
 <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
-<link rel="stylesheet" media="all" href="/sites/default/files/css/css_P17S0xRIHEX0oPm7Kqh6kGezuAvMIzePsXvspA3IjwQ.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdT1sOwiAQvBCWH-_TLGWCWGAJu9jW09tYjY0_m3llM-OYVbRRvVpHAuN-PCR2lC6iW4olnJ0MEQoQM83wUbmNsXgUdYmn2Z6wmbjB-tYrpYHutB5C4ZYpxScMVt2fz9_IhxpWnWjUGzL-a5ytHfd1WKIPUFP3Rg3N5p40ViowsokiH7seEYvY9x0y-57wAsc6YaY" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_OvbB5PEZ5HYwuB_65-yhriTcSZqHW3wspnQCyDPP3qE.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdT1sOwiAQvBCWH-_TLGWCWGAJu9jW09tYjY0_m3llM-OYVbRRvVpHAuN-PCR2lC6iW4olnJ0MEQoQM83wUbmNsXgUdYmn2Z6wmbjB-tYrpYHutB5C4ZYpxScMVt2fz9_IhxpWnWjUGzL-a5ytHfd1WKIPUFP3Rg3N5p40ViowsokiH7seEYvY9x0y-57wAsc6YaY" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"recreation-and-parks\/facilities\/place-listing","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"page":"1"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9UktywyAMvRCYTe_jEaAQYkAMErHd05c2aYdk0Y3mfYSQBJZIWBrUD2OBUdmJ_0F9Y51AkGX2QyILSbOcKZYwOxmZISArt6GPQm2NxWMRm8htZsLKUUNTqGVI8RMVHjJqbca3XiEtT6ou4FD4V32wxV3RbZYOvUcfUFQgCglXgWDCCO98gRscr2JWCT5P8x0UiThYHRUZvZnHFbphIvD6Qq7zW8aO9jLaXmdPrpjxefZFetvUbA3cj-U5wmxwFIy5NrqjhgLplOhY1bHWhs3kniRWKKgq1V5X7u2Op5nJcHZsNq6YLXrzwrRLcUzxf0pnoTxepSk-WTA_Psg94s7mJy6ZfE_4BW1s4r0","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":{"\/en\/recreation-and-parks\/facilities\/place-listing":true},"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"81830c4ec92ba7de740eae5dfe8d5f7d2289786622ac69a5e155affed52fe577"}}</script>
 <script src="/sites/default/files/js/js_ono-KKAcQ2MdU7Xtp6sQyjp4yodifqYYO0HmzblfN6A.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9j0GuwyAMRC8EYdP7IEMcSmtiBKZJevpSpf8r6aIba-aNZWscs1QpkC_G_Ut9q5pAsIrCVSjOdzOWloGGj1UTeJT6R3c3-Cv6u-NVL3EMKCowB0IrEEzo49sPcIP1DJMieG7mPRSLeLCeZ8FZzP5CFySGUU_sW_3aWNBNXJI9ZnLFhMZtBAvF3uZI94sn9K5mYz94xl23dfiUOgbVFybCcoZRMKZc-IEaZqBNoq8qc27Z1lYeuJmj6cmCxUWLyeFoTk57ir3a75VWhVN8YnkBrZe0WQ"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?t7hdku"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?t7hdku"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?t99umk"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?t99umk"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -247,7 +247,7 @@ X-Varnish: 173417496
 
 
 
-  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-412d82a9e4002cb44bf4b54ef5cec76222687e511c5cd1109ac8842f92ef8dc7">
+  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-aef5330d7cd51503514b017b46140879baf68bfa28145fa5b84b8f8a404964e3">
   
     
       <div class="view-header">
@@ -787,7 +787,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9j0GuwyAMRC8EYdP7IEMcSmtiBKZJevpSpf8r6aIba-aNZWscs1QpkC_G_Ut9q5pAsIrCVSjOdzOWloGGj1UTeJT6R3c3-Cv6u-NVL3EMKCowB0IrEEzo49sPcIP1DJMieG7mPRSLeLCeZ8FZzP5CFySGUU_sW_3aWNBNXJI9ZnLFhMZtBAvF3uZI94sn9K5mYz94xl23dfiUOgbVFybCcoZRMKZc-IEaZqBNoq8qc27Z1lYeuJmj6cmCxUWLyeFoTk57ir3a75VWhVN8YnkBrZe0WQ"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=27&cb=1019124402" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=27&cb=1048489172" async></script></body>
 </html>
 
 
