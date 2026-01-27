@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/richmond-memorial-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=A0zTW3oNTnaIKTOaEe2ejISvdmkAAAAAQUIPAAAAAACT7PxqTipimDSiSNgMNTcF; nlbi_243507=flcrb01AADtQjvvkaXmSIAAAAAD2Bw1XVwcQiRXBSsf6HQ7C; incap_ses_1843_243507=vuDtc3qZMTypuop52KaTGYSvdmkAAAAAV/q+SfBTrJC9tqpGC0xTUA==
+Cookie: visid_incap_243507=KUslvuxzSxGfFMZE2slVQfYAeGkAAAAAQUIPAAAAAACOPPkZwnTrohdKuQh5Rjt3; nlbi_243507=h98NCWZ+tDL1kxPKaXmSIAAAAADoUNlScfcbDnzLYZzH0x7O; incap_ses_100_243507=dnU9SJwpTRCB2IStj0VjAfYAeGkAAAAAAP6bB+dY2NUmddrVUyomrg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 211
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 26 Jan 2026 00:07:55 GMT
-Etag: "1769385860-gzip"
+Date: Tue, 27 Jan 2026 00:08:17 GMT
+Etag: "1769472493-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 26 Jan 2026 00:04:20 GMT
+Last-Modified: Tue, 27 Jan 2026 00:08:13 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 58-205221868-205270763 SNNN RT(1769385860331 214851) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 179421028 180445859
+X-Iinfo: 52-45674912-45674924 SNNy RT(1769472246321 247010) q(0 0 0 -1) r(38 38) U24
+X-Varnish: 18529888
 
-c289
+c5ca
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ c289
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richmond-memorial-community-centre" />
 <meta name="dcterms.title" content="Richmond Memorial Community Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-01-25" />
+<meta name="dcterms.date" content="2026-01-26" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ c289
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bf6b769153e7dda6362dc51b849bf4494da4f841f4491d21aa5be145b9068cdb">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-41bcdb65cc3e75675a0f81643c233131904357c9fd6a83809c6e13c1ca5656dc">
   
     
       
@@ -208,7 +208,7 @@ c289
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-15e1ee8c43378a95f963d3d0f91605a5cc5d6ce4591a110a3d2064fb8f5dba7c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cb6411523484297b405f12a7832fe32e26fe10b5384cc06e83a7b9b5aa039d5f">
   
     
       
@@ -268,6 +268,28 @@ c289
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
                                                     
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Saturday, February 7</strong>
+<ul>
+<li>All drop-in skating, cancelled</li>
+</ul>
+</li>
+</ul>
+</div>
+      
+
+
 
 
   
@@ -466,6 +488,19 @@ c289
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
 <p>Public and family skating sessions are free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults. See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information.&nbsp;</p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Saturday, February 7</strong>
+<ul>
+<li>All drop-in skating, cancelled</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
