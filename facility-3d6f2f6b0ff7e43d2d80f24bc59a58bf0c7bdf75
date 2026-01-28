@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=KUslvuxzSxGfFMZE2slVQfYAeGkAAAAAQUIPAAAAAACOPPkZwnTrohdKuQh5Rjt3; nlbi_243507=h98NCWZ+tDL1kxPKaXmSIAAAAADoUNlScfcbDnzLYZzH0x7O; incap_ses_100_243507=dnU9SJwpTRCB2IStj0VjAfYAeGkAAAAAAP6bB+dY2NUmddrVUyomrg==
+Cookie: visid_incap_243507=UgXtqibMT32Q/BZvbd+AZFRSeWkAAAAAQUIPAAAAAACuBVE5qdlWT5NKdE3f7YaG; nlbi_243507=a/oWLHH91A7bF04aaXmSIAAAAAAxQjcN1Wwl9/po8qI3OHAX; incap_ses_1841_243507=xkmxGe1H31ETfcFQXYyMGVRSeWkAAAAAtjmg+moNkEEVsEquSFuUcQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 693
+Age: 335
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 27 Jan 2026 00:07:55 GMT
-Etag: "1769471779-gzip"
+Date: Wed, 28 Jan 2026 00:07:02 GMT
+Etag: "1769558485-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 26 Jan 2026 23:56:19 GMT
+Last-Modified: Wed, 28 Jan 2026 00:01:25 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,8 +27,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 52-45674912-45674924 SNNy RT(1769472246321 229441) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 198036763 205015213
+X-Iinfo: 42-6464373-6464382 SNNy RT(1769558613678 208705) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 214843176 219257774
 
 11c3b
 
@@ -194,7 +194,7 @@ X-Varnish: 198036763 205015213
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e874abf634dedd508a1fe28643b4c96d9f7891dac8fe055426e1a7b63f79d6d7">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b17b2fd0bc7edf2badb4263443ea94a15577387c968348b9dea3a40819bb97e7">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 198036763 205015213
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8e5edaf71a41ea2619fd0f4e51fa6e7c325c0eeea303b2a51f3ff4e59b441166">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7e9e09f7ef5f864f247712e71bd6abb8ff80a414f2f562a50a629b15097344dc">
   
     
       
@@ -2016,7 +2016,7 @@ If YES, a new window will open in the background so you can come back to it when
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/9865b1ed8608d4f1af10e70cc9c4c4fc">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/088ff1c60cbe33acf6b98b9f6915c0e9">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

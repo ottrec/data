@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/south-fallingbrook-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=KUslvuxzSxGfFMZE2slVQfYAeGkAAAAAQUIPAAAAAACOPPkZwnTrohdKuQh5Rjt3; nlbi_243507=h98NCWZ+tDL1kxPKaXmSIAAAAADoUNlScfcbDnzLYZzH0x7O; incap_ses_100_243507=dnU9SJwpTRCB2IStj0VjAfYAeGkAAAAAAP6bB+dY2NUmddrVUyomrg==
+Cookie: visid_incap_243507=UgXtqibMT32Q/BZvbd+AZFRSeWkAAAAAQUIPAAAAAACuBVE5qdlWT5NKdE3f7YaG; nlbi_243507=a/oWLHH91A7bF04aaXmSIAAAAAAxQjcN1Wwl9/po8qI3OHAX; incap_ses_1841_243507=xkmxGe1H31ETfcFQXYyMGVRSeWkAAAAAtjmg+moNkEEVsEquSFuUcQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,27 +8,27 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 573
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 27 Jan 2026 00:08:36 GMT
-Etag: "1769471940-gzip"
+Date: Wed, 28 Jan 2026 00:07:39 GMT
+Etag: "1769558858-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 26 Jan 2026 23:59:00 GMT
+Last-Modified: Wed, 28 Jan 2026 00:07:38 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 52-45674912-45674924 SNNy RT(1769472246321 269626) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 476509 19307207
+X-Iinfo: 42-6464373-6464382 SNNy RT(1769558613678 245103) q(0 0 0 -1) r(10 10) U24
+X-Varnish: 219651274
 
 b560
 
@@ -194,7 +194,7 @@ b560
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-484a21e84eab1041cd28bea71811142cde565701584be4ff9b4fa99c93c08980">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bbbc33377fe9248b39df1e0f6495967207c3ac7f9fb75a805109b90ba8b716f2">
   
     
       
@@ -208,7 +208,7 @@ b560
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0c2034e8886b5312a39f96d88e557f4bced36656943719c35e48f00a31127e4d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d8bbcbc7f217ed4e9c73097075c747010a5e29a5b5c69e69ceb3d3e486582275">
   
     
       
@@ -1035,7 +1035,7 @@ If YES, a new window will open in the background so you can come back to it when
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/9865b1ed8608d4f1af10e70cc9c4c4fc">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/088ff1c60cbe33acf6b98b9f6915c0e9">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

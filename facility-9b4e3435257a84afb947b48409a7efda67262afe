@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/nepean-seniors-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=KUslvuxzSxGfFMZE2slVQfYAeGkAAAAAQUIPAAAAAACOPPkZwnTrohdKuQh5Rjt3; nlbi_243507=h98NCWZ+tDL1kxPKaXmSIAAAAADoUNlScfcbDnzLYZzH0x7O; incap_ses_100_243507=dnU9SJwpTRCB2IStj0VjAfYAeGkAAAAAAP6bB+dY2NUmddrVUyomrg==
+Cookie: visid_incap_243507=UgXtqibMT32Q/BZvbd+AZFRSeWkAAAAAQUIPAAAAAACuBVE5qdlWT5NKdE3f7YaG; nlbi_243507=a/oWLHH91A7bF04aaXmSIAAAAAAxQjcN1Wwl9/po8qI3OHAX; incap_ses_1841_243507=xkmxGe1H31ETfcFQXYyMGVRSeWkAAAAAtjmg+moNkEEVsEquSFuUcQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 11
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 27 Jan 2026 00:07:37 GMT
-Etag: "1769472443-gzip"
+Date: Wed, 28 Jan 2026 00:06:46 GMT
+Etag: "1769558803-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 27 Jan 2026 00:07:23 GMT
+Last-Modified: Wed, 28 Jan 2026 00:06:43 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 52-45674912-45674924 SNNy RT(1769472246321 210889) q(0 1 1 -1) r(2 2) U24
-X-Varnish: 188858269 201673246
+X-Iinfo: 42-6464373-6464382 SNNy RT(1769558613678 190234) q(0 0 0 -1) r(26 26) U24
+X-Varnish: 219780031
 
-c264
+c1db
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ c264
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1d8d1342ee8ea8b150b219a4829c8b0abbe4d86e0b634a079a74117a88f0802c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-648d9cf12208cc0ed8c6499955b3d5e176902768688b8717058e2382b19761e8">
   
     
       
@@ -208,7 +208,7 @@ c264
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2da254c1a5ab524b79b2edf2b55948a0128b7c628714fa3c515853e77d3b3595">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-70529a5bc225cfa07d206935b761577caa7225a9e54244a2fea4cb178121861e">
   
     
       
@@ -275,7 +275,7 @@ c264
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:30 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -760,7 +760,7 @@ c264
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
-  <button aria-expanded="false" aria-controls="section-a2bb6a7a-bc67-40b0-8913-88dcc27af295" data-target="#section-a2bb6a7a-bc67-40b0-8913-88dcc27af295" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Seniors&#039; Centre membership pass</button>
+  <button aria-expanded="false" aria-controls="section-a2bb6a7a-bc67-40b0-8913-88dcc27af295" data-target="#section-a2bb6a7a-bc67-40b0-8913-88dcc27af295" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Seniors Centre membership pass</button>
 
                   </h2>
                   <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-a2bb6a7a-bc67-40b0-8913-88dcc27af295">
@@ -778,7 +778,7 @@ c264
       
 
 
-  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Seniors&#039; Centre membership pass</h2>
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Seniors Centre membership pass</h2>
 </span>
 
 
@@ -898,10 +898,9 @@ c264
                           
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Registered programs</strong></h3>
-<p>Registered programs are structured activities that run weekly or seasonally. You must sign up in advance to participate. Examples include swimming lessons, dance or music classes and summer camps.</p>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>Registered programs are structured activities that run weekly or seasonally. You must sign up in advance to participate. Examples include swimming lessons, dance or music classes and summer camps.</p>
 <ul>
-<li>Find registration dates and general information about the types of recreation programs offered -&nbsp;including virtual, PA days, Before and After School, and Day Camps -&nbsp;at&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/courses-and-camps">Courses and camps</a>.&nbsp;&nbsp;</li>
+<li>Find registration dates and general information about the types of recreation programs offered at&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/courses-and-camps">Courses and camps</a>.&nbsp;&nbsp;</li>
 <li>Details about registration, payment, cancellation, terms and conditions can be viewed at Registered programs -&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/courses-and-camps/registered-programs-what-you-need-know">What you need to know</a>.</li>
 </ul>
 </div>
@@ -1290,7 +1289,7 @@ If YES, a new window will open in the background so you can come back to it when
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/9865b1ed8608d4f1af10e70cc9c4c4fc">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/088ff1c60cbe33acf6b98b9f6915c0e9">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
