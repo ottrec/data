@@ -8,7 +8,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/albion-heatherington-recreation-centre"
     _date {
-      seconds: 1769904298
+      seconds: 1769990700
     }
   }
   address:
@@ -33,7 +33,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/alexander-community-centre"
     _date {
-      seconds: 1769904300
+      seconds: 1769990701
     }
   }
   address:
@@ -54,7 +54,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/alfred-taylor-recreation-centre"
     _date {
-      seconds: 1769904302
+      seconds: 1769990703
     }
   }
   address:
@@ -74,7 +74,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/aquaview-community-hall"
     _date {
-      seconds: 1769904304
+      seconds: 1769990704
     }
   }
   address:
@@ -93,7 +93,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bayshore-community-building"
     _date {
-      seconds: 1769904307
+      seconds: 1769990707
     }
   }
   address:
@@ -118,7 +118,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/beacon-hill-north-community-centre"
     _date {
-      seconds: 1769904309
+      seconds: 1769990709
     }
   }
   address:
@@ -136,7 +136,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bearbrook-community-building"
     _date {
-      seconds: 1769904310
+      seconds: 1769990710
     }
   }
   address:
@@ -154,7 +154,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bearbrook-pool"
     _date {
-      seconds: 1769904312
+      seconds: 1769990713
     }
   }
   address:
@@ -172,7 +172,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/beaverbrook-pool-kanata"
     _date {
-      seconds: 1769904314
+      seconds: 1769990715
     }
   }
   address:
@@ -190,7 +190,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bell-centennial-arena"
     _date {
-      seconds: 1769904315
+      seconds: 1769990716
     }
   }
   address:
@@ -322,9 +322,7 @@ facilities {
         }
         days {
           times {
-            label: "8 - 8:50 pm"
-            _start: 1200
-            _end: 1250
+            label: "8 - 8:50 pm(Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -334,6 +332,7 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"8 - 8:50\\u00a0pm(Play Free)\""
 }
 facilities {
   name: "Belltown Dome"
@@ -346,7 +345,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/belltown-dome"
     _date {
-      seconds: 1769904319
+      seconds: 1769990719
     }
   }
   address:
@@ -364,7 +363,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ben-franklin-place"
     _date {
-      seconds: 1769904320
+      seconds: 1769990721
     }
   }
   address:
@@ -381,7 +380,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ben-franklin-place-rink"
     _date {
-      seconds: 1769904321
+      seconds: 1769990722
     }
   }
   address:
@@ -398,7 +397,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena"
     _date {
-      seconds: 1769904324
+      seconds: 1769990725
     }
   }
   address:
@@ -565,7 +564,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/billings-estate-national-historic-site"
     _date {
-      seconds: 1769904328
+      seconds: 1769990727
     }
   }
   address:
@@ -588,7 +587,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans"
     _date {
-      seconds: 1769904328
+      seconds: 1769990728
     }
   }
   address:
@@ -615,14 +614,6 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - swim and aquafitness"
     _title: "Swim And Aquafitness"
-    schedule_changes_html:
-      "<ul>\n"
-      "<li><strong>Saturday, January 24</strong>\n"
-      "<ul>\n"
-      "<li>Women&#39;s only swim, 8:15 to 9:15 pm, <strong>added</strong></li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "</ul>"
     schedules {
       caption: "Bob MacQuarrie Recreation Complex - swimming and aquafitness - January 5 to April 2"
       _name: "swimming and aquafitness"
@@ -644,8 +635,8 @@ facilities {
       _daydates: 7
       _daydates: 1
       activities {
-        label: "Aquafit General - Deep"
-        _name: "aquafit general - deep"
+        label: "Aquafit General -Deep"
+        _name: "aquafit general -deep"
         days {
           times {
             label: "8 - 9 am"
@@ -734,8 +725,8 @@ facilities {
         }
       }
       activities {
-        label: "Aquafit General - Shallow"
-        _name: "aquafit general - shallow"
+        label: "Aquafit General -Shallow"
+        _name: "aquafit general -shallow"
         days {
           times {
             label: "8 - 9 am"
@@ -824,8 +815,8 @@ facilities {
         }
       }
       activities {
-        label: "Aquafit General - Therapeutic pool"
-        _name: "aquafit general - therapeutic pool"
+        label: "Aquafit General -Therapeutic pool"
+        _name: "aquafit general -therapeutic pool"
         days {
           times {
             label: "7 - 8 am"
@@ -872,8 +863,8 @@ facilities {
         }
       }
       activities {
-        label: "Aquafit Lite - Therapeutic pool"
-        _name: "aquafit lite - therapeutic pool"
+        label: "Aquafit Lite -Therapeutic pool"
+        _name: "aquafit lite -therapeutic pool"
         days {
           times {
             label: "1 - 2 pm"
@@ -992,8 +983,8 @@ facilities {
         }
       }
       activities {
-        label: "Public swim - 25 metre pool only"
-        _name: "public swim - 25 metre pool only"
+        label: "Public swim -25 metre pool only"
+        _name: "public swim -25 metre pool only"
         days {
         }
         days {
@@ -1024,9 +1015,7 @@ facilities {
         }
         days {
           times {
-            label: "1:30 - 4 pm"
-            _start: 810
-            _end: 960
+            label: "1:30 - 4 pm(Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -1040,8 +1029,8 @@ facilities {
         }
       }
       activities {
-        label: "Public swim - therapeutic pool"
-        _name: "public swim - therapeutic pool"
+        label: "Public swim -therapeutic pool"
+        _name: "public swim -therapeutic pool"
         days {
         }
         days {
@@ -1072,9 +1061,7 @@ facilities {
         }
         days {
           times {
-            label: "2:30 - 4 pm"
-            _start: 870
-            _end: 960
+            label: "2:30 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -2754,12 +2741,7 @@ facilities {
     _title: "Skating"
     schedule_changes_html:
       "<ul>\n"
-      "<li><strong>Friday, January 30 </strong>\n"
-      "<ul>\n"
-      "<li>Public skating and figure skating, cancelled </li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "<li><strong>Sunday, February 1 </strong>\n"
+      "<li><strong>Sunday, February 1</strong>\n"
       "<ul>\n"
       "<li>Public skating drop-ins, cancelled</li>\n"
       "</ul>\n"
@@ -2826,9 +2808,7 @@ facilities {
             _wkday: SUNDAY
           }
           times {
-            label: "2 - 2:50 pm"
-            _start: 840
-            _end: 890
+            label: "2 - 2:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -2884,6 +2864,11 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1:30 - 4 pm(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"2:30 - 4 pm\\u00a0(Play "
+    "Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"\\u00a02 - 2:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Brewer Pool and Arena"
@@ -2893,7 +2878,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/brewer-pool-and-arena"
     _date {
-      seconds: 1769904330
+      seconds: 1769990730
     }
   }
   address:
@@ -2948,9 +2933,7 @@ facilities {
         }
         days {
           times {
-            label: "7 - 8:50 pm"
-            _start: 1140
-            _end: 1250
+            label: "7 - 8:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -2990,6 +2973,7 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"7 - 8:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Bridlewood Community Centre"
@@ -2997,7 +2981,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bridlewood-community-centre"
     _date {
-      seconds: 1769904333
+      seconds: 1769990732
     }
   }
   address:
@@ -3023,7 +3007,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex"
     _date {
-      seconds: 1769904334
+      seconds: 1769990734
     }
   }
   address:
@@ -3036,43 +3020,15 @@ facilities {
   }
   special_hours_html:
     "<ul>\n"
-    "<li><strong>Friday, January 30</strong>\n"
-    "<ul>\n"
-    "<li>Adult skating, 11 am to noon, cancelled</li>\n"
-    "<li>Public skating, Noon to 1 pm, cancelled</li>\n"
-    "</ul>\n"
-    "</li>\n"
-    "<li><strong>Saturday, January 31</strong>\n"
-    "<ul>\n"
-    "<li>Family hockey, 12:15 to 2 pm, <strong>added</strong></li>\n"
-    "<li>Child hockey, 2:15 to 4 pm, <strong>added</strong></li>\n"
-    "<li>Table Tennis, all times, <strong>cancelled</strong></li>\n"
-    "</ul>\n"
-    "</li>\n"
-    "</ul>\n"
-    "<h3>Pool closure</h3>\n"
-    "<ul>\n"
     "<li>The pool is closed for maintenance until further notice.</li>\n"
     "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - swim and aquafitness"
     _title: "Swim And Aquafitness"
-    reservation_links {
-      label: "Reserve a spot at Canterbury Recreation Complex"
-      url: "https://reservation.frontdesksuite.ca/rcfs/canterbury"
-    }
   }
   schedule_groups {
     label: "Drop-in schedule - gymnasium sports"
     _title: "Gymnasium Sports"
-    schedule_changes_html:
-      "<ul>\n"
-      "<li><strong>Saturday, January 31</strong>\n"
-      "<ul>\n"
-      "<li>Table Tennis, all times, <strong>cancelled</strong></li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "</ul>"
     schedules {
       caption: "Canterbury Recreation Complex - gymnasium sports - January 5 to March 14"
       _name: "gymnasium sports"
@@ -3307,21 +3263,6 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
-    schedule_changes_html:
-      "<ul>\n"
-      "<li><strong>Friday, January 30</strong>\n"
-      "<ul>\n"
-      "<li>Adult skating, 11 am to noon, cancelled</li>\n"
-      "<li>Public skating, Noon to 1 pm, cancelled</li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "<li><strong>Saturday, January 31</strong>\n"
-      "<ul>\n"
-      "<li>Family hockey, 12:15 to 2 pm, <strong>added</strong></li>\n"
-      "<li>Child hockey, 2:15 to 4 pm, <strong>added</strong></li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "</ul>"
     schedules {
       caption: "Brian Kilrea Arena - skating - January 5 to March 14"
       _name: "brian kilrea arena - skating"
@@ -3375,9 +3316,7 @@ facilities {
         }
         days {
           times {
-            label: "5 - 6 pm"
-            _start: 1020
-            _end: 1080
+            label: "5 - 6 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -3399,9 +3338,7 @@ facilities {
         }
         days {
           times {
-            label: "4 - 5 pm"
-            _start: 960
-            _end: 1020
+            label: "4 - 5 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -3447,13 +3384,15 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"5 - 6 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"4 - 5\\u00a0pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "CARDELREC Recreation Complex Goulbourn"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/cardelrec-recreation-complex-goulbourn"
     _date {
-      seconds: 1769904336
+      seconds: 1769990736
     }
   }
   address:
@@ -3756,9 +3695,7 @@ facilities {
         }
         days {
           times {
-            label: "12:30 - 4 pm"
-            _start: 750
-            _end: 960
+            label: "12:30 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -3906,9 +3843,7 @@ facilities {
         }
         days {
           times {
-            label: "12:30 - 1:30 pm"
-            _start: 750
-            _end: 810
+            label: "12:30 - 1:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -3928,7 +3863,7 @@ facilities {
         }
       }
       activities {
-        label: "Preschool swim *Reservations not required"
+        label: "Preschool swim*Reservations not required"
         _name: "preschool swim"
         _resv: false
         days {
@@ -4009,9 +3944,7 @@ facilities {
         }
         days {
           times {
-            label: "12:30 - 1:30 pm"
-            _start: 750
-            _end: 810
+            label: "12:30 - 1:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -4079,7 +4012,7 @@ facilities {
         }
       }
       activities {
-        label: "Public swim with slide *Reservations not required"
+        label: "Public swim with slide*Reservations not required"
         _name: "public swim with slide"
         _resv: false
         days {
@@ -4094,9 +4027,7 @@ facilities {
         }
         days {
           times {
-            label: "1:30 - 4 pm"
-            _start: 810
-            _end: 960
+            label: "1:30 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -4110,7 +4041,7 @@ facilities {
         }
       }
       activities {
-        label: "Public swim with no slide *Reservations not required"
+        label: "Public swim with no slide*Reservations not required"
         _name: "public swim with no slide"
         _resv: false
         days {
@@ -5343,9 +5274,7 @@ facilities {
         }
         days {
           times {
-            label: "2:15 - 3:05 pm"
-            _start: 855
-            _end: 905
+            label: "2:15 - 3:05 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -5379,9 +5308,7 @@ facilities {
         }
         days {
           times {
-            label: "3:15 - 4:05 pm"
-            _start: 915
-            _end: 965
+            label: "3:15 - 4:05 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -5394,6 +5321,20 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/arenacardelrec"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"12:30 - 4 pm\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"12:30 - 1:30 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"12:30 - 1:30 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1:30 - 4 pm\\u00a0(Play "
+    "Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"2:15 - 3:05 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"3:15 - 4:05 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Carleton Heights Community Centre"
@@ -5404,7 +5345,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/carleton-heights-community-centre"
     _date {
-      seconds: 1769904340
+      seconds: 1769990738
     }
   }
   address:
@@ -5427,7 +5368,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/carlington-recreation-centre"
     _date {
-      seconds: 1769904342
+      seconds: 1769990740
     }
   }
   address:
@@ -5453,7 +5394,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/champagne-fitness-centre"
     _date {
-      seconds: 1769904343
+      seconds: 1769990742
     }
   }
   address:
@@ -5556,9 +5497,7 @@ facilities {
         }
         days {
           times {
-            label: "10 am - 2 pm"
-            _start: 600
-            _end: 840
+            label: "10 am - 2 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -5660,6 +5599,7 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - swim\": warning: failed to parse time range \"10 am - 2 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Chapman Mills Community Building"
@@ -5671,7 +5611,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/chapman-mills-community-building"
     _date {
-      seconds: 1769904345
+      seconds: 1769990744
     }
   }
   address:
@@ -5694,7 +5634,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/charlie-conacher-community-building"
     _date {
-      seconds: 1769904347
+      seconds: 1769990747
     }
   }
   address:
@@ -5717,7 +5657,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/churchill-seniors-centre"
     _date {
-      seconds: 1769904351
+      seconds: 1769990751
     }
   }
   address:
@@ -5852,7 +5792,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/constance-and-buckhams-bay-community-centre"
     _date {
-      seconds: 1769904353
+      seconds: 1769990752
     }
   }
   address:
@@ -5869,7 +5809,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/corkstown-pool"
     _date {
-      seconds: 1769904355
+      seconds: 1769990754
     }
   }
   address:
@@ -5887,7 +5827,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/crestview-pool"
     _date {
-      seconds: 1769904357
+      seconds: 1769990757
     }
   }
   address:
@@ -5905,7 +5845,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/cumberland-heritage-village-museum"
     _date {
-      seconds: 1769904360
+      seconds: 1769990758
     }
   }
   address:
@@ -5934,7 +5874,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/deborah-anne-kirwan-pool"
     _date {
-      seconds: 1769904360
+      seconds: 1769990760
     }
   }
   address:
@@ -6055,9 +5995,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 4 pm"
-            _start: 780
-            _end: 960
+            label: "1 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -6071,8 +6009,8 @@ facilities {
         }
       }
       activities {
-        label: "Public swim - women's only"
-        _name: "public swim - women's only"
+        label: "Public swim -women's only"
+        _name: "public swim -women's only"
         days {
         }
         days {
@@ -6163,9 +6101,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 1 pm"
-            _start: 720
-            _end: 780
+            label: "Noon - 1 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -6175,6 +6111,8 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - swim\": warning: failed to parse time range \"1 - 4 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - swim\": warning: failed to parse time range \"Noon - 1 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Dempsey Community Centre"
@@ -6184,7 +6122,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/dempsey-community-centre"
     _date {
-      seconds: 1769904362
+      seconds: 1769990763
     }
   }
   address:
@@ -6375,7 +6313,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/diane-deans-greenboro-community-centre"
     _date {
-      seconds: 1769904364
+      seconds: 1769990765
     }
   }
   address:
@@ -7196,7 +7134,7 @@ facilities {
         }
       }
       activities {
-        label: "Kinderplay *Reservations not required."
+        label: "Kinderplay*Reservations not required."
         _name: "kinderplay"
         _resv: false
         days {
@@ -7223,9 +7161,7 @@ facilities {
         }
         days {
           times {
-            label: "9:45 - 11:15 am"
-            _start: 585
-            _end: 675
+            label: "9:45 - 11:15 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -7238,6 +7174,9 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/greenborocommunitycentre"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"9:45\\u00a0- 11:15 "
+    "am\\u00a0(Play Free)\""
 }
 facilities {
   name: "Dovercourt Recreation Centre"
@@ -7254,7 +7193,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/dovercourt-recreation-centre"
     _date {
-      seconds: 1769904366
+      seconds: 1769990767
     }
   }
   address:
@@ -7272,7 +7211,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/earl-armstrong-arena"
     _date {
-      seconds: 1769904369
+      seconds: 1769990769
     }
   }
   address:
@@ -7391,7 +7330,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/entrance-pool"
     _date {
-      seconds: 1769904371
+      seconds: 1769990771
     }
   }
   address:
@@ -7413,7 +7352,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/eva-james-memorial-community-centre"
     _date {
-      seconds: 1769904372
+      seconds: 1769990772
     }
   }
   address:
@@ -7804,9 +7743,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 1 pm"
-            _start: 720
-            _end: 780
+            label: "Noon - 1 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -7862,8 +7799,8 @@ facilities {
         }
       }
       activities {
-        label: "Open gym - child (7 to 12 years old)"
-        _name: "open gym - child (7 to 12 years old)"
+        label: "Open gym - child(7 to 12 years old)"
+        _name: "open gym - child(7 to 12 years old)"
         days {
         }
         days {
@@ -7886,8 +7823,8 @@ facilities {
         }
       }
       activities {
-        label: "Open gym - youth (13 to 17 years old)"
-        _name: "open gym - youth (13 to 17 years old)"
+        label: "Open gym - youth(13 to 17 years old)"
+        _name: "open gym - youth(13 to 17 years old)"
         days {
         }
         days {
@@ -7930,9 +7867,7 @@ facilities {
         }
         days {
           times {
-            label: "10:35 - 11:35 am"
-            _start: 635
-            _end: 695
+            label: "10:35 - 11:35 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -8143,9 +8078,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 1 pm"
-            _start: 720
-            _end: 780
+            label: "Noon - 1 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -8201,8 +8134,8 @@ facilities {
         }
       }
       activities {
-        label: "Open gym - child (7 to 12 years old)"
-        _name: "open gym - child (7 to 12 years old)"
+        label: "Open gym - child(7 to 12 years old)"
+        _name: "open gym - child(7 to 12 years old)"
         days {
         }
         days {
@@ -8225,8 +8158,8 @@ facilities {
         }
       }
       activities {
-        label: "Open gym - youth (13 to 17 years old)"
-        _name: "open gym - youth (13 to 17 years old)"
+        label: "Open gym - youth(13 to 17 years old)"
+        _name: "open gym - youth(13 to 17 years old)"
         days {
         }
         days {
@@ -8269,9 +8202,7 @@ facilities {
         }
         days {
           times {
-            label: "10:35 - 11:35 am"
-            _start: 635
-            _end: 695
+            label: "10:35 - 11:35 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -8284,13 +8215,25 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/evajamescc"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"Noon - 1 pm\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"10:35 - 11:35 am\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"Noon - 1 pm\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"10:35 - 11:35 am\\u00a0(Play "
+    "Free)\""
 }
 facilities {
   name: "Fairfields Heritage House"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fairfields-heritage-house"
     _date {
-      seconds: 1769904376
+      seconds: 1769990775
     }
   }
   address:
@@ -8310,7 +8253,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fallingbrook-community-centre"
     _date {
-      seconds: 1769904377
+      seconds: 1769990776
     }
   }
   address:
@@ -8331,7 +8274,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fisher-park-community-centre"
     _date {
-      seconds: 1769904379
+      seconds: 1769990778
     }
   }
   address:
@@ -8353,7 +8296,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/foster-farm-community-centre"
     _date {
-      seconds: 1769904382
+      seconds: 1769990780
     }
   }
   address:
@@ -8380,7 +8323,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre"
     _date {
-      seconds: 1769904382
+      seconds: 1769990782
     }
   }
   address:
@@ -9016,9 +8959,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "3 - 4 pm"
-            _start: 900
-            _end: 960
+            label: "3 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -9038,8 +8979,8 @@ facilities {
         }
       }
       activities {
-        label: "Lane swim - shared pool"
-        _name: "lane swim - shared pool"
+        label: "Lane swim -shared pool"
+        _name: "lane swim -shared pool"
         days {
           times {
             label: "10:30 - 11:30 am"
@@ -9146,8 +9087,8 @@ facilities {
         }
       }
       activities {
-        label: "Preschool swim - therapeutic pool"
-        _name: "preschool swim - therapeutic pool"
+        label: "Preschool swim -therapeutic pool"
+        _name: "preschool swim -therapeutic pool"
         days {
           times {
             label: "9:30 - 10:30 am"
@@ -9190,9 +9131,7 @@ facilities {
         }
         days {
           times {
-            label: "8 - 9 am"
-            _start: 480
-            _end: 540
+            label: "8 - 9 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -9206,8 +9145,8 @@ facilities {
         }
       }
       activities {
-        label: "Public swim - therapeutic pool"
-        _name: "public swim - therapeutic pool"
+        label: "Public swim -therapeutic pool"
+        _name: "public swim -therapeutic pool"
         days {
           times {
             label: "11:30 am - 2:30 pm"
@@ -9280,9 +9219,7 @@ facilities {
         }
         days {
           times {
-            label: "9 am - 3 pm"
-            _start: 540
-            _end: 900
+            label: "9 am - 3 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -9346,9 +9283,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 3 pm"
-            _start: 780
-            _end: 900
+            label: "1 - 3 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -9745,9 +9680,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 1 pm"
-            _start: 720
-            _end: 780
+            label: "Noon - 1 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -9761,8 +9694,8 @@ facilities {
         }
       }
       activities {
-        label: "Lane swim - shared pool"
-        _name: "lane swim - shared pool"
+        label: "Lane swim -shared pool"
+        _name: "lane swim -shared pool"
         days {
           times {
             label: "10:30 - 11:30 am"
@@ -9853,9 +9786,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "3 - 4 pm"
-            _start: 900
-            _end: 960
+            label: "3 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -9875,8 +9806,8 @@ facilities {
         }
       }
       activities {
-        label: "Preschool swim - therapeutic pool"
-        _name: "preschool swim - therapeutic pool"
+        label: "Preschool swim -therapeutic pool"
+        _name: "preschool swim -therapeutic pool"
         days {
           times {
             label: "9:30 - 10:30 am"
@@ -9919,9 +9850,7 @@ facilities {
         }
         days {
           times {
-            label: "8 - 9 am"
-            _start: 480
-            _end: 540
+            label: "8 - 9 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -9935,8 +9864,8 @@ facilities {
         }
       }
       activities {
-        label: "Public swim - therapeutic pool"
-        _name: "public swim - therapeutic pool"
+        label: "Public swim -therapeutic pool"
+        _name: "public swim -therapeutic pool"
         days {
           times {
             label: "11:30 am - 2:30 pm"
@@ -9997,9 +9926,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 3 pm"
-            _start: 720
-            _end: 900
+            label: "Noon - 3 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -10063,9 +9990,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 3 pm"
-            _start: 780
-            _end: 900
+            label: "1 - 3 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -10910,8 +10835,8 @@ facilities {
         }
       }
       activities {
-        label: "Badminton family - parent with child"
-        _name: "badminton family - parent with child"
+        label: "Badminton family -parent with child"
+        _name: "badminton family -parent with child"
         days {
         }
         days {
@@ -10966,9 +10891,7 @@ facilities {
         }
         days {
           times {
-            label: "2 - 3 pm"
-            _start: 840
-            _end: 900
+            label: "2 - 3 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -11126,8 +11049,8 @@ facilities {
         }
       }
       activities {
-        label: "Pickleball family - parent with child"
-        _name: "pickleball family - parent with child"
+        label: "Pickleball family -parent with child"
+        _name: "pickleball family -parent with child"
         days {
         }
         days {
@@ -11302,9 +11225,7 @@ facilities {
         }
         days {
           times {
-            label: "12:40 - 1:40 pm"
-            _start: 760
-            _end: 820
+            label: "12:40 - 1:40 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -11336,8 +11257,8 @@ facilities {
         }
       }
       activities {
-        label: "Basketball Family - parent with child"
-        _name: "basketball family - parent with child"
+        label: "Basketball Family -parent with child"
+        _name: "basketball family -parent with child"
         days {
         }
         days {
@@ -11356,9 +11277,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "4:30 - 5:30 pm"
-            _start: 990
-            _end: 1050
+            label: "4:30 - 5:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -11425,13 +11344,47 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/francoisdupuis"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"\\u00a03\\u00a0-\\u00a04 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"8 - 9 am\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"9 am\\u00a0-\\u00a03 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1 - 3 pm\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"Noon - 1 pm\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"\\u00a03 - 4 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"8 - 9 am\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"Noon - 3 pm\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1 - 3 pm\\u00a0(Play "
+    "Free)\""
+  _errors: "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"2 - 3 pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"12:40 - 1:40 pm\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"\\u00a04:30 - 5:30 "
+    "pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Fred Barrett Arena"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena"
     _date {
-      seconds: 1769904384
+      seconds: 1769990785
     }
   }
   address:
@@ -11488,9 +11441,7 @@ facilities {
         }
         days {
           times {
-            label: "2 - 2:50 pm"
-            _start: 840
-            _end: 890
+            label: "2 - 2:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -11512,9 +11463,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 1:50 pm"
-            _start: 780
-            _end: 830
+            label: "1 - 1:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -11677,13 +11626,15 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/arenafredbarrett"
     }
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"2 - 2:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"1 - 1:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "General Burns Pool"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/general-burns-pool"
     _date {
-      seconds: 1769904387
+      seconds: 1769990787
     }
   }
   address:
@@ -11701,7 +11652,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/genest-pool"
     _date {
-      seconds: 1769904389
+      seconds: 1769990789
     }
   }
   address:
@@ -11725,7 +11676,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/glebe-community-centre"
     _date {
-      seconds: 1769904391
+      seconds: 1769990790
     }
   }
   address:
@@ -11743,7 +11694,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/glen-cairn-community-centre"
     _date {
-      seconds: 1769904392
+      seconds: 1769990793
     }
   }
   address:
@@ -11761,7 +11712,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/glen-cairn-pool"
     _date {
-      seconds: 1769904395
+      seconds: 1769990795
     }
   }
   address:
@@ -11779,7 +11730,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/greely-community-centre"
     _date {
-      seconds: 1769904398
+      seconds: 1769990797
     }
   }
   address:
@@ -11802,7 +11753,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/heron-road-community-centre"
     _date {
-      seconds: 1769904400
+      seconds: 1769990798
     }
   }
   address:
@@ -12212,9 +12163,7 @@ facilities {
         }
         days {
           times {
-            label: "10:30 - 11:30 am"
-            _start: 630
-            _end: 690
+            label: "10:30 - 11:30 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -12305,6 +12254,9 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/heronCC"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"10:30 - 11:30 am\\u00a0(Play "
+    "Free)\""
 }
 facilities {
   name: "Heron Seniors Centre"
@@ -12315,7 +12267,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/heron-seniors-centre"
     _date {
-      seconds: 1769904404
+      seconds: 1769990803
     }
   }
   address:
@@ -12346,7 +12298,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/hintonburg-community-centre"
     _date {
-      seconds: 1769904404
+      seconds: 1769990805
     }
   }
   address:
@@ -12567,7 +12519,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/howard-darwin-centennial-arena"
     _date {
-      seconds: 1769904406
+      seconds: 1769990807
     }
   }
   address:
@@ -12578,26 +12530,9 @@ facilities {
     lng: 45.3419
     lat: -75.727
   }
-  special_hours_html:
-    "<ul>\n"
-    "<li><strong>Friday, January 30</strong>\n"
-    "<ul>\n"
-    "<li>Figure skating, 8 to 8:50 pm, cancelled</li>\n"
-    "<li>Family skating, 7 to 7:50 pm, cancelled</li>\n"
-    "</ul>\n"
-    "</li>\n"
-    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
-    schedule_changes_html:
-      "<ul>\n"
-      "<li><strong>Friday, January 30</strong>\n"
-      "<ul>\n"
-      "<li>Figure skating, 8 to 8:50 pm, cancelled</li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "</ul>"
     schedules {
       caption: "Howard Darwin Centennial Arena - skating - September 5, 2025, to March 22, 2026"
       _name: "skating"
@@ -12651,14 +12586,6 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
-    schedule_changes_html:
-      "<ul>\n"
-      "<li><strong>Friday, January 30</strong>\n"
-      "<ul>\n"
-      "<li>Family skating, 7 to 7:50 pm, cancelled</li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "</ul>"
     schedules {
       caption: "Howard Darwin Centennial Arena - skating - September 5, 2025, to March 22, 2026"
       _name: "skating"
@@ -12761,7 +12688,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/hunt-club-riverside-park-community-centre"
     _date {
-      seconds: 1769904411
+      seconds: 1769990808
     }
   }
   address:
@@ -13263,9 +13190,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "10 - 11 am"
-            _start: 600
-            _end: 660
+            label: "10 - 11 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -13287,9 +13212,7 @@ facilities {
         }
         days {
           times {
-            label: "2:15 - 3:15 pm"
-            _start: 855
-            _end: 915
+            label: "2:15 - 3:15 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -13326,13 +13249,19 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/huntclubCC"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"\\u00a010 - 11 "
+    "am\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"2:15 - 3:15 pm\\u00a0(Play "
+    "Free)\""
 }
 facilities {
   name: "J.A. Dulude Arena"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ja-dulude-arena"
     _date {
-      seconds: 1769904412
+      seconds: 1769990810
     }
   }
   address:
@@ -13343,9 +13272,25 @@ facilities {
     lng: 45.37477
     lat: -75.74637
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><strong>Friday, February 13 and Saturday, February 14</strong>\n"
+    "<ul>\n"
+    "<li>All drop-in skating, cancelled</li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Friday, February 13 and Saturday, February 14</strong>\n"
+      "<ul>\n"
+      "<li>All drop-in skating, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "J.A. Dulude Arena - skating - September 8, 2025 to March 29. 2026"
       _name: "skating"
@@ -13411,9 +13356,7 @@ facilities {
         }
         days {
           times {
-            label: "2 - 2:50 pm"
-            _start: 840
-            _end: 890
+            label: "2 - 2:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -13441,9 +13384,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 1:50 pm"
-            _start: 780
-            _end: 830
+            label: "1 - 1:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -13550,13 +13491,15 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"2 - 2:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"1 - 1:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Jack Charron Arena"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jack-charron-arena"
     _date {
-      seconds: 1769904414
+      seconds: 1769990813
     }
   }
   address:
@@ -13678,9 +13621,7 @@ facilities {
         }
         days {
           times {
-            label: "4 - 4:50 pm"
-            _start: 960
-            _end: 1010
+            label: "4 - 4:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -13702,9 +13643,7 @@ facilities {
         }
         days {
           times {
-            label: "3 - 3:50 pm"
-            _start: 900
-            _end: 950
+            label: "3 - 3:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -13736,6 +13675,8 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"4 - 4:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"3 - 3:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Jack Purcell Community Centre"
@@ -13750,7 +13691,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jack-purcell-community-centre"
     _date {
-      seconds: 1769904416
+      seconds: 1769990814
     }
   }
   address:
@@ -13797,7 +13738,7 @@ facilities {
       _daydates: 7
       _daydates: 1
       activities {
-        label: "Alternate needs swim *Reservations required"
+        label: "Alternate needs swim*Reservations required"
         _name: "alternate needs swim"
         _resv: true
         days {
@@ -13920,9 +13861,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 2 pm"
-            _start: 780
-            _end: 840
+            label: "1 - 2 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -14130,9 +14069,7 @@ facilities {
         }
         days {
           times {
-            label: "2 - 4 pm"
-            _start: 840
-            _end: 960
+            label: "2 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -14190,9 +14127,7 @@ facilities {
         }
         days {
           times {
-            label: "4 - 5 pm"
-            _start: 960
-            _end: 1020
+            label: "4 - 5 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -14302,6 +14237,15 @@ facilities {
     }
     _noresv: true
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1 - 2 pm\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"2 - "
+    "4\\u00a0pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"4 - 5 pm\\u00a0(Play "
+    "Free)\""
 }
 facilities {
   name: "Jim Durrell Recreation Centre"
@@ -14315,7 +14259,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre"
     _date {
-      seconds: 1769904417
+      seconds: 1769990817
     }
   }
   address:
@@ -14326,9 +14270,35 @@ facilities {
     lng: 45.37293
     lat: -75.65943
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><strong>Thursday, February 12</strong>\n"
+    "<ul>\n"
+    "<li>All drop-in skating and ice sports, cancelled</li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "<li><strong>Sunday, February 15</strong>\n"
+    "<ul>\n"
+    "<li>All drop-in skating and ice sports, cancelled</li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Thursday, February 12</strong>\n"
+      "<ul>\n"
+      "<li>All drop-in skating, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Sunday, February 15</strong>\n"
+      "<ul>\n"
+      "<li>All drop-in skating, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Jim Durrell Recreation Centre - skating - September 15, 2025 to April 30, 2026"
       _name: "skating"
@@ -14372,9 +14342,7 @@ facilities {
         }
         days {
           times {
-            label: "4:15 - 5:05 pm"
-            _start: 975
-            _end: 1025
+            label: "4:15 - 5:05 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -14396,9 +14364,7 @@ facilities {
         }
         days {
           times {
-            label: "3:15 - 4:05 pm"
-            _start: 915
-            _end: 965
+            label: "3:15 - 4:05 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -14439,6 +14405,19 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><strong>Thursday, February 12</strong>\n"
+      "<ul>\n"
+      "<li>All drop-in ice sports, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "<li><strong>Sunday, February 15</strong>\n"
+      "<ul>\n"
+      "<li>All drop-in ice sports, cancelled</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Jim Durrell Recreation Centre - ice sports - September 15, 2025, to April 30, 2026"
       _name: "ice sports"
@@ -14585,13 +14564,15 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/arenajimdurrell"
     }
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"4:15 - 5:05 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"3:15 - 4:05 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Jim Tubman Chevrolet Rink"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-tubman-chevrolet-rink"
     _date {
-      seconds: 1769904419
+      seconds: 1769990818
     }
   }
   address:
@@ -14602,16 +14583,6 @@ facilities {
     lng: 45.39004
     lat: -75.62967
   }
-  special_hours_html:
-    "<p><strong>Saturday, January 31</strong></p>\n"
-    "<ul>\n"
-    "<li><strong>The rink is closed from noon to 4 pm </strong>\n"
-    "<ul>\n"
-    "<li>Family hockey, 12:15 to 2 pm, <strong>moved inside to Brian Kilrea Arena</strong></li>\n"
-    "<li>Child hockey, 2:15 to 4 pm, <strong>moved inside to Brian Kilrea Arena</strong></li>\n"
-    "</ul>\n"
-    "</li>\n"
-    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - Winter"
     _title: "Winter"
@@ -15085,7 +15056,6 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/JimTubmanRink"
     }
   }
-  _errors: "parse schedule changes for schedule group \"Drop-in schedule - Winter\": header is not followed by a list"
 }
 facilities {
   name: "John G. Mlacak Centre"
@@ -15095,7 +15065,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/john-g-mlacak-centre"
     _date {
-      seconds: 1769904421
+      seconds: 1769990820
     }
   }
   address:
@@ -15203,9 +15173,7 @@ facilities {
         }
         days {
           times {
-            label: "7 - 7:50 pm"
-            _start: 1140
-            _end: 1190
+            label: "7 - 7:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -15227,9 +15195,7 @@ facilities {
         }
         days {
           times {
-            label: "6 - 6:50 pm"
-            _start: 1080
-            _end: 1130
+            label: "6 - 6:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -15239,13 +15205,15 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"7 - 7:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"6 - 6:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Johnny Leroux Stittsville Community Arena"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/johnny-leroux-stittsville-community-arena"
     _date {
-      seconds: 1769904424
+      seconds: 1769990822
     }
   }
   address:
@@ -15265,7 +15233,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kanata-leisure-centre-and-wave-pool"
     _date {
-      seconds: 1769904425
+      seconds: 1769990824
     }
   }
   address:
@@ -15733,7 +15701,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kanata-seniors-centre"
     _date {
-      seconds: 1769904427
+      seconds: 1769990827
     }
   }
   address:
@@ -16093,7 +16061,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kars-recreation-hall"
     _date {
-      seconds: 1769904430
+      seconds: 1769990828
     }
   }
   address:
@@ -16113,7 +16081,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/katimavik-pool"
     _date {
-      seconds: 1769904432
+      seconds: 1769990830
     }
   }
   address:
@@ -16135,7 +16103,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ken-ross-park-field-house"
     _date {
-      seconds: 1769904433
+      seconds: 1769990833
     }
   }
   address:
@@ -16155,7 +16123,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kenmore-community-centre"
     _date {
-      seconds: 1769904436
+      seconds: 1769990834
     }
   }
   address:
@@ -16179,7 +16147,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lansdowne-park"
     _date {
-      seconds: 1769904437
+      seconds: 1769990836
     }
   }
   address:
@@ -16254,7 +16222,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/larkin-house-community-centre"
     _date {
-      seconds: 1769904440
+      seconds: 1769990839
     }
   }
   address:
@@ -16272,7 +16240,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lindenlea-community-centre"
     _date {
-      seconds: 1769904442
+      seconds: 1769990841
     }
   }
   address:
@@ -16290,7 +16258,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lois-kemp-arena-blackburn"
     _date {
-      seconds: 1769904444
+      seconds: 1769990843
     }
   }
   address:
@@ -16301,15 +16269,6 @@ facilities {
     lng: 45.43011
     lat: -75.56333
   }
-  special_hours_html:
-    "<ul>\n"
-    "<li><strong>Friday, January 30</strong>\n"
-    "<ul>\n"
-    "<li>Public skating, 7 to 7:50 pm, cancelled</li>\n"
-    "<li>Family skating, 6 to 6:50 pm, cancelled</li>\n"
-    "</ul>\n"
-    "</li>\n"
-    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
@@ -16396,15 +16355,6 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
-    schedule_changes_html:
-      "<ul>\n"
-      "<li><strong>Friday, January 30</strong>\n"
-      "<ul>\n"
-      "<li>Public skating, 7 to 7:50 pm, cancelled</li>\n"
-      "<li>Family skating, 6 to 6:50 pm, cancelled</li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "</ul>"
     schedules {
       caption: "Lois Kemp arena (Blackburn) - skating - November 3, 2025, to March 29, 2026"
       _name: "skating"
@@ -16454,9 +16404,7 @@ facilities {
         }
         days {
           times {
-            label: "4 - 4:50 pm"
-            _start: 960
-            _end: 1010
+            label: "4 - 4:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -16508,9 +16456,7 @@ facilities {
         }
         days {
           times {
-            label: "3 - 3:50 pm"
-            _start: 900
-            _end: 950
+            label: "3 - 3:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -16518,6 +16464,8 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"4 - 4:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"3 - 3:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Lowertown Community Centre and Pool"
@@ -16528,7 +16476,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool"
     _date {
-      seconds: 1769904445
+      seconds: 1769990844
     }
   }
   address:
@@ -16539,10 +16487,7 @@ facilities {
     lng: 45.43464
     lat: -75.68127
   }
-  notifications_html:
-    "<p><strong>Pickleball can now be found in the <a "
-    "href=\"https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool/lowertown-community-centre-and-pool-gymnasium-sports\">gymnasium "
-    "sports schedule</a>.</strong></p>\n"
+  notifications_html: "<p><strong>Pickleball can now be found in the gymnasium sports schedule.</strong></p>\n"
   schedule_groups {
     label: "Drop-in schedule - swimming"
     _title: "Swimming"
@@ -16665,9 +16610,7 @@ facilities {
         }
         days {
           times {
-            label: "3 - 4 pm"
-            _start: 900
-            _end: 960
+            label: "3 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -16713,9 +16656,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 3 pm"
-            _start: 720
-            _end: 900
+            label: "Noon - 3 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -16999,6 +16940,8 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/lowertown/Home/Index?Culture=en&PageId=ca5c7334-1292-4494-934e-15cb2f5dca34&ShouldStartReserveTimeFlow=False&ButtonId=00000000-0000-0000-0000-000000000000"
     }
   }
+  _errors: "group \"Drop-in schedule - swimming\": warning: failed to parse time range \"3 - 4 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - swimming\": warning: failed to parse time range \"Noon - 3 pm\\u00a0(Play Free)\""
   _errors:
     "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"\\n"
     "\\t\\t\\t8:30 am - 13:20 pm\\n"
@@ -17009,7 +16952,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/manor-park-community-centre"
     _date {
-      seconds: 1769904448
+      seconds: 1769990847
     }
   }
   address:
@@ -17027,7 +16970,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/manotick-community-centre-and-mike-oneil-arena"
     _date {
-      seconds: 1769904449
+      seconds: 1769990848
     }
   }
   address:
@@ -17141,9 +17084,7 @@ facilities {
         }
         days {
           times {
-            label: "5 - 5:50 pm"
-            _start: 1020
-            _end: 1070
+            label: "5 - 5:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -17171,9 +17112,7 @@ facilities {
         }
         days {
           times {
-            label: "4 - 4:50 pm"
-            _start: 960
-            _end: 1010
+            label: "4 - 4:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -17207,6 +17146,8 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"5 - 5:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"4 - 4:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Margaret Rywak Community Building"
@@ -17216,7 +17157,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/margaret-rywak-community-building"
     _date {
-      seconds: 1769904452
+      seconds: 1769990851
     }
   }
   address:
@@ -17239,7 +17180,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/mcnabb-arena-and-community-centre"
     _date {
-      seconds: 1769904456
+      seconds: 1769990854
     }
   }
   address:
@@ -17379,9 +17320,7 @@ facilities {
         }
         days {
           times {
-            label: "2 - 2:50 pm"
-            _start: 840
-            _end: 890
+            label: "2 - 2:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -17403,9 +17342,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 1:50 pm"
-            _start: 780
-            _end: 830
+            label: "1 - 1:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -17413,13 +17350,15 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"2 -\\u00a02:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"1 - 1:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Meridian Theatres at Centrepointe"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/meridian-theatres-centrepointe"
     _date {
-      seconds: 1769904457
+      seconds: 1769990856
     }
   }
   address:
@@ -17439,7 +17378,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/metcalfe-community-centre-and-larry-robinson-arena"
     _date {
-      seconds: 1769904460
+      seconds: 1769990858
     }
   }
   address:
@@ -17520,9 +17459,7 @@ facilities {
         }
         days {
           times {
-            label: "5 - 5:50 pm"
-            _start: 1020
-            _end: 1070
+            label: "5 - 5:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -17556,9 +17493,7 @@ facilities {
         }
         days {
           times {
-            label: "4 - 4:50 pm"
-            _start: 960
-            _end: 1010
+            label: "4 - 4:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -17629,6 +17564,8 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/arenalarryrobinson"
     }
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"5 - 5:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"4 - 4:50\\u00a0pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Michele Heights Community Centre"
@@ -17638,7 +17575,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/michele-heights-community-centre"
     _date {
-      seconds: 1769904462
+      seconds: 1769990861
     }
   }
   address:
@@ -17669,7 +17606,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven"
     _date {
-      seconds: 1769904463
+      seconds: 1769990862
     }
   }
   address:
@@ -18096,8 +18033,8 @@ facilities {
         }
       }
       activities {
-        label: "Lane swim - reduced capacity shared pool)"
-        _name: "lane swim - reduced capacity shared pool)"
+        label: "Lane swim - reduced capacityshared pool)"
+        _name: "lane swim - reduced capacityshared pool)"
         days {
           times {
             label: "8:30 am - 3 pm"
@@ -18140,9 +18077,7 @@ facilities {
         }
         days {
           times {
-            label: "12:15 - 2:15 pm"
-            _start: 735
-            _end: 855
+            label: "12:15 - 2:15 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -18194,9 +18129,7 @@ facilities {
         }
         days {
           times {
-            label: "12:15 - 2:15 pm"
-            _start: 735
-            _end: 855
+            label: "12:15 - 2:15 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -18236,9 +18169,7 @@ facilities {
         }
         days {
           times {
-            label: "2:30 - 5:30 pm"
-            _start: 870
-            _end: 1050
+            label: "2:30 - 5:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -18314,9 +18245,7 @@ facilities {
         }
         days {
           times {
-            label: "7 - 9 pm"
-            _start: 1140
-            _end: 1260
+            label: "7 - 9 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -18324,8 +18253,8 @@ facilities {
         }
       }
       activities {
-        label: "Aquafit General - Deep/shallow combo *Reservations are required"
-        _name: "aquafit general - deep/shallow combo"
+        label: "Aquafit General -Deep/shallow combo*Reservations are required"
+        _name: "aquafit general -deep/shallow combo"
         _resv: true
         days {
           times {
@@ -19182,9 +19111,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "7:50 - 8:50 pm"
-            _start: 1190
-            _end: 1250
+            label: "7:50 - 8:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -19356,9 +19283,7 @@ facilities {
         }
         days {
           times {
-            label: "4:45 - 6:15 pm"
-            _start: 1005
-            _end: 1095
+            label: "4:45 - 6:15 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -19449,9 +19374,7 @@ facilities {
         }
         days {
           times {
-            label: "5 - 5:50 pm"
-            _start: 1020
-            _end: 1070
+            label: "5 - 5:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -19479,9 +19402,7 @@ facilities {
         }
         days {
           times {
-            label: "4 - 4:50 pm"
-            _start: 960
-            _end: 1010
+            label: "4 - 4:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -19492,13 +19413,33 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/arenaminto"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"12:15 - 2:15 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"12:15 - 2:15 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"2:30 - 5:30 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"7 - 9 pm\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"\\u00a07:50 - 8:50 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"4:45 - 6:15 pm\\u00a0(Play "
+    "Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"5 - 5:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"4 - 4:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Navan Memorial Centre"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/navan-memorial-centre"
     _date {
-      seconds: 1769904465
+      seconds: 1769990865
     }
   }
   address:
@@ -19614,9 +19555,7 @@ facilities {
         }
         days {
           times {
-            label: "2 - 2:50 pm"
-            _start: 840
-            _end: 890
+            label: "2 - 2:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -19644,9 +19583,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 1:50 pm"
-            _start: 780
-            _end: 830
+            label: "1 - 1:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -19654,6 +19591,8 @@ facilities {
     }
     _noresv: true
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"2 - 2:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"1 - 1:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Nepean Creative Arts Centre"
@@ -19665,7 +19604,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-creative-arts-centre"
     _date {
-      seconds: 1769904468
+      seconds: 1769990866
     }
   }
   address:
@@ -19683,7 +19622,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-museum"
     _date {
-      seconds: 1769904471
+      seconds: 1769990869
     }
   }
   address:
@@ -19700,7 +19639,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-seniors-centre"
     _date {
-      seconds: 1769904472
+      seconds: 1769990871
     }
   }
   address:
@@ -20052,7 +19991,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-sportsplex"
     _date {
-      seconds: 1769904473
+      seconds: 1769990872
     }
   }
   address:
@@ -20212,9 +20151,7 @@ facilities {
         }
         days {
           times {
-            label: "11 am - 3 pm"
-            _start: 660
-            _end: 900
+            label: "11 am - 3 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -20228,8 +20165,8 @@ facilities {
         }
       }
       activities {
-        label: "Public swim - 25m pool"
-        _name: "public swim - 25m pool"
+        label: "Public swim -25m pool"
+        _name: "public swim -25m pool"
         days {
           times {
             label: "11 am - 1 pm"
@@ -20272,9 +20209,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 3 pm"
-            _start: 780
-            _end: 900
+            label: "1 - 3 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -20302,9 +20237,7 @@ facilities {
         }
         days {
           times {
-            label: "9:45 - 10:45 am"
-            _start: 585
-            _end: 645
+            label: "9:45 - 10:45 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -21310,9 +21243,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "8:30 - 9:30 pm"
-            _start: 1230
-            _end: 1290
+            label: "8:30 - 9:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -21658,13 +21589,25 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/nepeansportsplex"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"11 am - 3 pm\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1 - 3 pm\\u00a0(Play "
+    "Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"9:45 - 10:45 "
+    "am\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"\\u00a08:30 - 9:30 "
+    "pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Nepean Visual Arts Centre"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-visual-arts-centre"
     _date {
-      seconds: 1769904476
+      seconds: 1769990875
     }
   }
   address:
@@ -21686,7 +21629,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/old-town-hall-community-centre"
     _date {
-      seconds: 1769904478
+      seconds: 1769990877
     }
   }
   address:
@@ -21704,7 +21647,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/osgoode-community-centre-and-stuart-holmes-arena"
     _date {
-      seconds: 1769904481
+      seconds: 1769990878
     }
   }
   address:
@@ -21718,14 +21661,6 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
-    schedule_changes_html:
-      "<ul>\n"
-      "<li><strong>Sunday, January 25</strong>\n"
-      "<ul>\n"
-      "<li>All skating drop-ins, cancelled</li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "</ul>"
     schedules {
       caption: "Stuart Holmes Arena - skating - October 5, 2025, to March 29, 2026"
       _name: "stuart holmes arena - skating"
@@ -21769,9 +21704,7 @@ facilities {
         }
         days {
           times {
-            label: "2 - 2:50 pm"
-            _start: 840
-            _end: 890
+            label: "2 - 2:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -21793,9 +21726,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 1:50 pm"
-            _start: 780
-            _end: 830
+            label: "1 - 1:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -21856,6 +21787,8 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/ArenaStuartHolmes"
     }
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"2 - 2:50\\u00a0pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"1 - 1:50\\u00a0pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Ottawa South Community Centre"
@@ -21868,7 +21801,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ottawa-south-community-centre"
     _date {
-      seconds: 1769904482
+      seconds: 1769990880
     }
   }
   address:
@@ -21892,7 +21825,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/overbrook-community-centre"
     _date {
-      seconds: 1769904484
+      seconds: 1769990882
     }
   }
   address:
@@ -22151,9 +22084,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "6:30 - 7:30 pm"
-            _start: 1110
-            _end: 1170
+            label: "6:30 - 7:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -22175,9 +22106,7 @@ facilities {
         }
         days {
           times {
-            label: "8 - 9:45 pm"
-            _start: 1200
-            _end: 1305
+            label: "8 - 9:45 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -22190,6 +22119,12 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/overbrookcc"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"\\u00a06:30 - 7:30 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"8 - 9:45 pm\\u00a0(Play "
+    "Free)\""
 }
 facilities {
   name: "Pat Clark Community Centre"
@@ -22200,7 +22135,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pat-clark-community-centre"
     _date {
-      seconds: 1769904486
+      seconds: 1769990886
     }
   }
   address:
@@ -22397,7 +22332,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex"
     _date {
-      seconds: 1769904487
+      seconds: 1769990886
     }
   }
   address:
@@ -22444,7 +22379,7 @@ facilities {
       _daydates: 7
       _daydates: 1
       activities {
-        label: "Public Swim *Reservations not required."
+        label: "Public Swim*Reservations not required."
         _name: "public swim"
         _resv: false
         days {
@@ -22477,9 +22412,7 @@ facilities {
         }
         days {
           times {
-            label: "12:30 - 1:45 pm"
-            _start: 750
-            _end: 825
+            label: "12:30 - 1:45 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -22639,9 +22572,7 @@ facilities {
         }
         days {
           times {
-            label: "11:30 am - 12:30 pm"
-            _start: 690
-            _end: 750
+            label: "11:30 am - 12:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -23284,9 +23215,7 @@ facilities {
             _wkday: SUNDAY
           }
           times {
-            label: "3 - 3:50pm"
-            _start: 900
-            _end: 950
+            label: "3 - 3:50pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -23403,13 +23332,20 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/ArenaPinecrestRC"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"12:30 -\\u00a01:45 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"11:30 am -\\u00a012:30 "
+    "pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"3 -\\u00a03:50pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Pinhey's Point Historic Site"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinheys-point-historic-site-0"
     _date {
-      seconds: 1769904491
+      seconds: 1769990888
     }
   }
   address:
@@ -23432,7 +23368,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/plant-recreation-centre"
     _date {
-      seconds: 1769904492
+      seconds: 1769990890
     }
   }
   address:
@@ -23796,9 +23732,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "6 - 7 pm"
-            _start: 1080
-            _end: 1140
+            label: "6 - 7 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -23934,9 +23868,7 @@ facilities {
         }
         days {
           times {
-            label: "1:30 - 4 pm"
-            _start: 810
-            _end: 960
+            label: "1:30 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -24566,13 +24498,19 @@ facilities {
     }
     _noresv: true
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"\\u00a06 -\\u00a07 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1:30 - 4 pm\\u00a0(Play "
+    "Free)\""
 }
 facilities {
   name: "R.J. Kennedy Community Centre and Arena"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/rj-kennedy-community-centre-and-arena"
     _date {
-      seconds: 1769904495
+      seconds: 1769990893
     }
   }
   address:
@@ -24661,7 +24599,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex"
     _date {
-      seconds: 1769904496
+      seconds: 1769990894
     }
   }
   address:
@@ -25140,9 +25078,7 @@ facilities {
         }
         days {
           times {
-            label: "7:30 - 8:30 am"
-            _start: 450
-            _end: 510
+            label: "7:30 - 8:30 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -25176,9 +25112,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 1 pm"
-            _start: 720
-            _end: 780
+            label: "Noon - 1 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -26146,9 +26080,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 12:50 pm"
-            _start: 720
-            _end: 770
+            label: "Noon - 12:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -26215,6 +26147,15 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/rayfriel"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"7:30\\u00a0- 8:30 "
+    "am\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"Noon - "
+    "1\\u00a0pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - skating\": warning: failed to parse time range \"Noon - 12:50\\u00a0pm\\u00a0(Play "
+    "Free)\""
 }
 facilities {
   name: "Richcraft Recreation Complex-Kanata"
@@ -26228,7 +26169,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata"
     _date {
-      seconds: 1769904498
+      seconds: 1769990896
     }
   }
   address:
@@ -26243,15 +26184,6 @@ facilities {
     "<p><strong>Pickleball, badminton and table tennis can now be found in the gymnasium sports "
     "schedule.</strong></p>\n"
   special_hours_html:
-    "<ul>\n"
-    "<li><strong>Friday, January 30</strong>\n"
-    "<ul>\n"
-    "<li>Pickleball, cancelled</li>\n"
-    "<li>Basketball - adult, cancelled</li>\n"
-    "<li>Badminton, doubles - adult, cancelled</li>\n"
-    "</ul>\n"
-    "</li>\n"
-    "</ul>\n"
     "<h3>Family Day weekend hours</h3>\n"
     "<ul>\n"
     "<li><span><strong>Saturday, February 14,</strong> 8 am to 8 pm</span></li>\n"
@@ -26474,7 +26406,7 @@ facilities {
         }
       }
       activities {
-        label: "Lane swim *Reservations not required."
+        label: "Lane swim*Reservations not required."
         _name: "lane swim"
         _resv: false
         days {
@@ -26585,9 +26517,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "12:30 - 1:30 pm"
-            _start: 750
-            _end: 810
+            label: "12:30 - 1:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -26601,7 +26531,7 @@ facilities {
         }
       }
       activities {
-        label: "Public swim - leisure pool only *Reservations not required."
+        label: "Public swim - leisure pool only*Reservations not required."
         _name: "public swim - leisure pool only"
         _resv: false
         days {
@@ -26646,9 +26576,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "12:30 - 1:30 pm"
-            _start: 750
-            _end: 810
+            label: "12:30 - 1:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -26683,9 +26611,7 @@ facilities {
         }
         days {
           times {
-            label: "1:30 - 4 pm"
-            _start: 810
-            _end: 960
+            label: "1:30 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -27445,13 +27371,6 @@ facilities {
     _title: "Gymnasium Sports"
     schedule_changes_html:
       "<ul>\n"
-      "<li><strong>Friday, January 30</strong>\n"
-      "<ul>\n"
-      "<li>Pickleball, cancelled</li>\n"
-      "<li>Basketball - adult, cancelled</li>\n"
-      "<li>Badminton, doubles - adult, cancelled</li>\n"
-      "</ul>\n"
-      "</li>\n"
       "<li><span><strong>Monday, February 16</strong></span>\n"
       "<ul>\n"
       "<li><span>See Family Day schedule.</span></li>\n"
@@ -27613,9 +27532,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "9:30 - 10:30 am"
-            _start: 570
-            _end: 630
+            label: "9:30 - 10:30 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -27787,9 +27704,7 @@ facilities {
         }
         days {
           times {
-            label: "10:30 - 11:30 am"
-            _start: 630
-            _end: 690
+            label: "10:30 - 11:30 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -27847,9 +27762,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "9:30 - 10:30 am"
-            _start: 570
-            _end: 630
+            label: "9:30 - 10:30 am (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -28252,6 +28165,24 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/richcraftkanata"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"\\u00a012:30 - 1:30 "
+    "pm\\u202f\\u202f(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"\\u00a012:30 - 1:30 "
+    "pm\\u202f\\u202f(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1:30 - 4 "
+    "pm\\u202f\\u202f(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"9:30 - 10:30 "
+    "am\\u202f\\u202f(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"10:30 - 11:30 "
+    "am\\u202f\\u202f(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"\\u00a09:30 - 10:30 "
+    "am\\u202f\\u202f(Play Free)\""
 }
 facilities {
   name: "Richelieu Vanier Community Centre"
@@ -28263,7 +28194,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richelieu-vanier-community-centre"
     _date {
-      seconds: 1769904501
+      seconds: 1769990899
     }
   }
   address:
@@ -28465,7 +28396,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richmond-memorial-community-centre"
     _date {
-      seconds: 1769904503
+      seconds: 1769990900
     }
   }
   address:
@@ -28542,9 +28473,7 @@ facilities {
         }
         days {
           times {
-            label: "2 - 2:50 pm"
-            _start: 840
-            _end: 890
+            label: "2 - 2:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -28566,9 +28495,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 1:50 pm"
-            _start: 780
-            _end: 830
+            label: "1 - 1:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -28655,6 +28582,8 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/arenarichmond"
     }
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"2 - 2:50\\u00a0pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"1 - 1:50\\u00a0pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Rideauview Community Centre"
@@ -28666,7 +28595,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/rideauview-community-centre"
     _date {
-      seconds: 1769904505
+      seconds: 1769990902
     }
   }
   address:
@@ -28983,7 +28912,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/rockcliffe-park-community-centre"
     _date {
-      seconds: 1769904509
+      seconds: 1769990907
     }
   }
   address:
@@ -29006,7 +28935,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ron-kolbus-lakeside-centre"
     _date {
-      seconds: 1769904511
+      seconds: 1769990909
     }
   }
   address:
@@ -29028,7 +28957,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/routhier-community-centre"
     _date {
-      seconds: 1769904512
+      seconds: 1769990910
     }
   }
   address:
@@ -29039,6 +28968,7 @@ facilities {
     lng: 45.43217
     lat: -75.69127
   }
+  notifications_html: "<p><strong>Pickleball and badminton can now be found in the gymnasium sports schedule.</strong></p>\n"
   special_hours_html:
     "<ul>\n"
     "<li><span><strong>Monday, February 16,</strong> closed </span></li>\n"
@@ -29372,9 +29302,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "4 - 6 pm"
-            _start: 960
-            _end: 1080
+            label: "4 - 6 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -29387,13 +29315,14 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/routhiercc"
     }
   }
+  _errors: "group \"Drop-in schedule - sports\": warning: failed to parse time range \"\\u00a04 - 6 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Sandy Hill Arena"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"
     _date {
-      seconds: 1769904514
+      seconds: 1769990913
     }
   }
   address:
@@ -29404,9 +29333,25 @@ facilities {
     lng: 45.41973
     lat: -75.67447
   }
+  special_hours_html:
+    "<ul>\n"
+    "<li><span><strong>Sunday, February 15</strong></span>\n"
+    "<ul>\n"
+    "<li><span>All drop-in skating and ice sports, cancelled</span></li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><span><strong>Sunday, February 15</strong></span>\n"
+      "<ul>\n"
+      "<li><span>All drop-in skating and ice sports, cancelled</span></li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Sandy Hill Arena - skating - September 2, 2025 to April 28, 2026"
       _name: "skating"
@@ -29448,9 +29393,7 @@ facilities {
         }
         days {
           times {
-            label: "9 - 9:50 pm"
-            _start: 1260
-            _end: 1310
+            label: "9 - 9:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -29478,9 +29421,7 @@ facilities {
         }
         days {
           times {
-            label: "8 - 8:50 pm"
-            _start: 1200
-            _end: 1250
+            label: "8 - 8:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -29499,6 +29440,14 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - ice sports"
     _title: "Ice Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><span><strong>Sunday, February 15</strong></span>\n"
+      "<ul>\n"
+      "<li><span>All drop-in skating and ice sports, cancelled</span></li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Sandy Hill Arena - ice sports - September 2, 2025, to April 28, 2026"
       _name: "ice sports"
@@ -29573,6 +29522,8 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/SandyHillArena/Home/Index?Culture=en&PageId=aea58844-1959-4812-8756-5888bf0d1a59&ShouldStartReserveTimeFlow=False&ButtonId=00000000-0000-0000-0000-000000000000"
     }
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"9 - 9:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"8 - 8:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Sandy Hill Community Centre"
@@ -29584,7 +29535,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-community-centre"
     _date {
-      seconds: 1769904516
+      seconds: 1769990914
     }
   }
   address:
@@ -29601,7 +29552,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sawmill-creek-community-centre-and-pool"
     _date {
-      seconds: 1769904518
+      seconds: 1769990916
     }
   }
   address:
@@ -29734,9 +29685,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "7:30 - 8:30 pm"
-            _start: 1170
-            _end: 1230
+            label: "7:30 - 8:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -29776,9 +29725,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "6:30 - 7:30 pm"
-            _start: 1110
-            _end: 1170
+            label: "6:30 - 7:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -30062,13 +30009,19 @@ facilities {
     }
     _noresv: true
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"\\u00a07:30 - 8:30 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"\\u00a06:30 -\\u00a07:30 "
+    "pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Shenkman Arts Centre"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/shenkman-arts-centre"
     _date {
-      seconds: 1769904520
+      seconds: 1769990918
     }
   }
   address:
@@ -30095,7 +30048,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/south-fallingbrook-community-centre"
     _date {
-      seconds: 1769904523
+      seconds: 1769990921
     }
   }
   address:
@@ -30228,9 +30181,7 @@ facilities {
         }
         days {
           times {
-            label: "3 - 4 pm"
-            _start: 900
-            _end: 960
+            label: "3 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -30318,9 +30269,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "3:30 - 4:30 pm"
-            _start: 930
-            _end: 990
+            label: "3:30 - 4:30 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -30333,6 +30282,10 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/southfallingbrook"
     }
   }
+  _errors: "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"3 - 4 pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"3:30 - 4:30 pm\\u00a0(Play "
+    "Free)\""
 }
 facilities {
   name: "Southpointe Community Building"
@@ -30342,7 +30295,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/southpointe-community-building"
     _date {
-      seconds: 1769904524
+      seconds: 1769990922
     }
   }
   address:
@@ -30367,7 +30320,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/splash-wave-pool"
     _date {
-      seconds: 1769904526
+      seconds: 1769990924
     }
   }
   address:
@@ -30720,9 +30673,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 1 pm"
-            _start: 720
-            _end: 780
+            label: "Noon - 1 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -30810,9 +30761,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 1 pm"
-            _start: 720
-            _end: 780
+            label: "Noon - 1 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -30864,13 +30813,19 @@ facilities {
     }
     _noresv: true
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"Noon -\\u00a01 "
+    "pm\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"Noon -\\u00a01 "
+    "pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "St. Laurent Complex"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex"
     _date {
-      seconds: 1769904528
+      seconds: 1769990926
     }
   }
   address:
@@ -31912,9 +31867,7 @@ facilities {
         }
         days {
           times {
-            label: "3 - 3:50 pm"
-            _start: 900
-            _end: 950
+            label: "3 - 3:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -31978,9 +31931,7 @@ facilities {
         }
         days {
           times {
-            label: "2 - 2:50 pm"
-            _start: 840
-            _end: 890
+            label: "2 - 2:50 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -32017,6 +31968,8 @@ facilities {
       }
     }
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"3 - 3:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"2 - 2:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Tanglewood Community Centre"
@@ -32026,7 +31979,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tanglewood-community-centre"
     _date {
-      seconds: 1769904530
+      seconds: 1769990929
     }
   }
   address:
@@ -32053,7 +32006,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/terry-fox-athletic-facility"
     _date {
-      seconds: 1769904532
+      seconds: 1769990931
     }
   }
   address:
@@ -32070,7 +32023,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena"
     _date {
-      seconds: 1769904534
+      seconds: 1769990932
     }
   }
   address:
@@ -32202,9 +32155,7 @@ facilities {
         }
         days {
           times {
-            label: "3 - 3:50 pm"
-            _start: 900
-            _end: 950
+            label: "3 - 3:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -32232,9 +32183,7 @@ facilities {
         }
         days {
           times {
-            label: "2 - 2:50 pm"
-            _start: 840
-            _end: 890
+            label: "2 - 2:50 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -32267,6 +32216,8 @@ facilities {
       }
     }
   }
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"3 - 3:50 pm\\u00a0(Play Free)\""
+  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"2 - 2:50 pm\\u00a0(Play Free)\""
 }
 facilities {
   name: "Tony Graham Recreation Complex - Kanata"
@@ -32279,7 +32230,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tony-graham-recreation-complex-kanata"
     _date {
-      seconds: 1769904536
+      seconds: 1769990934
     }
   }
   address:
@@ -32387,9 +32338,7 @@ facilities {
             _wkday: SUNDAY
           }
           times {
-            label: "1:15 - 2:05 pm"
-            _start: 795
-            _end: 845
+            label: "1:15 - 2:05 pm (Play Free)"
             _wkday: SUNDAY
           }
         }
@@ -32462,13 +32411,16 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/ArenaKanata"
     }
   }
+  _errors:
+    "group \"Drop-in schedule - skating\": warning: failed to parse time range \"\\u00a01:15 - 2:05 pm\\u00a0(Play "
+    "Free)\""
 }
 facilities {
   name: "Vernon Recreation Centre"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/vernon-recreation-centre"
     _date {
-      seconds: 1769904538
+      seconds: 1769990937
     }
   }
   address:
@@ -32485,7 +32437,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/w-erskine-johnston-arena"
     _date {
-      seconds: 1769904540
+      seconds: 1769990939
     }
   }
   address:
@@ -32682,7 +32634,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre"
     _date {
-      seconds: 1769904542
+      seconds: 1769990940
     }
   }
   address:
@@ -33031,9 +32983,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 1 pm"
-            _start: 720
-            _end: 780
+            label: "Noon - 1 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -33235,9 +33185,7 @@ facilities {
         }
         days {
           times {
-            label: "1 - 4 pm"
-            _start: 780
-            _end: 960
+            label: "1 - 4 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -33283,9 +33231,7 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 1 pm"
-            _start: 720
-            _end: 780
+            label: "Noon - 1 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -34062,9 +34008,7 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "12:15 - 1:05 pm"
-            _start: 735
-            _end: 785
+            label: "12:15 - 1:05 pm (Play Free)"
             _wkday: SATURDAY
           }
         }
@@ -34085,6 +34029,18 @@ facilities {
       }
     }
   }
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"Noon -\\u00a01 "
+    "pm\\u202f\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1 - 4 "
+    "pm\\u202f\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"Noon -\\u00a01 "
+    "pm\\u202f\\u202f\\u00a0(Play Free)\""
+  _errors:
+    "group \"Drop-in schedule - skating\": warning: failed to parse time range \"12:15 - 1:05 pm\\u202f\\u00a0(Play "
+    "Free)\""
 }
 facilities {
   name: "Westcliffe Community Building"
@@ -34094,7 +34050,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/westcliffe-community-building"
     _date {
-      seconds: 1769904545
+      seconds: 1769990943
     }
   }
   address:
