@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=5H6IC+AkTl+bwnEh5nauHSfqf2kAAAAAQUIPAAAAAADM0GJM4sfP0TCSpxcO5zBH; nlbi_243507=/mbFZ5OSlmagp6SbaXmSIAAAAACoCDP7PQyNukZsR0Fbux5i; incap_ses_1341_243507=a2kFLDGAlF5uCybj6TCcEifqf2kAAAAAfzoI2iQp2hfCT0nA8mmVhg==
+Cookie: visid_incap_243507=8VNTOWXyRw+OS3Qw1OaEUO47gWkAAAAAQUIPAAAAAACfI+SckXU3aQ9JZdOXMUmF; nlbi_243507=GS+jKhDPpwK3xiGaaXmSIAAAAADNOwosloQ1RERM/WR57V0O; incap_ses_890_243507=Jm49IWiYBwQImBaZ1OpZDO47gWkAAAAAdkb4U747q316ZgTaTp2TSA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 724
+Age: 787
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 02 Feb 2026 00:07:42 GMT
-Etag: "1769990132-gzip"
+Date: Tue, 03 Feb 2026 00:08:52 GMT
+Etag: "1770076544-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 01 Feb 2026 23:55:32 GMT
+Last-Modified: Mon, 02 Feb 2026 23:55:44 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: HIT
+X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 13-78353692-78367080 SNNy RT(1769990696251 165969) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 42611634 44502478
+X-Iinfo: 8-13332614-13332619 SNNN RT(1770077166711 166254) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 44543775 45397494
 
-15c71
+15c86
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 42611634 44502478
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-09346ecc5eae6b8258442d42e6cdc5a394be52c2d9aee77b719524c321fdad35">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a063ffc76172d806096f9308cf291d489b1389435b78bc458f007f6a9201e1e7">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 42611634 44502478
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9669de0bc2d6231c38ac2355cf9ee0eeed777aa0d72f050ef10de9173e6a5819">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-605fe87ebfea4175d7cb0f079ef54c2943f03f19453234d1e06cb55ce2bc11a2">
   
     
       
@@ -2053,14 +2053,14 @@ X-Varnish: 42611634 44502478
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 1-2 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/chalkmark/vbrvgcaz">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
