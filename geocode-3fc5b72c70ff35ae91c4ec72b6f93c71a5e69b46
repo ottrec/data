@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Mon, 17 Nov 2025 04:59:57 GMT
-Request-Handler: api298
+Date: Thu, 05 Feb 2026 16:34:39 GMT
+Request-Handler: api311
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 972
-X-Request-Id: 87E8B912:1410_05A11518:01BB_691AABCB_1630C3:0148
+X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C69E_E86859:0428
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"61","city":"Ottawa","state":"ON","zip":"K3H 5B3","country":"CA"},"formatted_address":"61, Ottawa, ON K3H 5B3"},"results":[{"address_components":{"city":"Ottawa","state":"ON","zip":"K1V","country":"CA"},"address_lines":["","","Ottawa, ON K1V"],"formatted_address":"Ottawa, ON K1V","location":{"lat":45.348677,"lng":-75.660687},"accuracy":0.49,"accuracy_type":"place","source":"CanVec+ by Natural Resources Canada"}]}
+{"input":{"address_components":{"number":"61","street":"Corkstown","suffix":"Rd","formatted_street":"Corkstown Rd","city":"Ottawa","state":"ON","zip":"K3H 5B3","country":"CA"},"formatted_address":"61 Corkstown Rd, Ottawa, ON K3H 5B3"},"results":[{"address_components":{"number":"61","street":"Corkstown","suffix":"Rd","formatted_street":"Corkstown Rd","city":"Nepean","state":"ON","zip":"K3H","country":"CA"},"address_lines":["61 Corkstown Rd","","Nepean, ON K3H"],"formatted_address":"61 Corkstown Rd, Nepean, ON K3H","location":{"lat":45.34616,"lng":-75.827136},"accuracy":1,"accuracy_type":"rooftop","source":"Geocodio"}]}

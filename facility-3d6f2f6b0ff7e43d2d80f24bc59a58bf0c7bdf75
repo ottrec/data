@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=RREDXLS7ToaZBMGxZZkzweveg2kAAAAAQUIPAAAAAAB1z7vP7+1kw174OxlX3rFj; nlbi_243507=c9YwAvDiGhklKY/LaXmSIAAAAAD4+aiZHeMFVXDI+avn2YaB; incap_ses_1343_243507=kyisS3F5sSp76hbe5EujEuveg2kAAAAAIkzZj0ZlZf6gD6PZj8+mhQ==
+Cookie: visid_incap_243507=UZwbqPcaSpqCFDQpqZ/BvWXGhGkAAAAAQUIPAAAAAACyr9CZNWQla7IWwfcvfGrY; nlbi_243507=LpREDVCR6z4+aHztaXmSIAAAAADNXdeR6UwqK2Kb9SUAuyiS; incap_ses_1343_243507=tP47HmHk71nDGQnf5EujEmbGhGkAAAAAoAH/VBTgNiTZxBw2aUcpog==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 510
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 05 Feb 2026 00:09:13 GMT
-Etag: "1770249643-gzip"
+Date: Thu, 05 Feb 2026 16:36:53 GMT
+Etag: "1770309413-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 05 Feb 2026 00:00:43 GMT
+Last-Modified: Thu, 05 Feb 2026 16:36:53 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 13-96475881-96485273 SNNy RT(1770249963739 190115) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 44948523 44948111
+X-Iinfo: 8-41009557-41009560 SNNy RT(1770309222055 191372) q(0 0 0 -1) r(3 3) U24
+X-Varnish: 228512715
 
-12855
+127b3
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 44948523 44948111
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex" />
 <meta name="dcterms.title" content="Pinecrest Recreation Complex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-02-03" />
+<meta name="dcterms.date" content="2026-02-05" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 44948523 44948111
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7d554a8ff85e7e90e91abc372652444a41a456b379d342a85bcde5c3ba344061">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bdbf72212260a682f83dd84772de3df8769151f782921f9b95745cbe092d44c0">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 44948523 44948111
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2d3b9f24695a1fd469f07a773f3c3838f671df19ebb60dd02fa47f75d7883de5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-92f69a65e28b5c1274bdfc04e9e00d11ae392117b20eef43846c119d52e8e001">
   
     
       
@@ -281,7 +281,7 @@ X-Varnish: 44948523 44948111
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Family Day hours </h2>
 </div>
       
 
@@ -290,10 +290,6 @@ X-Varnish: 44948523 44948111
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li>Pool is closed until further notice.</li>
-</ul>
-<h3><span><strong>Family Day hours&nbsp;</strong></span></h3>
-<ul>
 <li><span><strong>Monday, February 16,</strong> closed&nbsp;</span></li>
 </ul>
 </div>
@@ -521,7 +517,6 @@ X-Varnish: 44948523 44948111
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
-<li>Pool is closed until further notice.</li>
 <li><span><strong>Monday, February 16</strong></span>
 <ul>
 <li><span>The facility is closed and all programs cancelled.</span></li>
