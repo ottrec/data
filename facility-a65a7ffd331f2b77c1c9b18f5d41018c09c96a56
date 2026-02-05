@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=d78tmtQ1QwSvmeVAq4GHOSiNgmkAAAAAQUIPAAAAAADZWFCIKTvcRnUpZpz9TjdC; nlbi_243507=/CWRS/mjPXfUELIRaXmSIAAAAABaVqhM75Z1B6tw30NUand4; incap_ses_175_243507=Irl0Svq+CxGkyhxNrLltAiiNgmkAAAAAEJOXKj2qzYWDx/g/PA0VtQ==
+Cookie: visid_incap_243507=RREDXLS7ToaZBMGxZZkzweveg2kAAAAAQUIPAAAAAAB1z7vP7+1kw174OxlX3rFj; nlbi_243507=c9YwAvDiGhklKY/LaXmSIAAAAAD4+aiZHeMFVXDI+avn2YaB; incap_ses_1343_243507=kyisS3F5sSp76hbe5EujEuveg2kAAAAAIkzZj0ZlZf6gD6PZj8+mhQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 819
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 04 Feb 2026 00:09:01 GMT
-Etag: "1770162921-gzip"
+Date: Thu, 05 Feb 2026 00:10:08 GMT
+Etag: "1770250207-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 03 Feb 2026 23:55:21 GMT
+Last-Modified: Thu, 05 Feb 2026 00:10:07 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 39-23540105-23595359 SNNy RT(1770163496621 244371) q(0 1 1 -1) r(2 2) U24
-X-Varnish: 46735814 45904409
+X-Iinfo: 13-96475881-96485273 SNNy RT(1770249963739 244086) q(0 0 0 -1) r(6 6) U24
+X-Varnish: 47941213
 
-15fb9
+15f95
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 46735814 45904409
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre" />
 <meta name="dcterms.title" content="Walter Baker Sports Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-02-02" />
+<meta name="dcterms.date" content="2026-02-04" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 46735814 45904409
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2b96841e63f1842f633e6e4c85e483a7a361b653c2709e7bb026a82a28305d15">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4e9ae6da07c84a4b3fc5787ed047e2f455c0e4a956b93f775d16e1e2e2d53f1d">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 46735814 45904409
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b597f601ade58eae575cfc2a95e221705c80efb415f84ea5f506278e43aa53c1">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-afda6819ff3b1dc32770fc1c5878691c6a4769dce1e5affddb7444ca48a0b002">
   
     
       
@@ -282,7 +282,7 @@ X-Varnish: 46735814 45904409
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Family Day hours</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Notice: February 4</h2>
 </div>
       
 
@@ -290,12 +290,10 @@ X-Varnish: 46735814 45904409
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Monday, February 16, </strong><span>8 am to 5 pm</span></li>
-</ul>
-<h4><span>Closure</span></h4>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><span>The pool is closed until further notice.</span></p>
+<h3>Family Day hours</h3>
 <ul>
-<li><span>The 1 metre diving board is closed until further notice.</span></li>
+<li><strong>Monday, February 16, </strong><span>8 am to 5 pm</span></li>
 </ul>
 </div>
       
@@ -661,6 +659,15 @@ X-Varnish: 46735814 45904409
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h4><span><strong>Notice: February 4</strong></span></h4>
+<ul>
+<li><span>The pool is closed until further notice.</span></li>
+</ul>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
 <ul>
 <li><span><strong>Monday, February 16</strong></span>
@@ -668,15 +675,6 @@ X-Varnish: 46735814 45904409
 <li><span>See Family Day schedule.</span></li>
 </ul>
 </li>
-</ul>
-</div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h4><span><strong>Closure</strong></span></h4>
-<ul>
-<li><span>The 1 metre diving board is closed until further notice.</span></li>
 </ul>
 </div>
       
