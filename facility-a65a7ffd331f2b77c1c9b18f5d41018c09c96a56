@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=UZwbqPcaSpqCFDQpqZ/BvWXGhGkAAAAAQUIPAAAAAACyr9CZNWQla7IWwfcvfGrY; nlbi_243507=LpREDVCR6z4+aHztaXmSIAAAAADNXdeR6UwqK2Kb9SUAuyiS; incap_ses_1343_243507=tP47HmHk71nDGQnf5EujEmbGhGkAAAAAoAH/VBTgNiTZxBw2aUcpog==
+Cookie: visid_incap_243507=MOkIzM40SAOhHlm/o3zqddkvhWkAAAAAQUIPAAAAAADzvUCKzWnqtjqaKbVEPjSj; nlbi_243507=9jDgU5BL0F0wM/xsaXmSIAAAAADQaO52DYvsLD+KaAceXKds; incap_ses_1346_243507=qvM8LeBsZ0unXznLYPStEtkvhWkAAAAAYHiOEvv12VZosWVt5O48qA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 650
+Age: 737
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 05 Feb 2026 16:37:47 GMT
-Etag: "1770308815-gzip"
+Date: Fri, 06 Feb 2026 00:07:43 GMT
+Etag: "1770335724-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 05 Feb 2026 16:26:55 GMT
+Last-Modified: Thu, 05 Feb 2026 23:55:24 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 8-41009557-41009560 SNNy RT(1770309222055 245718) q(0 1 1 -1) r(1 1) U24
-X-Varnish: 48341536 48372665
+X-Iinfo: 4-23025006-23028437 SNNN RT(1770336218261 244832) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 48326467 48545163
 
-15ebf
+15dd1
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 48341536 48372665
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-118318b6c6fdd2e5387cdf2b312ce06ca9ee95fb61d303c87d226ba7162ae9a4">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-03197b2e22dba79db5998415fa16e3f3fbbff20acab6edbb78fcfe368029e5c8">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 48341536 48372665
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4c996d03244d2f2135aa7401ca7b2f9cec5fcf27f7da20559738bf13dedc431b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a0c06a3e1d95cb1e5f935c29d7948bc4dc3f04797a1f86adea58c8f06a95a4dd">
   
     
       
@@ -282,7 +282,7 @@ X-Varnish: 48341536 48372665
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Family Day hours</h2>
 </div>
       
 
@@ -292,15 +292,8 @@ X-Varnish: 48341536 48372665
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
 <li>
-<p><strong>Friday, February 6</strong></p>
-<ul>
-<li>Lane swim, 7:30 to 9 pm, cancelled</li>
-</ul>
+<p><strong>Monday, February 16, </strong><span>8 am to 5 pm</span></p>
 </li>
-</ul>
-<h3>Family Day hours</h3>
-<ul>
-<li><strong>Monday, February 16, </strong><span>8 am to 5 pm</span></li>
 </ul>
 <p>&nbsp;</p>
 </div>
@@ -667,13 +660,8 @@ X-Varnish: 48341536 48372665
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
 <ul>
-<li><strong>Friday, February 6</strong>
-<ul>
-<li>Lane swim, 7:30 to 9 pm, cancelled</li>
-</ul>
-</li>
 <li><span><strong>Monday, February 16</strong></span>
 <ul>
 <li><span>See Family Day schedule.</span></li>

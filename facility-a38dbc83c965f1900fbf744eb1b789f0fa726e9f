@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/john-g-mlacak-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=UZwbqPcaSpqCFDQpqZ/BvWXGhGkAAAAAQUIPAAAAAACyr9CZNWQla7IWwfcvfGrY; nlbi_243507=LpREDVCR6z4+aHztaXmSIAAAAADNXdeR6UwqK2Kb9SUAuyiS; incap_ses_1343_243507=tP47HmHk71nDGQnf5EujEmbGhGkAAAAAoAH/VBTgNiTZxBw2aUcpog==
+Cookie: visid_incap_243507=MOkIzM40SAOhHlm/o3zqddkvhWkAAAAAQUIPAAAAAADzvUCKzWnqtjqaKbVEPjSj; nlbi_243507=9jDgU5BL0F0wM/xsaXmSIAAAAADQaO52DYvsLD+KaAceXKds; incap_ses_1346_243507=qvM8LeBsZ0unXznLYPStEtkvhWkAAAAAYHiOEvv12VZosWVt5O48qA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 157
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 05 Feb 2026 16:35:48 GMT
-Etag: "1770309347-gzip"
+Date: Fri, 06 Feb 2026 00:05:43 GMT
+Etag: "1770336183-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 05 Feb 2026 16:35:47 GMT
+Last-Modified: Fri, 06 Feb 2026 00:03:03 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 8-41009557-41009560 SNNy RT(1770309222055 125368) q(0 0 0 -1) r(13 13) U24
-X-Varnish: 48052820
+X-Iinfo: 4-23025006-23028437 NNNN CT(26 36 0) RT(1770336218261 124833) q(0 0 1 -1) r(1 1) U24
+X-Varnish: 48064087 48326135
 
-d800
+da20
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ d800
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/john-g-mlacak-centre" />
 <meta name="dcterms.title" content="John G. Mlacak Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-02-02" />
+<meta name="dcterms.date" content="2026-02-05" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ d800
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b5dbb04fe3eaea8e4752cedf58bb85ea64d7630c5c307a650e75c715594b40ce">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-52456225704a18994a8f7d5188e1673fbe69c6f8d6c7c5b25c23c20053e58680">
   
     
       
@@ -208,7 +208,7 @@ d800
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-42d15c9f032970fabe437e36bc861a536d57fe4630e44d6e1accafa533dd2a30">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cb264b67d4430e5fbd2a38522115cc0593bdff93c9438bf689d7389c4d15bf63">
   
     
       
@@ -278,6 +278,28 @@ d800
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
                                                     
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Saturday, February 7</strong>
+<ul>
+<li>All drop-in skating, cancelled</li>
+</ul>
+</li>
+</ul>
+</div>
+      
+
+
 
 
   
@@ -714,8 +736,13 @@ d800
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule changes</span></h3>
 <ul>
+<li><strong>Saturday, February 7</strong>
+<ul>
+<li>All drop-in skating, cancelled</li>
+</ul>
+</li>
 <li><span><strong>Monday, February 16</strong></span>
 <ul>
 <li><span>See Family Day schedule.</span></li>

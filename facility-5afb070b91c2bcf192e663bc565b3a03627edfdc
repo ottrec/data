@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=UZwbqPcaSpqCFDQpqZ/BvWXGhGkAAAAAQUIPAAAAAACyr9CZNWQla7IWwfcvfGrY; nlbi_243507=LpREDVCR6z4+aHztaXmSIAAAAADNXdeR6UwqK2Kb9SUAuyiS; incap_ses_1343_243507=tP47HmHk71nDGQnf5EujEmbGhGkAAAAAoAH/VBTgNiTZxBw2aUcpog==
+Cookie: visid_incap_243507=MOkIzM40SAOhHlm/o3zqddkvhWkAAAAAQUIPAAAAAADzvUCKzWnqtjqaKbVEPjSj; nlbi_243507=9jDgU5BL0F0wM/xsaXmSIAAAAADQaO52DYvsLD+KaAceXKds; incap_ses_1346_243507=qvM8LeBsZ0unXznLYPStEtkvhWkAAAAAYHiOEvv12VZosWVt5O48qA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 442
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 05 Feb 2026 16:36:11 GMT
-Etag: "1770308928-gzip"
+Date: Fri, 06 Feb 2026 00:06:07 GMT
+Etag: "1770336367-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 05 Feb 2026 16:28:48 GMT
+Last-Modified: Fri, 06 Feb 2026 00:06:07 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 8-41009557-41009560 SNNy RT(1770309222055 149384) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 48309180 47859265
+X-Iinfo: 4-23025006-23028437 SNNN RT(1770336218261 148832) q(0 0 0 -1) r(9 9) U24
+X-Varnish: 48519884
 
-11d0e
+1206c
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 48309180 47859265
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-14c082e3846c69c8d75c64dba213d4ba73eb3ed8b6e253250631b79c0a6d9008">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d63437175a60c5786b0c9ade055a7c2e9407c09adf9cec6a7683d7fbf2d591e4">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 48309180 47859265
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-669352bc59e131c65223502be7e9b0b587ddd5e2228b4b1fa8f2bd2acc148edc">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a73c7bfd28c4154971f8f54c6eabf0d1e67dc759ff4a26b233838da73cde83d2">
   
     
       
@@ -277,7 +277,29 @@ X-Varnish: 48309180 47859265
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Thursday, February 5</strong>
+<ul>
+<li>Open gym, 5:45 to 7:45 pm, cancelled</li>
+</ul>
+</li>
+</ul>
+</div>
+      
+
+<div class="mb-3">
 
 
 
@@ -722,6 +744,19 @@ X-Varnish: 48309180 47859265
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/lowertown/Home/Index?Culture=en&amp;PageId=ca5c7334-1292-4494-934e-15cb2f5dca34&amp;ShouldStartReserveTimeFlow=False&amp;ButtonId=00000000-0000-0000-0000-000000000000">Reserve a spot for pickleball</a></p>
+</div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
+<ul>
+<li><strong>Thursday, February 5</strong>
+<ul>
+<li>Open gym, 5:45 to 7:45 pm, cancelled</li>
+</ul>
+</li>
+</ul>
 </div>
       
       </div>
