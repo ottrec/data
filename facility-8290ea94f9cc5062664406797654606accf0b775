@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=0tkauYVsRA2Ze/wFvpzuQRDUh2kAAAAAQUIPAAAAAAC9QE/XWiZ6x+Mwc6bE2mSZ; nlbi_243507=iRh8HJMSliGWAEp/aXmSIAAAAADCdYjKCZuhobAeC0ba7BSp; incap_ses_1840_243507=lgdUC54QuFw+RMq01f6IGRDUh2kAAAAAuZh6vrmtaEKvu6oX1zUJ6g==
+Cookie: visid_incap_243507=EIDtazf+QPOJpe12A2TxsP0kiWkAAAAAQUIPAAAAAADsZaIRuEy5xtn0iUJp4tD0; nlbi_243507=W5GRBYJ4qkl+NRs6aXmSIAAAAACZ1xMmzXMJnIR1IUjJStag; incap_ses_890_243507=zLOeL4gvYkoHfN412epZDP0kiWkAAAAAIhUEgn6Dhy8bf7sxvWsl5g==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 798
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 08 Feb 2026 00:09:20 GMT
-Etag: "1770508560-gzip"
+Date: Mon, 09 Feb 2026 00:06:55 GMT
+Etag: "1770595614-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 07 Feb 2026 23:56:00 GMT
+Last-Modified: Mon, 09 Feb 2026 00:06:54 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 61-229874006-229874062 SNNy RT(1770509328932 31968) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 51087222 50806488
+X-Iinfo: 7-4454014-4454015 SNNN RT(1770595582372 31755) q(0 0 0 -1) r(17 17) U24
+X-Varnish: 232871762
 
-15269
+1536c
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 51087222 50806488
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans" />
 <meta name="dcterms.title" content="Bob MacQuarrie Recreation Complex - Orléans" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-02-05" />
+<meta name="dcterms.date" content="2026-02-08" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 51087222 50806488
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b39d44234b339259afa0bde974e80ed55a27907c39855fce85d5d893b0844b09">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0f0e79e9487f65d602226b8ceac5b269eaaa46b29509845a9440ef684ee020a6">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 51087222 50806488
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b0c0ee9a5835020a270c16fa0ecd0aea48b370f23a4ab996d28069528f3194c3">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fb7cfc89dc6d0e2b1784005dfd61fceb291c365e9b4b30be296cbd679d6b3294">
   
     
       
@@ -282,7 +282,7 @@ X-Varnish: 51087222 50806488
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
 </div>
       
 
@@ -295,6 +295,11 @@ X-Varnish: 51087222 50806488
 <ul>
 <li>All public skating drop-ins, cancelled</li>
 <li>All figure skating drop-ins, cancelled</li>
+</ul>
+</li>
+<li><strong>Saturday, February 21</strong>
+<ul>
+<li>Women's only swim, 8:15 to 9:15 pm, <strong>added</strong></li>
 </ul>
 </li>
 </ul>
@@ -621,11 +626,16 @@ X-Varnish: 51087222 50806488
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
 <li><span><strong>Saturday, February 14 to Monday, February 16</strong></span>
 <ul>
 <li><span>See Family Day weekend schedule.</span></li>
+</ul>
+</li>
+<li><strong>Saturday, February 21</strong>
+<ul>
+<li>Women's only swim, 8:15 to 9:15 pm, <strong>added</strong></li>
 </ul>
 </li>
 </ul>
@@ -1935,7 +1945,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=17&cb=287199660" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=17&cb=1799349990" async></script></body>
 </html>
 
 

@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ben-franklin-place-rink HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=0tkauYVsRA2Ze/wFvpzuQRDUh2kAAAAAQUIPAAAAAAC9QE/XWiZ6x+Mwc6bE2mSZ; nlbi_243507=iRh8HJMSliGWAEp/aXmSIAAAAADCdYjKCZuhobAeC0ba7BSp; incap_ses_1840_243507=lgdUC54QuFw+RMq01f6IGRDUh2kAAAAAuZh6vrmtaEKvu6oX1zUJ6g==
+Cookie: visid_incap_243507=EIDtazf+QPOJpe12A2TxsP0kiWkAAAAAQUIPAAAAAADsZaIRuEy5xtn0iUJp4tD0; nlbi_243507=W5GRBYJ4qkl+NRs6aXmSIAAAAACZ1xMmzXMJnIR1IUjJStag; incap_ses_890_243507=zLOeL4gvYkoHfN412epZDP0kiWkAAAAAIhUEgn6Dhy8bf7sxvWsl5g==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 241
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 08 Feb 2026 00:09:14 GMT
-Etag: "1770509112-gzip"
+Date: Mon, 09 Feb 2026 00:06:48 GMT
+Etag: "1770595608-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 08 Feb 2026 00:05:12 GMT
+Last-Modified: Mon, 09 Feb 2026 00:06:48 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 61-229874006-229874062 SNNy RT(1770509328932 25964) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 51024713 50228834
+X-Iinfo: 7-4454014-4454015 SNNN RT(1770595582372 25756) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 51161227
 
-80bb
+8093
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 51024713 50228834
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ben-franklin-place-rink" />
 <meta name="dcterms.title" content="Ben Franklin Place rink" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-01-03" />
+<meta name="dcterms.date" content="2026-02-08" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 51024713 50228834
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6ddec1dd56697dab4b390b3fa8dbc1997219f53e16670ac74880c4b2c8feb078">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4576bb7240c8c65cc00688b0c2c269d61e863fcca2fd7d075808c862ade0d15d">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 51024713 50228834
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d4a30626620165c690be3e33659924f5bad8d4409be0c875d7785cc406d711b8">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-435830aeb1295b70767807f8737463caf16dd32da63566059157810a814981b0">
   
     
       
@@ -368,7 +368,7 @@ X-Varnish: 51024713 50228834
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>Enjoy skating at the refrigerated rink at Ben Franklin Place.&nbsp;</p>
 <ul>
-<li>Ensure a safe and pleasant skating experience by following the&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/skating/safety-regulations#section-be0901ba-2754-4e46-b30e-ea7f0fd94ba8" target="_blank">outdoor skating rink rules</a>.</li>
+<li>Ensure a safe and pleasant skating experience by following the&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/skating/outdoor-rinks/outdoor-skating-rink-rules">outdoor skating rink rules</a>.</li>
 <li>Skate-changing huts are available on-site.</li>
 <li>Clients may use the washrooms in Ben Franklin Place from 8 am to 8 pm daily.
 <ul>
@@ -713,7 +713,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jUsOwyAMRC9Ewqb3QYZY1K2JEZh8evomUlWFLroZzXseyV5EqxbIN-u_dXjUgUGxqsFNmeannUrLwOMHTRSJjE4h2njEL4_wgK2XyTC8dnuGEdUATu-Y0PqdYWU6Xl3t-cRRkLl2-uhtG1eaIvb7GoowY-klKVLKRRYcYAbelUI1WXLLrray4G6vcFxWLJ4cJo-T7WgITDjr_0mrKoleWN4JHoZg"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=14&cb=1491893292" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=14&cb=247074443" async></script></body>
 </html>
 
 
