@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/splash-wave-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=UOxi37x+TVyEvV39YeZgzNzIi2kAAAAAQUIPAAAAAAD1gzSJHRpw8slDmQnhr6Ps; nlbi_243507=7Iv/A6W4CnzHqx1ZaXmSIAAAAABK3BqRTGhPF+c37WMWa2YB; incap_ses_1313_243507=BermAPaUwGpua24ItbY4Et3Ii2kAAAAAcNGfI+RGLGZhjTmH2ICJbw==
+Cookie: visid_incap_243507=byGtjxH5RdComz765nqTuDkZjWkAAAAAQUIPAAAAAACOntbDTKwz+eUJaGXUGFZz; nlbi_243507=ERM3bTLwE3cyOwjXaXmSIAAAAABKbRp722jKNxF7e8VVLn8x; incap_ses_175_243507=Egn9ZqxN1BkZhi/rsLltAjkZjWkAAAAAn4EUtLGknVTrJCfv2VCIfg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 213
+Age: 597
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 11 Feb 2026 00:13:54 GMT
-Etag: "1770768618-gzip"
+Date: Thu, 12 Feb 2026 00:09:02 GMT
+Etag: "1770854344-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 11 Feb 2026 00:10:18 GMT
+Last-Modified: Wed, 11 Feb 2026 23:59:04 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 1-2209762-2209775 SNNy RT(1770768605865 228134) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 53770611 53178378
+X-Iinfo: 49-12669507-12669521 SNNy RT(1770854714130 228588) q(0 1 1 -1) r(2 2) U24
+X-Varnish: 52589853 54656825
 
-e0e7
+e0ff
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ e0e7
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f2a0128070619fa9b974091c029082da87bf1accb54ebc9b4e5139e87f0ac0ce">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f0f618a770df3ef936d0345c9e86874d17f64798212ebd8a1895bc098a1500e7">
   
     
       
@@ -208,7 +208,7 @@ e0e7
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e8c5044054de1c8ab23a186ed07819e5d481ad1c6652289d1e81e5ec58b4b262">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6e1c0ddb6ff6dfb88caf809b8b77cfc5773bced906404a6c04cc244e69b5d5e8">
   
     
       
@@ -1160,14 +1160,14 @@ e0e7
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8ulN71GvDfbmpsa">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

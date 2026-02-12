@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/overbrook-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=UOxi37x+TVyEvV39YeZgzNzIi2kAAAAAQUIPAAAAAAD1gzSJHRpw8slDmQnhr6Ps; nlbi_243507=7Iv/A6W4CnzHqx1ZaXmSIAAAAABK3BqRTGhPF+c37WMWa2YB; incap_ses_1313_243507=BermAPaUwGpua24ItbY4Et3Ii2kAAAAAcNGfI+RGLGZhjTmH2ICJbw==
+Cookie: visid_incap_243507=byGtjxH5RdComz765nqTuDkZjWkAAAAAQUIPAAAAAACOntbDTKwz+eUJaGXUGFZz; nlbi_243507=ERM3bTLwE3cyOwjXaXmSIAAAAABKbRp722jKNxF7e8VVLn8x; incap_ses_175_243507=Egn9ZqxN1BkZhi/rsLltAjkZjWkAAAAAn4EUtLGknVTrJCfv2VCIfg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 504
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 11 Feb 2026 00:13:13 GMT
-Etag: "1770768792-gzip"
+Date: Thu, 12 Feb 2026 00:08:20 GMT
+Etag: "1770854395-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 11 Feb 2026 00:13:12 GMT
+Last-Modified: Wed, 11 Feb 2026 23:59:55 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-g6859 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 1-2209762-2209775 SNNy RT(1770768605865 186133) q(0 0 0 -1) r(11 11) U24
-X-Varnish: 234642214
+X-Iinfo: 49-12669507-12669521 SNNy RT(1770854714130 186552) q(0 1 1 -1) r(2 2) U24
+X-Varnish: 55111545 53890441
 
-c00d
+c025
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ c00d
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-457e6a20905ae01c9be890e1e366c6ce1ff7343f7ca5ea8e537abe71821c455f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-01b91f42d3a1d0c8380635eb670bbd923a1e99dd33ed912b419b8664f68d49ff">
   
     
       
@@ -208,7 +208,7 @@ c00d
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7efab9adc6f6601ea9b2b964136787c41473f3ca64d137c3716135002a67ccb8">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6cbf07965a58a183c980882e13297a0b0adeea5e257770a4092c0906c3a0c454">
   
     
       
@@ -620,7 +620,7 @@ c00d
 
 
 
-  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-14c7ea1fde0aae05b11832ed118b2c02b4db40986dd2990770a321dbc1ea2b32">
+  <div><div class="view view-page-toc view-id-page_toc view-display-id-service_toc_block js-view-dom-id-f8f06ccedc4f9b920684b4262339f8c316e0f4bd23c7b585f8d3f3737864054a">
   
     
       <div class="view-header">
@@ -1000,14 +1000,14 @@ c00d
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawa.qualtrics.com/jfe/form/SV_8ulN71GvDfbmpsa">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
