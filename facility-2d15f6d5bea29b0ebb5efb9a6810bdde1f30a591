@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=/nazARxKR5mVpTlz4eYWXiFrjmkAAAAAQUIPAAAAAACdp9QIPcWLz7ulV/oZPMON; nlbi_243507=0iPfHTf6WhEPt7HAaXmSIAAAAACYYWJ9QUct1KnJjCSeyQ7P; incap_ses_92_243507=5hlxD2AyM30AbaWDodlGASFrjmkAAAAAPID0nJsGrMyULVS2cjKmaA==
+Cookie: visid_incap_243507=WQw5lToOTkiDvoOROQ7J8nq8j2kAAAAAQUIPAAAAAADGmcFxhMqnjxgV4qqLaT98; nlbi_243507=g5VnTR1No38wmI6OaXmSIAAAAACv01xe8Hml5YeDPfdUy5NY; incap_ses_175_243507=gRCJLoVP5geDN1r0sLltAnq8j2kAAAAA4Wj75JDTBprAJdX+i2v66g==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 603
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 13 Feb 2026 00:10:18 GMT
-Etag: "1770941417-gzip"
+Date: Sat, 14 Feb 2026 00:09:37 GMT
+Etag: "1771027171-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 13 Feb 2026 00:10:17 GMT
+Last-Modified: Fri, 13 Feb 2026 23:59:31 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 4-470070-470071 SNNy RT(1770941217737 199880) q(0 0 0 -1) r(5 5) U24
-X-Varnish: 221864684
+X-Iinfo: 52-66868998-66876563 SNNy RT(1771027578703 198307) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 239871226 239774111
 
-147c5
+147d1
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 221864684
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f1e61dfc5d6ff03d802f5715474dd70559381c706972ff415e301b58ba404633">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c972c6323c11a280a586a1ef9f1778a19bdd9b87e4509bcda34fa2eecbb40a86">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 221864684
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a92b84ecb9a09a5f24fdb99604be6b77cc964f6fdf988328bbe1bdcee49be7d0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-01a74c656a39be53b7b7bb048f3aaf6942f661b6f7e84feaa2bc596b63f98029">
   
     
       
@@ -1618,7 +1618,7 @@ X-Varnish: 221864684
 </li>
 <li><strong>Wednesday, February 18</strong>
 <ul>
-<li>Pick-up hockey 18+, Noon to 1:20 pm, cancelled</li>
+<li>Pick-up hockey 18+, <strong>noon to 12:50 pm only</strong></li>
 </ul>
 </li>
 </ul>
