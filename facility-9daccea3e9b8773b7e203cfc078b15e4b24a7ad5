@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/splash-wave-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=3muJAg4SSGawqzPW5eaqITDUpGkAAAAAQUIPAAAAAADBTjLovz8iZ+9oNCNTj9iZ; nlbi_243507=n4CfB+nHOwstf5MUaXmSIAAAAAC/HScAGTVD3eIBRhPmKiUQ; incap_ses_76_243507=MHYuSa5aimNqXW2qJAIOATDUpGkAAAAAlDgYsRCiU5nj/m2BEIjXSw==
+Cookie: visid_incap_243507=ryqcoKmaQuiV1LBYOVDIjw4mpmkAAAAAQUIPAAAAAAA2Ryk+KIi5MJglDl0YNN5Q; nlbi_243507=t+yQZ7oZJ1iGOOpoaXmSIAAAAACAh4Y5TxEB7BDPoYb3u6Xy; incap_ses_187_243507=CqWJeeNQRGq/Kikdo1uYAg4mpmkAAAAAcGg01yelQ2OmjfD1kqrKFg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 713
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 02 Mar 2026 00:08:53 GMT
-Etag: "1772409418-gzip"
+Date: Tue, 03 Mar 2026 00:10:38 GMT
+Etag: "1772496636-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 01 Mar 2026 23:56:58 GMT
+Last-Modified: Tue, 03 Mar 2026 00:10:36 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 11-59310864-59325200 SNNy RT(1772409904678 228492) q(0 1 1 -1) r(1 1) U24
-X-Varnish: 363287807 363222775
+X-Iinfo: 40-79547110-79563725 SNNy RT(1772496399516 237392) q(0 0 0 -1) r(12 12) U24
+X-Varnish: 366022664
 
-ced0
+cd37
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ ced0
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/splash-wave-pool" />
 <meta name="dcterms.title" content="Splash Wave Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-02-20" />
+<meta name="dcterms.date" content="2026-03-02" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ ced0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0ff09fe1e2f98b7fef290eae7bab943bbef39b8b2869d4dca9a2b74551ddac8e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a47f0b366dadf721469c530282acacee2ddd0bfbddf6871bd4ee44eb7b1fe6c0">
   
     
       
@@ -208,7 +208,7 @@ ced0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8bd04b58c9f2cf8687d8557bb66995df6d8b46ac01801428e80c6362516dfd3f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3b3cd69881fdb08a641ab308b6201a44ed7f03999cce0a1f22757ee6eb7cbe82">
   
     
       
@@ -277,22 +277,7 @@ ced0
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    
-
-
-  
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Notice: February 20</h2>
-</div>
-      
-
-
-
-
-  
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>The pool deck may feel cooler than usual until further notice.</p></div>
-      
-
-<div class="mb-3">
+                                                    <div class="mb-3">
 
 
 
@@ -300,7 +285,7 @@ ced0
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 

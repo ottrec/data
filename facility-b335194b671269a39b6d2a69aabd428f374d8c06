@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=3muJAg4SSGawqzPW5eaqITDUpGkAAAAAQUIPAAAAAADBTjLovz8iZ+9oNCNTj9iZ; nlbi_243507=n4CfB+nHOwstf5MUaXmSIAAAAAC/HScAGTVD3eIBRhPmKiUQ; incap_ses_76_243507=MHYuSa5aimNqXW2qJAIOATDUpGkAAAAAlDgYsRCiU5nj/m2BEIjXSw==
+Cookie: visid_incap_243507=ryqcoKmaQuiV1LBYOVDIjw4mpmkAAAAAQUIPAAAAAAA2Ryk+KIi5MJglDl0YNN5Q; nlbi_243507=t+yQZ7oZJ1iGOOpoaXmSIAAAAACAh4Y5TxEB7BDPoYb3u6Xy; incap_ses_187_243507=CqWJeeNQRGq/Kikdo1uYAg4mpmkAAAAAcGg01yelQ2OmjfD1kqrKFg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 669
+Age: 766
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 02 Mar 2026 00:07:50 GMT
-Etag: "1772409390-gzip"
+Date: Tue, 03 Mar 2026 00:09:26 GMT
+Etag: "1772495799-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 01 Mar 2026 23:56:30 GMT
+Last-Modified: Mon, 02 Mar 2026 23:56:39 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-cfmll (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: HIT
+X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 11-59310864-59325200 SNNy RT(1772409904678 166151) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 547238 352414
+X-Iinfo: 40-79547110-79563725 SNNy RT(1772496399516 166633) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 356403426 351374490
 
-13862
+13b80
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 547238 352414
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven" />
 <meta name="dcterms.title" content="Minto Recreation Complex - Barrhaven" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-02-17" />
+<meta name="dcterms.date" content="2026-03-02" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 547238 352414
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4481652eb9a0c1e386fba844a6236a9d9559deb4e63b54f21337c69cd273bd1c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ed72a77cd463deed237534b6cc65cbee5913d1298938727268d32b5581898539">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 547238 352414
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e1faa4f93f9891d135e9efd06f44b3689f9c0830c45c785fe822d98f647fe21d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dc586e38eb0e5fe4badbaa2b6fa799167addbc35e2bab9cce23fe3a197caf8a7">
   
     
       
@@ -280,7 +280,22 @@ X-Varnish: 547238 352414
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Pool closure</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><span>The pool is closed from Monday, March 23 to Sunday, April 12.&nbsp;</span></p></div>
+      
+
+<div class="mb-3">
 
 
 
@@ -502,6 +517,12 @@ X-Varnish: 547238 352414
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;is the City’s lineup of free drop-in activities for children and youth (aged 17 and under) and accompanying adults.</p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Pool closure</strong></h3>
+<p><span>The pool is closed from Monday, March 23 to Sunday, April 12.&nbsp;</span></p></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">

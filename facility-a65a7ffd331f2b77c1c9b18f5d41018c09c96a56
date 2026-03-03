@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=3muJAg4SSGawqzPW5eaqITDUpGkAAAAAQUIPAAAAAADBTjLovz8iZ+9oNCNTj9iZ; nlbi_243507=n4CfB+nHOwstf5MUaXmSIAAAAAC/HScAGTVD3eIBRhPmKiUQ; incap_ses_76_243507=MHYuSa5aimNqXW2qJAIOATDUpGkAAAAAlDgYsRCiU5nj/m2BEIjXSw==
+Cookie: visid_incap_243507=ryqcoKmaQuiV1LBYOVDIjw4mpmkAAAAAQUIPAAAAAAA2Ryk+KIi5MJglDl0YNN5Q; nlbi_243507=t+yQZ7oZJ1iGOOpoaXmSIAAAAACAh4Y5TxEB7BDPoYb3u6Xy; incap_ses_187_243507=CqWJeeNQRGq/Kikdo1uYAg4mpmkAAAAAcGg01yelQ2OmjfD1kqrKFg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 624
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 02 Mar 2026 00:09:09 GMT
-Etag: "1772409524-gzip"
+Date: Tue, 03 Mar 2026 00:10:55 GMT
+Etag: "1772496653-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 01 Mar 2026 23:58:44 GMT
+Last-Modified: Tue, 03 Mar 2026 00:10:53 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 11-59310864-59325200 SNNy RT(1772409904678 244498) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 363464711 363348017
+X-Iinfo: 40-79547110-79563725 SNNy RT(1772496399516 253457) q(0 0 0 -1) r(28 28) U24
+X-Varnish: 369099325
 
-1352d
+13735
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 363464711 363348017
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre" />
 <meta name="dcterms.title" content="Walter Baker Sports Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-02-27" />
+<meta name="dcterms.date" content="2026-03-02" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 363464711 363348017
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0ae5f0338afb76fb30ef7ae0c74f6f48ab6b24bd6b6d48159ea6e213de36f946">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ea0b4f7ced9023ec4f0d3a6e813b24dc3ac554de2aafa069a0ef2be4154b0ec9">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 363464711 363348017
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0a1d27d87a788fd7733b61a8b65512dbf56b2c1d1c46fef147274209ae3261c6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c0142d04835cbca12c5c321ed21315af0726c41c3a0c96fb79ba16622fca905f">
   
     
       
@@ -281,7 +281,7 @@ X-Varnish: 363464711 363348017
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Closure</h2>
 </div>
       
 
@@ -290,6 +290,14 @@ X-Varnish: 363464711 363348017
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Tuesday, March 3</strong>
+<ul>
+<li>Hot tub, 1 to 9 pm, &nbsp;closed</li>
+</ul>
+</li>
+</ul>
+<h3>Schedule change</h3>
+<ul>
 <li><strong>Friday, March 6</strong>
 <ul>
 <li>Lane swim, 7:30 to 9 pm, cancelled</li>
@@ -508,6 +516,18 @@ X-Varnish: 363464711 363348017
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;is the City’s lineup of free drop-in activities for children and youth (aged 17 and under) and accompanying adults.</p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Closure</strong></h3>
+<ul>
+<li><strong>Tuesday, March 3</strong>
+<ul>
+<li>Hot tub, 1 to 9 pm, &nbsp;closed</li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">

@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/nepean-museum HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=3muJAg4SSGawqzPW5eaqITDUpGkAAAAAQUIPAAAAAADBTjLovz8iZ+9oNCNTj9iZ; nlbi_243507=n4CfB+nHOwstf5MUaXmSIAAAAAC/HScAGTVD3eIBRhPmKiUQ; incap_ses_76_243507=MHYuSa5aimNqXW2qJAIOATDUpGkAAAAAlDgYsRCiU5nj/m2BEIjXSw==
+Cookie: visid_incap_243507=ryqcoKmaQuiV1LBYOVDIjw4mpmkAAAAAQUIPAAAAAAA2Ryk+KIi5MJglDl0YNN5Q; nlbi_243507=t+yQZ7oZJ1iGOOpoaXmSIAAAAACAh4Y5TxEB7BDPoYb3u6Xy; incap_ses_187_243507=CqWJeeNQRGq/Kikdo1uYAg4mpmkAAAAAcGg01yelQ2OmjfD1kqrKFg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 690
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 02 Mar 2026 00:07:58 GMT
-Etag: "1772410076-gzip"
+Date: Tue, 03 Mar 2026 00:09:32 GMT
+Etag: "1772495880-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 02 Mar 2026 00:07:56 GMT
+Last-Modified: Mon, 02 Mar 2026 23:58:00 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 11-59310864-59325200 SNNy RT(1772409904678 172155) q(0 0 0 -1) r(14 14) U24
-X-Varnish: 354968023
+X-Iinfo: 40-79547110-79563725 SNNy RT(1772496399516 172648) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 362324152 365432414
 
-12604
+11059
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 354968023
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-museum" />
 <meta name="dcterms.title" content="Nepean Museum" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-01-29" />
+<meta name="dcterms.date" content="2026-03-02" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 354968023
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b4668e64f59afce2acf15a41946fb507b525aba519bf78fbc8e2afc5999af108">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-12b6939639ecdee0ebd6a88b2c2d62d8c8b2c9031c8a0d3fdd14121f5346a445">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 354968023
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1a53de148db5a67d91a3448bf29193d769b67827b03d4ebc93d5376195ddf88c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-63f881125515301915cb12506f69eeecf2adb19301a5db550321741a945cdbba">
   
     
       
@@ -282,14 +282,6 @@ X-Varnish: 354968023
 
 </div>
 
-
-
-  
-            <div class="clearfix text-formatted field field--name-field-special-hours-details-belo field--type-text-long field--label-hidden field__item"><p>
-&nbsp;</p></div>
-      
-
-
                         </div>
                                                                                                             <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--second">
                         
@@ -323,10 +315,8 @@ X-Varnish: 354968023
 
 
   
-            <div class="clearfix text-formatted field field--name-field-place-address-info field--type-text-long field--label-hidden field__item"><p>Tel:&nbsp;<a href="tel:(613) 580-9638">(613) 580-9638</a><br>
-Email:&nbsp;<a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a></p>
-<p><a href="https://www.facebook.com/NepeanMuseum/">Facebook</a><br>
-Subscribe to our monthly "<a href="https://ottawa.ca/esubscriptions">At your museum</a>" eNewsletter.&nbsp;</p></div>
+            <div class="clearfix text-formatted field field--name-field-place-address-info field--type-text-long field--label-hidden field__item"><p>Tel:&nbsp;<a href="tel:(613) 580-9638">(613) 580-9638</a><br>Email:&nbsp;<a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a></p>
+<p><a href="https://www.facebook.com/NepeanMuseum/">Facebook</a><br>Subscribe to our monthly "<a href="https://ottawa.ca/esubscriptions">At your museum</a>" eNewsletter.&nbsp;</p></div>
       
 
 
@@ -456,101 +446,13 @@ Subscribe to our monthly "<a href="https://ottawa.ca/esubscriptions">At your mus
                   <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
 
             
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
-          
-      </div>
-
-                        </div>
-                                          
-                    
-                
-            </div>
-          
-      </div>
-</div>
-              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
-                  
-                          
-                
-                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
-          
-      </div>
-
-                        </div>
-                                          
-                    
-                
-            </div>
-          
-      </div>
-</div>
-              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
-                  
-                          
-                
-                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
-          
-      </div>
-
-                        </div>
-                                          
-                    
-                
-            </div>
-          
-      </div>
-</div>
-              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
-                  
-                          
-                
-                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
-          
-      </div>
-
-                        </div>
-                                          
-                    
-                
-            </div>
-          
-      </div>
-</div>
-              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
-                  
-                          
-                
-                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
-
-            
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
-  <button aria-expanded="false" aria-controls="section-9f2cca52-f95f-450f-a632-e98bf7742348" data-target="#section-9f2cca52-f95f-450f-a632-e98bf7742348" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Craftspace</button>
+  <button aria-expanded="false" aria-controls="section-f442db1f-c953-424f-a2e5-1c5c22d6b192" data-target="#section-f442db1f-c953-424f-a2e5-1c5c22d6b192" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">March Break in the MakerStudio</button>
 
                   </h2>
-                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-9f2cca52-f95f-450f-a632-e98bf7742348">
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-f442db1f-c953-424f-a2e5-1c5c22d6b192">
                   
                                                                                       <div  class="layout__region layout__region--main col-12">
                           
@@ -565,7 +467,7 @@ Subscribe to our monthly "<a href="https://ottawa.ca/esubscriptions">At your mus
       
 
 
-  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Craftspace</h2>
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">March Break in the MakerStudio</h2>
 </span>
 
 
@@ -586,25 +488,15 @@ Subscribe to our monthly "<a href="https://ottawa.ca/esubscriptions">At your mus
                           
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Craftspace</span></h3>
-<p>February 7, February 14, February 21 and February 28 from 10 am to 11 am<br>
-Ages 3 to 5<br>
-Cost: $7.29 per child<br>
-<a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?locale=en-US&amp;activity_select_param=2&amp;activity_keyword=Craftspace&amp;viewMode=list">Advance registration is required</a></p>
-<p>
-Get creative and engage with the museum’s collection through play! Each week we’ll complete a craft or artmaking activity inspired by a unique object with a heritage theme.</p>
-<p><strong>Themes:</strong></p>
-<p><strong>February 7 – <a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search/detail/134375?onlineSiteId=0&amp;locale=en-US&amp;from_original_cui=true">Sidewalk chalk quilt</a><br>
-February 14 – <a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search/detail/134369?onlineSiteId=0&amp;locale=en-US&amp;from_original_cui=true">DIY toy </a>(*sold out)<br>
-February 21 – <a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search/detail/134371?onlineSiteId=0&amp;locale=en-US&amp;from_original_cui=true">Natural inks and dyes</a><br>
-February 28 – <a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search/detail/134339?onlineSiteId=0&amp;locale=en-US&amp;from_original_cui=true">Neighbourhood collage</a></strong></p>
-<h4><span>Notes</span></h4>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>March Break in the MakerStudio</h3>
+<p>March 16 to March 20 from 10 am to 3 pm<br>Cost: Pay-What-You-Can</p>
+<p>Drop in to the MakerStudio at Nepean Museum to discover hands-on activities and daily scavenger hunts inspired by local history – we’re switching up the theme each day, so the fun continues all through the week!</p>
+<p><strong>Monday</strong> – morse code bracelets<br><strong>Tuesday </strong>– &nbsp;music &amp; audio<br><strong>Wednesday</strong> – Lego printmaking<br><strong>Thursday</strong> - natural inks and dyes<br><strong>Friday</strong> – old fashioned toys</p>
+<h4>Notes:</h4>
 <ul>
-<li>This program is delivered in English.</li>
-<li>Please dress your child in clothes you are comfortable with getting messy.</li>
-<li>Please pack a peanut-free snack and water.</li>
-<li>Sessions with insufficient registration may be cancelled. If an alternative cannot be offered, a refund will be issued.</li>
-<li>If you have questions or concerns about accessibility, contact the museum at 613-580-9638 or <a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a>. Additional <a href="https://ottawa.ca/en/node/1007484">information regarding accessibility</a> is available on the museum webpage.</li>
+<li>This is a drop-in style program; families are welcome to join the activities at any time during the advertised hours. Please note that craft activities can only be offered as long as supplies last.</li>
+<li>March Break activities are best suited for families with children ages 6 to 12. However, younger children may be able to enjoy the activities with the assistance of an adult or older sibling.</li>
+<li>The primary language of delivery is English. Any printed materials will be provided in both official languages (English/French)</li>
 </ul></div>
       
       </div>
@@ -648,67 +540,11 @@ February 28 – <a href="https://anc.ca.apm.activecommunities.com/ottawa/activit
                   <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
 
             
-                              <div class="col collapse-region pl-0 pr-0">
-                  <h2 class="no-toc">
-                              
-  <button aria-expanded="false" aria-controls="section-e874727a-aaa0-45d5-9ae3-d2f1689cb719" data-target="#section-e874727a-aaa0-45d5-9ae3-d2f1689cb719" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">You Can&#039;t Do That at the Museum</button>
-
-                  </h2>
-                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-e874727a-aaa0-45d5-9ae3-d2f1689cb719">
-                  
+              
                                                                                       <div  class="layout__region layout__region--main col-12">
                           
                                                       <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
           
-            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
-<article class="node node--type-article node--view-mode-default">
-  
-  <div class="node__content">
-      <div class="layout layout--onecol">
-    <div  class="layout__region layout__region--content">
-      
-
-
-  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">You Can&#039;t Do That at the Museum</h2>
-</span>
-
-
-
-
-
-  
-      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
-              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
-                  
-                          
-                                  
-                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>You Can’t Do That at the Museum</span></h3>
-<p>February 7, February 14 and February 21 from 2 pm to 4 pm<br>
-Ages 6 to 9<br>
-Cost: $13.04 per child<br>
-<a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?onlineSiteId=0&amp;locale=en-US&amp;activity_select_param=2&amp;center_ids=298&amp;date_after=2025-12-17&amp;activity_keyword=You%20Can%27t%20Do%20That%20at%20the%20Museum&amp;viewMode=list">Advance registration is required</a></p>
-<p>It’s time to get creative, silly, and a little bit messy at Nepean Museum! We’ve been inspired by the keep-you-on-your-toes sketch show format, and rule bending attitude, of the CJOH-TV classic “You Can’t Do That On Television”. Travel through the decades and see your community through the lens of a different theme each week with a variety of fun, hands-on activities exploring the museum’s exhibition and artefact collection.</p>
-<p><strong>Themes:</strong></p>
-<p><strong>February 7 – <a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search/detail/134411?onlineSiteId=0&amp;locale=en-US&amp;from_original_cui=true">Slime</a><br>
-February 14 – <a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search/detail/134503?onlineSiteId=0&amp;locale=en-US&amp;from_original_cui=true">Music &amp; Audio</a><br>
-February 21 – <a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search/detail/134507?onlineSiteId=0&amp;locale=en-US&amp;from_original_cui=true">Secret Codes</a></strong></p>
-<h4><strong>Notes</strong></h4>
-<ul>
-<li>This program is delivered in English.</li>
-<li>Please dress your child in clothes you are comfortable with getting messy.</li>
-<li>Please pack a peanut-free snack and water.</li>
-<li>Sessions with insufficient registration may be cancelled. If an alternative cannot be offered, a refund will be issued.</li>
-<li>If you have questions or concerns about accessibility, contact the museum at 613-580-9638 or <a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a>. Additional <a href="https://ottawa.ca/en/node/1007484">information regarding accessibility</a> is available on the museum webpage.</li>
-</ul></div>
-      
       </div>
 
                         </div>
@@ -719,25 +555,111 @@ February 21 – <a href="https://anc.ca.apm.activecommunities.com/ottawa/activit
           
       </div>
 </div>
-          </div>
-  
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
 
-
-    </div>
-  </div>
-
-  </div>
-
-</article>
-</div>
-      
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
       </div>
 
                         </div>
                                           
-                                        </div>
-                  </div>
+                    
                 
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+      </div>
+
+                        </div>
+                                          
+                    
                 
             </div>
           
@@ -1184,28 +1106,6 @@ February 21 – <a href="https://anc.ca.apm.activecommunities.com/ottawa/activit
                                         </div>
                   </div>
                 
-                
-            </div>
-          
-      </div>
-</div>
-              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
-                  
-                          
-                
-                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
-          
-      </div>
-
-                        </div>
-                                          
-                    
                 
             </div>
           
