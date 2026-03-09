@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing?page=3 HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=PDkZdAiRTiyK6vecqsFmRhq9rGkAAAAAQUIPAAAAAAC7l1+bDkiUlJc5G6jnGjjV; nlbi_243507=jUfba4lLEy6wb6iYaXmSIAAAAADM9AnQQnhcHrvmg+IxpqOp; incap_ses_1842_243507=sovCJT0U2RFerir76RmQGRq9rGkAAAAAuaZkGH7X+vZ3Ry6Ii0FABw==
+Cookie: visid_incap_243507=wte9jHrRR5aP+p8ajxH4/bEOrmkAAAAAQUIPAAAAAAAS3gtZ/bvnOAAhEU2paabg; nlbi_243507=FO5EbNriyHXwD25JaXmSIAAAAAAja6cjDyzc75SsNv7MHDze; incap_ses_187_243507=AYdqCENcUiWFoLJMpVuYArEOrmkAAAAAi0+cpB44HHKFe6ASMef1yA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 265
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 08 Mar 2026 00:07:18 GMT
-Etag: "1772928172-gzip"
+Date: Mon, 09 Mar 2026 00:07:43 GMT
+Etag: "1773014863-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 08 Mar 2026 00:02:52 GMT
+Last-Modified: Mon, 09 Mar 2026 00:07:43 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-zf692 (Varnish/7.6)
@@ -27,8 +27,8 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 22-2775481-2775482 SNNy RT(1772928282837 156067) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 6851999 6600406
+X-Iinfo: 51-19080188-19080212 PNNy RT(1773014705611 157619) q(0 1 1 -1) r(8 8) U24
+X-Varnish: 8323505
 
 10fbc
 
@@ -247,7 +247,7 @@ X-Varnish: 6851999 6600406
 
 
 
-  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-009468de841c9d08b9b8e03af2e124549870e479d7cb445bad653449846c6a09">
+  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-66d87d4d7a8d84b2a0a7983e49a6e0cfd74e33da889ead843018dcabe42d6e99">
   
     
       <div class="view-header">
