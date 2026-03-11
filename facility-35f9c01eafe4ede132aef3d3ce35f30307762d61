@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/tony-graham-recreation-complex-kanata HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=AHR9LTZhSlGLfD6fm6cPQwJgr2kAAAAAQUIPAAAAAAB/Y34pIJlTZhY2K8rteQOX; nlbi_243507=MnX5J5Dk0F5T5NN6aXmSIAAAAACjvEV3NkIK95QjkBCGFq/J; incap_ses_197_243507=yl2RGTSQRVaaAm3NkOK7AgJgr2kAAAAAkXDimH2hjE9xlQF/03Y/wQ==
+Cookie: visid_incap_243507=iH+T9D53T562yq3BCRGyQKCysGkAAAAAQUIPAAAAAAAzOS74/HAcHZTaBnbqs34j; nlbi_243507=kXfKKJjLREehAhg5aXmSIAAAAAAmJizroxKGefv/3TzOtCPV; incap_ses_1841_243507=YchXcahwa05Eg4b1aIyMGaCysGkAAAAArOqZcDv27LkJaWMP19kWiw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 223
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 10 Mar 2026 00:08:19 GMT
-Etag: "1773101075-gzip"
+Date: Wed, 11 Mar 2026 00:13:04 GMT
+Etag: "1773187983-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 10 Mar 2026 00:04:35 GMT
+Last-Modified: Wed, 11 Mar 2026 00:13:03 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-zf692 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-75f9f47747-ptzp2 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 45-24308510-24308518 SNNy RT(1773101059140 240597) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 20351571 14918226
+X-Iinfo: 51-8608947-8608955 SNNy RT(1773187744616 239120) q(0 0 0 -1) r(8 8) U24
+X-Varnish: 369678615
 
-ce80
+d921
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ ce80
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tony-graham-recreation-complex-kanata" />
 <meta name="dcterms.title" content="Tony Graham Recreation Complex – Kanata" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-03-06" />
+<meta name="dcterms.date" content="2026-03-10" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,10 +194,60 @@ ce80
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9d87128fdab73e2bbf712985902f15824cbc558a49f486b9365e82ba308cb2d2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e8cad1531a9d119f0606d4be0cf3fd0c723d962658c516e19378df567acbd7cb">
   
     
       
+      <div class="view-content">
+          <div>
+<article class="node node--type-alert node--view-mode-default">
+  
+  <div class="node__content">
+    
+          
+  
+<div class="alert-warning alert-dismissible fade show alert">
+  <div class="alert-message">
+      <h4 class="alert-heading"><div>
+
+
+  <span class="field field--name-title field--type-string field--label-hidden">Weather impacts - hazardous weather</span>
+
+
+</div>
+</h4>
+    
+
+
+  
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><strong>Wednesday, March 11:&nbsp;</strong></p>
+<p>City of Ottawa recreation and culture facilities are closed March 11 until noon, due to the forecasted freezing rain. <a href="https://ottawa.ca/en/health-and-public-safety/emergency-preparedness/current-and-ongoing-emergencies/winter-storm/current-situation">Stay updated</a>.&nbsp;&nbsp;</p></div>
+      
+
+
+  </div>
+      <button type="button" class="close" data-dismiss="alert">
+      <span class="sr-only">Close <h4 class="alert-heading"><div>
+
+
+  <span class="field field--name-title field--type-string field--label-hidden">Weather impacts - hazardous weather</span>
+
+
+</div>
+</h4></span>
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
+
+
+  </div>
+
+</article>
+</div>
+
+    </div>
   
           </div>
 </div>
@@ -208,7 +258,7 @@ ce80
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e89488d9ff6ba90447010310a4261038cc9dc20c53201ad951b5bce252a7e9fb">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-91652af8b3d7e0396633b918f72c6f5ba7bf2ef7d7a0be072d659088812e7f9a">
   
     
       
@@ -277,7 +327,40 @@ ce80
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Friday, March 13 to Tuesday, March 17</strong>
+<ul>
+<li>All drop-in skating programs are cancelled.</li>
+</ul>
+</li>
+<li><strong>Wednesday, March 18</strong>
+<ul>
+<li>Public skating, 1 to 1:50 pm, cancelled</li>
+<li>Public skating, 10 to 10:50 am,<strong> added</strong></li>
+<li>Stick and puck (child 6 to 2 years), 11 to 11:50 am, <strong>added</strong></li>
+</ul>
+</li>
+<li><strong>Thursday, March 19</strong>
+<ul>
+<li>All drop-in skating programs are cancelled.</li>
+</ul>
+</li>
+</ul></div>
+      
+
+<div class="mb-3">
 
 
 
@@ -513,7 +596,18 @@ ce80
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
-<li><strong>Friday, March 13 to Thursday, March 19</strong>
+<li><strong>Friday, March 13 to Tuesday, March 17</strong>
+<ul>
+<li>All drop-in skating programs are cancelled.</li>
+</ul>
+</li>
+<li><strong>Wednesday, March 18</strong>
+<ul>
+<li>Public skating, 1 to 1:50 pm, cancelled</li>
+<li>Public skating, 10 to 10:50 am,<strong> added</strong></li>
+</ul>
+</li>
+<li><strong>Thursday, March 19</strong>
 <ul>
 <li>All drop-in skating programs are cancelled.</li>
 </ul>
@@ -628,7 +722,17 @@ ce80
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
-<li><strong>Tuesday, March 17 to Thursday, March 19</strong>
+<li><strong>Friday, March 13 to Tuesday, March 17</strong>
+<ul>
+<li>All drop-in 18+ Pick-up hockey programs are cancelled.</li>
+</ul>
+</li>
+<li><strong>Wednesday, March 18</strong>
+<ul>
+<li>Stick and puck (child 6 to 2 years), 11 to 11:50 am, <strong>added</strong></li>
+</ul>
+</li>
+<li><strong>Thursday, March 19</strong>
 <ul>
 <li>All drop-in 18+ Pick-up hockey programs are cancelled.</li>
 </ul>
