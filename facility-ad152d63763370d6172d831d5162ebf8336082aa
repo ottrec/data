@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/manotick-community-centre-and-mike-oneil-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=XYM+3uwoRnWGWKlMugenb6pJt2kAAAAAQUIPAAAAAAAkoQIWKOItCz0WMqemByMd; nlbi_243507=SHJVR0v+/Ao+mZTPaXmSIAAAAADSC2p3uW7pQJvVJ3zeQ01m; incap_ses_175_243507=NKMxIClsMls5ww4GuLltAqpJt2kAAAAAH2O4PQ3nBMMELbWMQaxoOw==
+Cookie: visid_incap_243507=TprKhvzGTaa0s+mo+RkFWyCbuGkAAAAAQUIPAAAAAACCLeONCKDcgmqZYSnNtcCx; nlbi_243507=Upu3ETVllzT7XwUJaXmSIAAAAABZpeevmXT7Eh6tj+Lz9BRI; incap_ses_198_243507=8SLdXtdgswNbaZPfGHC/AiCbuGkAAAAAAye7tgkfTuU8feNBpmMGww==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 454
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 16 Mar 2026 00:09:39 GMT
-Etag: "1773619324-gzip"
+Date: Tue, 17 Mar 2026 00:09:29 GMT
+Etag: "1773706169-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 16 Mar 2026 00:02:04 GMT
+Last-Modified: Tue, 17 Mar 2026 00:09:29 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-7tw6w (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-t68jv (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 54-229684187-229694919 SNNy RT(1773619627318 151778) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 7577955 7413814
+X-Iinfo: 42-44216658-44216665 SNNy RT(1773706016912 152198) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 1604516
 
-dd10
+ddd4
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ dd10
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/manotick-community-centre-and-mike-oneil-arena" />
 <meta name="dcterms.title" content="Manotick Community Centre and Mike O’Neil Arena" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-03-15" />
+<meta name="dcterms.date" content="2026-03-16" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ dd10
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2552630d5d50b3068dcc1f1fc5621b9fae17c309b19edfdd00eb0e8b774a4255">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3c452571041bdc0df2c659521ed8427db2be22d8e9658e3e1dd6344d0f01b5e1">
   
     
       
@@ -208,7 +208,7 @@ dd10
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2887c1cc918ac890dcce0b8f899300803f545236718ae711a01c96ec71084d38">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a91f14cf3626d47a599f124c89321621ad47a4bf2799132ffddffdf9f9bea056">
   
     
       
@@ -271,7 +271,7 @@ dd10
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
 </div>
       
 
@@ -283,6 +283,11 @@ dd10
 <li><strong>Wednesday, March 18</strong>
 <ul>
 <li>All drop-in ice sports, cancelled</li>
+</ul>
+</li>
+<li><strong>Saturday, March 28</strong>
+<ul>
+<li>All drop-in skating, cancelled</li>
 </ul>
 </li>
 </ul></div>
@@ -709,11 +714,16 @@ dd10
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule changes</strong></h3>
 <ul>
 <li><span><strong>Monday, March 16 to Sunday, March 22</strong></span>
 <ul>
 <li><span>See March Break schedule.</span></li>
+</ul>
+</li>
+<li><strong>Saturday, March 28</strong>
+<ul>
+<li>All drop-in skating, cancelled</li>
 </ul>
 </li>
 </ul></div>

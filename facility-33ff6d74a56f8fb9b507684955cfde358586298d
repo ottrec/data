@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/nepean-sportsplex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=XYM+3uwoRnWGWKlMugenb6pJt2kAAAAAQUIPAAAAAAAkoQIWKOItCz0WMqemByMd; nlbi_243507=SHJVR0v+/Ao+mZTPaXmSIAAAAADSC2p3uW7pQJvVJ3zeQ01m; incap_ses_175_243507=NKMxIClsMls5ww4GuLltAqpJt2kAAAAAH2O4PQ3nBMMELbWMQaxoOw==
+Cookie: visid_incap_243507=TprKhvzGTaa0s+mo+RkFWyCbuGkAAAAAQUIPAAAAAACCLeONCKDcgmqZYSnNtcCx; nlbi_243507=Upu3ETVllzT7XwUJaXmSIAAAAABZpeevmXT7Eh6tj+Lz9BRI; incap_ses_198_243507=8SLdXtdgswNbaZPfGHC/AiCbuGkAAAAAAye7tgkfTuU8feNBpmMGww==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 851
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 16 Mar 2026 00:10:05 GMT
-Etag: "1773619803-gzip"
+Date: Tue, 17 Mar 2026 00:09:53 GMT
+Etag: "1773705340-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 16 Mar 2026 00:10:03 GMT
+Last-Modified: Mon, 16 Mar 2026 23:55:40 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-7tw6w (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-t68jv (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 54-229684187-229694919 SNNy RT(1773619627318 175770) q(0 1 1 -1) r(24 24) U24
-X-Varnish: 7510574
+X-Iinfo: 42-44216658-44216665 SNNy RT(1773706016912 176198) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 8930033 10461447
 
-2c018
+29cfb
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 7510574
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-sportsplex" />
 <meta name="dcterms.title" content="Nepean Sportsplex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-03-05" />
+<meta name="dcterms.date" content="2026-03-16" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 7510574
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ffbb659e85d8c56b4b2e0aeb9251595968f48949187d228b22440784c62bb382">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f5542b361692e9a6f9cd25c3885dedc08f16b91cdab55c6350f3288cba3dd9d5">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 7510574
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-14635d11ce477dd8683e996182d104463d03950b8f7d03b7b3a72b5044b866ff">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a653d224f492ca582a6cf41ff1fdc95bb9bb1fb88971982d3850f21f84047477">
   
     
       
@@ -290,7 +290,9 @@ X-Varnish: 7510574
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>Drop-in swim and aquafitness</strong> changes, see the drop-in schedule.</p></div>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Drop-in swim and aquafitness</strong> changes, see the drop-in schedule.</li>
+</ul></div>
       
 
 <div class="mb-3">
@@ -301,7 +303,7 @@ X-Varnish: 7510574
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 7:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 7:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -675,11 +677,6 @@ X-Varnish: 7510574
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Nepean Sportsplex - swim and aquafitness - January 5 to March 15</caption><thead><tr><th>&nbsp;&nbsp;</th><th>Monday&nbsp;&nbsp;</th><th>Tuesday&nbsp;&nbsp;</th><th>Wednesday&nbsp;&nbsp;</th><th>Thursday&nbsp;&nbsp;</th><th>Friday&nbsp;&nbsp;</th><th>Saturday&nbsp;</th><th>Sunday&nbsp;</th></tr></thead><tbody><tr><th>Lane swim -&nbsp;<br>25m pool</th><td>7 - 8 am</td><td>n/a</td><td>7 - 8 am</td><td>n/a</td><td>7 - 8 am</td><td>n/a</td><td>n/a</td></tr><tr><th>Lane swim - 50m long course&nbsp;&nbsp;</th><td>8:30 am - 1 pm</td><td>8:30 am - 1 pm</td><td>8:30 am - 1 pm</td><td>8:30 am - 1 pm</td><td>8:30 am - 1 pm</td><td>n/a</td><td>n/a</td></tr><tr><th>Lane swim - 50m short course</th><td>7:30 - 9:30 pm</td><td>7:30 - 9:30 pm</td><td>7:30 - 9:30 pm</td><td>7:30 - 9:30 pm</td><td>n/a</td><td>11 am - 3 pm&nbsp;<br><a href="https://ottawa.ca/en/recreation-and-parks/swimming/drop-swimming-and-aquafitness/play-free/play-free-drop-activities"><span><u>(Play Free)</u></span></a></td><td>11 am - 3 pm</td></tr><tr><th>Public swim&nbsp;<strong>-</strong><br><strong>25m pool</strong></th><td>11 am - 1 pm</td><td>11 am - 1 pm</td><td>11 am - 1 pm</td><td>11 am - 1 pm</td><td>11 am - 1 pm</td><td>1 - 3 pm&nbsp;<br><a href="https://ottawa.ca/en/recreation-and-parks/swimming/drop-swimming-and-aquafitness/play-free/play-free-drop-activities"><span><u>(Play Free)</u></span></a></td><td>1 - 3 pm</td></tr><tr><th>Preschool swim - 25m pool</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9:45 - 10:45 am&nbsp;<br><a href="https://ottawa.ca/en/recreation-and-parks/swimming/drop-swimming-and-aquafitness/play-free/play-free-drop-activities"><span><u>(Play Free)</u></span></a></td><td>n/a</td></tr><tr><th>Aquafit General</th><td>8:30 - 9:30 am</td><td>8:30 - 9:30 am</td><td>8:30 - 9:30 am</td><td>8:30 - 9:30 am</td><td>8:30 - 9:30 am</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th>Aquafit Lite - 25m pool shallow</th><td>9:30 - 10:30 am</td><td>9:30 - 10:30 am</td><td>9:30 - 10:30 am</td><td>9:30 - 10:30 am</td><td>9:30 - 10:30 am</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th>Whirlpool</th><td>7 - 8 am,&nbsp;<br>8:30 am - 1 pm,&nbsp;<br>7:30 - 9:30 pm</td><td>8:30 am - 1 pm,&nbsp;<br>7:30 - 9:30 pm</td><td>7 - 8 am,&nbsp;<br>8:30 am - 1 pm,&nbsp;<br>7:30 - 9:30 pm</td><td>8:30 am - 1 pm,&nbsp;<br>7:30 - 9:30 pm</td><td>7 - 8 am,&nbsp;<br>8:30 am - 1 pm</td><td>11 am - 3 pm</td><td>11 am - 3 pm</td></tr></tbody></table></div>
-      </div>
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Nepean Sportsplex - swim and aquafitness - March 23 to June 28</caption><thead><tr><th>&nbsp;</th><th>Monday&nbsp;&nbsp;</th><th>Tuesday&nbsp;&nbsp;</th><th>Wednesday&nbsp;&nbsp;</th><th>Thursday&nbsp;&nbsp;</th><th>Friday&nbsp;&nbsp;</th><th>Saturday&nbsp;</th><th>Sunday&nbsp;</th></tr></thead><tbody><tr><th>Lane swim -&nbsp;<br>25m pool</th><td>7 - 8 am</td><td>n/a</td><td>7 - 8 am</td><td>n/a</td><td>7 - 8 am</td><td>n/a</td><td>n/a</td></tr><tr><th>Lane swim - 50m long course&nbsp;&nbsp;</th><td>8:30 am - 1 pm</td><td>8:30 am - 1 pm</td><td>8:30 am - 1 pm</td><td>8:30 am - 1 pm</td><td>8:30 am - 1 pm</td><td>n/a</td><td>n/a</td></tr><tr><th>Lane swim - 50m short course</th><td>7:30 - 9:30 pm</td><td>7:30 - 9:30 pm</td><td>7:30 - 9:30 pm</td><td>7:30 - 9:30 pm</td><td>n/a</td><td>11 am - 3 pm&nbsp;<br><a href="https://ottawa.ca/en/recreation-and-parks/swimming/drop-swimming-and-aquafitness/play-free/play-free-drop-activities"><span><u>(Play Free)</u></span></a></td><td>11 am - 3 pm</td></tr><tr><th>Public swim&nbsp;<strong>-</strong><br><strong>25m pool</strong></th><td>11 am - 1 pm</td><td>11 am - 1 pm</td><td>11 am - 1 pm</td><td>11 am - 1 pm</td><td>11 am - 1 pm</td><td>1 - 3 pm&nbsp;<br><a href="https://ottawa.ca/en/recreation-and-parks/swimming/drop-swimming-and-aquafitness/play-free/play-free-drop-activities"><span><u>(Play Free)</u></span></a></td><td>1 - 3 pm</td></tr><tr><th>Preschool swim - 25m pool</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9:45 - 10:45 am&nbsp;<br><a href="https://ottawa.ca/en/recreation-and-parks/swimming/drop-swimming-and-aquafitness/play-free/play-free-drop-activities"><span><u>(Play Free)</u></span></a></td><td>n/a</td></tr><tr><th>Aquafit General</th><td>8:30 - 9:30 am</td><td>8:30 - 9:30 am</td><td>8:30 - 9:30 am</td><td>8:30 - 9:30 am</td><td>8:30 - 9:30 am</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th>Aquafit Lite - 25m pool shallow</th><td>9:30 - 10:30 am</td><td>9:30 - 10:30 am</td><td>9:30 - 10:30 am</td><td>9:30 - 10:30 am</td><td>9:30 - 10:30 am</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th>Whirlpool</th><td>7 - 8 am,&nbsp;<br>8:30 am - 1 pm,&nbsp;<br>7:30 - 9:30 pm</td><td>8:30 am - 1 pm,&nbsp;<br>7:30 - 9:30 pm</td><td>7 - 8 am,&nbsp;<br>8:30 am - 1 pm,&nbsp;<br>7:30 - 9:30 pm</td><td>8:30 am - 1 pm,&nbsp;<br>7:30 - 9:30 pm</td><td>7 - 8 am,&nbsp;<br>8:30 am - 1 pm</td><td>11 am - 3 pm</td><td>11 am - 3 pm</td></tr></tbody></table></div>
       </div>
       </div>
@@ -947,282 +944,7 @@ X-Varnish: 7510574
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
-	<caption>Nepean Sportsplex - group fitness -&nbsp;January 5 to March 15</caption>
-	<thead>
-		<tr>
-			<td>
-			<p>&nbsp;</p>
-			</td>
-			<th>
-			<p>Monday</p>
-			</th>
-			<th>
-			<p>Tuesday</p>
-			</th>
-			<th>
-			<p>Wednesday</p>
-			</th>
-			<th>
-			<p>Thursday</p>
-			</th>
-			<th>
-			<p>Friday</p>
-			</th>
-			<th>
-			<p>Saturday</p>
-			</th>
-			<th>
-			<p>Sunday</p>
-			</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th>
-			<p>Bootcamp</p>
-			</th>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>8 - 9 am</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-		</tr>
-		<tr>
-			<th>
-			<p>Cardio</p>
-			</th>
-			<td>
-			<p>9 - 10 am</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-		</tr>
-		<tr>
-			<th>
-			<p>Cardio and strength -<br>
-			older adult</p>
-			</th>
-			<td>
-			<p>9 - 10 am</p>
-			</td>
-			<td>
-			<p>9 - 10 am</p>
-			</td>
-			<td>
-			<p>9 - 10 am</p>
-			</td>
-			<td>
-			<p>9 - 10 am</p>
-			</td>
-			<td>
-			<p>9 - 10 am</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-		</tr>
-		<tr>
-			<th>
-			<p>HIIT</p>
-			</th>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>6 -&nbsp;7 pm</p>
-
-			<p>&nbsp;</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>10 - 11 am</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>8 - 9 am</p>
-			</td>
-		</tr>
-		<tr>
-			<th>
-			<p>Indoor Cycling</p>
-			</th>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>9 - 10 am</p>
-			</td>
-			<td>
-			<p>6 - 7 pm</p>
-			</td>
-			<td>
-			<p>8 - 9 am</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>9 - 10 am</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-		</tr>
-		<tr>
-			<th>
-			<p>Strength</p>
-			</th>
-			<td>
-			<p>8 - 9 am,<br>
-			5 - 6 pm</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>8 - 9 am,<br>
-			5 - 6 pm</p>
-			</td>
-			<td>
-			<p>9 - 10 am</p>
-			</td>
-			<td>
-			<p>8 - 9 am</p>
-			</td>
-			<td>
-			<p>8 - 9 am</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-		</tr>
-		<tr>
-			<th>TMC - older adult</th>
-			<td>n/a</td>
-			<td>Noon -&nbsp;1 pm&nbsp;</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-		</tr>
-		<tr>
-			<th>
-			<p>Yoga</p>
-			</th>
-			<td>
-			<p>10 -&nbsp;11 am,<br>
-			Noon - 1 pm</p>
-			</td>
-			<td>
-			<p>7 - 8 pm</p>
-
-			<p>&nbsp;</p>
-			</td>
-			<td>
-			<p>Noon - 1 pm</p>
-			</td>
-			<td>
-			<p>Noon - 1 pm,&nbsp;<br>
-			7 - 8 pm</p>
-			</td>
-			<td>
-			<p>9 - 10 am</p>
-			</td>
-			<td>
-			<p>10 - 11 am</p>
-			</td>
-			<td>
-			<p>9 - 10 am,&nbsp;<br>
-			10 - 11 am</p>
-			</td>
-		</tr>
-		<tr>
-			<th>Yoga - older adult</th>
-			<td>n/a</td>
-			<td>10 - 11 am</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-			<td>n/a</td>
-		</tr>
-		<tr>
-			<th>
-			<p>Zumba</p>
-			</th>
-			<td>
-			<p>6 - 7 pm</p>
-			</td>
-			<td>
-			<p>10 - 11 am</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>10 - 11 am</p>
-			</td>
-			<td>
-			<p>Noon - 1 pm</p>
-			</td>
-			<td>
-			<p>n/a</p>
-			</td>
-			<td>
-			<p>11 am - noon</p>
-			</td>
-		</tr>
-	</tbody>
-</table></div>
-      </div>
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Nepean Sportsplex - group fitness - March 23 to June 28</caption><thead><tr><th>&nbsp;</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th></tr></thead><tbody><tr><th>Bootcamp</th><td>n/a</td><td>8 - 9 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th>Cardio</th><td>9 - 10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th>Cardio and strength -<br>older adult</th><td>9 - 10 am</td><td>9 - 10 am</td><td>9 - 10 am</td><td>9 - 10 am</td><td>9 - 10 am</td><td>n/a</td><td>n/a</td></tr><tr><th>HIIT</th><td>n/a</td><td><p>6 -&nbsp;7 pm</p><p>&nbsp;</p></td><td>n/a</td><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>8 - 9 am</td></tr><tr><th>Indoor Cycling</th><td>n/a</td><td>9 - 10 am</td><td>6 - 7 pm</td><td>8 - 9 am</td><td>n/a</td><td>9 - 10 am</td><td>n/a</td></tr><tr><th>Strength</th><td>8 - 9 am,<br>5 - 6 pm</td><td>n/a</td><td>8 - 9 am,<br>5 - 6 pm</td><td>9 - 10 am</td><td>8 - 9 am</td><td>8 - 9 am</td><td>n/a</td></tr><tr><th>TMC - older adult</th><td>n/a</td><td>Noon -&nbsp;1 pm&nbsp;</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th>Yoga</th><td>10 -&nbsp;11 am,<br>Noon - 1 pm</td><td><p>7 - 8 pm</p><p>&nbsp;</p></td><td>Noon - 1 pm</td><td>Noon - 1 pm,&nbsp;<br>7 - 8 pm</td><td>9 - 10 am</td><td>10 - 11 am</td><td>9 - 10 am,&nbsp;<br>10 - 11 am</td></tr><tr><th>Yoga - older adult</th><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th>Zumba</th><td>6 - 7 pm</td><td>10 - 11 am</td><td>n/a</td><td>10 - 11 am</td><td>Noon - 1 pm</td><td>n/a</td><td>11 am - noon</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Nepean Sportsplex - group fitness - March 23 to June 28</caption><thead><tr><th>&nbsp;</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th></tr></thead><tbody><tr><th>Bootcamp</th><td>n/a</td><td>8 - 9 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th>Cardio</th><td>9 - 10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th>Cardio and strength -<br>older adult</th><td>9 - 10 am</td><td>9 - 10 am</td><td>9 - 10 am</td><td>9 - 10 am</td><td>9 - 10 am</td><td>n/a</td><td>n/a</td></tr><tr><th>HIIT</th><td>n/a</td><td><p>6 -&nbsp;7 pm</p><p>&nbsp;</p></td><td>n/a</td><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>8 - 9 am</td></tr><tr><th>Indoor Cycling</th><td>n/a</td><td>9 - 10 am</td><td>6 - 7 pm</td><td>8 - 9 am</td><td>n/a</td><td>9 - 10 am</td><td>n/a</td></tr><tr><th>Strength</th><td>8 - 9 am,<br>5 - 6 pm</td><td>n/a</td><td>8 - 9 am,<br>5 - 6 pm</td><td>9 - 10 am</td><td>8 - 9 am</td><td>8 - 9 am</td><td>n/a</td></tr><tr><th>TMC - older adult</th><td>n/a</td><td>Noon -&nbsp;1 pm&nbsp;</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th>Yoga</th><td>10 -&nbsp;11 am,<br>Noon - 1 pm</td><td><p>7 - 8 pm</p><p>&nbsp;</p></td><td>Noon - 1 pm</td><td>Noon - 1 pm,&nbsp;<br>7 - 8 pm</td><td>9 - 10 am</td><td>10 - 11 am</td><td>9 - 10 am,&nbsp;<br>10 - 11 am</td></tr><tr><th>Yoga - older adult</th><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th>Zumba<sup>®</sup></th><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>10 - 11 am</td><td>Noon - 1 pm</td><td>n/a</td><td>11 am - noon</td></tr><tr><th>Zumba<sup>®</sup> toning</th><td>6 - 7 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
 
@@ -1332,11 +1054,6 @@ X-Varnish: 7510574
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Nepean Sportsplex - gymnasium sports - January 5 to March 15</caption><thead><tr><th>&nbsp;</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th></tr></thead><tbody><tr><th>Basketball</th><td>n/a</td><td>3:30 - 4:30 pm</td><td>7 - 8 am,&nbsp;<br>3:30 - 4:30 pm</td><td>3:30 - 4:30 pm</td><td>7 - 8 am</td><td>n/a</td><td>n/a</td></tr><tr><th>Pickleball</th><td>10:30 - 11:30 am,<br>11:30 am - 12:30 pm,<br>12:30 - 1:30 pm,<br>1:30 - 2:30 pm,<br>2:30 - 3:30 pm,<br>3:30 - 4:30 pm&nbsp;&nbsp;</td><td>n/a</td><td>10:30 - 11:30 am,<br>11:30 am - 12:30 pm,<br>12:30 - 1:30 pm,<br>1:30 - 2:30 pm&nbsp;</td><td>n/a</td><td>10:30 - 11:30 am,<br>11:30 am - 12:30 pm,<br>12:30 - 1:30 pm,<br>1:30 - 2:30 pm,<br>2:30 - 3:30 pm,<br>3:30 - 4:30 pm,<br>4:30 - 5:30 pm&nbsp;</td><td>n/a</td><td>n/a</td></tr><tr><th>Badminton</th><td>n/a</td><td>11:30 am - 12:30 pm,<br>12:30 - 1:30 pm,<br>1:30 - 2:30 pm</td><td>n/a</td><td>11:30 am - 12:30 pm,<br>12:30 - 1:30 pm,<br>1:30 - 2:30 pm&nbsp;</td><td>6 - 7 pm,&nbsp;<br>7 - 8 pm,&nbsp;<br>8 - 9 pm,&nbsp;<br>9 - 10 pm&nbsp;</td><td><span>6:30 - 7:30 pm,&nbsp;</span><br><span>7:30 - 8:30 pm,&nbsp;</span><br><span>8:30 - 9:30 pm&nbsp;</span><br><a href="https://ottawa.ca/en/recreation-and-parks/swimming/drop-swimming-and-aquafitness/play-free/play-free-drop-activities"><span><u>(Play Free)</u></span></a></td><td>8 - 9 am,&nbsp;<br>9 - 10 am,&nbsp;<br>10 - 11 am</td></tr><tr><th>Table tennis</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>11:30 am - 12:30 pm,&nbsp;<br>12:30 - 1:30 pm</td></tr></tbody></table></div>
-      </div>
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Nepean Sportsplex - gymnasium sports - March 23 to June 28</caption><thead><tr><th>&nbsp;</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th></tr></thead><tbody><tr><th>Basketball</th><td>n/a</td><td>3:30 - 4:30 pm</td><td>7 - 8 am,&nbsp;<br>3:30 - 4:30 pm</td><td>3:30 - 4:30 pm</td><td>7 - 8 am</td><td>n/a</td><td>n/a</td></tr><tr><th>Pickleball</th><td>10:30 - 11:30 am,<br>11:30 am - 12:30 pm,<br>12:30 - 1:30 pm,<br>1:30 - 2:30 pm,<br>2:30 - 3:30 pm,<br>3:30 - 4:30 pm&nbsp;&nbsp;</td><td>n/a</td><td>10:30 - 11:30 am,<br>11:30 am - 12:30 pm,<br>12:30 - 1:30 pm,<br>1:30 - 2:30 pm&nbsp;</td><td>n/a</td><td>10:30 - 11:30 am,<br>11:30 am - 12:30 pm,<br>12:30 - 1:30 pm,<br>1:30 - 2:30 pm,<br>2:30 - 3:30 pm,<br>3:30 - 4:30 pm,<br>4:30 - 5:30 pm&nbsp;</td><td>n/a</td><td>n/a</td></tr><tr><th>Badminton</th><td>n/a</td><td>11:30 am - 12:30 pm,<br>12:30 - 1:30 pm,<br>1:30 - 2:30 pm</td><td>n/a</td><td>11:30 am - 12:30 pm,<br>12:30 - 1:30 pm,<br>1:30 - 2:30 pm&nbsp;</td><td>6 - 7 pm,&nbsp;<br>7 - 8 pm,&nbsp;<br>8 - 9 pm,&nbsp;<br>9 - 10 pm&nbsp;</td><td><span>6:30 - 7:30 pm,&nbsp;</span><br><span>7:30 - 8:30 pm,&nbsp;</span><br><span>8:30 - 9:30 pm&nbsp;</span><br><a href="https://ottawa.ca/en/recreation-and-parks/swimming/drop-swimming-and-aquafitness/play-free/play-free-drop-activities"><span><u>(Play Free)</u></span></a></td><td>8 - 9 am,&nbsp;<br>9 - 10 am,&nbsp;<br>10 - 11 am</td></tr><tr><th>Table tennis</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>11:30 am - 12:30 pm,&nbsp;<br>12:30 - 1:30 pm</td></tr></tbody></table></div>
       </div>
       </div>
@@ -1443,37 +1160,6 @@ X-Varnish: 7510574
 </li>
 </ul></div>
       
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
-	<caption>Nepean Sportsplex - squash - January 5 to March 15</caption>
-	<thead>
-		<tr>
-			<td>&nbsp;</td>
-			<th>Monday</th>
-			<th>Tuesday</th>
-			<th>Wednesday</th>
-			<th>Thursday</th>
-			<th>Friday</th>
-			<th>Saturday</th>
-			<th>Sunday</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th>Squash - courts&nbsp;1, 2, 3, 4</th>
-			<td>7:30 am - 9:30 pm</td>
-			<td>7:30 am - 9:30 pm</td>
-			<td>7:30 am - 9:30 pm</td>
-			<td>7:30 am - 9:30 pm</td>
-			<td>7:30 am - 9:30 pm</td>
-			<td>8:30 am - 9:30 pm</td>
-			<td>8:30 am - 9:30 pm</td>
-		</tr>
-	</tbody>
-</table></div>
-      </div>
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
