@@ -22764,8 +22764,10 @@ facilities {
     _title: "March Break"
     schedules {
       caption: "Lowertown Pool - March Break drop-in - March 14 to 22"
-      _name: "lowertown pool"
-      _date: "March Break drop-in - March 14 to 22"
+      _name: "lowertown pool - march break drop-in"
+      _date: "March 14 to 22"
+      _from: 3140
+      _to: 3220
       days: "Saturday, March 14"
       days: "Sunday, March 15"
       days: "Monday, March 16"
@@ -23772,9 +23774,6 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/lowertown/Home/Index?Culture=en&PageId=ca5c7334-1292-4494-934e-15cb2f5dca34&ShouldStartReserveTimeFlow=False&ButtonId=00000000-0000-0000-0000-000000000000"
     }
   }
-  _errors:
-    "group \"Drop-in schedule - March Break\": schedule \"Lowertown Pool - March Break drop-in - March 14 to 22\": "
-    "failed to parse date range \"March Break drop-in - March 14 to 22\""
 }
 facilities {
   name: "Manor Park Community Centre"
