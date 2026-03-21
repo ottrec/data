@@ -310,7 +310,9 @@ facilities {
         }
         days {
           times {
-            label: "8 - 8:50 pm Play Free"
+            label: "8 - 8:50 pm"
+            _start: 1200
+            _end: 1250
             _wkday: SATURDAY
           }
         }
@@ -320,7 +322,6 @@ facilities {
     }
     _noresv: true
   }
-  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"8 - 8:50\\u00a0pm\\u00a0Play Free\""
 }
 facilities {
   name: "Belltown Dome"
@@ -511,7 +512,9 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 12:50 pm Play Free"
+            label: "Noon - 12:50 pm"
+            _start: 720
+            _end: 770
             _wkday: SATURDAY
           }
         }
@@ -533,7 +536,9 @@ facilities {
         }
         days {
           times {
-            label: "1 - 1:50 pm Play Free"
+            label: "1 - 1:50 pm"
+            _start: 780
+            _end: 830
             _wkday: SATURDAY
           }
         }
@@ -542,8 +547,6 @@ facilities {
       }
     }
   }
-  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"Noon - 12:50 pm\\u00a0Play Free\""
-  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"1 - 1:50 pm\\u00a0Play Free\""
 }
 facilities {
   name: "Billings Estate National Historic Site"
@@ -3113,7 +3116,9 @@ facilities {
         }
         days {
           times {
-            label: "1:30 - 4 pmPlay Free"
+            label: "1:30 - 4 pm"
+            _start: 810
+            _end: 960
             _wkday: SATURDAY
           }
         }
@@ -3159,7 +3164,9 @@ facilities {
         }
         days {
           times {
-            label: "2:30 - 4 pm Play Free"
+            label: "2:30 - 4 pm"
+            _start: 870
+            _end: 960
             _wkday: SATURDAY
           }
         }
@@ -3574,7 +3581,9 @@ facilities {
         }
         days {
           times {
-            label: "1:30 - 4 pmPlay Free"
+            label: "1:30 - 4 pm"
+            _start: 810
+            _end: 960
             _wkday: SATURDAY
           }
         }
@@ -3620,7 +3629,9 @@ facilities {
         }
         days {
           times {
-            label: "2:30 - 4 pm Play Free"
+            label: "2:30 - 4 pm"
+            _start: 870
+            _end: 960
             _wkday: SATURDAY
           }
         }
@@ -5375,7 +5386,9 @@ facilities {
             _wkday: SUNDAY
           }
           times {
-            label: "2 - 2:50 pm Play Free"
+            label: "2 - 2:50 pm"
+            _start: 840
+            _end: 890
             _wkday: SUNDAY
           }
         }
@@ -5478,7 +5491,9 @@ facilities {
         }
         days {
           times {
-            label: "2:15 - 3:05 pmPlay Free"
+            label: "2:15 - 3:05 pm"
+            _start: 855
+            _end: 905
             _wkday: SUNDAY
           }
         }
@@ -5510,16 +5525,6 @@ facilities {
     }
     _noresv: true
   }
-  _errors: "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1:30 - 4 pmPlay Free\""
-  _errors:
-    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"2:30 - 4 pm\\u00a0Play "
-    "Free\""
-  _errors: "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1:30 - 4 pmPlay Free\""
-  _errors:
-    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"2:30 - 4 pm\\u00a0Play "
-    "Free\""
-  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"\\u00a02 - 2:50 pm\\u00a0Play Free\""
-  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"2:15 - 3:05 pmPlay Free\""
 }
 facilities {
   name: "Brewer Pool and Arena"
@@ -5695,7 +5700,9 @@ facilities {
         }
         days {
           times {
-            label: "8:30 am - 1 pm Play Free"
+            label: "8:30 am - 1 pm"
+            _start: 510
+            _end: 780
             _wkday: SATURDAY
           }
         }
@@ -5757,7 +5764,9 @@ facilities {
         }
         days {
           times {
-            label: "1 - 2 pm Play Free"
+            label: "1 - 2 pm"
+            _start: 780
+            _end: 840
             _wkday: SATURDAY
           }
         }
@@ -5966,7 +5975,9 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 1 pm Play Free"
+            label: "Noon - 1 pm"
+            _start: 720
+            _end: 780
             _wkday: SATURDAY
           }
         }
@@ -5994,7 +6005,9 @@ facilities {
         }
         days {
           times {
-            label: "1 - 2 pm Play Free"
+            label: "1 - 2 pm"
+            _start: 780
+            _end: 840
             _wkday: SATURDAY
           }
         }
@@ -6127,7 +6140,9 @@ facilities {
         }
         days {
           times {
-            label: "7 - 8:50 pm Play Free"
+            label: "7 - 8:50 pm"
+            _start: 1140
+            _end: 1250
             _wkday: SATURDAY
           }
         }
@@ -6167,15 +6182,6 @@ facilities {
     }
     _noresv: true
   }
-  _errors: "group \"Drop-in schedule - March Break\": warning: failed to parse time range \"8:30 am - 1 pm\\u00a0Play Free\""
-  _errors: "group \"Drop-in schedule - March Break\": warning: failed to parse time range \"1 - 2 pm\\u00a0Play Free\""
-  _errors:
-    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"Noon - 1 pm\\u00a0Play "
-    "Free\""
-  _errors:
-    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1 - 2 pm\\u00a0Play "
-    "Free\""
-  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"7 - 8:50 pm\\u00a0Play Free\""
 }
 facilities {
   name: "Bridlewood Community Centre"
@@ -6518,7 +6524,9 @@ facilities {
         }
         days {
           times {
-            label: "5 - 6 pm Play Free"
+            label: "5 - 6 pm"
+            _start: 1020
+            _end: 1080
             _wkday: SATURDAY
           }
         }
@@ -6540,7 +6548,9 @@ facilities {
         }
         days {
           times {
-            label: "4 - 5 pm Play Free"
+            label: "4 - 5 pm"
+            _start: 960
+            _end: 1020
             _wkday: SATURDAY
           }
         }
@@ -6586,8 +6596,6 @@ facilities {
     }
     _noresv: true
   }
-  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"5 - 6 pm\\u00a0Play Free\""
-  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"4 - 5\\u00a0pm\\u00a0Play Free\""
 }
 facilities {
   name: "CARDELREC Recreation Complex Goulbourn"
@@ -6705,7 +6713,9 @@ facilities {
         }
         days {
           times {
-            label: "11:30 am - 4 pm Play Free"
+            label: "11:30 am - 4 pm"
+            _start: 690
+            _end: 960
             _wkday: SATURDAY
           }
         }
@@ -6841,7 +6851,9 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "12:30 - 1:30 pmPlay Free"
+            label: "12:30 - 1:30 pm"
+            _start: 750
+            _end: 810
             _wkday: SATURDAY
           }
         }
@@ -6948,7 +6960,9 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "12:30 - 1:30 pmPlay Free"
+            label: "12:30 - 1:30 pm"
+            _start: 750
+            _end: 810
             _wkday: SATURDAY
           }
         }
@@ -7085,7 +7099,9 @@ facilities {
         }
         days {
           times {
-            label: "1:30 - 4 pmPlay Free"
+            label: "1:30 - 4 pm"
+            _start: 810
+            _end: 960
             _wkday: SATURDAY
           }
         }
@@ -7968,7 +7984,9 @@ facilities {
         }
         days {
           times {
-            label: "2:15 - 3:05 pm Play Free"
+            label: "2:15 - 3:05 pm"
+            _start: 855
+            _end: 905
             _wkday: SATURDAY
           }
         }
@@ -8014,7 +8032,9 @@ facilities {
         }
         days {
           times {
-            label: "3:15 - 4:05 pm Play Free"
+            label: "3:15 - 4:05 pm"
+            _start: 915
+            _end: 965
             _wkday: SATURDAY
           }
         }
@@ -8155,7 +8175,9 @@ facilities {
         }
         days {
           times {
-            label: "12:30 - 4 pm Play Free"
+            label: "12:30 - 4 pm"
+            _start: 750
+            _end: 960
             _wkday: SATURDAY
           }
         }
@@ -8304,7 +8326,9 @@ facilities {
         }
         days {
           times {
-            label: "12:30 - 1:30 pm Play Free"
+            label: "12:30 - 1:30 pm"
+            _start: 750
+            _end: 810
             _wkday: SATURDAY
           }
         }
@@ -8404,7 +8428,9 @@ facilities {
         }
         days {
           times {
-            label: "12:30 - 1:30 pm Play Free"
+            label: "12:30 - 1:30 pm"
+            _start: 750
+            _end: 810
             _wkday: SATURDAY
           }
         }
@@ -8487,7 +8513,9 @@ facilities {
         }
         days {
           times {
-            label: "1:30 - 4 pm Play Free"
+            label: "1:30 - 4 pm"
+            _start: 810
+            _end: 960
             _wkday: SATURDAY
           }
         }
@@ -9755,7 +9783,9 @@ facilities {
         }
         days {
           times {
-            label: "2:15 - 3:05 pm Play Free"
+            label: "2:15 - 3:05 pm"
+            _start: 855
+            _end: 905
             _wkday: SATURDAY
           }
         }
@@ -9789,7 +9819,9 @@ facilities {
         }
         days {
           times {
-            label: "3:15 - 4:05 pm Play Free"
+            label: "3:15 - 4:05 pm"
+            _start: 915
+            _end: 965
             _wkday: SATURDAY
           }
         }
@@ -9802,26 +9834,6 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/arenacardelrec"
     }
   }
-  _errors: "group \"Drop-in schedule - March Break\": warning: failed to parse time range \"11:30 am - 4 pm\\u00a0Play Free\""
-  _errors: "group \"Drop-in schedule - March Break\": warning: failed to parse time range \"\\u00a012:30 - 1:30 pmPlay Free\""
-  _errors: "group \"Drop-in schedule - March Break\": warning: failed to parse time range \"\\u00a012:30 - 1:30 pmPlay Free\""
-  _errors: "group \"Drop-in schedule - March Break\": warning: failed to parse time range \"1:30 - 4 pmPlay Free\""
-  _errors: "group \"Drop-in schedule - March Break\": warning: failed to parse time range \"2:15 - 3:05 pm\\u00a0Play Free\""
-  _errors: "group \"Drop-in schedule - March Break\": warning: failed to parse time range \"3:15 - 4:05 pm\\u00a0Play Free\""
-  _errors:
-    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"12:30 - 4 pm\\u00a0Play "
-    "Free\""
-  _errors:
-    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"12:30 - 1:30 "
-    "pm\\u00a0Play Free\""
-  _errors:
-    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"12:30 - 1:30 "
-    "pm\\u00a0Play Free\""
-  _errors:
-    "group \"Drop-in schedule - swim and aquafitness\": warning: failed to parse time range \"1:30 - 4 pm\\u00a0Play "
-    "Free\""
-  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"2:15 - 3:05 pm\\u00a0Play Free\""
-  _errors: "group \"Drop-in schedule - skating\": warning: failed to parse time range \"3:15 - 4:05 pm\\u00a0Play Free\""
 }
 facilities {
   name: "Carleton Heights Community Centre"
@@ -9950,7 +9962,9 @@ facilities {
         }
         days {
           times {
-            label: "10 am - 2 pm Play Free"
+            label: "10 am - 2 pm"
+            _start: 600
+            _end: 840
             _wkday: SATURDAY
           }
         }
@@ -10052,7 +10066,6 @@ facilities {
     }
     _noresv: true
   }
-  _errors: "group \"Drop-in schedule - swim\": warning: failed to parse time range \"10 am - 2 pm\\u00a0Play Free\""
 }
 facilities {
   name: "Chapman Mills Community Building"
@@ -10625,7 +10638,9 @@ facilities {
         }
         days {
           times {
-            label: "1 - 4 pm Play Free"
+            label: "1 - 4 pm"
+            _start: 780
+            _end: 960
             _wkday: SATURDAY
           }
         }
@@ -10731,7 +10746,9 @@ facilities {
         }
         days {
           times {
-            label: "Noon - 1 pm Play Free"
+            label: "Noon - 1 pm"
+            _start: 720
+            _end: 780
             _wkday: SATURDAY
           }
         }
@@ -10741,8 +10758,6 @@ facilities {
     }
     _noresv: true
   }
-  _errors: "group \"Drop-in schedule - swim\": warning: failed to parse time range \"1 - 4 pm\\u00a0Play Free\""
-  _errors: "group \"Drop-in schedule - swim\": warning: failed to parse time range \"Noon - 1 pm\\u00a0Play Free\""
 }
 facilities {
   name: "Dempsey Community Centre"
@@ -11715,7 +11730,9 @@ facilities {
         _resv: false
         days {
           times {
-            label: "9:30 - 11 am Play Free"
+            label: "9:30 - 11 am"
+            _start: 570
+            _end: 660
             _wkday: SATURDAY
           }
         }
@@ -11733,7 +11750,9 @@ facilities {
         }
         days {
           times {
-            label: "9:30 - 11 am Play Free"
+            label: "9:30 - 11 am"
+            _start: 570
+            _end: 660
             _wkday: SATURDAY
           }
         }
@@ -12462,7 +12481,9 @@ facilities {
         }
         days {
           times {
-            label: "9:35 - 11 am Play Free"
+            label: "9:35 - 11 am"
+            _start: 575
+            _end: 660
             _wkday: SATURDAY
           }
         }
@@ -12475,13 +12496,6 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/greenborocommunitycentre"
     }
   }
-  _errors: "group \"Drop-in schedule - March Break\": warning: failed to parse time range \"9:30 - 11 am\\u00a0Play Free\""
-  _errors:
-    "group \"Drop-in schedule - March Break\": warning: failed to parse time range \"9:30\\u00a0- 11 am\\u00a0Play "
-    "Free\""
-  _errors:
-    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"9:35\\u00a0- 11 "
-    "am\\u00a0Play Free\""
 }
 facilities {
   name: "Dovercourt Recreation Centre"
@@ -15887,7 +15901,9 @@ facilities {
         }
         days {
           times {
-            label: "2 - 3 pmPlay Free"
+            label: "2 - 3 pm"
+            _start: 840
+            _end: 900
             _wkday: SATURDAY
           }
         }
@@ -16221,7 +16237,9 @@ facilities {
         }
         days {
           times {
-            label: "12:40 - 1:40 pm Play Free"
+            label: "12:40 - 1:40 pm"
+            _start: 760
+            _end: 820
             _wkday: SATURDAY
           }
         }
@@ -16273,7 +16291,9 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "4:30 - 5:30 pm Play Free"
+            label: "4:30 - 5:30 pm"
+            _start: 990
+            _end: 1050
             _wkday: SATURDAY
           }
         }
@@ -16340,13 +16360,6 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/francoisdupuis"
     }
   }
-  _errors: "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"2 - 3 pmPlay Free\""
-  _errors:
-    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"12:40 - 1:40 pm\\u00a0Play "
-    "Free\""
-  _errors:
-    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"\\u00a04:30 - 5:30 "
-    "pm\\u00a0Play Free\""
 }
 facilities {
   name: "Fred Barrett Arena"
@@ -26996,7 +27009,9 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "7:50 - 8:50 pm Play Free"
+            label: "7:50 - 8:50 pm"
+            _start: 1190
+            _end: 1250
             _wkday: SATURDAY
           }
         }
@@ -27144,7 +27159,9 @@ facilities {
         }
         days {
           times {
-            label: "4:45 - 6:15 pm Play Free"
+            label: "4:45 - 6:15 pm"
+            _start: 1005
+            _end: 1095
             _wkday: SATURDAY
           }
         }
@@ -27270,12 +27287,6 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/arenaminto"
     }
   }
-  _errors:
-    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"\\u00a07:50 - 8:50 "
-    "pm\\u00a0Play Free\""
-  _errors:
-    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"4:45 - 6:15 pm\\u00a0Play "
-    "Free\""
 }
 facilities {
   name: "Navan Memorial Centre"
@@ -30390,7 +30401,9 @@ facilities {
             _wkday: SATURDAY
           }
           times {
-            label: "8:30 - 9:30 pm Play Free"
+            label: "8:30 - 9:30 pm"
+            _start: 1230
+            _end: 1290
             _wkday: SATURDAY
           }
         }
@@ -30760,9 +30773,6 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/nepeansportsplex"
     }
   }
-  _errors:
-    "group \"Drop-in schedule - gymnasium sports\": warning: failed to parse time range \"\\u00a08:30 - 9:30 "
-    "pm\\u00a0Play Free\""
 }
 facilities {
   name: "Nepean Visual Arts Centre"
