@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=Tt/r+UGsTROA9SQpfWaXkKOPvGkAAAAAQUIPAAAAAAB4Y2wFoVUkDznR/gzCZf+a; nlbi_243507=UcDuQaVFEmEgKRxdaXmSIAAAAADjRm++w+FZywNfnOugfnbE; incap_ses_1841_243507=+OV+PYsSplvdiihFaYyMGaOPvGkAAAAA7GmGEx9YGHP4C8gd7eoQhA==
+Cookie: visid_incap_243507=SB83+TZzSECz5zRoIB2pROHgvWkAAAAAQUIPAAAAAACfchSzDx41KX6gFgT15IxF; nlbi_243507=LFz4VQS9GgZb9fZVaXmSIAAAAAAGl2V0sV/W1s+2fo9zYIhX; incap_ses_188_243507=AGW/Fm1oqEJGWhN5JumbAuHgvWkAAAAAADrlkT3EgavCpIL3+XgP/w==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 764
+Age: 645
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 20 Mar 2026 00:09:28 GMT
-Etag: "1773964584-gzip"
+Date: Sat, 21 Mar 2026 00:08:21 GMT
+Etag: "1774051055-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 19 Mar 2026 23:56:24 GMT
+Last-Modified: Fri, 20 Mar 2026 23:57:35 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-t68jv (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-7tw6w (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: HIT
+X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 51-138135176-138150248 SNNy RT(1773965220113 147931) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 23511576 23445686
+X-Iinfo: 38-98058300-98062725 SNNy RT(1774051553458 147916) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 16408844 3065784
 
-1436a
+14666
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 23511576 23445686
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool" />
 <meta name="dcterms.title" content="Lowertown Community Centre and Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-03-13" />
+<meta name="dcterms.date" content="2026-03-20" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 23511576 23445686
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c65b3dcc22360a97d1c999b57e6bebc47e33c074424e518cf56c1c2cb8ca10d7">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-40ae8b231b8c9a947939b866f6c207ffbc70f468093540b24d4364c0eff8f2b2">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 23511576 23445686
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6b35cf278d4e10b9a0152c6fb5b6efd1e40e1ba80daac99552b4583627b7e2c9">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5b84daeab55fed75e7461c1f2699aed8be62ffb1d4a00a4bc76f32aad391d491">
   
     
       
@@ -276,7 +276,33 @@ X-Varnish: 23511576 23445686
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Wednesday, March 25</strong>
+<ul>
+<li>Pickleball, 8:30 am to 12:30 pm, cancelled</li>
+</ul>
+</li>
+<li><strong>Thursday March 26</strong>
+<ul>
+<li>Pickleball, 9 to 10 am, cancelled</li>
+</ul>
+</li>
+</ul></div>
+      
+
+<div class="mb-3">
 
 
 
@@ -835,11 +861,21 @@ X-Varnish: 23511576 23445686
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
 <li><span><strong>Saturday, March 14 to Sunday, March 22</strong></span>
 <ul>
 <li><span>See March Break schedule.</span></li>
+</ul>
+</li>
+<li><strong>Wednesday, March 25</strong>
+<ul>
+<li>Pickleball, 8:30 am to 12:30 pm, cancelled</li>
+</ul>
+</li>
+<li><strong>Thursday March 26</strong>
+<ul>
+<li>Pickleball, 9 to 10 am, cancelled</li>
 </ul>
 </li>
 </ul></div>
