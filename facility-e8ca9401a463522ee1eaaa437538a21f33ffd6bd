@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/kanata-leisure-centre-and-wave-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=uNCo0AacQyCpz6cHdzOEUTuEwGkAAAAAQUIPAAAAAABBE8qyLLDrmqt1uk+POIX2; nlbi_243507=X7daIgHmME+bBML/aXmSIAAAAAD4iyAAxv/6Nztx4rvkVTNV; incap_ses_1344_243507=+Bd3AGWcdyeeK6/Bc9mmEjuEwGkAAAAAXnDo2X+qvPCWq8gSXHqlZw==
+Cookie: visid_incap_243507=iCaphEDFRZurZRVrGAN7eF/VwWkAAAAAQUIPAAAAAABYwrJOH6Adk26JG+mfEkqt; nlbi_243507=KAZOPktrElqBshTxaXmSIAAAAAA64PIpr1bS8oPPb9XvJ2GL; incap_ses_1700_243507=j/kYPrp8sHN+5Xf5qp2XF2DVwWkAAAAAYpjGFyngssj1hMBeJFau4g==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 487
+Age: 768
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 23 Mar 2026 00:09:32 GMT
-Etag: "1774224084-gzip"
+Date: Tue, 24 Mar 2026 00:08:00 GMT
+Etag: "1774310111-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 23 Mar 2026 00:01:24 GMT
+Last-Modified: Mon, 23 Mar 2026 23:55:11 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-7tw6w (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 14-5416086-5416091 SNNN RT(1774224444630 127977) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 23564193 22966827
+X-Iinfo: 43-109438686-109438692 SNNy RT(1774310752540 127933) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 4407057 24532435
 
-10d25
+107f0
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 23564193 22966827
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kanata-leisure-centre-and-wave-pool" />
 <meta name="dcterms.title" content="Kanata Leisure Centre and Wave Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-03-18" />
+<meta name="dcterms.date" content="2026-03-23" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 23564193 22966827
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-60e0451911cd9ac5f0b0da0ecda407be74ab2709044569db63c5ae7c2e5d2358">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1b7bca27b0b5a4e191d9fbb106d281011aed0e73af9d33dcb867dce52ac54d29">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 23564193 22966827
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-787f0b9e80b7f53a7efb052f8db253141598e6cf85360c888d76556f93a8a08e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-89c7154e5b7a96c408b674ac33f346eeab44db4cddd128fb6a834b5a082e81c8">
   
     
       
@@ -271,7 +271,7 @@ X-Varnish: 23564193 22966827
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">March Break Hours</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Easter weekend hours</h2>
 </div>
       
 
@@ -279,7 +279,12 @@ X-Varnish: 23564193 22966827
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>March 16 to 22,</strong> &nbsp;8 am to 6 pm</p></div>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Friday, April 3, </strong>8 am to 4 pm</li>
+<li><strong>Saturday, April 4</strong>, 8 am to 8 pm</li>
+<li><strong>Sunday, April 5</strong>, 8 am to 6 pm</li>
+<li><strong>Monday, April 6, </strong>8 am to 4 pm&nbsp;</li>
+</ul></div>
       
 
 <div class="mb-3">
@@ -290,7 +295,7 @@ X-Varnish: 23564193 22966827
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -453,7 +458,7 @@ X-Varnish: 23564193 22966827
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
-  <button aria-expanded="false" aria-controls="section-440f96e0-8821-4725-ab3b-1f6819f55e0d" data-target="#section-440f96e0-8821-4725-ab3b-1f6819f55e0d" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - March Break</button>
+  <button aria-expanded="false" aria-controls="section-440f96e0-8821-4725-ab3b-1f6819f55e0d" data-target="#section-440f96e0-8821-4725-ab3b-1f6819f55e0d" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - Easter weekend</button>
 
                   </h2>
                   <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-440f96e0-8821-4725-ab3b-1f6819f55e0d">
@@ -471,7 +476,7 @@ X-Varnish: 23564193 22966827
       
 
 
-  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - March Break</h2>
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - Easter weekend</h2>
 </span>
 
 
@@ -492,7 +497,7 @@ X-Varnish: 23564193 22966827
                           
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>March 14 to 22</h3></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>April 3 to 6</h3></div>
       
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
@@ -504,7 +509,7 @@ X-Varnish: 23564193 22966827
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Kanata Leisure Centre and Wave Pool - all drop-ins - March 14 to 22</caption><thead><tr><th>&nbsp;</th><th>Saturday, March 14</th><th>Sunday, March 15</th><th>Monday, March 16</th><th>Tuesday, March 17</th><th>Wednesday, March 18</th><th>Thursday, March 19</th><th>Friday, March 20</th><th>Saturday, March 21</th><th>Sunday, March 22</th></tr></thead><tbody><tr><th>Hot tub and sauna</th><td>8 am - 1 pm,&nbsp;&nbsp;<br>2 - 6 pm</td><td>8 am - 1 pm,&nbsp;&nbsp;<br>2 - 6 pm</td><td>8 - 10 am,&nbsp;<br>11 am - 1 pm,&nbsp;<br>3 - 6 pm</td><td>8 - 10 am,&nbsp;<br>11 am - 1 pm,&nbsp;<br>3 - 6 pm&nbsp;</td><td>8 - 10 am,&nbsp;<br>11 am - 1 pm,&nbsp;<br>3 - 6 pm&nbsp;</td><td>8 - 10 am, &nbsp;<br>11 am - 1 pm, &nbsp;<br>3 - 6 pm&nbsp;</td><td>8 - 10 am,&nbsp;<br>11 am - 1 pm,&nbsp;<br>3 - 6 pm</td><td>8 am - 1 pm,&nbsp;<br>2 - 6 pm</td><td>8 am - 1 pm,&nbsp;<br>2 - 6 pm</td></tr><tr><th>Lane swim</th><td>8 - 11 am</td><td>8 - 11 am</td><td>8 - 10 am</td><td>8 - 10 am</td><td>8 - 10 am</td><td>8 - 10 am</td><td>8 - 10 am</td><td>8 - 11 am</td><td>8 - 11 am</td></tr><tr><th>Preschool swim</th><td>8 - 11 am&nbsp;<br><span><strong>Play Free</strong></span></td><td>8 - 11 am</td><td>8 - 10 am</td><td>8 - 10 am</td><td>8 - 10 am</td><td>8 - 10 am</td><td>8 - 10 am</td><td>8 - 11 am&nbsp;<br><span><strong>Play Free</strong></span></td><td>8 - 11 am</td></tr><tr><th>Wave swim</th><td>11 am - 1 pm,&nbsp;<br>2 - 6 pm</td><td>11 am - 1 pm,&nbsp;<br>2 - 6 pm</td><td>11 am - 1 pm,&nbsp;<br>3 - 6 pm</td><td>11 am - 1 pm,&nbsp;<br>3 - 6 pm</td><td>11 am - 1 pm,&nbsp;<br>3 - 6 pm</td><td>11 am - 1 pm,&nbsp;<br>3 - 6 pm</td><td>11 am - 1 pm,&nbsp;<br>3 - 6 pm</td><td>11 am - 1 pm,&nbsp;<br>2 - 6 pm</td><td>11 am - 1 pm,&nbsp;<br>2 - 6 pm</td></tr><tr><th>Weight and cardio room</th><td>8 am - 6 pm</td><td>8 am - 6 pm</td><td>8 am - 6 pm</td><td>8 am - 6 pm</td><td>8 am - 6 pm</td><td>8 am - 6 pm</td><td>8 am - 6 pm</td><td>8 am - 6 pm</td><td>8 am - 6 pm</td></tr><tr><th>Qigong</th><td>10&nbsp;- 11 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>10&nbsp;- 11 am</td><td>n/a</td></tr><tr><th>Strength</th><td>n/a</td><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th>Tai Chi</th><td>n/a</td><td>n/a</td><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>n/a</td></tr><tr><th>Zumba Gold</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th>Yoga</th><td>11 am - noon</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>11 am - noon</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Kanata Leisure Centre and Wave Pool - all drop-ins</caption><thead><tr><th>&nbsp;</th><th>Friday, April 3</th><th>Saturday, April 4</th><th>Sunday, April 5</th><th>Monday, April 6</th></tr></thead><tbody><tr><th>Hot tub and sauna</th><td>8 am - 4 pm</td><td>8 am - 1 pm,&nbsp;<br>2 - 6 pm</td><td>8 am - 1 pm,&nbsp;<br>2 - 6 pm</td><td>8 am - 4 pm</td></tr><tr><th>Lane swim</th><td>8 - 11 am</td><td>8 - 11 am</td><td>8 - 11 am</td><td>8 - 11 am</td></tr><tr><th>Preschool swim</th><td>n/a</td><td>8 - 11 am&nbsp;<br><span><strong>Play Free</strong></span></td><td>8 - 11 am</td><td>n/a</td></tr><tr><th>Wave swim</th><td>1 - 4 pm</td><td>11 am - 1 pm,&nbsp;<br>2 - 6 pm</td><td>11 am - 1 pm,&nbsp;<br>2 - 6 pm</td><td>1 - 4 pm</td></tr><tr><th>Weight and cardio room</th><td>8 am - 4 pm</td><td>8 am - 8 pm</td><td>8 am - 6 pm</td><td>8 am - 4 pm</td></tr><tr><th>Qigong</th><td>n/a</td><td>10&nbsp;- 11 am</td><td>n/a</td><td><span>10:30 - 11:30 am</span></td></tr><tr><th>Step and Strength</th><td>9 - 10 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th>Strength</th><td>n/a</td><td>n/a</td><td>n/a</td><td>9 - 10 am</td></tr><tr><th>Yoga</th><td>n/a</td><td>11 am - noon</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
@@ -604,9 +609,9 @@ X-Varnish: 23564193 22966827
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
 <ul>
-<li><span><strong>Saturday, March 14 to Sunday, March 22</strong></span>
+<li><span><strong>Friday, April 3 to Monday, April 6</strong></span>
 <ul>
-<li><span>See March Break schedule.</span></li>
+<li><span>See Easter schedule.</span></li>
 </ul>
 </li>
 </ul></div>
@@ -714,9 +719,9 @@ X-Varnish: 23564193 22966827
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
 <ul>
-<li><span><strong>Saturday, March 14 to Sunday, March 22</strong></span>
+<li><span><strong>Friday, April 3 to Monday, April 6</strong></span>
 <ul>
-<li><span>See March Break schedule.</span></li>
+<li><span>See Easter schedule.</span></li>
 </ul>
 </li>
 </ul></div>
@@ -844,9 +849,9 @@ X-Varnish: 23564193 22966827
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
 <ul>
-<li><span><strong>Saturday, March 14 to Sunday, March 22</strong></span>
+<li><span><strong>Friday, April 3 to Monday, April 6</strong></span>
 <ul>
-<li><span>See March Break schedule.</span></li>
+<li><span>See Easter schedule.</span></li>
 </ul>
 </li>
 </ul></div>
