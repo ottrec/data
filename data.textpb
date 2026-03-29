@@ -10662,7 +10662,9 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/evajamescc"
     }
   }
-  _errors: "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"\\u00a0\""
+  _errors:
+    "group \"Drop-in schedule - Easter weekend\": warning: failed to parse blank time range \"\\u00a0\" (this is "
+    "probably a typo)"
 }
 facilities {
   name: "Fairfields Heritage House"
@@ -23729,7 +23731,9 @@ facilities {
       url: "https://reservation.frontdesksuite.ca/rcfs/arenaminto"
     }
   }
-  _errors: "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"\\u00a0\""
+  _errors:
+    "group \"Drop-in schedule - Easter weekend\": warning: failed to parse blank time range \"\\u00a0\" (this is "
+    "probably a typo)"
 }
 facilities {
   name: "Navan Memorial Centre"
@@ -26462,8 +26466,12 @@ facilities {
     label: "Drop-in schedule - curling"
     _title: "Curling"
   }
-  _errors: "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"\\u00a0\""
-  _errors: "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"\\u00a0\""
+  _errors:
+    "group \"Drop-in schedule - Easter weekend\": warning: failed to parse blank time range \"\\u00a0\" (this is "
+    "probably a typo)"
+  _errors:
+    "group \"Drop-in schedule - Easter weekend\": warning: failed to parse blank time range \"\\u00a0\" (this is "
+    "probably a typo)"
 }
 facilities {
   name: "Nepean Visual Arts Centre"
@@ -28584,12 +28592,16 @@ facilities {
         days {
           times {
             label: "Noon - 1:30"
+            _start: 720
+            _end: 810
             _wkday: SATURDAY
           }
         }
         days {
           times {
             label: "Noon - 1:30"
+            _start: 720
+            _end: 810
             _wkday: SUNDAY
           }
         }
@@ -29744,8 +29756,6 @@ facilities {
     }
     _noresv: true
   }
-  _errors: "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"Noon - 1:30\""
-  _errors: "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"Noon - 1:30\""
 }
 facilities {
   name: "R.J. Kennedy Community Centre and Arena"

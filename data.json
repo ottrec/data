@@ -13062,7 +13062,7 @@
         }
       ],
       "_errors": [
-        "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"\\u00a0\""
+        "group \"Drop-in schedule - Easter weekend\": warning: failed to parse blank time range \"\\u00a0\" (this is probably a typo)"
       ]
     },
     {
@@ -29421,7 +29421,7 @@
         }
       ],
       "_errors": [
-        "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"\\u00a0\""
+        "group \"Drop-in schedule - Easter weekend\": warning: failed to parse blank time range \"\\u00a0\" (this is probably a typo)"
       ]
     },
     {
@@ -32856,8 +32856,8 @@
         }
       ],
       "_errors": [
-        "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"\\u00a0\"",
-        "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"\\u00a0\""
+        "group \"Drop-in schedule - Easter weekend\": warning: failed to parse blank time range \"\\u00a0\" (this is probably a typo)",
+        "group \"Drop-in schedule - Easter weekend\": warning: failed to parse blank time range \"\\u00a0\" (this is probably a typo)"
       ]
     },
     {
@@ -35408,8 +35408,8 @@
                       "times": [
                         {
                           "label": "Noon - 1:30",
-                          "_start": null,
-                          "_end": null,
+                          "_start": 720,
+                          "_end": 810,
                           "_wkday": 6
                         }
                       ]
@@ -35418,8 +35418,8 @@
                       "times": [
                         {
                           "label": "Noon - 1:30",
-                          "_start": null,
-                          "_end": null,
+                          "_start": 720,
+                          "_end": 810,
                           "_wkday": 0
                         }
                       ]
@@ -36836,10 +36836,7 @@
           "_noresv": true
         }
       ],
-      "_errors": [
-        "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"Noon - 1:30\"",
-        "group \"Drop-in schedule - Easter weekend\": warning: failed to parse time range \"Noon - 1:30\""
-      ]
+      "_errors": []
     },
     {
       "name": "R.J. Kennedy Community Centre and Arena",
