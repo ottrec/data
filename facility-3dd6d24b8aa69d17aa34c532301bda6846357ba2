@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ben-franklin-place-rink HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=aLjZUD3WTjCRgP8yCjA1yK8bx2kAAAAAQUIPAAAAAADGFPDuAV2OZJtt1j8NSFv8; nlbi_243507=NmdYABJewTUbfBJJaXmSIAAAAADguFRzYSVAhb+zIlIt6FhE; incap_ses_1844_243507=HBy5ZSOBHwtHwhIC5TSXGa8bx2kAAAAA5IZ8LeLV7UrgI1KaxZTI3A==
+Cookie: visid_incap_243507=5YhX+RRbRj+cAH3rgQYKu01tyGkAAAAAQUIPAAAAAAAye8jso2+JVxTk1iJPXDiv; nlbi_243507=JFFpHAd1qVj37j5RaXmSIAAAAAC2blla8gmwpW7sU4RVpUVt; incap_ses_198_243507=XFK7WtKiTXReEsJ8HXC/Ak1tyGkAAAAAi2aJwEu/P/zIQJtScgKUgA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 120
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 28 Mar 2026 00:07:38 GMT
-Etag: "1774656457-gzip"
+Date: Sun, 29 Mar 2026 00:08:08 GMT
+Etag: "1774742767-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 28 Mar 2026 00:07:37 GMT
+Last-Modified: Sun, 29 Mar 2026 00:06:07 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-7tw6w (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-t68jv (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 60-66276005-66276014 SNNy RT(1774656431679 26030) q(0 0 0 -1) r(13 13) U24
-X-Varnish: 30309953
+X-Iinfo: 56-154186852-154186860 SNNy RT(1774742862308 26503) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 35643506 35643326
 
-80a5
+80ad
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 30309953
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c030184c3c9f6e5f25df03ff401e0d5d8930c1c589a45297888f7c7c61ce351f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cd516ca743fa6321872fbc7f21000c7e3363c03c4270f193a4d8946a01b2a986">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 30309953
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-429d74db684a265c510dce47dbcc97c0d0db17f1fb7afc98333b702a13cffe0b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ca4d716878772fc46d8e152427d2f2d32336710d0d4c1be471bc24b3e6469f9b">
   
     
       
@@ -217,7 +217,7 @@ X-Varnish: 30309953
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    
-            <img loading="lazy" width="64" height="64" src="/sites/default/files/styles/square_xs/public/2023-02/skating-on_0.png?h=46bfd753&amp;itok=ABD2YU9D" alt="Skating permitted" class="img-fluid w-100" />
+            <img loading="lazy" width="64" height="64" src="/sites/default/files/styles/square_xs/public/2023-02/skating-off_0.png?h=46bfd753&amp;itok=E8HmLA3i" alt="Skating not permitted" class="img-fluid w-100" />
 
   
 
@@ -226,7 +226,7 @@ X-Varnish: 30309953
       </article>
 </span></div>
 <div class="col-xs-auto layout__region layout__region--second">
-      Ben Franklin Place skating rink is open
+      Ben Franklin Place Skating Rink is closed
   </div></div></div></div>
 
     </div>
@@ -712,7 +712,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jUsOwyAMRC9Ewqb3QYZY1K2JEZh8evomUlWFLroZzXseyV5EqxbIN-u_dXjUgUGxqsFNmeannUrLwOMHTRSJjE4h2njEL4_wgK2XyTC8dnuGEdUATu-Y0PqdYWU6Xl3t-cRRkLl2-uhtG1eaIvb7GoowY-klKVLKRRYcYAbelUI1WXLLrray4G6vcFxWLJ4cJo-T7WgITDjr_0mrKoleWN4JHoZg"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=14&cb=281324987" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=14&cb=1569859583" async></script></body>
 </html>
 
 
