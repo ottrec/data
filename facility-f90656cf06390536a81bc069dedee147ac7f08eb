@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lansdowne-park HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=xI/a+iU1R6eZdrJOh+v3owG/yWkAAAAAQUIPAAAAAADtnLjRyezBP0GjHlO7dOd7; nlbi_243507=+kA7RWLnakwxHbqdaXmSIAAAAAANBjrCZhfuJZGOi1IRfQVY; incap_ses_1348_243507=m4lGCzT7twL+zEhdbg+1EgG/yWkAAAAADuDxKs4ug5fKMJ5xQiGHEw==
+Cookie: visid_incap_243507=ZU7eJVYDQO6YjnoweuEV0akQy2kAAAAAQUIPAAAAAAAsZbKq7q6H0JiuKIhdrmpm; nlbi_243507=sopGTns36UiezG/faXmSIAAAAADe2GxTusEe2JfducZkdfjq; incap_ses_189_243507=R5NlKNCaTBJ0fxAYpXafAqkQy2kAAAAAYxd6GLTQOcGzIIc4PmulaA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -14,10 +14,10 @@ Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 30 Mar 2026 00:10:54 GMT
-Etag: "1774829454-gzip"
+Date: Tue, 31 Mar 2026 00:11:34 GMT
+Etag: "1774915893-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 30 Mar 2026 00:10:54 GMT
+Last-Modified: Tue, 31 Mar 2026 00:11:33 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-t68jv (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 9-25374696-25374697 SNNy RT(1774829314058 140549) q(0 0 0 -1) r(3 3) U24
-X-Varnish: 36905700
+X-Iinfo: 47-212343440-212343451 SNNy RT(1774915753695 140189) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 39131313
 
-24481
+2548c
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 36905700
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lansdowne-park" />
 <meta name="dcterms.title" content="Lansdowne Park" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-03-24" />
+<meta name="dcterms.date" content="2026-03-30" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 36905700
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f42cefb5c6a3974c79941e717be86bfaf602576f1efb37ae7a834ba4f4536760">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-eabe63df2a644f9a00a4ffba466946d89f31da97914f9f7e976e9ef051dd46dd">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 36905700
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bbb9e0ef2a366db19495ae7cc318ab297119c41aba35f59b54f1c9ec0f42ea8b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-aa7cc810bc7e38999302368087a943e96a2b632707ebb4d8be69d38bf0ec6e09">
   
     
       
@@ -217,7 +217,7 @@ X-Varnish: 36905700
   
             
             <div class="field field--name-field-media-image field--type-image field--label-hidden field__item">    
-            <img loading="lazy" width="64" height="64" src="/sites/default/files/styles/square_xs/public/2023-02/skating-on_0.png?h=46bfd753&amp;itok=ABD2YU9D" alt="Skating permitted" class="img-fluid w-100" />
+            <img loading="lazy" width="64" height="64" src="/sites/default/files/styles/square_xs/public/2023-02/skating-off_0.png?h=46bfd753&amp;itok=E8HmLA3i" alt="Skating not permitted" class="img-fluid w-100" />
 
   
 
@@ -226,7 +226,7 @@ X-Varnish: 36905700
       </article>
 </span></div>
 <div class="col-xs-auto layout__region layout__region--second">
-      <a href="/en/recreation-and-parks/facilities/place-listing/lansdowne-park/lansdowne-park-skating-court">Lansdowne Park skating court is open</a>
+      <a href="/en/recreation-and-parks/facilities/place-listing/lansdowne-park/lansdowne-park-skating-court">Lansdowne Park skating court is closed</a>
   </div></div></div></div>
 
     </div>
@@ -1553,6 +1553,92 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
+  <button aria-expanded="false" aria-controls="section-6c4605f6-239b-449b-90bc-a3d8074bbc5c" data-target="#section-6c4605f6-239b-449b-90bc-a3d8074bbc5c" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">The Shops at Lansdowne</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-6c4605f6-239b-449b-90bc-a3d8074bbc5c">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">The Shops at Lansdowne</h2>
+</span>
+
+
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>This mixed-use area includes 280 residential units and 360,000 sq. ft of commercial space, including a 10 screen movie theatre. <a href="http://lansdownelive.ca/">The Shops at Lansdowne&nbsp;form</a> part of the <a href="http://www.glebebia.com/">Glebe Business Improvement Area</a>.</p>
+<p>The mural <em>Peace Flowers</em> by Tom Cech can be found on the wall of the Cineplex to the north of the Aberdeen Plaza. &nbsp;The work evokes moments in history when Canada and Belgium crossed paths and relied on each other in matters of peace and war. It is a tribute to our countries’ friendship and like-mindedness. It artistically depicts two symbolic “Belgian” flowers – the <strong>“Peace Rose of Ghent” </strong>and the <strong>“Poppy of Flanders Fields” </strong>as well as two inspiring Canadian figures – painter <strong>Mary Riter Hamilton </strong>and WWI officer and poet <strong>John McCrae</strong>.</p></div>
+      
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+                              <div class="col collapse-region pl-0 pr-0">
+                  <h2 class="no-toc">
+                              
   <button aria-expanded="false" aria-controls="section-31e99ffb-fb49-45c2-b8bd-7a886199e382" data-target="#section-31e99ffb-fb49-45c2-b8bd-7a886199e382" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">TD Place at Lansdowne</button>
 
                   </h2>
@@ -1883,103 +1969,6 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
-  <button aria-expanded="false" aria-controls="section-8e689861-04a5-498f-8ff0-c7237bb46668" data-target="#section-8e689861-04a5-498f-8ff0-c7237bb46668" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Reports</button>
-
-                  </h2>
-                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-8e689861-04a5-498f-8ff0-c7237bb46668">
-                  
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
-          
-            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
-<article class="node node--type-article node--view-mode-default">
-  
-  <div class="node__content">
-      <div class="layout layout--onecol">
-    <div  class="layout__region layout__region--content">
-      
-
-
-  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Reports</h2>
-</span>
-
-
-
-
-
-  
-      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
-              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
-                  
-                          
-                                  
-                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><ul>
-<li><a href="https://documents.ottawa.ca/sites/default/files/Lansdowne%20Park%20CPU%200371-8TYQMY%20-%202024%20Annual%20Report%20%281%29.pdf">2024&nbsp;Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
-<li><a href="https://documents.ottawa.ca/sites/default/files/Lansdowne%20Park%20CPU%200371-8TYQMY%20-%202023%20Annual%20Report.pdf">2023&nbsp;Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
-<li><a href="https://documents.ottawa.ca/sites/default/files/TZ10100106%20-%20Lansdowne%20Park%20CPU%200371-8TYQMY%20-%202022%20Annual%20Report.pdf">2022&nbsp;Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
-<li><a href="https://documents.ottawa.ca/sites/default/files/lansdowne_property_report_2021_en.pdf">2021&nbsp;Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
-<li><a href="https://documents.ottawa.ca/sites/documents/files/lansdowne_annual_report_2020_en.pdf">2020 Annual Lansdowne Park Report for the Certificate of Property Use&nbsp;</a></li>
-<li><a href="https://documents.ottawa.ca/sites/documents/files/2019Annual_en.pdf">2019&nbsp;Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
-<li><a href="https://documents.ottawa.ca/sites/documents/files/2018lansdowne_cpu_areport_en_2.pdf">2018 Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
-<li><a href="https://documents.ottawa.ca/sites/documents/files/2017lansdowne_cpu_areport_en.pdf">2017 Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
-<li><a href="https://documents.ottawa.ca/sites/documents/files/TZ10100106%202016%20Annual%20Report%20-%20FINAL%20RPT%20-%20Accessible%20%281%29.pdf">2016 Annual&nbsp;Lansdowne&nbsp;Park Report for the Certificate of Property Use</a></li>
-<li><a href="https://documents.ottawa.ca/sites/documents/files/2015_final_aoda_annual_report_lansdowne_en.pdf">2015 Annual&nbsp;Lansdowne&nbsp;Park Report for the Certificate of Property Use</a></li>
-<li><a href="https://documents.ottawa.ca/sites/documents/files/documents/lansdowne_en.pdf">2014 Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
-</ul></div>
-      
-      </div>
-
-                        </div>
-                                          
-                    
-                
-            </div>
-          
-      </div>
-</div>
-          </div>
-  
-
-
-    </div>
-  </div>
-
-  </div>
-
-</article>
-</div>
-      
-      </div>
-
-                        </div>
-                                          
-                                        </div>
-                  </div>
-                
-                
-            </div>
-          
-      </div>
-</div>
-              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
-                  
-                          
-                
-                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
-
-            
-                              <div class="col collapse-region pl-0 pr-0">
-                  <h2 class="no-toc">
-                              
   <button aria-expanded="false" aria-controls="section-3799c6c6-2edd-4a27-a59a-95c3193e8f69" data-target="#section-3799c6c6-2edd-4a27-a59a-95c3193e8f69" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Lansdowne Park Skating Court</button>
 
                   </h2>
@@ -2070,6 +2059,103 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
 <li>Sand and salt must be removed from wheels prior to entering the ice surface to ensure the safety of skaters.</li>
 </ul>
 <p><strong>Patrons using the rink do so at their own risk and voluntarily assume all risk associated with any sport or event. The City of Ottawa does not accept responsibility for related risks or injuries.</strong></p></div>
+      
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+                              <div class="col collapse-region pl-0 pr-0">
+                  <h2 class="no-toc">
+                              
+  <button aria-expanded="false" aria-controls="section-8e689861-04a5-498f-8ff0-c7237bb46668" data-target="#section-8e689861-04a5-498f-8ff0-c7237bb46668" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Reports</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-8e689861-04a5-498f-8ff0-c7237bb46668">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Reports</h2>
+</span>
+
+
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><ul>
+<li><a href="https://documents.ottawa.ca/sites/default/files/Lansdowne%20Park%20CPU%200371-8TYQMY%20-%202024%20Annual%20Report%20%281%29.pdf">2024&nbsp;Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
+<li><a href="https://documents.ottawa.ca/sites/default/files/Lansdowne%20Park%20CPU%200371-8TYQMY%20-%202023%20Annual%20Report.pdf">2023&nbsp;Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
+<li><a href="https://documents.ottawa.ca/sites/default/files/TZ10100106%20-%20Lansdowne%20Park%20CPU%200371-8TYQMY%20-%202022%20Annual%20Report.pdf">2022&nbsp;Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
+<li><a href="https://documents.ottawa.ca/sites/default/files/lansdowne_property_report_2021_en.pdf">2021&nbsp;Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
+<li><a href="https://documents.ottawa.ca/sites/documents/files/lansdowne_annual_report_2020_en.pdf">2020 Annual Lansdowne Park Report for the Certificate of Property Use&nbsp;</a></li>
+<li><a href="https://documents.ottawa.ca/sites/documents/files/2019Annual_en.pdf">2019&nbsp;Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
+<li><a href="https://documents.ottawa.ca/sites/documents/files/2018lansdowne_cpu_areport_en_2.pdf">2018 Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
+<li><a href="https://documents.ottawa.ca/sites/documents/files/2017lansdowne_cpu_areport_en.pdf">2017 Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
+<li><a href="https://documents.ottawa.ca/sites/documents/files/TZ10100106%202016%20Annual%20Report%20-%20FINAL%20RPT%20-%20Accessible%20%281%29.pdf">2016 Annual&nbsp;Lansdowne&nbsp;Park Report for the Certificate of Property Use</a></li>
+<li><a href="https://documents.ottawa.ca/sites/documents/files/2015_final_aoda_annual_report_lansdowne_en.pdf">2015 Annual&nbsp;Lansdowne&nbsp;Park Report for the Certificate of Property Use</a></li>
+<li><a href="https://documents.ottawa.ca/sites/documents/files/documents/lansdowne_en.pdf">2014 Annual Lansdowne Park Report for the Certificate of Property Use</a></li>
+</ul></div>
       
       </div>
 
