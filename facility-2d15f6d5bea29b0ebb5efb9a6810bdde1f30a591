@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=ZU7eJVYDQO6YjnoweuEV0akQy2kAAAAAQUIPAAAAAAAsZbKq7q6H0JiuKIhdrmpm; nlbi_243507=sopGTns36UiezG/faXmSIAAAAADe2GxTusEe2JfducZkdfjq; incap_ses_189_243507=R5NlKNCaTBJ0fxAYpXafAqkQy2kAAAAAYxd6GLTQOcGzIIc4PmulaA==
+Cookie: visid_incap_243507=lJcfH6SdTdWrf1h4E8wdky5izGkAAAAAQUIPAAAAAADftYcq8AW+6ec3YUql7pbB; nlbi_243507=CV+cayKckRea1u62aXmSIAAAAAB0TfHhlOghFxInsMb/YrB3; incap_ses_1843_243507=8t21SrXhExBGSZ6x76aTGS5izGkAAAAA2NgztA6nl2DVW71hZ2tVlg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 115
+Age: 39
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 31 Mar 2026 00:12:30 GMT
-Etag: "1774915829-gzip"
+Date: Wed, 01 Apr 2026 00:12:34 GMT
+Etag: "1775002314-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 31 Mar 2026 00:10:29 GMT
+Last-Modified: Wed, 01 Apr 2026 00:11:54 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-t68jv (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-566475fdd6-7tw6w (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: HIT
+X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 47-212343440-212343451 SNNy RT(1774915753695 196280) q(0 0 0 -1) r(2 2) U24
-X-Varnish: 39228218 39193036
+X-Iinfo: 57-159559081-159576948 SNNy RT(1775002159273 195109) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 36349131 35676127
 
-148cb
+149db
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 39228218 39193036
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex" />
 <meta name="dcterms.title" content="Ray Friel Recreation Complex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-03-27" />
+<meta name="dcterms.date" content="2026-03-31" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 39228218 39193036
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e0aff94721589eba5ed361ac62a193622adf5ea90df4e0ba4261dcdf5dacfb3f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-09a5fef0a7fc6df5f66793468a69214a2381ad73b34a1bdeb799e5a789aeff0a">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 39228218 39193036
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9b3ee3574e7d69e9e86cd26798a4d2c4671644253d7482ea97e63c423c140943">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-abbb5a7ebb9b79a44bcc2c4960c595325194206ec93eb771937ed770a0ae9ed2">
   
     
       
@@ -280,7 +280,7 @@ X-Varnish: 39228218 39193036
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
 </div>
       
 
@@ -290,6 +290,11 @@ X-Varnish: 39228218 39193036
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
 <li><strong>Monday, April 6</strong>, closed</li>
+<li><span><strong>Sunday, April 12</strong></span>
+<ul>
+<li><span>Public skating, 5 to 6:50&nbsp;pm, cancelled</span></li>
+</ul>
+</li>
 </ul>
 <h4>Notice</h4>
 <p><strong>The diving board is closed until further notice.</strong></p></div>
@@ -944,11 +949,16 @@ X-Varnish: 39228218 39193036
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule changes</span></h3>
 <ul>
 <li><strong>Friday, April 3 to Monday, April 6</strong>
 <ul>
 <li><span>See Easter schedule.</span></li>
+</ul>
+</li>
+<li><span><strong>Sunday, April 12</strong></span>
+<ul>
+<li><span>Public skating, 5 to 6:50&nbsp;pm, cancelled</span></li>
 </ul>
 </li>
 </ul></div>
