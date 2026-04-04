@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:36:50 GMT
-Request-Handler: api310
+Date: Sat, 04 Apr 2026 22:53:22 GMT
+Request-Handler: api304
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 973
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C720_E8FBCE:0428
+X-Ratelimit-Remaining: 972
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D19660_609CDAB:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"4355","street":"Halmont","suffix":"Dr","formatted_street":"Halmont Dr","city":"Ottawa","state":"ON","zip":"K1J 8W6","country":"CA"},"formatted_address":"4355 Halmont Dr, Ottawa, ON K1J 8W6"},"results":[{"address_components":{"number":"4355","street":"Halmont","suffix":"Dr","formatted_street":"Halmont Dr","city":"Gloucester","state":"ON","zip":"K1J","country":"CA"},"address_lines":["4355 Halmont Dr","","Gloucester, ON K1J"],"formatted_address":"4355 Halmont Dr, Gloucester, ON K1J","location":{"lat":45.427656,"lng":-75.618817},"accuracy":1,"accuracy_type":"rooftop","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}]}
+{"input":{"address_components":{"number":"4355","street":"Halmont","suffix":"Dr","formatted_street":"Halmont Dr","city":"Ottawa","state":"ON","zip":"K1J 8W6","country":"CA"},"formatted_address":"4355 Halmont Dr, Ottawa, ON K1J 8W6"},"results":[{"stable_address_key":"gcod_cancgbvabcp34jae8tjxrgmqt3gf5","address_components":{"number":"4355","street":"Halmont","suffix":"Dr","formatted_street":"Halmont Dr","city":"Gloucester","state":"ON","zip":"K1J","country":"CA"},"address_lines":["4355 Halmont Dr","","Gloucester, ON K1J"],"formatted_address":"4355 Halmont Dr, Gloucester, ON K1J","location":{"lat":45.427656,"lng":-75.618817},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

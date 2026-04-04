@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:34:14 GMT
-Request-Handler: api309
+Date: Sat, 04 Apr 2026 22:50:49 GMT
+Request-Handler: api312
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 984
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C683_E848EA:0428
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D195C8_609831E:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"1490","street":"Youville","suffix":"Dr","formatted_street":"Youville Dr","city":"Ottawa","state":"ON","zip":"K1C 2X8","country":"CA"},"formatted_address":"1490 Youville Dr, Ottawa, ON K1C 2X8"},"results":[{"address_components":{"number":"1490","street":"Youville","suffix":"Dr","formatted_street":"Youville Dr","city":"Orleans","state":"ON","zip":"K1C","country":"CA"},"address_lines":["1490 Youville Dr","","Orleans, ON K1C"],"formatted_address":"1490 Youville Dr, Orleans, ON K1C","location":{"lat":45.46639,"lng":-75.545031},"accuracy":1,"accuracy_type":"rooftop","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}]}
+{"input":{"address_components":{"number":"1490","street":"Youville","suffix":"Dr","formatted_street":"Youville Dr","city":"Ottawa","state":"ON","zip":"K1C 2X8","country":"CA"},"formatted_address":"1490 Youville Dr, Ottawa, ON K1C 2X8"},"results":[{"stable_address_key":"gcod_canjsx9zr45fbfjbfmht5vqfbpjxa","address_components":{"number":"1490","street":"Youville","suffix":"Dr","formatted_street":"Youville Dr","city":"Orleans","state":"ON","zip":"K1C","country":"CA"},"address_lines":["1490 Youville Dr","","Orleans, ON K1C"],"formatted_address":"1490 Youville Dr, Orleans, ON K1C","location":{"lat":45.46639,"lng":-75.545031},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

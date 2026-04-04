@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:36:02 GMT
-Request-Handler: api303
+Date: Sat, 04 Apr 2026 22:52:37 GMT
+Request-Handler: api310
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 974
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C6F1_E8C829:0428
+X-Ratelimit-Remaining: 973
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D19633_609B76D:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"1525","street":"Princess Patricia","suffix":"Way","formatted_street":"Princess Patricia Way","city":"Ottawa","state":"ON","zip":"K1S 5J3","country":"CA"},"formatted_address":"1525 Princess Patricia Way, Ottawa, ON K1S 5J3"},"results":[{"address_components":{"number":"1525","street":"Princess Patricia","suffix":"Way","formatted_street":"Princess Patricia Way","city":"Ottawa","state":"ON","zip":"K1S","country":"CA"},"address_lines":["1525 Princess Patricia Way","","Ottawa, ON K1S"],"formatted_address":"1525 Princess Patricia Way, Ottawa, ON K1S","location":{"lat":45.40078,"lng":-75.682362},"accuracy":1,"accuracy_type":"rooftop","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}]}
+{"input":{"address_components":{"number":"1525","street":"Princess Patricia","suffix":"Way","formatted_street":"Princess Patricia Way","city":"Ottawa","state":"ON","zip":"K1S 5J3","country":"CA"},"formatted_address":"1525 Princess Patricia Way, Ottawa, ON K1S 5J3"},"results":[{"stable_address_key":"gcod_canrjaa6axp75es9j6ymmv8r3zeaf","address_components":{"number":"1525","street":"Princess Patricia","suffix":"Way","formatted_street":"Princess Patricia Way","city":"Ottawa","state":"ON","zip":"K1S","country":"CA"},"address_lines":["1525 Princess Patricia Way","","Ottawa, ON K1S"],"formatted_address":"1525 Princess Patricia Way, Ottawa, ON K1S","location":{"lat":45.40078,"lng":-75.682362},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

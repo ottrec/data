@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:37:08 GMT
-Request-Handler: api306
+Date: Sat, 04 Apr 2026 22:53:41 GMT
+Request-Handler: api303
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 972
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C732_E90E1A:0428
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D19674_609D709:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"4310","street":"Shoreline","suffix":"Dr","formatted_street":"Shoreline Dr","city":"Ottawa","state":"ON","zip":"K1V 1N4","country":"CA"},"formatted_address":"4310 Shoreline Dr, Ottawa, ON K1V 1N4"},"results":[{"address_components":{"number":"4310","street":"Shoreline","suffix":"Dr","formatted_street":"Shoreline Dr","city":"Gloucester","state":"ON","zip":"K1V","country":"CA"},"address_lines":["4310 Shoreline Dr","","Gloucester, ON K1V"],"formatted_address":"4310 Shoreline Dr, Gloucester, ON K1V","location":{"lat":45.27748,"lng":-75.687119},"accuracy":1,"accuracy_type":"rooftop","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}]}
+{"input":{"address_components":{"number":"4310","street":"Shoreline","suffix":"Dr","formatted_street":"Shoreline Dr","city":"Ottawa","state":"ON","zip":"K1V 1N4","country":"CA"},"formatted_address":"4310 Shoreline Dr, Ottawa, ON K1V 1N4"},"results":[{"stable_address_key":"gcod_canurymmvp4fjmycbpxu54kpnsmva","address_components":{"number":"4310","street":"Shoreline","suffix":"Dr","formatted_street":"Shoreline Dr","city":"Gloucester","state":"ON","zip":"K1V","country":"CA"},"address_lines":["4310 Shoreline Dr","","Gloucester, ON K1V"],"formatted_address":"4310 Shoreline Dr, Gloucester, ON K1V","location":{"lat":45.27748,"lng":-75.687119},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

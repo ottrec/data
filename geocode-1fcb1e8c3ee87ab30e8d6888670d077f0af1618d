@@ -11,7 +11,7 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:37:02 GMT
+Date: Sat, 04 Apr 2026 22:53:34 GMT
 Request-Handler: api306
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 972
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C72C_E907F6:0428
+X-Ratelimit-Remaining: 971
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D1966C_609D3A8:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"4101","street":"Innovation","suffix":"Dr","formatted_street":"Innovation Dr","city":"Ottawa","state":"ON","zip":"K2K 0J3","country":"CA"},"formatted_address":"4101 Innovation Dr, Ottawa, ON K2K 0J3"},"results":[{"address_components":{"number":"4101","street":"Innovation","suffix":"Dr","formatted_street":"Innovation Dr","city":"Kanata","state":"ON","zip":"K2K","country":"CA"},"address_lines":["4101 Innovation Dr","","Kanata, ON K2K"],"formatted_address":"4101 Innovation Dr, Kanata, ON K2K","location":{"lat":45.340153,"lng":-75.929482},"accuracy":1,"accuracy_type":"rooftop","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}]}
+{"input":{"address_components":{"number":"4101","street":"Innovation","suffix":"Dr","formatted_street":"Innovation Dr","city":"Ottawa","state":"ON","zip":"K2K 0J3","country":"CA"},"formatted_address":"4101 Innovation Dr, Ottawa, ON K2K 0J3"},"results":[{"stable_address_key":"gcod_cansj3xry25bqqqhuarzj5gzzq8k5","address_components":{"number":"4101","street":"Innovation","suffix":"Dr","formatted_street":"Innovation Dr","city":"Kanata","state":"ON","zip":"K2K","country":"CA"},"address_lines":["4101 Innovation Dr","","Kanata, ON K2K"],"formatted_address":"4101 Innovation Dr, Kanata, ON K2K","location":{"lat":45.340153,"lng":-75.929482},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

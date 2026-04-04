@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:34:45 GMT
-Request-Handler: api312
+Date: Sat, 04 Apr 2026 22:51:19 GMT
+Request-Handler: api309
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 970
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C6A3_E86E56:0428
+X-Ratelimit-Remaining: 971
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D195E7_6099233:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"1300","street":"Kitchener","suffix":"Ave","formatted_street":"Kitchener Ave","city":"Ottawa","state":"ON","zip":"K1V 6W2","country":"CA"},"formatted_address":"1300 Kitchener Ave, Ottawa, ON K1V 6W2"},"results":[{"address_components":{"number":"1300","street":"Kitchener","suffix":"Ave","formatted_street":"Kitchener Ave","city":"Ottawa","state":"ON","zip":"K1V","country":"CA"},"address_lines":["1300 Kitchener Ave","","Ottawa, ON K1V"],"formatted_address":"1300 Kitchener Ave, Ottawa, ON K1V","location":{"lat":45.367481,"lng":-75.657278},"accuracy":1,"accuracy_type":"rooftop","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}]}
+{"input":{"address_components":{"number":"1300","street":"Kitchener","suffix":"Ave","formatted_street":"Kitchener Ave","city":"Ottawa","state":"ON","zip":"K1V 6W2","country":"CA"},"formatted_address":"1300 Kitchener Ave, Ottawa, ON K1V 6W2"},"results":[{"stable_address_key":"gcod_can728y47et5xxadms8slyg73lep9","address_components":{"number":"1300","street":"Kitchener","suffix":"Ave","formatted_street":"Kitchener Ave","city":"Ottawa","state":"ON","zip":"K1V","country":"CA"},"address_lines":["1300 Kitchener Ave","","Ottawa, ON K1V"],"formatted_address":"1300 Kitchener Ave, Ottawa, ON K1V","location":{"lat":45.367481,"lng":-75.657278},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

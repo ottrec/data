@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:37:00 GMT
-Request-Handler: api310
+Date: Sat, 04 Apr 2026 22:53:32 GMT
+Request-Handler: api294
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 972
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C729_E90650:0428
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D1966A_609D2DA:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"1585","street":"10 Line","suffix":"Rd","formatted_street":"10 Line Rd","city":"Ottawa","state":"ON","zip":"K1E 3E8","country":"CA"},"formatted_address":"1585 10 Line Rd, Ottawa, ON K1E 3E8"},"results":[{"address_components":{"number":"1585","street":"10 Line","suffix":"Rd","formatted_street":"10 Line Rd","city":"Orleans","state":"ON","zip":"K1E","country":"CA"},"address_lines":["1585 10 Line Rd","","Orleans, ON K1E"],"formatted_address":"1585 10 Line Rd, Orleans, ON K1E","location":{"lat":45.471705,"lng":-75.492127},"accuracy":1,"accuracy_type":"rooftop","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}]}
+{"input":{"address_components":{"number":"1585","street":"10th Line","suffix":"Rd","formatted_street":"10th Line Rd","city":"Ottawa","state":"ON","zip":"K1E 3E8","country":"CA"},"formatted_address":"1585 10th Line Rd, Ottawa, ON K1E 3E8"},"results":[{"stable_address_key":"gcod_cane7ub4cg83dt99ty5xpngsb7lm8","address_components":{"number":"1585","street":"10th Line","suffix":"Rd","formatted_street":"10th Line Rd","city":"Orleans","state":"ON","zip":"K1E","country":"CA"},"address_lines":["1585 10th Line Rd","","Orleans, ON K1E"],"formatted_address":"1585 10th Line Rd, Orleans, ON K1E","location":{"lat":45.472704,"lng":-75.494751},"accuracy":1,"accuracy_type":"range_interpolation","match_type":null,"source":"Address Ranges"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

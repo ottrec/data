@@ -11,7 +11,7 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:34:47 GMT
+Date: Sat, 04 Apr 2026 22:51:21 GMT
 Request-Handler: api310
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 970
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C6A5_E870E0:0428
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D195E7_6099365:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"1895","street":"Russell","suffix":"Rd","formatted_street":"Russell Rd","city":"Ottawa","state":"ON","zip":"K1G 0N1","country":"CA"},"formatted_address":"1895 Russell Rd, Ottawa, ON K1G 0N1"},"results":[{"address_components":{"number":"1895","street":"Russell","suffix":"Rd","formatted_street":"Russell Rd","city":"Ottawa","state":"ON","zip":"K1G","country":"CA"},"address_lines":["1895 Russell Rd","","Ottawa, ON K1G"],"formatted_address":"1895 Russell Rd, Ottawa, ON K1G","location":{"lat":45.402501,"lng":-75.625814},"accuracy":1,"accuracy_type":"rooftop","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}]}
+{"input":{"address_components":{"number":"1895","street":"Russell","suffix":"Rd","formatted_street":"Russell Rd","city":"Ottawa","state":"ON","zip":"K1G 0N1","country":"CA"},"formatted_address":"1895 Russell Rd, Ottawa, ON K1G 0N1"},"results":[{"stable_address_key":"gcod_canveyeul49tga6b5wblmywqr3yr6","address_components":{"number":"1895","street":"Russell","suffix":"Rd","formatted_street":"Russell Rd","city":"Ottawa","state":"ON","zip":"K1G","country":"CA"},"address_lines":["1895 Russell Rd","","Ottawa, ON K1G"],"formatted_address":"1895 Russell Rd, Ottawa, ON K1G","location":{"lat":45.402501,"lng":-75.625814},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

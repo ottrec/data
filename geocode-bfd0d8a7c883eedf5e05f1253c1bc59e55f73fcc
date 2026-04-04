@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:37:06 GMT
-Request-Handler: api312
+Date: Sat, 04 Apr 2026 22:53:40 GMT
+Request-Handler: api311
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 972
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C72F_E90C28:0428
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D19670_609D666:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"6095","street":"Perth","suffix":"St","formatted_street":"Perth St","city":"Ottawa","state":"ON","zip":"K0A 2Z0","country":"CA"},"formatted_address":"6095 Perth St, Ottawa, ON K0A 2Z0"},"results":[{"address_components":{"number":"6095","street":"Perth","suffix":"St","formatted_street":"Perth St","city":"Richmond","state":"ON","zip":"K0A","country":"CA"},"address_lines":["6095 Perth St","","Richmond, ON K0A"],"formatted_address":"6095 Perth St, Richmond, ON K0A","location":{"lat":45.1957,"lng":-75.83779},"accuracy":1,"accuracy_type":"rooftop","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}]}
+{"input":{"address_components":{"number":"6095","street":"Perth","suffix":"St","formatted_street":"Perth St","city":"Ottawa","state":"ON","zip":"K0A 2Z0","country":"CA"},"formatted_address":"6095 Perth St, Ottawa, ON K0A 2Z0"},"results":[{"stable_address_key":"gcod_can8sqs8h3nsbxbaxsybnwnvka4gg","address_components":{"number":"6095","street":"Perth","suffix":"St","formatted_street":"Perth St","city":"Richmond","state":"ON","zip":"K0A","country":"CA"},"address_lines":["6095 Perth St","","Richmond, ON K0A"],"formatted_address":"6095 Perth St, Richmond, ON K0A","location":{"lat":45.1957,"lng":-75.83779},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:34:05 GMT
-Request-Handler: api304
+Date: Sat, 04 Apr 2026 22:50:42 GMT
+Request-Handler: api306
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 988
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C67B_E83EAC:0428
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D195C0_6097F72:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"101","street":"Centrepointe","suffix":"Dr","formatted_street":"Centrepointe Dr","city":"Ottawa","state":"ON","zip":"K2G 5K7","country":"CA"},"formatted_address":"101 Centrepointe Dr, Ottawa, ON K2G 5K7"},"results":[{"address_components":{"number":"101","street":"Centrepointe","suffix":"Dr","formatted_street":"Centrepointe Dr","city":"Nepean","state":"ON","zip":"K2G","country":"CA"},"address_lines":["101 Centrepointe Dr","","Nepean, ON K2G"],"formatted_address":"101 Centrepointe Dr, Nepean, ON K2G","location":{"lat":45.344456,"lng":-75.762539},"accuracy":1,"accuracy_type":"rooftop","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}]}
+{"input":{"address_components":{"number":"101","street":"Centrepointe","suffix":"Dr","formatted_street":"Centrepointe Dr","city":"Ottawa","state":"ON","zip":"K2G 5K7","country":"CA"},"formatted_address":"101 Centrepointe Dr, Ottawa, ON K2G 5K7"},"results":[{"stable_address_key":"gcod_caneduq99zclpy6edlzle23tvldab","address_components":{"number":"101","street":"Centrepointe","suffix":"Dr","formatted_street":"Centrepointe Dr","city":"Nepean","state":"ON","zip":"K2G","country":"CA"},"address_lines":["101 Centrepointe Dr","","Nepean, ON K2G"],"formatted_address":"101 Centrepointe Dr, Nepean, ON K2G","location":{"lat":45.344456,"lng":-75.762539},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:36:04 GMT
-Request-Handler: api303
+Date: Sat, 04 Apr 2026 22:52:38 GMT
+Request-Handler: api304
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 973
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C6F3_E8C985:0428
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D19635_609B7CD:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"76","street":"Larkin","suffix":"Dr","formatted_street":"Larkin Dr","city":"Ottawa","state":"ON","zip":"K2J 1A9","country":"CA"},"formatted_address":"76 Larkin Dr, Ottawa, ON K2J 1A9"},"results":[{"address_components":{"number":"76","street":"Larkin","suffix":"Dr","formatted_street":"Larkin Dr","city":"Nepean","state":"ON","zip":"K2J","country":"CA"},"address_lines":["76 Larkin Dr","","Nepean, ON K2J"],"formatted_address":"76 Larkin Dr, Nepean, ON K2J","location":{"lat":45.282249,"lng":-75.760896},"accuracy":1,"accuracy_type":"rooftop","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}]}
+{"input":{"address_components":{"number":"76","street":"Larkin","suffix":"Dr","formatted_street":"Larkin Dr","city":"Ottawa","state":"ON","zip":"K2J 1A9","country":"CA"},"formatted_address":"76 Larkin Dr, Ottawa, ON K2J 1A9"},"results":[{"stable_address_key":"gcod_cangz3mctsdexwubp3r7fl378c7be","address_components":{"number":"76","street":"Larkin","suffix":"Dr","formatted_street":"Larkin Dr","city":"Nepean","state":"ON","zip":"K2J","country":"CA"},"address_lines":["76 Larkin Dr","","Nepean, ON K2J"],"formatted_address":"76 Larkin Dr, Nepean, ON K2J","location":{"lat":45.282249,"lng":-75.760896},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

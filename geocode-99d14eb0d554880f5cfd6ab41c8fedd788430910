@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:35:45 GMT
-Request-Handler: api306
+Date: Sat, 04 Apr 2026 22:52:20 GMT
+Request-Handler: api304
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 973
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C6DE_E8B483:0428
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D19620_609AFA1:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"2500","street":"Campeau","suffix":"Dr","formatted_street":"Campeau Dr","city":"Ottawa","state":"ON","zip":"K2K 2W3","country":"CA"},"formatted_address":"2500 Campeau Dr, Ottawa, ON K2K 2W3"},"results":[{"address_components":{"number":"2500","street":"Campeau","suffix":"Dr","formatted_street":"Campeau Dr","city":"Kanata","state":"ON","zip":"K2K","country":"CA"},"address_lines":["2500 Campeau Dr","","Kanata, ON K2K"],"formatted_address":"2500 Campeau Dr, Kanata, ON K2K","location":{"lat":45.320967,"lng":-75.897161},"accuracy":1,"accuracy_type":"rooftop","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}]}
+{"input":{"address_components":{"number":"2500","street":"Campeau","suffix":"Dr","formatted_street":"Campeau Dr","city":"Ottawa","state":"ON","zip":"K2K 2W3","country":"CA"},"formatted_address":"2500 Campeau Dr, Ottawa, ON K2K 2W3"},"results":[{"stable_address_key":"gcod_canernw2ys2ccpmc2z6v7qy6u4dwg","address_components":{"number":"2500","street":"Campeau","suffix":"Dr","formatted_street":"Campeau Dr","city":"Kanata","state":"ON","zip":"K2K","country":"CA"},"address_lines":["2500 Campeau Dr","","Kanata, ON K2K"],"formatted_address":"2500 Campeau Dr, Kanata, ON K2K","location":{"lat":45.320967,"lng":-75.897161},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

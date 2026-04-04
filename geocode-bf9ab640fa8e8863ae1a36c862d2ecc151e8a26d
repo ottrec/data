@@ -11,7 +11,7 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 05 Feb 2026 16:35:23 GMT
+Date: Sat, 04 Apr 2026 22:51:59 GMT
 Request-Handler: api310
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 970
-X-Request-Id: 40EC9065:8C40_05A11518:01BB_6984C6C9_E89B0D:0428
+X-Ratelimit-Remaining: 971
+X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D1960E_609A5AB:0566
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"1480","street":"Heron","suffix":"Rd","formatted_street":"Heron Rd","city":"Ottawa","state":"ON","zip":"K1V 6A5","country":"CA"},"formatted_address":"1480 Heron Rd, Ottawa, ON K1V 6A5"},"results":[{"address_components":{"number":"1480","street":"Heron","suffix":"Rd","formatted_street":"Heron Rd","city":"Ottawa","state":"ON","zip":"K1V","country":"CA"},"address_lines":["1480 Heron Rd","","Ottawa, ON K1V"],"formatted_address":"1480 Heron Rd, Ottawa, ON K1V","location":{"lat":45.378961,"lng":-75.653937},"accuracy":1,"accuracy_type":"rooftop","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}]}
+{"input":{"address_components":{"number":"1480","street":"Heron","suffix":"Rd","formatted_street":"Heron Rd","city":"Ottawa","state":"ON","zip":"K1V 6A5","country":"CA"},"formatted_address":"1480 Heron Rd, Ottawa, ON K1V 6A5"},"results":[{"stable_address_key":"gcod_canyvspraur6pyl4h5usd49cba3a6","address_components":{"number":"1480","street":"Heron","suffix":"Rd","formatted_street":"Heron Rd","city":"Ottawa","state":"ON","zip":"K1V","country":"CA"},"address_lines":["1480 Heron Rd","","Ottawa, ON K1V"],"formatted_address":"1480 Heron Rd, Ottawa, ON K1V","location":{"lat":45.378961,"lng":-75.653937},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}
