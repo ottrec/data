@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=5ucMD7ORRXqjuU8+mm7OGSEFz2kAAAAAQUIPAAAAAADoT3XBFco2pbdejzxAvSBL; nlbi_243507=SzqwCLcusxC1590XaXmSIAAAAAA63RK6ljMdlnbJvgtIvIH8; incap_ses_1845_243507=CKafCk19mVLIz7stZsKaGSEFz2kAAAAAI6+k08njxQztNTXvFyEHlA==
+Cookie: visid_incap_243507=IQFdjE6YS8OixzcEeUQWg2VW0GkAAAAAQUIPAAAAAAAPi5z71teJhyjK2/GGNoWf; nlbi_243507=dtZnaoXIOUDu3b3aaXmSIAAAAABSo2VV4KchrO9vtApGH8rf; incap_ses_1840_243507=AwfjWCSkiWg70b9O6P6IGWVW0GkAAAAAjFq2fifNcF1zQ+fFQdPqVA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 41
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 03 Apr 2026 00:11:32 GMT
-Etag: "1775175050-gzip"
+Date: Sat, 04 Apr 2026 00:10:35 GMT
+Etag: "1775261434-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 03 Apr 2026 00:10:50 GMT
+Last-Modified: Sat, 04 Apr 2026 00:10:34 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-58b864f6fc-pglns (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-58b864f6fc-zww84 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 41-66090317-66090320 SNNy RT(1775174946198 146062) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 5853802 6574302
+X-Iinfo: 59-205651383-205669561 SNNy RT(1775261285844 148879) q(0 1 1 -1) r(5 5) U24
+X-Varnish: 4803087
 
-13e7c
+13dee
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 5853802 6574302
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6b31fe9c46aa706ca69874cb71cce584178a3201f6c6cef2e34bb11555cc69f0">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-898971dcb0bfdcf7d6e83ab4c66f42df8c5fefd82ee878e3a956841c0d76eb04">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 5853802 6574302
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b49adcf20e868381020f33952c25e8803f3d2a8c014943953be252902a14a1aa">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f741b22e1ad664ae83fb53d0a9692ed49121fa31a9bae5d61ef7e4728834a3a3">
   
     
       
@@ -761,11 +761,6 @@ X-Varnish: 5853802 6574302
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
-<li><strong>T</strong><span><strong>hursday, April 2</strong></span>
-<ul>
-<li>Public swim, <span>1 to 2 pm, cancelled</span></li>
-</ul>
-</li>
 <li><strong>Friday, April 3</strong>
 <ul>
 <li><strong>T</strong>he facility is closed and all programs cancelled.</li>
