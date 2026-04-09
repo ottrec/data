@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=NbjnguBBR6yyqhDNh5dIzRCd1WkAAAAAQUIPAAAAAAB3OAFb26ZiwPWsKW6yi/hK; nlbi_243507=uti5FvV1hxp4zI27aXmSIAAAAACf8mqVw27fb6ollJiogrXk; incap_ses_175_243507=16K8Nlm18HjyW96XvLltAhCd1WkAAAAA0muhkxJ5HniAtxM+Q+8zLQ==
+Cookie: visid_incap_243507=uknRXC36RSyNqv4rUtfyOtrt1mkAAAAAQUIPAAAAAAADqsiH1amE2K3ChUcbdcAg; nlbi_243507=J2FtM76VzHTcMz2EaXmSIAAAAAAk77lAD9e3oovXFCT1yWPG; incap_ses_1700_243507=HEGzWLcOzSB+Hl6NsZ2XF9rt1mkAAAAAFmVZvIOy5Ulv2ImEnLRPZA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 230
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 08 Apr 2026 00:14:16 GMT
-Etag: "1775607025-gzip"
+Date: Thu, 09 Apr 2026 00:11:11 GMT
+Etag: "1775693471-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 08 Apr 2026 00:10:25 GMT
+Last-Modified: Thu, 09 Apr 2026 00:11:11 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-58b864f6fc-zww84 (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-58b864f6fc-r8kjp (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 30-3569138-3569139 SNNy RT(1775607057031 199359) q(0 1 1 -1) r(1 1) U24
-X-Varnish: 3423854 3552556
+X-Iinfo: 51-28170525-28205283 SNNy RT(1775693274676 196650) q(0 0 0 -1) r(6 6) U24
+X-Varnish: 1330587
 
-12374
+1275b
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 3423854 3552556
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata" />
 <meta name="dcterms.title" content="Richcraft Recreation Complex-Kanata" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-04-07" />
+<meta name="dcterms.date" content="2026-04-08" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 3423854 3552556
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e2e1edc27ffbf8bc440ce5e825258f4ac7a261240c04530a786d8b35a259c2b3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1e98beb1a408e659595b14d20c1b757cf75e536f58e9717950d96b76e5041285">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 3423854 3552556
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0121a7e940206d3658197033d3ea8d789069f66c9bafab63be87703e1c09313b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5d0543a48f80048544d8a771f7115c7815b32b0d366d3b1d359bbf36d355616e">
   
     
       
@@ -276,7 +276,29 @@ X-Varnish: 3423854 3552556
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Tuesday, April 14</strong>
+<ul>
+<li>Lane swim, 3 to 4 pm, <strong>cancelled</strong></li>
+<li>Reduced lane swim, 3 to 4 pm, <strong>added&nbsp;</strong></li>
+</ul>
+</li>
+</ul></div>
+      
+
+<div class="mb-3">
 
 
 
@@ -486,6 +508,19 @@ X-Varnish: 3423854 3552556
 <p>Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/richcraftkanata">Reserve a spot at Richcraft Recreation Complex-Kanata</a></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
+<ul>
+<li><strong>Tuesday, April 14</strong>
+<ul>
+<li>Lane swim, 3 to 4 pm, <strong>cancelled</strong></li>
+<li>Reduced lane swim, 3 to 4 pm, <strong>added&nbsp;</strong></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
