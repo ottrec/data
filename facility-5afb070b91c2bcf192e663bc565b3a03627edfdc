@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=rXWWfi7JRpWhnhd8amYeDGs03GkAAAAAQUIPAAAAAABTXeLaU7e0M2k/C/bwpjh7; nlbi_243507=XDxyY7Dt7ia9RUFEaXmSIAAAAADw8JghPMddg2Nci78pPquo; incap_ses_1847_243507=6t3aIfs1F3qAR8xOXN2hGWs03GkAAAAANd0cAIP0jHXT89qlDewnfQ==
+Cookie: visid_incap_243507=ZfjxLkc5Tq++INpQ8lZurtWG3WkAAAAAQUIPAAAAAAA1H8weUhY+UUQFsfqHQocz; nlbi_243507=w8EydwNqZg/3KGGoaXmSIAAAAADPvU+Gf3t2l/OZ1O3z24oD; incap_ses_176_243507=n7vWBYf2RxGdnTkEOUdxAtWG3WkAAAAATG45ikNdk5WtMXMCoCgW3g==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 146
+Age: 273
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 13 Apr 2026 00:12:46 GMT
-Etag: "1776039019-gzip"
+Date: Tue, 14 Apr 2026 00:16:41 GMT
+Etag: "1776125527-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 13 Apr 2026 00:10:19 GMT
+Last-Modified: Tue, 14 Apr 2026 00:12:07 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-58b864f6fc-r8kjp (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-58b864f6fc-zww84 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 50-134753171-134753179 SNNy RT(1776039019641 146753) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 16916952 309893223
+X-Iinfo: 22-4529746-4529747 SNNN RT(1776125654156 147402) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 47831933 7325002
 
-11c71
+11c6f
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 16916952 309893223
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8511e357c9991169a31ccaebf316511d0a697fb8fbccb910db15eaacb94e22d3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-870f868bdc5ae14987892b3dc64cf45f8752ebbc19529eb510c4a43a3a0a1283">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 16916952 309893223
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c28ade7a637b4fc2f62cd3c38266a11fb75c83f494a787123b06626afb614893">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c3f79a12f025b61ff77662ef0f50effe2549628b8052dc8b521079ed89d02383">
   
     
       
@@ -1210,14 +1210,14 @@ X-Varnish: 16916952 309893223
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/50c95d2494b6c3db2b726a009636e8e4">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

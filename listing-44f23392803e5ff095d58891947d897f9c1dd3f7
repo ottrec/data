@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing?page=4 HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=rXWWfi7JRpWhnhd8amYeDGs03GkAAAAAQUIPAAAAAABTXeLaU7e0M2k/C/bwpjh7; nlbi_243507=XDxyY7Dt7ia9RUFEaXmSIAAAAADw8JghPMddg2Nci78pPquo; incap_ses_1847_243507=6t3aIfs1F3qAR8xOXN2hGWs03GkAAAAANd0cAIP0jHXT89qlDewnfQ==
+Cookie: visid_incap_243507=ZfjxLkc5Tq++INpQ8lZurtWG3WkAAAAAQUIPAAAAAAA1H8weUhY+UUQFsfqHQocz; nlbi_243507=w8EydwNqZg/3KGGoaXmSIAAAAADPvU+Gf3t2l/OZ1O3z24oD; incap_ses_176_243507=n7vWBYf2RxGdnTkEOUdxAtWG3WkAAAAATG45ikNdk5WtMXMCoCgW3g==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 251
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 13 Apr 2026 00:13:49 GMT
-Etag: "1776039228-gzip"
+Date: Tue, 14 Apr 2026 00:17:43 GMT
+Etag: "1776125611-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 13 Apr 2026 00:13:48 GMT
+Last-Modified: Tue, 14 Apr 2026 00:13:31 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-58b864f6fc-r8kjp (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 50-134753171-134753179 SNNy RT(1776039019641 208747) q(0 0 0 -1) r(7 7) U24
-X-Varnish: 44080889
+X-Iinfo: 22-4529746-4529747 SNNN RT(1776125654156 209402) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 126313442 22393108
 
-f10a
+f108
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -246,7 +246,7 @@ f10a
 
 
 
-  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-7f2d2fa743bea996fdb3a2a42f49700e4ff9052e1dbcc0324b0316e35d8f63ff">
+  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-b84c1fe6ba67f51c4794c90c30a206f099e3953ae2d78a4abf3ba93619c9dcf0">
   
     
       <div class="view-header">
@@ -705,14 +705,14 @@ f10a
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/50c95d2494b6c3db2b726a009636e8e4">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
