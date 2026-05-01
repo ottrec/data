@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=JFYGTayHSl2UnEDwVu2uKZ+f8mkAAAAAQUIPAAAAAABDpRxpNVCc0NxbDwDAkK0G; nlbi_243507=8jnRHqIOcQ4qJ1KlaXmSIAAAAABVmoQUryioI4QjEeV/URu0; incap_ses_483_243507=lh6teRt4jTQQLLtDj/azBp+f8mkAAAAAlW3IQYpJuRYzJjFsmmjLxg==
+Cookie: visid_incap_243507=FYFKLIlxRkmonSMZPvOsmyfx82kAAAAAQUIPAAAAAADjG9NJ4TZstKTkIWh1MIjR; nlbi_243507=3mwEQF95w3yiKZwKaXmSIAAAAACUtRmH4etgyfJQkRzoPzcj; incap_ses_1607_243507=fFu5TBFy8XY4ErJYpDZNFifx82kAAAAAQzcHFvKq3kpErjanib8xyw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 444
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 30 Apr 2026 00:20:54 GMT
-Etag: "1777508009-gzip"
+Date: Fri, 01 May 2026 00:21:03 GMT
+Etag: "1777594863-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 30 Apr 2026 00:13:29 GMT
+Last-Modified: Fri, 01 May 2026 00:21:03 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-tt2mp (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-tchbz (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 8-51154446-51154450 SNNy RT(1777508256411 198548) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 170999545 164583848
+X-Iinfo: 58-173363022-173397842 SNNy RT(1777594664245 199089) q(0 0 0 -1) r(6 6) U24
+X-Varnish: 113464416
 
-13c58
+13775
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 170999545 164583848
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata" />
 <meta name="dcterms.title" content="Richcraft Recreation Complex-Kanata" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-04-23" />
+<meta name="dcterms.date" content="2026-04-30" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 170999545 164583848
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f4536266cae1861058aeb0ccb9bea97df30c01f36dfa1cd8145b9b1060199b09">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b619aee1bc8c6cef62d55160b81884dc145e56e17e529389031156d232a6f24b">
   
     
       
@@ -208,14 +208,14 @@ X-Varnish: 170999545 164583848
   
 <div class="alert-info alert-dismissible fade show alert">
   <div class="alert-message">
-      <h2 class="alert-heading"><div>
+      <h3 class="alert-heading"><div>
 
 
   <span class="field field--name-title field--type-string field--label-hidden">Temporary Search Issue</span>
 
 
 </div>
-</h2>
+</h3>
     
 
 
@@ -226,14 +226,14 @@ X-Varnish: 170999545 164583848
 
   </div>
       <button type="button" class="close" data-dismiss="alert">
-      <span class="sr-only">Close <h2 class="alert-heading"><div>
+      <span class="sr-only">Close <h3 class="alert-heading"><div>
 
 
   <span class="field field--name-title field--type-string field--label-hidden">Temporary Search Issue</span>
 
 
 </div>
-</h2></span>
+</h3></span>
       <span aria-hidden="true">&times;</span>
     </button>
   </div>
@@ -257,7 +257,7 @@ X-Varnish: 170999545 164583848
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-21a3d0d4efeef01f5dda215ee9f977594e3b089ed0d614d263f67e99f9dc9145">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3e048fa3989c880ed09d8299676d8da04d036b5c498bb3e7160905e621329dc6">
   
     
       
@@ -325,34 +325,7 @@ X-Varnish: 170999545 164583848
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    
-
-
-  
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
-</div>
-      
-
-
-
-
-  
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Saturday, April 25</strong>
-<ul>
-<li>Aquafit Zumba<sup>®</sup>, 7 to 8 pm, <strong>cancelled</strong></li>
-</ul>
-</li>
-<li><strong>Tuesday, April 28</strong>
-<ul>
-<li>Lane swim, 3 to 4 pm, <strong>cancelled</strong></li>
-<li>Reduced lane swim, 3 to 4 pm, <strong>added</strong></li>
-</ul>
-</li>
-</ul></div>
-      
-
-<div class="mb-3">
+                                                    <div class="mb-3">
 
 
 
@@ -562,24 +535,6 @@ X-Varnish: 170999545 164583848
 <p>Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/richcraftkanata">Reserve a spot at Richcraft Recreation Complex-Kanata</a></p></div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
-<ul>
-<li><strong>Saturday, April 25</strong>
-<ul>
-<li>Aquafit Zumba<sup>®</sup>, 7 to 8 pm, <strong>cancelled</strong></li>
-</ul>
-</li>
-<li><strong>Tuesday, April 28</strong>
-<ul>
-<li>Lane swim, 3 to 4 pm, <strong>cancelled</strong></li>
-<li>Reduced lane swim, 3 to 4 pm, <strong>added</strong></li>
-</ul>
-</li>
-</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
