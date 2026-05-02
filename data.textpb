@@ -31464,6 +31464,17 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - swim and aquafitness"
     _title: "Swim And Aquafitness"
+    schedule_changes_html:
+      "<p><strong>Friday, May 1</strong><br/>•    Lane swim, 7:30 to 9 pm, cancelled</p>\n"
+      "<h4><strong>Closures </strong></h4>\n"
+      "<ul>\n"
+      "<li>Hot tub and steam room are closed until further notice.</li>\n"
+      "<li><strong>Monday, May 11 to Sunday, June 28</strong>\n"
+      "<ul>\n"
+      "<li>The pool is closed for annual maintenance.</li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Walter Baker Sports Centre - swim and aquafitness - March 23 to June 30"
       _name: "swim and aquafitness"
@@ -32474,9 +32485,6 @@ facilities {
     label: "Drop-in schedule - skating"
     _title: "Skating"
   }
-  _errors:
-    "parse schedule changes for schedule group \"Drop-in schedule - swim and aquafitness\": header is not followed by "
-    "a list"
 }
 facilities {
   name: "Westcliffe Community Building"
