@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=tUMGE70gSm+Ab8ZDdsrXWF/l92kAAAAAQUIPAAAAAAClx1ewcU8vp7Gno2yBvexg; nlbi_243507=ge7AHF2X21FHeULHaXmSIAAAAABqFVQ2lRJrD6nY4oIcAtV8; incap_ses_102_243507=pMElaSF6tX5v3+OOpmBqAV/l92kAAAAAMuT/oDJTbeNSAdpTA40Lpw==
+Cookie: visid_incap_243507=m91RlMNGT8ev0h3QDZYJJCs3+WkAAAAAQUIPAAAAAACx2Bwo/gt7vnAM+n5R6rTJ; nlbi_243507=KxitYds4/XuEuNjCaXmSIAAAAAB3isQH3Cu+XxhAkSrzJtCX; incap_ses_1344_243507=qvx4dLoWV0rO96ASfdmmEis3+WkAAAAAQDsBJIoojahZNFQSfX+r4w==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 500
+Age: 556
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 04 May 2026 00:19:48 GMT
-Etag: "1777853487-gzip"
+Date: Tue, 05 May 2026 00:21:09 GMT
+Etag: "1777939912-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 04 May 2026 00:11:27 GMT
+Last-Modified: Tue, 05 May 2026 00:11:52 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-tchbz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-tt2mp (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 42-5982577-5998782 SNNy RT(1777853791664 196806) q(0 1 1 -1) r(1 1) U24
-X-Varnish: 115922828 116297385
+X-Iinfo: 7-7583902-7583874 SNNy RT(1777940268705 200420) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 5311968 5573735
 
-1573f
+1573d
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 115922828 116297385
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8704d6f72a445a32b3b1aae60e496f437c21c32fe91b12ed47820367d552070c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9c419c2c50ccb452c1e1c3ea0b30018ae59c340213e45daaa00abaead9314c5e">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 115922828 116297385
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d9f04979e63cf047ded3c6e7d30c64170014f8556da102e0fd073379a612ec82">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f864c5e374ab72e7cfe931611b06fc2ccfd61fa347e29a8a07ee752859f40567">
   
     
       
@@ -1566,14 +1566,14 @@ X-Varnish: 115922828 116297385
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/5594d807fbf60e4103cc584dab509a18">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

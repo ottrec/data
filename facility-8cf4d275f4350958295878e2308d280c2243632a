@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=tUMGE70gSm+Ab8ZDdsrXWF/l92kAAAAAQUIPAAAAAAClx1ewcU8vp7Gno2yBvexg; nlbi_243507=ge7AHF2X21FHeULHaXmSIAAAAABqFVQ2lRJrD6nY4oIcAtV8; incap_ses_102_243507=pMElaSF6tX5v3+OOpmBqAV/l92kAAAAAMuT/oDJTbeNSAdpTA40Lpw==
+Cookie: visid_incap_243507=m91RlMNGT8ev0h3QDZYJJCs3+WkAAAAAQUIPAAAAAACx2Bwo/gt7vnAM+n5R6rTJ; nlbi_243507=KxitYds4/XuEuNjCaXmSIAAAAAB3isQH3Cu+XxhAkSrzJtCX; incap_ses_1344_243507=qvx4dLoWV0rO96ASfdmmEis3+WkAAAAAQDsBJIoojahZNFQSfX+r4w==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 125
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 04 May 2026 00:17:55 GMT
-Etag: "1777853749-gzip"
+Date: Tue, 05 May 2026 00:19:13 GMT
+Etag: "1777940352-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 04 May 2026 00:15:49 GMT
+Last-Modified: Tue, 05 May 2026 00:19:12 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-tchbz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-67kdw (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 42-5982577-5982579 SNNy RT(1777853791664 83949) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 116121829 115895673
+X-Iinfo: 7-7583902-7583874 SNNy RT(1777940268705 84015) q(0 0 0 -1) r(9 9) U24
+X-Varnish: 188190830
 
-11536
+14a3d
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 116121829 115895673
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre" />
 <meta name="dcterms.title" content="François Dupuis Recreation Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-04-27" />
+<meta name="dcterms.date" content="2026-05-04" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 116121829 115895673
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-58bb100b0cd466a271080a42ff23f250612d01268518e30206cd183a36989818">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-24052fde26fee5ed8e9df93e5ab3702e605074d8c58e5b59983472053ca36d97">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 116121829 115895673
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-51b557eb3bf8db573adee401740d94be37533dcc0d76c1ae153c8f1f49a00f60">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e175c67b6ef167c5e32ae51bc25d1b933e3ab3afc29983a98a675fdeca65c5e0">
   
     
       
@@ -276,7 +276,30 @@ X-Varnish: 116121829 115895673
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Wednesday, May 6</strong>
+<ul>
+<li>Lane swim, 11:30 am - 12:30 pm, cancelled</li>
+<li>Lane swim, shared pool, 11:30 am - 12:30 pm, added</li>
+</ul>
+</li>
+<li><strong>Monday, May 18</strong><span>, closed&nbsp;</span></li>
+</ul></div>
+      
+
+<div class="mb-3">
 
 
 
@@ -284,7 +307,7 @@ X-Varnish: 116121829 115895673
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -443,6 +466,117 @@ X-Varnish: 116121829 115895673
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
+  <button aria-expanded="false" aria-controls="section-d5d5c8a0-4c84-4e67-ac95-df2b48af3664" data-target="#section-d5d5c8a0-4c84-4e67-ac95-df2b48af3664" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - Victoria Day weekend</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-d5d5c8a0-4c84-4e67-ac95-df2b48af3664">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - Victoria Day weekend</h2>
+</span>
+
+
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>May 16 and 17</h3></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.</p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/francoisdupuis">Reserve a spot at François Dupuis Recreation Centre</a></h3></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption><span>François Dupuis Recreation Centre – All drop-in programs - Victoria Day weekend&nbsp;</span></caption><thead><tr><th scope="col">&nbsp;</th><th scope="col"><span dir="ltr">Saturday, May 16</span><span>&nbsp;</span></th><th scope="col"><span dir="ltr">Sunday, May 17</span><span>&nbsp;</span></th></tr></thead><tbody><tr><th><span dir="ltr">Lane swim</span><span>&nbsp;</span></th><td><span dir="ltr">9 am - 1 pm,</span><span>&nbsp;</span><br><span dir="ltr">3 - 4 pm</span><br><span dir="ltr">(Play Free) </span><span>&nbsp;</span></td><td><span dir="ltr">10:30 am - 1pm</span><span>&nbsp;</span></td></tr><tr><th><span dir="ltr">Lane swim -&nbsp;</span><br><span dir="ltr">shared pool</span><span>&nbsp;</span></th><td><span dir="ltr">N/A</span><span>&nbsp;</span></td><td><span dir="ltr">9 - 10:30 am,&nbsp;</span><br><span dir="ltr">3 - 4 pm</span><span>&nbsp;</span></td></tr><tr><th><span dir="ltr">Preschool swim -</span><span>&nbsp;</span><br><span dir="ltr">therapeutic pool</span><span>&nbsp;</span></th><td><span dir="ltr">8 - 9 am</span><br><span dir="ltr">(Play Free) </span><span>&nbsp;</span></td><td><span dir="ltr">8 - 9 am</span><span>&nbsp;</span></td></tr><tr><th><span dir="ltr">Public swim -</span><span>&nbsp;</span><br><span dir="ltr">therapeutic pool</span><span>&nbsp;</span></th><td><span dir="ltr">9 am - 3 pm</span><span>&nbsp;</span><br><span dir="ltr">(Play Free) </span><span>&nbsp;</span></td><td><span dir="ltr">9 am - 3 pm</span><span>&nbsp;</span></td></tr><tr><th><span dir="ltr">Public swim - 25m pool</span><span>&nbsp;</span></th><td><span dir="ltr">1 - 3 pm</span><br><span dir="ltr">(Play Free) </span><span>&nbsp;</span></td><td><span dir="ltr">1 - 3 pm</span><span>&nbsp;</span></td></tr><tr><th><span dir="ltr">Aquafit General - Deep</span><span>&nbsp;</span></th><td><span dir="ltr">N/A</span><span>&nbsp;</span></td><td><span dir="ltr">9:30 - 10:30 am</span><span>&nbsp;</span></td></tr><tr><th><span dir="ltr">Aquafit General - Shallow</span><span>&nbsp;</span></th><td><span dir="ltr">N/A</span><span>&nbsp;</span></td><td><span dir="ltr">9:30 - 10:30 am</span><span>&nbsp;</span></td></tr><tr><th><span dir="ltr">Sauna</span><span>&nbsp;</span></th><td><span dir="ltr">9 am - 4 pm</span><br><span dir="ltr">(Play Free) </span><span>&nbsp;</span></td><td><span dir="ltr">9 am - 4 pm</span><span>&nbsp;</span></td></tr><tr><th><span lang="EN-US" dir="ltr">Weight and cardio room</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">8:00 am - 5:30 pm</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">8:00 am - 5:30 pm</span><span>&nbsp;</span></td></tr><tr><th><span lang="EN-US" dir="ltr">Yoga&nbsp;</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">8:15 am – 9:15 am</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">N/A</span><span>&nbsp;</span></td></tr><tr><th><span lang="EN-US" dir="ltr">Pilates&nbsp;</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">N/A</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">9:30 am – 10:30 am</span><span>&nbsp;</span></td></tr><tr><th><span lang="EN-US" dir="ltr">Zumba®</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">9:30 am – 10:30 am</span><span>&nbsp;</span></td><td><span>N/A&nbsp;</span></td></tr><tr><th><span lang="EN-US" dir="ltr">Basketball 12+</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">12:40 pm – 1:40 pm</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">N/A</span><span>&nbsp;</span></td></tr><tr><th><span lang="EN-US" dir="ltr">Pickleball 16 +</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">2 pm – 3 pm</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">N/A</span><span>&nbsp;</span></td></tr><tr><th><span lang="EN-US" dir="ltr">Rock Climbing 5+</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">12:40 pm – 1:40 pm</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">N/A</span><span>&nbsp;</span></td></tr><tr><th><span lang="EN-US" dir="ltr">Basketball Family: Parent with Child (ages 15 and under)</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">3:20 pm – 4:20 pm,</span><br><span lang="EN-US" dir="ltr">4:30 pm – 5:30 pm</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">N/A</span><span>&nbsp;</span></td></tr><tr><th><span lang="EN-US" dir="ltr">Badminton 16 +</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">N/A</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">4:30 pm – 5:30 pm</span><span>&nbsp;</span></td></tr><tr><th><span lang="EN-US" dir="ltr">Pickleball Family: Parent with Child (ages 15 and under)</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">N/A</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">12:50 pm – 1:50 pm</span><span>&nbsp;</span></td></tr><tr><th><span lang="EN-US" dir="ltr">Badminton Family: Parent with Child (ages 15 and under)</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">N/A</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">2:20 pm – 3:20 pm,&nbsp;</span><br><span lang="EN-US" dir="ltr">3:25 pm – 4:25 pm</span><span>&nbsp;</span></td></tr></tbody></table></div>
+      </div>
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;is the City’s lineup of free drop-in activities for children and youth (aged 17 and under) and accompanying adults.</p></div>
+      
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+                              <div class="col collapse-region pl-0 pr-0">
+                  <h2 class="no-toc">
+                              
   <button aria-expanded="false" aria-controls="section-13d5f40d-9024-4d09-889a-4919dfbef6f2" data-target="#section-13d5f40d-9024-4d09-889a-4919dfbef6f2" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - swim and aquafitness</button>
 
                   </h2>
@@ -485,6 +619,29 @@ X-Varnish: 116121829 115895673
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
 <p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
 <p><strong>Reservations not required.</strong></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
+<ul>
+<li><strong>Wednesday, May 6</strong>
+<ul>
+<li>Lane swim, 11:30 am - 12:30 pm, cancelled</li>
+<li>Lane swim, shared pool, 11:30 am - 12:30 pm, added</li>
+</ul>
+</li>
+<li><span><strong>Saturday, May 16 and Sunday, May 17</strong></span>
+<ul>
+<li><span>See Victoria Day weekend schedule.</span></li>
+</ul>
+</li>
+<li><span><strong>Monday, May 18</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -583,6 +740,23 @@ X-Varnish: 116121829 115895673
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
 <p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
 <p><strong>Reservations not required.</strong></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule changes</strong></h3>
+<ul>
+<li><span><strong>Saturday, May 16 and Sunday, May 17</strong></span>
+<ul>
+<li><span>See Victoria Day weekend schedule.</span></li>
+</ul>
+</li>
+<li><span><strong>Monday, May 18</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -725,6 +899,23 @@ X-Varnish: 116121829 115895673
 <p><strong>Reservations not required.</strong></p></div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule changes</strong></h3>
+<ul>
+<li><span><strong>Saturday, May 16 and Sunday, May 17</strong></span>
+<ul>
+<li><span>See Victoria Day weekend schedule.</span></li>
+</ul>
+</li>
+<li><span><strong>Monday, May 18</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>François Dupuis Recreation Centre - group fitness - January 5 to June 21</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Cardio and strength 50+</th><td>n/a</td><td>1:15 - 2:15 pm</td><td>n/a</td><td>10:45 - 11:45 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Core conditioning</th><td>n/a</td><td>7:45 -&nbsp;8:45 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">HIIT</th><td>6:30 - 7:30 pm</td><td>n/a</td><td>5:15 - 6:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Kickboxing</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>7:45 - 8:45 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Party on 50+</th><td>n/a</td><td>n/a</td><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Pilates</th><td>4:30 - 5:30 pm</td><td>n/a</td><td>6:30 - 7:30 pm</td><td>5:15 - 6:15 pm</td><td>6:30 - 7:30 pm</td><td>n/a</td><td>9:30 - 10:30 am</td></tr><tr><th scope="row">Pilates 50+</th><td>1 - 2 pm</td><td>n/a</td><td>11 am - noon</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Stretch and strength 50+</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>11:45 am - 12:45 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>11:45 am - 12:45 pm</td><td>n/a</td><td>7:45 - 8:45 pm</td><td>n/a</td><td>5:15 - 6:15 pm</td><td>8:15 - 9:15 am</td><td>n/a</td></tr><tr><th scope="row">Yoga 50 +</th><td>n/a</td><td>n/a</td><td>1 - 2 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">TMC&nbsp;</th><td>n/a</td><td>6:30 -&nbsp;7:30 pm</td><td>n/a</td><td>6:30 -&nbsp;7:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">TMC 50+</th><td>n/a</td><td>10:45 - 11:45 am</td><td>n/a</td><td>1:15 - 2:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba®</th><td>6:30 -&nbsp;7:30 pm</td><td>7 - 8 pm</td><td>6:30 - 7:30 pm</td><td>6:30 -&nbsp;7:30 pm</td><td>n/a</td><td>9:30 - 10:30 am</td><td>n/a</td></tr><tr><th scope="row">Zumba® Gold 50 +</th><td>n/a</td><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
@@ -820,6 +1011,23 @@ X-Varnish: 116121829 115895673
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/francoisdupuis">Reserve a spot at François Dupuis Recreation Centre</a></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule changes</strong></h3>
+<ul>
+<li><span><strong>Saturday, May 16 and Sunday, May 17</strong></span>
+<ul>
+<li><span>See Victoria Day weekend schedule.</span></li>
+</ul>
+</li>
+<li><span><strong>Monday, May 18</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -1321,14 +1529,14 @@ X-Varnish: 116121829 115895673
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/5594d807fbf60e4103cc584dab509a18">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -1342,7 +1550,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=43&cb=965790378" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=43&cb=1926739217" async></script></body>
 </html>
 
 
