@@ -1,0 +1,27 @@
+GET /v1.9/geocode?country=CA&q=1560+Clover+Street%0AOttawa+ON+K1H+2J5%0ACanada HTTP/1.1
+Host: api.geocod.io
+Authorization: redacted-65ffda17
+User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
+
+HTTP/2.0 200 OK
+Access-Control-Allow-Headers: Content-Type, User-Agent
+Access-Control-Allow-Methods: GET, POST, PATCH, DELETE
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Request-Handler
+Cache-Control: no-cache, private
+Content-Security-Policy: default-src 'none';
+Content-Type: application/json
+Date: Sat, 09 May 2026 00:20:27 GMT
+Request-Handler: api315
+Server: Unicorns with magic wands (https://www.geocod.io)
+X-Billable-Fields-Count: 0
+X-Billable-Lookups-Count: 1
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Period: 60
+X-Ratelimit-Remaining: 999
+X-Request-Id: 40ECC092:7400_05A11518:01BB_69FE7DCB_3D9A95:07A6
+X-Xss-Protection: 1; mode=block
+
+{"input":{"address_components":{"number":"1560","street":"Clover","suffix":"St","formatted_street":"Clover St","city":"Ottawa","state":"ON","zip":"K1H 2J5","country":"CA"},"formatted_address":"1560 Clover St, Ottawa, ON K1H 2J5"},"results":[{"stable_address_key":"gcod_cannfh7vevyl9hy6bqsssugax3zgg","address_components":{"number":"1560","street":"Clover","suffix":"St","formatted_street":"Clover St","city":"Ottawa","state":"ON","zip":"K1H","country":"CA"},"address_lines":["1560 Clover St","","Ottawa, ON K1H"],"formatted_address":"1560 Clover St, Ottawa, ON K1H","location":{"lat":45.379901,"lng":-75.677626},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}
