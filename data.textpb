@@ -8,7 +8,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/albion-heatherington-recreation-centre"
     _date {
-      seconds: 1778458680
+      seconds: 1778545181
     }
   }
   address:
@@ -30,7 +30,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/alexander-community-centre"
     _date {
-      seconds: 1778458682
+      seconds: 1778545184
     }
   }
   address:
@@ -48,7 +48,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/alfred-taylor-recreation-centre"
     _date {
-      seconds: 1778458684
+      seconds: 1778545186
     }
   }
   address:
@@ -68,7 +68,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/aquaview-community-hall"
     _date {
-      seconds: 1778458685
+      seconds: 1778545187
     }
   }
   address:
@@ -87,7 +87,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bayshore-community-building"
     _date {
-      seconds: 1778458688
+      seconds: 1778545189
     }
   }
   address:
@@ -108,7 +108,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/beacon-hill-north-community-centre"
     _date {
-      seconds: 1778458689
+      seconds: 1778545192
     }
   }
   address:
@@ -126,7 +126,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bearbrook-community-building"
     _date {
-      seconds: 1778458692
+      seconds: 1778545194
     }
   }
   address:
@@ -144,7 +144,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bearbrook-pool"
     _date {
-      seconds: 1778458693
+      seconds: 1778545195
     }
   }
   address:
@@ -160,13 +160,189 @@ facilities {
     "<li><strong>Pre-season</strong>, June 8 to 28</li>\n"
     "<li><strong>Regular season</strong>, June 29 to August 30</li>\n"
     "</ul>"
+  schedule_groups {
+    label: "Drop-in schedule - swim"
+    _title: "Swim"
+    schedules {
+      caption: "Bearbrook Outdoor Pool - swim - preseason - June 8 to 28"
+      _name: "bearbrook outdoor pool - swim - preseason"
+      _date: "June 8 to 28"
+      _from: 6080
+      _to: 6280
+      days: "Monday"
+      days: "Tuesday"
+      days: "Wednesday"
+      days: "Thursday"
+      days: "Friday"
+      days: "Saturday"
+      days: "Sunday"
+      _daydates: 2
+      _daydates: 3
+      _daydates: 4
+      _daydates: 5
+      _daydates: 6
+      _daydates: 7
+      _daydates: 1
+      activities {
+        label: "Lane swim"
+        _name: "lane swim"
+        days {
+          times {
+            label: "1 - 3 pm"
+            _start: 780
+            _end: 900
+            _wkday: MONDAY
+          }
+        }
+        days {
+          times {
+            label: "1 - 3 pm"
+            _start: 780
+            _end: 900
+            _wkday: TUESDAY
+          }
+        }
+        days {
+          times {
+            label: "1 - 3 pm"
+            _start: 780
+            _end: 900
+            _wkday: WEDNESDAY
+          }
+        }
+        days {
+          times {
+            label: "1 - 3 pm"
+            _start: 780
+            _end: 900
+            _wkday: THURSDAY
+          }
+        }
+        days {
+          times {
+            label: "1 - 3 pm"
+            _start: 780
+            _end: 900
+            _wkday: FRIDAY
+          }
+        }
+        days {
+          times {
+            label: "11:30 am - 12:30 pm"
+            _start: 690
+            _end: 750
+            _wkday: SATURDAY
+          }
+        }
+        days {
+          times {
+            label: "11:30 am - 12:30 pm"
+            _start: 690
+            _end: 750
+            _wkday: SUNDAY
+          }
+        }
+      }
+      activities {
+        label: "Public swim"
+        _name: "public swim"
+        days {
+          times {
+            label: "3 - 6 pm"
+            _start: 900
+            _end: 1080
+            _wkday: MONDAY
+          }
+        }
+        days {
+          times {
+            label: "3 - 6 pm"
+            _start: 900
+            _end: 1080
+            _wkday: TUESDAY
+          }
+        }
+        days {
+          times {
+            label: "3 - 6 pm"
+            _start: 900
+            _end: 1080
+            _wkday: WEDNESDAY
+          }
+        }
+        days {
+          times {
+            label: "3 - 6 pm"
+            _start: 900
+            _end: 1080
+            _wkday: THURSDAY
+          }
+        }
+        days {
+          times {
+            label: "3 - 6 pm"
+            _start: 900
+            _end: 1080
+            _wkday: FRIDAY
+          }
+        }
+        days {
+          times {
+            label: "12:30 - 5 pm"
+            _start: 750
+            _end: 1020
+            _wkday: SATURDAY
+          }
+        }
+        days {
+          times {
+            label: "12:30 - 5 pm"
+            _start: 750
+            _end: 1020
+            _wkday: SUNDAY
+          }
+        }
+      }
+      activities {
+        label: "Preschool swim -children's pool"
+        _name: "preschool swim -children's pool"
+        days {
+        }
+        days {
+        }
+        days {
+        }
+        days {
+        }
+        days {
+        }
+        days {
+          times {
+            label: "11:30 am - 12:30 pm"
+            _start: 690
+            _end: 750
+            _wkday: SATURDAY
+          }
+        }
+        days {
+          times {
+            label: "11:30 am - 12:30 pm"
+            _start: 690
+            _end: 750
+            _wkday: SUNDAY
+          }
+        }
+      }
+    }
+    _noresv: true
+  }
 }
 facilities {
   name: "Beaverbrook Pool - Kanata"
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/beaverbrook-pool-kanata"
     _date {
-      seconds: 1778458695
+      seconds: 1778545198
     }
   }
   address:
@@ -188,7 +364,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bell-centennial-arena"
     _date {
-      seconds: 1778458697
+      seconds: 1778545200
     }
   }
   address:
@@ -219,7 +395,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/belltown-dome"
     _date {
-      seconds: 1778458699
+      seconds: 1778545204
     }
   }
   address:
@@ -237,7 +413,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ben-franklin-place"
     _date {
-      seconds: 1778458701
+      seconds: 1778545204
     }
   }
   address:
@@ -254,7 +430,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ben-franklin-place-rink"
     _date {
-      seconds: 1778458703
+      seconds: 1778545206
     }
   }
   address:
@@ -272,7 +448,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena"
     _date {
-      seconds: 1778458706
+      seconds: 1778545209
     }
   }
   address:
@@ -297,7 +473,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/billings-estate-national-historic-site"
     _date {
-      seconds: 1778458707
+      seconds: 1778545211
     }
   }
   address:
@@ -320,7 +496,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans"
     _date {
-      seconds: 1778458709
+      seconds: 1778545212
     }
   }
   address:
@@ -3115,7 +3291,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/brewer-pool-and-arena"
     _date {
-      seconds: 1778458711
+      seconds: 1778545214
     }
   }
   address:
@@ -3428,7 +3604,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bridlewood-community-centre"
     _date {
-      seconds: 1778458714
+      seconds: 1778545216
     }
   }
   address:
@@ -3454,7 +3630,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex"
     _date {
-      seconds: 1778458715
+      seconds: 1778545218
     }
   }
   address:
@@ -3730,7 +3906,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/cardelrec-recreation-complex-goulbourn"
     _date {
-      seconds: 1778458717
+      seconds: 1778545220
     }
   }
   address:
@@ -5761,7 +5937,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/carleton-heights-community-centre"
     _date {
-      seconds: 1778458720
+      seconds: 1778545222
     }
   }
   address:
@@ -5782,7 +5958,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/carlington-recreation-centre"
     _date {
-      seconds: 1778458723
+      seconds: 1778545225
     }
   }
   address:
@@ -5808,7 +5984,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/champagne-fitness-centre"
     _date {
-      seconds: 1778458723
+      seconds: 1778545226
     }
   }
   address:
@@ -5841,7 +6017,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/chapman-mills-community-building"
     _date {
-      seconds: 1778458725
+      seconds: 1778545228
     }
   }
   address:
@@ -5866,7 +6042,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/churchill-seniors-centre"
     _date {
-      seconds: 1778458727
+      seconds: 1778545231
     }
   }
   address:
@@ -6001,7 +6177,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/constance-and-buckhams-bay-community-centre"
     _date {
-      seconds: 1778458731
+      seconds: 1778545235
     }
   }
   address:
@@ -6018,7 +6194,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/corkstown-pool"
     _date {
-      seconds: 1778458734
+      seconds: 1778545237
     }
   }
   address:
@@ -6040,7 +6216,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/crestview-pool"
     _date {
-      seconds: 1778458735
+      seconds: 1778545238
     }
   }
   address:
@@ -6563,7 +6739,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/cumberland-heritage-village-museum"
     _date {
-      seconds: 1778458737
+      seconds: 1778545240
     }
   }
   address:
@@ -6596,7 +6772,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/deborah-anne-kirwan-pool"
     _date {
-      seconds: 1778458739
+      seconds: 1778545242
     }
   }
   address:
@@ -6914,7 +7090,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/dempsey-community-centre"
     _date {
-      seconds: 1778458741
+      seconds: 1778545244
     }
   }
   address:
@@ -6926,9 +7102,21 @@ facilities {
     lat: 45.40259
   }
   notifications_html: "<p><strong>Pickleball can now be found in the gymnasium sports schedule.</strong></p>"
+  special_hours_html:
+    "<ul>\n"
+    "<li><span><strong>Monday, May 18</strong>, closed </span></li>\n"
+    "</ul>"
   schedule_groups {
     label: "Drop-in schedule - gymnasium sports"
     _title: "Gymnasium Sports"
+    schedule_changes_html:
+      "<ul>\n"
+      "<li><span><strong>Monday, May 18</strong></span>\n"
+      "<ul>\n"
+      "<li><span>The facility is closed and all programs cancelled.</span></li>\n"
+      "</ul>\n"
+      "</li>\n"
+      "</ul>"
     schedules {
       caption: "Dempsey Community Centre - gymnasium sports"
       _name: "gymnasium sports"
@@ -7075,7 +7263,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/diane-deans-greenboro-community-centre"
     _date {
-      seconds: 1778458743
+      seconds: 1778545246
     }
   }
   address:
@@ -7979,7 +8167,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/dovercourt-recreation-centre"
     _date {
-      seconds: 1778458745
+      seconds: 1778545248
     }
   }
   address:
@@ -7997,7 +8185,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/earl-armstrong-arena"
     _date {
-      seconds: 1778458748
+      seconds: 1778545251
     }
   }
   address:
@@ -8026,7 +8214,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/entrance-pool"
     _date {
-      seconds: 1778458749
+      seconds: 1778545252
     }
   }
   address:
@@ -8052,7 +8240,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/eva-james-memorial-community-centre"
     _date {
-      seconds: 1778458751
+      seconds: 1778545254
     }
   }
   address:
@@ -8066,17 +8254,9 @@ facilities {
   notifications_html: "<p><strong>Pickleball and badminton can now be found in the gymnasium sports schedule.</strong></p>"
   special_hours_html:
     "<ul>\n"
-    "<li><strong>Monday, May 4 to Sunday, May 10</strong>\n"
-    "<ul>\n"
-    "<li>The facility is closed and all programs cancelled.</li>\n"
-    "</ul>\n"
-    "</li>\n"
-    "</ul>\n"
-    "<h3><span>Modified hours</span></h3>\n"
-    "<ul>\n"
     "<li><span><strong>Saturday, May 16</strong>, 9 am to 4:30 pm</span></li>\n"
     "<li><span><strong>Sunday, May 17</strong>, 9 am to 4:30 pm</span></li>\n"
-    "<li><span><strong>Monday, May 18</strong>, closed </span></li>\n"
+    "<li><span><strong>Monday, May 18</strong>, closed</span></li>\n"
     "</ul>"
   schedule_groups {
     label: "Drop-in schedule - Victoria Day weekend"
@@ -8948,7 +9128,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fairfields-heritage-house"
     _date {
-      seconds: 1778458754
+      seconds: 1778545256
     }
   }
   address:
@@ -8960,7 +9140,7 @@ facilities {
     lat: 45.34906
   }
   special_hours_html:
-    "<p><span lang=\"EN-CA\">Fairfields Heritage House is closed for the winter season, with the exception of special programs and events. The museum will reopen to visitors in summer 2026. </span></p>\n"
+    "<p><span lang=\"EN-CA\" dir=\"ltr\">Fairfields Heritage House is closed for the winter season, with the exception of special programs and events. The museum will reopen to visitors in summer 2026. </span></p>\n"
     "<p> </p>"
 }
 facilities {
@@ -8968,7 +9148,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fallingbrook-community-centre"
     _date {
-      seconds: 1778458755
+      seconds: 1778545259
     }
   }
   address:
@@ -8989,7 +9169,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fisher-park-community-centre"
     _date {
-      seconds: 1778458758
+      seconds: 1778545260
     }
   }
   address:
@@ -9011,7 +9191,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/foster-farm-community-centre"
     _date {
-      seconds: 1778458759
+      seconds: 1778545262
     }
   }
   address:
@@ -9038,7 +9218,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre"
     _date {
-      seconds: 1778458761
+      seconds: 1778545264
     }
   }
   address:
@@ -11401,7 +11581,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena"
     _date {
-      seconds: 1778458764
+      seconds: 1778545266
     }
   }
   address:
@@ -11431,7 +11611,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/general-burns-pool"
     _date {
-      seconds: 1778458766
+      seconds: 1778545268
     }
   }
   address:
@@ -11599,7 +11779,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/genest-pool"
     _date {
-      seconds: 1778458768
+      seconds: 1778545270
     }
   }
   address:
@@ -11627,7 +11807,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/glebe-community-centre"
     _date {
-      seconds: 1778458769
+      seconds: 1778545272
     }
   }
   address:
@@ -11645,7 +11825,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/glen-cairn-community-centre"
     _date {
-      seconds: 1778458772
+      seconds: 1778545275
     }
   }
   address:
@@ -11663,7 +11843,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/glen-cairn-pool"
     _date {
-      seconds: 1778458773
+      seconds: 1778545276
     }
   }
   address:
@@ -11685,7 +11865,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/greely-community-centre"
     _date {
-      seconds: 1778458775
+      seconds: 1778545280
     }
   }
   address:
@@ -11761,7 +11941,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/heron-park-community-building"
     _date {
-      seconds: 1778458777
+      seconds: 1778545281
     }
   }
   address:
@@ -11784,7 +11964,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/heron-road-community-centre"
     _date {
-      seconds: 1778458779
+      seconds: 1778545282
     }
   }
   address:
@@ -12405,7 +12585,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/heron-seniors-centre"
     _date {
-      seconds: 1778458785
+      seconds: 1778545287
     }
   }
   address:
@@ -12436,7 +12616,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/hintonburg-community-centre"
     _date {
-      seconds: 1778458785
+      seconds: 1778545288
     }
   }
   address:
@@ -12675,7 +12855,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/howard-darwin-centennial-arena"
     _date {
-      seconds: 1778458788
+      seconds: 1778545291
     }
   }
   address:
@@ -12707,7 +12887,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/hunt-club-riverside-park-community-centre"
     _date {
-      seconds: 1778458789
+      seconds: 1778545292
     }
   }
   address:
@@ -12720,15 +12900,6 @@ facilities {
   }
   notifications_html: "<p><strong>Pickleball and badminton can now be found in the gymnasium sports schedule.</strong></p>"
   special_hours_html:
-    "<ul>\n"
-    "<li><strong>Saturday, May 9</strong>\n"
-    "<ul>\n"
-    "<li>Kinderplay, 9 to 10 am, <strong>cancelled</strong></li>\n"
-    "<li>Kinderplay, 10 to 11 am, <strong>cancelled</strong></li>\n"
-    "</ul>\n"
-    "</li>\n"
-    "</ul>\n"
-    "<h3>Modified hours</h3>\n"
     "<ul>\n"
     "<li><span><strong>Monday, May 18</strong>, closed</span></li>\n"
     "</ul>"
@@ -13009,12 +13180,6 @@ facilities {
     _title: "Gymnasium Sports"
     schedule_changes_html:
       "<ul>\n"
-      "<li><strong>Saturday, May 9</strong>\n"
-      "<ul>\n"
-      "<li>Kinderplay, 9 to 10 am, <strong>cancelled</strong></li>\n"
-      "<li>Kinderplay, 10 to 11 am, <strong>cancelled</strong></li>\n"
-      "</ul>\n"
-      "</li>\n"
       "<li><span><strong>Monday, May 18</strong></span>\n"
       "<ul>\n"
       "<li><span>The facility is closed and all programs cancelled.</span></li>\n"
@@ -13299,7 +13464,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ja-dulude-arena"
     _date {
-      seconds: 1778458791
+      seconds: 1778545294
     }
   }
   address:
@@ -13320,7 +13485,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jack-charron-arena"
     _date {
-      seconds: 1778458793
+      seconds: 1778545296
     }
   }
   address:
@@ -13353,7 +13518,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jack-purcell-community-centre"
     _date {
-      seconds: 1778458795
+      seconds: 1778545298
     }
   }
   address:
@@ -13918,7 +14083,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre"
     _date {
-      seconds: 1778458797
+      seconds: 1778545300
     }
   }
   address:
@@ -13932,111 +14097,6 @@ facilities {
   schedule_groups {
     label: "Drop-in schedule - skating"
     _title: "Skating"
-    schedules {
-      caption: "Jim Durrell Recreation Centre - skating - September 15, 2025 to April 30, 2026"
-      _name: "skating"
-      _date: "September 15, 2025 to April 30, 2026"
-      _from: 202509150
-      _to: 202604300
-      days: "Monday"
-      days: "Tuesday"
-      days: "Wednesday"
-      days: "Thursday"
-      days: "Friday"
-      days: "Saturday"
-      days: "Sunday"
-      _daydates: 2
-      _daydates: 3
-      _daydates: 4
-      _daydates: 5
-      _daydates: 6
-      _daydates: 7
-      _daydates: 1
-      activities {
-        label: "Public skating"
-        _name: "public skate"
-        days {
-        }
-        days {
-        }
-        days {
-        }
-        days {
-          times {
-            label: "Noon - 12:50 pm"
-            _start: 720
-            _end: 770
-            _wkday: THURSDAY
-          }
-        }
-        days {
-        }
-        days {
-        }
-        days {
-          times {
-            label: "4:15 - 5:05 pm"
-            _start: 975
-            _end: 1025
-            _wkday: SUNDAY
-          }
-        }
-      }
-      activities {
-        label: "Family skating"
-        _name: "family skate"
-        days {
-        }
-        days {
-        }
-        days {
-        }
-        days {
-        }
-        days {
-        }
-        days {
-        }
-        days {
-          times {
-            label: "3:15 - 4:05 pm"
-            _start: 915
-            _end: 965
-            _wkday: SUNDAY
-          }
-        }
-      }
-      activities {
-        label: "Adult 18+ skating"
-        _name: "adult skate 18+"
-        days {
-        }
-        days {
-          times {
-            label: "11 - 11:50 am"
-            _start: 660
-            _end: 710
-            _wkday: TUESDAY
-          }
-        }
-        days {
-        }
-        days {
-          times {
-            label: "11 - 11:50 am"
-            _start: 660
-            _end: 710
-            _wkday: THURSDAY
-          }
-        }
-        days {
-        }
-        days {
-        }
-        days {
-        }
-      }
-    }
     schedules {
       caption: "Jim Durrell Recreation Centre - skating - May 4 to June 30"
       _name: "skating"
@@ -14419,7 +14479,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-tubman-chevrolet-rink"
     _date {
-      seconds: 1778458800
+      seconds: 1778545302
     }
   }
   address:
@@ -14430,14 +14490,6 @@ facilities {
     lng: -75.62967
     lat: 45.39004
   }
-  special_hours_html:
-    "<ul>\n"
-    "<li><strong>Saturday, May 9</strong>\n"
-    "<ul>\n"
-    "<li>The Jim Tubman Chevrolet Rink will be closed until 6 pm due to an event.</li>\n"
-    "</ul>\n"
-    "</li>\n"
-    "</ul>"
   schedule_groups {
     label: "Drop-in schedule - Summer"
     _title: "Summer"
@@ -14906,7 +14958,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/john-g-mlacak-centre"
     _date {
-      seconds: 1778458801
+      seconds: 1778545304
     }
   }
   address:
@@ -14936,7 +14988,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/johnny-leroux-stittsville-community-arena"
     _date {
-      seconds: 1778458806
+      seconds: 1778545307
     }
   }
   address:
@@ -14956,7 +15008,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kanata-leisure-centre-and-wave-pool"
     _date {
-      seconds: 1778458806
+      seconds: 1778545308
     }
   }
   address:
@@ -15827,7 +15879,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kanata-seniors-centre"
     _date {
-      seconds: 1778458810
+      seconds: 1778545311
     }
   }
   address:
@@ -16187,7 +16239,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kars-recreation-hall"
     _date {
-      seconds: 1778458811
+      seconds: 1778545312
     }
   }
   address:
@@ -16207,7 +16259,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/katimavik-pool"
     _date {
-      seconds: 1778458812
+      seconds: 1778545314
     }
   }
   address:
@@ -16233,7 +16285,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ken-ross-park-field-house"
     _date {
-      seconds: 1778458814
+      seconds: 1778545317
     }
   }
   address:
@@ -16253,7 +16305,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kenmore-community-centre"
     _date {
-      seconds: 1778458818
+      seconds: 1778545319
     }
   }
   address:
@@ -16277,7 +16329,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lansdowne-park"
     _date {
-      seconds: 1778458819
+      seconds: 1778545320
     }
   }
   address:
@@ -16360,7 +16412,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/larkin-house-community-centre"
     _date {
-      seconds: 1778458821
+      seconds: 1778545323
     }
   }
   address:
@@ -16378,7 +16430,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lindenlea-community-centre"
     _date {
-      seconds: 1778458822
+      seconds: 1778545324
     }
   }
   address:
@@ -16396,7 +16448,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lois-kemp-arena-blackburn"
     _date {
-      seconds: 1778458824
+      seconds: 1778545327
     }
   }
   address:
@@ -16425,7 +16477,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool"
     _date {
-      seconds: 1778458826
+      seconds: 1778545328
     }
   }
   address:
@@ -17191,7 +17243,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/manor-park-community-centre"
     _date {
-      seconds: 1778458829
+      seconds: 1778545331
     }
   }
   address:
@@ -17209,7 +17261,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/manotick-community-centre-and-mike-oneil-arena"
     _date {
-      seconds: 1778458831
+      seconds: 1778545332
     }
   }
   address:
@@ -17239,7 +17291,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/mcnabb-arena-and-community-centre"
     _date {
-      seconds: 1778458832
+      seconds: 1778545335
     }
   }
   address:
@@ -17264,7 +17316,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/meridian-theatres-centrepointe"
     _date {
-      seconds: 1778458837
+      seconds: 1778545338
     }
   }
   address:
@@ -17281,7 +17333,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/metcalfe-community-centre-and-larry-robinson-arena"
     _date {
-      seconds: 1778458840
+      seconds: 1778545341
     }
   }
   address:
@@ -17314,7 +17366,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/michele-heights-community-centre"
     _date {
-      seconds: 1778458842
+      seconds: 1778545342
     }
   }
   address:
@@ -17345,7 +17397,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven"
     _date {
-      seconds: 1778458842
+      seconds: 1778545344
     }
   }
   address:
@@ -17358,6 +17410,15 @@ facilities {
   }
   notifications_html: "<p><strong>Pickleball and badminton can now be found in the gymnasium sports schedule.</strong></p>"
   special_hours_html:
+    "<ul>\n"
+    "<li><strong>Wednesday, May 13</strong>\n"
+    "<ul>\n"
+    "<li>Drums Alive<sup>®</sup>, 6:45 to 7:45 pm, cancelled</li>\n"
+    "<li>Zumba, 6:45 to 7:45 pm, <strong>added</strong></li>\n"
+    "</ul>\n"
+    "</li>\n"
+    "</ul>\n"
+    "<h3>Modified hours</h3>\n"
     "<ul>\n"
     "<li><span><strong>Monday, May 18</strong>, 7 am to 4 pm</span></li>\n"
     "</ul>"
@@ -17742,6 +17803,12 @@ facilities {
         days {
         }
         days {
+          times {
+            label: "4 - 4:50 pm"
+            _start: 960
+            _end: 1010
+            _wkday: SUNDAY
+          }
         }
         days {
         }
@@ -17752,6 +17819,12 @@ facilities {
         days {
         }
         days {
+          times {
+            label: "5 - 5:50 pm"
+            _start: 1020
+            _end: 1070
+            _wkday: SUNDAY
+          }
         }
         days {
         }
@@ -17844,8 +17917,8 @@ facilities {
         }
         days {
           times {
-            label: "6:30 - 8:30 am"
-            _start: 390
+            label: "7:15 - 8:30 am"
+            _start: 435
             _end: 510
             _wkday: THURSDAY
           }
@@ -18282,6 +18355,12 @@ facilities {
     _title: "Group Fitness"
     schedule_changes_html:
       "<ul>\n"
+      "<li><strong>Wednesday, May 13</strong>\n"
+      "<ul>\n"
+      "<li>Drums Alive<sup>®</sup>, 6:45 to 7:45 pm, cancelled</li>\n"
+      "<li>Zumba, 6:45 to 7:45 pm, <strong>added</strong></li>\n"
+      "</ul>\n"
+      "</li>\n"
       "<li><strong>Saturday, May 16 to Monday, May 18</strong>\n"
       "<ul>\n"
       "<li>See Victoria Day weekend schedule.</li>\n"
@@ -19282,7 +19361,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/navan-memorial-centre"
     _date {
-      seconds: 1778458845
+      seconds: 1778545347
     }
   }
   address:
@@ -19312,7 +19391,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-creative-arts-centre"
     _date {
-      seconds: 1778458847
+      seconds: 1778545348
     }
   }
   address:
@@ -19330,7 +19409,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-museum"
     _date {
-      seconds: 1778458849
+      seconds: 1778545351
     }
   }
   address:
@@ -19347,7 +19426,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-seniors-centre"
     _date {
-      seconds: 1778458851
+      seconds: 1778545353
     }
   }
   address:
@@ -19658,38 +19737,6 @@ facilities {
         days {
         }
       }
-      activities {
-        label: "Short mat bowling"
-        _name: "short mat bowling"
-        days {
-          times {
-            label: "1 - 3 pm"
-            _start: 780
-            _end: 900
-            _wkday: MONDAY
-          }
-        }
-        days {
-        }
-        days {
-          times {
-            label: "1 - 3 pm"
-            _start: 780
-            _end: 900
-            _wkday: WEDNESDAY
-          }
-          times {
-            label: "6:30 - 8:30 pm"
-            _start: 1110
-            _end: 1230
-            _wkday: WEDNESDAY
-          }
-        }
-        days {
-        }
-        days {
-        }
-      }
     }
   }
 }
@@ -19711,7 +19758,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-sportsplex"
     _date {
-      seconds: 1778458852
+      seconds: 1778545354
     }
   }
   address:
@@ -19872,20 +19919,9 @@ facilities {
       "<li><span>Public Swim, 1 to<strong> </strong>3 pm,<strong> 25m pool only</strong></span></li>\n"
       "</ul>\n"
       "</li>\n"
-      "<li><span><strong>Monday, May 11</strong></span>\n"
-      "<ul>\n"
-      "<li><span>Lane swim, 7:30 to 9 pm<strong>, cancelled</strong></span></li>\n"
-      "</ul>\n"
-      "</li>\n"
       "<li><span><strong>Tuesday, May 12</strong></span>\n"
       "<ul>\n"
       "<li><span>Lane Swim, 8:30 am to 1 pm,<strong> short course only</strong></span></li>\n"
-      "<li><span>Lane swim, 7:30 to 9 pm<strong>, cancelled</strong></span></li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "<li><span><strong>Wednesday, May 13 to Sunday, May 17</strong></span>\n"
-      "<ul>\n"
-      "<li><span>Lane swim, 7:30 to 9 pm<strong>, cancelled</strong></span></li>\n"
       "</ul>\n"
       "</li>\n"
       "<li><span><strong>Monday, May 18</strong></span>\n"
@@ -19893,16 +19929,6 @@ facilities {
       "<li><span>See Victoria Day schedule.</span></li>\n"
       "<li><span>Aquafit General, 8:30 to 9:30 am, <strong>cancelled</strong></span></li>\n"
       "<li>Aqua lite, 9:30 to 10:30 am,<strong> cancelled</strong></li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "<li><strong>Tuesday, May 19</strong>\n"
-      "<ul>\n"
-      "<li>Lane Swim, 7:30 to 8:30 pm,<strong> cancelled</strong></li>\n"
-      "</ul>\n"
-      "</li>\n"
-      "<li><strong>Friday, May 20 to Wednesday, May 27</strong>\n"
-      "<ul>\n"
-      "<li><span>Lane swim, 7:30 to 9 pm<strong>, cancelled</strong></span></li>\n"
       "</ul>\n"
       "</li>\n"
       "<li><span><strong>Thursday, May 28</strong></span>\n"
@@ -20041,33 +20067,33 @@ facilities {
         _name: "lane swim - 50m short course"
         days {
           times {
-            label: "7:30 - 9:30 pm"
+            label: "7:30 - 9:00 pm"
             _start: 1170
-            _end: 1290
+            _end: 1260
             _wkday: MONDAY
           }
         }
         days {
           times {
-            label: "7:30 - 9:30 pm"
+            label: "7:30 - 9:00 pm"
             _start: 1170
-            _end: 1290
+            _end: 1260
             _wkday: TUESDAY
           }
         }
         days {
           times {
-            label: "7:30 - 9:30 pm"
+            label: "7:30 - 9:00 pm"
             _start: 1170
-            _end: 1290
+            _end: 1260
             _wkday: WEDNESDAY
           }
         }
         days {
           times {
-            label: "7:30 - 9:30 pm"
+            label: "7:30 - 9:00 pm"
             _start: 1170
-            _end: 1290
+            _end: 1260
             _wkday: THURSDAY
           }
         }
@@ -21377,7 +21403,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-visual-arts-centre"
     _date {
-      seconds: 1778458855
+      seconds: 1778545356
     }
   }
   address:
@@ -21403,7 +21429,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/old-town-hall-community-centre"
     _date {
-      seconds: 1778458857
+      seconds: 1778545359
     }
   }
   address:
@@ -21421,7 +21447,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/osgoode-community-centre-and-stuart-holmes-arena"
     _date {
-      seconds: 1778458859
+      seconds: 1778545360
     }
   }
   address:
@@ -21456,7 +21482,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ottawa-south-community-centre"
     _date {
-      seconds: 1778458861
+      seconds: 1778545362
     }
   }
   address:
@@ -21480,7 +21506,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/overbrook-community-centre"
     _date {
-      seconds: 1778458862
+      seconds: 1778545364
     }
   }
   address:
@@ -21800,7 +21826,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pat-clark-community-centre"
     _date {
-      seconds: 1778458865
+      seconds: 1778545367
     }
   }
   address:
@@ -22011,7 +22037,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex"
     _date {
-      seconds: 1778458867
+      seconds: 1778545368
     }
   }
   address:
@@ -22994,7 +23020,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinheys-point-historic-site-0"
     _date {
-      seconds: 1778458869
+      seconds: 1778545371
     }
   }
   address:
@@ -23017,7 +23043,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/plant-recreation-centre"
     _date {
-      seconds: 1778458870
+      seconds: 1778545372
     }
   }
   address:
@@ -24194,7 +24220,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/rj-kennedy-community-centre-and-arena"
     _date {
-      seconds: 1778458873
+      seconds: 1778545374
     }
   }
   address:
@@ -24221,7 +24247,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex"
     _date {
-      seconds: 1778458875
+      seconds: 1778545376
     }
   }
   address:
@@ -25845,7 +25871,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata"
     _date {
-      seconds: 1778458876
+      seconds: 1778545378
     }
   }
   address:
@@ -28613,7 +28639,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richelieu-vanier-community-centre"
     _date {
-      seconds: 1778458879
+      seconds: 1778545381
     }
   }
   address:
@@ -28827,7 +28853,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richmond-memorial-community-centre"
     _date {
-      seconds: 1778458881
+      seconds: 1778545383
     }
   }
   address:
@@ -28857,7 +28883,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/rideauview-community-centre"
     _date {
-      seconds: 1778458882
+      seconds: 1778545384
     }
   }
   address:
@@ -29168,7 +29194,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/rockcliffe-park-community-centre"
     _date {
-      seconds: 1778458885
+      seconds: 1778545386
     }
   }
   address:
@@ -29191,7 +29217,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ron-kolbus-lakeside-centre"
     _date {
-      seconds: 1778458889
+      seconds: 1778545390
     }
   }
   address:
@@ -29213,7 +29239,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/routhier-community-centre"
     _date {
-      seconds: 1778458891
+      seconds: 1778545392
     }
   }
   address:
@@ -29548,7 +29574,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"
     _date {
-      seconds: 1778458893
+      seconds: 1778545394
     }
   }
   address:
@@ -29763,7 +29789,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-community-centre"
     _date {
-      seconds: 1778458895
+      seconds: 1778545396
     }
   }
   address:
@@ -29784,7 +29810,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sawmill-creek-community-centre-and-pool"
     _date {
-      seconds: 1778458897
+      seconds: 1778545398
     }
   }
   address:
@@ -30688,7 +30714,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/shenkman-arts-centre"
     _date {
-      seconds: 1778458899
+      seconds: 1778545400
     }
   }
   address:
@@ -30712,7 +30738,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/south-fallingbrook-community-centre"
     _date {
-      seconds: 1778458901
+      seconds: 1778545402
     }
   }
   address:
@@ -31135,7 +31161,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/southpointe-community-building"
     _date {
-      seconds: 1778458904
+      seconds: 1778545405
     }
   }
   address:
@@ -31160,7 +31186,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/splash-wave-pool"
     _date {
-      seconds: 1778458904
+      seconds: 1778545406
     }
   }
   address:
@@ -31734,7 +31760,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex"
     _date {
-      seconds: 1778458906
+      seconds: 1778545408
     }
   }
   address:
@@ -33107,7 +33133,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tanglewood-community-centre"
     _date {
-      seconds: 1778458910
+      seconds: 1778545411
     }
   }
   address:
@@ -33134,7 +33160,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/terry-fox-athletic-facility"
     _date {
-      seconds: 1778458910
+      seconds: 1778545413
     }
   }
   address:
@@ -33167,7 +33193,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena"
     _date {
-      seconds: 1778458913
+      seconds: 1778545415
     }
   }
   address:
@@ -33340,7 +33366,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tony-graham-recreation-complex-kanata"
     _date {
-      seconds: 1778458914
+      seconds: 1778545416
     }
   }
   address:
@@ -33358,7 +33384,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/vernon-recreation-centre"
     _date {
-      seconds: 1778458917
+      seconds: 1778545418
     }
   }
   address:
@@ -33375,7 +33401,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/w-erskine-johnston-arena"
     _date {
-      seconds: 1778458920
+      seconds: 1778545420
     }
   }
   address:
@@ -33405,7 +33431,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre"
     _date {
-      seconds: 1778458920
+      seconds: 1778545422
     }
   }
   address:
@@ -34562,7 +34588,7 @@ facilities {
   source {
     url: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/westcliffe-community-building"
     _date {
-      seconds: 1778458923
+      seconds: 1778545425
     }
   }
   address:
