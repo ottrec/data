@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/plant-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=3BmqwwRgQHa7odEkeMH42r8VBWoAAAAAQUIPAAAAAAAhJJWqimPBFtTWi8neEnkQ; nlbi_243507=lQdfHwZgJjX/vAl6aXmSIAAAAABnUfo6L241aAyamV9lTgrH; incap_ses_92_243507=wACkeG+ATzD7h+78sdlGAcAVBWoAAAAAFNPdnhFbOF4HRLk/DRpupg==
+Cookie: visid_incap_243507=cwSmgs9oQtqbV1iv0u2toJ9mBmoAAAAAQUIPAAAAAABD+ogmNAySeVBOxn6qWwJu; nlbi_243507=ym74K1nw13ptlFPuaXmSIAAAAABGE/3ZEGlJ5sLxUXeVlEaJ; incap_ses_1541_243507=8M5NM9mW1hn47lAwZrtiFZ9mBmoAAAAAiFB4v5zt5F/3nG/kEJv1og==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 495
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 14 May 2026 00:25:39 GMT
-Etag: "1778718324-gzip"
+Date: Fri, 15 May 2026 00:22:55 GMT
+Etag: "1778804079-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 14 May 2026 00:25:24 GMT
+Last-Modified: Fri, 15 May 2026 00:14:39 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-pznjw (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-w7fk5 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: HIT
+X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 40-104938790-104938796 SNNy RT(1778718144398 195116) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 1540899
+X-Iinfo: 10-21048695-21054311 SNNy RT(1778804383608 192261) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 9904402 9563292
 
-1099c
+10993
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -192,7 +192,7 @@ X-Varnish: 1540899
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5caff3fdc254a804dc236fa32481b8cd4a71e6ace220d9506bfc3a021aceb586">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9c2c0fb54498e8c6ab4a50413b927a65868681c171ac2f6c243e3df9708d87b8">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 1540899
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b13b1b7fb217a4413d1fdfc635bd31fc763a8281ffb9ef782d6d0778cb1a9709">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a77ff921eb86256486c20bb3ac7fdba1316abcd54a6e41bf1fadf5a507207c25">
   
     
       
@@ -926,8 +926,8 @@ X-Varnish: 1540899
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Registered programs</strong></h3>
 <p>Registered programs are structured activities that run weekly or seasonally. You must sign up in advance to participate. Examples include swimming lessons, dance or music classes and summer camps.</p>
 <ul>
-<li><span><span><a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?onlineSiteId=0&amp;locale=en-US&amp;activity_select_param=2&amp;center_ids=376&amp;price_id=CUSTOM_RANGE&amp;viewMode=list">Check out the courses and camps offered at this facility.</a></span></span></li>
-<li>Find registration dates and general information about the types of recreation programs offered -&nbsp;including virtual, PA days, Before and After School, and Day Camps -&nbsp;at&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/courses-and-camps">Courses and camps</a>.&nbsp;&nbsp;</li>
+<li><a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?onlineSiteId=0&amp;locale=en-US&amp;activity_select_param=2&amp;center_ids=376&amp;price_id=CUSTOM_RANGE&amp;viewMode=list"><span>Check out the courses and camps offered at this facility.</span></a></li>
+<li>Find registration dates and general information about the types of recreation programs offered -&nbsp;including virtual, PA days, Before and After School, and Day Camps -&nbsp;at&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps">Courses and camps</a>.&nbsp; </li>
 <li>Details about registration, payment, cancellation, terms and conditions can be viewed at Registered programs -&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/courses-and-camps/registered-programs-what-you-need-know">What you need to know</a>.</li>
 </ul></div>
       
