@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/foster-farm-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=cwSmgs9oQtqbV1iv0u2toJ9mBmoAAAAAQUIPAAAAAABD+ogmNAySeVBOxn6qWwJu; nlbi_243507=ym74K1nw13ptlFPuaXmSIAAAAABGE/3ZEGlJ5sLxUXeVlEaJ; incap_ses_1541_243507=8M5NM9mW1hn47lAwZrtiFZ9mBmoAAAAAiFB4v5zt5F/3nG/kEJv1og==
+Cookie: visid_incap_243507=LDgbs/dKRc+O314+5/qajaa3B2oAAAAAQUIPAAAAAABK4a7kAKG389CDUopXYa/R; nlbi_243507=cT++Kf1chRVrvcePaXmSIAAAAACe3kCnWs2zBMP/rYuIkLIp; incap_ses_1252_243507=DFdcSCYlGiSQO8B/cP9fEaa3B2oAAAAA7rb3EDyjAdhA0KlLv525LQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 423
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 15 May 2026 00:21:05 GMT
-Etag: "1778804039-gzip"
+Date: Sat, 16 May 2026 00:19:06 GMT
+Etag: "1778890745-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 15 May 2026 00:13:59 GMT
+Last-Modified: Sat, 16 May 2026 00:19:05 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-pznjw (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-w7fk5 (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 10-21048695-21052087 SNNN RT(1778804383608 82250) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 9585221 4874593
+X-Iinfo: 4-8929681-8929682 SNNy RT(1778890663268 82226) q(0 0 0 -1) r(7 7) U24
+X-Varnish: 12693853
 
-9f83
+9f85
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -192,7 +192,7 @@ X-Varnish: 9585221 4874593
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2acdf083d897d68adb271946761d6557720f6228f00c30aeee666360712c8f52">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f4ecf1cb9f0d30ca8bd3d48813d1cb05c9a828eb338ee22485dc44560527384b">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 9585221 4874593
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4cfbc272a49b57157c4a17b1c58eefa7e5dedc4cfb8fee9981bf0e7975a2bd15">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e25a6867afb75f1912fb952bc7f132ab7e0e852e3c97d060beed2356dec966ef">
   
     
       
@@ -867,14 +867,14 @@ X-Varnish: 9585221 4874593
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/024ad68dbf99e21f2c43f471d3f89a7c">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -888,7 +888,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=42&cb=1209267567" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=42&cb=1013728322" async></script></body>
 </html>
 
 
