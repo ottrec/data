@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=Re0PtqB/T8uFrlMLj5QkgqqhD2oAAAAAQUIPAAAAAABs7bh0DytixMtUAUntqCQz; nlbi_243507=pxRKbrNybmAe1jCcaXmSIAAAAADW3ptsBgpl3FeoQcFFEs/B; incap_ses_1843_243507=mUDgOkqNZjd0acCu/aaTGayhD2oAAAAAMX7fvDtbmlxwnVS7KeKtmA==
+Cookie: visid_incap_243507=Dze4tujgRzSYscNIjIh2+QTzEGoAAAAAQUIPAAAAAAAoQGsJi4JBTKSRB4T8DrQ4; nlbi_243507=95oKGNz0QDZT7rKbaXmSIAAAAAAOFvb+qJCJohwwZ7rk/c/u; incap_ses_1348_243507=eBXXboFfKSefV09NfA+1EgXzEGoAAAAAc704czDeI3pYAyMs1HbQgQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 17
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 22 May 2026 00:26:07 GMT
-Etag: "1779409550-gzip"
+Date: Sat, 23 May 2026 00:27:28 GMT
+Etag: "1779496046-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 22 May 2026 00:25:50 GMT
+Last-Modified: Sat, 23 May 2026 00:27:26 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 49-111601684-111604744 SNNy RT(1779409323299 244526) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 1476450 4371
+X-Iinfo: 14-7538299-7536475 SNNy RT(1779495684877 361307) q(0 0 0 -1) r(22 22) U24
+X-Varnish: 521316
 
-1266e
+1267d
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 1476450 4371
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre" />
 <meta name="dcterms.title" content="Walter Baker Sports Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-05-19" />
+<meta name="dcterms.date" content="2026-05-22" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 1476450 4371
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cb7b05fbc0b8759633c0f54fe6711e2652d1c822761db794821e80834babe85a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f88f5f56567001a0e0509d6d1af866736706c278d070d097e9a07b0c35f53826">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 1476450 4371
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-926485252eddeeaffe535482d5511ea48c76341924d488ed61ec51fbf3501335">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c5f0cfcd7333c0e54823256703f64fdb8090ffbb9e09e160094e53780597931d">
   
     
       
@@ -287,8 +287,10 @@ X-Varnish: 1476450 4371
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>The hot tub and steam room are closed until further notice.</p>
-<p><strong>Monday, May 11 to Sunday, June 28, the pool is closed for annual maintenance.</strong></p></div>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li>The hot tub and steam room are closed until further notice.</li>
+<li><strong>Monday, May 11 to Sunday, June 28, the pool is closed for annual maintenance.</strong></li>
+</ul></div>
       
 
 <div class="mb-3">
