@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=FaPTIA/RSTSGQslKNBTF1eDcGGoAAAAAQUIPAAAAAAAkGhnljD+jW+ifIa+cUUCu; nlbi_243507=a2YjVXb5ygt1jARLaXmSIAAAAACM0tXGMxiM/gtB5BmzGhjI; incap_ses_1840_243507=3LKrHMV8hxZvEiJv+P6IGeHcGGoAAAAAX78SF4k1/IcwGS2tt46oOA==
+Cookie: visid_incap_243507=LQPB2zE3TAGD9inuHzooP9ctGmoAAAAAQUIPAAAAAAC5x82yNwfizZtaEmJRp6ec; nlbi_243507=8mRsF8H01nbcYNBuaXmSIAAAAAA8DAEsr3eqN/wDhmbHbR+J; incap_ses_1841_243507=WbhrLijA8A0hQvl9gIyMGdgtGmoAAAAAG4SUsXB2sijSUM7JW0HgtQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 184
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 29 May 2026 00:28:25 GMT
-Etag: "1780014320-gzip"
+Date: Sat, 30 May 2026 00:26:09 GMT
+Etag: "1780100769-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 29 May 2026 00:25:20 GMT
+Last-Modified: Sat, 30 May 2026 00:26:09 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-pznjw (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 60-125162686-125162696 SNNN RT(1780014305304 199639) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 29394852 28765848
+X-Iinfo: 49-71938525-71967942 SNNy RT(1780100568485 200612) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 22569206
 
-13064
+131b0
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 29394852 28765848
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata" />
 <meta name="dcterms.title" content="Richcraft Recreation Complex-Kanata" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-05-28" />
+<meta name="dcterms.date" content="2026-05-29" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 29394852 28765848
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f213a0b9360c8710d44e12a7d7ebde67968a4c8ba53475ba650df6ac70ada180">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7c025bfca8ce38d50576cb9ef85d52c0aea5c96ea46722a5b979df5c331b9cd2">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 29394852 28765848
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-94900afdb032545e1e0182b624358d8e101c8b85ffe9eb5d3476046bd92d2a3e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bb70a70369f9c847a86840751baadf51a8a4a44f08bf7eb507847d5d7f1620b1">
   
     
       
@@ -278,7 +278,7 @@ X-Varnish: 29394852 28765848
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
 </div>
       
 
@@ -297,6 +297,12 @@ X-Varnish: 29394852 28765848
 <ul>
 <li>Aqua Zumba<sup>®</sup>, 7 to 8 pm, <strong>cancelled</strong></li>
 <li>Aquafit, 7 to 8 pm, <strong>added</strong></li>
+</ul>
+</li>
+<li><strong>Tuesday, June 2</strong>
+<ul>
+<li>Zumba Toning, 6:15 to 7:15 pm, <strong>cancelled</strong></li>
+<li>Zumba, 6:15 to 7:15 pm, <strong>added</strong></li>
 </ul>
 </li>
 </ul></div>
@@ -752,7 +758,7 @@ X-Varnish: 29394852 28765848
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
 <li><strong>Friday, May 29</strong>
 <ul>
@@ -760,12 +766,18 @@ X-Varnish: 29394852 28765848
 <li>Zumba<sup>®</sup> Gold, 10:30 to 11:30 am, <strong>added</strong></li>
 </ul>
 </li>
+<li><strong>Tuesday, June 2</strong>
+<ul>
+<li>Zumba Toning, 6:15 to 7:15 pm, <strong>cancelled</strong></li>
+<li>Zumba, 6:15 to 7:15 pm, <strong>added</strong></li>
+</ul>
+</li>
 </ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Richcraft Recreation Complex - Kanata - group fitness - May 4 to June 28</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Bootcamp</th><td>7:30 - 8:30 am</td><td>n/a</td><td>7:30 - 8:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength</th><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio 50+</th><td>n/a</td><td>n/a</td><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Chair Exercise&nbsp;</span><br><span>(Heartwise) - 50+</span></th><td>3 - 4 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Core Conditioning</span></th><td><span>4:15 - 5:15 pm&nbsp;</span></td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">HIIT</th><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Indoor cycling</th><td>n/a</td><td>n/a</td><td>n/a</td><td>6:30 - 7:30 am,&nbsp;<br>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Pilates</th><td>n/a</td><td>n/a</td><td>10:45 - 11:45 am</td><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span dir="ltr">Strength</span></th><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">TRX</th><td>n/a</td><td>n/a</td><td>n/a</td><td>1 - 2 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td><span dir="ltr">6:45 - 7:45 pm,</span><span>&nbsp;</span><br><span dir="ltr">8 - 9 pm</span><span>&nbsp;</span></td><td>n/a</td><td><span dir="ltr">2:30 - 3:30 pm,</span><span>&nbsp;</span><br><span dir="ltr">3:45 - 4:45 pm,</span><span>&nbsp;</span><br><span dir="ltr">7:15 - 8:15 pm</span><span>&nbsp;</span></td><td>9:30 - 10:30 am,&nbsp;<br>10:45 - 11:45 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span dir="ltr">Yoga Chair&nbsp;</span><br><span dir="ltr">(Heartwise) - 50+</span><span>&nbsp;</span></th><td>n/a</td><td>n/a</td><td><span dir="ltr">1:15 - 2:15 pm</span><span>&nbsp;</span></td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup></th><td>7:30 - 8:30 pm</td><td>9:30 - 10:30 am</td><td>6 - 7 pm,&nbsp;<br>7 - 8 pm</td><td>9:30 - 10:30 am</td><td>6 - 7 pm,&nbsp;<br>7 - 8 pm</td><td>9:30 - 10:30 am</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup> Gold</th><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup> Toning</th><td>n/a</td><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Richcraft Recreation Complex - Kanata - group fitness - May 4 to June 28</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Bootcamp</th><td>7:30 - 8:30 am</td><td>n/a</td><td>7:30 - 8:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength</th><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio 50+</th><td>n/a</td><td>n/a</td><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Chair Exercise&nbsp;</span><br><span>(Heartwise) - 50+</span></th><td>3 - 4 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Core Conditioning</span></th><td><span>4:15 - 5:15 pm&nbsp;</span></td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">HIIT</th><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Indoor cycling</th><td>n/a</td><td>n/a</td><td>n/a</td><td>6:30 - 7:30 am,&nbsp;<br>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Pilates</th><td>n/a</td><td>n/a</td><td>10:45 - 11:45 am</td><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span dir="ltr">Strength</span></th><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">TRX</th><td>n/a</td><td>n/a</td><td>n/a</td><td>1 - 2 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td><span dir="ltr">6:45 - 7:45 pm,</span><span>&nbsp;</span><br><span dir="ltr">8 - 9 pm</span><span>&nbsp;</span></td><td>n/a</td><td><span dir="ltr">2:30 - 3:30 pm,</span><span>&nbsp;</span><br><span dir="ltr">3:45 - 4:45 pm,</span><span>&nbsp;</span><br><span dir="ltr">7:15 - 8:15 pm</span><span>&nbsp;</span></td><td>9:30 - 10:30 am,&nbsp;<br>10:45 - 11:45 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span dir="ltr">Yoga Chair&nbsp;</span><br><span dir="ltr">(Heartwise) - 50+</span><span>&nbsp;</span></th><td>n/a</td><td>n/a</td><td><span dir="ltr">1:15 - 2:15 pm</span><span>&nbsp;</span></td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup></th><td>7:30 - 8:30 pm</td><td>9:30 - 10:30 am</td><td>6 - 7 pm,&nbsp;<br>7 - 8 pm</td><td>5 - 6 pm,<br>6:30 - 7:30 pm</td><td>6 - 7 pm,&nbsp;<br>7 - 8 pm</td><td>9:30 - 10:30 am</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup> Gold</th><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup> Toning</th><td>n/a</td><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
 
@@ -952,8 +964,8 @@ X-Varnish: 29394852 28765848
 <p>Registered programs are structured activities that run weekly or seasonally. You must sign up in advance to participate. Examples include swimming lessons, dance or music classes and summer camps.</p>
 <ul>
 <li><a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?onlineSiteId=0&amp;locale=en-US&amp;activity_select_param=2&amp;center_ids=165&amp;price_id=CUSTOM_RANGE&amp;viewMode=list"><span>Check out the courses and camps offered at this facility.</span></a></li>
-<li>Find registration dates and general information about the types of recreation programs offered -&nbsp;including virtual, PA days, Before and After School, and Day Camps -&nbsp;at&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps">Courses and camps</a>.&nbsp; </li>
-<li>Details about registration, payment, cancellation, terms and conditions can be viewed at Registered programs -&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/courses-and-camps/registered-programs-what-you-need-know">What you need to know</a>.</li>
+<li>Find registration dates and general information about the types of recreation programs offered -&nbsp;including virtual, PA days, Before and After School, and Day Camps -&nbsp;at&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps">Courses and camps</a>. </li>
+<li>Details about registration, payment, cancellation, terms and conditions can be viewed at Registered programs -&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps">What you need to know</a>.</li>
 </ul></div>
       
       </div>
