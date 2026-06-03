@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=gbE3424RSIqEo9Ttty4mtqAjHmoAAAAAQUIPAAAAAAD9CGrJn79mHk0ErsoBQYVB; nlbi_243507=ptGnP6m9/wnK0ItjaXmSIAAAAAD6JGYyLxOhZuIvmALkMUoT; incap_ses_1847_243507=EgBqHM/S7hvAXf/9bt2hGaAjHmoAAAAAqkReLor9rt8aBBmV5Jgxhg==
+Cookie: visid_incap_243507=98261ZyCSoeZ1TQXRBqy3SR2H2oAAAAAQUIPAAAAAABTkbUt30n7xs48ptoTAtfO; nlbi_243507=E689YlHmzQN/40l9aXmSIAAAAAA2DFWi/WHPLtv3ipOrUSax; incap_ses_1845_243507=u0CjNASHM1RA0Qs3i8KaGSV2H2oAAAAADTvhs+D4AYYxfZtS1ZFXzw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 216
+Age: 87
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 02 Jun 2026 00:32:19 GMT
-Etag: "1780360026-gzip"
+Date: Wed, 03 Jun 2026 00:36:40 GMT
+Etag: "1780446911-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 02 Jun 2026 00:27:06 GMT
+Last-Modified: Wed, 03 Jun 2026 00:35:11 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-pznjw (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: HIT
+X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 36-47019970-47018491 SNNy RT(1780360096831 242906) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 29664684 28759397
+X-Iinfo: 50-52299497-52299914 SNNN RT(1780446757735 242256) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 1642498 563294
 
-1265e
+12e17
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 29664684 28759397
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre" />
 <meta name="dcterms.title" content="Walter Baker Sports Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-05-22" />
+<meta name="dcterms.date" content="2026-06-02" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 29664684 28759397
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a412b811ff6edfec1c51f60ad0e38f94c6b60cf5c182c21f0a08344c52dabd37">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c8586d9b4059b332adcf74afc9e22bf8be84e487548ea6fd84dd7197d1bccbc1">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 29664684 28759397
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1a30757274361808d563cdb165e5b5928c95e35f47418fc09f92c3bcaccb4d00">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-dda170f75868300ee7a812479da1d51241a06920d1b83dda19e14d79bd7ead21">
   
     
       
@@ -287,9 +287,20 @@ X-Varnish: 29664684 28759397
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li>The hot tub and steam room are closed until further notice.</li>
-<li><strong>Monday, May 11 to Sunday, June 28, the pool is closed for annual maintenance.</strong></li>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>The hot tub and steam room are closed until further notice.</p>
+<ul>
+<li><strong>Monday, May 11 to Sunday, June 28</strong>
+<ul>
+<li>the pool is closed for annual maintenance.</li>
+</ul>
+</li>
+<li><strong>Tuesday, June 2 to Wednesday, June 24</strong>
+<ul>
+<li>Weight and cardio rooms, closed for maintenance.</li>
+<li>Squash courts closed for maintenance.</li>
+<li>All changerooms closed for maintenance.</li>
+</ul>
+</li>
 </ul></div>
       
 
@@ -600,6 +611,19 @@ X-Varnish: 29664684 28759397
 <p><strong>Reservations not required.</strong></p></div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Closures</h3>
+<ul>
+<li><strong>Tuesday, June 2 to Wednesday, June 24</strong>
+<ul>
+<li>Weight and cardio rooms, closed for maintenance.</li>
+<li>All changerooms closed for maintenance.</li>
+</ul>
+</li>
+</ul></div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table>
@@ -723,6 +747,18 @@ X-Varnish: 29664684 28759397
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/walterbaker" target="_blank" title="Opens in a new window.">Reserve a spot at Walter Baker Sports Centre</a></p></div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Closure</h3>
+<ul>
+<li><strong>Tuesday, June 2 to Wednesday, June 24</strong>
+<ul>
+<li>All changerooms closed for maintenance.</li>
+</ul>
+</li>
+</ul></div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Walter Baker Sports Centre - group fitness - March 23 to June 25</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Cardio and strength -&nbsp;<br>older adult</th><td>9:15 -&nbsp;10:15 am&nbsp;</td><td>n/a&nbsp;</td><td>9:15 -&nbsp;10:15 am&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th scope="row">Cardio and strength -&nbsp;<br>older adult lite</th><td>9:30 -&nbsp;10:30 am&nbsp;</td><td>n/a&nbsp;</td><td>9:30 -&nbsp;10:30 am&nbsp;</td><td>9:30 -&nbsp;10:30 am</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th scope="row">Core conditioning</th><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>9:15 -&nbsp;10:15 am&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th scope="row">Strength TMC -<br>older adult</th><td>10:20 -&nbsp;11:20 am&nbsp;</td><td>n/a&nbsp;</td><td>n/a</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th scope="row">Strength and Balance -&nbsp;<br>older adult</th><td>n/a&nbsp;</td><td>9:30 -&nbsp;10:30 am&nbsp;</td><td>n/a</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th scope="row">Strength circuit -<br>older adult</th><td>n/a</td><td>n/a</td><td>10:20 -&nbsp;11:20 am&nbsp;</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>10:35 -&nbsp;11:35 am&nbsp;</td><td>10:20 -&nbsp;11:20 am</td><td><span>11:50 am - 12:50 pm&nbsp;</span></td><td>10:20 -11:20 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba®</th><td>n/a&nbsp;</td><td>9:15 -&nbsp;10:15 am&nbsp;</td><td>n/a&nbsp;</td><td>n/a</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr></tbody></table></div>
@@ -817,6 +853,18 @@ X-Varnish: 29664684 28759397
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/walterbaker" target="_blank" title="Opens in a new window.">Reserve a spot at Walter Baker Sports Centre</a></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Closure</h3>
+<ul>
+<li><strong>Tuesday, June 2 to Wednesday, June 24</strong>
+<ul>
+<li>All changerooms closed for maintenance.</li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -919,6 +967,19 @@ X-Varnish: 29664684 28759397
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/walterbaker" target="_blank" title="Opens in a new window.">Reserve a spot at Walter Baker Sports Centre</a></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>Closures</p>
+<ul>
+<li><strong>Tuesday, June 2 to Wednesday, June 24</strong>
+<ul>
+<li>Squash courts closed for maintenance.</li>
+<li>All changerooms closed for maintenance.</li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
