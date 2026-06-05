@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/plant-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=utPggCR7TPCYGER+t1mzyMzHIGoAAAAAQUIPAAAAAADec6NIrFu7A9z9stOXg/+9; nlbi_243507=yQEvZETNhUCllMULaXmSIAAAAAD4cqQRbBQJPbpzhvOjS2CJ; incap_ses_1542_243507=LeB+K+7BG2GNLftB50hmFczHIGoAAAAAiemdOwhPpyMUHCn4ZJ8vJQ==
+Cookie: visid_incap_243507=8sLb433KTBOWNcuzRziGUGgXImoAAAAAQUIPAAAAAACtqnnA6gFLQLxxqYLz/tZB; nlbi_243507=ra3qLG/rH2IcGvJEaXmSIAAAAAA3Cph7awZ3t509FoQB/KBT; incap_ses_1847_243507=Cd9CPPN9HQ8Md2cWb92hGWkXImoAAAAA/rrmvRJB9aG5s/NtWG4ehg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 617
+Age: 186
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 04 Jun 2026 00:36:31 GMT
-Etag: "1780532773-gzip"
+Date: Fri, 05 Jun 2026 00:28:24 GMT
+Etag: "1780619116-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 04 Jun 2026 00:26:13 GMT
+Last-Modified: Fri, 05 Jun 2026 00:25:16 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: MISS
+X-Drupal-Cache: HIT
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 13-130178820-130176095 SNNy RT(1780533197520 193467) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 9929003 9832582
+X-Iinfo: 49-280879519-280879528 SNNy RT(1780619112800 192024) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 2041714 1281009
 
-e962
+f030
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ e962
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/plant-recreation-centre" />
 <meta name="dcterms.title" content="Plant Recreation Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-05-19" />
+<meta name="dcterms.date" content="2026-06-04" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ e962
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-926d2ecf5dc574d03e803c0fe699acae6fb4ab2c0e087dc60a21ea18ebfbfd7c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-46fdae340f05c9913cedabef1b4f1d55404f4080c67b0b047d39c650003a64fb">
   
     
       
@@ -206,7 +206,7 @@ e962
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3bb51b58b5cf047979edb54bc027a25a0902a9cea37f7e2d358375410fc7292c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-67f31cdb9f142bf0843d98fcf80c903da214eb697d3d34f1b8c2c30809c24911">
   
     
       
@@ -274,7 +274,28 @@ e962
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Facility closure</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Thursday, June 4</strong>
+<ul>
+<li><span>Facility is closed due to a power outage.</span></li>
+</ul>
+</li>
+</ul></div>
+      
+
+<div class="mb-3">
 
 
 
@@ -474,6 +495,18 @@ e962
 <p><strong>Reservations are not required.</strong></p></div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Facility closure</strong></h3>
+<ul>
+<li><strong>Thursday, June 4</strong>
+<ul>
+<li><span>Facility is closed due to a power outage.</span></li>
+</ul>
+</li>
+</ul></div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Plant Recreation Centre -&nbsp;swim and aquafitness - April 20 to Jun 21</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Lane swim&nbsp;</th><td>7 - 9 am,&nbsp;<br>11:30 am - 1 pm,<br>3 - 5 pm,<br>8:30 -&nbsp;9:30 pm&nbsp;</td><td>7 - 9 am, &nbsp;<br>10:30 am - 1 pm,&nbsp;<br>2 - 5 pm,<br>8:30 - 9:30 pm</td><td>7 - 9 am,&nbsp;<br>11:30 am - 1 pm,&nbsp;<br>3 - 5&nbsp;pm,<br>8:30 - 9:30 pm&nbsp;</td><td>10:30 am - 1 pm,&nbsp;<br>3 - 5&nbsp;pm,&nbsp;<br>8:30 - 9:30 pm&nbsp;</td><td>7 - 9 am,&nbsp;<br>11:30 am - 1 pm,&nbsp;<br>2 - 6 pm,&nbsp;<br>8 - 9:30 pm</td><td>Noon -&nbsp;1:30 pm,&nbsp;<br>6 -&nbsp;7 pm&nbsp;<br><strong>Play Free</strong></td><td>Noon - 1:30 pm,&nbsp;<br>4 - 5:30 pm&nbsp;</td></tr><tr><th scope="row">Lane swim - reduced capacity &nbsp;</th><td>9 - 11:30 am,&nbsp;<br>1 - 3 pm</td><td>9 - 10:30 am,<br>1 - 2 pm</td><td>9 - 11:30 am,&nbsp;<br>1 - 3 pm,&nbsp;<br>7:30 - 8:30 pm</td><td>9 - 10:30 am,&nbsp;<br>1 - 3&nbsp;pm</td><td>9 - 11:30 am,&nbsp;<br>1 - 2 pm</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th scope="row">Public swim &nbsp;</th><td>n/a&nbsp;</td><td>6 - 7:30 pm&nbsp;</td><td>n/a</td><td>1 - 2 pm&nbsp;</td><td>1 - 2 pm,&nbsp;<br>6 - 8 pm</td><td>1:30 - 4 pm&nbsp;<br><strong>Play Free</strong></td><td>1:30 -&nbsp;4 pm&nbsp;</td></tr><tr><th scope="row">Public swim -&nbsp;leisure pool only &nbsp;</th><td>10:30 am - 1 pm,<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,&nbsp;<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,&nbsp;<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,<br>4 - 8 pm&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th scope="row">Hot tub and steam room</th><td>7 am - 5 pm,&nbsp;<br>8:30 - 9:30 pm</td><td>7 am - 5 pm,&nbsp;<br>6 - 7:30 pm,&nbsp;<br>8:30 - 9:30 pm</td><td>7 am - 5 pm,&nbsp;<br>7:30 - 9:30 pm</td><td>9 am - 5 pm,&nbsp;<br>8:30 - 9:30 pm</td><td>7 am - 9:30 pm</td><td>Noon - 4 pm,&nbsp;<br>6 - 7 pm</td><td>Noon - 5:30 pm</td></tr><tr><th scope="row">Aquafit General&nbsp;</th><td>9 - 10 am,<br>10 - 11 am,&nbsp;<br>5 - 6 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>10 - 11 am,&nbsp;<br>5 - 6 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>10 -11 am&nbsp;</td><td>9 - 10 am&nbsp;</td><td>10 -&nbsp;11 am&nbsp;</td></tr></tbody></table></div>
@@ -572,6 +605,18 @@ e962
 <p>Reservations not required.</p></div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Facility closure</strong></h3>
+<ul>
+<li><strong>Thursday, June 4</strong>
+<ul>
+<li><span>Facility is closed due to a power outage.</span></li>
+</ul>
+</li>
+</ul></div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Plant Recreation Centre -&nbsp;weight and cardio room -&nbsp;April 20 to June 21</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Weight and cardio room &nbsp;</th><td>6:45 am - 9:30 pm&nbsp;</td><td>6:45 am -&nbsp;9:30 pm&nbsp;</td><td>6:45 am -&nbsp;9:30 pm&nbsp;</td><td>8:30&nbsp;am -&nbsp;9:30 pm&nbsp;</td><td>6:45 am - 9:30 pm&nbsp;</td><td>8 am -&nbsp;7 pm&nbsp;</td><td>8 am -&nbsp;5:30 pm&nbsp;</td></tr></tbody></table></div>
@@ -662,6 +707,18 @@ e962
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
 <p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
 <p>Reservations not required.</p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Facility closure</strong></h3>
+<ul>
+<li><strong>Thursday, June 4</strong>
+<ul>
+<li><span>Facility is closed due to a power outage.</span></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
