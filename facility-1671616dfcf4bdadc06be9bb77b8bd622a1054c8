@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/bearbrook-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=4VR21FMtSoOG+tTmRhZq0XpcJ2oAAAAAQUIPAAAAAAD10vQewUWZlOPmNIVfgVYX; nlbi_243507=KYSzXElUGQIY5mOlaXmSIAAAAACZT9etxoJVIcZ3jAX+QXK6; incap_ses_1843_243507=tjcSCZ8dpH09+XM5AKeTGXtcJ2oAAAAAxH5UJKR/fHy/iCW0aaEPmw==
+Cookie: visid_incap_243507=8DI8KdFCTqy51tuMlCzln2evKGoAAAAAQUIPAAAAAADy22oLR/9zN5yKPn37lK1Y; nlbi_243507=WzfKRwR2Nhpja8FeaXmSIAAAAAAF+cQyO2SIlv6SgfwtUfP1; incap_ses_1841_243507=FuIseDqiNEykxjQagYyMGWevKGoAAAAAbGZMBcVS+3w+xB0PUn6ZGA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 647
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 09 Jun 2026 00:21:31 GMT
-Etag: "1780963822-gzip"
+Date: Wed, 10 Jun 2026 00:27:36 GMT
+Etag: "1781051255-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 09 Jun 2026 00:10:22 GMT
+Last-Modified: Wed, 10 Jun 2026 00:27:35 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: HIT
+X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 55-314279228-314279239 SNNN RT(1780964475301 15995) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 18041571 16154531
+X-Iinfo: 46-185625368-185625371 SNNy RT(1781051239793 15959) q(0 0 0 -1) r(4 4) U24
+X-Varnish: 10083603
 
-ac02
+aaaf
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -192,7 +192,7 @@ ac02
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6087fc85534c115912f82f8349471ab0301d9f79e229d299753a89feb4ac5486">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1509572581eddd8abef1102cd120dc25b463efb56d802d797e6ea53fb7a2cb9b">
   
     
       
@@ -206,7 +206,7 @@ ac02
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b84644a69efc4db095f48f8d08585cb43cbe233663d2ff92dc29db757b11f61c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0d95e7ad8ba3f17e397955c53c277e4999898bd66cac8dab44d3388ae367f959">
   
     
       
@@ -551,11 +551,8 @@ ac02
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><strong>Registered programs</strong></span></h3>
 <p><span>Registered programs are structured activities that run weekly or seasonally. You must sign up in advance to participate. Examples include swimming lessons, dance or music classes and summer camps.</span></p>
-<ul>
-<li><a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?onlineSiteId=0&amp;locale=en-US&amp;activity_select_param=2&amp;center_ids=325&amp;viewMode=list" target="_blank"><u>Check out the courses and camps offered at this facility.</u></a></li>
-<li><span>Find registration dates and general information about the types of recreation programs offered -&nbsp;including virtual, PA days, Before and After School, and Day Camps -&nbsp;at </span><a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps"><span><u>Courses and camps</u></span></a><span>.</span></li>
-<li><span>Details about registration, payment, cancellation, terms and conditions can be viewed at Registered programs - </span><a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps"><span><u>What you need to know</u></span></a><span>.</span></li>
-</ul></div>
+<p><a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?onlineSiteId=0&amp;locale=en-US&amp;activity_select_param=2&amp;center_ids=325&amp;viewMode=list" target="_blank"><u>Check out the courses and camps offered at this facility.</u></a></p>
+<p><span>Details about registration, including program types, dates, payment, cancellation, terms and conditions, can be viewed at </span><a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps"><span>Register for courses and camps</span></a><span>.</span></p></div>
       
       </div>
 
@@ -938,7 +935,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=9&cb=1453858511" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=9&cb=489151228" async></script></body>
 </html>
 
 

@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/hunt-club-riverside-park-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=4VR21FMtSoOG+tTmRhZq0XpcJ2oAAAAAQUIPAAAAAAD10vQewUWZlOPmNIVfgVYX; nlbi_243507=KYSzXElUGQIY5mOlaXmSIAAAAACZT9etxoJVIcZ3jAX+QXK6; incap_ses_1843_243507=tjcSCZ8dpH09+XM5AKeTGXtcJ2oAAAAAxH5UJKR/fHy/iCW0aaEPmw==
+Cookie: visid_incap_243507=8DI8KdFCTqy51tuMlCzln2evKGoAAAAAQUIPAAAAAADy22oLR/9zN5yKPn37lK1Y; nlbi_243507=WzfKRwR2Nhpja8FeaXmSIAAAAAAF+cQyO2SIlv6SgfwtUfP1; incap_ses_1841_243507=FuIseDqiNEykxjQagYyMGWevKGoAAAAAbGZMBcVS+3w+xB0PUn6ZGA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 60
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 09 Jun 2026 00:23:07 GMT
-Etag: "1780964526-gzip"
+Date: Wed, 10 Jun 2026 00:29:12 GMT
+Etag: "1781051351-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 09 Jun 2026 00:22:06 GMT
+Last-Modified: Wed, 10 Jun 2026 00:29:11 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 55-314279228-314279239 SNNN RT(1780964475301 112066) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 18678505 18172599
+X-Iinfo: 46-185625368-185625371 SNNy RT(1781051239793 112047) q(0 1 1 -1) r(10 10) U24
+X-Varnish: 19726949
 
-f07f
+ef22
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ f07f
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/hunt-club-riverside-park-community-centre" />
 <meta name="dcterms.title" content="Hunt Club-Riverside Park Community Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-06-02" />
+<meta name="dcterms.date" content="2026-06-09" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ f07f
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3e64d85107ac3aac02cc380688b6a6b519e9acae3dddb4550358909efff5df46">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0bbf1f07557f20f91ce5a14a90d9b9e00eb61f1433ffd028514ee0fcb27ddbf5">
   
     
       
@@ -206,7 +206,7 @@ f07f
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-909058b01ee3a5367f789b555f1e2a80f542888e7424a16227f5cdff6480f45b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-9a046e23d86c24d458d3d44addb2f8276b72696c3df9b73a057b7754b6557d73">
   
     
       
@@ -287,9 +287,9 @@ f07f
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Thursday, June 4</strong>
+<li><strong>Saturday, June 13</strong>
 <ul>
-<li>Pickleball - adult - intermediate, noon to 2 pm, <strong>cancelled</strong></li>
+<li>Zumba®, 10 to 11 am, <strong>cancelled</strong></li>
 </ul>
 </li>
 </ul></div>
@@ -624,6 +624,18 @@ f07f
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/huntclubCC">Reserve a spot at Hunt Club-Riverside Park Community Centre</a></p></div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Saturday, June 13</strong>
+<ul>
+<li>Zumba®, 10 to 11 am, <strong>cancelled</strong></li>
+</ul>
+</li>
+</ul></div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Hunt Club-Riverside Park Community Centre - group fitness - January 5 to June 21</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Cardio and strength</th><td>n/a</td><td>6 - 7 pm</td><td>n/a</td><td>5:45 - 6:45 pm</td><td>9 - 10 am</td><td>9 - 10 am</td><td>n/a</td></tr><tr><th scope="row">Strength</th><td>n/a</td><td>n/a</td><td>9 - 10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba</th><td>n/a</td><td>n/a</td><td>5:45 - 6:45 pm</td><td>n/a</td><td>n/a</td><td>10 - 11 am</td><td>n/a</td></tr><tr><th scope="row">Stretch and strength</th><td>9 - 10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>n/a</td><td>9 - 10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
@@ -718,18 +730,6 @@ f07f
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/huntclubCC">Reserve a spot at Hunt Club-Riverside Park Community Centre</a></p></div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
-<ul>
-<li><strong>Thursday, June 4</strong>
-<ul>
-<li>Pickleball - adult - intermediate, noon to 2 pm, <strong>cancelled</strong></li>
-</ul>
-</li>
-</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -827,11 +827,8 @@ f07f
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Registered programs</strong></h3>
 <p>Registered programs are structured activities that run weekly or seasonally. You must sign up in advance to participate. Examples include swimming lessons, dance or music classes and summer camps.</p>
-<ul>
-<li><a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?onlineSiteId=0&amp;locale=en-US&amp;activity_select_param=2&amp;center_ids=161&amp;price_id=CUSTOM_RANGE&amp;viewMode=list"><span>Check out the courses and camps offered at this facility.</span></a></li>
-<li>Find registration dates and general information about the types of recreation programs offered -&nbsp;including virtual, PA days, Before and After School, and Day Camps -&nbsp;at&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps">Courses and camps</a>. </li>
-<li>Details about registration, payment, cancellation, terms and conditions can be viewed at Registered programs -&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps">What you need to know</a>.</li>
-</ul></div>
+<p><a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?onlineSiteId=0&amp;locale=en-US&amp;activity_select_param=2&amp;center_ids=161&amp;price_id=CUSTOM_RANGE&amp;viewMode=list"><span>Check out the courses and camps offered at this facility.</span></a></p>
+<p>Details about registration, including program types, dates, payment, cancellation, terms and conditions, can be viewed at <a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps">Register for courses and camps</a>.</p></div>
       
       </div>
 
@@ -1243,7 +1240,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=57&cb=1025060756" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=57&cb=953897647" async></script></body>
 </html>
 
 
