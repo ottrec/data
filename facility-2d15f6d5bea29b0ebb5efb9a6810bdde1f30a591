@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=xBzNAwxKQVCmhLV50RrNK+30LWoAAAAAQUIPAAAAAAAoip0/Cr0JJGB3Ufr779Eu; nlbi_243507=eQfXANFVFRjIF5zdaXmSIAAAAACo2p081yMcsibYBFRELo5+; incap_ses_187_243507=MFdDWIxAXhRGYSCZtVuYAu70LWoAAAAAD5qzrOndhqY090fnPIZE8A==
+Cookie: visid_incap_243507=l1Rj9gCxR2y0Q7PEQf7EE8FGL2oAAAAAQUIPAAAAAADjf6uk97erB0qghge3BF9G; nlbi_243507=M0FAGPjRSzfklKVWaXmSIAAAAAA6aHm2kvEk7S8hj5PRJRAo; incap_ses_484_243507=EJFeIOiG3wL+73EgkIO3BsJGL2oAAAAA79uEWHyfQwMweuv0rBaZfw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 223
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 14 Jun 2026 00:28:54 GMT
-Etag: "1781396711-gzip"
+Date: Mon, 15 Jun 2026 00:30:22 GMT
+Etag: "1781483421-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 14 Jun 2026 00:25:11 GMT
+Last-Modified: Mon, 15 Jun 2026 00:30:21 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 48-15300463-15326737 SNNy RT(1781396718328 216210) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 24628260 24970767
+X-Iinfo: 10-5422549-5429844 SNNy RT(1781483202559 219391) q(0 0 0 -1) r(3 3) U24
+X-Varnish: 25380687
 
-13248
+139af
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 24628260 24970767
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex" />
 <meta name="dcterms.title" content="Ray Friel Recreation Complex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-05-21" />
+<meta name="dcterms.date" content="2026-06-14" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 24628260 24970767
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-68e1ee412875b9078c3fb14030f0221d57335c9d2d8022ebd09b07faaaac09f2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ae993db2dddbe0aeb1d509496111df46efda62382a66cf233b6e878d2459d4a4">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 24628260 24970767
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f64d1e1b47e04409fd347d410783a80d284fda8b152fa8ca5a73ff871c1ef6e3">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-003f6ec99d22c87b008bddcefab042873b1095499908b400f5526416eddcc5bd">
   
     
       
@@ -293,6 +293,10 @@ X-Varnish: 24628260 24970767
 <li>The pool is closed for annual maintenance.</li>
 </ul>
 </li>
+</ul>
+<h3><span>Modified hours</span></h3>
+<ul>
+<li><span><strong>Wednesday, July 1</strong>, closed&nbsp;</span></li>
 </ul></div>
       
 
@@ -497,6 +501,18 @@ X-Varnish: 24628260 24970767
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Wednesday, July 1</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Closure</h3>
 <p><strong>June 8 to 21, the pool is closed for annual maintenance.</strong></p></div>
       
@@ -599,6 +615,18 @@ X-Varnish: 24628260 24970767
 <p><strong>Reservations not required.</strong></p></div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Wednesday, July 1</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Ray Friel Recreation Complex - weight and cardio room</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Weight and cardio room</th><td>6 am - 9 pm</td><td>6 am - 9 pm</td><td>6 am - 9 pm</td><td>6 am - 9 pm</td><td>6 am - 9 pm</td><td>8 am - 8&nbsp;pm</td><td>8 am - 8&nbsp;pm</td></tr></tbody></table></div>
@@ -689,6 +717,18 @@ X-Varnish: 24628260 24970767
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
 <p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
 <p><strong>Reservations not required.</strong></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Wednesday, July 1</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -791,6 +831,18 @@ X-Varnish: 24628260 24970767
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/rayfriel">Skating - Reserve a spot at Ray Friel Recreation Complex</a></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Wednesday, July 1</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">

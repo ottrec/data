@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/splash-wave-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=xBzNAwxKQVCmhLV50RrNK+30LWoAAAAAQUIPAAAAAAAoip0/Cr0JJGB3Ufr779Eu; nlbi_243507=eQfXANFVFRjIF5zdaXmSIAAAAACo2p081yMcsibYBFRELo5+; incap_ses_187_243507=MFdDWIxAXhRGYSCZtVuYAu70LWoAAAAAD5qzrOndhqY090fnPIZE8A==
+Cookie: visid_incap_243507=l1Rj9gCxR2y0Q7PEQf7EE8FGL2oAAAAAQUIPAAAAAADjf6uk97erB0qghge3BF9G; nlbi_243507=M0FAGPjRSzfklKVWaXmSIAAAAAA6aHm2kvEk7S8hj5PRJRAo; incap_ses_484_243507=EJFeIOiG3wL+73EgkIO3BsJGL2oAAAAA79uEWHyfQwMweuv0rBaZfw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 197
+Age: 159
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 14 Jun 2026 00:29:22 GMT
-Etag: "1781396764-gzip"
+Date: Mon, 15 Jun 2026 00:30:49 GMT
+Etag: "1781483289-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 14 Jun 2026 00:26:04 GMT
+Last-Modified: Mon, 15 Jun 2026 00:28:09 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 48-15300463-15326737 SNNy RT(1781396718328 244218) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 24464786 24554019
+X-Iinfo: 10-5422549-5429844 SNNy RT(1781483202559 247390) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 19005374 19279679
 
-d296
+d38f
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ d296
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/splash-wave-pool" />
 <meta name="dcterms.title" content="Splash Wave Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-06-11" />
+<meta name="dcterms.date" content="2026-06-14" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ d296
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e996996f33e6247a102a49db651d2510dc8fa8b48d590fedca20737bbcf7d5d1">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6293033a1b9847acf6aafb61f9d3315cd21b99dfb929bbf6a608ae9c2b028d4b">
   
     
       
@@ -206,7 +206,7 @@ d296
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5602f76fb1a06629f8b70b958e00110633cfcf5c3789964faee46c1f9470ea02">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a1ea1bdda02ba1d5113a41942ddf85b4f63f4a9505465b3906830529c2ce3386">
   
     
       
@@ -279,7 +279,7 @@ d296
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Notice</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Modified hours</h2>
 </div>
       
 
@@ -287,7 +287,11 @@ d296
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>Lap pool heater broken. Pool temperature is colder than normal until further notice.</p>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><strong>Wednesday, July 1</strong>, closed&nbsp;</span></li>
+</ul>
+<h3>Notice</h3>
+<p>Lap pool heater broken. Pool temperature is colder than normal until further notice.</p>
 <h3>Schedule change</h3>
 <ul>
 <li><strong>Tuesday, June 23</strong>
@@ -527,11 +531,16 @@ d296
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
 <li><strong>Tuesday, June 23</strong>
 <ul>
 <li>Public Swim - wave tank and warm pool, 4:30 to 9 pm, cancelled</li>
+</ul>
+</li>
+<li><span><strong>Wednesday, July 1</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
 </ul>
 </li>
 </ul></div>
