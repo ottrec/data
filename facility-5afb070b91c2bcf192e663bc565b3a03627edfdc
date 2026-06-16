@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=sIAx0j4rRPeARGv5OaNmqNSZMGoAAAAAQUIPAAAAAAA4Wn6EkZMdVpkHvESks+Zi; nlbi_243507=EhxTZ7xU/HEMWxxBaXmSIAAAAAAGDh4wlf4u41pDAx71znAB; incap_ses_175_243507=t050GCkqznLULlBAyLltAtSZMGoAAAAA1GV72lIZzY8D9FdWi/4/CQ==
+Cookie: visid_incap_243507=ZQUrDNINT8SKxQiSXIBuUeB6MWoAAAAAQUIPAAAAAAAgJduIk3zfpcHLkvse/FTn; nlbi_243507=FDh1B2ssrnh2qymsaXmSIAAAAADGnPUQ+CM7mrQzGb5aR9b1; incap_ses_1844_243507=fqfyQIuzBHyr+zyR9zSXGeB6MWoAAAAAgaa/3SzsoDUyZaF0KHDh7g==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 88
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 16 Jun 2026 00:36:05 GMT
-Etag: "1781570076-gzip"
+Date: Tue, 16 Jun 2026 16:36:18 GMT
+Etag: "1781627778-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 16 Jun 2026 00:34:36 GMT
+Last-Modified: Tue, 16 Jun 2026 16:36:18 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 44-50599430-50599437 SNNy RT(1781570004833 160567) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 25721972 26686246
+X-Iinfo: 62-37743052-37742113 SNNy RT(1781627616638 161465) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 27560537
 
-11f39
+12372
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 25721972 26686246
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool" />
 <meta name="dcterms.title" content="Lowertown Community Centre and Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-05-22" />
+<meta name="dcterms.date" content="2026-06-16" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 25721972 26686246
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3ef82f4b599a1d201cb187b1fb3b7031f8bda26c467abbe161668bd134c6aeb5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1941c2462e513292129e40716c902aa22b42470737f79355ec2db7bc0207edb9">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 25721972 26686246
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1b78a777ea71d56e55d271aa2621e82ed7a674fd98d74a2c9337664d11be5ad5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-18b331a81d0a7ca7fabbb9de10492c04e234dee1a1bd62b70d6994b7b16f7192">
   
     
       
@@ -274,7 +274,29 @@ X-Varnish: 25721972 26686246
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Monday, June 22 to Friday, June 26</strong>
+<ul>
+<li>Lane swim, 11 am to noon and 2 to 3 pm, <strong>cancelled</strong></li>
+<li>50+ swim, 11 am to noon and 2 to 3 pm, <strong>cancelled</strong></li>
+</ul>
+</li>
+</ul></div>
+      
+
+<div class="mb-3">
 
 
 
@@ -613,6 +635,19 @@ X-Varnish: 25721972 26686246
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change. Holiday hours and programs may vary.</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 <p><strong>*Reservations not required.</strong></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
+<ul>
+<li><strong>Monday, June 22 to Friday, June 26</strong>
+<ul>
+<li>Lane swim, 11 am to noon and 2 to 3 pm, <strong>cancelled</strong></li>
+<li>50+ swim, 11 am to noon and 2 to 3 pm, <strong>cancelled</strong></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
