@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/st-laurent-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=l1Rj9gCxR2y0Q7PEQf7EE8FGL2oAAAAAQUIPAAAAAADjf6uk97erB0qghge3BF9G; nlbi_243507=M0FAGPjRSzfklKVWaXmSIAAAAAA6aHm2kvEk7S8hj5PRJRAo; incap_ses_484_243507=EJFeIOiG3wL+73EgkIO3BsJGL2oAAAAA79uEWHyfQwMweuv0rBaZfw==
+Cookie: visid_incap_243507=sIAx0j4rRPeARGv5OaNmqNSZMGoAAAAAQUIPAAAAAAA4Wn6EkZMdVpkHvESks+Zi; nlbi_243507=EhxTZ7xU/HEMWxxBaXmSIAAAAAAGDh4wlf4u41pDAx71znAB; incap_ses_175_243507=t050GCkqznLULlBAyLltAtSZMGoAAAAA1GV72lIZzY8D9FdWi/4/CQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 70
+Age: 449
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 15 Jun 2026 00:30:51 GMT
-Etag: "1781483381-gzip"
+Date: Tue, 16 Jun 2026 00:37:32 GMT
+Etag: "1781569777-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 15 Jun 2026 00:29:41 GMT
+Last-Modified: Tue, 16 Jun 2026 00:29:37 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: MISS
+X-Drupal-Cache: HIT
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 10-5422549-5429844 SNNy RT(1781483202559 249391) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 25664498 25222296
+X-Iinfo: 44-50599430-50599437 SNNy RT(1781570004833 247382) q(0 1 1 -1) r(2 2) U24
+X-Varnish: 26176315 25946343
 
-14c57
+154e3
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 25664498 25222296
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex" />
 <meta name="dcterms.title" content="St. Laurent Complex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-06-11" />
+<meta name="dcterms.date" content="2026-06-15" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 25664498 25222296
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5eaa822e905c6488f3b2678a3842e6efe0020b6ed4060a996205ec13e3276acb">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d6c349d29bb9de7a50ce1eae993df85dc8d8fa197df904b98b9e6dc9a215770b">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 25664498 25222296
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-44efc009c941f97b26a29d003729fe157b69ddb5b62d8a144e93b19d6b83f95c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-75ef48c8b451349b8186800341df661be584f3d36990a815e6d9813d9d249001">
   
     
       
@@ -265,7 +265,24 @@ X-Varnish: 25664498 25222296
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Modified hours</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><span><strong>Wednesday, July 1</strong>, closed&nbsp;</span></li>
+</ul></div>
+      
+
+<div class="mb-3">
 
 
 
@@ -273,7 +290,7 @@ X-Varnish: 25664498 25222296
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -553,9 +570,21 @@ X-Varnish: 25664498 25222296
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/slc">Reserve a spot at St. Laurent Complex</a></p></div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Wednesday, July 1</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>St. Laurent Complex - swim and aquafit - April 7 to June 28</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Lane Swim</th><td>7 - 10 am,&nbsp;<br>Noon - 2 pm,&nbsp;<br>8:30 - 10 pm</td><td>7 - 9 am,&nbsp;<br>11 am - 1 pm,&nbsp;<br>8:30 - 10 pm</td><td>7 - 10 am,&nbsp;<br>Noon - 2 pm,&nbsp;<br>9 - 10 pm</td><td>7 - 9 am,&nbsp;<br>11 am - 1 pm,&nbsp;<br>8:30 -&nbsp;10 pm</td><td>7 - 9:15 am,&nbsp;<br>11:15 am - 1 pm,&nbsp;<br>9 - 10 pm</td><td>8 - 9 am,&nbsp;<br>7 - 8 pm<br><strong>Play Free</strong></td><td>8 - 9 am,&nbsp;<br>1 - 2 pm,&nbsp;<br>7 - 8 pm&nbsp;</td></tr><tr><th scope="row">Public swim *Reservations not required</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>7 - 9 pm</td><td>1 - 4 pm<br><strong>Play Free</strong></td><td>5 - 7 pm</td></tr><tr><th scope="row"><span>Aquafit - general deep</span></th><td>10 - 11 am,&nbsp;<br>11 am - noon</td><td>9 -&nbsp;10 am,&nbsp;<br>10 -&nbsp;11 am</td><td>10 - 11 am,&nbsp;<br>11 am - noon,&nbsp;<br>6:30 - 7:30 pm</td><td>9 -&nbsp;10 am,&nbsp;<br>10 -&nbsp;11 am</td><td>9:15 - 10:15 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Aquafit - general shallow</span></th><td>10 - 11 am,&nbsp;<br>11 am - noon</td><td>9 -&nbsp;10 am,&nbsp;<br>10 -&nbsp;11 am</td><td>10 - 11 am,&nbsp;<br>11 am - noon,&nbsp;<br>6:30 - 7:30 pm</td><td>9 -&nbsp;10 am,&nbsp;<br>10 -&nbsp;11 am</td><td>9:15 - 10:15 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Sauna</span></th><td>7 am - 2 pm,<br>8:30 - 10 pm</td><td>7 am - 1 pm,<br>8:30 - 10 pm</td><td>7 am - 2 pm,<br>9 - 10 pm</td><td>7 - 1 pm,<br>8:30 - 10 pm</td><td>7 am - 9:15 am,&nbsp;<br>11:15 am - 1 pm,&nbsp;<br>7 - 9 pm,<br>9 - 10 pm</td><td>8 - 9 am,<br>1 - 4 pm,<br>7 - 8 pm</td><td>8 - 9 am,<br>1 - 2 pm,<br>5 - 7 pm,<br>7 - 8 pm</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>St. Laurent Complex - swim and aquafit - April 7 to June 28</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Lane Swim</th><td>7 - 10 am,&nbsp;<br>Noon - 2 pm,&nbsp;<br>8:30 - 10 pm</td><td>7 - 9 am,&nbsp;<br>11 am - 1 pm,&nbsp;<br>8:30 - 10 pm</td><td>7 - 10 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>9 - 10 pm</td><td>7 - 9 am,&nbsp;<br>11 am - 1 pm,&nbsp;<br>8:30 -&nbsp;10 pm</td><td>7 - 9:15 am,&nbsp;<br>11:15 am - 1 pm,&nbsp;<br>9 - 10 pm</td><td>8 - 9 am,&nbsp;<br>7 - 8 pm<br><strong>Play Free</strong></td><td>8 - 9 am,&nbsp;<br>1 - 2 pm,&nbsp;<br>7 - 8 pm&nbsp;</td></tr><tr><th scope="row">Public swim *Reservations not required</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>7 - 9 pm</td><td>1 - 4 pm<br><strong>Play Free</strong></td><td>5 - 7 pm</td></tr><tr><th scope="row"><span>Aquafit - general deep</span></th><td>10 - 11 am,&nbsp;<br>11 am - noon</td><td>9 -&nbsp;10 am,&nbsp;<br>10 -&nbsp;11 am</td><td>10 - 11 am,&nbsp;<br>11 am - noon,&nbsp;<br>6:30 - 7:30 pm</td><td>9 -&nbsp;10 am,&nbsp;<br>10 -&nbsp;11 am</td><td>9:15 - 10:15 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Aquafit - general shallow</span></th><td>10 - 11 am,&nbsp;<br>11 am - noon</td><td>9 -&nbsp;10 am,&nbsp;<br>10 -&nbsp;11 am</td><td>10 - 11 am,&nbsp;<br>11 am - noon,&nbsp;<br>6:30 - 7:30 pm</td><td>9 -&nbsp;10 am,&nbsp;<br>10 -&nbsp;11 am</td><td>9:15 - 10:15 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Sauna</span></th><td>7 am - 2 pm,<br>8:30 - 10 pm</td><td>7 am - 1 pm,<br>8:30 - 10 pm</td><td>7 am - 2 pm,<br>9 - 10 pm</td><td>7 - 1 pm,<br>8:30 - 10 pm</td><td>7 am - 9:15 am,&nbsp;<br>11:15 am - 1 pm,&nbsp;<br>7 - 9 pm,<br>9 - 10 pm</td><td>8 - 9 am,<br>1 - 4 pm,<br>7 - 8 pm</td><td>8 - 9 am,<br>1 - 2 pm,<br>5 - 7 pm,<br>7 - 8 pm</td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -656,6 +685,18 @@ X-Varnish: 25664498 25222296
 <p><strong>Reservations not required.</strong></p></div>
       
       </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Wednesday, July 1</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
+      
+      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>St. Laurent Complex - weight and cardio room - March 23 to June 26</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col"><strong>Monday</strong></th><th scope="col"><strong>Tuesday</strong></th><th scope="col"><strong>Wednesday</strong></th><th scope="col"><strong>Thursday</strong></th><th scope="col"><strong>Friday</strong></th><th scope="col"><strong>Saturday</strong></th><th scope="col"><strong>Sunday</strong></th></tr></thead><tbody><tr><th scope="row"><strong>Weight and cardio room</strong></th><td>7 am - 10 pm</td><td>7 am - 10 pm</td><td>7 am - 10 pm</td><td>7 am - 10 pm</td><td>7 am - 10 pm</td><td>8 am - 8&nbsp;pm</td><td>8 am - 8&nbsp;pm</td></tr></tbody></table></div>
@@ -746,6 +787,18 @@ X-Varnish: 25664498 25222296
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary. Changes will be reflected through the booking process.</p>
 <p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
 <p><strong>Reservations not required.</strong></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Wednesday, July 1</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -842,6 +895,18 @@ X-Varnish: 25664498 25222296
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/slc">Reserve a spot at St. Laurent Complex</a></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Wednesday, July 1</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
