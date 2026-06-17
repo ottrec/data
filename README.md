@@ -12,6 +12,6 @@ I strongly recommend using the simplified data, as it abstracts away changes in 
 
 For more usage information and historical data, see [here](https://data.ottrec.ca).
 
-For technical information about how this data is scraped, see [here](https://github.com/pgaskin/ottrec).
+For technical information about how this data is scraped, see [here](https://github.com/ottrec/scraper).
 
-You can report issues [here](https://github.com/pgaskin/ottrec/issues).
+You can report issues [here](https://github.com/ottrec/scraper/issues).
