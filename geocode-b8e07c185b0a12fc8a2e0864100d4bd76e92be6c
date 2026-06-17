@@ -1,7 +1,7 @@
 GET /v1.9/geocode?country=CA&q=50+Cassidy+Road%0AOttawa+ON+K2H+6N4%0ACanada HTTP/1.1
 Host: api.geocod.io
 Authorization: redacted-65ffda17
-User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
+User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 
 HTTP/2.0 200 OK
 Access-Control-Allow-Headers: Content-Type, User-Agent
@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Sat, 04 Apr 2026 22:50:38 GMT
-Request-Handler: api309
+Date: Wed, 17 Jun 2026 06:34:57 GMT
+Request-Handler: api311
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 990
-X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D195BC_6097D56:0566
+X-Ratelimit-Remaining: 989
+X-Request-Id: 4AEB7E50:0980_05A11518:01BB_6A32400F_185B484:09E6
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"50","street":"Cassidy","suffix":"Rd","formatted_street":"Cassidy Rd","city":"Ottawa","state":"ON","zip":"K2H 6N4","country":"CA"},"formatted_address":"50 Cassidy Rd, Ottawa, ON K2H 6N4"},"results":[{"stable_address_key":"gcod_canu2ptbhy4l6ez9yfrm65hnaf6b5","address_components":{"number":"50","street":"Cassidy","suffix":"Rd","formatted_street":"Cassidy Rd","city":"Nepean","state":"ON","zip":"K2H","country":"CA"},"address_lines":["50 Cassidy Rd","","Nepean, ON K2H"],"formatted_address":"50 Cassidy Rd, Nepean, ON K2H","location":{"lat":45.324785,"lng":-75.809914},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}
+{"input":{"address_components":{"number":"50","street":"Cassidy","suffix":"Rd","formatted_street":"Cassidy Rd","city":"Ottawa","state":"ON","zip":"K2H 6N4","country":"CA"},"formatted_address":"50 Cassidy Rd, Ottawa, ON K2H 6N4"},"results":[{"stable_address_key":"gcod_canu2ptbhy4l6ez9yfrm65hnaf6b5","address_components":{"number":"50","street":"Cassidy","suffix":"Rd","formatted_street":"Cassidy Rd","city":"Nepean","state":"ON","zip":"K2H","country":"CA"},"address_lines":["50 Cassidy Rd","","Nepean, ON K2H"],"formatted_address":"50 Cassidy Rd, Nepean, ON K2H","location":{"lat":45.324785,"lng":-75.809914},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}],"_warnings":["There is a newer API version available, please consider upgrading to v2. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

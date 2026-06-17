@@ -1,7 +1,7 @@
 GET /v1.9/geocode?country=CA&q=5660+Osgoode+Main+Street%0AOttawa+ON+K0A+2W0%0ACanada HTTP/1.1
 Host: api.geocod.io
 Authorization: redacted-65ffda17
-User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
+User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 
 HTTP/2.0 200 OK
 Access-Control-Allow-Headers: Content-Type, User-Agent
@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Sat, 04 Apr 2026 22:53:16 GMT
-Request-Handler: api310
+Date: Wed, 17 Jun 2026 06:37:57 GMT
+Request-Handler: api320
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 972
-X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D1965B_609CA7F:0566
+X-Request-Id: 4AEB7E50:0980_05A11518:01BB_6A3240C2_186289F:09E6
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"5660","city":"Osgoode","state":"ON","zip":"K0A 2W0","country":"CA"},"formatted_address":"5660, Osgoode, ON K0A 2W0"},"results":[{"stable_address_key":null,"address_components":{"city":"Osgoode","state":"ON","zip":"K0A","country":"CA"},"address_lines":["","","Osgoode, ON K0A"],"formatted_address":"Osgoode, ON K0A","location":{"lat":45.136369,"lng":-75.488507},"accuracy":0.5,"accuracy_type":"place","match_type":null,"source":"CanVec+ by Natural Resources Canada"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}
+{"input":{"address_components":{"number":"5660","city":"Osgoode","state":"ON","zip":"K0A 2W0","country":"CA"},"formatted_address":"5660, Osgoode, ON K0A 2W0"},"results":[{"stable_address_key":null,"address_components":{"city":"Osgoode","state":"ON","zip":"K0A","country":"CA"},"address_lines":["","","Osgoode, ON K0A"],"formatted_address":"Osgoode, ON K0A","location":{"lat":45.136369,"lng":-75.488507},"accuracy":0.5,"accuracy_type":"place","match_type":null,"source":"CanVec+ by Natural Resources Canada"}],"_warnings":["There is a newer API version available, please consider upgrading to v2. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

@@ -1,7 +1,7 @@
 GET /v1.9/geocode?country=CA&q=135+Craig+Henry+Drive%0AOttawa+ON+K2G+4M6%0ACanada HTTP/1.1
 Host: api.geocod.io
 Authorization: redacted-65ffda17
-User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
+User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 
 HTTP/2.0 200 OK
 Access-Control-Allow-Headers: Content-Type, User-Agent
@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 11 Jun 2026 00:30:25 GMT
-Request-Handler: api294
+Date: Wed, 17 Jun 2026 06:35:40 GMT
+Request-Handler: api312
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 997
-X-Request-Id: 143ECF01:9008_05A11518:01BB_6A2A0199_2A86805:0986
+X-Ratelimit-Remaining: 971
+X-Request-Id: 4AEB7E50:0980_05A11518:01BB_6A32403A_185CF62:09E6
 X-Xss-Protection: 1; mode=block
 
 {"input":{"address_components":{"number":"135","street":"Craig Henry","suffix":"Dr","formatted_street":"Craig Henry Dr","city":"Ottawa","state":"ON","zip":"K2G 4M6","country":"CA"},"formatted_address":"135 Craig Henry Dr, Ottawa, ON K2G 4M6"},"results":[{"stable_address_key":"gcod_cangw5ratbl6swrdp4yhw2ytntap5","address_components":{"number":"135","street":"Craig Henry","suffix":"Dr","formatted_street":"Craig Henry Dr","city":"Nepean","state":"ON","zip":"K2G","country":"CA"},"address_lines":["135 Craig Henry Dr","","Nepean, ON K2G"],"formatted_address":"135 Craig Henry Dr, Nepean, ON K2G","location":{"lat":45.333697,"lng":-75.776749},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"},{"stable_address_key":"gcod_canzu8nh69jeuhu67tkgba67v48f6","address_components":{"number":"134","street":"Craig Henry","suffix":"Dr","formatted_street":"Craig Henry Dr","city":"Nepean","state":"ON","zip":"K2G","country":"CA"},"address_lines":["134 Craig Henry Dr","","Nepean, ON K2G"],"formatted_address":"134 Craig Henry Dr, Nepean, ON K2G","location":{"lat":45.333063,"lng":-75.76125},"accuracy":0.91,"accuracy_type":"nearest_rooftop_match","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"},{"stable_address_key":"gcod_canzu8nh69jeuhu6nhq4dmzh5e3ya","address_components":{"number":"140","street":"Craig Henry","suffix":"Dr","formatted_street":"Craig Henry Dr","city":"Nepean","state":"ON","zip":"K2G","country":"CA"},"address_lines":["140 Craig Henry Dr","","Nepean, ON K2G"],"formatted_address":"140 Craig Henry Dr, Nepean, ON K2G","location":{"lat":45.333723,"lng":-75.761029},"accuracy":0.89,"accuracy_type":"nearest_rooftop_match","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"},{"stable_address_key":"gcod_canzu8nh69jeuhu6u32dzlvqylz6d","address_components":{"number":"142","street":"Craig Henry","suffix":"Dr","formatted_street":"Craig Henry Dr","city":"Nepean","state":"ON","zip":"K2G","country":"CA"},"address_lines":["142 Craig Henry Dr","","Nepean, ON K2G"],"formatted_address":"142 Craig Henry Dr, Nepean, ON K2G","location":{"lat":45.333733,"lng":-75.761442},"accuracy":0.89,"accuracy_type":"nearest_rooftop_match","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v2. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

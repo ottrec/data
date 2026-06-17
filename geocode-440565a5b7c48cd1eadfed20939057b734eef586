@@ -1,7 +1,7 @@
 GET /v1.9/geocode?country=CA&q=30+Woodfield+Drive%0AOttawa+ON+K2G+3Y5%0ACanada HTTP/1.1
 Host: api.geocod.io
 Authorization: redacted-65ffda17
-User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
+User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 
 HTTP/2.0 200 OK
 Access-Control-Allow-Headers: Content-Type, User-Agent
@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Sat, 04 Apr 2026 22:54:06 GMT
-Request-Handler: api304
+Date: Wed, 17 Jun 2026 06:38:46 GMT
+Request-Handler: api317
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 971
-X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D1968C_609E38D:0566
+X-Request-Id: 4AEB7E50:0980_05A11518:01BB_6A3240F5_18647EC:09E6
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"30","street":"Woodfield","suffix":"Dr","formatted_street":"Woodfield Dr","city":"Ottawa","state":"ON","zip":"K2G 3Y5","country":"CA"},"formatted_address":"30 Woodfield Dr, Ottawa, ON K2G 3Y5"},"results":[{"stable_address_key":"gcod_can5c7rmjgg23qcggqj9abd6cmbac","address_components":{"number":"30","street":"Woodfield","suffix":"Dr","formatted_street":"Woodfield Dr","city":"Nepean","state":"ON","zip":"K2G","country":"CA"},"address_lines":["30 Woodfield Dr","","Nepean, ON K2G"],"formatted_address":"30 Woodfield Dr, Nepean, ON K2G","location":{"lat":45.336901,"lng":-75.729666},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}
+{"input":{"address_components":{"number":"30","street":"Woodfield","suffix":"Dr","formatted_street":"Woodfield Dr","city":"Ottawa","state":"ON","zip":"K2G 3Y5","country":"CA"},"formatted_address":"30 Woodfield Dr, Ottawa, ON K2G 3Y5"},"results":[{"stable_address_key":"gcod_can5c7rmjgg23qcggqj9abd6cmbac","address_components":{"number":"30","street":"Woodfield","suffix":"Dr","formatted_street":"Woodfield Dr","city":"Nepean","state":"ON","zip":"K2G","country":"CA"},"address_lines":["30 Woodfield Dr","","Nepean, ON K2G"],"formatted_address":"30 Woodfield Dr, Nepean, ON K2G","location":{"lat":45.336901,"lng":-75.729666},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v2. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

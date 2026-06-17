@@ -1,7 +1,7 @@
 GET /v1.9/geocode?country=CA&q=2679+Innes+Road%0AOttawa+ON+K1B+3J7%0ACanada HTTP/1.1
 Host: api.geocod.io
 Authorization: redacted-65ffda17
-User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
+User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 
 HTTP/2.0 200 OK
 Access-Control-Allow-Headers: Content-Type, User-Agent
@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Sat, 04 Apr 2026 22:50:34 GMT
-Request-Handler: api311
+Date: Wed, 17 Jun 2026 06:34:54 GMT
+Request-Handler: api303
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 992
-X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D195B8_6097B40:0566
+X-Ratelimit-Remaining: 991
+X-Request-Id: 4AEB7E50:0980_05A11518:01BB_6A32400C_185B1DC:09E6
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"2679","street":"Innes","suffix":"Rd","formatted_street":"Innes Rd","city":"Ottawa","state":"ON","zip":"K1B 3J7","country":"CA"},"formatted_address":"2679 Innes Rd, Ottawa, ON K1B 3J7"},"results":[{"stable_address_key":"gcod_canv958c9nv49bd7ybaca29qubu74","address_components":{"number":"2679","street":"Innes","suffix":"Rd","formatted_street":"Innes Rd","city":"Gloucester","state":"ON","zip":"K1B","country":"CA"},"address_lines":["2679 Innes Rd","","Gloucester, ON K1B"],"formatted_address":"2679 Innes Rd, Gloucester, ON K1B","location":{"lat":45.434402,"lng":-75.564245},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"},{"stable_address_key":"gcod_cannznug9zyqf2xgkm59xumvpnguh","address_components":{"number":"2681","street":"Innes","suffix":"Rd","formatted_street":"Innes Rd","city":"Gloucester","state":"ON","zip":"K1B","country":"CA"},"address_lines":["2681 Innes Rd","","Gloucester, ON K1B"],"formatted_address":"2681 Innes Rd, Gloucester, ON K1B","location":{"lat":45.434123,"lng":-75.562341},"accuracy":0.94,"accuracy_type":"nearest_rooftop_match","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}
+{"input":{"address_components":{"number":"2679","street":"Innes","suffix":"Rd","formatted_street":"Innes Rd","city":"Ottawa","state":"ON","zip":"K1B 3J7","country":"CA"},"formatted_address":"2679 Innes Rd, Ottawa, ON K1B 3J7"},"results":[{"stable_address_key":"gcod_canv958c9nv49bd7ybaca29qubu74","address_components":{"number":"2679","street":"Innes","suffix":"Rd","formatted_street":"Innes Rd","city":"Gloucester","state":"ON","zip":"K1B","country":"CA"},"address_lines":["2679 Innes Rd","","Gloucester, ON K1B"],"formatted_address":"2679 Innes Rd, Gloucester, ON K1B","location":{"lat":45.434402,"lng":-75.564245},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"},{"stable_address_key":"gcod_cannznug9zyqf2xgkm59xumvpnguh","address_components":{"number":"2681","street":"Innes","suffix":"Rd","formatted_street":"Innes Rd","city":"Gloucester","state":"ON","zip":"K1B","country":"CA"},"address_lines":["2681 Innes Rd","","Gloucester, ON K1B"],"formatted_address":"2681 Innes Rd, Gloucester, ON K1B","location":{"lat":45.434123,"lng":-75.562341},"accuracy":0.94,"accuracy_type":"nearest_rooftop_match","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v2. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

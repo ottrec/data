@@ -1,7 +1,7 @@
 GET /v1.9/geocode?country=CA&q=50+Bellman+Drive%0AOttawa+ON+K2H+8S3%0ACanada HTTP/1.1
 Host: api.geocod.io
 Authorization: redacted-65ffda17
-User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
+User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 
 HTTP/2.0 200 OK
 Access-Control-Allow-Headers: Content-Type, User-Agent
@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Thu, 11 Jun 2026 00:33:37 GMT
-Request-Handler: api322
+Date: Wed, 17 Jun 2026 06:38:54 GMT
+Request-Handler: api319
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 999
-X-Request-Id: 143ECF01:9008_05A11518:01BB_6A2A0224_2A910BA:0986
+X-Ratelimit-Remaining: 971
+X-Request-Id: 4AEB7E50:0980_05A11518:01BB_6A3240FC_1864C5F:09E6
 X-Xss-Protection: 1; mode=block
 
 {"input":{"address_components":{"number":"50","street":"Bellman","suffix":"Dr","formatted_street":"Bellman Dr","city":"Ottawa","state":"ON","zip":"K2H 8S3","country":"CA"},"formatted_address":"50 Bellman Dr, Ottawa, ON K2H 8S3"},"results":[{"stable_address_key":"gcod_can43x39svlm667c846rpcmvqtxpd","address_components":{"number":"50","street":"Bellman","suffix":"Dr","formatted_street":"Bellman Dr","city":"Nepean","state":"ON","zip":"K2H","country":"CA"},"address_lines":["50 Bellman Dr","","Nepean, ON K2H"],"formatted_address":"50 Bellman Dr, Nepean, ON K2H","location":{"lat":45.327081,"lng":-75.783121},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"},{"stable_address_key":"gcod_candrxejqfbup4467xpdhgfnzg9b3","address_components":{"number":"49","street":"Bellman","suffix":"Dr","formatted_street":"Bellman Dr","city":"Nepean","state":"ON","zip":"K2H","country":"CA"},"address_lines":["49 Bellman Dr","","Nepean, ON K2H"],"formatted_address":"49 Bellman Dr, Nepean, ON K2H","location":{"lat":45.325564,"lng":-75.782486},"accuracy":0.91,"accuracy_type":"nearest_rooftop_match","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"},{"stable_address_key":"gcod_candrxejqfbup446y9ta9x3w6qxvf","address_components":{"number":"51","street":"Bellman","suffix":"Dr","formatted_street":"Bellman Dr","city":"Nepean","state":"ON","zip":"K2H","country":"CA"},"address_lines":["51 Bellman Dr","","Nepean, ON K2H"],"formatted_address":"51 Bellman Dr, Nepean, ON K2H","location":{"lat":45.325564,"lng":-75.782486},"accuracy":0.91,"accuracy_type":"nearest_rooftop_match","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"},{"stable_address_key":"gcod_candrxejqfbup446lleah9jyu674g","address_components":{"number":"53","street":"Bellman","suffix":"Dr","formatted_street":"Bellman Dr","city":"Nepean","state":"ON","zip":"K2H","country":"CA"},"address_lines":["53 Bellman Dr","","Nepean, ON K2H"],"formatted_address":"53 Bellman Dr, Nepean, ON K2H","location":{"lat":45.325564,"lng":-75.782486},"accuracy":0.89,"accuracy_type":"nearest_rooftop_match","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v2. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

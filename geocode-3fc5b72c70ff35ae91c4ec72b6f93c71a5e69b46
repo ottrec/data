@@ -1,7 +1,7 @@
 GET /v1.9/geocode?country=CA&q=61+Corkstown+Road%0AOttawa+ON+K3H+5B3%0ACanada HTTP/1.1
 Host: api.geocod.io
 Authorization: redacted-65ffda17
-User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/pgaskin/ottrec)
+User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 
 HTTP/2.0 200 OK
 Access-Control-Allow-Headers: Content-Type, User-Agent
@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Sat, 04 Apr 2026 22:51:14 GMT
-Request-Handler: api294
+Date: Wed, 17 Jun 2026 06:35:38 GMT
+Request-Handler: api319
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 973
-X-Request-Id: 284C77D0:13C0_05A11518:01BB_69D195E0_6098FCA:0566
+X-Ratelimit-Remaining: 971
+X-Request-Id: 4AEB7E50:0980_05A11518:01BB_6A324038_185CE1E:09E6
 X-Xss-Protection: 1; mode=block
 
-{"input":{"address_components":{"number":"61","street":"Corkstown","suffix":"Rd","formatted_street":"Corkstown Rd","city":"Ottawa","state":"ON","zip":"K3H 5B3","country":"CA"},"formatted_address":"61 Corkstown Rd, Ottawa, ON K3H 5B3"},"results":[{"stable_address_key":"gcod_canek2wfqera2gd95ef6gfmus853d","address_components":{"number":"61","street":"Corkstown","suffix":"Rd","formatted_street":"Corkstown Rd","city":"Nepean","state":"ON","zip":"K3H","country":"CA"},"address_lines":["61 Corkstown Rd","","Nepean, ON K3H"],"formatted_address":"61 Corkstown Rd, Nepean, ON K3H","location":{"lat":45.34616,"lng":-75.827136},"accuracy":1,"accuracy_type":"rooftop","match_type":null,"source":"Geocodio"}],"_warnings":["There is a newer API version available, please consider upgrading to v1.12. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}
+{"input":{"address_components":{"number":"61","street":"Corkstown","suffix":"Rd","formatted_street":"Corkstown Rd","city":"Ottawa","state":"ON","zip":"K3H 5B3","country":"CA"},"formatted_address":"61 Corkstown Rd, Ottawa, ON K3H 5B3"},"results":[{"stable_address_key":"gcod_canek2wfqera2gd95ef6gfmus853d","address_components":{"number":"61","street":"Corkstown","suffix":"Rd","formatted_street":"Corkstown Rd","city":"Nepean","state":"ON","zip":"K3H","country":"CA"},"address_lines":["61 Corkstown Rd","","Nepean, ON K3H"],"formatted_address":"61 Corkstown Rd, Nepean, ON K3H","location":{"lat":45.34616,"lng":-75.827136},"accuracy":0.93,"accuracy_type":"rooftop","match_type":null,"source":"Geocodio"}],"_warnings":["There is a newer API version available, please consider upgrading to v2. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}
