@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/corkstown-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=h/D+1GD6TwyA/xToqFS3+a+mM2oAAAAAQUIPAAAAAAA0GxRU10f6OZz7arb8htqf; nlbi_243507=89YnBNNw9RknJTLvaXmSIAAAAAD9NvUFW6mRs/SZcQXUKQNR; incap_ses_1541_243507=3z08Ju43Xy+4DPPXartiFa+mM2oAAAAAiz4hxxi4rVqSpVCxIPw7+w==
+Cookie: visid_incap_243507=Id0zVfy8SVO9s5U/22rKIpcxNGoAAAAAQUIPAAAAAAAm8Likw/HEBhW+sDDElTAU; nlbi_243507=WhPNFAwUuBT8dCy6aXmSIAAAAAAkHBfxlG6hBFk8AFHZiZBQ; incap_ses_1353_243507=u9e+bTSvRV+wWpk289LGEpgxNGoAAAAAYLhSa++WtQG7cJstlSHu2w==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 609
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 18 Jun 2026 08:06:05 GMT
-Etag: "1781769356-gzip"
+Date: Thu, 18 Jun 2026 17:58:47 GMT
+Etag: "1781805526-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 18 Jun 2026 07:55:56 GMT
+Last-Modified: Thu, 18 Jun 2026 17:58:46 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 14-47020441-47020447 SNNN RT(1781769903913 61958) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 52081671 52017903
+X-Iinfo: 14-65949551-65949555 SNNy RT(1781805463937 62962) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 47975138
 
-9411
+ad57
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 52081671 52017903
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/corkstown-pool" />
 <meta name="dcterms.title" content="Corkstown Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-06-15" />
+<meta name="dcterms.date" content="2026-06-18" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 52081671 52017903
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-deabdf210dc3ee7c991d7ca1c93431b073bee442421e017e4b2033e4ffe8152c">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-47e55c080c08fe5cbb8364d21daca49f95d6589d45703dfdafa361fc7ffb1175">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 52081671 52017903
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1b573f2358eafb17c93b2d9ffac3da1649259fee08792d953e1870820421ecd2">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b576cd2764fcf70b6124b1c91aea92c4edf879c3eb9d2a9bf18e7cc37d52a7f7">
   
     
       
@@ -277,9 +277,23 @@ X-Varnish: 52081671 52017903
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><span><strong>Pre-season</strong>, June 20 to 28</span></li>
-<li><span><strong>Regular season</strong>, June 29 to August 23&nbsp;</span></li>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><h4><span><strong>Pre-season</strong></span></h4>
+<ul>
+<li><span><strong>June 20 to 28</strong></span>
+<ul>
+<li><span>Monday to Friday, 1:45 to 7 pm</span></li>
+<li><span>Saturday and Sunday, 12:45 to 5 pm</span></li>
+</ul>
+</li>
+</ul>
+<h4><span><strong>Regular season</strong></span></h4>
+<ul>
+<li><span><strong>June 29 to August 23</strong></span>
+<ul>
+<li><span>Monday to Friday, 12:45 to 7 pm</span></li>
+<li><span>Saturday and Sunday, 10:45 am to 5 pm</span></li>
+</ul>
+</li>
 </ul></div>
       
 
@@ -453,6 +467,109 @@ X-Varnish: 52081671 52017903
           <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Corkstown Outdoor Pool - swim - Wednesday, July 1</caption><thead><tr><td>&nbsp;</td><th scope="col">Wednesday, July 1</th></tr></thead><tbody><tr><th scope="row">Public swim</th><td>Noon - 5 pm</td></tr></tbody></table><p>&nbsp;</p></div>
       </div>
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+                              <div class="col collapse-region pl-0 pr-0">
+                  <h2 class="no-toc">
+                              
+  <button aria-expanded="false" aria-controls="section-cb185493-f0b1-4ff5-b0dc-29735ff0cf98" data-target="#section-cb185493-f0b1-4ff5-b0dc-29735ff0cf98" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - swimming</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-cb185493-f0b1-4ff5-b0dc-29735ff0cf98">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - swimming</h2>
+</span>
+
+
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-culture/swimming/drop-swimming-and-aquafit">Play free, additional details, descriptions, fees and cancellation information.</a></p>
+<p><strong>Reservations not required.</strong></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Corkstown&nbsp;outdoor pool - swim - June 20 to 28</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Public swim</th><td>2 - 5 pm,&nbsp;<br>5 - 7 pm</td><td>2 - 5 pm,&nbsp;<br>5 - 7 pm</td><td>2 - 5 pm,&nbsp;<br>5 - 7 pm</td><td>2 - 5 pm,&nbsp;<br>5 - 7 pm</td><td>2 - 5 pm,&nbsp;<br>5 - 7 pm</td><td>1 - 5 pm&nbsp;<br><strong>Play Free</strong></td><td>1 - 5 pm</td></tr></tbody></table></div>
+      </div>
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Corkstown&nbsp;outdoor pool - swim - June 29 to August 23</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Public swim</th><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td>11 am - 5 pm&nbsp;<br><strong>Play Free</strong></td><td>11 am - 5 pm</td></tr></tbody></table></div>
+      </div>
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p>Drop-in swimming is free on Saturdays&nbsp;for children and youth (aged 17 and under), and accompanying adults.&nbsp;See&nbsp;<a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;for more information. Wave&nbsp;swim&nbsp;not included.&nbsp;</p></div>
+      
       </div>
 
                         </div>
@@ -828,7 +945,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=1041546133" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=7466920" async></script></body>
 </html>
 
 
