@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=yBLE1QHWSWKkxSg170XgtxF5NWoAAAAAQUIPAAAAAABEq7wo0s2gRkhvDQ93KNyZ; nlbi_243507=NHtgd5dHChUF8MBzaXmSIAAAAAAashHHpoq9U7ChCsek643H; incap_ses_1351_243507=eyMHGYOyuXZRl1w7+Le/EhJ5NWoAAAAA860kpM9m4o2g5DERbRzZJA==
+Cookie: visid_incap_243507=rvL1ACgbShKKKtrhioMXnCc6NmoAAAAAQUIPAAAAAAD+sLhRCWLjUeuLXHdjxgH2; nlbi_243507=dvaaVBuOzGx7jOR+aXmSIAAAAACwep6B+jPpADFhtJ1Uo9G8; incap_ses_92_243507=oMs9XJRF1kgpomhxvdlGASc6NmoAAAAABlPNA2clZAePtYwW8sCS2g==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 378
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 19 Jun 2026 17:18:38 GMT
-Etag: "1781889137-gzip"
+Date: Sat, 20 Jun 2026 07:02:24 GMT
+Etag: "1781938943-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 19 Jun 2026 17:12:17 GMT
+Last-Modified: Sat, 20 Jun 2026 07:02:23 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 11-3211539-3211543 SNNy RT(1781889297956 220422) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 52835081 52834929
+X-Iinfo: 53-29650755-29650779 SNNN RT(1781938727243 216603) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 54232682
 
-139b0
+139b3
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -192,7 +192,7 @@ X-Varnish: 52835081 52834929
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-80bac2822d129a6d9b57cedc64061e61e1aa39bdace7b91d8be8f0aeb8de654f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5e103348f1524bf5872631831903d11e783520b94f86e82b1ba2c5686bfa1211">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 52835081 52834929
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-36779da2166b07afbf1ab8f1b709bba982880c18ab2d0a6633be4ea63071a3bc">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2c146819e9c703f5fb27865ce74fd0a185adb80fa2e20418ff7fe0677dc2259d">
   
     
       
@@ -308,7 +308,7 @@ X-Varnish: 52835081 52834929
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -519,7 +519,7 @@ X-Varnish: 52835081 52834929
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Ray Friel Recreation Complex - swim and aquafitness - June 22 to August 30</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Lane swim</th><td>6 - 7:30 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>8 - 9 pm</td><td>6 - 7:30 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>7:30 - 9 pm</td><td>6 - 7:30 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>8 - 9 pm</td><td>6 - 7:30 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>7:30 - 9 pm</td><td>6 - 7:30 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>8 - 9 pm</td><td>7:30 - 11 am<br><strong>Play Free</strong></td><td>9 - 11 am</td></tr><tr><th scope="row">Public swim</th><td>6:30 - 8 pm</td><td>n/a</td><td>6:30 - 8 pm</td><td>n/a</td><td>n/a</td><td>11 am - 1 pm&nbsp;<br><strong>Play Free</strong></td><td>Noon - 1 pm</td></tr><tr><th scope="row">Wave swim</th><td>2 - 5 pm</td><td>2 - 4 pm</td><td>2 - 5 pm</td><td>2 - 4 pm</td><td>2 - 5 pm,&nbsp;<br>6 - 8 pm</td><td>1 - 5 pm</td><td>1 - 5 pm</td></tr><tr><th scope="row">Preschool swim</th><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>9 - 11 am</td><td>9 - 11 am</td></tr><tr><th scope="row">Aquafit</th><td>7:35 - 8:30 am,&nbsp;<br>8:35 - 9:30 am</td><td>7:35 - 8:30 am,&nbsp;<br>8:35 - 9:30 am</td><td>7:35 - 8:30 am,&nbsp;<br>8:35 - 9:30 am</td><td>7:35 - 8:30 am,&nbsp;<br>8:35 - 9:30 am</td><td>7:35 - 8:30 am,&nbsp;<br>8:35 - 9:30 am</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Ray Friel Recreation Complex - swim and aquafitness - June 22 to August 30</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Lane swim</th><td>6 - 7:30 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>8 - 9 pm</td><td>6 - 7:30 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>7:30 - 9 pm</td><td>6 - 7:30 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>8 - 9 pm</td><td>6 - 7:30 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>7:30 - 9 pm</td><td>6 - 7:30 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>8 - 9 pm</td><td>7:30 - 11 am<br><strong>Play Free</strong></td><td>9 - 11 am</td></tr><tr><th scope="row">Public swim</th><td>6:30 - 8 pm</td><td>n/a</td><td>6:30 - 8 pm</td><td>n/a</td><td>n/a</td><td>11 am - 1 pm&nbsp;<br><strong>Play Free</strong></td><td>11 am - 1 pm</td></tr><tr><th scope="row">Wave swim</th><td>2 - 5 pm</td><td>2 - 4 pm</td><td>2 - 5 pm</td><td>2 - 4 pm</td><td>2 - 5 pm,&nbsp;<br>6 - 8 pm</td><td>1 - 5 pm</td><td>1 - 5 pm</td></tr><tr><th scope="row">Preschool swim</th><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>9 - 11 am</td><td>9 - 11 am</td></tr><tr><th scope="row">Aquafit</th><td>7:35 - 8:30 am,&nbsp;<br>8:35 - 9:30 am</td><td>7:35 - 8:30 am,&nbsp;<br>8:35 - 9:30 am</td><td>7:35 - 8:30 am,&nbsp;<br>8:35 - 9:30 am</td><td>7:35 - 8:30 am,&nbsp;<br>8:35 - 9:30 am</td><td>7:35 - 8:30 am,&nbsp;<br>8:35 - 9:30 am</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
