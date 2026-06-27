@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=dvZ6rGaFQNOdKxDZ8HiMHSdtP2oAAAAAQUIPAAAAAACP02GIicR9xa+9cqViqhcn; nlbi_243507=rwpCTD6PfHRsUMH6aXmSIAAAAABdfM+5B1GiZj/kZ7zpJ11u; incap_ses_175_243507=Yf9ccdWcXC7CUzKgyrltAihtP2oAAAAAH+BtAw+tsifyF4NNCCbU8A==
+Cookie: visid_incap_243507=ROEkwyfpRsaoa/3btZ/E98/zP2oAAAAAQUIPAAAAAAAg5wJegrTFUcd7vMK6Kc4/; nlbi_243507=VIY8LKKqrkcjaBuhaXmSIAAAAABFVBkmvclcnRegFwQdgwIF; incap_ses_100_243507=4ek1IUBj7FbJfZALrkVjAc/zP2oAAAAA4rQnFAwI80pskw1l3BidMA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 310
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 27 Jun 2026 06:29:30 GMT
-Etag: "1782541769-gzip"
+Date: Sat, 27 Jun 2026 16:04:01 GMT
+Etag: "1782575929-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 27 Jun 2026 06:29:29 GMT
+Last-Modified: Sat, 27 Jun 2026 15:58:49 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 50-173129516-173129523 SNNN RT(1782541608132 161291) q(0 1 1 -1) r(12 12) U24
-X-Varnish: 47919574
+X-Iinfo: 45-118278994-118285134 SNNy RT(1782576079762 161532) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 48283108 47773554
 
-13361
+1317a
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 47919574
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool" />
 <meta name="dcterms.title" content="Lowertown Community Centre and Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-06-18" />
+<meta name="dcterms.date" content="2026-06-27" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 47919574
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-35b3ef1fc3ad42b1c209ab2b46e96ff08bb859c7fc389a539b88ccfa60a38ec6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-894fc687be1d0c1b7fec085bf2e65e54611a21dca08190d1de7a8966138cd7a5">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 47919574
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-372938b926ac70a409198d6a855a20e404427bf9f1425fcdb30641c3ab6d7b19">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-154ca8b8459c0f0bf131b1107397d6032e9bde050aba34e845ab2a57fcbe3d0c">
   
     
       
@@ -288,15 +288,6 @@ X-Varnish: 47919574
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
 <li><span><strong>Wednesday, July 1</strong>, closed&nbsp;</span></li>
-</ul>
-<h3>Schedule change</h3>
-<ul>
-<li><strong>Monday, June 22 to Friday, June 26</strong>
-<ul>
-<li>Lane swim, 11 am to noon and 2 to 3 pm, <strong>cancelled</strong></li>
-<li>50+ swim, 11 am to noon and 2 to 3 pm, <strong>cancelled</strong></li>
-</ul>
-</li>
 </ul></div>
       
 
@@ -308,7 +299,7 @@ X-Varnish: 47919574
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 8:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 8:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -643,14 +634,8 @@ X-Varnish: 47919574
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
 <ul>
-<li><strong>Monday, June 22 to Friday, June 26</strong>
-<ul>
-<li>Lane swim, 11 am to noon and 2 to 3 pm, <strong>cancelled</strong></li>
-<li>50+ swim, 11 am to noon and 2 to 3 pm, <strong>cancelled</strong></li>
-</ul>
-</li>
 <li><span><strong>Wednesday, July 1</strong></span>
 <ul>
 <li><span>The facility is closed and all programs cancelled.</span></li>
