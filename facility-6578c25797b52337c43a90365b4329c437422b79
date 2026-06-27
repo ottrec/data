@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/plant-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=+AluHmM+RtOGfqMSI9nc45WvPmoAAAAAQUIPAAAAAAAc+MSSl1kselcNINv2DrEh; nlbi_243507=IgsLOeOZuS6hWKQyaXmSIAAAAABfpXNBXuPpKvYSsF7FQuFZ; incap_ses_1840_243507=yvcIRiiIeFMqjJ13//6IGZavPmoAAAAARSfQJUmirKQ6eu33aO8CRQ==
+Cookie: visid_incap_243507=dvZ6rGaFQNOdKxDZ8HiMHSdtP2oAAAAAQUIPAAAAAACP02GIicR9xa+9cqViqhcn; nlbi_243507=rwpCTD6PfHRsUMH6aXmSIAAAAABdfM+5B1GiZj/kZ7zpJ11u; incap_ses_175_243507=Yf9ccdWcXC7CUzKgyrltAihtP2oAAAAAH+BtAw+tsifyF4NNCCbU8A==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 312
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 26 Jun 2026 17:01:41 GMT
-Etag: "1782492987-gzip"
+Date: Sat, 27 Jun 2026 06:30:22 GMT
+Etag: "1782541822-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 26 Jun 2026 16:56:27 GMT
+Last-Modified: Sat, 27 Jun 2026 06:30:22 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 56-120864550-120864556 SNNy RT(1782493078224 223290) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 256945732 256692852
+X-Iinfo: 50-173129516-173129523 SNNN RT(1782541608132 213892) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 257341941
 
-fb79
+fc00
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ fb79
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/plant-recreation-centre" />
 <meta name="dcterms.title" content="Plant Recreation Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-06-25" />
+<meta name="dcterms.date" content="2026-06-26" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ fb79
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-cadcd5831a64d9b1b7ace6b72ea89c561a13d57336106cce28a44e72ab1a7c56">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0aba5f41ce125e73c33913b9cd7a23afc73d7f7e0d039cd06c0206dc89954627">
   
     
       
@@ -206,7 +206,7 @@ fb79
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-593ff397a29c3c4125b9fc87b0b69cea905d2a92dc9812115c250cf5c1920f8b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e9c1f9a01601e5f07699bd45311debc41a9d6cc197481be9ee1760218864e8a2">
   
     
       
@@ -286,7 +286,9 @@ fb79
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>Wednesday, July 1</strong><span>, closed&nbsp;</span></p></div>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Wednesday, July 1</strong><span>, closed&nbsp;</span></li>
+</ul></div>
       
 
 <div class="mb-3">
@@ -297,7 +299,7 @@ fb79
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -727,7 +729,7 @@ fb79
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Plant Recreation Centre - group fitness - June 28 to September 6</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Cardio and strength </th><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Core conditioning </th><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">HIIT </th><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Strength </th><td>n/a</td><td>n/a</td><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>8:45 - 9:45 am</td></tr><tr><th scope="row">Zumba<strong> ®</strong> Toning</th><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>n/a</td><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Plant Recreation Centre - group fitness - June 28 to September 6</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Balance and strength</th><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength </th><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Core conditioning </th><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">HIIT </th><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Strength </th><td>n/a</td><td>n/a</td><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>8:45 - 9:45 am</td></tr><tr><th scope="row">Zumba<strong> ®</strong> Toning</th><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>n/a</td><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
 
@@ -1210,14 +1212,14 @@ fb79
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/y1hv2c4t">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
