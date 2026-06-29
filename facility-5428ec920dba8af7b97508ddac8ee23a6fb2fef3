@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=1ZkxGMmpSEiaQodYaSarwT8eQmoAAAAAQUIPAAAAAACpntkpZdNBmbxVZbOshotU; nlbi_243507=3RGTL+cD72z7rlj9aXmSIAAAAABHHkaL8WbhYBlWkSwGkHqO; incap_ses_198_243507=G4KiYzf7Qj2TDln+NnC/AkAeQmoAAAAAOwrp8ajvTOnxbKN4QhVucA==
+Cookie: visid_incap_243507=YOrvj3IZTe+IpYYxowi1ih2sQmoAAAAAQUIPAAAAAABCBwodMSE+N7jpXayVEBUd; nlbi_243507=xBKxORhDzl0G59G0aXmSIAAAAADfUZZVrjLRHCPve/I4dufR; incap_ses_189_243507=J8McPMNEQV854x2Ut3afAh6sQmoAAAAAALqSzOf5JGlKrddV4BP+FQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 567
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 29 Jun 2026 07:30:37 GMT
-Etag: "1782718236-gzip"
+Date: Mon, 29 Jun 2026 17:36:00 GMT
+Etag: "1782753990-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 29 Jun 2026 07:30:36 GMT
+Last-Modified: Mon, 29 Jun 2026 17:26:30 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 59-51682834-51682838 SNNy RT(1782718016962 219771) q(0 0 0 -1) r(4 4) U24
-X-Varnish: 258997232
+X-Iinfo: 44-42567399-42567407 SNNy RT(1782754334245 225710) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 48543680 48574811
 
-16ef9
+13cf5
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 258997232
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata" />
 <meta name="dcterms.title" content="Richcraft Recreation Complex-Kanata" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-06-26" />
+<meta name="dcterms.date" content="2026-06-29" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 258997232
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-dbae3364e9f9cf7b78845bfdd27df3124c09362f33721156778dd21fbbae11a5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f53e7dbe003ee3a0155c9bc0de2f551c8c0b715c21f7749545c872f84ee13585">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 258997232
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ba8c7437e078882724af3b54ae96d1e4a35d8150791f446e733100625e44647b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-09daa7775a16a7db023b545e139432e4d1ca46ff10af79ebf37b200b3960220f">
   
     
       
@@ -278,7 +278,7 @@ X-Varnish: 258997232
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule changes</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Modified hours</h2>
 </div>
       
 
@@ -286,32 +286,7 @@ X-Varnish: 258997232
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Friday, June 26</strong>
-<ul>
-<li>Sauna, 4 to 7:30 pm, <strong>closed</strong></li>
-</ul>
-</li>
-<li><strong>Saturday, June 27</strong>
-<ul>
-<li>Lane swim, 9:30 am to 12:30 pm, <strong>added</strong></li>
-<li>Public swim - leisure pool only, 9:30 am to 12:30 pm, <strong>added</strong></li>
-<li>Sauna, 4 to 7 pm, <strong>closed</strong></li>
-<li>Aqua Zumba<sup>®</sup>, &nbsp;7 to 8 pm, <strong>cancelled</strong></li>
-</ul>
-</li>
-<li><strong>Sunday, June 28</strong>
-<ul>
-<li>Lane swim, 10:30 am to 1:30 pm, <strong>added</strong></li>
-<li>Public swim - leisure pool only, 10:30 am to 1:30 pm, <strong>added</strong></li>
-<li>Sauna, 4 to 7 pm, <strong>closed</strong></li>
-</ul>
-</li>
-</ul>
-<h3>Modified hours</h3>
-<ul>
-<li><span><strong>Wednesday, July 1</strong>, 10 am to 4 pm</span></li>
-</ul></div>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><span><strong>Wednesday, July 1</strong>, 10 am to 4 pm</span></p></div>
       
 
 <div class="mb-3">
@@ -322,7 +297,7 @@ X-Varnish: 258997232
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -634,26 +609,6 @@ X-Varnish: 258997232
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule changes</span></h3>
 <ul>
-<li><strong>Friday, June 26</strong>
-<ul>
-<li>Sauna, 4 to 7:30 pm, <strong>closed</strong></li>
-</ul>
-</li>
-<li><strong>Saturday, June 27</strong>
-<ul>
-<li>Lane swim, 9:30 am to 12:30 pm, <strong>added</strong></li>
-<li>Public swim - leisure pool only, 9:30 am to 12:30 pm, <strong>added</strong></li>
-<li>Sauna, 4 to 7 pm, <strong>closed</strong></li>
-<li>Aqua Zumba<sup>®</sup>, &nbsp;7 to 8 pm, <strong>cancelled</strong></li>
-</ul>
-</li>
-<li><strong>Sunday, June 28</strong>
-<ul>
-<li>Lane swim, 10:30 am to 1:30 pm, <strong>added</strong></li>
-<li>Public swim - leisure pool only, 10:30 am to 1:30 pm, <strong>added</strong></li>
-<li>Sauna, 4 to 7 pm, <strong>closed</strong></li>
-</ul>
-</li>
 <li><span><strong>Wednesday, July 1</strong></span>
 <ul>
 <li><span>See Canada Day schedule</span></li>
@@ -661,11 +616,6 @@ X-Varnish: 258997232
 </li>
 </ul></div>
       
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Richcraft Recreation Complex Kanata - swim and aquafitness - March 23 to June 28</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Reduced lane swim <br>*Reservations not required.&nbsp;</th><td>6:15 - 8:30 am,&nbsp;<br>10:30 - 11:30 am</td><td>6:15 - 7:30 am</td><td>7:30 - 8:30 am</td><td>6:15 - 7:30 am</td><td>7:30 - 8:30 am,&nbsp;<br>10:30 - 11:30 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Lane swim<br>*Reservations not required.&nbsp;</th><td>8:30 - 10:30 am,&nbsp;<br>11:30 am - 1 pm,&nbsp;<br>2 - 4 pm</td><td>10:30 am - 1 pm,&nbsp;<br>3 - 4 pm,&nbsp;<br>7:30 - 9 pm</td><td>8:30 - 10:30 am,&nbsp;<br>11:30 am - 1 pm,&nbsp;<br>2 - 4:30 pm</td><td>11:30 am - 1 pm,&nbsp;<br>2 - 4 pm,&nbsp;<br>7:30 - 9 pm</td><td>8:30 - 10:30 am,&nbsp;<br>11:30 am - 1 pm,&nbsp;<br>2 - 4:30 pm</td><td>8:30 - 9:30 am,&nbsp;<br>12:30 - 1:30 pm  <br><strong>Play Free</strong></td><td>8:30 - 10:30 am</td></tr><tr><th scope="row">Public swim - leisure pool only<br>*Reservations not required.&nbsp;</th><td>10:30 - 11:30 am</td><td>10:30 am - 1 pm</td><td>n/a</td><td>n/a</td><td>11:30 am - 1 pm,&nbsp;<br>3 - 4:30 pm</td><td>8:30 - 9:30 am,&nbsp;<br>12:30 - 1:30 pm  <br><strong>Play Free</strong></td><td>8:30 - 10:30 am</td></tr><tr><th scope="row">Public swim <br>*Reservations not required.&nbsp;</th><td>7:30 - 9 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>1:30 - 4 pm  <br><strong>Play Free</strong></td><td>1:30 - 4 pm</td></tr><tr><th scope="row">Preschool swim - leisure pool only&nbsp;<br>*Reservations not required.</th><td>n/a</td><td>n/a</td><td>8:30 - 10:30 am</td><td>n/a</td><td>8:30 - 10:30 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Aquafit - Deep&nbsp;</th><td>n/a</td><td>8:30&nbsp;-&nbsp;9:30 am,<br>9:30&nbsp;-&nbsp;10:30 am&nbsp;</td><td>1 - 2 pm</td><td>8:30&nbsp;-&nbsp;9:30 am,<br>9:30&nbsp;-&nbsp;10:30 am&nbsp;</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Aquafit - Shallow&nbsp;</th><td>n/a</td><td>8:30&nbsp;-&nbsp;9:30 am,<br>9:30&nbsp;-&nbsp;10:30 am&nbsp;</td><td>1 - 2 pm</td><td>8:30&nbsp;-&nbsp;9:30 am,<br>9:30&nbsp;-&nbsp;10:30 am&nbsp;</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Aquafit Zumba<sup>®</sup></th><td>n/a</td><td>n/a</td><td>n/a</td><td>1 - 2 pm</td><td>n/a</td><td>7 - 8 pm</td><td>n/a</td></tr><tr><th scope="row">Sauna&nbsp;<br>*Reservations not required.</th><td>6:15 am - 1 pm,&nbsp;<br>2 - 9 pm</td><td>6:15 am - 4 pm,&nbsp;<br>4:30 - 9 pm</td><td>7:30 - 10:30 am,&nbsp;<br>11:30 am - 8:30 pm</td><td>6:15 - 10:30 am,&nbsp;<br>11:30 am - 4 pm,&nbsp;<br>4:30 - 9 pm</td><td>7:30 am - 7:30 pm</td><td>8:30 am - 7 pm</td><td>8:30 am - 7 pm</td></tr></tbody></table></div>
-      </div>
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
@@ -916,11 +866,6 @@ X-Varnish: 258997232
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Richcraft Recreation Complex - Kanata - group fitness - May 4 to June 28</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Bootcamp</th><td>7:30 - 8:30 am</td><td>n/a</td><td>7:30 - 8:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength</th><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio 50+</th><td>n/a</td><td>n/a</td><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Chair Exercise&nbsp;</span><br><span>(Heartwise) - 50+</span></th><td>3 - 4 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Core Conditioning</span></th><td><span>4:15 - 5:15 pm&nbsp;</span></td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">HIIT</th><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Indoor cycling</th><td>n/a</td><td>n/a</td><td>n/a</td><td>6:30 - 7:30 am,&nbsp;<br>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Pilates</th><td>n/a</td><td>n/a</td><td>10:45 - 11:45 am</td><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span dir="ltr">Strength</span></th><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">TRX</th><td>n/a</td><td>n/a</td><td>n/a</td><td>1 - 2 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td><span dir="ltr">6:45 - 7:45 pm,</span><span>&nbsp;</span><br><span dir="ltr">8 - 9 pm</span><span>&nbsp;</span></td><td>n/a</td><td><span dir="ltr">2:30 - 3:30 pm,</span><span>&nbsp;</span><br><span dir="ltr">3:45 - 4:45 pm,</span><span>&nbsp;</span><br><span dir="ltr">7:15 - 8:15 pm</span><span>&nbsp;</span></td><td>9:30 - 10:30 am,&nbsp;<br>10:45 - 11:45 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span dir="ltr">Yoga Chair&nbsp;</span><br><span dir="ltr">(Heartwise) - 50+</span><span>&nbsp;</span></th><td>n/a</td><td>n/a</td><td><span dir="ltr">1:15 - 2:15 pm</span><span>&nbsp;</span></td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup></th><td>7:30 - 8:30 pm</td><td>9:30 - 10:30 am</td><td>5 - 6 pm,<br>6:30 - 7:30 pm</td><td>9:30 - 10:30 am</td><td>6 - 7 pm,&nbsp;<br>7 - 8 pm</td><td>9:30 - 10:30 am</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup> Gold</th><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup> Toning</th><td>n/a</td><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
-      </div>
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Richcraft Recreation Complex - Kanata - group fitness - June 29 to August 30</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Bootcamp</th><td>7:30 - 8:30 am</td><td>n/a</td><td>7:30 - 8:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength</th><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio 50+</th><td>n/a</td><td>n/a</td><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Chair Exercise&nbsp;</span><br><span>(Heartwise) - 50+</span></th><td>3 - 4 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Core Conditioning</span></th><td><span>4:15 - 5:15 pm&nbsp;</span></td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">HIIT</th><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Indoor cycling</th><td>n/a</td><td>n/a</td><td>n/a</td><td>6:30 - 7:30 am,&nbsp;<br>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Pilates</th><td>n/a</td><td>n/a</td><td>10:45 - 11:45 am</td><td>n/a</td><td>11:30 am - 12:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span dir="ltr">Strength</span></th><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">TRX</th><td>n/a</td><td>n/a</td><td>n/a</td><td>1 - 2 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td><span dir="ltr">6:45 - 7:45 pm,</span><span>&nbsp;</span><br><span dir="ltr">8 - 9 pm</span><span>&nbsp;</span></td><td>n/a</td><td><span dir="ltr">2:30 - 3:30 pm,</span><span>&nbsp;</span><br><span dir="ltr">3:45 - 4:45 pm</span></td><td>9:30 - 10:30 am,&nbsp;<br>10:45 - 11:45 am</td><td>n/a</td><td>n/a</td><td>10:15 - 11:15 am</td></tr><tr><th scope="row"><span dir="ltr">Yoga Chair&nbsp;</span><br><span dir="ltr">(Heartwise) - 50+</span><span>&nbsp;</span></th><td>n/a</td><td>n/a</td><td><span dir="ltr">1:15 - 2:15 pm</span><span>&nbsp;</span></td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup></th><td>7:30 - 8:30 pm</td><td>9:30 - 10:30 am</td><td>5 - 6 pm,&nbsp;<br>6 - 7 pm</td><td>8:15 - 9:15 am</td><td>6 - 7 pm,&nbsp;<br>7 - 8 pm</td><td>9:30 - 10:30 am</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup> Gold</th><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9:30 - 10:30 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>® </sup>Toning</th><td>n/a</td><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>10:45 - 11:45 am</td><td>n/a</td></tr><tr><th><span lang="EN-US" dir="ltr">Open Gym</span><span>&nbsp;</span></th><td><span lang="EN-US" dir="ltr">5 - 6 pm</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">4:45 - 5:45 pm</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">n/a</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">6 - 7 pm,</span><span>&nbsp;</span><br><span lang="EN-US" dir="ltr">6:30 - 7:30 pm</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">n/a</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">n/a</span><span>&nbsp;</span></td><td><span lang="EN-US" dir="ltr">n/a</span><span>&nbsp;</span></td></tr></tbody></table></div>
       </div>
       </div>
@@ -1022,11 +967,6 @@ X-Varnish: 258997232
 </li>
 </ul></div>
       
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Richcraft Recreation Complex - Kanata -&nbsp;gymnasium sports - March 23 to June 28</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Badminton doubles - adult &nbsp;</th><td>11 am - noon,&nbsp;<br>Noon - 1 pm</td><td>n/a</td><td>11 am - noon,&nbsp;<br>Noon - 1 pm</td><td>n/a</td><td>11 am - noon,&nbsp;<br>Noon - 1 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Badminton doubles -&nbsp;all ages </th><td>n/a &nbsp;</td><td>7:30 - 8:30 pm,&nbsp;<br>8:30 - 9:30 pm</td><td>n/a</td><td>7 - 8 pm,&nbsp;<br>8 - 9 pm,&nbsp;<br>9 - 10 pm</td><td>n/a</td><td><p>n/a &nbsp;</p><p> &nbsp;</p></td><td>11:45 am - 12:45 pm,&nbsp;<br>12:45 - 1:45 pm</td></tr><tr><th scope="row">Badminton - family </th><td>n/a </td><td>n/a</td><td>n/a </td><td>n/a </td><td>n/a </td><td>8:30 - 9:30 am,<br>9:30 - 10:30 am  <br><strong>Play Free</strong></td><td>n/a </td></tr><tr><th scope="row">Basketball - adult &nbsp;</th><td>11 am - noon,&nbsp;<br>Noon - 1 pm</td><td>11 am - noon,&nbsp;<br>Noon - 1 pm</td><td>n/a</td><td>11 am - noon,&nbsp;<br>Noon - 1 pm</td><td>11 am - noon,&nbsp;<br>Noon - 1 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Kinderplay</th><td><p>n/a &nbsp;</p><p> &nbsp;</p></td><td>n/a&nbsp;</td><td>n/a &nbsp;</td><td><p>n/a &nbsp;</p><p> &nbsp;</p></td><td><p>n/a &nbsp;</p><p> &nbsp;</p></td><td>n/a&nbsp;</td><td>8:30 - 9:30 am,&nbsp;<br>9:30 - 10:30 am,&nbsp;<br>10:30&nbsp;-&nbsp;11:30 am&nbsp;</td></tr><tr><th scope="row">Open Gym </th><td>1:30 - 2:30 pm,&nbsp;<br>2:30 - 3:30 pm</td><td>3:45 - 4:45 pm,<br>4:45 - 5:45 pm</td><td>3:45 - 4:45 pm</td><td>3:45 - 4:45 pm,&nbsp;<br>4:45 - 5:45 pm,&nbsp;<br>5:45 - 6:45 pm</td><td>n/a</td><td>10:30 - 11:30 am  <br><strong>Play Free</strong></td><td>2 - 3 pm,&nbsp;<br>3 - 4 pm</td></tr><tr><th scope="row">Open Gym - family</th><td>n/a</td><td>4:45 - 5:45 pm</td><td>n/a</td><td>4:45 - 5:45 pm</td><td>4:45 - 5:45 pm</td><td>8:30 - 9:30 am,&nbsp;<br>9:30 - 10:30 am  <br><strong>Play Free</strong></td><td>n/a</td></tr><tr><th scope="row">Open Gym - youth</th><td>n/a</td><td>3:45 - 4:45 pm</td><td>n/a</td><td>3:45 - 4:45 pm</td><td>3:45 - 4:45 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Pickleball - rotations</th><td>n/a</td><td>1:30 - 2:30 pm,&nbsp;<br>2:30 - 3:30 pm</td><td>1:30 - 2:30 pm,&nbsp;<br>2:30 - 3:30 pm</td><td>1:30 - 2:30 pm,&nbsp;<br>2:30 - 3:30 pm</td><td>7:30 - 8:30 am,&nbsp;<br>8:30 - 9:30 am,&nbsp;<br>9:30 - 10:30 am,&nbsp;<br>1:30 - 2:30 pm,&nbsp;<br>2:30 - 3:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Pickleball - rotations (intermediate)</th><td>n/a</td><td>6 - 7 pm,&nbsp;<br>1:30 - 2:30 pm,&nbsp;<br>2:30 - 3:30 pm&nbsp;</td><td>1:30 - 2:30 pm,&nbsp;<br>2:30 - 3:30 pm&nbsp;</td><td>1:30 - 2:30 pm,&nbsp;<br>2:30 - 3:30 pm&nbsp;</td><td>8:30 - 9:30 am,&nbsp;<br>9:30 - 10:30 am,&nbsp;<br>1:30 - 2:30 pm,&nbsp;<br>2:30 - 3:30 pm&nbsp;</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Rockwall  &nbsp;</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>8:30 - 9:30 am,&nbsp;<br>9:30 - 10:30 am,&nbsp;<br>10:30 - 11:30 am</td></tr><tr><th scope="row">Table Tennis - adult &nbsp;</th><td>n/a  &nbsp;</td><td>n/a &nbsp;</td><td>3:45 - 4:45 pm,&nbsp;<br>4:45 - 5:45 pm</td><td>n/a</td><td>n/a &nbsp;</td><td>n/a &nbsp;</td><td>n/a &nbsp;</td></tr><tr><th scope="row">Table Tennis doubles - adult &nbsp;</th><td>n/a &nbsp;</td><td>n/a &nbsp;</td><td>n/a &nbsp;</td><td>n/a &nbsp;</td><td>7 - 8 pm,&nbsp;<br>8 - 9 pm</td><td>n/a &nbsp;</td><td>n/a &nbsp;</td></tr><tr><th scope="row">Volleyball - adult </th><td>8 - 9 pm, &nbsp;<br>9 - 10 pm &nbsp;</td><td>11 am - noon,&nbsp;<br>Noon - 1 pm</td><td>n/a &nbsp;</td><td>11 am - noon,&nbsp;<br>Noon - 1 pm</td><td>n/a</td><td>6 - 7 pm,&nbsp;<br>7 - 8 pm</td><td>n/a</td></tr><tr><th scope="row">Volleyball - youth</th><td>8:45 - 9:45 pm</td><td>n/a &nbsp;</td><td>n/a &nbsp;</td><td>n/a &nbsp;</td><td>n/a &nbsp;</td><td>n/a &nbsp;</td><td>n/a &nbsp;</td></tr></tbody></table></div>
-      </div>
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
