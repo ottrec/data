@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/general-burns-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=FRgQ9yzuQGmGbx6tQhFpFvNnQ2oAAAAAQUIPAAAAAADu3RIafnPHtH7Tge2zDFcE; nlbi_243507=CjQyGn3kK2Qlrxu+aXmSIAAAAABm5AREmZqMHDMh2GTb02IT; incap_ses_187_243507=G0FHQnBvhiw+XfhCuluYAvNnQ2oAAAAAGNUDYnJWvPQRheuBrq50yw==
+Cookie: visid_incap_243507=VrZVkVX/SzyOzG9ZnShcwpb2Q2oAAAAAQUIPAAAAAAAktmGgZORDxJ6xinWKqeRM; nlbi_243507=4m1fF/11cymhc/21aXmSIAAAAAAWSzUel6zA7gbo3NWtmeJt; incap_ses_1350_243507=hM8lM2Pnuxpm39aTgCq8Epb2Q2oAAAAAkV2EBRyg7bHJuSZPyhdhPA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 364
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 30 Jun 2026 06:55:16 GMT
-Etag: "1782802515-gzip"
+Date: Tue, 30 Jun 2026 17:03:53 GMT
+Etag: "1782838667-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 30 Jun 2026 06:55:15 GMT
+Last-Modified: Tue, 30 Jun 2026 16:57:47 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 33-4568897-4568898 SNNy RT(1782802419054 96781) q(0 0 0 -1) r(6 6) U24
-X-Varnish: 9059046
+X-Iinfo: 8-6398920-6398928 SNNN RT(1782838934954 98097) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 49576496 40214448
 
-d98f
+db2f
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ d98f
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/general-burns-pool" />
 <meta name="dcterms.title" content="General Burns Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-06-29" />
+<meta name="dcterms.date" content="2026-06-30" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ d98f
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0fcd326bdfdd5b8026121e4acc0653385ba3479441ee2f5ebd1edfe2466463b5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-383e7760f4014fcc10a8591f02686a8f8798c286f28baef86d1aa27a0f6ea1fd">
   
     
       
@@ -206,7 +206,7 @@ d98f
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-afeb40a0845f31af3ae995b9f24c1324f6d11ed89aeb473b2a58903c400bee03">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fcf5911de685bf77684b1dddbaec5e80345955d6b187a6be7c48de54ffb137d5">
   
     
       
@@ -278,6 +278,15 @@ d98f
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>Regular season</strong>, June 25 to August 31</p>
+<h3>Schedule change</h3>
+<ul>
+<li><strong>Tuesday, June 30</strong>
+<ul>
+<li>Lane Swim, noon to 1 pm, <strong>cancelled</strong></li>
+<li>Public Swim, 1 to 4:30 pm, <strong>cancelled</strong></li>
+</ul>
+</li>
+</ul>
 <h3>Modified hours</h3>
 <p><span><strong>Wednesday, July 1</strong>, 10:30 am to 4 pm</span></p></div>
       
@@ -596,6 +605,12 @@ d98f
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
 <ul>
+<li><strong>Tuesday, June 30</strong>
+<ul>
+<li>Lane Swim, noon to 1 pm, <strong>cancelled</strong></li>
+<li>Public Swim, 1 to 4:30 pm, <strong>cancelled</strong></li>
+</ul>
+</li>
 <li><span><strong>Wednesday, July 1</strong></span>
 <ul>
 <li><span>See Canada Day schedule.</span></li>
@@ -1058,14 +1073,14 @@ d98f
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/y1hv2c4t">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -1080,7 +1095,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?tgs4wf" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9T8tuxCAM_CESLv0fZIhLvTUYgdkk-_UlarVa9tCLNQ97NPYi2rRC-bD-CZdbWxgUmxo8lCl_2632Arz-UfPJeDSmDaulrBgrKEk2USQyOoVo4xjvfIUbHLOYDMPjtNcwohrA6RcmtP5k2JlGg1c1CDOUNo4ljozJu3o5CpLbJA_cj3WnLeKc1UIdaVhnkRQplSp3XCADn0phzvv92kW4bk9TpPTiWq93PO0rGc6O1ZPD5HGzE1sCE2b9f6U3lUQPrD_Nl6Vn"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=49&cb=493622553" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=49&cb=872196978" async></script></body>
 </html>
 
 
