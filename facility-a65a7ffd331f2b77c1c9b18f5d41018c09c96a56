@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=YOrvj3IZTe+IpYYxowi1ih2sQmoAAAAAQUIPAAAAAABCBwodMSE+N7jpXayVEBUd; nlbi_243507=xBKxORhDzl0G59G0aXmSIAAAAADfUZZVrjLRHCPve/I4dufR; incap_ses_189_243507=J8McPMNEQV854x2Ut3afAh6sQmoAAAAAALqSzOf5JGlKrddV4BP+FQ==
+Cookie: visid_incap_243507=FRgQ9yzuQGmGbx6tQhFpFvNnQ2oAAAAAQUIPAAAAAADu3RIafnPHtH7Tge2zDFcE; nlbi_243507=CjQyGn3kK2Qlrxu+aXmSIAAAAABm5AREmZqMHDMh2GTb02IT; incap_ses_187_243507=G0FHQnBvhiw+XfhCuluYAvNnQ2oAAAAAGNUDYnJWvPQRheuBrq50yw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 618
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 29 Jun 2026 17:36:47 GMT
-Etag: "1782753987-gzip"
+Date: Tue, 30 Jun 2026 06:58:05 GMT
+Etag: "1782802683-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 29 Jun 2026 17:26:27 GMT
+Last-Modified: Tue, 30 Jun 2026 06:58:03 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 44-42567399-42631873 SNNy RT(1782754334245 272996) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 258129883 240780855
+X-Iinfo: 33-4568897-4568898 SNNy RT(1782802419054 264825) q(0 1 1 -1) r(15 15) U24
+X-Varnish: 35046307
 
-13332
+1343b
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -192,7 +192,7 @@ X-Varnish: 258129883 240780855
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b26e4a967aa81101f3fb64c7976483e9abe8340d9d5ae143652e2791369d0da8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-14f6740ea07a2b5a7889fb41a08da910e765346240bc608a25d6a57896cdd520">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 258129883 240780855
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ad65f7a3474e23e6982ca70aa2824947bff40e979eba198e652a53a6a9fa8a43">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-05a69d98463dfb7b5c61dd4b88a9287f24bd5f3ba3caa662f0abe15c2215ae6e">
   
     
       
@@ -279,7 +279,7 @@ X-Varnish: 258129883 240780855
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Modified hours</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Pool closure</h2>
 </div>
       
 
@@ -287,7 +287,15 @@ X-Varnish: 258129883 240780855
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>Wednesday, July 1</strong><span>, closed</span></p></div>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Tuesday, June 30</strong>
+<ul>
+<li>The whale pool is closed.</li>
+</ul>
+</li>
+</ul>
+<h3>Modified hours</h3>
+<p><strong>Wednesday, July 1</strong><span>, closed</span></p></div>
       
 
 <div class="mb-3">
@@ -298,7 +306,7 @@ X-Varnish: 258129883 240780855
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -498,7 +506,15 @@ X-Varnish: 258129883 240780855
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Pool closure</strong></h3>
+<ul>
+<li><strong>Tuesday, June 30</strong>
+<ul>
+<li>The whale pool is closed.</li>
+</ul>
+</li>
+</ul>
+<h3><strong>Schedule change</strong></h3>
 <ul>
 <li><strong>Wednesday, July 1</strong>
 <ul>
