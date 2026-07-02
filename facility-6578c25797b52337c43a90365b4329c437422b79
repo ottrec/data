@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/plant-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=n/sWUZ6STaesz1Sz3YcYCOtJRWoAAAAAQUIPAAAAAACFtQwutp3O5sprsb52I1IW; nlbi_243507=Fpy1DJrsqESWRfpMaXmSIAAAAAATiFZ46N9Cawk6KU+tVGd+; incap_ses_1545_243507=VlCHSsuu3Elrw+9kbPFwFexJRWoAAAAAK0GjlkOxw36ViZuTXhE61Q==
+Cookie: visid_incap_243507=KveOccA/R7ybCpDindHJawYHRmoAAAAAQUIPAAAAAABzT4shpbnZCIIFc6sSNEkg; nlbi_243507=YTI9IyIvokBE3g31aXmSIAAAAAC4UFKh3J31LXRsmXDK4q6u; incap_ses_92_243507=5wFcP3YCTlWlRO7Zv9lGAQYHRmoAAAAA573jazpvFLjgSAX5Jbpthg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 33
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 01 Jul 2026 17:13:36 GMT
-Etag: "1782925981-gzip"
+Date: Thu, 02 Jul 2026 06:40:30 GMT
+Etag: "1782974429-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 01 Jul 2026 17:13:01 GMT
+Last-Modified: Thu, 02 Jul 2026 06:40:29 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 14-17705332-17705334 SNNN RT(1782925803956 212927) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 52171438 41333227
+X-Iinfo: 51-140415526-140485726 SNNN RT(1782974214612 215163) q(0 1 1 -1) r(6 6) U24
+X-Varnish: 262284206
 
-eea2
+ee43
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ eea2
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/plant-recreation-centre" />
 <meta name="dcterms.title" content="Plant Recreation Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-06-30" />
+<meta name="dcterms.date" content="2026-07-01" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ eea2
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-edd58faf76999ce068965dd8f13dba397743237c4658b56c2fbbf5f50b1e3ddf">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-baf33ec3befa0ab76d48d0c9c396d2a01fd22ac072b6ed40349c18aef8bc5305">
   
     
       
@@ -206,7 +206,7 @@ eea2
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3a89b2a68d807cb8ccdc758f213dbdc23e010234e19c2e9548c29cf0e181057c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-18657fbdef88ada3f4929fd0ba668bbdd62eb74c2f3b5df9d652108aec4b98e6">
   
     
       
@@ -286,9 +286,13 @@ eea2
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><h4>Wednesday, July 1</h4>
-<p><span><strong>Emergency cooling centre will be open from 10 am to 5 pm.</strong></span></p>
-<p><span><strong>The pool and gymnasium are closed and all programs cancelled.</strong></span></p>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Wednesday, July 1</strong>
+<ul>
+<li><span>The facility is closed, and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul>
 <p><span>Residents are encouraged to stay cool at home using the </span><a href="https://www.ottawapublichealth.ca/en/public-health-topics/extreme-heat-and-humidity.aspx" aria-label="Link Beat the Heat" target="_blank" title="https://www.ottawapublichealth.ca/en/public-health-topics/extreme-heat-and-humidity.aspx"><span><u>Beat the Heat</u></span></a><span> tips from </span><a href="https://www.ottawapublichealth.ca/en/index.aspx" aria-label="Link Ottawa Public Health" target="_blank" title="https://www.ottawapublichealth.ca/en/index.aspx"><span><u>Ottawa Public Health</u></span></a>.</p></div>
       
 
@@ -300,7 +304,7 @@ eea2
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -498,7 +502,7 @@ eea2
 <ul>
 <li><span><strong>Wednesday, July 1</strong></span>
 <ul>
-<li><span>The pool is closed and all drop-ins cancelled.</span></li>
+<li><span>The facility is closed and all programs cancelled.</span></li>
 </ul>
 </li>
 </ul></div>
@@ -604,11 +608,11 @@ eea2
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><strong>Schedule change</strong></span></h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
 <ul>
 <li><span><strong>Wednesday, July 1</strong></span>
 <ul>
-<li><span>The weight and cardio room is closed and all programs cancelled.</span></li>
+<li><span>The facility is closed and all programs cancelled.</span></li>
 </ul>
 </li>
 </ul></div>
@@ -708,11 +712,11 @@ eea2
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><strong>Schedule change</strong></span></h3>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
 <ul>
 <li><span><strong>Wednesday, July 1</strong></span>
 <ul>
-<li><span>All drop-ins cancelled.</span></li>
+<li><span>The facility is closed and all programs cancelled.</span></li>
 </ul>
 </li>
 </ul></div>
