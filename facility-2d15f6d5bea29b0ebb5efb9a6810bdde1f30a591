@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=Brpl/+DMQsy86oeqrU6Q3CmASmoAAAAAQUIPAAAAAAD/dpbYnSnR982DiyS8kKQj; nlbi_243507=m2MvJtneeiwf4HovaXmSIAAAAADCQxMH+3kQDhG8Eo9eoPJL; incap_ses_177_243507=g1NuIr2ZVXbcKcciytR0AiqASmoAAAAAbCfJNxLLkUneHEBSRhI1IQ==
+Cookie: visid_incap_243507=Gog/kNxZQkKTfJ5SgNB0eg9US2oAAAAAQUIPAAAAAACkX8+irotLJmks84ODk3Nh; nlbi_243507=AonjLJZ/oAfowpWKaXmSIAAAAACsEUY7eiFSKng8SkrqTqju; incap_ses_1843_243507=sHgCVmlb/hJTglFvC6eTGRBUS2oAAAAAuzku/n4tNpSb3HrH3UKAjw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 678
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 05 Jul 2026 16:06:26 GMT
-Etag: "1783266906-gzip"
+Date: Mon, 06 Jul 2026 07:10:33 GMT
+Etag: "1783321833-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sun, 05 Jul 2026 15:55:06 GMT
+Last-Modified: Mon, 06 Jul 2026 07:10:33 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 44-1141316-1141321 SNNy RT(1783267370421 215958) q(0 1 1 -1) r(1 1) U24
-X-Varnish: 265862908 262270786
+X-Iinfo: 56-19919108-19919115 SNNN RT(1783321616221 216789) q(0 1 1 -1) r(5 5) U24
+X-Varnish: 267298587
 
-11a5d
+11a5f
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -192,7 +192,7 @@ X-Varnish: 265862908 262270786
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-eb299691786be16549fcc2132dafc2d0fbcd38d2c4d7100f067f0029ef53869f">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2e2cb678351833b31cfabc0104a06fe11b9589fcb1b9be379c618372d8d06c37">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 265862908 262270786
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-390ae7bf3ac2cfce035a0c2ea62d6d10a4773c44c4036d791ad5693510272667">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5ef890fce48109b9d22791222b1029535922c1725fa4ab4b503eb13927793b08">
   
     
       
@@ -297,7 +297,7 @@ X-Varnish: 265862908 262270786
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -777,7 +777,7 @@ X-Varnish: 265862908 262270786
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Ray Friel Recreation Complex -&nbsp;skating - June 22 to August 30</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Public Skating&nbsp;</th><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>Noon - 12:50&nbsp;pm&nbsp;<br><strong>Play Free</strong></td><td>5 - 6:50 pm</td></tr><tr><th scope="row">Pick-up hockey 18+&nbsp;</th><td>Noon - 1:20 pm&nbsp;</td><td>Noon - 1:20 pm&nbsp;</td><td>Noon - 1:20 pm&nbsp;</td><td>Noon - 1:20 pm&nbsp;</td><td>Noon - 1:20 pm&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Ray Friel Recreation Complex -&nbsp;skating - June 22 to August 30</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Public Skating&nbsp;</th><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>Noon - 12:50&nbsp;pm&nbsp;<br><strong>Play Free</strong></td><td>3 - 4:50 pm</td></tr><tr><th scope="row">Pick-up hockey 18+&nbsp;</th><td>Noon - 1:20 pm&nbsp;</td><td>Noon - 1:20 pm&nbsp;</td><td>Noon - 1:20 pm&nbsp;</td><td>Noon - 1:20 pm&nbsp;</td><td>Noon - 1:20 pm&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
