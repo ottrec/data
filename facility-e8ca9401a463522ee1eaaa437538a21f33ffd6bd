@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/kanata-leisure-centre-and-wave-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=31A47wrlS0ivJbOv2bc6xuhBT2oAAAAAQUIPAAAAAAB+c4o3arPf6JFi1+lcqfii; nlbi_243507=K2h4ary/61rjXeSHaXmSIAAAAAD9db0XkT8lSEGjdB2Yc3p6; incap_ses_1847_243507=TVpcPcjo0FipYmAxeN2hGehBT2oAAAAA54vTrxtm/0iRCRkiK1s7Wg==
+Cookie: visid_incap_243507=B92BeJn5SjuYKyRbPexRLdnXT2oAAAAAQUIPAAAAAAAffDzUXtfgvlxP2qt3zjTu; nlbi_243507=6PI2AfXmBE+DBQo0aXmSIAAAAABRjp1yOYrSBZ45oRrtumGA; incap_ses_7224_243507=FsIwJYXrsWw2WBdlds5AZNnXT2oAAAAAAf/XXCJ472TPyPC24cZwyQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 499
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 09 Jul 2026 06:40:52 GMT
-Etag: "1783579251-gzip"
+Date: Thu, 09 Jul 2026 17:20:34 GMT
+Etag: "1783617135-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 09 Jul 2026 06:40:51 GMT
+Last-Modified: Thu, 09 Jul 2026 17:12:15 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 49-83083647-83113052 SNNy RT(1783579112724 138823) q(0 0 0 -1) r(6 6) U24
-X-Varnish: 269974362
+X-Iinfo: 13-78025222-78025229 SNNN RT(1783617498439 136338) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 269171825 267595439
 
-ef1e
+ef1c
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -192,7 +192,7 @@ ef1e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8c2cbdaa2e40554d6b295960c740488a9f1afc1810f6426a22d44412515d2a80">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4a5c6a9c7f636547a1672413d947fc1ff286e7211cef9cdd19628f55fd1d5a27">
   
     
       
@@ -206,7 +206,7 @@ ef1e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-389c7a39150412d48945ddb3d5eb738d49618d644e1a96cf43821f1b5776a68a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c13d7ed2370d9aedbe7a915d0791c1a0c01f56250f4d024c319d2ef51ab8786b">
   
     
       
@@ -296,7 +296,7 @@ ef1e
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -735,7 +735,7 @@ ef1e
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Kanata Leisure Centre and Wave Pool - group fitness - July 6 to August 30</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Qigong</th><td>11 am - noon</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>10&nbsp;- 11 am</td><td>n/a</td></tr><tr><th scope="row">Step and strength</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>11 am - noon</td><td>n/a</td><td>9 am - 10:15 am</td></tr><tr><th scope="row">Tai Chi</th><td>n/a</td><td>11 am - noon</td><td>n/a</td><td>n/a</td><td>11 am - noon</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>11 am - noon</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup></th><td>n/a</td><td>7&nbsp;- 8 pm</td><td>n/a</td><td>n/a</td><td>7&nbsp;- 8 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup> Gold</th><td>n/a</td><td>n/a</td><td>11 am - noon</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Kanata Leisure Centre and Wave Pool - group fitness - July 6 to August 30</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Qigong</th><td>11 am - noon</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>10&nbsp;- 11 am</td><td>n/a</td></tr><tr><th scope="row">Step and strength</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9 am - 10:15 am</td></tr><tr><th scope="row">Tai Chi</th><td>n/a</td><td>11 am - noon</td><td>n/a</td><td>n/a</td><td>11 am - noon</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>n/a</td><td>n/a</td><td>n/a</td><td>11 am - noon</td><td>n/a</td><td>11 am - noon</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup></th><td>n/a</td><td>7&nbsp;- 8 pm</td><td>n/a</td><td>n/a</td><td>7&nbsp;- 8 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup> Gold</th><td>n/a</td><td>n/a</td><td>11 am - noon</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
 
