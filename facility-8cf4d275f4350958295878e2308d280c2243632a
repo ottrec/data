@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=L71f/huVTEOvFNzGFVuDoy7WUWoAAAAAQUIPAAAAAABHkP4KQSEKoRL7epCuG+0H; nlbi_243507=bNhQDNnhBErsd7++aXmSIAAAAAAxprIYumzXcVfAEARfLtzb; incap_ses_236_243507=FKktcJgPil8Ql5vpaXFGAzDWUWoAAAAAkLGkKQ72rd/AAszWw46fQw==
+Cookie: visid_incap_243507=oG6tIX9cSLSdHlCr2JWfx1ZmUmoAAAAAQUIPAAAAAAAxCBLpNwzuoVAjtW0DtlVC; nlbi_243507=krCDaV1WnAcBy0OyaXmSIAAAAAAe+bKENKI0ocgeJLKZ+7Lw; incap_ses_1351_243507=yoOYCtr/Elm0Bm7z/Le/ElZmUmoAAAAArB+FlslKWR2Uur/b/LTc+g==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 697
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Sat, 11 Jul 2026 05:37:34 GMT
-Etag: "1783748249-gzip"
+Date: Sat, 11 Jul 2026 15:52:20 GMT
+Etag: "1783784440-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Sat, 11 Jul 2026 05:37:29 GMT
+Last-Modified: Sat, 11 Jul 2026 15:40:40 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 13-122705419-122705424 SNNN RT(1783748143081 106878) q(0 1 1 -1) r(42 42) U24
-X-Varnish: 63604652
+X-Iinfo: 7-34188267-34188270 SNNN RT(1783785047478 92784) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 444335139 339543310
 
-10304
+1018d
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 63604652
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre" />
 <meta name="dcterms.title" content="François Dupuis Recreation Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-07-10" />
+<meta name="dcterms.date" content="2026-07-11" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 63604652
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-45567763759b118d5bd7388c916df7fdf89f110f74159df7f8f599574da12b88">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-190370ec120066ce9c2a5680cbc83a8243aafda3a7fcaa0172c68671c55d7ac7">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 63604652
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-49805f757967731a76a8d1a93a65344b46a82bffb69d22aa167c818c57f37fe6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a156337a75065f1c8cf11b1adeab96d7f358537cc0f527b19902824833d81e68">
   
     
       
@@ -287,12 +287,6 @@ X-Varnish: 63604652
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Friday, July 10</strong>
-<ul>
-<li>Lane swim, noon to 1 pm, <strong>cancelled</strong></li>
-<li>Lane swim - shared pool, noon to 1 pm, <strong>added</strong></li>
-</ul>
-</li>
 <li><strong>Saturday, July 11</strong>
 <ul>
 <li>Lane swim, 9:30 to 11:30 am, <strong>cancelled</strong></li>
@@ -310,7 +304,7 @@ X-Varnish: 63604652
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -517,12 +511,6 @@ X-Varnish: 63604652
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
-<li><strong>Friday, July 10</strong>
-<ul>
-<li>Lane swim, noon to 1 pm, <strong>cancelled</strong></li>
-<li>Lane swim - shared pool, noon to 1 pm, <strong>added</strong></li>
-</ul>
-</li>
 <li><strong>Saturday, July 11</strong>
 <ul>
 <li>Lane swim, 9:30 to 11:30 am, <strong>cancelled</strong></li>
@@ -1367,7 +1355,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=47&cb=1078521975" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=47&cb=509728863" async></script></body>
 </html>
 
 
