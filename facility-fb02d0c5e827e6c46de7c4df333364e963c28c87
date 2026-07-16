@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/corkstown-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=blMObAL5RkeLeqt6JXRq4HCyV2oAAAAAQUIPAAAAAACvKP4Av4zrpgXDhejPHGoG; nlbi_243507=ibINe21ubHKW2ip+aXmSIAAAAAACPkdI2i8Wnx0Dp3vHJDzC; incap_ses_102_243507=5oQpWVcRUHsdJRaUtGBqAXGyV2oAAAAAnfCAOY4lOqhnieDvwy28uA==
+Cookie: visid_incap_243507=04yLQY1wSFuMcvR+UQPPsH9tWGoAAAAAQUIPAAAAAAAM659xMBOZzoLdl8Q1QJt7; nlbi_243507=K1GFRBz79kA70UCnaXmSIAAAAAAE+6svLi+qt8YHcJcZoJFJ; incap_ses_1842_243507=tqEiP3xrkhDZ5kndGhqQGX9tWGoAAAAAb/UiIVpa8K3Tph1ePPdMQQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,29 +8,29 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 372
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 15 Jul 2026 16:17:52 GMT
-Etag: "1784131899-gzip"
+Date: Thu, 16 Jul 2026 05:35:58 GMT
+Etag: "1784180158-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 15 Jul 2026 16:11:39 GMT
+Last-Modified: Thu, 16 Jul 2026 05:35:58 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 52-102665535-102665546 SNNy RT(1784132209381 63000) q(0 1 1 -1) r(2 2) U24
-X-Varnish: 28338812 29787532
+X-Iinfo: 56-38130822-38130827 SNNy RT(1784180095764 62377) q(0 0 0 -1) r(7 7) U24
+X-Varnish: 491757768
 
-a037
+a029
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ a037
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/corkstown-pool" />
 <meta name="dcterms.title" content="Corkstown Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-07-02" />
+<meta name="dcterms.date" content="2026-07-15" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ a037
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ef0128ccaf54f2dcd1b819dd5d64e6403d4a383212c991b32eac249eb604a710">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a0c6305ea1330085e9e40f9a14c10bd8676a78d9d00a6f913ffdde0c6d4b7386">
   
     
       
@@ -206,7 +206,7 @@ a037
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c8a8c6328f473a7e6eab6f6a1330b6fe6963253343450d6128091b2e3df9e73a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1013c9039661a6090d35046ed45a912af67c18fefd8d5dfd9fb13689dfe1b7d8">
   
     
       
@@ -269,7 +269,7 @@ a037
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Closure</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Notice</h2>
 </div>
       
 
@@ -277,9 +277,7 @@ a037
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li>Facility is closed until further notice.</li>
-</ul></div>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>The facility is closed until July 19.</p></div>
       
 
 <div class="mb-3">
@@ -290,7 +288,7 @@ a037
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">10:45 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">12:45 pm - 7:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">12:45 pm - 7:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">12:45 pm - 7:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">12:45 pm - 7:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">12:45 pm - 7:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">10:45 am - 5:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">11:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">1:00 pm - 7:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">1:00 pm - 7:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">1:00 pm - 7:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">1:00 pm - 7:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">1:00 pm - 7:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">12:00 pm - 7:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -459,15 +457,13 @@ a037
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><strong>Facility closure</strong></span></h3>
-<ul>
-<li><span>The facility is closed, and all programs cancelled until further notice.</span></li>
-</ul></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><strong>Notice</strong></span></h3>
+<p><span>The facility is closed until July 19.</span></p></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Corkstown&nbsp;outdoor pool - swim - June 29 to August 23</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Public swim</th><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td>11 am - 5 pm&nbsp;<br><strong>Play Free</strong></td><td>11 am - 5 pm</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Corkstown&nbsp;outdoor pool - swim - July 20 to August 23</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Public swim</th><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>1 - 4:30 pm,&nbsp;</span><br><span>5:30 - 7:30 pm</span></td><td><span>Noon - 5 pm,&nbsp;</span><br><span>5:30 - 7 pm&nbsp;</span><br><span><strong>Play Free</strong>&nbsp;</span></td><td>11 am - 5 pm</td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
@@ -850,7 +846,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=1370931113" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=32&cb=1188476321" async></script></body>
 </html>
 
 
