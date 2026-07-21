@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/brewer-pool-and-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=52Hpqu2uRgC+G0Njg+8iMVkHX2oAAAAAQUIPAAAAAADMMy39QgYISoNG47mFULml; nlbi_243507=yjLxOeApAy4TMJkUaXmSIAAAAAAh1OwlhSxvhFUfYSuV8p8u; incap_ses_1251_243507=jgfsI7O/bQ5ySJEsAnJcEVkHX2oAAAAAcHtRfKkVM7dhwTT6gLF+8Q==
+Cookie: visid_incap_243507=FctpeNX1RRKp/DWeWOldsh2cX2oAAAAAQUIPAAAAAADme2DiEoV8DGymLc1IDJ04; nlbi_243507=3lN4fP7kXBAGQ0c7aXmSIAAAAABRSJK8KrmkeYIUWS6tQOjr; incap_ses_1343_243507=4SYRZelF3FsWh1AcCkyjEh6cX2oAAAAANtuD8jSMCuJw3syyFZj17w==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 361
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 21 Jul 2026 05:45:34 GMT
-Etag: "1784612734-gzip"
+Date: Tue, 21 Jul 2026 16:20:23 GMT
+Etag: "1784650459-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 21 Jul 2026 05:45:34 GMT
+Last-Modified: Tue, 21 Jul 2026 16:14:19 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 13-114410464-114410465 SNNy RT(1784612698109 36041) q(0 0 0 -1) r(5 5) U24
-X-Varnish: 500556304
+X-Iinfo: 7-39916759-39916768 SNNN RT(1784650782569 40486) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 501261953 501149949
 
-d9b0
+f197
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ d9b0
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/brewer-pool-and-arena" />
 <meta name="dcterms.title" content="Brewer Pool and Arena" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-07-08" />
+<meta name="dcterms.date" content="2026-07-21" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ d9b0
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-237335fd04ac77739e7989b7bf1bbf05d0101d269f205c3cc3a8267d54847f58">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ed307d9dd251cb22c9b6e11de352572db2886232f8db151afc74de291f410dc4">
   
     
       
@@ -206,7 +206,7 @@ d9b0
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a362e885c726c9a32e1ef02d72fb9016e24f24471e1548ef13632ebeccbe1cd2">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-78e11c7d3712c6e04397960f7661d0eb868f4b5465d45637d05e1104c8677d89">
   
     
       
@@ -275,7 +275,22 @@ d9b0
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Civic Holiday</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>Monday, August 3, </strong>closed<span>&nbsp;</span></p></div>
+      
+
+<div class="mb-3">
 
 
 
@@ -283,7 +298,7 @@ d9b0
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">11:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">11:00 am - 4:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">11:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">11:00 am - 4:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -435,10 +450,113 @@ d9b0
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
-  <button aria-expanded="false" aria-controls="section-ee6a4837-b0a9-4670-9c33-1a0e6271d34d" data-target="#section-ee6a4837-b0a9-4670-9c33-1a0e6271d34d" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - swim and aquafitness</button>
+  <button aria-expanded="false" aria-controls="section-8919534a-0f89-4e8e-96ef-cf17196598e7" data-target="#section-8919534a-0f89-4e8e-96ef-cf17196598e7" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - Civic Holiday weekend</button>
 
                   </h2>
-                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-ee6a4837-b0a9-4670-9c33-1a0e6271d34d">
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-8919534a-0f89-4e8e-96ef-cf17196598e7">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - Civic Holiday weekend</h2>
+</span>
+
+
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>August 1 to 3</h3></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></p>
+<p><strong>Reservations not required.</strong></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Brewer Pool - swim</caption><thead><tr><th scope="col"><span>&nbsp;</span></th><th scope="col"><span>Saturday, August 1&nbsp;</span></th><th scope="col"><span>Sunday, August 2&nbsp;</span></th><th scope="col"><span>Monday, August 3&nbsp;</span></th></tr></thead><tbody><tr><th scope="row"><span>Lane swim&nbsp;</span></th><td><span>11:30 am – 1 pm&nbsp;</span><br><span>Play Free</span></td><td><span>11:30 am – 1 pm&nbsp;</span></td><td><span>Closed&nbsp;</span></td></tr><tr><th scope="row"><span>Public Swim&nbsp;</span></th><td><span>1 – 3 pm&nbsp;</span><br><span>Play Free&nbsp;</span></td><td><span>1 – 3 pm &nbsp;</span></td><td><span>Closed&nbsp;</span></td></tr></tbody></table></div>
+      </div>
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Play Free&nbsp;</h3>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank">Play Free</a>&nbsp;is the City’s lineup of free drop-in activities for children and youth (aged 17 and under) and accompanying adults.</p></div>
+      
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+                              <div class="col collapse-region pl-0 pr-0">
+                  <h2 class="no-toc">
+                              
+  <button aria-expanded="false" aria-controls="section-829858fe-3f0e-42c6-8083-19f1993c216f" data-target="#section-829858fe-3f0e-42c6-8083-19f1993c216f" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - swim and aquafitness</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-829858fe-3f0e-42c6-8083-19f1993c216f">
                   
                                                                                       <div  class="layout__region layout__region--main col-12">
                           
@@ -477,6 +595,18 @@ d9b0
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.&nbsp;</p>
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></p>
 <p><strong>Reservations not required.</strong></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
+<ul>
+<li><strong>Saturday, August 1 to Monday, August 3</strong>
+<ul>
+<li>See Civic Holiday weekend schedule.</li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -1122,7 +1252,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=19&cb=1318582786" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=19&cb=1408253273" async></script></body>
 </html>
 
 

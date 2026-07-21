@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=52Hpqu2uRgC+G0Njg+8iMVkHX2oAAAAAQUIPAAAAAADMMy39QgYISoNG47mFULml; nlbi_243507=yjLxOeApAy4TMJkUaXmSIAAAAAAh1OwlhSxvhFUfYSuV8p8u; incap_ses_1251_243507=jgfsI7O/bQ5ySJEsAnJcEVkHX2oAAAAAcHtRfKkVM7dhwTT6gLF+8Q==
+Cookie: visid_incap_243507=FctpeNX1RRKp/DWeWOldsh2cX2oAAAAAQUIPAAAAAADme2DiEoV8DGymLc1IDJ04; nlbi_243507=3lN4fP7kXBAGQ0c7aXmSIAAAAABRSJK8KrmkeYIUWS6tQOjr; incap_ses_1343_243507=4SYRZelF3FsWh1AcCkyjEh6cX2oAAAAANtuD8jSMCuJw3syyFZj17w==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 781
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 21 Jul 2026 05:48:34 GMT
-Etag: "1784612914-gzip"
+Date: Tue, 21 Jul 2026 16:23:35 GMT
+Etag: "1784650229-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 21 Jul 2026 05:48:34 GMT
+Last-Modified: Tue, 21 Jul 2026 16:10:29 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 13-114410464-114410465 SNNy RT(1784612698109 216041) q(0 0 0 -1) r(5 5) U24
-X-Varnish: 40133248
+X-Iinfo: 7-39916759-39916768 SNNN RT(1784650782569 233114) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 40996575 40639454
 
-139a6
+139ab
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 40133248
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/ray-friel-recreation-complex" />
 <meta name="dcterms.title" content="Ray Friel Recreation Complex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-07-20" />
+<meta name="dcterms.date" content="2026-07-21" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 40133248
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-67601c7c34623a97406945dee08ff67582ff96610d108c9773fa8a03ccb2eaea">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d7f6855d0ef86e4ef916fb18e40735b9d73f3e143ea37c01018c4c87c7eb58b7">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 40133248
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-55f74db0f512dff26e6011d8b6c48e25a34973a60815bd07e1267004f3023713">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-54cd5d91994c19da1c084eb66d25f083da974bc9b22ea1aeebe4c4358a194b9e">
   
     
       
@@ -287,8 +287,11 @@ X-Varnish: 40133248
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>Monday, August 3</strong>, closed</p>
-<h3>Closure</h3>
-<p>The diving board is closed until further notice.</p></div>
+<h3>Closures</h3>
+<ul>
+<li>The <strong>diving board</strong> is closed until further notice.</li>
+<li><span>The <strong>elevator</strong> is closed until further notice.</span></li>
+</ul></div>
       
 
 <div class="mb-3">
@@ -299,7 +302,7 @@ X-Varnish: 40133248
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -496,7 +499,7 @@ X-Varnish: 40133248
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Ray Friel Recreation Complex -&nbsp;all drop-ins</caption><thead><tr><td>&nbsp;</td><th scope="col">Saturday, August 1</th><th scope="col">Sunday, August 2</th><th scope="col">Monday, August 3</th></tr></thead><tbody><tr><th scope="row">Lane swim</th><td>9 - 11 am&nbsp;<br><strong>Play Free</strong></td><td>9 - 11 am&nbsp;<br><strong>Play Free</strong></td><td>n/a</td></tr><tr><th scope="row">Public swim</th><td>11 am - 1&nbsp;pm&nbsp;<br><strong>Play Free</strong></td><td>11 am - 1&nbsp;pm&nbsp;<br><strong>Play Free</strong></td><td>n/a</td></tr><tr><th scope="row">Wave swim</th><td>1 - 5 pm</td><td>1 - 5 pm</td><td>n/a</td></tr><tr><th scope="row">Preschool swim</th><td>9 - 11 am&nbsp;<br><strong>Play Free</strong></td><td>9 - 11 am&nbsp;<br><strong>Play Free</strong></td><td>n/a</td></tr><tr><th scope="row">Cardio and strength</th><td>n/a</td><td>10:15 - 11:10 am&nbsp;</td><td>n/a</td></tr><tr><th scope="row">Indoor cycling</th><td>9:15 - 10:10 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Sport conditioning</th><td>9 - 10 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>10:15 - 11:10 am&nbsp;</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Public Skating</th><td>Noon - 12:50 pm&nbsp;<br><strong>Play Free</strong></td><td>5 - 6:50 pm</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Ray Friel Recreation Complex -&nbsp;all drop-ins</caption><thead><tr><td>&nbsp;</td><th scope="col">Saturday, August 1</th><th scope="col">Sunday, August 2</th><th scope="col">Monday, August 3</th></tr></thead><tbody><tr><th scope="row">Lane swim</th><td>9 - 11 am&nbsp;<br><strong>Play Free</strong></td><td>9 - 11 am</td><td>n/a</td></tr><tr><th scope="row">Public swim</th><td>11 am - 1&nbsp;pm&nbsp;<br><strong>Play Free</strong></td><td>11 am - 1&nbsp;pm</td><td>n/a</td></tr><tr><th scope="row">Wave swim</th><td>1 - 5 pm</td><td>1 - 5 pm</td><td>n/a</td></tr><tr><th scope="row">Preschool swim</th><td>9 - 11 am&nbsp;<br><strong>Play Free</strong></td><td>9 - 11 am</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength</th><td>n/a</td><td>10:15 - 11:10 am&nbsp;</td><td>n/a</td></tr><tr><th scope="row">Indoor cycling</th><td>9:15 - 10:10 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Sport conditioning</th><td>9 - 10 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>10:15 - 11:10 am&nbsp;</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Public Skating</th><td>Noon - 12:50 pm&nbsp;<br><strong>Play Free</strong></td><td>5 - 6:50 pm</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
