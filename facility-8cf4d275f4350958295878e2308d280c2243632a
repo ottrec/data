@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=wTudVsdEQZOX9QcsdDQA0BTZaGoAAAAAQUIPAAAAAABtdmF7VXCoFjVMSoC5G796; nlbi_243507=2kWRR4uoQyu/rinHaXmSIAAAAABNjmVWNe5ESQOubDdSJia2; incap_ses_176_243507=wkpDTG7VUUDXM5N6UkdxAhTZaGoAAAAAfj4vYRwkasHxada4IEgRKA==
+Cookie: visid_incap_243507=Fcc10C1oRuS4yu5TRU7f+bmTaWoAAAAAQUIPAAAAAABYhti/7gZx3vGzj0WX+OQa; nlbi_243507=ckz6aDCkeTYzkN5RaXmSIAAAAABD2jjlI2Wo9lPoTtpS/v+o; incap_ses_177_243507=xhIbTjrOfCZpujrOztR0ArmTaWoAAAAAEvbzb2G/3Fq/qejDkiL8CQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,16 +8,16 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 253
+Age: 274
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 28 Jul 2026 16:31:49 GMT
-Etag: "1785256055-gzip"
+Date: Wed, 29 Jul 2026 05:48:06 GMT
+Etag: "1785303810-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 28 Jul 2026 16:27:35 GMT
+Last-Modified: Wed, 29 Jul 2026 05:43:30 GMT
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
@@ -27,10 +27,10 @@ X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 31-378516-378520 SNNy RT(1785256212549 96765) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 508118808 507425340
+X-Iinfo: 52-18828199-18828215 SNNy RT(1785303993481 92456) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 325544347 496858478
 
-12298
+12433
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -41,7 +41,7 @@ X-Varnish: 508118808 507425340
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre" />
 <meta name="dcterms.title" content="François Dupuis Recreation Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-07-24" />
+<meta name="dcterms.date" content="2026-07-28" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -192,7 +192,7 @@ X-Varnish: 508118808 507425340
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9d2173db228fcb3b3f585b48ba245ee64b20e7160d633c4b196da5b4acb2a285">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-daeeb8553427fe93722f17cf328bac2b051edba374ef76a8765a2741fed39f99">
   
     
       
@@ -206,7 +206,7 @@ X-Varnish: 508118808 507425340
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-58cfac647ff473bc8a38b219d6af44e76e6d42b7bb968c37180f1a4ee39fed94">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c2581b1750090db12f1e4fa77ea8551dc1a03ca0d1a3e0e79fa9905acd863df4">
   
     
       
@@ -287,7 +287,7 @@ X-Varnish: 508118808 507425340
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Wednesday, July 29 &nbsp;to &nbsp;Friday, July 31</strong>
+<li><strong>Wednesday, July 29 to Friday, July 31</strong>
 <ul>
 <li><strong>Lane swim - shared pool</strong>, 8:30 to 9 am, and noon to 1:30 pm, <em>cancelled</em></li>
 <li><strong>Lane swim - shared pool,</strong> noon to 1:30 pm, <em>added</em></li>
@@ -298,7 +298,13 @@ X-Varnish: 508118808 507425340
 <li><span><strong>Monday, August 3</strong>, 8 am to 4 pm, </span><em><span>facility hours</span></em></li>
 </ul>
 </li>
-<li><strong>Tuesday, August 4 to Friday, August 7</strong>
+<li><strong>Tuesday, August 4&nbsp;</strong>
+<ul>
+<li><strong>Lane swim,</strong> noon to 1:30 pm, <em>cancelled</em></li>
+<li><strong>Lane swim - shared pool,</strong> noon to 1:30 pm, <em>added</em></li>
+</ul>
+</li>
+<li><strong>Wednesday, August 5 to Friday, August 7</strong>
 <ul>
 <li><strong>Lane swim - shared pool,</strong> 8:30 to 9 am, <em>cancelled</em></li>
 <li><strong>Lane swim - shared pool,</strong> noon to 1:30 pm, <em>added</em></li>
@@ -315,7 +321,7 @@ X-Varnish: 508118808 507425340
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:15 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -628,21 +634,27 @@ X-Varnish: 508118808 507425340
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule changes</span></h3>
 <ul>
-<li><strong>Wednesday, July 29 &nbsp;to &nbsp;Friday, July 31</strong>
+<li><strong>Wednesday, July 29 to Friday, July 31</strong>
 <ul>
 <li><strong>Lane swim - shared pool</strong>, 8:30 to 9 am, and noon to 1:30 pm, <em>cancelled</em></li>
-<li><strong>Lane swim - shared pool,</strong> noon to 1:30 pm, <em>added</em></li>
-</ul>
-</li>
-<li><strong>Tuesday, August 4 to Friday, August 7</strong>
-<ul>
-<li><strong>Lane swim - shared pool,</strong> 8:30 to 9 am, <em>cancelled</em></li>
 <li><strong>Lane swim - shared pool,</strong> noon to 1:30 pm, <em>added</em></li>
 </ul>
 </li>
 <li><span><strong>Sunday, August 2 and Monday, August 3</strong></span>
 <ul>
 <li><span>See Civic Holiday schedule.</span></li>
+</ul>
+</li>
+<li><strong>Tuesday, August 4</strong>
+<ul>
+<li><strong>Lane swim,</strong> noon to 1:30 pm, <em>cancelled</em></li>
+<li><strong>Lane swim - shared pool,</strong> noon to 1:30 pm, <em>added</em></li>
+</ul>
+</li>
+<li><strong>Wednesday, August 5 to Friday, August 7</strong>
+<ul>
+<li><strong>Lane swim - shared pool,</strong> 8:30 to 9 am, <em>cancelled</em></li>
+<li><strong>Lane swim - shared pool,</strong> noon to 1:30 pm, <em>added</em></li>
 </ul>
 </li>
 </ul></div>
@@ -1507,7 +1519,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=47&cb=1191923718" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=47&cb=185706946" async></script></body>
 </html>
 
 
