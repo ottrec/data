@@ -1,35 +1,37 @@
 GET /en/recreation-and-parks/facilities/place-listing/meridian-theatres-centrepointe HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=Fcc10C1oRuS4yu5TRU7f+bmTaWoAAAAAQUIPAAAAAABYhti/7gZx3vGzj0WX+OQa; nlbi_243507=ckz6aDCkeTYzkN5RaXmSIAAAAABD2jjlI2Wo9lPoTtpS/v+o; incap_ses_177_243507=xhIbTjrOfCZpujrOztR0ArmTaWoAAAAAEvbzb2G/3Fq/qejDkiL8CQ==
+Cookie: visid_incap_243507=9gn85ATKSJGvAKtCOCRot5wnamoAAAAAQUIPAAAAAADc+7bsFyzrqZWkDZ4125Na; nlbi_243507=yWYDMgEfOABkeTN3aXmSIAAAAADg2V8niwaAhjx8JXG5ce9K; incap_ses_1008_243507=n0CfS9mDNTVfgJfNryL9DZwnamoAAAAACjOPeJMNj4thB2eCpguceA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
 HTTP/1.1 301 Moved Permanently
-Content-Length: 378
+Transfer-Encoding: chunked
 Access-Control-Allow-Origin: *
 Age: 0
 Cache-Control: max-age=2764800, public
 Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
+Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=utf-8
-Date: Wed, 29 Jul 2026 05:49:28 GMT
-Etag: "1785301689"
+Date: Wed, 29 Jul 2026 16:20:46 GMT
+Etag: "1785342046"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 29 Jul 2026 05:08:09 GMT
+Last-Modified: Wed, 29 Jul 2026 16:20:46 GMT
 Location: https://meridiancentrepointe.com/
+Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: HIT
-X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
+X-Drupal-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 52-18828199-18876337 SNNy RT(1785303993481 174452) q(0 0 0 -1) r(2 2) U24
+X-Iinfo: 41-3954394-3954409 SNNy RT(1785341853248 192754) q(0 0 0 -1) r(4 4) U24
 X-Redirect-Id: 356932
-X-Varnish: 36369023
+X-Varnish: 32582587
 
+17a
 <!DOCTYPE html>
 <html>
     <head>
@@ -42,3 +44,5 @@ X-Varnish: 36369023
         Redirecting to <a href="https://meridiancentrepointe.com/">https://meridiancentrepointe.com/</a>.
     </body>
 </html>
+0
+

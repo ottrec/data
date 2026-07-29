@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/constance-and-buckhams-bay-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=Fcc10C1oRuS4yu5TRU7f+bmTaWoAAAAAQUIPAAAAAABYhti/7gZx3vGzj0WX+OQa; nlbi_243507=ckz6aDCkeTYzkN5RaXmSIAAAAABD2jjlI2Wo9lPoTtpS/v+o; incap_ses_177_243507=xhIbTjrOfCZpujrOztR0ArmTaWoAAAAAEvbzb2G/3Fq/qejDkiL8CQ==
+Cookie: visid_incap_243507=9gn85ATKSJGvAKtCOCRot5wnamoAAAAAQUIPAAAAAADc+7bsFyzrqZWkDZ4125Na; nlbi_243507=yWYDMgEfOABkeTN3aXmSIAAAAADg2V8niwaAhjx8JXG5ce9K; incap_ses_1008_243507=n0CfS9mDNTVfgJfNryL9DZwnamoAAAAACjOPeJMNj4thB2eCpguceA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -13,11 +13,13 @@ Cache-Control: max-age=2764800, public
 Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
+Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 29 Jul 2026 05:47:34 GMT
-Etag: "1785304053-gzip"
+Date: Wed, 29 Jul 2026 16:18:40 GMT
+Etag: "1785341919-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 29 Jul 2026 05:47:33 GMT
+Last-Modified: Wed, 29 Jul 2026 16:18:39 GMT
+Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
@@ -25,12 +27,11 @@ X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
-X-Frame-Options: ALLOW-FROM https://myservice.ottawa.ca
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 52-18828199-18828215 SNNy RT(1785303993481 60175) q(0 1 1 -1) r(7 7) U24
-X-Varnish: 48333828
+X-Iinfo: 41-3954394-3954409 SNNy RT(1785341853248 66612) q(0 0 0 -1) r(9 9) U24
+X-Varnish: 32472557
 
-7322
+7324
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -55,13 +56,13 @@ X-Varnish: 48333828
     <link rel="stylesheet" media="all" href="/sites/default/files/css/css_3fyDLV-GuEVFnpza2sEvnGLbD6vBVHz19-g-7TZaIHY.css?delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdj-EOwiAMhF8Ixx_fZylwQRzQhXZu8-ldnEbin-buvqbpOWYVbTRfrSOBcT8fMzvKF9E9pxp7UiBCEWL8hJCU25hqQFWX2U-208Zzgw1tmSkPdKftDCq3Qjk9YbDpcXz6rnysYVVPo95Q8P9Gjw69bMOaQoQa2UVRzhaPhFXsew6Fw5LxAiUNWpY" />
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css_Otfq3mDvSS6JfZI-ivdozPsh2OnqmuVCNuDoKgr4Nt8.css?delta=1&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdj-EOwiAMhF8Ixx_fZylwQRzQhXZu8-ldnEbin-buvqbpOWYVbTRfrSOBcT8fMzvKF9E9pxp7UiBCEWL8hJCU25hqQFWX2U-208Zzgw1tmSkPdKftDCq3Qjk9YbDpcXz6rnysYVVPo95Q8P9Gjw69bMOaQoQa2UVRzhaPhFXsew6Fw5LxAiUNWpY" />
 <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
-<link rel="stylesheet" media="all" href="/sites/default/files/css/css_Ggq_nVFA3TI1PuRBP9Hag-9LjiBFtalu6EVb6KHatNk.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdj-EOwiAMhF8Ixx_fZylwQRzQhXZu8-ldnEbin-buvqbpOWYVbTRfrSOBcT8fMzvKF9E9pxp7UiBCEWL8hJCU25hqQFWX2U-208Zzgw1tmSkPdKftDCq3Qjk9YbDpcXz6rnysYVVPo95Q8P9Gjw69bMOaQoQa2UVRzhaPhFXsew6Fw5LxAiUNWpY" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_A_w5N3QTfDQvZ6UxB6Nc4u4jvD94aGiCoTSGoIiiZow.css?delta=3&amp;language=en&amp;theme=ottca_theme&amp;include=eJxdj-EOwiAMhF8Ixx_fZylwQRzQhXZu8-ldnEbin-buvqbpOWYVbTRfrSOBcT8fMzvKF9E9pxp7UiBCEWL8hJCU25hqQFWX2U-208Zzgw1tmSkPdKftDCq3Qjk9YbDpcXz6rnysYVVPo95Q8P9Gjw69bMOaQoQa2UVRzhaPhFXsew6Fw5LxAiUNWpY" />
 <link rel="stylesheet" media="all" href="//ottux.ottawa.ca/widgets/v1.4.29/css/app.css" />
 
     <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/3024966","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kctuxCAMRX-IhE3_JzJgUSYmRtjkMV9fpq0qMoturu7hIGTAMatohfJhHQgaN_BfnR4yESiKjj4SO6BJ9KK0xdFkFIGIYvyKISnXJW0BN3XEfrVDN54r2o1rBkpPNHhqP2u1obYCNP-iicyRcFGINvZ45xkecN4XsyF4XvYVhlU9LPqJGd9nHlXv7ZyPFCLqTUhSTLlU3nGCDejS5MUULq0s0uqOlx2hmwOrSwtmh8HeaPKU-t3_39JEOffXqEYuUcw_H7MnPMR-55w5NMIv0VSttA","theme":"ottca_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-NDWQN39"]},"popup_survey":{"frequency":"10","botlist":"alexa|bot|crawl|bing|facebookexternalhit|feedburner|google|preview|nagios|postrank|pingdom|slurp|spider|yahoo|yandex|sogou"},"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"force_html5_validation":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"lazy":{"lazysizes":{"lazyClass":"lazyload","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.8,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":{"native-loading":"native-loading\/ls.native-loading"}},"placeholderSrc":"","preferNative":true,"minified":true,"libraryPath":"\/libraries\/lazysizes"},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"#ott-header-container,#ottawa-footer,.fa,.fas,.far,.fal,.fab,.jssocials-share a,.jssocials-share-email,.toolbar-menu,.toolbar-tab","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link opens email application)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fas fa-external-link-alt","extFaMailtoClasses":"far fa-envelope","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"8bd9ebf398382aed2df65e9d79d4ab7c43bed22b208f014992313b686d5af396"}}</script>
 <script src="/sites/default/files/js/js_xyd9X_DYc1a6gDXptn49k2SLJjz2_6Px6qAKJCqzEs0.js?scope=header&amp;delta=0&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jUsOwyAMRC9Ewqb3QYZY1K2JEZh8evomUlWFLroZzXseyV5EqxbIN-u_dXjUgUGxqsFNmeannUrLwOMHTRSJjE4h2njEL4_wgK2XyTC8dnuGEdUATu-Y0PqdYWU6Xl3t-cRRkLl2-uhtG1eaIvb7GoowY-klKVLKRRYcYAbelUI1WXLLrray4G6vcFxWLJ4cJo-T7WgITDjr_0mrKoleWN4JHoZg"></script>
-<script src="/modules/contrib/google_tag/js/gtag.js?tiuem4"></script>
-<script src="/modules/contrib/google_tag/js/gtm.js?tiuem4"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?tixu05"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?tixu05"></script>
 <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.1/dist/powerbi.min.js"></script>
 <script src="/modules/contrib/powerbi_embed/js/powerbi_embed-customizer.js?v=1.0.0"></script>
 
@@ -192,7 +193,7 @@ X-Varnish: 48333828
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-1d0939510ba57a9ebc01b9032cd77d2604937217f6a6bb7fd4210fed440b1bf5">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3496b98a05415388eee62593e4a3394d323b3b637f247bed81e5479c3d01d3cb">
   
     
       
@@ -206,7 +207,7 @@ X-Varnish: 48333828
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-407123af142c6b030d58ea92d37ff2defccb2b5679d6e8c22c4f0f3fee778edd">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c7f438a5be53410ab105678c8e7c6c97541f05e6ab0f4df55bd7fad55285b5c7">
   
     
       
@@ -351,9 +352,8 @@ X-Varnish: 48333828
 
                   </div>
                 </div>
-    <div id="ottux-topbutton" data-location="right" data-target-id="h1" data-z-index="4"></div>
+      <div id="ottux-topbutton" data-location="right" data-target-id="h1" data-z-index="4"></div>
 </main>
-
 
     <div id="ottux-footer" data-api-server="https://ottawa.ca" data-api-alert-server="https://ottawa.ca" class="region region-footer">
     <nav role="navigation" aria-labelledby="block-contactus-menu" id="block-contactus" class="block block-menu navigation menu--contact-us">
@@ -642,7 +642,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9jUsOwyAMRC9Ewqb3QYZY1K2JEZh8evomUlWFLroZzXseyV5EqxbIN-u_dXjUgUGxqsFNmeannUrLwOMHTRSJjE4h2njEL4_wgK2XyTC8dnuGEdUATu-Y0PqdYWU6Xl3t-cRRkLl2-uhtG1eaIvb7GoowY-klKVLKRRYcYAbelUI1WXLLrray4G6vcFxWLJ4cJo-T7WgITDjr_0mrKoleWN4JHoZg"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=31&cb=700216865" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=31&cb=1578337038" async></script></body>
 </html>
 
 
