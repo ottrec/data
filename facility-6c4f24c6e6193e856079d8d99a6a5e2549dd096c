@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/richelieu-vanier-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=ejiPxKBmTNKss13YxYG71+EXcmoAAAAAQUIPAAAAAAAHz3j0hupKgpUm390aldGB; nlbi_243507=mt21I78P2CccfByfaXmSIAAAAADvPClGfaymiGPNbWs+QDGs; incap_ses_1025_243507=G4dgBEH3LQStgOr1GIg5DuEXcmoAAAAAEUK91ZKXG4JqQUtGhKZR3g==
+Cookie: visid_incap_243507=D9sdU+fjRMGRmCP5FGs1eBTNcmoAAAAAQUIPAAAAAABmHpZisNE7fgxomuv2qFMy; nlbi_243507=VEpNfiKY5yuUYCjRaXmSIAAAAAAj7/ZttzeotafWvV+M2xrL; incap_ses_188_243507=UCMUVby9h3FkTB2nROmbAhXNcmoAAAAAXdGbXuh/9OULeWz/lDR6rw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 663
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 04 Aug 2026 16:52:16 GMT
-Etag: "1785861673-gzip"
+Date: Wed, 05 Aug 2026 05:45:30 GMT
+Etag: "1785908729-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 04 Aug 2026 16:41:13 GMT
+Last-Modified: Wed, 05 Aug 2026 05:45:29 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 47-105486053-105486056 SNNy RT(1785862113441 223422) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 80710967 67930452
+X-Iinfo: 46-128427613-128434824 SNNy RT(1785908501032 228288) q(0 0 0 -1) r(9 9) U24
+X-Varnish: 106700810
 
-e50b
+e38a
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ e50b
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/richelieu-vanier-community-centre" />
 <meta name="dcterms.title" content="Richelieu Vanier Community Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-07-27" />
+<meta name="dcterms.date" content="2026-08-04" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -193,7 +193,7 @@ e50b
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d91d655408b8e5d08192708c6050b8a3c1783be40ebe2201bfbae8349769c69d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ae8fc1d92fe108cd37aac40d12f4c7221d4a4c3428bacfcec945daa0a4154827">
   
     
       
@@ -207,7 +207,7 @@ e50b
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2f14e5b05a9355b9cd7db25dec583f1020bb5feb73b38993a9d9d766e0d07aa6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0750581e27f9882291e59a4844931be7c5f35823f6047f18e9ddeef07aca8c88">
   
     
       
@@ -275,22 +275,7 @@ e50b
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    
-
-
-  
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Civic Holiday</h2>
-</div>
-      
-
-
-
-
-  
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>Monday, August 3</strong>, 11 am to 2 pm</p></div>
-      
-
-<div class="mb-3">
+                                                    <div class="mb-3">
 
 
 
@@ -298,7 +283,7 @@ e50b
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 4:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 4:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 

@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=ejiPxKBmTNKss13YxYG71+EXcmoAAAAAQUIPAAAAAAAHz3j0hupKgpUm390aldGB; nlbi_243507=mt21I78P2CccfByfaXmSIAAAAADvPClGfaymiGPNbWs+QDGs; incap_ses_1025_243507=G4dgBEH3LQStgOr1GIg5DuEXcmoAAAAAEUK91ZKXG4JqQUtGhKZR3g==
+Cookie: visid_incap_243507=D9sdU+fjRMGRmCP5FGs1eBTNcmoAAAAAQUIPAAAAAABmHpZisNE7fgxomuv2qFMy; nlbi_243507=VEpNfiKY5yuUYCjRaXmSIAAAAAAj7/ZttzeotafWvV+M2xrL; incap_ses_188_243507=UCMUVby9h3FkTB2nROmbAhXNcmoAAAAAXdGbXuh/9OULeWz/lDR6rw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 39
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 04 Aug 2026 16:52:02 GMT
-Etag: "1785862282-gzip"
+Date: Wed, 05 Aug 2026 05:45:16 GMT
+Etag: "1785908715-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 04 Aug 2026 16:51:22 GMT
+Last-Modified: Wed, 05 Aug 2026 05:45:15 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-zdw7t (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 47-105486053-105486056 SNNy RT(1785862113441 209292) q(0 2 2 -1) r(2 2) U24
-X-Varnish: 528713409 542609563
+X-Iinfo: 46-128427613-128434824 SNNy RT(1785908501032 214263) q(0 0 0 -1) r(8 8) U24
+X-Varnish: 63595789
 
-10df2
+1116e
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -193,7 +193,7 @@ X-Varnish: 528713409 542609563
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0493af45496cb9d8407ef3034451b154ce00dd833fabe014c7289db6d31faeba">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-692d111643e1d49528c5cdaab83037fb34856531b207d698155ced68e09d5b2b">
   
     
       
@@ -207,7 +207,7 @@ X-Varnish: 528713409 542609563
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-985e95d8ba6c6d8fbb26340d70d8d20273dea60215d6ed2eed606f031688b1ca">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ae2b56458d62601153757d3c5b50c20149e0b0b80170aea0da5df34b07705eed">
   
     
       
@@ -275,7 +275,28 @@ X-Varnish: 528713409 542609563
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>Friday, August 7</strong>
+<ul>
+<li>Lane swim, Noon to 1 pm, <strong>half capacity</strong></li>
+</ul>
+</li>
+</ul></div>
+      
+
+<div class="mb-3">
 
 
 
@@ -283,7 +304,7 @@ X-Varnish: 528713409 542609563
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">10:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 2:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">10:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 2:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -481,6 +502,18 @@ X-Varnish: 528713409 542609563
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/pinecrest">Reserve a spot at Pinecrest Recreation Complex</a></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Schedule change</strong></h3>
+<ul>
+<li><strong>Friday, August 7</strong>
+<ul>
+<li>Lane swim, Noon to 1 pm, <strong>half capacity</strong></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
