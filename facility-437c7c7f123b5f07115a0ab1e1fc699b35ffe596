@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/cardelrec-recreation-complex-goulbourn HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=n1aoWV7xQXq2/uk8QiRAnPT+dWoAAAAAQUIPAAAAAABFDZmphP5sohxhZhBLBsUq; nlbi_243507=FXuaFgNBTAigPG9saXmSIAAAAADBkuI4qtG4j6n+b2Ip4EcJ; incap_ses_1008_243507=x1DkT3uajTsMFXkvsCL9DfT+dWoAAAAAEEP9USrbUxibaJnJK9K+jQ==
+Cookie: visid_incap_243507=WG3nfb76R4q0a4JW2gPBybGrdmoAAAAAQUIPAAAAAADM3n67QLHvFDmUCmmCrk6r; nlbi_243507=ddkJc+bAy3GbPT4faXmSIAAAAAAEQ6Ifd+icheMvouMcTOfb; incap_ses_1017_243507=PM4odVyWZUM7mnP9IxwdDrGrdmoAAAAATi1BT9LByKffSQykyrtmOw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 753
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 07 Aug 2026 15:56:08 GMT
-Etag: "1786118167-gzip"
+Date: Sat, 08 Aug 2026 04:08:59 GMT
+Etag: "1786161385-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 07 Aug 2026 15:56:07 GMT
+Last-Modified: Sat, 08 Aug 2026 03:56:25 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 36-89184664-89184671 SNNy RT(1786117877228 290368) q(0 0 0 -1) r(9 9) U24
-X-Varnish: 509404852
+X-Iinfo: 41-143259925-143259927 SNNy RT(1786162097689 41962) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 600808291 596975893
 
-13aa4
+13c0b
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ X-Varnish: 509404852
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/cardelrec-recreation-complex-goulbourn" />
 <meta name="dcterms.title" content="CARDELREC Recreation Complex Goulbourn" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-08-04" />
+<meta name="dcterms.date" content="2026-08-07" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -193,7 +193,7 @@ X-Varnish: 509404852
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3ce5bcb9776e0f918a59143d455954dbb810fd065cdaff89da24dde2b295cccf">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a40364e3cfde441e66f8b4835f4ae9eed08416eab4d2bff23ef7e26ebcfe73a1">
   
     
       
@@ -207,7 +207,7 @@ X-Varnish: 509404852
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5936fde2ff205753d70121a3074991f0ba2d4b74de6bc94d44057482e3f4e82e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3c7ead697362ae7ec34f0221f72fe467f66cfaad05868323f7864b2448feed0a">
   
     
       
@@ -270,7 +270,7 @@ X-Varnish: 509404852
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Closure</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Closures</h2>
 </div>
       
 
@@ -278,7 +278,11 @@ X-Varnish: 509404852
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>August 17 to September 7</strong>, <strong>pool closed </strong>for annual maintenance.</p></div>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+<li><strong>August 17 to September 7</strong>: the pool is closed for annual maintenance.</li>
+<li><strong>August 24 to October 4:</strong> the gymnasium is closed for maintenance.</li>
+<li><strong>August 31 to September 7</strong>: the community centre is closed for annual maintenance. The arenas are open.</li>
+</ul></div>
       
 
 <div class="mb-3">
@@ -289,7 +293,7 @@ X-Varnish: 509404852
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">7:30 am - 8:45 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">7:30 am - 8:45 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">7:30 am - 8:45 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">7:30 am - 8:45 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -1578,7 +1582,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=5&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TsuOwyAM_CESLv0fZIjFumtihE2T9OuXSqtV2UMvo3nYY0cRU2tQbz7-0eWuC4OhmsPTmPZvv7Vegddf6bJIZgwG2ecB__UKdzhnsziG5-Vf4MQsQbAvLOjjxXAwjVPvbhJmqDqWJY-OKXs9ECjJrpM9eD_Xg7aMc5emNtqwzSYZUqlNHrjADnwZJXVVaq9Be3vg5d_FSA5skQKWiJuf1JKYcLfPI11NCj2x_QBQ6pF8"></script>
 
-  </body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=22&cb=762430740" async></script></body>
 </html>
 
 
