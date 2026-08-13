@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/rj-kennedy-community-centre-and-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=wnTydLSqSHW7FgCI+eOLEleXfGoAAAAAQUIPAAAAAAC1oPrU1RfP+njT6pZjJzVx; nlbi_243507=J/P9RYLsmnecCgflaXmSIAAAAABWwX2s6WvFeYolxQQfhKik; incap_ses_1020_243507=8cibRsTqhRsSYK4UosQnDleXfGoAAAAAAMG1Y5sQTs07I90GVDy61Q==
+Cookie: visid_incap_243507=RIEyAFPNSoe7wBybcdeGbWRMfWoAAAAAQUIPAAAAAABD+0MXhkJ6xphrFNaFz4tj; nlbi_243507=KLuLYn7asUCGwmuAaXmSIAAAAAA7vv5JHjc7cUoMddCDw1Kf; incap_ses_92_243507=pO66X+5taiSDKdJ0y9lGAWRMfWoAAAAATqm0UZFHK5U4ebDQyf69xA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -15,10 +15,10 @@ Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 12 Aug 2026 15:58:44 GMT
-Etag: "1786550323-gzip"
+Date: Thu, 13 Aug 2026 04:51:08 GMT
+Etag: "1786596667-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 12 Aug 2026 15:58:43 GMT
+Last-Modified: Thu, 13 Aug 2026 04:51:07 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 40-67440258-67440264 SNNy RT(1786550103583 219850) q(0 0 0 -1) r(14 14) U24
-X-Varnish: 199365065
+X-Iinfo: 45-54112687-54112688 SNNN RT(1786596452882 214682) q(0 0 0 -1) r(6 6) U24
+X-Varnish: 193003303
 
-a75d
+a7a3
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -193,7 +193,7 @@ a75d
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-81a8ae3c359e0b55287d6a562a33167b07c275d780d96e6b9fd681f89e62fb8d">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4d5039dc26fef853f9428ba74378eb79ac371201242ef1ef4ee51598748a7ff9">
   
     
       
@@ -207,7 +207,7 @@ a75d
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2724175e9b367150cc96f6888305a9ae833ef21a27600edaf9ceaccff7a8d00a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-401371939e286c90dc3d8e09e2e9523931a386ec12f54432b22d5db84517ae5e">
   
     
       
@@ -675,12 +675,12 @@ a75d
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/en/forms/feedback" class="angle-right nav-link">Problem with the website</a>
+        <a href="/en/forms/feedback" class="angle-right nav-link" data-drupal-link-system-path="webform/new_feedback">Problem with the website</a>
               </li>
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/fr/forms/feedback" class="angle-right nav-link">Un problème concernant le site Web</a>
+        <a href="/en/forms/feedback" class="angle-right nav-link" data-drupal-link-system-path="webform/new_feedback">Un problème concernant le site Web</a>
               </li>
         </ul>
   

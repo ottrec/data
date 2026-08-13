@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lindenlea-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=wnTydLSqSHW7FgCI+eOLEleXfGoAAAAAQUIPAAAAAAC1oPrU1RfP+njT6pZjJzVx; nlbi_243507=J/P9RYLsmnecCgflaXmSIAAAAABWwX2s6WvFeYolxQQfhKik; incap_ses_1020_243507=8cibRsTqhRsSYK4UosQnDleXfGoAAAAAAMG1Y5sQTs07I90GVDy61Q==
+Cookie: visid_incap_243507=RIEyAFPNSoe7wBybcdeGbWRMfWoAAAAAQUIPAAAAAABD+0MXhkJ6xphrFNaFz4tj; nlbi_243507=KLuLYn7asUCGwmuAaXmSIAAAAAA7vv5JHjc7cUoMddCDw1Kf; incap_ses_92_243507=pO66X+5taiSDKdJ0y9lGAWRMfWoAAAAATqm0UZFHK5U4ebDQyf69xA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -15,23 +15,23 @@ Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 12 Aug 2026 15:57:43 GMT
-Etag: "1786550262-gzip"
+Date: Thu, 13 Aug 2026 04:50:07 GMT
+Etag: "1786596607-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 12 Aug 2026 15:57:42 GMT
+Last-Modified: Thu, 13 Aug 2026 04:50:07 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 40-67440258-67440264 SNNy RT(1786550103583 158823) q(0 1 1 -1) r(16 16) U24
-X-Varnish: 2663385798
+X-Iinfo: 45-54112687-54112688 SNNN RT(1786596452882 154686) q(0 0 0 -1) r(4 4) U24
+X-Varnish: 201363067
 
-c1e7
+c22d
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -193,7 +193,7 @@ c1e7
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d4da26becae7aa54c5515b205959cfc075df79b496732290401cf294a97ab875">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ce8c550ab338478e6e89818df5a9e42d4644337bb6aedb1296b082edf509d656">
   
     
       
@@ -207,7 +207,7 @@ c1e7
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-61be43cdbb8c5d74195091d34bcc5fa60dac7694523e74dfce082099724b1e57">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8f693391e904a91895d8ec02a2a7db3d0a21cdec59314ad5bd3133d119a42b61">
   
     
       
@@ -656,12 +656,12 @@ c1e7
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/en/forms/feedback" class="angle-right nav-link">Problem with the website</a>
+        <a href="/en/forms/feedback" class="angle-right nav-link" data-drupal-link-system-path="webform/new_feedback">Problem with the website</a>
               </li>
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/fr/forms/feedback" class="angle-right nav-link">Un problème concernant le site Web</a>
+        <a href="/en/forms/feedback" class="angle-right nav-link" data-drupal-link-system-path="webform/new_feedback">Un problème concernant le site Web</a>
               </li>
         </ul>
   

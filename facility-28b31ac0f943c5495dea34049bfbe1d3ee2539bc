@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/routhier-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=wnTydLSqSHW7FgCI+eOLEleXfGoAAAAAQUIPAAAAAAC1oPrU1RfP+njT6pZjJzVx; nlbi_243507=J/P9RYLsmnecCgflaXmSIAAAAABWwX2s6WvFeYolxQQfhKik; incap_ses_1020_243507=8cibRsTqhRsSYK4UosQnDleXfGoAAAAAAMG1Y5sQTs07I90GVDy61Q==
+Cookie: visid_incap_243507=RIEyAFPNSoe7wBybcdeGbWRMfWoAAAAAQUIPAAAAAABD+0MXhkJ6xphrFNaFz4tj; nlbi_243507=KLuLYn7asUCGwmuAaXmSIAAAAAA7vv5JHjc7cUoMddCDw1Kf; incap_ses_92_243507=pO66X+5taiSDKdJ0y9lGAWRMfWoAAAAATqm0UZFHK5U4ebDQyf69xA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 56
+Age: 422
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 12 Aug 2026 15:58:59 GMT
-Etag: "1786550282-gzip"
+Date: Thu, 13 Aug 2026 04:51:23 GMT
+Etag: "1786596260-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 12 Aug 2026 15:58:02 GMT
+Last-Modified: Thu, 13 Aug 2026 04:44:20 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 40-67440258-67440264 SNNy RT(1786550103583 235843) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 2639270666 2639270539
+X-Iinfo: 45-54112687-54112688 SNNN RT(1786596452882 230678) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 2622350910 2666448451
 
-bde9
+be31
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -193,7 +193,7 @@ bde9
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-807bfb7609c5360e7ad54cb8fe9d4a7cd1b002a14a24479684b895fd1ed08149">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4d272a7cfcf3cd22691559856ac5773a1baa8f1d698b189c795bc41db21c4b25">
   
     
       
@@ -207,7 +207,7 @@ bde9
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8a31d858dc5f48a8ee72956c403450c4aa47fb7a954cf228d8f6ec0c6d00b5a6">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-1212d9c0f897af742ecc55686a5c549b1e4a2959f2b5e379fe34c2c5b30acfc8">
   
     
       
@@ -283,7 +283,7 @@ bde9
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">9:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 6:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">9:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">9:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 6:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -711,12 +711,12 @@ bde9
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/en/forms/feedback" class="angle-right nav-link">Problem with the website</a>
+        <a href="/en/forms/feedback" class="angle-right nav-link" data-drupal-link-system-path="webform/new_feedback">Problem with the website</a>
               </li>
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/fr/forms/feedback" class="angle-right nav-link">Un problème concernant le site Web</a>
+        <a href="/en/forms/feedback" class="angle-right nav-link" data-drupal-link-system-path="webform/new_feedback">Un problème concernant le site Web</a>
               </li>
         </ul>
   

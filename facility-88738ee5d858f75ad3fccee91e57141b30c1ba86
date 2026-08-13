@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/jim-tubman-chevrolet-rink HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=wnTydLSqSHW7FgCI+eOLEleXfGoAAAAAQUIPAAAAAAC1oPrU1RfP+njT6pZjJzVx; nlbi_243507=J/P9RYLsmnecCgflaXmSIAAAAABWwX2s6WvFeYolxQQfhKik; incap_ses_1020_243507=8cibRsTqhRsSYK4UosQnDleXfGoAAAAAAMG1Y5sQTs07I90GVDy61Q==
+Cookie: visid_incap_243507=RIEyAFPNSoe7wBybcdeGbWRMfWoAAAAAQUIPAAAAAABD+0MXhkJ6xphrFNaFz4tj; nlbi_243507=KLuLYn7asUCGwmuAaXmSIAAAAAA7vv5JHjc7cUoMddCDw1Kf; incap_ses_92_243507=pO66X+5taiSDKdJ0y9lGAWRMfWoAAAAATqm0UZFHK5U4ebDQyf69xA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 436
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 12 Aug 2026 15:57:19 GMT
-Etag: "1786550238-gzip"
+Date: Thu, 13 Aug 2026 04:49:43 GMT
+Etag: "1786596146-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 12 Aug 2026 15:57:18 GMT
+Last-Modified: Thu, 13 Aug 2026 04:42:26 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 40-67440258-67440264 SNNy RT(1786550103583 134785) q(0 0 0 -1) r(7 7) U24
-X-Varnish: 2640561147
+X-Iinfo: 45-54112687-54112688 SNNN RT(1786596452882 130596) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 198784448 57436839
 
-138d2
+13918
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -193,7 +193,7 @@ X-Varnish: 2640561147
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d07119c17b48c0ff1d14d929d4bf948cecca53babfa068baf94cbb2206354637">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8a6f1cec854e57ab092cc8e2a3b300aae627623a34f9b7dd952f08bc44d27751">
   
     
       
@@ -207,7 +207,7 @@ X-Varnish: 2640561147
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-43e56d675b5e58667cc7c4d1336bf30a5776fec738ed55db3d00dc68c7e3bb50">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7971fef8471db2b40e86bbaa4d26b8f04e57bdce25811035cd293ca2ede4f42d">
   
     
       
@@ -1032,12 +1032,12 @@ X-Varnish: 2640561147
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/en/forms/feedback" class="angle-right nav-link">Problem with the website</a>
+        <a href="/en/forms/feedback" class="angle-right nav-link" data-drupal-link-system-path="webform/new_feedback">Problem with the website</a>
               </li>
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/fr/forms/feedback" class="angle-right nav-link">Un problème concernant le site Web</a>
+        <a href="/en/forms/feedback" class="angle-right nav-link" data-drupal-link-system-path="webform/new_feedback">Un problème concernant le site Web</a>
               </li>
         </ul>
   

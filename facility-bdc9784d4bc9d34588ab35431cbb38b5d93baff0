@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/manor-park-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=wnTydLSqSHW7FgCI+eOLEleXfGoAAAAAQUIPAAAAAAC1oPrU1RfP+njT6pZjJzVx; nlbi_243507=J/P9RYLsmnecCgflaXmSIAAAAABWwX2s6WvFeYolxQQfhKik; incap_ses_1020_243507=8cibRsTqhRsSYK4UosQnDleXfGoAAAAAAMG1Y5sQTs07I90GVDy61Q==
+Cookie: visid_incap_243507=RIEyAFPNSoe7wBybcdeGbWRMfWoAAAAAQUIPAAAAAABD+0MXhkJ6xphrFNaFz4tj; nlbi_243507=KLuLYn7asUCGwmuAaXmSIAAAAAA7vv5JHjc7cUoMddCDw1Kf; incap_ses_92_243507=pO66X+5taiSDKdJ0y9lGAWRMfWoAAAAATqm0UZFHK5U4ebDQyf69xA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -15,10 +15,10 @@ Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 12 Aug 2026 15:57:55 GMT
-Etag: "1786550274-gzip"
+Date: Thu, 13 Aug 2026 04:50:20 GMT
+Etag: "1786596619-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 12 Aug 2026 15:57:54 GMT
+Last-Modified: Thu, 13 Aug 2026 04:50:19 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 40-67440258-67440264 SNNy RT(1786550103583 170788) q(0 1 1 -1) r(11 11) U24
-X-Varnish: 2664793118
+X-Iinfo: 45-54112687-54112688 SNNN RT(1786596452882 166678) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 2658625128
 
-c22e
+c274
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -193,7 +193,7 @@ c22e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f12dba990ce927d201bc36e11ae9d80bcfe489d868cb097e2bf6ad65f2048ed2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-08c49fc744202ea9a044374e660a4ff74f4fdabf22b4271a61a5229a7791716c">
   
     
       
@@ -207,7 +207,7 @@ c22e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b09264a29b7444ea381094dde9fd4e14371adeb2b5d6d5b6789cf9084a278f8b">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fe098907dfe2befc70b4cc2bd68ea6bedfe2ec1bee9d37084ab4fdc413d398a8">
   
     
       
@@ -656,12 +656,12 @@ c22e
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/en/forms/feedback" class="angle-right nav-link">Problem with the website</a>
+        <a href="/en/forms/feedback" class="angle-right nav-link" data-drupal-link-system-path="webform/new_feedback">Problem with the website</a>
               </li>
           
             
       <li class="nav-item">
-        <a href="https://ottawa.ca/fr/forms/feedback" class="angle-right nav-link">Un problème concernant le site Web</a>
+        <a href="/en/forms/feedback" class="angle-right nav-link" data-drupal-link-system-path="webform/new_feedback">Un problème concernant le site Web</a>
               </li>
         </ul>
   
