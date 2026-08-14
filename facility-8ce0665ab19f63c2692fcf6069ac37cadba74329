@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/pinheys-point-historic-site-0 HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=CT/OL5ifS2aRX9EPcLNin6TofWoAAAAAQUIPAAAAAACBAntYa57kHdIO6x5rctmA; nlbi_243507=OpqMTbpPcwclq6CqaXmSIAAAAADI/iKCCpFTOZ+3nayYHQAI; incap_ses_102_243507=gtJKCSQ0Fz9PLECOu2BqAaTofWoAAAAAqC2T096cZkJr6XFevjLy8w==
+Cookie: visid_incap_243507=QPcTXZ/PQFq0WB3becdLMT2dfmoAAAAAQUIPAAAAAACIlmvZfHip/DnQ5yd9ZkhL; nlbi_243507=arItNIlcywL1hj/yaXmSIAAAAAC0GcjcJ0hfctuzP6oGmINY; incap_ses_1015_243507=iFATL78UZzoq062+KAEWDj2dfmoAAAAAF4gcwDWi+7XY9NFWWecXbQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 158
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 13 Aug 2026 15:57:53 GMT
-Etag: "1786636514-gzip"
+Date: Fri, 14 Aug 2026 04:48:17 GMT
+Etag: "1786682896-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 13 Aug 2026 15:55:14 GMT
+Last-Modified: Fri, 14 Aug 2026 04:48:16 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 50-75700294-75700307 SNNN RT(1786636452703 221031) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 2607638058 2658113009
+X-Iinfo: 38-44689233-44690570 SNNy RT(1786682686568 210201) q(0 0 0 -1) r(6 6) U24
+X-Varnish: 197874436
 
-16913
+18526
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ X-Varnish: 2607638058 2658113009
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinheys-point-historic-site-0" />
 <meta name="dcterms.title" content="Pinhey’s Point Historic Site" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-08-10" />
+<meta name="dcterms.date" content="2026-08-13" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 2607638058 2658113009
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-28e290cc04fba0e1af05155381d9689e57e20b5b18bbc0170248ce9eead31d1e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0abbf5590b06a83bb5c6c12ad8500800987b0e411f8471c39b81ac9f7906c943">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 2607638058 2658113009
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-566272c188f5df6707187500c65c88d803623f03f3fe8375104d5913623d56b0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-4167a27e2e45c1eab8a92af01871b76487ef9367ff2e3bdd103e40f54c4a1e80">
   
     
       
@@ -275,7 +275,7 @@ X-Varnish: 2607638058 2658113009
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -545,10 +545,10 @@ X-Varnish: 2607638058 2658113009
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
-  <button aria-expanded="false" aria-controls="section-59aee480-2850-4978-8b62-f79922328c62" data-target="#section-59aee480-2850-4978-8b62-f79922328c62" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Archaeology Day</button>
+  <button aria-expanded="false" aria-controls="section-36b96c05-dad0-4d52-9d46-3b3e3c3fba72" data-target="#section-36b96c05-dad0-4d52-9d46-3b3e3c3fba72" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Live History - &quot;In Time&quot; performance</button>
 
                   </h2>
-                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-59aee480-2850-4978-8b62-f79922328c62">
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-36b96c05-dad0-4d52-9d46-3b3e3c3fba72">
                   
                                                                                       <div  class="layout__region layout__region--main col-12">
                           
@@ -563,7 +563,7 @@ X-Varnish: 2607638058 2658113009
       
 
 
-  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Archaeology Day</h2>
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Live History - &quot;In Time&quot; performance</h2>
 </span>
 
 
@@ -584,15 +584,15 @@ X-Varnish: 2607638058 2658113009
                           
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Archaeology Day</h3>
-<p>Date: Sunday, August 2, 2026<br>Time: 10 am to 3 pm<br>*Admission to the museum is pay-what-you-can.&nbsp;</p>
-<p>Join members from the Ontario Archaeological Society for a day of engaging activities at Pinhey’s Point Historic Site. Meet archaeologists, take part in a kid-friendly mock excavation, see artefacts that help tell the story of the site, try your hand at piecing together broken ceramics and more. Bonus! From <strong>10 am to noon</strong>, check out a special <strong>flintknapping demonstration</strong> to discover how stone tools were made before metalworking became the norm. This program is delivered by the <a href="https://www.ottawaoas.ca/">Ottawa Chapter, Ontario Archaeology Society</a> with support from the <a href="https://pinheyspoint.ca/">Pinhey’s Point Foundation</a>.&nbsp;</p>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Live History – “In Time” performance</h3>
+<p>Date: Saturday, September 26 and Saturday, October 3<br>Time: 10 am to 4 pm (recommended final entry by 3 pm)<br>Fee: $16.75 plus tax<br>Ages 14 and up<br><a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?locale=en-US&amp;activity_select_param=2&amp;drop_in=0&amp;activity_keyword=Live%20History&amp;viewMode=list"><strong>Advance registration is required</strong></a>.&nbsp;</p>
+<p>We’ve teamed up with <a href="https://www.livehistoryshows.com/">Live History</a> to offer a unique experience that will transport you back in time to the era of the March Township gentry. Explore one of Ottawa’s most unique historic houses, engage with character actors, follow their clues and put your puzzle-solving skills to the test before the clock runs out. “In Time” offers a heritage-inspired spin on escape rooms, scavenger hunts, and live theatre. “In Time” takes approximately 60 minutes to complete. Start the experience at any time during show hours (10 am to 4 pm); we recommend arriving no later than 3 pm. Bonus! Pack a picnic and enjoy the beautiful park grounds overlooking the Ottawa River.</p>
 <h4>Notes</h4>
 <ul>
-<li>The primary language of delivery for this program is English.</li>
-<li>This is a drop-in program and is open to visitors of all ages. Participants are welcome to join the activities and demonstrations at any time during the advertised hours.</li>
-<li>Activities and demonstrations take place outdoors. Please dress for weather conditions, including footwear appropriate for grass, dirt, gravel and uneven terrain.</li>
-<li>This program is delivered rain or shine. In the event of inclement weather, activities and demonstrations may be adjusted or moved inside.&nbsp;</li>
+<li>This performance is delivered in English.</li>
+<li>This performance includes moving throughout the house to engage with character actors and to follow clues. The second floor of the house is accessible by stairs only. There is a gravel pathway from the parking lot to the house and two accessible parking spaces are located in the lot closest to the museum. If you have questions or concerns regarding accessibility, please contact the museum by email at <a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a>. Additional <a href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinheys-point-historic-site-0#section-17489d56-6b33-4d66-a044-ec61844387c4">information about accessibility</a> can be found on the museum webpage.</li>
+<li>Advance registration is required. Programs with insufficient registration may be cancelled. If an alternative cannot be offered, a refund will be issued.</li>
+<li>Visit the <a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps/registration-terms-and-cancellations/financial-support-ottawa-hand-hand">Ottawa Hand in Hand</a> web page for information on available financial support to facilitate participation in recreation and culture programs.<br>&nbsp;</li>
 </ul></div>
       
       </div>
@@ -624,6 +624,122 @@ X-Varnish: 2607638058 2658113009
                                         </div>
                   </div>
                 
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+                              <div class="col collapse-region pl-0 pr-0">
+                  <h2 class="no-toc">
+                              
+  <button aria-expanded="false" aria-controls="section-3dced313-474f-439c-b9d2-030267075434" data-target="#section-3dced313-474f-439c-b9d2-030267075434" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Guided Nature Walk with Chad Clifford</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-3dced313-474f-439c-b9d2-030267075434">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Guided Nature Walk with Chad Clifford</h2>
+</span>
+
+
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Guided Nature Walk with Chad Clifford</h3>
+<p>Date: Saturday, October 10<br>Time: 10 am to 12:30 pm<br>Fee: $26.75 plus tax<br>Ages 14 and up<br><a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search/detail/195169?onlineSiteId=0&amp;locale=en-US&amp;from_original_cui=true"><strong>Advance registration is required.&nbsp;</strong></a></p>
+<p>Join environmental educator <a href="https://cliffland.ca/visiting/workshops/chad-clifford/">Chad Clifford</a> at Pinhey’s Point as he draws on more than three decades of experience teaching natural history and wilderness skills. Explore the site on a guided walk to learn all about its natural features and history, while picking up some basic wilderness survival skills along with way.&nbsp;</p>
+<h4>Notes</h4>
+<ul>
+<li>This program is delivered in English.</li>
+<li>Advance registration is required. Programs with insufficient registration may be cancelled. If an alternative cannot be offered, a refund will be issued.</li>
+<li>Visit the <a href="https://ottawa.ca/en/recreation-and-parks/register-courses-and-camps/registration-terms-and-cancellations/financial-support-ottawa-hand-hand">Ottawa Hand in Hand</a> web page for information on available financial support to facilitate participation in recreation and culture programs.</li>
+<li><span>The guided tour takes approximately 1.5 hours and will follow a relaxed pace. The route includes regular stops and some inclines. Please check the weather and dress according to conditions, including appropriate footwear for grass, gravel and uneven or rocky terrain. Sunscreen and bug spray are recommended. All skill levels are welcome; hiking or wilderness experience is not required to participate in this program. </span>If you have questions or concerns regarding accessibility, please contact the museum by email at <a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a>. Additional <a href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/pinheys-point-historic-site-0">information about accessibility</a> can be found on the museum webpage.&nbsp;<br>&nbsp;</li>
+</ul></div>
+      
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+      </div>
+
+                        </div>
+                                          
+                    
                 
             </div>
           
