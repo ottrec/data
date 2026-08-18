@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=mzcpyA3aTOiix1U8wR32RZ0mg2oAAAAAQUIPAAAAAAAP8y0wxug3yCNthcxc1WIp; nlbi_243507=MNHxeCTbbGx4ySIJaXmSIAAAAABjR/OyjD50Tvr1+ImiQpQP; incap_ses_1010_243507=YNCkIjQZ7zLsNN+1rz0EDp0mg2oAAAAAzW8KGKpYQfjdFxqQnbnboA==
+Cookie: visid_incap_243507=sqYnSuxnSBalrOgm/8JxBeTTg2oAAAAAQUIPAAAAAADpR4f4LjEfrHnmOg5V0tJU; nlbi_243507=tYZpZFyn+DrfEhs8aXmSIAAAAADyKc8bNYxWShrjo1LUzJuq; incap_ses_1016_243507=CYUlaNNc0QjpALWZp44ZDuXTg2oAAAAAKUAyIJCrchM45I4E0wAmBA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 625
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 17 Aug 2026 15:20:44 GMT
-Etag: "1786980042-gzip"
+Date: Tue, 18 Aug 2026 03:39:57 GMT
+Etag: "1787023770-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 17 Aug 2026 15:20:42 GMT
+Last-Modified: Tue, 18 Aug 2026 03:29:30 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 34-77696635-77696666 SNNy RT(1786979997518 45432) q(0 0 0 -1) r(17 17) U24
-X-Varnish: 203926416
+X-Iinfo: 38-101584851-101588272 SNNy RT(1787024357079 39965) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 205197259 204984190
 
-f1f2
+f40a
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ f1f2
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex" />
 <meta name="dcterms.title" content="Canterbury Recreation Complex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-08-07" />
+<meta name="dcterms.date" content="2026-08-17" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ f1f2
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8c9abc0e35a4b86962ee9f5a244413fe077adf782d50bfef353e1850930ddd34">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2865933dcbb5c322c1c2a1fd4f2e4ea812c536d05e5814af5bfc2fdd5781f37e">
   
     
       
@@ -208,7 +208,7 @@ f1f2
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-76b4bb986328f9d0114dd130ca00f12a6dea4e2bc51e9d4c9a1365c4c0221f40">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-49a9d51a92f004c0c670d8d627e49e25126cb9dff45d988388248e724b3aa372">
   
     
       
@@ -281,7 +281,7 @@ f1f2
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Closure</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Labour Day</h2>
 </div>
       
 
@@ -289,7 +289,9 @@ f1f2
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>The pool is closed for maintenance until further notice.</strong></p></div>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><span><strong>Monday, September 7</strong>, closed&nbsp;</span></p>
+<h3>Closure</h3>
+<p><strong>The pool is closed for maintenance until further notice.</strong></p></div>
       
 
 <div class="mb-3">
@@ -625,6 +627,18 @@ f1f2
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/canterbury">Reserve a spot at Canterbury Recreation Complex</a></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Monday, September 7</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -1250,7 +1264,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TtsOwiAM_SE2XvwfUliD1bISKG7z68VojPjgy8m5tD31Ilq1QD5Z_6HTpU4MilUN7sq0Xu1SWgae39JEkcjoFKKNHX71DBfYRzMZhvthn2BENYDTMya0_mDYmHrVtxuEGXLtyxL7jSF7PuAoyFoH-8XDGdSL_iZtnzdaIo5BDaX3YBlNUqSUi9xwghX4UArVZMktu9rKDQ_7LXqyYfHkMHlc7KCmwISr_h9pVSXRHcsDjyGbww"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=21&cb=2001636451" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=21&cb=555555273" async></script></body>
 </html>
 
 
