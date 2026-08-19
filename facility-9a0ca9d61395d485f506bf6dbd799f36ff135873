@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/notre-dame-des-champs-community-hall HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=TpDaGAQxRnuJzNA53g5b0u0lhWoAAAAAQUIPAAAAAABeyf0t0RUjoB36ihuyB/RS; nlbi_243507=c1DIcZefgR7r2jqXaXmSIAAAAADc0c8VrHFZWkga+VQKIM3d; incap_ses_1016_243507=wx2qKk54HC+D1q6np44ZDu0lhWoAAAAAKWHIWl6fZeXY86dczNckog==
+Cookie: visid_incap_243507=nYuaYncBRF28YVAqxtxz+uvKhWoAAAAAQUIPAAAAAABrf02qUrtcfBmLcUhY1LuC; nlbi_243507=ZLp3eGxbtyu0JR++aXmSIAAAAABG8G0gOhlRtIqLZYc1ypJg; incap_ses_1010_243507=ngC0QdTc23a9G4zSrz0EDuzKhWoAAAAAyTt+ux2CsgaEla62psrbnw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -15,23 +15,23 @@ Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 19 Aug 2026 03:44:48 GMT
-Etag: "1787111088-gzip"
+Date: Wed, 19 Aug 2026 15:28:58 GMT
+Etag: "1787153337-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 19 Aug 2026 03:44:48 GMT
+Last-Modified: Wed, 19 Aug 2026 15:28:57 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 32-73870495-73870500 SNNy RT(1787110893495 194722) q(0 0 0 -1) r(5 5) U24
-X-Varnish: 206146282
+X-Iinfo: 25-61794935-61794942 SNNy RT(1787153131977 205406) q(0 1 1 -1) r(9 9) U24
+X-Varnish: 2672923373
 
-baaa
+bd4a
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ baaa
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/notre-dame-des-champs-community-hall" />
 <meta name="dcterms.title" content="Notre-Dame-des-Champs Community Hall" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-08-14" />
+<meta name="dcterms.date" content="2026-08-19" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ baaa
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fb67331c1b9a4323e3dc3fbd8073236ddd63f7f5b62aeb9bff964b2cd821a595">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a333255ad0b651d7776e1baf60a9674d46035d10e07ee8125dc16352674e1d78">
   
     
       
@@ -208,7 +208,7 @@ baaa
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ef1b36b806e4d15aecaa23eab7d8156d93106f70a7198871d20927cae4ddb599">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ed8693b42f2240a523eaeb3eb6a2a6d66f029f2f34c0cb9727ac6ab8b16d2e2d">
   
     
       
@@ -578,7 +578,25 @@ baaa
     <h2 class="h3 field__label">Amenities and features</h2>
           <ul class="field__items">
               <li class="field__item">Adjacent park with play structures</li>
+          <li class="field__item">Covered gazebo</li>
           <li class="field__item">Free parking</li>
+          <li class="field__item">Free public Wi-Fi</li>
+          <li class="field__item">On site parking</li>
+          <li class="field__item">Picnic tables</li>
+          <li class="field__item">Shaded patio area</li>
+              </ul>
+      </div>
+
+
+
+
+
+    <div class="field field--name-field-place-accessibility field--type-entity-reference field--label-above">
+    <h2 class="h3 field__label">Accessibility features</h2>
+          <ul class="field__items">
+              <li class="field__item">Elevator/Lift</li>
+          <li class="field__item">Stairs</li>
+          <li class="field__item">Washrooms</li>
               </ul>
       </div>
 
