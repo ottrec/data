@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lansdowne-park HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=PGPtSIPwSqmueh4pa9EvHF13hmoAAAAAQUIPAAAAAAAezMx+TzLRztDdp4OJYW75; nlbi_243507=GbZeQFSd2lDuqOMXaXmSIAAAAADqL8ibg3DEryKqJzWJS610; incap_ses_176_243507=GvqSYBsxlhGSkRX3VEdxAl53hmoAAAAA9tyjCoBI8TeoLb7iUKjl+Q==
+Cookie: visid_incap_243507=11dpiRvdQDOsp3FzUJBKdP0ch2oAAAAAQUIPAAAAAAAHWT+MhZntkv3PeeCV3Uy7; nlbi_243507=AyeCWEHJUnB7ogQUaXmSIAAAAAALxySGZAL0W75c/ub4/CU6; incap_ses_188_243507=TaFEEx3loxR/xToER+mbAv0ch2oAAAAAtngjQSgqOx3loA+CYHXabw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 62
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 20 Aug 2026 03:43:50 GMT
-Etag: "1787197367-gzip"
+Date: Thu, 20 Aug 2026 15:30:33 GMT
+Etag: "1787239833-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 20 Aug 2026 03:42:47 GMT
+Last-Modified: Thu, 20 Aug 2026 15:30:33 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 44-133382980-133382990 SNNy RT(1787197278668 151974) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 2665386711 2670777748
+X-Iinfo: 51-232400685-232400695 SNNy RT(1787239677544 155678) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 205902376
 
-24012
+23ffd
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 2665386711 2670777748
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-470de65de86555bec1d8782b22ff5687404946dc0bc1fa26034b0b180ad5a340">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f591619b37817bdf8e2a069d27da310940dfa67955b9547afc3889716c119401">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 2665386711 2670777748
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fd9a4d8beb86a0bce0c200e63fdb2be67fdda39cff707fd06522877cfd67f00a">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-145c0d3d4a42c5b248c4c7a3b0c32ce3592b7ca07548a3b75fdda077b045c453">
   
     
       
@@ -2380,14 +2380,14 @@ Ottawa,&nbsp;ON&nbsp;K1S 5J3<br>
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/chalkmark/q6o68rhs">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

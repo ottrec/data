@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/w-erskine-johnston-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=PGPtSIPwSqmueh4pa9EvHF13hmoAAAAAQUIPAAAAAAAezMx+TzLRztDdp4OJYW75; nlbi_243507=GbZeQFSd2lDuqOMXaXmSIAAAAADqL8ibg3DEryKqJzWJS610; incap_ses_176_243507=GvqSYBsxlhGSkRX3VEdxAl53hmoAAAAA9tyjCoBI8TeoLb7iUKjl+Q==
+Cookie: visid_incap_243507=11dpiRvdQDOsp3FzUJBKdP0ch2oAAAAAQUIPAAAAAAAHWT+MhZntkv3PeeCV3Uy7; nlbi_243507=AyeCWEHJUnB7ogQUaXmSIAAAAAALxySGZAL0W75c/ub4/CU6; incap_ses_188_243507=TaFEEx3loxR/xToER+mbAv0ch2oAAAAAtngjQSgqOx3loA+CYHXabw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 137
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 20 Aug 2026 03:45:49 GMT
-Etag: "1787197548-gzip"
+Date: Thu, 20 Aug 2026 15:32:36 GMT
+Etag: "1787239818-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 20 Aug 2026 03:45:48 GMT
+Last-Modified: Thu, 20 Aug 2026 15:30:18 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 44-133382980-133382990 SNNy RT(1787197278668 270024) q(0 0 0 -1) r(7 7) U24
-X-Varnish: 205709948
+X-Iinfo: 51-232400685-232473879 SNNy RT(1787239677544 278674) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 206593474 207308169
 
-b30e
+b2f9
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ b30e
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5868a4bafaffda93320187e38eb8b1c643b7e54b8f2ba90457526f785e405a5a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-da1e7c15524ccb245575463565e4f0ef80434742cbbad3ec535e1acb528089d2">
   
     
       
@@ -208,7 +208,7 @@ b30e
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b3b0ef4edf70eec1ee4dbe764ccce5c3d704aaea9a8aa8921d3428f7377b66c4">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-f296ca8d491bd5c7952d411e41f7e2dc286e3e58279ea6d38a0157c38cd6f616">
   
     
       
@@ -1001,14 +1001,14 @@ b30e
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/chalkmark/q6o68rhs">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

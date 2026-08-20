@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=PGPtSIPwSqmueh4pa9EvHF13hmoAAAAAQUIPAAAAAAAezMx+TzLRztDdp4OJYW75; nlbi_243507=GbZeQFSd2lDuqOMXaXmSIAAAAADqL8ibg3DEryKqJzWJS610; incap_ses_176_243507=GvqSYBsxlhGSkRX3VEdxAl53hmoAAAAA9tyjCoBI8TeoLb7iUKjl+Q==
+Cookie: visid_incap_243507=11dpiRvdQDOsp3FzUJBKdP0ch2oAAAAAQUIPAAAAAAAHWT+MhZntkv3PeeCV3Uy7; nlbi_243507=AyeCWEHJUnB7ogQUaXmSIAAAAAALxySGZAL0W75c/ub4/CU6; incap_ses_188_243507=TaFEEx3loxR/xToER+mbAv0ch2oAAAAAtngjQSgqOx3loA+CYHXabw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 346
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 20 Aug 2026 03:44:53 GMT
-Etag: "1787197492-gzip"
+Date: Thu, 20 Aug 2026 15:31:38 GMT
+Etag: "1787239551-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 20 Aug 2026 03:44:52 GMT
+Last-Modified: Thu, 20 Aug 2026 15:25:51 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 44-133382980-133382990 SNNy RT(1787197278668 214021) q(0 0 0 -1) r(5 5) U24
-X-Varnish: 206661240
+X-Iinfo: 51-232400685-232400695 SNNy RT(1787239677544 221055) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 2673651138 2673650766
 
-128b2
+1289d
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 206661240
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-25ba5ccecf628b9014b7dd9e9d51d99ea1afdcbf710ecb65c0ab48c7295d5f4e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2b7b78e8c6499122631b1b367a0640e193a793b84f0fd1554dccd1942260d435">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 206661240
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2c39542802d8e442dc007c1943bc4e0257f793255b23f9ba1957c7b4d0d52a6e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c914cc32c0c270c107f06a344b109d4353496e04ff6b88cce73adbdecc02cce7">
   
     
       
@@ -1523,14 +1523,14 @@ X-Varnish: 206661240
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/chalkmark/q6o68rhs">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
