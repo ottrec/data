@@ -7,33 +7,33 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 63
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 19 Aug 2026 15:25:32 GMT
-Etag: "1787153132-gzip"
+Date: Thu, 20 Aug 2026 03:41:18 GMT
+Etag: "1787197214-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 19 Aug 2026 15:25:32 GMT
+Last-Modified: Thu, 20 Aug 2026 03:40:14 GMT
 Referrer-Policy: strict-origin-when-cross-origin
-Set-Cookie: visid_incap_243507=nYuaYncBRF28YVAqxtxz+uvKhWoAAAAAQUIPAAAAAABrf02qUrtcfBmLcUhY1LuC; expires=Thu, 19 Aug 2027 06:29:51 GMT; HttpOnly; path=/; Domain=.ottawa.ca
-Set-Cookie: nlbi_243507=ZLp3eGxbtyu0JR++aXmSIAAAAABG8G0gOhlRtIqLZYc1ypJg; HttpOnly; path=/; Domain=.ottawa.ca
-Set-Cookie: incap_ses_1010_243507=ngC0QdTc23a9G4zSrz0EDuzKhWoAAAAAyTt+ux2CsgaEla62psrbnw==; path=/; Domain=.ottawa.ca
+Set-Cookie: visid_incap_243507=PGPtSIPwSqmueh4pa9EvHF13hmoAAAAAQUIPAAAAAAAezMx+TzLRztDdp4OJYW75; expires=Thu, 19 Aug 2027 07:57:08 GMT; HttpOnly; path=/; Domain=.ottawa.ca
+Set-Cookie: nlbi_243507=GbZeQFSd2lDuqOMXaXmSIAAAAADqL8ibg3DEryKqJzWJS610; HttpOnly; path=/; Domain=.ottawa.ca
+Set-Cookie: incap_ses_176_243507=GvqSYBsxlhGSkRX3VEdxAl53hmoAAAAA9tyjCoBI8TeoLb7iUKjl+Q==; path=/; Domain=.ottawa.ca
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 25-61794935-61794942 NNNY CT(30 49 0) RT(1787153131977 51) q(0 0 0 1) r(8 8) U24
-X-Varnish: 2672637322
+X-Iinfo: 44-133382980-133382990 NNNY CT(82 88 0) RT(1787197278668 28) q(0 0 0 0) r(1 1) U24
+X-Varnish: 207159676 207159632
 
-11134
+11136
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -224,8 +224,8 @@ X-Varnish: 2672637322
 </div><div class="col col-12 col-lg"><div class="facets-widget-checkbox">
       <a class="dropdown-header" href="#" role="button" data-display="static" data-toggle="dropdown" id="dropdown-place_type">Place type</a><ul data-drupal-facet-id="place_type" data-drupal-facet-alias="place_type" class="facet-inactive js-facets-checkbox-links item-list__checkbox dropdown-menu" role="listbox" aria-labelledby="dropdown-place_type"><li class="facet-item dropdown-item" role="option" aria-selected="false" tabindex="-1"><a href="/en/recreation-and-parks/facilities/place-listing?place_facets%5B0%5D=place_type%3A4206" rel="nofollow" data-drupal-facet-item-id="place-type-4206" data-drupal-facet-item-value="4206" data-drupal-facet-item-count="36"><span class="facet-item__value">Arena</span>
 </a></li><li class="facet-item dropdown-item" role="option" aria-selected="false" tabindex="-1"><a href="/en/recreation-and-parks/facilities/place-listing?place_facets%5B0%5D=place_type%3A2235006" rel="nofollow" data-drupal-facet-item-id="place-type-2235006" data-drupal-facet-item-value="2235006" data-drupal-facet-item-count="3"><span class="facet-item__value">Art centre</span>
-</a></li><li class="facet-item dropdown-item" role="option" aria-selected="false" tabindex="-1"><a href="/en/recreation-and-parks/facilities/place-listing?place_facets%5B0%5D=place_type%3A2235406" rel="nofollow" data-drupal-facet-item-id="place-type-2235406" data-drupal-facet-item-value="2235406" data-drupal-facet-item-count="16"><span class="facet-item__value">Community building</span>
-</a></li><li class="facet-item dropdown-item" role="option" aria-selected="false" tabindex="-1"><a href="/en/recreation-and-parks/facilities/place-listing?place_facets%5B0%5D=place_type%3A4208" rel="nofollow" data-drupal-facet-item-id="place-type-4208" data-drupal-facet-item-value="4208" data-drupal-facet-item-count="60"><span class="facet-item__value">Community Centre</span>
+</a></li><li class="facet-item dropdown-item" role="option" aria-selected="false" tabindex="-1"><a href="/en/recreation-and-parks/facilities/place-listing?place_facets%5B0%5D=place_type%3A2235406" rel="nofollow" data-drupal-facet-item-id="place-type-2235406" data-drupal-facet-item-value="2235406" data-drupal-facet-item-count="15"><span class="facet-item__value">Community building</span>
+</a></li><li class="facet-item dropdown-item" role="option" aria-selected="false" tabindex="-1"><a href="/en/recreation-and-parks/facilities/place-listing?place_facets%5B0%5D=place_type%3A4208" rel="nofollow" data-drupal-facet-item-id="place-type-4208" data-drupal-facet-item-value="4208" data-drupal-facet-item-count="61"><span class="facet-item__value">Community Centre</span>
 </a></li><li class="facet-item dropdown-item" role="option" aria-selected="false" tabindex="-1"><a href="/en/recreation-and-parks/facilities/place-listing?place_facets%5B0%5D=place_type%3A2234996" rel="nofollow" data-drupal-facet-item-id="place-type-2234996" data-drupal-facet-item-value="2234996" data-drupal-facet-item-count="5"><span class="facet-item__value">Exhibition space</span>
 </a></li><li class="facet-item dropdown-item" role="option" aria-selected="false" tabindex="-1"><a href="/en/recreation-and-parks/facilities/place-listing?place_facets%5B0%5D=place_type%3A2235411" rel="nofollow" data-drupal-facet-item-id="place-type-2235411" data-drupal-facet-item-value="2235411" data-drupal-facet-item-count="3"><span class="facet-item__value">Field house</span>
 </a></li><li class="facet-item dropdown-item" role="option" aria-selected="false" tabindex="-1"><a href="/en/recreation-and-parks/facilities/place-listing?place_facets%5B0%5D=place_type%3A4209" rel="nofollow" data-drupal-facet-item-id="place-type-4209" data-drupal-facet-item-value="4209" data-drupal-facet-item-count="7"><span class="facet-item__value">Gallery</span>
@@ -247,7 +247,7 @@ X-Varnish: 2672637322
 
 
 
-  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-91667b51a226c3be6b668a9b91f7822852622f39e8b7475648eb5cbe790507ef">
+  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-7e361f4b47e83dc52d1605190a42aa653229facc486f974ba16692998334ce4d">
   
     
       <div class="view-header">
@@ -780,7 +780,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=8&amp;language=en&amp;theme=ottca_theme&amp;include=eJyNkctuhDAMRX8oIZv-T-QEw5gxmCYOj_n6YQStgEXVjeV7ruVHEkQ0a4Lxy4Xf1HbZMihmNZEJB81Uo5-AqQYlGXz3XTCtLk7VnlXU4H9LDw8NLso0PF2dyghcHdI0EFHzD91VFR8Yn0EWO1PdoppWpGX0Cq1rt3DXFXSwXGFvGF6r-wQjqhF8lEG3hd0-wiZkgdo2Eku-VcwYGkm9P3v6wB5dWBlmpu2hznTveEGf0zxtDa_4mPMADaJ3pyzVce7ZyDEJM6YrJEXqxyQTWhiAV6WYzShjGX0uacLVncXmzJgCeewD1u6i7P6Pf5eUrNLTC9Mbglri2A"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=5387757" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=221864641" async></script></body>
 </html>
 
 

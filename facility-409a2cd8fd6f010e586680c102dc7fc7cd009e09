@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/billings-estate-national-historic-site HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=nYuaYncBRF28YVAqxtxz+uvKhWoAAAAAQUIPAAAAAABrf02qUrtcfBmLcUhY1LuC; nlbi_243507=ZLp3eGxbtyu0JR++aXmSIAAAAABG8G0gOhlRtIqLZYc1ypJg; incap_ses_1010_243507=ngC0QdTc23a9G4zSrz0EDuzKhWoAAAAAyTt+ux2CsgaEla62psrbnw==
+Cookie: visid_incap_243507=PGPtSIPwSqmueh4pa9EvHF13hmoAAAAAQUIPAAAAAAAezMx+TzLRztDdp4OJYW75; nlbi_243507=GbZeQFSd2lDuqOMXaXmSIAAAAADqL8ibg3DEryKqJzWJS610; incap_ses_176_243507=GvqSYBsxlhGSkRX3VEdxAl53hmoAAAAA9tyjCoBI8TeoLb7iUKjl+Q==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 32
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 19 Aug 2026 15:26:06 GMT
-Etag: "1787153132-gzip"
+Date: Thu, 20 Aug 2026 03:41:51 GMT
+Etag: "1787197310-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 19 Aug 2026 15:25:32 GMT
+Last-Modified: Thu, 20 Aug 2026 03:41:50 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 25-61794935-61794942 SNNy RT(1787153131977 34435) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 2672666229 2672666196
+X-Iinfo: 44-133382980-133382990 SNNy RT(1787197278668 31966) q(0 0 0 -1) r(5 5) U24
+X-Varnish: 2670777729
 
-1ce9f
+1b4de
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 2672666229 2672666196
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-eef5afe0f7d5fb04b2f698cc03b30114bc621c19f4adf2268a97c3417419c8db">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-d5f0c602bcbd3802d6d8e3cede56c422e0e1fa37ef4f0fe5e31685c3e4cecd8f">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 2672666229 2672666196
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-05f1114c716c680225cbea45c2d41fb804d5a133f6e6f831989468cdeceb7695">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-36df655e3772e0fb3acf1210d5d5a5056fbd6066e0d215be946bdd9d0fa09297">
   
     
       
@@ -275,7 +275,7 @@ X-Varnish: 2672666229 2672666196
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">10:00 am - 5:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -559,91 +559,16 @@ X-Varnish: 2672666229 2672666196
                   <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
 
             
-                              <div class="col collapse-region pl-0 pr-0">
-                  <h2 class="no-toc">
-                              
-  <button aria-expanded="false" aria-controls="section-bb396c34-f083-4a27-8341-7ac90eb446af" data-target="#section-bb396c34-f083-4a27-8341-7ac90eb446af" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Picnic at the Estate</button>
-
-                  </h2>
-                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-bb396c34-f083-4a27-8341-7ac90eb446af">
-                  
+              
                                                                                       <div  class="layout__region layout__region--main col-12">
                           
                                                       <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
           
-            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
-<article class="node node--type-article node--view-mode-default">
-  
-  <div class="node__content">
-      <div class="layout layout--onecol">
-    <div  class="layout__region layout__region--content">
-      
-
-
-  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Picnic at the Estate</h2>
-</span>
-
-
-
-
-
-  
-      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
-              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
-                  
-                          
-                                  
-                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
-
-            
-              
-                                                                                      <div  class="layout__region layout__region--main col-12">
-                          
-                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Picnic at the Estate&nbsp;</span></h3>
-<p><span><strong>Date:</strong> Sunday, August 16, 2026&nbsp;</span><br><span><strong>Time: </strong>1 pm to 4 pm (with entry at 1 pm or 1:30 pm, as selected at the time of registration)</span><br><span><strong>Ages:</strong> 18 and up&nbsp;</span><br><span><strong>Cost:</strong> $46.63 per person (taxes included). </span><a href="https://anc.ca.apm.activecommunities.com/ottawa/activity/search?locale=en-US&amp;activity_select_param=2&amp;drop_in=0&amp;activity_keyword=Picnic%20at%20the%20Estate&amp;viewMode=list"><span>Advance registration is required</span></a><span>. The registration deadline is August 13 at 5 pm.</span></p>
-<p>You’re invited to experience the charms of a Victorian picnic at Billings Estate National Historic Site. Explore the beautiful grounds and gardens at Ottawa’s oldest wood-frame house. Enjoy the ambiance of a live string duet. Learn the secret language of fans and pose for a photo memento inspired by a carte-de-visite. Guests are encouraged to dress to impress in their 19th century or garden party best! Challenge friends old and new to a traditional parlour or lawn game. Try your hand at plein air art or divine what fate has in store for you with a tasseomancy demonstration. Discover a piece of local history with a short stroll to the Settler’s Cemetery or step inside the museum to see the special exhibition, “<a href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/billings-estate-national-historic-site#section-fe889061-f82b-40d9-95c4-35af915e772f">Beyond the Brim: Tales Told Through the Hats We Wore</a>.” &nbsp;</p>
-<h4>Picnic menu</h4>
-<p>Registration includes a boxed lunch and beverages based on Victorian-era picnic menus. Picnic blankets, tables, and chairs are provided. Each lunch is prepared in-house at Billings Estate National Historic Site and includes pickles, cheese, jam, compound butter and charcuterie meats, alongside seasonal fruits and vegetables, fresh-baked bread and a sweet treat. Complement your picnic with a refreshing lemonade or try an old-fashioned raspberry vinegar (alternative beverage options, including coffee and tea, are also offered). &nbsp;</p>
-<p>Substitutions (vegan, vegetarian, gluten-free, or dairy-free) must be requested in advance. We are unable to meet last-minute requests at the time of service. While we make reasonable efforts to accommodate allergies and dietary restrictions identified during the registration process, we cannot guarantee a cross-contact free environment.&nbsp;</p>
-<h4>Notes</h4>
-<ul>
-<li>The primary language of delivery for this program is English. Any printed materials will be provided in both English and French. &nbsp;</li>
-<li>The picnic and activities take place outside on the museum grounds. Check the forecast and dress for weather conditions, including shoes that are appropriate for grassy terrain. In the event of rain, activities will be moved under the shelter of a marquee tent or inside the museum buildings. If the program cannot be delivered due to unsafe weather conditions or other unforeseen circumstances, all registered participants will be contacted directly to notify them of the cancellation and with information regarding their options. &nbsp;</li>
-<li>Substitutions (vegan, vegetarian, gluten-free, or dairy-free) must be requested in advance. We are unable to meet last-minute requests at the time of service. While we make reasonable efforts to accommodate allergies and dietary restrictions identified during the registration process, we cannot guarantee a cross-contact free environment. If you have questions about the menu, please contact <a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a>. &nbsp;</li>
-<li>The museum grounds include gravel, grassy, uneven terrain. If you have questions regarding accessibility, contact the museum at 613-580-2088 or email <a href="mailto:museums@ottawa.ca">museums@ottawa.ca</a>. <a href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/billings-estate-national-historic-site#section-fc740f5f-d58b-44aa-a647-439ad640a60f">Additional information regarding accessibility</a> is available on the museum webpage.</li>
-</ul></div>
-      
       </div>
 
                         </div>
                                           
                     
-                
-            </div>
-          
-      </div>
-</div>
-          </div>
-  
-
-
-    </div>
-  </div>
-
-  </div>
-
-</article>
-</div>
-      
-      </div>
-
-                        </div>
-                                          
-                                        </div>
-                  </div>
-                
                 
             </div>
           
@@ -2183,7 +2108,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?tjprbx" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=7&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEuOwyAMvRAJm7kPMsRD3TEYgdMkPX2JOqpKF91Y7-NnW_Yi2rRC-bH-BadrmxgUmxrclSn_2aWuBXj-p-aXcW9MC1ZLWTFWUJJsokhkdArRxl4--QxX2EcxGYb7Yc9iRDWA0wsmtP5g2Jj6Be9qEGYorYcl9hmDd97lKEhug_zE4QLqRT-ddZ83WiKORgu178E6iqRIqVS54QQZ-FAK46bnP1yEM3uYImUtrq31hod9J93ZsHpymDwudmBTYMKs31vWppLojvUBEHKvrg"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=17&cb=276194239" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=17&cb=1102179600" async></script></body>
 </html>
 
 
