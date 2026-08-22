@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/splash-wave-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=HA9ss3POTz65J80dl1HgWWFuiGoAAAAAQUIPAAAAAAAWU4nJtcu9UsyjCxF5hh9i; nlbi_243507=PpxhcqN9vigu7wpBaXmSIAAAAAD9OTAb885PEp8zPMVP9g7G; incap_ses_1012_243507=z2AoJI9RTTVHNoIvrVgLDmFuiGoAAAAAbbLXkp7yyVBRGwQqJdq+bA==
+Cookie: visid_incap_243507=I7WVQRxFQxG6o7E+wka0rHUZiWoAAAAAQUIPAAAAAADP346wXaFeSLNo9/yvyeih; nlbi_243507=T2RWGtV16wZeGKrBaXmSIAAAAAB1dKWIQ7NdmsrOL/psEvjp; incap_ses_1015_243507=oxwbG7sSADPcM3UZKQEWDnUZiWoAAAAAWCSbiLigfB8T7rDkwjv42A==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 49
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 21 Aug 2026 15:31:43 GMT
-Etag: "1787326253-gzip"
+Date: Sat, 22 Aug 2026 03:41:38 GMT
+Etag: "1787370098-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 21 Aug 2026 15:30:53 GMT
+Last-Modified: Sat, 22 Aug 2026 03:41:38 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 38-163564905-163564918 SNNy RT(1787326049843 253916) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 2668902288 2674048206
+X-Iinfo: 44-221445062-221445074 SNNy RT(1787369845848 252147) q(0 0 0 -1) r(4 4) U24
+X-Varnish: 208873999
 
-cc83
+cf2a
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ cc83
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/splash-wave-pool" />
 <meta name="dcterms.title" content="Splash Wave Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-08-04" />
+<meta name="dcterms.date" content="2026-08-21" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ cc83
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ac54d8333a340e2594021a75c7c3d86852e9cd0ae0ca1432db018e209b27ca79">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5a3c404d3c2886450954889a29e5803a0dad57b2a7b1912151dbfd082e2d2f35">
   
     
       
@@ -208,7 +208,7 @@ cc83
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-df06f3c9380cfa8477e0219792ad2759c6a7277f8c0099b0b2d77fd1448aea60">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6ba7aea13d2fbf12e1ed39ebd74c589a58315ddf9643eb922efb90dac196da3a">
   
     
       
@@ -277,7 +277,22 @@ cc83
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    <div class="mb-3">
+                                                    
+
+
+  
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Closure</h2>
+</div>
+      
+
+
+
+
+  
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>August 29 to September 27, closed</p></div>
+      
+
+<div class="mb-3">
 
 
 
@@ -285,7 +300,7 @@ cc83
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">11:00 am - 4:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">11:00 am - 4:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">11:00 am - 4:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">11:00 am - 4:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -502,6 +517,12 @@ cc83
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
 <p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
 <p><strong>Reservations not required.</strong></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Closure</h3>
+<p>August 29 to September 27, closed</p></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
