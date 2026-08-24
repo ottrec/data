@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/richmond-memorial-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=vKQQUt52TJe+WzMsOIEIhlC/i2oAAAAAQUIPAAAAAABz8w6fzSNTckJzZeyQUadO; nlbi_243507=nebFMTFksEX0l+rAaXmSIAAAAABW5oq8lSq5mA2y8JbJsNBy; incap_ses_197_243507=Y66LMeTBwDCGqMNWuOK7AlG/i2oAAAAA9XW9pqVSiB3XfgkVgG6b8g==
+Cookie: visid_incap_243507=DovfgL5bTVCmCJKLAnHj2FxkjGoAAAAAQUIPAAAAAAAOF70YS5Jc0dMzsLB2QBY/; nlbi_243507=1Bh4UycyJ1EyOtf5aXmSIAAAAAD1hSjNxJ5cykqCfO8PuiAb; incap_ses_187_243507=Zwz9ZAI3DgVIEJQ3yFuYAlxkjGoAAAAAtjwOX32ZTkEO2oWaNidphg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 233
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 24 Aug 2026 03:53:27 GMT
-Etag: "1787543606-gzip"
+Date: Mon, 24 Aug 2026 15:37:41 GMT
+Etag: "1787585627-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 24 Aug 2026 03:53:26 GMT
+Last-Modified: Mon, 24 Aug 2026 15:33:47 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 8-169615-169616 SNNN RT(1787543377334 229224) q(0 0 0 -1) r(6 6) U24
-X-Varnish: 2677049407
+X-Iinfo: 40-1428475-1428485 SNNy RT(1787585628212 232888) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 2676522206 2677252907
 
-b7b1
+b7c6
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ b7b1
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-70e32c6c37b76277dfb36cc6424fb1b9d17c53038645323165180e5efd4d2372">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-51eaa773c33201ee1a9501f7902a669526c17f786b30fb5aba18bda0e3a725c7">
   
     
       
@@ -208,7 +208,7 @@ b7b1
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-e184dc2f476737b21b6e2c71090b550326aafc1a0733db723bd68f4dbab851e0">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-3eaa7556c4c8f8e813ef1974039d856e82ba1199802200b4e3bdabcb867d8350">
   
     
       
@@ -1002,14 +1002,14 @@ b7b1
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/chalkmark/q6o68rhs">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

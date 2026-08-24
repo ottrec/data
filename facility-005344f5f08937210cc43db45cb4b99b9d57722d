@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lois-kemp-arena-blackburn HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=vKQQUt52TJe+WzMsOIEIhlC/i2oAAAAAQUIPAAAAAABz8w6fzSNTckJzZeyQUadO; nlbi_243507=nebFMTFksEX0l+rAaXmSIAAAAABW5oq8lSq5mA2y8JbJsNBy; incap_ses_197_243507=Y66LMeTBwDCGqMNWuOK7AlG/i2oAAAAA9XW9pqVSiB3XfgkVgG6b8g==
+Cookie: visid_incap_243507=DovfgL5bTVCmCJKLAnHj2FxkjGoAAAAAQUIPAAAAAAAOF70YS5Jc0dMzsLB2QBY/; nlbi_243507=1Bh4UycyJ1EyOtf5aXmSIAAAAAD1hSjNxJ5cykqCfO8PuiAb; incap_ses_187_243507=Zwz9ZAI3DgVIEJQ3yFuYAlxkjGoAAAAAtjwOX32ZTkEO2oWaNidphg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 361
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 24 Aug 2026 03:52:19 GMT
-Etag: "1787543538-gzip"
+Date: Mon, 24 Aug 2026 15:36:31 GMT
+Etag: "1787585428-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 24 Aug 2026 03:52:18 GMT
+Last-Modified: Mon, 24 Aug 2026 15:30:28 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 8-169615-169616 SNNN RT(1787543377334 161113) q(0 1 1 -1) r(13 13) U24
-X-Varnish: 2675848272
+X-Iinfo: 40-1428475-1428485 SNNy RT(1787585628212 163034) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 210382817 210382457
 
-ad1f
+ad34
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ ad1f
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9a8513e8ec5d119afe857d0bef2240dac80667182919ebedc3c7e6a2a3a28b95">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b5f415269bbbed14fb055f4008a0e71eea66f9819d3263abd04c4b1b38120810">
   
     
       
@@ -208,7 +208,7 @@ ad1f
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8c6e3c3b076b1ab8f440e1d503fa9f2c5370ef92a75f5d7eb018ea52ca450205">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d85f2e4c4c2c49bb365c670706239aaa25c436ea982a8b4dd7c879a5fbe75a97">
   
     
       
@@ -983,14 +983,14 @@ ad1f
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/chalkmark/q6o68rhs">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

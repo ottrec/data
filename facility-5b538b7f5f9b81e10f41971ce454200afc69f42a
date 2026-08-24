@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=vKQQUt52TJe+WzMsOIEIhlC/i2oAAAAAQUIPAAAAAABz8w6fzSNTckJzZeyQUadO; nlbi_243507=nebFMTFksEX0l+rAaXmSIAAAAABW5oq8lSq5mA2y8JbJsNBy; incap_ses_197_243507=Y66LMeTBwDCGqMNWuOK7AlG/i2oAAAAA9XW9pqVSiB3XfgkVgG6b8g==
+Cookie: visid_incap_243507=DovfgL5bTVCmCJKLAnHj2FxkjGoAAAAAQUIPAAAAAAAOF70YS5Jc0dMzsLB2QBY/; nlbi_243507=1Bh4UycyJ1EyOtf5aXmSIAAAAAD1hSjNxJ5cykqCfO8PuiAb; incap_ses_187_243507=Zwz9ZAI3DgVIEJQ3yFuYAlxkjGoAAAAAtjwOX32ZTkEO2oWaNidphg==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 96
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Mon, 24 Aug 2026 03:50:20 GMT
-Etag: "1787543420-gzip"
+Date: Mon, 24 Aug 2026 15:34:30 GMT
+Etag: "1787585573-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Mon, 24 Aug 2026 03:50:20 GMT
+Last-Modified: Mon, 24 Aug 2026 15:32:53 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 8-169615-169616 SNNN RT(1787543377334 42875) q(0 0 0 -1) r(5 5) U24
-X-Varnish: 206298588
+X-Iinfo: 40-1428475-1428485 SNNy RT(1787585628212 42216) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 2676537049 2673460920
 
-f6e4
+f6fa
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ f6e4
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e2d1fe1f32dd03fbcd99165bbbff9e9e2f46c3096bf96c94ad91cffa4a88887b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-6bc81e2a3328514711db7e51263a0b813e9eb3afcba5628805b57316ae52c68e">
   
     
       
@@ -208,7 +208,7 @@ f6e4
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-158ae48a295bbbafb07f8553e335449ab8ba8a87e4da7352272a9e4f6a0febe5">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-647d930fb965bce6f3664a5e48ffbd8659586a0a17e5818db9a6ef2263032723">
   
     
       
@@ -1242,14 +1242,14 @@ Pool rentals - please contact the facility</p>
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/chalkmark/q6o68rhs">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
@@ -1264,7 +1264,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TtsOwiAM_SE2XvwfUliD1bISKG7z68VojPjgy8m5tD31Ilq1QD5Z_6HTpU4MilUN7sq0Xu1SWgae39JEkcjoFKKNHX71DBfYRzMZhvthn2BENYDTMya0_mDYmHrVtxuEGXLtyxL7jSF7PuAoyFoH-8XDGdSL_iZtnzdaIo5BDaX3YBlNUqSUi9xwghX4UArVZMktu9rKDQ_7LXqyYfHkMHlc7KCmwISr_h9pVSXRHcsDjyGbww"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=22&cb=309111879" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=22&cb=1840912702" async></script></body>
 </html>
 
 
