@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Wed, 17 Jun 2026 06:38:52 GMT
-Request-Handler: api310
+Date: Mon, 31 Aug 2026 11:30:09 GMT
+Request-Handler: api299
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 971
-X-Request-Id: 4AEB7E50:0980_05A11518:01BB_6A3240FB_1864AFF:09E6
+X-Ratelimit-Remaining: 973
+X-Request-Id: 34A13B92:3CC0_054E1F88:01BB_6A9565BF_A2A5:0E78
 X-Xss-Protection: 1; mode=block
 
 {"input":{"address_components":{"number":"100","street":"Charlie Rogers","suffix":"Pl","formatted_street":"Charlie Rogers Pl","city":"Ottawa","state":"ON","zip":"K2V 1A2","country":"CA"},"formatted_address":"100 Charlie Rogers Pl, Ottawa, ON K2V 1A2"},"results":[{"stable_address_key":"gcod_can8v8jarau8weph93e4mfe7dxu57","address_components":{"number":"100","street":"Charlie Rogers","suffix":"Pl","formatted_street":"Charlie Rogers Pl","city":"Kanata","state":"ON","zip":"K2V","country":"CA"},"address_lines":["100 Charlie Rogers Pl","","Kanata, ON K2V"],"formatted_address":"100 Charlie Rogers Pl, Kanata, ON K2V","location":{"lat":45.294275,"lng":-75.901664},"accuracy":0.93,"accuracy_type":"rooftop","match_type":"building_centroid","source":"City of Ottawa (Open Government Licence \u2013 City of Ottawa Contains information licensed under the Open Government Licence \u2013 City of Ottawa)"}],"_warnings":["There is a newer API version available, please consider upgrading to v2. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

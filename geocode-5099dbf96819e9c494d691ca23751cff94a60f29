@@ -11,8 +11,8 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Wed, 17 Jun 2026 06:37:40 GMT
-Request-Handler: api313
+Date: Mon, 31 Aug 2026 11:28:40 GMT
+Request-Handler: api314
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
 X-Billable-Lookups-Count: 1
@@ -21,7 +21,7 @@ X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
 X-Ratelimit-Remaining: 973
-X-Request-Id: 4AEB7E50:0980_05A11518:01BB_6A3240B2_1861C67:09E6
+X-Request-Id: 34A13B92:3CC0_054E1F88:01BB_6A956567_9F86:0E78
 X-Xss-Protection: 1; mode=block
 
 {"input":{"address_components":{"number":"1295","street":"Colonial","suffix":"Rd","formatted_street":"Colonial Rd","city":"Ottawa","state":"ON","zip":"K4B 1N1","country":"CA"},"formatted_address":"1295 Colonial Rd, Ottawa, ON K4B 1N1"},"results":[{"stable_address_key":"gcod_cangwsegc5v6rwegvc9jhwr6dngqb","address_components":{"number":"1295","street":"Colonial","suffix":"Rd","formatted_street":"Colonial Rd","city":"Navan","state":"ON","zip":"K4B","country":"CA"},"address_lines":["1295 Colonial Rd","","Navan, ON K4B"],"formatted_address":"1295 Colonial Rd, Navan, ON K4B","location":{"lat":45.421722,"lng":-75.421684},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v2. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}

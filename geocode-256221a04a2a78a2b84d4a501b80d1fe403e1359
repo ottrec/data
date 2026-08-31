@@ -11,7 +11,7 @@ Access-Control-Expose-Headers: Request-Handler
 Cache-Control: no-cache, private
 Content-Security-Policy: default-src 'none';
 Content-Type: application/json
-Date: Wed, 19 Aug 2026 15:26:09 GMT
+Date: Mon, 31 Aug 2026 11:26:07 GMT
 Request-Handler: api189
 Server: Unicorns with magic wands (https://www.geocod.io)
 X-Billable-Fields-Count: 0
@@ -20,8 +20,8 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Period: 60
-X-Ratelimit-Remaining: 999
-X-Request-Id: 14DD44F3:F018_05A11518:01BB_6A85CB11_64EA18:0C67
+X-Ratelimit-Remaining: 982
+X-Request-Id: 34A13B92:3CC0_054E1F88:01BB_6A9564CE_9A7B:0E78
 X-Xss-Protection: 1; mode=block
 
 {"input":{"address_components":{"number":"1485","street":"Duford","suffix":"Dr","formatted_street":"Duford Dr","city":"Ottawa","state":"ON","zip":"K1E 1G1","country":"CA"},"formatted_address":"1485 Duford Dr, Ottawa, ON K1E 1G1"},"results":[{"stable_address_key":"gcod_can8jntmcphy523hns3hv9yurasfg","address_components":{"number":"1485","street":"Duford","suffix":"Dr","formatted_street":"Duford Dr","city":"Orleans","state":"ON","zip":"K1E","country":"CA"},"address_lines":["1485 Duford Dr","","Orleans, ON K1E"],"formatted_address":"1485 Duford Dr, Orleans, ON K1E","location":{"lat":45.470045,"lng":-75.507337},"accuracy":1,"accuracy_type":"rooftop","match_type":"building_centroid","source":"Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.)"}],"_warnings":["There is a newer API version available, please consider upgrading to v2. See changelog here: https:\/\/www.geocod.io\/docs\/#changelog"]}
