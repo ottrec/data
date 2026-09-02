@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/hunt-club-riverside-park-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=mK24cL3gSpKei540B4UyrfPQl2oAAAAAQUIPAAAAAACWEZceFcfE+34zt6ASo2Aq; nlbi_243507=/Q23Og/TakhaWSaLaXmSIAAAAAAvPpY7U+7psho+8Yi9S0E5; incap_ses_79_243507=ilLzf/BBkRGhuYazYaoYAfTQl2oAAAAADkD65RmoIq4k3U182/+zkQ==
+Cookie: visid_incap_243507=l+uWVJkgRhmPKuGFv3aAsj5pmGoAAAAAQUIPAAAAAAB15oUR8qYm9TB/uPw06LFU; nlbi_243507=2I4nAxjwBwgFt7axaXmSIAAAAABGOFKlMwmnRbd6h+DwOCGN; incap_ses_102_243507=6UaGBrh2SXrCE2wHvmBqAT5pmGoAAAAA6NpZ7I4OwM5oq+nphyBDSQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 415
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 02 Sep 2026 07:34:42 GMT
-Etag: "1788334481-gzip"
+Date: Wed, 02 Sep 2026 18:24:14 GMT
+Etag: "1788373037-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 02 Sep 2026 07:34:41 GMT
+Last-Modified: Wed, 02 Sep 2026 18:17:17 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 48-24017179-24014880 SNNy RT(1788334324398 156890) q(0 0 0 -1) r(14 14) U24
-X-Varnish: 2721632734
+X-Iinfo: 40-105264618-105264626 SNNy RT(1788373311515 143184) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 2712681715 2725750883
 
-f193
+f3a8
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ f193
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-513b86347d8177418f4c43bb72e582d82cc3479277411c74b9be2484cbe34422">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-10fa46d50f303bc06e721586ce65a95d73dc2316e0f86aba402591b880eba444">
   
     
       
@@ -208,7 +208,7 @@ f193
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0a7658cacb9096f1640c1e8719ffe76d1a49c8b29c3cada9e6c10d8ba8ce8c7d">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d02d37a98ad3f4368d4d40f602b250cd2604f0faa2318872d84cef325e664c62">
   
     
       
@@ -299,7 +299,7 @@ f193
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -634,7 +634,7 @@ f193
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Hunt Club-Riverside Park Community Centre - group fitness - July 2 to August 30</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Cardio and strength</th><td>n/a</td><td>6 - 7 pm</td><td>n/a</td><td>5:45 - 6:45 pm</td><td>9 - 10 am</td><td>9 - 10 am</td><td>n/a</td></tr><tr><th scope="row">Strength</th><td>n/a</td><td>n/a</td><td>9 - 10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Stretch and strength</th><td>9 - 10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup></th><td>n/a</td><td>n/a</td><td>5:45 - 6:45 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Hunt Club-Riverside Park Community Centre - group fitness - September 5 to December 31</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Cardio and Strength</th><td>n/a</td><td>6 - 7 pm</td><td>n/a</td><td>5:45 - 6:45 pm</td><td>9 - 10 am</td><td>9 - 10 am</td><td>n/a</td></tr><tr><th scope="row">Strength</th><td>n/a</td><td>n/a</td><td>9 - 10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Stretch and Strength</th><td>9 - 10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>n/a</td><td>9 - 10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Zumba<sup>®</sup></th><td>n/a</td><td>n/a</td><td>5:45 - 6:45 pm</td><td>n/a</td><td>n/a</td><td>10 - 11 am</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
 
@@ -742,7 +742,7 @@ f193
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Hunt Club-Riverside Park Community Centre - gymnasium sports - July 2 to August 30</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Badminton - adult</th><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td>3:30 - 4:30 pm</td></tr><tr><th scope="row">Badminton - family</th><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td>2:30 - 3:30&nbsp;pm</td></tr><tr><th scope="row">Basketball - adult</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>2:15 - 3:15 pm,&nbsp;<br><span>3:15 - 4:15 pm</span></td><td>n/a</td></tr><tr><th scope="row">Kinderplay</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9 - 10 am,&nbsp;<br>10 - 11 am&nbsp;<br><span><strong>Play Free</strong></span></td><td>n/a</td></tr><tr><th scope="row">Open Gym - family</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>2:15 - 3:15 pm,&nbsp;<br>3:15 - 4:15 pm&nbsp;<br><span><strong>Play Free</strong></span></td><td>n/a</td></tr><tr><th scope="row">Volleyball - adult</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>Noon - 1 pm,&nbsp;<br>1 - 2 pm&nbsp;<span>&nbsp;</span></td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Hunt Club-Riverside Park Community Centre - gymnasium sports - September 5 to December 31</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Badminton - adult</th><td><span>n/a</span></td><td>&nbsp;</td><td><span>Noon - 1pm,&nbsp;</span><br><span>1 - 2 pm</span></td><td><span>n/a</span></td><td><span>1 - 2 pm,&nbsp;</span><br><span>2 - 3 pm</span></td><td><span>n/a</span></td><td>3:30 - 4:30 pm</td></tr><tr><th scope="row">Badminton - family</th><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td><span>n/a</span></td><td>2:30 - 3:30&nbsp;pm</td></tr><tr><th scope="row">Basketball - adult</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>2:15 - 3:15 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Kinderplay</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9 - 10 am,&nbsp;<br>10 - 11 am&nbsp;<br><span><strong>Play Free</strong></span></td><td>n/a</td></tr><tr><th scope="row">Open Gym - family</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>2:15 - 3:15 pm<br><span><strong>Play Free</strong></span></td><td>n/a</td></tr><tr><th scope="row">Pickleball - adult</th><td><span>Noon - 1pm,&nbsp;</span><br><span>1 - 2 pm</span></td><td>11:30 am - 12:30 pm,&nbsp;<br>12:30 - 1:30</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Pickleball Intermediate - adult&nbsp;</span></th><td>n/a</td><td>n/a</td><td>n/a</td><td><span>Noon - 1pm,&nbsp;</span><br><span>1 - 2 pm</span></td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Volleyball - adult</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>1 - 2 pm&nbsp;<span>&nbsp;</span></td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">

@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=mK24cL3gSpKei540B4UyrfPQl2oAAAAAQUIPAAAAAACWEZceFcfE+34zt6ASo2Aq; nlbi_243507=/Q23Og/TakhaWSaLaXmSIAAAAAAvPpY7U+7psho+8Yi9S0E5; incap_ses_79_243507=ilLzf/BBkRGhuYazYaoYAfTQl2oAAAAADkD65RmoIq4k3U182/+zkQ==
+Cookie: visid_incap_243507=l+uWVJkgRhmPKuGFv3aAsj5pmGoAAAAAQUIPAAAAAAB15oUR8qYm9TB/uPw06LFU; nlbi_243507=2I4nAxjwBwgFt7axaXmSIAAAAABGOFKlMwmnRbd6h+DwOCGN; incap_ses_102_243507=6UaGBrh2SXrCE2wHvmBqAT5pmGoAAAAA6NpZ7I4OwM5oq+nphyBDSQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 330
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 02 Sep 2026 07:32:53 GMT
-Etag: "1788334372-gzip"
+Date: Wed, 02 Sep 2026 18:22:35 GMT
+Etag: "1788373022-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 02 Sep 2026 07:32:52 GMT
+Last-Modified: Wed, 02 Sep 2026 18:17:02 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 48-24017179-24014880 SNNy RT(1788334324398 48519) q(0 0 0 -1) r(10 10) U24
-X-Varnish: 260178752
+X-Iinfo: 40-105264618-105264626 SNNy RT(1788373311515 43981) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 237148132 255497954
 
-14fdd
+1413b
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ X-Varnish: 260178752
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans" />
 <meta name="dcterms.title" content="Bob MacQuarrie Recreation Complex - Orléans" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-08-30" />
+<meta name="dcterms.date" content="2026-09-02" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 260178752
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4a1b6c7164ee8f2aac63edf7de730addb5508df22ec9d6007b7c0addd4c8feb1">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-fe40c3967ed4da407265fdb031d55c976b8f97a7ba790e7fc32798466f3a6a0b">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 260178752
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8e77960b8d082d69e0dfd5518d145f77afa97135663673c6c3a1bd3ed9e572b4">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-01d0017e2a2d2fcc49e3207cd696b8157547fc03c2801bc7a5e1fcb760f8518e">
   
     
       
@@ -281,7 +281,7 @@ X-Varnish: 260178752
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Closures</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Notice</h2>
 </div>
       
 
@@ -289,18 +289,10 @@ X-Varnish: 260178752
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><span><strong>Friday, August 28</strong></span>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>Squash court 3 is closed until further notice.</p>
+<h3>Closures</h3>
 <ul>
-<li><span>Modified hours, 6 am to 8 pm</span></li>
-</ul>
-</li>
-<li><strong>Friday, August 28</strong>
-<ul>
-<li>Squash court 3 is closed until further notice.</li>
-</ul>
-</li>
-<li><span dir="ltr"><strong>Monday, August 24 to Sunday, September 13</strong></span>
+<li><span dir="ltr"><strong>Monday, August 24 to Sunday, September 20</strong></span>
 <ul>
 <li><span dir="ltr">The pool is closed for annual maintenance.</span></li>
 </ul>
@@ -329,7 +321,7 @@ X-Varnish: 260178752
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -524,7 +516,7 @@ X-Varnish: 260178752
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Closure</h3>
 <ul>
-<li><span lang="EN-US" dir="ltr"><strong>Monday, August 24 to Sunday, September 13</strong></span><span>&nbsp;</span>
+<li><span lang="EN-US" dir="ltr"><strong>Monday, August 24 to Sunday, September 20</strong></span><span>&nbsp;</span>
 <ul>
 <li><span lang="EN-US" dir="ltr">The pool is closed for annual maintenance.</span><span>&nbsp;</span></li>
 </ul>
@@ -534,12 +526,7 @@ X-Varnish: 260178752
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Bob MacQuarrie Recreation Complex -&nbsp;swimming and aquafitness -&nbsp;June 29 to August 23</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Aquafit General -<br>Deep</th><td>8 - 9 am</td><td>7 - 8 am,&nbsp;<br>8 - 9 am</td><td>8 - 9 am</td><td>7 - 8 &nbsp;am,&nbsp;<br>8 - 9 am</td><td>8 - 9 am</td><td>8 - 9 am</td><td>8 - 9 am</td></tr><tr><th scope="row">Aquafit General -<br>Shallow</th><td>8 - 9 am</td><td>7 - 8 am,&nbsp;<br>8 - 9 am</td><td>8 - 9 am</td><td>7 - 8 &nbsp;am,&nbsp;<br>8 - 9 am</td><td>8 - 9 am</td><td>8 - 9 am</td><td>8 - 9 am</td></tr><tr><th scope="row">Aquafit General -<br>Therapeutic pool</th><td>7 - 8 am</td><td>n/a</td><td>7 - 8 am</td><td>n/a</td><td>7 - 8 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Aquafit Lite -<br>Therapeutic pool</th><td>Noon - 1 pm</td><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>Noon - 1 pm</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th scope="row">Lane swim</th><td>6 - 8 am,&nbsp;<br>Noon - 2 pm</td><td>6 - 7 am,&nbsp;<br>Noon - 1 pm,&nbsp;<br>7 - 8 pm</td><td>6 - 8 am,&nbsp;<br>Noon - 1 pm</td><td>6 - 7 am,&nbsp;<br>Noon - 1 pm</td><td>6 - 8 am,&nbsp;<br>Noon - 2 pm</td><td><span>2 - 3:30 pm</span><br><span><strong>Play Free</strong></span></td><td><span>11 am - 1 pm</span></td></tr><tr><th scope="row">Public swim -<br>25 metre pool only</th><td>3 - 5 pm</td><td>2 - 5 pm</td><td>3 - 5 pm</td><td>2 - 5 pm</td><td>3 - 5 pm</td><td>11 am - 2 pm<br><span><strong>Play Free</strong></span></td><td><span>n/a</span></td></tr><tr><th scope="row">Public swim -<br>therapeutic pool</th><td><span>1 - 2 pm,&nbsp;</span><br>3 - 5 pm</td><td>2 - 5 pm,&nbsp;<br>7 - 8 pm</td><td>3 - 5 pm</td><td>2 - 5 pm,&nbsp;<br>7 - 8 pm</td><td><span>1 - 2 pm,&nbsp;</span><br>3 - 5 pm</td><td>11 am - 2 pm&nbsp;<br><span><strong>Play Free</strong></span></td><td><span>n/a</span></td></tr></tbody></table></div>
-      </div>
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Bob MacQuarrie Recreation Complex -&nbsp;swimming and aquafitness -&nbsp;September 14 to December 20&nbsp;</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Aquafit General -<br>Deep</th><td>8 - 9 am,&nbsp;<br>9 - 10 am,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am</td><td>n/a</td></tr><tr><th scope="row">Aquafit General -<br>Shallow</th><td>8 - 9 am,&nbsp;<br>9 - 10 am,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am</td><td>8 - 9 am</td></tr><tr><th scope="row">Aquafit General -<br>Therapeutic pool</th><td>7 - 8 am</td><td>7 - 8 am</td><td>7 - 8 am</td><td>7 - 8 am</td><td>7 - 8 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Aquafit Lite -<br>Therapeutic pool</th><td>1 - 2 pm&nbsp;</td><td>1 - 2 pm&nbsp;</td><td>1 - 2 pm&nbsp;</td><td>1 - 2 pm&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th scope="row">Lane swim</th><td>6 - 8 am, &nbsp;<br>11 am - 1 pm&nbsp;</td><td>10 am - 2 pm,&nbsp;<br>9 - 10 pm&nbsp;</td><td>6 - 8 am,&nbsp;<br>10 am - 1 pm&nbsp;</td><td>10 am - 2 pm,&nbsp;<br>9:30 - 10:30 pm&nbsp;</td><td>6 - 8 am,&nbsp;<br>11 am - 1 pm&nbsp;</td><td><span>n/a</span></td><td><span>n/a</span></td></tr><tr><th scope="row">Public swim -<br>25 metre pool only</th><td><span>n/a</span></td><td>2 - 4 pm&nbsp;</td><td><span>n/a</span></td><td>2 - 4 pm&nbsp;</td><td>7:30 - 8:30 pm&nbsp;</td><td>1:30 - 4 pm&nbsp;<br><strong>Play Free</strong></td><td><span>1:30 - 4 pm</span></td></tr><tr><th scope="row">Public swim -<br>therapeutic pool</th><td><span>n/a</span></td><td>10 - noon&nbsp;</td><td><span>n/a</span></td><td>10 - 11 am</td><td>11 - noon,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>2:30 - 4 pm &nbsp;<br><span><strong>Play Free</strong></span></td><td><span>1:30 - 4 pm</span></td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Bob MacQuarrie Recreation Complex -&nbsp;swimming and aquafitness -&nbsp;September 21 to December 20&nbsp;</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Aquafit General -<br>Deep</th><td>8 - 9 am,&nbsp;<br>9 - 10 am,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am</td><td>n/a</td></tr><tr><th scope="row">Aquafit General -<br>Shallow</th><td>8 - 9 am,&nbsp;<br>9 - 10 am,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am,&nbsp;<br>9 - 10 am</td><td>8 - 9 am</td><td>8 - 9 am</td></tr><tr><th scope="row">Aquafit General -<br>Therapeutic pool</th><td>7 - 8 am</td><td>7 - 8 am</td><td>7 - 8 am</td><td>7 - 8 am</td><td>7 - 8 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Aquafit Lite -<br>Therapeutic pool</th><td>1 - 2 pm&nbsp;</td><td>1 - 2 pm&nbsp;</td><td>1 - 2 pm&nbsp;</td><td>1 - 2 pm&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr><tr><th scope="row">Lane swim</th><td>6 - 8 am, &nbsp;<br>11 am - 1 pm&nbsp;</td><td>10 am - 2 pm,&nbsp;<br>9 - 10 pm&nbsp;</td><td>6 - 8 am,&nbsp;<br>10 am - 1 pm&nbsp;</td><td>10 am - 2 pm,&nbsp;<br>9:30 - 10:30 pm&nbsp;</td><td>6 - 8 am,&nbsp;<br>11 am - 1 pm&nbsp;</td><td><span>n/a</span></td><td><span>n/a</span></td></tr><tr><th scope="row">Public swim -<br>25 metre pool only</th><td><span>n/a</span></td><td>2 - 4 pm&nbsp;</td><td><span>n/a</span></td><td>2 - 4 pm&nbsp;</td><td>7:30 - 8:30 pm&nbsp;</td><td>1:30 - 4 pm&nbsp;<br><strong>Play Free</strong></td><td><span>1:30 - 4 pm</span></td></tr><tr><th scope="row">Public swim -<br>therapeutic pool</th><td><span>n/a</span></td><td>10 - noon&nbsp;</td><td><span>n/a</span></td><td>10 - 11 am</td><td>11 - noon,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>2:30 - 4 pm &nbsp;<br><span><strong>Play Free</strong></span></td><td><span>1:30 - 4 pm</span></td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
@@ -872,14 +859,8 @@ X-Varnish: 260178752
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Closure</strong></h3>
-<ul>
-<li><strong>&nbsp;Friday, August 28</strong>
-<ul>
-<li>Squash court 3 is closed until further notice.</li>
-</ul>
-</li>
-</ul></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Notice</strong></h3>
+<p>Squash court 3 is closed until further notice.</p></div>
       
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
@@ -1207,11 +1188,6 @@ X-Varnish: 260178752
 </li>
 </ul></div>
       
-      </div>
-  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
-          <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Bob MacQuarrie Recreation Complex-Orléans - skating - June 29 to August 31</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Public skating&nbsp;</th><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a</td><td>n/a</td><td>n/a</td><td>4:15 - 5:05 pm&nbsp;<br><strong>Play Free</strong></td><td>n/a</td></tr><tr><th scope="row">Figure skating&nbsp;</th><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a</td><td>5:15 - 6:05 pm</td><td>n/a&nbsp;</td></tr></tbody></table></div>
-      </div>
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
@@ -1741,7 +1717,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TtsOwiAM_SE2XvwfUliD1bISKG7z68VojPjgy8m5tD31Ilq1QD5Z_6HTpU4MilUN7sq0Xu1SWgae39JEkcjoFKKNHX71DBfYRzMZhvthn2BENYDTMya0_mDYmHrVtxuEGXLtyxL7jSF7PuAoyFoH-8XDGdSL_iZtnzdaIo5BDaX3YBlNUqSUi9xwghX4UArVZMktu9rKDQ_7LXqyYfHkMHlc7KCmwISr_h9pVSXRHcsDjyGbww"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=427220288" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=292678010" async></script></body>
 </html>
 
 
