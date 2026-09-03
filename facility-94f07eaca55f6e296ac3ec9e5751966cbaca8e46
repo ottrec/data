@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/brewer-pool-and-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=qKS14ooySHGI9xz0wAiURzQkmWoAAAAAQUIPAAAAAACmmOW74sv+QhmY0BGEjOSd; nlbi_243507=2xV4YO2uBG1u/aI+aXmSIAAAAABLk0Zb7E9pGcnyQDYoaKF1; incap_ses_197_243507=35E+EUEwtzTei5eDuOK7AjQkmWoAAAAAI31srD/8ic7kMmUe+/Hc9g==
+Cookie: visid_incap_243507=yV4CT/kFRSC0wAivj/gHuNm5mWoAAAAAQUIPAAAAAABILSadev9ZSL8nes0/I/G4; nlbi_243507=1AC/CT+igBKyScBMaXmSIAAAAAD3YKn1SrzYQe4HP1AZiHmV; incap_ses_1014_243507=j/c0HVD+vRMfph3FrHMSDtm5mWoAAAAA1xFZE83uXMX83nJXWiilKA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 288
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 03 Sep 2026 07:40:25 GMT
-Etag: "1788421224-gzip"
+Date: Thu, 03 Sep 2026 18:18:57 GMT
+Etag: "1788459248-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 03 Sep 2026 07:40:24 GMT
+Last-Modified: Thu, 03 Sep 2026 18:14:08 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 60-266728497-266728504 SNNy RT(1788421173339 50995) q(0 0 0 -1) r(10 10) U24
-X-Varnish: 228684522
+X-Iinfo: 25-51720448-51716901 SNNy RT(1788459482041 55114) q(0 0 0 -1) r(1 1) U24
+X-Varnish: 259471524 248371445
 
-11463
+1161e
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 228684522
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bb61f05ccaad84763a89c0d29f97ad0ba3260672924b48409f30341b67aec1a3">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-35c7265f285e7dc1245796e5705ad4cbb927de15788dd006bb9752af7f3c435c">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 228684522
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-6b8a83fa51e12d13d2429cdbc44a9c58270144daeef7c8b64b577b8e16994c13">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-49de805325fe76c9f5cb551a0d8b2bf1fcd7a49f8cee5c721c6b4136fe29d6f0">
   
     
       
@@ -306,7 +306,7 @@ X-Varnish: 228684522
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">11:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">11:00 am - 4:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">11:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">11:00 am - 4:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -702,6 +702,18 @@ X-Varnish: 228684522
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank"><u>Drop-in activities: descriptions, fees, membership, and cancellation information.</u></a>&nbsp;</p>
 <p><a href="https://www.ottawa.ca/en/recreation-and-parks/drop-activities/activity-descriptions-regulations-locations/skating-and-ice-sports/safety-and-supervision-skating"><u>Safety and regulations</u></a></p>
 <p><strong>Reservations not required.</strong></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Monday, September 7</strong></span>
+<ul>
+<li><span>The facility is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
@@ -1271,7 +1283,7 @@ Thank you for considering to help out.
 <script src="/themes/custom/ottca_theme/dist/js/slider-gallery.min.js?tkflao" async></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=7&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9UEuOwyAMvRAJm7kPMsRD3TEYgdMkPX2JOqpKF91Y7-NnW_Yi2rRC-bH-BadrmxgUmxrclSn_2aWuBXj-p-aXcW9MC1ZLWTFWUJJsokhkdArRxl4--QxX2EcxGYb7Yc9iRDWA0wsmtP5g2Jj6Be9qEGYorYcl9hmDd97lKEhug_zE4QLqRT-ddZ83WiKORgu178E6iqRIqVS54QQZ-FAK46bnP1yEM3uYImUtrq31hod9J93ZsHpymDwudmBTYMKs31vWppLojvUBEHKvrg"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=20&cb=2078376278" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=20&cb=680487212" async></script></body>
 </html>
 
 

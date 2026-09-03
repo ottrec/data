@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/kanata-leisure-centre-and-wave-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=qKS14ooySHGI9xz0wAiURzQkmWoAAAAAQUIPAAAAAACmmOW74sv+QhmY0BGEjOSd; nlbi_243507=2xV4YO2uBG1u/aI+aXmSIAAAAABLk0Zb7E9pGcnyQDYoaKF1; incap_ses_197_243507=35E+EUEwtzTei5eDuOK7AjQkmWoAAAAAI31srD/8ic7kMmUe+/Hc9g==
+Cookie: visid_incap_243507=yV4CT/kFRSC0wAivj/gHuNm5mWoAAAAAQUIPAAAAAABILSadev9ZSL8nes0/I/G4; nlbi_243507=1AC/CT+igBKyScBMaXmSIAAAAAD3YKn1SrzYQe4HP1AZiHmV; incap_ses_1014_243507=j/c0HVD+vRMfph3FrHMSDtm5mWoAAAAA1xFZE83uXMX83nJXWiilKA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 492
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 03 Sep 2026 07:42:24 GMT
-Etag: "1788421342-gzip"
+Date: Thu, 03 Sep 2026 18:21:13 GMT
+Etag: "1788459176-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 03 Sep 2026 07:42:22 GMT
+Last-Modified: Thu, 03 Sep 2026 18:12:56 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 60-266728497-266728504 SNNy RT(1788421173339 169577) q(0 0 0 -1) r(14 14) U24
-X-Varnish: 2729576642
+X-Iinfo: 25-51720448-51716901 SNNy RT(1788459482041 191631) q(0 1 1 -1) r(1 1) U24
+X-Varnish: 2727605422 2721353810
 
-118f0
+118e8
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ X-Varnish: 2729576642
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/kanata-leisure-centre-and-wave-pool" />
 <meta name="dcterms.title" content="Kanata Leisure Centre and Wave Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-08-31" />
+<meta name="dcterms.date" content="2026-09-03" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 2729576642
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-4a2c54e21845239a2a015b05cf495149ff139779db3f3a9131388e73c1fe4394">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-a4727578f326f9c1411624070cde9b752d68f156e189c97e95472b2a56a2541d">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 2729576642
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-81c69724a172cb159b8ef0c9caa51d817f1a6a7f90ed9a149b487cd4cbb1f845">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-117b8e26c4d1826f1bcf0963fc014f5ae97d1966d0195a60a9650590f34e6833">
   
     
       
@@ -282,12 +282,14 @@ X-Varnish: 2729576642
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
 <li><span><strong>Friday, September 4</strong></span>
 <ul>
-<li>Aquafit, <span>12:05 to 1 pm, cancelled.</span></li>
+<li>Aquafit, 12:<span>05 to 1 pm, cancelled.</span></li>
 </ul>
 </li>
 </ul>
-<h3>Labour Day</h3>
-<p><span><strong>Monday, September 7</strong>, 8 am to 4 pm</span></p></div>
+<h4>Labour Day hours</h4>
+<ul>
+<li><span><strong>Monday, September 7</strong>, 8 am to 4 pm</span></li>
+</ul></div>
       
 
 <div class="mb-3">
@@ -298,7 +300,7 @@ X-Varnish: 2729576642
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -461,7 +463,7 @@ X-Varnish: 2729576642
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
-  <button aria-expanded="false" aria-controls="section-4e59c666-64ee-4d7a-9c5d-45830fdc5d0c" data-target="#section-4e59c666-64ee-4d7a-9c5d-45830fdc5d0c" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in activities - Labour Day weekend</button>
+  <button aria-expanded="false" aria-controls="section-4e59c666-64ee-4d7a-9c5d-45830fdc5d0c" data-target="#section-4e59c666-64ee-4d7a-9c5d-45830fdc5d0c" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in activities - Labour Day</button>
 
                   </h2>
                   <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-4e59c666-64ee-4d7a-9c5d-45830fdc5d0c">
@@ -479,7 +481,7 @@ X-Varnish: 2729576642
       
 
 
-  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in activities - Labour Day weekend</h2>
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in activities - Labour Day</h2>
 </span>
 
 
@@ -507,7 +509,7 @@ X-Varnish: 2729576642
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Kanata Leisure Centre and Wave Pool - all drop-ins - Monday, September 7</caption><thead><tr><td>&nbsp;</td><th scope="col"><strong>Monday, September 7</strong></th></tr></thead><tbody><tr><th scope="row">Hot tub and sauna</th><td>8 am - 4 pm</td></tr><tr><th scope="row">Lane swim</th><td>8 - 11 am</td></tr><tr><th scope="row">Public swim</th><td>11 am - 1 pm</td></tr><tr><th scope="row">Wave swim</th><td>1 - 4 pm</td></tr><tr><th scope="row">Weight and cardio room</th><td>8 am - 4 pm</td></tr><tr><th scope="row">Strength</th><td>9 - 10 am</td></tr><tr><th scope="row">QiGong&nbsp;</th><td>n/a</td></tr><tr><th scope="row">Aquafit&nbsp;</th><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Kanata Leisure Centre and Wave Pool - all drop-ins - Labour Day</caption><thead><tr><td>&nbsp;</td><th scope="col"><strong>Monday, September 7</strong></th></tr></thead><tbody><tr><th scope="row">Hot tub and sauna</th><td>8 am - 4 pm</td></tr><tr><th scope="row">Lane swim</th><td>8 - 11 am</td></tr><tr><th scope="row">Public swim</th><td>11 am - 1 pm</td></tr><tr><th scope="row">Wave swim</th><td>1 - 4 pm</td></tr><tr><th scope="row">Weight and cardio room</th><td>8 am - 4 pm</td></tr><tr><th scope="row">Strength</th><td>9 - 10 am</td></tr><tr><th scope="row">QiGong&nbsp;</th><td>n/a</td></tr><tr><th scope="row">Aquafit&nbsp;</th><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">

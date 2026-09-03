@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/heron-seniors-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=qKS14ooySHGI9xz0wAiURzQkmWoAAAAAQUIPAAAAAACmmOW74sv+QhmY0BGEjOSd; nlbi_243507=2xV4YO2uBG1u/aI+aXmSIAAAAABLk0Zb7E9pGcnyQDYoaKF1; incap_ses_197_243507=35E+EUEwtzTei5eDuOK7AjQkmWoAAAAAI31srD/8ic7kMmUe+/Hc9g==
+Cookie: visid_incap_243507=yV4CT/kFRSC0wAivj/gHuNm5mWoAAAAAQUIPAAAAAABILSadev9ZSL8nes0/I/G4; nlbi_243507=1AC/CT+igBKyScBMaXmSIAAAAAD3YKn1SrzYQe4HP1AZiHmV; incap_ses_1014_243507=j/c0HVD+vRMfph3FrHMSDtm5mWoAAAAA1xFZE83uXMX83nJXWiilKA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 522
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 03 Sep 2026 07:41:57 GMT
-Etag: "1788421315-gzip"
+Date: Thu, 03 Sep 2026 18:20:42 GMT
+Etag: "1788459117-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 03 Sep 2026 07:41:55 GMT
+Last-Modified: Thu, 03 Sep 2026 18:11:57 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 60-266728497-266728504 SNNy RT(1788421173339 141856) q(0 0 0 -1) r(19 19) U24
-X-Varnish: 242924698
+X-Iinfo: 25-51720448-51716901 SNNy RT(1788459482041 160184) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 2729719759 2725245513
 
-f118
+f1a4
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ f118
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/heron-seniors-centre" />
 <meta name="dcterms.title" content="Heron Seniors Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-08-17" />
+<meta name="dcterms.date" content="2026-09-03" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ f118
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-5f2b848d77f3e5c698d606c28774530ed5164b897509ccd0f823813735d66f5a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-c89e4de21660b30134cf83555e126c6dac692bdc09a380451f74796fb6f58683">
   
     
       
@@ -208,7 +208,7 @@ f118
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-119110e9c8665f555b11b8a1bcc441b5b062ca4598cdd803f4bce1af4497944e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ea1849dd0905e6e948603869ab9bf70b198642187312ef9d2cc1ce2e1a9c75c6">
   
     
       
@@ -299,7 +299,7 @@ f118
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:00 am - 3:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:00 am - 3:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:00 am - 3:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:00 am - 3:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:00 am - 3:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:00 am - 3:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:00 am - 3:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:00 am - 3:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:00 am - 3:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:00 am - 3:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -441,7 +441,7 @@ f118
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Heron Seniors Centre -&nbsp;older adult activities - July 1 to August 28</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Art studio</th><td>8:30 am - 3 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>8:30 am - 3 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Bridge</th><td>n/a</td><td>12:30 - 3:30 pm</td><td>n/a</td><td>12:30 - 3:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Tea and chat&nbsp;</th><td>n/a</td><td>n/a</td><td>9:30 am - noon</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Euchre&nbsp;</th><td>n/a</td><td>n/a</td><td>n/a</td><td>12:30 - 3:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Social games</th><td>12:30 - 3:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Billards and darts</th><td>8:30 am - 3:30 pm</td><td>8:30 am - 3:30 pm</td><td>8:30 am - 3:30 pm</td><td>8:30 am - 3:30 pm</td><td>8:30 am - 3:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Walking club</th><td>n/a</td><td>10 - 11 am</td><td>10 - 11 am</td><td>10 - 11 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Heron Seniors Centre -&nbsp;older adult activities - September 1 to December 31</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Art studio</th><td>8:30 am - 3 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>8:30 am - 3 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Bridge</th><td>n/a</td><td>12:30 - 3:30 pm</td><td>n/a</td><td>12:30 - 3:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Tea and chat&nbsp;</th><td>n/a</td><td>n/a</td><td>9:30 am - noon</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Euchre&nbsp;</th><td>n/a</td><td>n/a</td><td>n/a</td><td>12:30 - 3:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Play Reading</th><td>n/a</td><td>n/a</td><td>10 am - noon</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Social games</th><td>12:30 - 3:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Billards and darts</th><td>8:30 am - 3:30 pm</td><td>8:30 am - 3:30 pm</td><td>8:30 am - 3:30 pm</td><td>8:30 am - 3:30 pm</td><td>8:30 am - 3:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Walking club</th><td>n/a</td><td>10 - 11 am</td><td>10 - 11 am</td><td>10 - 11 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
 

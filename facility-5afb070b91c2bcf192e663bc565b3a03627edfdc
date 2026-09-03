@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=qKS14ooySHGI9xz0wAiURzQkmWoAAAAAQUIPAAAAAACmmOW74sv+QhmY0BGEjOSd; nlbi_243507=2xV4YO2uBG1u/aI+aXmSIAAAAABLk0Zb7E9pGcnyQDYoaKF1; incap_ses_197_243507=35E+EUEwtzTei5eDuOK7AjQkmWoAAAAAI31srD/8ic7kMmUe+/Hc9g==
+Cookie: visid_incap_243507=yV4CT/kFRSC0wAivj/gHuNm5mWoAAAAAQUIPAAAAAABILSadev9ZSL8nes0/I/G4; nlbi_243507=1AC/CT+igBKyScBMaXmSIAAAAAD3YKn1SrzYQe4HP1AZiHmV; incap_ses_1014_243507=j/c0HVD+vRMfph3FrHMSDtm5mWoAAAAA1xFZE83uXMX83nJXWiilKA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 564
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 03 Sep 2026 07:42:56 GMT
-Etag: "1788421372-gzip"
+Date: Thu, 03 Sep 2026 18:21:55 GMT
+Etag: "1788459122-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 03 Sep 2026 07:42:52 GMT
+Last-Modified: Thu, 03 Sep 2026 18:12:02 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Drupal-Cache: MISS
+X-Drupal-Cache: HIT
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 60-266728497-266728504 SNNy RT(1788421173339 199489) q(0 0 0 -1) r(33 33) U24
-X-Varnish: 242924745
+X-Iinfo: 25-51720448-51716901 SNNy RT(1788459482041 233521) q(0 1 1 -1) r(2 2) U24
+X-Varnish: 2728986893 2713761165
 
-119a5
+1248f
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ X-Varnish: 242924745
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/lowertown-community-centre-and-pool" />
 <meta name="dcterms.title" content="Lowertown Community Centre and Pool" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-08-17" />
+<meta name="dcterms.date" content="2026-09-03" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 242924745
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-e4a2f22eb0989980b2ab6ca86d056e53c8f6d5401f11048f39861714e95d6416">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8f4f81044e74f2f1dfc9d4801ac6ff189c5b1f4f6092f1f6bed179e852a8bd99">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 242924745
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-0ed4b6394980ccb7d6135f34c1f1b9352bec3f0f1aaf8532e571e610c1949a39">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-20b907583867cb9fe6e322da2a26e778270efdc835a01000c5bce58b6a494761">
   
     
       
@@ -301,7 +301,7 @@ X-Varnish: 242924745
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 8:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:30 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 8:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -617,10 +617,27 @@ X-Varnish: 242924745
                           
                                                       <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank"><u>Drop-in activities: descriptions, fees, membership, and cancellation information.</u></a>&nbsp;</p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Closure</h3>
 <ul>
 <li>Pool closed for annual maintenance August 17 to September 8.</li>
 </ul></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption><span dir="ltr">Lowertown Community Centre and Pool - swimming - September 8 to December 23</span></caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Lane Swim</th><td>7:30 - 10 am,&nbsp;<br>11 am - 2 pm,&nbsp;<br>8:30 - 10 pm</td><td>11 am - 1 pm,&nbsp;<br>7 - 8 pm</td><td>6:30 - 10 am,&nbsp;<br>11 am - 1 pm,&nbsp;<br>8 - 10 pm</td><td>6:30 - 10 am,&nbsp;<br>11 am - 1 pm,&nbsp;<br>7 - 8 pm</td><td>6:30 - 10 am,&nbsp;<br>11 am - 1 pm,&nbsp;<br>2 - 4 pm</td><td>3 - 4 pm</td><td>3 - 4 pm</td></tr><tr><th scope="row">Public Swim</th><td>n/a</td><td>1 - 2 pm</td><td>6 - 8 pm</td><td>1 - 2 pm</td><td>4 - 7 pm</td><td>Noon - 3 pm&nbsp;<br><strong>Play Free</strong></td><td>Noon - 3 pm</td></tr><tr><th scope="row">50+ Swim</th><td>2 - 3:45 pm</td><td>10 - 11 am,&nbsp;<br>2 - 4 pm</td><td>2 - 4 pm</td><td>10 - 11 am,&nbsp;<br>2 - 4 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">50+ Vitality</th><td>10 - 11 am</td><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>10 - 11 am</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+      </div>
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Play Free&nbsp;</strong></h3>
+<p><a href="https://ottawa.ca/en/recreation-and-parks/special-offers/play-free/play-free-drop-activities" target="_blank"><u>Play Free</u></a>&nbsp;is the City’s lineup of free drop-in activities for children and youth (aged 17 and under) and accompanying adults.</p></div>
       
       </div>
 
@@ -716,7 +733,7 @@ X-Varnish: 242924745
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Lowertown Community Centre and Pool - gymnasium sports - June 29 to August 28</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Basketball&nbsp;</th><td>5 - 8 pm</td><td>n/a</td><td>5 - 6 pm</td><td>5 - 8 pm</td><td>n/a</td><td>12:30 - 2:30 pm<span>&nbsp;</span><br><span><strong>Play Free</strong></span></td><td>Noon - 2 pm</td></tr><tr><th scope="row">Open gym&nbsp;</th><td>8 - 10 pm</td><td>8 - 10 pm</td><td>n/a</td><td>8 - 10 pm</td><td>5 - 6:45 pm</td><td>2:30 - 4:30 pm,&nbsp;<br>7 - 9 pm<span>&nbsp;</span><br><span><strong>Play Free</strong></span></td><td>2 - 5 pm,&nbsp;<br>7:30 - 8:30 pm</td></tr><tr><th scope="row">Open gym - family&nbsp;</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9:30 am - 12:30 pm<span>&nbsp;</span><br><span><strong>Play Free</strong></span></td><td>n/a</td></tr><tr><th scope="row">Pickleball&nbsp;<br>*Reservations required.</th><td>n/a</td><td>5:30 -7:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>5 - 7&nbsp;pm<span>&nbsp;</span><br><span><strong>Play Free</strong></span></td><td>9 am - noon</td></tr><tr><th scope="row">Volleyball</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>5:15 - 7:15 pm</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Lowertown Community Centre and Pool - gymnasium sports - September 8 to December 23</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Basketball</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>12:30 - 2:30 pm<span>&nbsp;</span><br><span><strong>Play Free</strong></span></td><td>n/a</td></tr><tr><th scope="row">Open gym&nbsp;</th><td><span lang="EN-US" dir="ltr">12:30 - 1:30 pm</span></td><td>n/a</td><td>n/a</td><td>n/a</td><td>12:30 -1:30pm,&nbsp;<br>5:30 - 6:30 pm</td><td><span>7:30 - 8:30 pm&nbsp;</span><br><span><strong>Play Free</strong></span></td><td><span lang="EN-US" dir="ltr">4:15 - 6:15 pm</span></td></tr><tr><th scope="row">Open gym - family</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9:30 am - 12:30 pm<span>&nbsp;</span><br><span><strong>Play Free</strong></span></td><td>n/a</td></tr><tr><th scope="row">Pickleball&nbsp;<br>*Reservations required.</th><td><span lang="EN-US" dir="ltr">9 - 11 am</span></td><td><span lang="EN-US" dir="ltr">8:45 - 9:45 am</span></td><td><span lang="EN-US" dir="ltr">8:30 - 10:30 am</span></td><td><span lang="EN-US" dir="ltr">9 - 11 am</span></td><td><span lang="EN-US" dir="ltr">8:30 - 10:30 am</span></td><td><span lang="EN-US" dir="ltr">5:30 - 7:30 pm</span><br><span><strong>Play Free</strong></span></td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
