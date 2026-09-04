@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/glen-cairn-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=kNMvv5+TQ2GAFoAvgw7T6lt1mmoAAAAAQUIPAAAAAAD8RsUMGaWBlbolMGhNyI4u; nlbi_243507=Xys0cG1yM33nzQ2oaXmSIAAAAAC54XrZNOtcqqFCoRehWNOx; incap_ses_187_243507=j3OnAoNpiVtXy6toyFuYAlt1mmoAAAAAbUcG5tL+woQlY/tSOuQvTA==
+Cookie: visid_incap_243507=NSGYrxg4TuKzUKRTgcCGPxIHm2oAAAAAQUIPAAAAAAAzFzOTtzdBsGeIdeikZPTh; nlbi_243507=va4mBD0ANhf7aQs0aXmSIAAAAADL6vc0/Z/F4z9k8lNuzyGl; incap_ses_1018_243507=2dlMFw3agXk87+uPq6kgDhMHm2oAAAAAwCI3BopDGwvP1oEsZ/IXvA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 72
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 04 Sep 2026 07:40:09 GMT
-Etag: "1788507608-gzip"
+Date: Fri, 04 Sep 2026 18:02:15 GMT
+Etag: "1788544861-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 04 Sep 2026 07:40:08 GMT
+Last-Modified: Fri, 04 Sep 2026 18:01:01 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 53-330204668-330204684 SNNy RT(1788507483266 125339) q(0 1 1 -1) r(15 15) U24
-X-Varnish: 262734634
+X-Iinfo: 49-10973686-11011764 SNNy RT(1788544787749 147981) q(0 0 0 -1) r(0 0) U24
+X-Varnish: 2742104647 2730793925
 
-a038
+a035
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ a038
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-10120043f017dd86b1802b889005a6bc937a19ebf75cab1b36a90c852f6852be">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-330ec6fe77da238f995b68bd2fac0e357e3f83122a57796decbcc261cf34799e">
   
     
       
@@ -208,7 +208,7 @@ a038
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-858f9090e26833ac5d5d24b0339e7578fabeab09988a5b281040f75886a05b45">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ea016d8a8a0e2d310c073842362064e2f3b0a4463dbd5d46a406ede817209930">
   
     
       
@@ -850,14 +850,14 @@ a038
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/chalkmark/3765fe0cf7f0cd8fab17b30eec8c730b">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
