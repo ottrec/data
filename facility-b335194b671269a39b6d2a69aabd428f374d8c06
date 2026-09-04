@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=yV4CT/kFRSC0wAivj/gHuNm5mWoAAAAAQUIPAAAAAABILSadev9ZSL8nes0/I/G4; nlbi_243507=1AC/CT+igBKyScBMaXmSIAAAAAD3YKn1SrzYQe4HP1AZiHmV; incap_ses_1014_243507=j/c0HVD+vRMfph3FrHMSDtm5mWoAAAAA1xFZE83uXMX83nJXWiilKA==
+Cookie: visid_incap_243507=kNMvv5+TQ2GAFoAvgw7T6lt1mmoAAAAAQUIPAAAAAAD8RsUMGaWBlbolMGhNyI4u; nlbi_243507=Xys0cG1yM33nzQ2oaXmSIAAAAAC54XrZNOtcqqFCoRehWNOx; incap_ses_187_243507=j3OnAoNpiVtXy6toyFuYAlt1mmoAAAAAbUcG5tL+woQlY/tSOuQvTA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 577
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 03 Sep 2026 18:22:21 GMT
-Etag: "1788459163-gzip"
+Date: Fri, 04 Sep 2026 07:41:38 GMT
+Etag: "1788507698-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 03 Sep 2026 18:12:43 GMT
+Last-Modified: Fri, 04 Sep 2026 07:41:38 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 25-51720448-51716901 SNNy RT(1788459482041 259367) q(0 0 0 -1) r(0 0) U24
-X-Varnish: 228748236 261327375
+X-Iinfo: 53-330204668-330204684 SNNy RT(1788507483266 214745) q(0 0 0 -1) r(8 8) U24
+X-Varnish: 261489587
 
-16025
+16045
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 228748236 261327375
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-0bd1ec513be415ba85f211203d90821fc0a03d5c5bd18d5ace1681d3fead51b2">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9b3739dbb4e95fafc55e774883df8c10a873ffe2f35d574e620a5aed749e7d45">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 228748236 261327375
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8faaa9e77bae4d84458eb163b38422cd5b4dbfdd389c36406a15af173a0fc46e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-154dbd1a5df6f43646384cf7dfcdfed063e8ac84d1efeda387ce37657e2063bc">
   
     
       
@@ -312,7 +312,7 @@ X-Varnish: 228748236 261327375
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">6:45 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:15 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:15 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:15 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:15 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:15 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">7:15 am - 9:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">6:45 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:15 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:15 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:15 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:15 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:15 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">7:15 am - 9:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -640,7 +640,7 @@ X-Varnish: 228748236 261327375
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Minto Recreation Complex Barrhaven - swim and aquafitness - August 31 to December 20</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Lane swim</th><td>7:30 - 8:30 am,&nbsp;<br>9 - 10 pm</td><td>6:30 - 8:30 am,&nbsp;<br>8:45 - 10 pm</td><td>7:30 - 8:30 am,&nbsp;<br>9 - 10 pm</td><td>6:30 - 8:30 am,&nbsp;<br>8:45 - 10 pm</td><td>7:30 - 8:30 am,&nbsp;<br>9 - 10 pm</td><td>n/a</td><td>7 - 9 am,&nbsp;<br>11 am - 1 pm</td></tr><tr><th scope="row">Lane swim - reduced capacity<br>(shared pool)<br>&nbsp;</th><td>8:30 am - 3 pm</td><td>8:30 am - 3 pm</td><td>8:30 am - 3 pm</td><td>8:30 am - 3 pm</td><td>8:30 am - 3 pm</td><td>12:15 - 2:15 pm</td><td>n/a</td></tr><tr><th scope="row">Preschool swim<br>&nbsp;</th><td>1:30 - 3 pm</td><td>1:30 - 3 pm</td><td>1:30 - 3 pm</td><td>1:30 - 3 pm</td><td>1:30 - 3 pm</td><td>12:15 - 2:15 pm&nbsp;<br><span><strong>Play Free</strong></span></td><td>11 am - 1 pm</td></tr><tr><th scope="row">Public swim&nbsp;</th><td>n/a</td><td>6:45 - 8:45 pm</td><td><span dir="ltr">n/a</span></td><td>n/a</td><td><span dir="ltr">7 - 9 pm</span></td><td>2:30 - 5:30 pm,&nbsp;<br>7 - 9 pm&nbsp;<br><span><strong>Play Free</strong></span></td><td>1 - 3 pm</td></tr><tr><th scope="row">Public swim - reduced capacity (shared pool)&nbsp;</th><td>10:30 am - 1:30 pm</td><td>10:30 am - 1:30 pm</td><td>10:30 am - 1:30 pm</td><td>10:30 am - 1:30 pm</td><td>10:30 am - 1:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span><strong>Aquafit Deep/shallow Combo&nbsp;</strong></span><br><strong>*Reservations are required</strong></th><td><span>8:30 - 9:30 am,&nbsp;</span><br><span>9:30 - 10:30 am</span></td><td><span>8:30 - 9:30 am,&nbsp;</span><br><span>9:30 - 10:30 am</span></td><td><span>8:30 - 9:30 am,&nbsp;</span><br><span>9:30 - 10:30 am</span></td><td><span>8:30 - 9:30 am,&nbsp;</span><br><span>9:30 - 10:30 am</span></td><td><span>8:30 - 9:30 am,&nbsp;</span><br><span>9:30 - 10:30 am</span></td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Minto Recreation Complex Barrhaven - swim and aquafitness - August 31 to December 20</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Lane swim</th><td>7:30 - 8:30 am,&nbsp;<br>9 - 10 pm</td><td>6:30 - 8:30 am,&nbsp;<br>8:45 - 10 pm</td><td>7:30 - 8:30 am,&nbsp;<br>9 - 10 pm</td><td>6:30 - 8:30 am,&nbsp;<br>8:45 - 10 pm</td><td>7:30 - 8:30 am,&nbsp;<br>9 - 10 pm</td><td>n/a</td><td>7 - 9 am,&nbsp;<br>11:15 am - 12:45 pm</td></tr><tr><th scope="row">Lane swim - reduced capacity<br>(shared pool)<br>&nbsp;</th><td>8:30 am - 3 pm</td><td>8:30 am - 3 pm</td><td>8:30 am - 3 pm</td><td>8:30 am - 3 pm</td><td>8:30 am - 3 pm</td><td>12:15 - 2:15 pm</td><td>n/a</td></tr><tr><th scope="row">Preschool swim<br>&nbsp;</th><td>1:30 - 3 pm</td><td>1:30 - 3 pm</td><td>1:30 - 3 pm</td><td>1:30 - 3 pm</td><td>1:30 - 3 pm</td><td>12:15 - 2:15 pm&nbsp;<br><span><strong>Play Free</strong></span></td><td>11:15 am - 12:45 pm</td></tr><tr><th scope="row">Public swim&nbsp;</th><td>n/a</td><td>6:45 - 8:45 pm</td><td><span dir="ltr">n/a</span></td><td>n/a</td><td><span dir="ltr">7 - 9 pm</span></td><td>2:30 - 5:30 pm,&nbsp;<br>7 - 9 pm&nbsp;<br><span><strong>Play Free</strong></span></td><td>1 - 3 pm</td></tr><tr><th scope="row">Public swim - reduced capacity (shared pool)&nbsp;</th><td>10:30 am - 1:30 pm</td><td>10:30 am - 1:30 pm</td><td>10:30 am - 1:30 pm</td><td>10:30 am - 1:30 pm</td><td>10:30 am - 1:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span><strong>Aquafit Deep/shallow Combo&nbsp;</strong></span><br><strong>*Reservations are required</strong></th><td><span>8:30 - 9:30 am,&nbsp;</span><br><span>9:30 - 10:30 am</span></td><td><span>8:30 - 9:30 am,&nbsp;</span><br><span>9:30 - 10:30 am</span></td><td><span>8:30 - 9:30 am,&nbsp;</span><br><span>9:30 - 10:30 am</span></td><td><span>8:30 - 9:30 am,&nbsp;</span><br><span>9:30 - 10:30 am</span></td><td><span>8:30 - 9:30 am,&nbsp;</span><br><span>9:30 - 10:30 am</span></td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
@@ -899,7 +899,7 @@ X-Varnish: 228748236 261327375
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Minto Recreation Complex-Barrhaven - group fitness - August 31 to December 20</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Dance</th><td>9:15 -&nbsp;10:15 am</td><td>n/a</td><td>n/a</td><td>10:30 -&nbsp;11:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Strength</th><td>10:30 -&nbsp;11:30 am</td><td>6&nbsp;-&nbsp;7 pm</td><td>n/a</td><td>n/a</td><td>9:30 -&nbsp;10:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yin yoga</th><td>11:45 am -&nbsp;12:45 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">20-20-20</th><td>6 - 7 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">HIIT</th><td>7:15 -&nbsp;8:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>8 -&nbsp;9 am</td><td>n/a</td></tr><tr><th scope="row">Yoga Tune Up®</th><td>n/a</td><td>9:15 - 10:15 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>n/a</td><td>10:30 -&nbsp;11:30 am</td><td>n/a</td><td>9:15 - 10:15 am</td><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Core conditioning</th><td>n/a</td><td>7:15 -&nbsp;8:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9 - 10 am</td></tr><tr><th scope="row">Zumba<sup>®&nbsp;</sup></th><td>4:45 - 5:45 pm</td><td>11:45 am -&nbsp;12:45 pm</td><td>9:15 -&nbsp;10:15 am</td><td>7:15 - 8:15 pm</td><td>n/a</td><td>10:30 -&nbsp;11:30 am</td><td>10:15 -&nbsp;11:15 am</td></tr><tr><th scope="row">Cardio and strength</th><td>n/a</td><td>n/a</td><td>10:30 -&nbsp;11:30 am</td><td>6 -&nbsp;7 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Balance and&nbsp;stability - Heartwise (older adult)</th><td>n/a</td><td>n/a</td><td><p><span>Noon -&nbsp;1 pm</span></p><p>&nbsp;</p></td><td>n/a</td><td>11:35 am - 12:35 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Stretch and strength</th><td>n/a</td><td>n/a</td><td>1:05 - 2:05 pm</td><td>n/a</td><td>10:30 -&nbsp;11:30 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Strength circuit</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>5 -&nbsp;6 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Indoor cycling</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9:15 -&nbsp;10:15 am</td><td>n/a</td></tr><tr><th scope="row">TRX</th><td>n/a</td><td>n/a</td><td>5:30 -&nbsp;6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Drums Fitness</th><td>n/a</td><td>n/a</td><td>6:45 - 7:45 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Minto Recreation Complex-Barrhaven - group fitness - August 31 to December 20</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Dance</th><td>9:15 -&nbsp;10:15 am</td><td>n/a</td><td>n/a</td><td>10:30 -&nbsp;11:30 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Strength</th><td>10:30 -&nbsp;11:30 am</td><td>6&nbsp;-&nbsp;7 pm</td><td>n/a</td><td>11:45 am - 12:45 pm</td><td>9:30 -&nbsp;10:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yin yoga</th><td>11:45 am -&nbsp;12:45 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">20-20-20</th><td>6 - 7 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">HIIT</th><td>7:15 -&nbsp;8:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>8 -&nbsp;9 am</td><td>n/a</td></tr><tr><th scope="row">Yoga Tune Up®</th><td>n/a</td><td>9:15 - 10:15 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>n/a</td><td>10:30 -&nbsp;11:30 am</td><td>n/a</td><td>9:15 - 10:15 am</td><td>6:15 - 7:15 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Core conditioning</th><td>n/a</td><td>7:15 -&nbsp;8:15 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9 - 10 am</td></tr><tr><th scope="row">Zumba<sup>®&nbsp;</sup></th><td>4:45 - 5:45 pm</td><td>11:45 am -&nbsp;12:45 pm</td><td>9:15 -&nbsp;10:15 am</td><td>7:15 - 8:15 pm</td><td>n/a</td><td>10:30 -&nbsp;11:30 am</td><td>10:15 -&nbsp;11:15 am</td></tr><tr><th scope="row">Cardio and strength</th><td>n/a</td><td>n/a</td><td>10:30 -&nbsp;11:30 am</td><td>6 -&nbsp;7 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Balance and&nbsp;stability - Heartwise (older adult)</th><td>n/a</td><td>n/a</td><td><p><span>Noon -&nbsp;1 pm</span></p><p>&nbsp;</p></td><td>n/a</td><td>11:35 am - 12:35 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Stretch and strength</th><td>n/a</td><td>n/a</td><td>1:05 - 2:05 pm</td><td>n/a</td><td>10:30 -&nbsp;11:30 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Strength circuit</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>5 -&nbsp;6 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Indoor cycling</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>9:15 -&nbsp;10:15 am</td><td>n/a</td></tr><tr><th scope="row">TRX</th><td>n/a</td><td>n/a</td><td>5:30 -&nbsp;6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Drums Fitness</th><td>n/a</td><td>n/a</td><td>6:45 - 7:45 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
 

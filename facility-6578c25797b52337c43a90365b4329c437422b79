@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/plant-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=yV4CT/kFRSC0wAivj/gHuNm5mWoAAAAAQUIPAAAAAABILSadev9ZSL8nes0/I/G4; nlbi_243507=1AC/CT+igBKyScBMaXmSIAAAAAD3YKn1SrzYQe4HP1AZiHmV; incap_ses_1014_243507=j/c0HVD+vRMfph3FrHMSDtm5mWoAAAAA1xFZE83uXMX83nJXWiilKA==
+Cookie: visid_incap_243507=kNMvv5+TQ2GAFoAvgw7T6lt1mmoAAAAAQUIPAAAAAAD8RsUMGaWBlbolMGhNyI4u; nlbi_243507=Xys0cG1yM33nzQ2oaXmSIAAAAAC54XrZNOtcqqFCoRehWNOx; incap_ses_187_243507=j3OnAoNpiVtXy6toyFuYAlt1mmoAAAAAbUcG5tL+woQlY/tSOuQvTA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 766
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 03 Sep 2026 18:23:04 GMT
-Etag: "1788459016-gzip"
+Date: Fri, 04 Sep 2026 07:42:20 GMT
+Etag: "1788507739-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 03 Sep 2026 18:10:16 GMT
+Last-Modified: Fri, 04 Sep 2026 07:42:19 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 25-51720448-51716901 SNNy RT(1788459482041 302922) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 264323032 264964019
+X-Iinfo: 53-330204668-330204684 SNNy RT(1788507483266 256182) q(0 0 0 -1) r(9 9) U24
+X-Varnish: 264503276
 
-11e8f
+11e91
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -194,7 +194,7 @@ X-Varnish: 264323032 264964019
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b19cad12f31a09ddadbdc1adbf23c9d12a7cbfa661eb8f0a5f1099af9480c0bc">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-91a079ced16c2f9ddf3962d84c6b2bec7f2a6a09a6cb26a45287ade0ad521119">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 264323032 264964019
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-b734ff29953e8cb24f852fab942f57e9f28bc17255f940f01bfa006a4c1686cb">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-10a84abf5013db47f32f05d142bedc4b511f1f695d64a6de4ac2c20ba56c9137">
   
     
       
@@ -302,7 +302,7 @@ X-Varnish: 264323032 264964019
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:45 am - 9:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:30 am - 5:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -615,7 +615,7 @@ X-Varnish: 264323032 264964019
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Plant Recreation Centre - swim and aquafitness - September 8 to December 20</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Lane swim</th><td>7 - 9 am,&nbsp;<br>11:30 am - 1 pm,&nbsp;<br>3 - 5 pm,&nbsp;<br>8:30 - 9:30 pm&nbsp;</td><td>7 - 9 am,&nbsp;<br>10:30 am - 1 pm,&nbsp;<br>2 - 5 pm,&nbsp;<br>8:30 - 9:30 pm&nbsp;</td><td>7 - 9 am,&nbsp;<br>11:30 am - 1 pm,&nbsp;<br>3 - 5 pm,&nbsp;<br>8:30 - 9:30 pm&nbsp;</td><td><p>10:30 am - 1 pm,&nbsp;<br>3 - 5 pm,&nbsp;<br>8:30 - 9:30 pm</p><p>&nbsp;</p></td><td>7 - 9 am,&nbsp;<br>11:30 am - 1 pm,&nbsp;<br>2 - 6 pm,&nbsp;<br>8 - 9:30 pm&nbsp;</td><td>12 - 1:30 pm,&nbsp;<br>6 - 7 pm&nbsp;<br><strong>Play Free</strong></td><td>Noon - 1:30 pm,&nbsp;<br>4 - 5:30 pm&nbsp;</td></tr><tr><th scope="row">Lane swim - reduced capacity </th><td>9 - 11:30 am,&nbsp;<br>1 - 3 pm</td><td>9 - 10:30 am,&nbsp;<br>1 - 2 pm</td><td>9 - 11:30 am,&nbsp;<br>1 - 2 pm,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>9 - 10:30 am,&nbsp;<br>1 - 3 pm&nbsp;</td><td>9 - 11:30 am,&nbsp;<br>1 - 2 pm&nbsp;</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Public swim </th><td>n/a</td><td>6 - 7:30 pm&nbsp;</td><td>n/a</td><td><p>1 - 2 pm</p><p>&nbsp;</p></td><td><p>1 - 2 pm,&nbsp;<br>6 - 8 pm</p><p>&nbsp;</p></td><td>1:30 - 4 pm&nbsp;<br><strong>Play Free</strong></td><td>1:30 - 4 pm</td></tr><tr><th scope="row">Public swim - leisure pool only </th><td>10:30 am - 1 pm,&nbsp;<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,&nbsp;<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,&nbsp;<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,&nbsp;<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,&nbsp;<br>4 - 6 pm&nbsp;</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Aquafit - General</th><td>9 - 10 am,&nbsp;<br>10 - 11 am,&nbsp;<br>5 - 6 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>10 - 11 am,&nbsp;<br>5 - 6 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>10 -11 am&nbsp;</td><td>9 - 10 am&nbsp;</td><td>10 - 11 am&nbsp;</td></tr><tr><th scope="row"><strong>Hot tub and Steam Room</strong></th><td>7 am - 5 pm,&nbsp;<br>8:30 - 9:30 pm&nbsp;</td><td>7 am - 5 pm,&nbsp;<br>6 - 7:30 pm,&nbsp;<br>8:30 - 9:30 pm</td><td>7 am - 5 pm,&nbsp;<br>7:30 - 9:30 pm&nbsp;</td><td>9 am - 5 pm,&nbsp;<br>8:30 - 9:30 pm&nbsp;</td><td>7 am - 9:30 pm&nbsp;</td><td>Noon - 4 pm,&nbsp;<br>6 - 7 pm&nbsp;</td><td>Noon - 5:30 pm&nbsp;</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Plant Recreation Centre - swim and aquafitness - September 8 to November 29</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Lane swim</th><td>7 - 9 am,&nbsp;<br>11:30 am - 1 pm,&nbsp;<br>3 - 5 pm,&nbsp;<br>8:30 - 9:30 pm&nbsp;</td><td>7 - 9 am,&nbsp;<br>10:30 am - 1 pm,&nbsp;<br>2 - 5 pm,&nbsp;<br>8:30 - 9:30 pm&nbsp;</td><td>7 - 9 am,&nbsp;<br>11:30 am - 1 pm,&nbsp;<br>3 - 5 pm,&nbsp;<br>8:30 - 9:30 pm&nbsp;</td><td><p>10:30 am - 1 pm,&nbsp;<br>3 - 5 pm,&nbsp;<br>8:30 - 9:30 pm</p><p>&nbsp;</p></td><td>7 - 9 am,&nbsp;<br>11:30 am - 1 pm,&nbsp;<br>2 - 6 pm,&nbsp;<br>8 - 9:30 pm&nbsp;</td><td>12 - 1:30 pm,&nbsp;<br>6 - 7 pm&nbsp;<br><strong>Play Free</strong></td><td>Noon - 1:30 pm,&nbsp;<br>4 - 5:30 pm&nbsp;</td></tr><tr><th scope="row">Lane swim - reduced capacity </th><td>9 - 11:30 am,&nbsp;<br>1 - 3 pm</td><td>9 - 10:30 am,&nbsp;<br>1 - 2 pm</td><td>9 - 11:30 am,&nbsp;<br>1 - 3 pm,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>9 - 10:30 am,&nbsp;<br>1 - 3 pm&nbsp;</td><td>9 - 11:30 am,&nbsp;<br>1 - 2 pm&nbsp;</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Public swim </th><td>n/a</td><td>6 - 7:30 pm&nbsp;</td><td>n/a</td><td><p>1 - 2 pm</p><p>&nbsp;</p></td><td><p>1 - 2 pm,&nbsp;<br>6 - 8 pm</p><p>&nbsp;</p></td><td>1:30 - 4 pm&nbsp;<br><strong>Play Free</strong></td><td>1:30 - 4 pm</td></tr><tr><th scope="row">Public swim - leisure pool only </th><td>10:30 am - 1 pm,&nbsp;<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,&nbsp;<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,&nbsp;<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,&nbsp;<br>4 - 5 pm&nbsp;</td><td>10:30 am - 1 pm,&nbsp;<br>4 - 6 pm&nbsp;</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Aquafit - General</th><td>9 - 10 am,&nbsp;<br>10 - 11 am,&nbsp;<br>5 - 6 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>10 - 11 am,&nbsp;<br>5 - 6 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>7:30 - 8:30 pm&nbsp;</td><td>9 - 10 am,&nbsp;<br>10 -11 am&nbsp;</td><td>9 - 10 am&nbsp;</td><td>10 - 11 am&nbsp;</td></tr><tr><th scope="row"><strong>Hot tub and Steam Room</strong></th><td>7 am - 5 pm,&nbsp;<br>8:30 - 9:30 pm&nbsp;</td><td>7 am - 5 pm,&nbsp;<br>6 - 7:30 pm,&nbsp;<br>8:30 - 9:30 pm</td><td>7 am - 5 pm,&nbsp;<br>7:30 - 9:30 pm&nbsp;</td><td>9 am - 5 pm,&nbsp;<br>8:30 - 9:30 pm&nbsp;</td><td>7 am - 9:30 pm&nbsp;</td><td>Noon - 4 pm,&nbsp;<br>6 - 7 pm&nbsp;</td><td>Noon - 5:30 pm&nbsp;</td></tr></tbody></table></div>
       </div>
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
@@ -735,7 +735,7 @@ X-Varnish: 264323032 264964019
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Plant Recreation Centre -&nbsp;weight and cardio room - September 8 to December 20</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Weight and cardio room &nbsp;</th><td>6:45 am - 9:30 pm&nbsp;</td><td>6:45 am -&nbsp;9:30 pm&nbsp;</td><td>6:45 am -&nbsp;9:30 pm&nbsp;</td><td>8:30 am - 9:30 pm&nbsp;</td><td>6:45 am - 9:30 pm&nbsp;</td><td>8 am - 7 pm&nbsp;</td><td>8 am - 5:30 pm&nbsp;</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table dir="ltr"><caption>Plant Recreation Centre -&nbsp;weight and cardio room - September 8 to November 29</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Weight and cardio room &nbsp;</th><td>6:45 am - 9:30 pm&nbsp;</td><td>6:45 am -&nbsp;9:30 pm&nbsp;</td><td>6:45 am -&nbsp;9:30 pm&nbsp;</td><td>8:30 am - 9:30 pm&nbsp;</td><td>6:45 am - 9:30 pm&nbsp;</td><td>8 am - 7 pm&nbsp;</td><td>8 am - 5:30 pm&nbsp;</td></tr></tbody></table></div>
       </div>
       </div>
 
@@ -849,7 +849,7 @@ X-Varnish: 264323032 264964019
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Plant Recreation Centre - group fitness - September 8 to December 20</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Balance and strength</th><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength </th><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Core conditioning </th><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">HIIT </th><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Strength </th><td>n/a</td><td>n/a</td><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>8:45 - 9:45 am&nbsp;</td></tr><tr><th scope="row">Zumba<strong><sup>®</sup></strong> Toning</th><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>n/a</td><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Plant Recreation Centre - group fitness - September 8 to November 29</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Balance and strength</th><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength </th><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Core conditioning </th><td>n/a</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">HIIT </th><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Strength </th><td>n/a</td><td>n/a</td><td>Noon - 1 pm</td><td>Noon - 1 pm</td><td>n/a</td><td>n/a</td><td>8:45 - 9:45 am&nbsp;</td></tr><tr><th scope="row">Zumba<strong><sup>®</sup></strong> Toning</th><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>n/a</td><td>n/a</td><td>n/a</td><td>5:30 - 6:30 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
 
