@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=pyc+Ots6Tg6+lQz+hEtb2TZDpGoAAAAAQUIPAAAAAACA4FbE2+lk915eDZ5xrJEV; nlbi_243507=qDVKIxuckXskLp3jaXmSIAAAAADMw5Mu93js14pEVnJyqoXX; incap_ses_1024_243507=qOOqVORfrxkyLMGmo/o1DjZDpGoAAAAAXTxrSjvtKdw8LF8wbv2CwA==
+Cookie: visid_incap_243507=GjOzF8tcS42NFA12COuF5ecApWoAAAAAQUIPAAAAAABUIQFj6Z3lIEXKWBFp01VL; nlbi_243507=s6HcO1NxrCmUPxY3aXmSIAAAAABnsNH1PRy+du+U0mXk03+c; incap_ses_189_243507=XPZFInl8BDedrMv1znafAucApWoAAAAAaedOAKmUwmouqpqd/82pNA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 34
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 11 Sep 2026 18:13:37 GMT
-Etag: "1789150378-gzip"
+Date: Sat, 12 Sep 2026 07:41:16 GMT
+Etag: "1789198875-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 11 Sep 2026 18:12:58 GMT
+Last-Modified: Sat, 12 Sep 2026 07:41:15 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 43-93084958-93084970 SNNy RT(1789150006625 411311) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 313855154 301902394
+X-Iinfo: 53-236732200-236732214 SNNy RT(1789198567915 307288) q(0 1 1 -1) r(9 9) U24
+X-Varnish: 316988703
 
-13759
+1345c
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ X-Varnish: 313855154 301902394
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/walter-baker-sports-centre" />
 <meta name="dcterms.title" content="Walter Baker Sports Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-09-10" />
+<meta name="dcterms.date" content="2026-09-11" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 313855154 301902394
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-da5f88cf7af90b6972e94981dc5608814bba9164ec5108d59dd786c9349f5c92">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b0d10177872f19b2ac61dfe4031eaa7ac5e058dea8236ddd78501dc2c40b42a8">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 313855154 301902394
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ce36cef034940dee67cbef9eabd2c5b11b65074d32079e64abfd1574901a2207">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-5f3037f56aff9749a78f64a26e35f4eeec356e421be49e6c6970f9f75e23e8fd">
   
     
       
@@ -277,22 +277,7 @@ X-Varnish: 313855154 301902394
               
                                                                                     <div  class="col-md-4 col-sm-12 col-12 layout__region layout__region--main">
                         
-                                                    
-
-
-  
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Notice</h2>
-</div>
-      
-
-
-
-
-  
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><span>The pool lift is out of order until further notice.</span></p></div>
-      
-
-<div class="mb-3">
+                                                    <div class="mb-3">
 
 
 
@@ -300,7 +285,7 @@ X-Varnish: 313855154 301902394
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 8:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -496,12 +481,6 @@ X-Varnish: 313855154 301902394
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/walterbaker" target="_blank" title="Opens in a new window.">Reserve a spot at Walter Baker Sports Centre</a></p></div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><strong>Notice</strong></span></h3>
-<p><span>The pool lift is out of order until further notice.</span></p></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
