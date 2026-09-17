@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=mZcyvTSaRwOKcAbo4QZY2X2iq2oAAAAAQUIPAAAAAAClauEPNmqgkopVrP9/LWIQ; nlbi_243507=G9nSFZaNeUmsAd96aXmSIAAAAAAnbE51WbzSyQOREh2Nap7d; incap_ses_1021_243507=c5FnF52Jb1UaiHmWHlIrDn2iq2oAAAAA/ne2g+coynxs7reffhXY4Q==
+Cookie: visid_incap_243507=FlVrLaBsTlC1DPI+ODYM5DM1rGoAAAAAQUIPAAAAAAD5gAnhwN22H7OO82lualwE; nlbi_243507=MsS2A4gF5EGK6k5zaXmSIAAAAACc+x7Sc5L6D2Bjya+rTbkO; incap_ses_175_243507=R+B+AaGwIGwf0SJX3bltAjM1rGoAAAAAZFUTCPzBTf1qudOWOUShvA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,17 +8,17 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 67
+Age: 263
 Cache-Control: max-age=2764800, public
 Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 17 Sep 2026 08:20:47 GMT
-Etag: "1789633180-gzip"
+Date: Thu, 17 Sep 2026 18:46:45 GMT
+Etag: "1789670541-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 17 Sep 2026 08:19:40 GMT
+Last-Modified: Thu, 17 Sep 2026 18:42:21 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
@@ -28,10 +28,10 @@ X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 51-261884154-261884161 SNNy RT(1789633149345 98402) q(0 0 0 -1) r(1 1) U24
-X-Varnish: 363182941 341374083
+X-Iinfo: 49-274479965-274479990 SNNy RT(1789670708344 97227) q(0 1 1 -1) r(2 2) U24
+X-Varnish: 363727703 362730513
 
-11dc6
+11f63
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ X-Varnish: 363182941 341374083
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/francois-dupuis-recreation-centre" />
 <meta name="dcterms.title" content="François Dupuis Recreation Centre" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-09-15" />
+<meta name="dcterms.date" content="2026-09-17" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 363182941 341374083
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-ed90fd75b15c56ed4ae51a7bd78a89bfb9fef7294cae0bec71cb5b8fdac026c8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9db20a0ed6b256c1caf58b88c175046219b570be4a313f53c73f44bce7065056">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 363182941 341374083
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-22a2e128bb8e33710f9c4b81ce0daed5628b68be92f15f11117bcbd3c96dd4b7">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bb90285def5d5bc848b52a3af268ea646b6ff7d9e205f99e03ad4a559c76bb0c">
   
     
       
@@ -280,7 +280,7 @@ X-Varnish: 363182941 341374083
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Schedule change</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Notice</h2>
 </div>
       
 
@@ -288,7 +288,9 @@ X-Varnish: 363182941 341374083
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>The sauna is cooler than usual.</strong></p>
+<h3>Schedule change</h3>
+<ul>
 <li><strong>Friday, September 18</strong>
 <ul>
 <li>Lane swim, 2:30 to 3:30 pm, <strong>cancelled</strong></li>
@@ -316,7 +318,7 @@ X-Varnish: 363182941 341374083
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:00 am - 9:15 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 5:30 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -505,6 +507,12 @@ X-Varnish: 363182941 341374083
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p>The schedules listed in the charts below are subject to change.&nbsp;Holiday hours and programs may vary.</p>
 <p><span><span><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities">Drop-in activities: descriptions, fees, membership, and cancellation information.</a></span></span></p>
 <p><strong>Reservations not required.</strong></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Notice</strong></h3>
+<p><strong>The sauna is cooler than usual.</strong></p></div>
       
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
@@ -1384,7 +1392,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TtsOwiAM_SE2XvwfUliD1bISKG7z68VojPjgy8m5tD31Ilq1QD5Z_6HTpU4MilUN7sq0Xu1SWgae39JEkcjoFKKNHX71DBfYRzMZhvthn2BENYDTMya0_mDYmHrVtxuEGXLtyxL7jSF7PuAoyFoH-8XDGdSL_iZtnzdaIo5BDaX3YBlNUqSUi9xwghX4UArVZMktu9rKDQ_7LXqyYfHkMHlc7KCmwISr_h9pVSXRHcsDjyGbww"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=48&cb=164749184" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=48&cb=2028228161" async></script></body>
 </html>
 
 

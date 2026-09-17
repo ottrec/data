@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/nepean-sportsplex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=mZcyvTSaRwOKcAbo4QZY2X2iq2oAAAAAQUIPAAAAAAClauEPNmqgkopVrP9/LWIQ; nlbi_243507=G9nSFZaNeUmsAd96aXmSIAAAAAAnbE51WbzSyQOREh2Nap7d; incap_ses_1021_243507=c5FnF52Jb1UaiHmWHlIrDn2iq2oAAAAA/ne2g+coynxs7reffhXY4Q==
+Cookie: visid_incap_243507=FlVrLaBsTlC1DPI+ODYM5DM1rGoAAAAAQUIPAAAAAAD5gAnhwN22H7OO82lualwE; nlbi_243507=MsS2A4gF5EGK6k5zaXmSIAAAAACc+x7Sc5L6D2Bjya+rTbkO; incap_ses_175_243507=R+B+AaGwIGwf0SJX3bltAjM1rGoAAAAAZFUTCPzBTf1qudOWOUShvA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,30 +8,30 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 428
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 17 Sep 2026 08:22:27 GMT
-Etag: "1789633347-gzip"
+Date: Thu, 17 Sep 2026 18:48:26 GMT
+Etag: "1789670476-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 17 Sep 2026 08:22:27 GMT
+Last-Modified: Thu, 17 Sep 2026 18:41:16 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
-Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-n4bhz (Varnish/7.6)
+Via: 1.1 coo-prod-ottca-httpcache-kube-httpcache-c849cdf45-xpfmh (Varnish/7.6)
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
 X-Drupal-Cache: MISS
 X-Drupal-Dynamic-Cache: MISS
 X-Generator: Drupal 10 (https://www.drupal.org)
-X-Iinfo: 51-261884154-261884161 SNNy RT(1789633149345 197994) q(0 0 0 -1) r(6 6) U24
-X-Varnish: 2827210301
+X-Iinfo: 49-274479965-274479990 SNNy RT(1789670708344 198110) q(0 0 0 -1) r(2 2) U24
+X-Varnish: 363287167 363727319
 
-274fd
+2717c
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -42,7 +42,7 @@ X-Varnish: 2827210301
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nepean-sportsplex" />
 <meta name="dcterms.title" content="Nepean Sportsplex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-09-10" />
+<meta name="dcterms.date" content="2026-09-17" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -194,7 +194,7 @@ X-Varnish: 2827210301
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f6ed40acdf21f8d0d2251c80d9cbbbda3de14ae4e88b801572dfb957a92bab8e">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9fb0e91ff2d073aeee19060a602ff8da8f9a105d5915987a09ca9b53d1b85824">
   
     
       
@@ -208,7 +208,7 @@ X-Varnish: 2827210301
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8ca5b076f09810ef9a5c8176784ba22bfeb8f09d34b1a222cee0102d7988d269">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ef21b87d59a3f5a1d181b394abffd28d55c96932c35558975f5715b5faa6894a">
   
     
       
@@ -282,7 +282,7 @@ X-Varnish: 2827210301
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Closure</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Notice</h2>
 </div>
       
 
@@ -290,17 +290,7 @@ X-Varnish: 2827210301
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><span dir="ltr"><strong>August 15 to September 13</strong></span>
-<ul>
-<li><span dir="ltr">The pools are closed for annual maintenance.</span></li>
-</ul>
-</li>
-</ul>
-<h3><strong>Notice</strong></h3>
-<ul>
-<li>The saunas are closed until further notice.</li>
-</ul></div>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>The saunas are closed until further notice.</p></div>
       
 
 <div class="mb-3">
@@ -311,7 +301,7 @@ X-Varnish: 2827210301
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 7:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 5:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:30 am - 8:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 7:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -330,11 +320,6 @@ X-Varnish: 2827210301
 
   
             <div class="clearfix text-formatted field field--name-field-special-hours-details-belo field--type-text-long field--label-hidden field__item"><h3>Aquatics Centre</h3>
-<h4><span>Modified hours - from August 15 to September 13</span></h4>
-<ul type="disc">
-<li>Monday to Friday, 8:30 am to 5:30 pm</li>
-<li>Saturday and Sunday, closed</li>
-</ul>
 <h4><span>Regular hours</span></h4>
 <ul>
 <li>Monday to Thursday, 6:30 am to 9:30 pm</li>
@@ -540,18 +525,6 @@ X-Varnish: 2827210301
 <p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
 <p>The therapeutic whirlpool is open during lane swims and public swims.</p>
 <p><strong>Reservations not required.</strong></p></div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span><strong>Closure</strong></span></h3>
-<ul>
-<li><span><strong>August 15 to September 13</strong></span>
-<ul>
-<li><span lang="EN-CA" dir="ltr">The pools are closed for annual maintenance.</span><span>&nbsp;</span></li>
-</ul>
-</li>
-</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
