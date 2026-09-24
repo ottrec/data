@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=NUlBv6dmTsCjw3z6YYrY+6getGoAAAAAQUIPAAAAAACgvwG3A1KpTv3PYAXl4L9Q; nlbi_243507=PmeYXxYBKUDb9UdaaXmSIAAAAAAWlTxwfvWJI4j7EwzetiQy; incap_ses_175_243507=rgEhFFnjnS9+682J37ltAqketGoAAAAAnPw5Pln4F0jvvlDs4QrxfA==
+Cookie: visid_incap_243507=ARov3osVROKrSGXl04DHjVXZtGoAAAAAQUIPAAAAAADgD5uBaIZxSRsRypNh4AjR; nlbi_243507=38MMHwFFV21Sfdx9aXmSIAAAAACByODTCadRWs2XyqlTHvdG; incap_ses_187_243507=SrkZNvXYrW+qcdLuzFuYAlXZtGoAAAAAIj9+BDMalmki2DRMQ3aHVQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,25 +8,25 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 123
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 23 Sep 2026 18:47:41 GMT
-Etag: "1790189137-gzip"
+Date: Thu, 24 Sep 2026 08:04:09 GMT
+Etag: "1790237048-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 23 Sep 2026 18:45:37 GMT
+Last-Modified: Thu, 24 Sep 2026 08:04:08 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 49-83122061-83122090 SNNy RT(1790189225373 36287) q(0 0 0 -1) r(1 1) U24
+X-Iinfo: 51-85433485-85433489 SNNy RT(1790237013324 35518) q(0 1 1 -1) r(7 7) U24
 
-13598
+13287
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -37,7 +37,7 @@ X-Iinfo: 49-83122061-83122090 SNNy RT(1790189225373 36287) q(0 0 0 -1) r(1 1) U2
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans" />
 <meta name="dcterms.title" content="Bob MacQuarrie Recreation Complex - Orléans" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-09-21" />
+<meta name="dcterms.date" content="2026-09-23" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -189,7 +189,7 @@ X-Iinfo: 49-83122061-83122090 SNNy RT(1790189225373 36287) q(0 0 0 -1) r(1 1) U2
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b7719502b936adb0b8583384d5e1ca86a07fc268551d886298c20583b5b747d1">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-8cab5622614ef9c5c3ea3f830eff3910e5001a5ad0d7262f34d7b4beb7fb1453">
   
     
       
@@ -203,7 +203,7 @@ X-Iinfo: 49-83122061-83122090 SNNy RT(1790189225373 36287) q(0 0 0 -1) r(1 1) U2
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-bcf77ad1eb05eb3d5631122826a40be440ba7bfeb03c276cf52b95d4d694124f">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-c81427ee31c3a04b52adac203017363b48a99f1a48f4abc8319d2487162e74cb">
   
     
       
@@ -276,7 +276,7 @@ X-Iinfo: 49-83122061-83122090 SNNy RT(1790189225373 36287) q(0 0 0 -1) r(1 1) U2
 
 
   
-            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Notice</h2>
+            <div class="field field--name-field-special-hours field--type-string field--label-hidden field__item"><h2  class="h3">Closure</h2>
 </div>
       
 
@@ -284,16 +284,8 @@ X-Iinfo: 49-83122061-83122090 SNNy RT(1790189225373 36287) q(0 0 0 -1) r(1 1) U2
 
 
   
-            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p>Squash court 3 is closed until further notice.</p>
-<h3>Schedule changes</h3>
-<ul>
-<li><span dir="ltr"><strong>September 14 to October 5</strong></span>
-<ul>
-<li><span>Squash and racquetball courts are closed and all drop-ins cancelled.</span></li>
-<li><span>Indoor cycling, all drop-ins cancelled.</span></li>
-</ul>
-</li>
-</ul></div>
+            <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><p><strong>September 14 to 27</strong><span>, squash and racquetball courts are closed.</span></p>
+<p><strong>Squash court 3 is closed until further notice.</strong></p></div>
       
 
 <div class="mb-3">
@@ -304,7 +296,7 @@ X-Iinfo: 49-83122061-83122090 SNNy RT(1790189225373 36287) q(0 0 0 -1) r(1 1) U2
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">6:00 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">8:00 am - 6:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -712,15 +704,9 @@ X-Iinfo: 49-83122061-83122090 SNNy RT(1790189225373 36287) q(0 0 0 -1) r(1 1) U2
 <p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/bobmacquarrie">Reserve a spot for indoor cycling</a></p></div>
       
       </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
-<p><strong>September 14 to October 5</strong>, all indoor cycling cancelled.</p></div>
-      
-      </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Bob MacQuarrie Recreation Complex - Orléans - group fitness - July 2 to October 3</caption><thead><tr><th scope="col">&nbsp;</th><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Pilates</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>Noon - 12:55 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength</th><td>10:30 - 11:25 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength 50+</th><td>Noon - 12:55 pm</td><td>n/a</td><td>Noon - 12:55 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Core conditioning</th><td>9:15 - 10:10 am</td><td>10:30 - 11:25 am</td><td>9:15 - 10:10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>10:15 - 11:10 am</td></tr><tr><th scope="row">Zumba®</th><td>n/a</td><td>6:45 - 7:40 pm</td><td>n/a</td><td>9:15 - 10:10 am,<br>6:45 - 7:40 pm</td><td>n/a</td><td>n/a</td><td>9 - 9:55 am</td></tr><tr><th scope="row">Indoor cycling<br>*Reservations required</th><td>8:30 - 9:25 am</td><td>6:30 - 7:25 am</td><td>8:30 - 9:25 am</td><td>6:30 - 7:25 am</td><td>8:30 - 9:25 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>n/a</td><td>n/a</td><td>n/a</td><td>10:30 - 11:25 am</td><td>10:30 - 11:25 am</td><td>9 - 9:55 am</td><td>n/a</td></tr><tr><th scope="row">HIIT</th><td>n/a</td><td>n/a</td><td>10:30 - 11:25 am,<br>4:30 - 5:25 pm</td><td>n/a</td><td>9:15 - 10:10 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span><strong>Step and Strength</strong></span></th><td>n/a</td><td>4:30 - 5:25 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Strength</th><td>4:30 - 5:25 pm,<br>6:45 - 7:40 pm</td><td>9:15 - 10:10 am</td><td>6:45 - 7:40 pm</td><td>n/a</td><td>4:30 - 5:25 pm</td><td>10:15 - 11:10 am</td><td>n/a</td></tr><tr><th scope="row">20/20/20</th><td>n/a</td><td>n/a</td><td>n/a</td><td>4:30 - 5:25 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Bob MacQuarrie Recreation Complex - Orléans - group fitness - September 28 to October 18</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Pilates</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>Noon - 12:55 pm</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength</th><td>10:30 - 11:25 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Cardio and strength 50+</th><td>Noon - 12:55 pm</td><td>n/a</td><td>Noon - 12:55 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Core conditioning</th><td>n/a</td><td>n/a</td><td>9:15 - 10:10 am</td><td>n/a</td><td>n/a</td><td>n/a</td><td>10:15 - 11:10 am</td></tr><tr><th scope="row">Zumba®</th><td>n/a</td><td>6:45 - 7:40 pm</td><td>n/a</td><td>9:15 - 10:10 am,<br>6:45 - 7:40 pm</td><td>n/a</td><td>n/a</td><td>9 - 9:55 am</td></tr><tr><th scope="row">Indoor cycling<br>*Reservations required</th><td>8:30 - 9:25 am</td><td>6:30 - 7:25 am</td><td>8:30 - 9:25 am</td><td>6:30 - 7:25 am</td><td>8:30 - 9:25 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Yoga</th><td>9:15 - 10:10 am</td><td>10:30 - 11:25 am</td><td>n/a</td><td>10:30 - 11:25 am</td><td>10:30 - 11:25 am</td><td>9 - 9:55 am</td><td>n/a</td></tr><tr><th scope="row">HIIT</th><td>n/a</td><td>n/a</td><td>10:30 - 11:25 am,<br>4:30 - 5:25 pm</td><td>n/a</td><td>9:15 - 10:10 am</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span><strong>Step and Strength</strong></span></th><td>n/a</td><td>4:30 - 5:25 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Strength</th><td>4:30 - 5:25 pm,<br>6:45 - 7:40 pm</td><td>9:15 - 10:10 am</td><td>6:45 - 7:40 pm</td><td>n/a</td><td>4:30 - 5:25 pm</td><td>10:15 - 11:10 am</td><td>n/a</td></tr><tr><th scope="row">20/20/20</th><td>n/a</td><td>n/a</td><td>n/a</td><td>4:30 - 5:25 pm</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
       </div>
       </div>
 
@@ -812,14 +798,9 @@ X-Iinfo: 49-83122061-83122090 SNNy RT(1790189225373 36287) q(0 0 0 -1) r(1 1) U2
       </div>
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><strong>Notice</strong></h3>
-<p>Squash court 3 is closed until further notice.</p></div>
-      
-      </div>
-  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
-          
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Closure</h3>
-<p><strong>September 14 to October 5</strong>, <span>squash and racquetball courts are closed.</span></p></div>
+<p><strong>September 14 to 27</strong>, <span>squash and racquetball courts are closed.</span></p>
+<p><span><strong>Squash court 3 is closed until further notice.</strong></span></p></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -1635,7 +1616,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TtsOwiAM_SE2XvwfUliD1bISKG7z68VojPjgy8m5tD31Ilq1QD5Z_6HTpU4MilUN7sq0Xu1SWgae39JEkcjoFKKNHX71DBfYRzMZhvthn2BENYDTMya0_mDYmHrVtxuEGXLtyxL7jSF7PuAoyFoH-8XDGdSL_iZtnzdaIo5BDaX3YBlNUqSUi9xwghX4UArVZMktu9rKDQ_7LXqyYfHkMHlc7KCmwISr_h9pVSXRHcsDjyGbww"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=2013353641" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1744754317" async></script></body>
 </html>
 
 
