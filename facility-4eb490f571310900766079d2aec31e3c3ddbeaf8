@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/jack-purcell-community-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=ARov3osVROKrSGXl04DHjVXZtGoAAAAAQUIPAAAAAADgD5uBaIZxSRsRypNh4AjR; nlbi_243507=38MMHwFFV21Sfdx9aXmSIAAAAACByODTCadRWs2XyqlTHvdG; incap_ses_187_243507=SrkZNvXYrW+qcdLuzFuYAlXZtGoAAAAAIj9+BDMalmki2DRMQ3aHVQ==
+Cookie: visid_incap_243507=wZyANua+Rj+SmprJCxlmCE9wtWoAAAAAQUIPAAAAAACEKyI/hhIjyxORDo3wfMMT; nlbi_243507=EGVYcR4nBw2liVVyaXmSIAAAAAArxlgZWZlRSYdPkJM5FAvb; incap_ses_188_243507=ol+vTF4S50lAlS3lTembAk9wtWoAAAAAX8x/HFhThywuQLz9Yeja2w==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,25 +8,25 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 218
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 24 Sep 2026 08:05:48 GMT
-Etag: "1790237066-gzip"
+Date: Thu, 24 Sep 2026 18:50:40 GMT
+Etag: "1790275618-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 24 Sep 2026 08:04:26 GMT
+Last-Modified: Thu, 24 Sep 2026 18:46:58 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 51-85433485-85433489 SNNy RT(1790237013324 135274) q(0 0 0 -1) r(1 1) U24
+X-Iinfo: 29-6014375-6014379 SNNy RT(1790275663659 177132) q(0 0 0 -1) r(1 1) U24
 
-d834
+d832
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -189,7 +189,7 @@ d834
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3f9d745a37731a5c1ee80abcf08b7e9b13e67f6e4e9e8f8381e0e3fd783f779a">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-88cce399dfce9665dea563297e3c5d87f1f068bd5f7315a3a7cda17a86ad0338">
   
     
       
@@ -203,7 +203,7 @@ d834
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-8294eb521a21b515a67cbe27939cb7a091b9e69a1574cd6b6be8690e4bf30bc4">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-217b2f066aa4e94910369e713010afbd0df5b53ba4226f40dd06b92a32960913">
   
     
       
@@ -1063,14 +1063,14 @@ d834
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/852fcde0ad5f3909d76cb506971f59c5">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

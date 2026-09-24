@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/richcraft-recreation-complex-kanata HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=ARov3osVROKrSGXl04DHjVXZtGoAAAAAQUIPAAAAAADgD5uBaIZxSRsRypNh4AjR; nlbi_243507=38MMHwFFV21Sfdx9aXmSIAAAAACByODTCadRWs2XyqlTHvdG; incap_ses_187_243507=SrkZNvXYrW+qcdLuzFuYAlXZtGoAAAAAIj9+BDMalmki2DRMQ3aHVQ==
+Cookie: visid_incap_243507=wZyANua+Rj+SmprJCxlmCE9wtWoAAAAAQUIPAAAAAACEKyI/hhIjyxORDo3wfMMT; nlbi_243507=EGVYcR4nBw2liVVyaXmSIAAAAAArxlgZWZlRSYdPkJM5FAvb; incap_ses_188_243507=ol+vTF4S50lAlS3lTembAk9wtWoAAAAAX8x/HFhThywuQLz9Yeja2w==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,25 +8,25 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 551
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Thu, 24 Sep 2026 08:07:28 GMT
-Etag: "1790237235-gzip"
+Date: Thu, 24 Sep 2026 18:52:42 GMT
+Etag: "1790275407-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Thu, 24 Sep 2026 08:07:15 GMT
+Last-Modified: Thu, 24 Sep 2026 18:43:27 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 51-85433485-85433489 SNNy RT(1790237013324 234667) q(0 1 1 -1) r(2 2) U24
+X-Iinfo: 29-6014375-6014379 SNNy RT(1790275663659 298525) q(0 0 0 -1) r(1 1) U24
 
-12aa8
+12aa6
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -189,7 +189,7 @@ X-Iinfo: 51-85433485-85433489 SNNy RT(1790237013324 234667) q(0 1 1 -1) r(2 2) U
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b2e6df178a5e018cfd99dcfb787e3cbdd7986f8de2d8e45fb10ede330e8934e0">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-74ee364e1a1de99fa9c0f883543cd215984d5e248012cb55acd37286771a3500">
   
     
       
@@ -203,7 +203,7 @@ X-Iinfo: 51-85433485-85433489 SNNy RT(1790237013324 234667) q(0 1 1 -1) r(2 2) U
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-7871149793213471fa56b424b721481c523d1089dc82b58ab4f7e2f6bf6f3b5e">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a9da9ebb09124e655a57e3bcdb7f3f907ff81f082468e60501c936832f7de73b">
   
     
       
@@ -1359,14 +1359,14 @@ X-Iinfo: 51-85433485-85433489 SNNy RT(1790237013324 234667) q(0 1 1 -1) r(2 2) U
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/852fcde0ad5f3909d76cb506971f59c5">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
