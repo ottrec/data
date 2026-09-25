@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/pinecrest-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=N/r/HDR+SIi3pdDvIlDlh4owtmoAAAAAQUIPAAAAAABVYRQWmf7mT/jpfbFQ6tXj; nlbi_243507=UmEyM+yoOzGUtB6taXmSIAAAAACne/4EgFlQVYsik+u15wbM; incap_ses_1024_243507=zqybXWYb5n2+32H8pfo1DoowtmoAAAAA3KOBl4luuYhzE9DricHB2w==
+Cookie: visid_incap_243507=p3KE8SocRCa3nqjYCrI6IAXGtmoAAAAAQUIPAAAAAABRWB6J0zOM75PutiLf3EWn; nlbi_243507=xutxH40wskw56YDKaXmSIAAAAABVHWTWRfH0GVUtwm0yHgnL; incap_ses_79_243507=K+LOWgiiAQ5mKOvGb6oYAQXGtmoAAAAAAhp6wWWpNhqvncvXgs3zdQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,23 +8,23 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 534
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 25 Sep 2026 08:31:45 GMT
-Etag: "1790325105-gzip"
+Date: Fri, 25 Sep 2026 19:09:31 GMT
+Etag: "1790362835-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 25 Sep 2026 08:31:45 GMT
+Last-Modified: Fri, 25 Sep 2026 19:00:35 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 44-92728422-92724560 SNNy RT(1790324875635 229358) q(0 0 0 -1) r(5 5) U24
+X-Iinfo: 40-65879883-65879888 SNNy RT(1790363142071 228881) q(0 1 1 -1) r(2 2) U24
 
 11e92
 
@@ -189,7 +189,7 @@ X-Iinfo: 44-92728422-92724560 SNNy RT(1790324875635 229358) q(0 0 0 -1) r(5 5) U
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-aad8f920ab57a6ee4ce2e2e5e0f347cea47f703876ffd63aab145e035eba2dd8">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-3fe2c6dc1baddcac3fbef814d8f3db37c27bf1be447eeb2247bcd37b952f5d93">
   
     
       
@@ -203,7 +203,7 @@ X-Iinfo: 44-92728422-92724560 SNNy RT(1790324875635 229358) q(0 0 0 -1) r(5 5) U
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cc072886ac30b9278658c0121927d1067a06971308aa72506082a23e276fc2d8">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-917746e134c817ef9e6cec5d0e2f6b2dc6f29b122a32197fa6830e597c069626">
   
     
       
@@ -300,7 +300,7 @@ X-Iinfo: 44-92728422-92724560 SNNy RT(1790324875635 229358) q(0 0 0 -1) r(5 5) U
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">7:30 am - 3:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">6:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">7:30 am - 9:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">7:30 am - 3:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -1381,14 +1381,14 @@ X-Iinfo: 44-92728422-92724560 SNNy RT(1790324875635 229358) q(0 0 0 -1) r(5 5) U
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/917255408e5bdc9a581e02fdfa6e36e5">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

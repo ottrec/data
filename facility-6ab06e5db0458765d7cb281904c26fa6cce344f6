@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/sawmill-creek-community-centre-and-pool HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=N/r/HDR+SIi3pdDvIlDlh4owtmoAAAAAQUIPAAAAAABVYRQWmf7mT/jpfbFQ6tXj; nlbi_243507=UmEyM+yoOzGUtB6taXmSIAAAAACne/4EgFlQVYsik+u15wbM; incap_ses_1024_243507=zqybXWYb5n2+32H8pfo1DoowtmoAAAAA3KOBl4luuYhzE9DricHB2w==
+Cookie: visid_incap_243507=p3KE8SocRCa3nqjYCrI6IAXGtmoAAAAAQUIPAAAAAABRWB6J0zOM75PutiLf3EWn; nlbi_243507=xutxH40wskw56YDKaXmSIAAAAABVHWTWRfH0GVUtwm0yHgnL; incap_ses_79_243507=K+LOWgiiAQ5mKOvGb6oYAQXGtmoAAAAAAhp6wWWpNhqvncvXgs3zdQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,25 +8,25 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 39
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 25 Sep 2026 08:32:16 GMT
-Etag: "1790325135-gzip"
+Date: Fri, 25 Sep 2026 19:10:01 GMT
+Etag: "1790363360-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 25 Sep 2026 08:32:15 GMT
+Last-Modified: Fri, 25 Sep 2026 19:09:20 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 44-92728422-92724560 SNNy RT(1790324875635 259858) q(0 0 0 -1) r(7 7) U24
+X-Iinfo: 40-65879883-65879888 SNNy RT(1790363142071 258871) q(0 1 1 -1) r(2 2) U24
 
-fa65
+fa67
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -189,7 +189,7 @@ fa65
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-7c6acd75cb264d9d809ed28815578cce7e5204b3f39ba7c21b46ef5edb79b802">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-008bf9731a8279ca3fde67ea7b8e63831c7dba288ff79a98a2d6cb02df4f897d">
   
     
       
@@ -203,7 +203,7 @@ fa65
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-98c0b73266439270e2000d41680f155df173d54e88274c20d46d631c143e6502">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-192cd15f18a1a0db4d65eb6ccd8d3fe84b08018cfd1a2b59f439412a0cdd798b">
   
     
       
@@ -1163,14 +1163,14 @@ fa65
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/917255408e5bdc9a581e02fdfa6e36e5">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/ken-ross-park-field-house HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=N/r/HDR+SIi3pdDvIlDlh4owtmoAAAAAQUIPAAAAAABVYRQWmf7mT/jpfbFQ6tXj; nlbi_243507=UmEyM+yoOzGUtB6taXmSIAAAAACne/4EgFlQVYsik+u15wbM; incap_ses_1024_243507=zqybXWYb5n2+32H8pfo1DoowtmoAAAAA3KOBl4luuYhzE9DricHB2w==
+Cookie: visid_incap_243507=p3KE8SocRCa3nqjYCrI6IAXGtmoAAAAAQUIPAAAAAABRWB6J0zOM75PutiLf3EWn; nlbi_243507=xutxH40wskw56YDKaXmSIAAAAABVHWTWRfH0GVUtwm0yHgnL; incap_ses_79_243507=K+LOWgiiAQ5mKOvGb6oYAQXGtmoAAAAAAhp6wWWpNhqvncvXgs3zdQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,25 +8,25 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 467
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 25 Sep 2026 08:30:37 GMT
-Etag: "1790325036-gzip"
+Date: Fri, 25 Sep 2026 19:08:22 GMT
+Etag: "1790362832-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 25 Sep 2026 08:30:36 GMT
+Last-Modified: Fri, 25 Sep 2026 19:00:32 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 44-92728422-92724560 SNNy RT(1790324875635 160330) q(0 0 0 -1) r(17 17) U24
+X-Iinfo: 40-65879883-65879888 SNNy RT(1790363142071 160030) q(0 0 0 -1) r(1 1) U24
 
-a138
+a13a
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -189,7 +189,7 @@ a138
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-43d6984d4eb01ddbdda3605bc04806a5444e122085a77f85952bf6b4821b33f6">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-49c64adb950fbb1e5f0ae0ce4bf0269c4adaf94d27a331be98ea2b165fa16c50">
   
     
       
@@ -203,7 +203,7 @@ a138
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-02384fada280ada34184adb3184c9cfcfb8e785b6354320d9537944d637e2528">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d668d3b8e1985959f8b214fdf34eef51eed28c8d785af27c9fd8203bc0be0e2a">
   
     
       
@@ -838,14 +838,14 @@ a138
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/917255408e5bdc9a581e02fdfa6e36e5">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>

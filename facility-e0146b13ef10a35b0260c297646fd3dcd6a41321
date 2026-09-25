@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/metcalfe-community-centre-and-larry-robinson-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=N/r/HDR+SIi3pdDvIlDlh4owtmoAAAAAQUIPAAAAAABVYRQWmf7mT/jpfbFQ6tXj; nlbi_243507=UmEyM+yoOzGUtB6taXmSIAAAAACne/4EgFlQVYsik+u15wbM; incap_ses_1024_243507=zqybXWYb5n2+32H8pfo1DoowtmoAAAAA3KOBl4luuYhzE9DricHB2w==
+Cookie: visid_incap_243507=p3KE8SocRCa3nqjYCrI6IAXGtmoAAAAAQUIPAAAAAABRWB6J0zOM75PutiLf3EWn; nlbi_243507=xutxH40wskw56YDKaXmSIAAAAABVHWTWRfH0GVUtwm0yHgnL; incap_ses_79_243507=K+LOWgiiAQ5mKOvGb6oYAQXGtmoAAAAAAhp6wWWpNhqvncvXgs3zdQ==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,25 +8,25 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 203
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 25 Sep 2026 08:31:09 GMT
-Etag: "1790325066-gzip"
+Date: Fri, 25 Sep 2026 19:08:53 GMT
+Etag: "1790363127-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 25 Sep 2026 08:31:06 GMT
+Last-Modified: Fri, 25 Sep 2026 19:05:27 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 44-92728422-92724560 SNNy RT(1790324875635 190622) q(0 1 1 -1) r(30 30) U24
+X-Iinfo: 40-65879883-65879888 SNNy RT(1790363142071 191039) q(0 0 0 -1) r(1 1) U24
 
-b982
+b984
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -189,7 +189,7 @@ b982
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-82564297f4fef3d44a901bf6018e851476cb27ca443ee8d037ab69a90b13cfbb">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-59f73c44a0692d00615603fbe7a19173fefb7e030292858db189264d25ca0392">
   
     
       
@@ -203,7 +203,7 @@ b982
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-53fe15d7ec98db94264c46530f1fabf9b2ef8994dbd0aa8add6ce66a82536afe">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-edd0f4f61c8088a079fc3dc035316be81ede2bdcb4d8833b95b9f3bfab7cfdd0">
   
     
       
@@ -992,14 +992,14 @@ b982
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
+          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/917255408e5bdc9a581e02fdfa6e36e5">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
