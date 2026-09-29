@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing?page=5 HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=EJ3EttI2SWqF4TK3gdmyXKmDu2oAAAAAQUIPAAAAAABRUKP0Hf1QEiWoLi85MCUs; nlbi_243507=6RzxM6A2U2EF/hhcaXmSIAAAAAD8v46p9AUnmNckSHzIfnT1; incap_ses_1017_243507=YMTdTzv/bkcnYT+ZLxwdDqmDu2oAAAAAa5XxoCb7wUPafjGbDeOtHQ==
+Cookie: visid_incap_243507=68llpqBESFyAiRoxdq0+x0UVvGoAAAAAQUIPAAAAAAAm5j7V+bu0eQodEe9getQy; nlbi_243507=m8UBUgWNk0EVe2pQaXmSIAAAAAAu9Q9ii3xSlD4uGPcSjSOj; incap_ses_198_243507=P94SCMtBEiqtOGJ1TnC/AkUVvGoAAAAA/VqbGkFDkuF8iTJTNk28Vw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -15,18 +15,18 @@ Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 29 Sep 2026 09:28:15 GMT
-Etag: "1790674094-gzip"
+Date: Tue, 29 Sep 2026 19:49:41 GMT
+Etag: "1790711380-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 29 Sep 2026 09:28:14 GMT
+Last-Modified: Tue, 29 Sep 2026 19:49:40 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 49-161447417-161447447 SNNy RT(1790673833373 261450) q(0 0 0 -1) r(7 7) U24
+X-Iinfo: 29-12749197-12749200 SNNN RT(1790711109937 270567) q(0 1 1 -1) r(9 9) U24
 
-db14
+db12
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -241,7 +241,7 @@ db14
 
 
 
-  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-9e4c3f1435723152eaf52dc446a4b1ea9c6735b9d8ebbc05f7b7b0733cfc7f4b">
+  <div class="views-element-container"><div class="faceted-search-page view view-place-listing-search view-id-place_listing_search view-display-id-place_listing_search js-view-dom-id-b48663b3ee1d9ff675fdb753823fa8dc91dc0b11404a7e9b625a3ba76ea5046b">
   
     
       <div class="view-header">
@@ -641,14 +641,14 @@ db14
           </button>
         </div>
         <div class="modal-body">
-          Would you like to participate in a 3-5 minute web experience study to help us improve ottawa.ca?
+          Would you like to participate in a 2-3 minute web experience survey to help us improve our website?
 
 If YES, a new window will open in the background so you can come back to it when you are finished on the website.
 
 Thank you for considering to help out.
         </div>
         <div class="modal-footer">
-          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://ottawacityux.optimalworkshop.com/treejack/917255408e5bdc9a581e02fdfa6e36e5">Yes</a>
+          <a id="popupSurveyAccept" role="button" class="btn btn-primary" target="_blank" href="https://forms.ottawa.ca/en/form/fcs/service-ottawa/client-satisfaction-survey">Yes</a>
           <button type="button" class="btn btn-outline-primary" data-dismiss="modal">No</button>
         </div>
       </div>
