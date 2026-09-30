@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=S8fN1nejQeGnl7Oi/Q7wIdbSvGoAAAAAQUIPAAAAAABbPnPj3GQ5wj1yDfdT4JaY; nlbi_243507=EY4/UPWZzSeIZDnVaXmSIAAAAAChNcmZm/NLwilKvt6DtsxD; incap_ses_1022_243507=95JuC3Eu1k2j7Tnard8uDtbSvGoAAAAAXfDcTiZTjVsV3oPhtOCdzA==
+Cookie: visid_incap_243507=BW5eGE+jRtumMoIjXUuakBxnvWoAAAAAQUIPAAAAAAD+U4K3MpZT9enCZFgMlBMX; nlbi_243507=TXk2YRS2BEF+wzBCaXmSIAAAAADBC6eSXIfdGduXt5gnF/TX; incap_ses_176_243507=Ev1eWHedyUDqMNb+W0dxAhxnvWoAAAAAVwk/y54k08ejhNloUT2cVA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,25 +8,25 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 99
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 30 Sep 2026 09:14:42 GMT
-Etag: "1790759682-gzip"
+Date: Wed, 30 Sep 2026 19:47:20 GMT
+Etag: "1790797538-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 30 Sep 2026 09:14:42 GMT
+Last-Modified: Wed, 30 Sep 2026 19:45:38 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 54-211980136-211980145 SNNN RT(1790759639549 42576) q(0 0 0 -1) r(7 7) U24
+X-Iinfo: 45-173220020-173220029 SNNy RT(1790797596982 43159) q(0 1 1 -1) r(2 2) U24
 
-fe70
+1135b
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -37,7 +37,7 @@ fe70
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex" />
 <meta name="dcterms.title" content="Canterbury Recreation Complex" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-09-28" />
+<meta name="dcterms.date" content="2026-09-30" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -189,7 +189,7 @@ fe70
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-b590c16717b7707ebb8ea570f59e6bb3d704acd9178e852b2ae5134f1df2fe39">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-9e2dc19cd2fe76ded69b485db74e9de9a214257f4740a9eeb32bf3a1f99062c1">
   
     
       
@@ -203,7 +203,7 @@ fe70
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-2e8f7222cf1bbbfc4b88f83022c03377a10609ea0b0d08ffe2074b1ee8960678">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-ab9951043f46971026a50f3efdb62a3066d88ebca0d4ddb3931939eab866757a">
   
     
       
@@ -287,14 +287,20 @@ fe70
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
 <li>The sauna is closed until further notice.</li>
 </ul>
-<h3>Schedule change</h3>
+<h3>Schedule changes</h3>
 <ul>
 <li><strong>Friday, October 2</strong>
 <ul>
 <li>All drop-in skating, 11 am to 1 pm, <strong>cancelled</strong></li>
 </ul>
 </li>
-</ul></div>
+</ul>
+<p>&nbsp;</p>
+<h3>Thanksgiving Day hours</h3>
+<h4><span>Pool</span></h4>
+<p><span><strong>Monday, October 12, </strong>10:30 am to 2 pm&nbsp;</span></p>
+<h4><span>Community Centre</span></h4>
+<p><span><strong>Monday, October 12</strong>, closed</span></p></div>
       
 
 <div class="mb-3">
@@ -305,7 +311,7 @@ fe70
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 10:00 pm</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">9:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:00 am - 10:00 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">9:00 am - 10:00 pm</span><span><br /></span></div></div></div>
               </div>
       </div>
 
@@ -486,6 +492,98 @@ fe70
                               <div class="col collapse-region pl-0 pr-0">
                   <h2 class="no-toc">
                               
+  <button aria-expanded="false" aria-controls="section-c108df6d-3b3c-4904-be4b-393524f58d10" data-target="#section-c108df6d-3b3c-4904-be4b-393524f58d10" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - Thanksgiving Day</button>
+
+                  </h2>
+                  <div class="collapse collapse-wrapper border border-primary border-top-0 no-gutters p-4 w-100" id="section-c108df6d-3b3c-4904-be4b-393524f58d10">
+                  
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--article-reference paragraph--view-mode--default">
+          
+            <div class="field field--name-field-content-ref field--type-entity-reference-label-override field--label-hidden field__item">
+<article class="node node--type-article node--view-mode-default">
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+
+  <span class="field field--name-title field--type-string field--label-hidden"><h2  class="h2">Drop-in schedule - Thanksgiving Day</h2>
+</span>
+
+
+
+
+
+  
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="paragraph paragraph--type--fixed-layout paragraph--view-mode--default">
+                  
+                          
+                                  
+                  <div class="toc-selectors layout layout--bootstrap-fixed-grid-row-1 d-flex flex-wrap">
+
+            
+              
+                                                                                      <div  class="layout__region layout__region--main col-12">
+                          
+                                                      <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a href="https://ottawa.ca/en/recreation-and-parks/drop-activities" target="_blank">Drop-in activities: descriptions, fees, membership, and cancellation information.</a>&nbsp;</p>
+<p>The schedules listed in the charts below are subject to change.</p>
+<p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/canterbury">Reserve a spot at Canterbury Recreation Complex</a></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Canterbury Recreation Complex&nbsp;- all drop-in activities&nbsp;- Monday, October 12</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday, October 12</th></tr></thead><tbody><tr><th scope="row">Table tennis</th><td>n/a</td></tr><tr><th scope="row">Leisure Swim&nbsp;</th><td>11 am – 2 pm&nbsp;</td></tr></tbody></table></div>
+      </div>
+      </div>
+
+                        </div>
+                                          
+                    
+                
+            </div>
+          
+      </div>
+</div>
+          </div>
+  
+
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+</div>
+      
+      </div>
+
+                        </div>
+                                          
+                                        </div>
+                  </div>
+                
+                
+            </div>
+          
+      </div>
+</div>
+              <div class="field__item">  <div class="paragraph paragraph--type--layout paragraph--view-mode--default">
+                  
+                          
+                
+                  <div class="layout layout--bootstrap-grid-row-1 d-flex flex-wrap">
+
+            
+                              <div class="col collapse-region pl-0 pr-0">
+                  <h2 class="no-toc">
+                              
   <button aria-expanded="false" aria-controls="section-35b0d025-1b6e-4c0d-99cb-4fd2fdd7a051" data-target="#section-35b0d025-1b6e-4c0d-99cb-4fd2fdd7a051" data-toggle="collapse" role="button" class="border border-primary rounded collapse-section no-toc btn-link btn">Drop-in schedule - swim and aquafitness</button>
 
                   </h2>
@@ -535,6 +633,18 @@ fe70
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Notice</h3>
 <ul>
 <li>The sauna is closed until further notice.</li>
+</ul></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Monday, October 12</strong></span>
+<ul>
+<li><span>See Thanksgiving Day schedule.</span></li>
+</ul>
+</li>
 </ul></div>
       
       </div>
@@ -638,6 +748,18 @@ fe70
   <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><p><a class="btn btn-primary" href="https://reservation.frontdesksuite.ca/rcfs/canterbury">Reserve a spot at Canterbury Recreation Complex</a></p></div>
+      
+      </div>
+  <div class="paragraph paragraph--type--text-block paragraph--view-mode--default">
+          
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3><span>Schedule change</span></h3>
+<ul>
+<li><span><strong>Monday, October 12</strong></span>
+<ul>
+<li><span>The community centre is closed and all programs cancelled.</span></li>
+</ul>
+</li>
+</ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
@@ -1270,7 +1392,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TtsOwiAM_SE2XvwfUliD1bISKG7z68VojPjgy8m5tD31Ilq1QD5Z_6HTpU4MilUN7sq0Xu1SWgae39JEkcjoFKKNHX71DBfYRzMZhvthn2BENYDTMya0_mDYmHrVtxuEGXLtyxL7jSF7PuAoyFoH-8XDGdSL_iZtnzdaIo5BDaX3YBlNUqSUi9xwghX4UArVZMktu9rKDQ_7LXqyYfHkMHlc7KCmwISr_h9pVSXRHcsDjyGbww"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=22&cb=1000607036" async></script></body>
+  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=22&cb=1659556203" async></script></body>
 </html>
 
 
