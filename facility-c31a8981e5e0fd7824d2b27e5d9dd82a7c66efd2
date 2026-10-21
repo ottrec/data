@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/tom-brown-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=5DyQRLFRSZ+WSicubkmXSvRz2GoAAAAAQUIPAAAAAAAybqOj7TmQVhcuHtJo5lMj; nlbi_243507=hbNSSh0dwAkiCzhGaXmSIAAAAAC4Fv3qeU7y8CmnUmRD179+; incap_ses_102_243507=uM4QIPM7RlJknxt5yWBqAfRz2GoAAAAA+GaZMBeVlVhxGbbn2+hIZQ==
+Cookie: visid_incap_243507=C6EK/SLnT5Wo6GpZYWMVus4M2WoAAAAAQUIPAAAAAAAKaYLQ6ArxBNBUA8yV8/g8; nlbi_243507=lOtZCv2tAmQmKztzaXmSIAAAAAC17zLvKVvjLkB2kOw7njPv; incap_ses_177_243507=8jhOY0T0uXwQaqJt4dR0As4M2WoAAAAAjSNpfMXhyccpTWzV4P0fOw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,25 +8,25 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 465
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Wed, 21 Oct 2026 08:17:05 GMT
-Etag: "1792570625-gzip"
+Date: Wed, 21 Oct 2026 19:09:16 GMT
+Etag: "1792609291-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Wed, 21 Oct 2026 08:17:05 GMT
+Last-Modified: Wed, 21 Oct 2026 19:01:31 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 49-1435784-1435811 SNNy RT(1792570356960 268413) q(0 0 0 -1) r(6 6) U24
+X-Iinfo: 50-13241576-13241580 SNNy RT(1792609486242 270417) q(0 0 0 -1) r(1 1) U24
 
-ef91
+f6ba
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -37,7 +37,7 @@ ef91
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena" />
 <meta name="dcterms.title" content="Tom Brown Arena" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-08-28" />
+<meta name="dcterms.date" content="2026-10-21" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -189,7 +189,7 @@ ef91
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-2cfd3c115ba10f797376613238193b7fa9dad148c170ec52ffd913ade822a08b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-495fc44df1c4af01815853abdc6645d65a918fbcffa096b131d20a635537a212">
   
     
       
@@ -203,7 +203,7 @@ ef91
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fe01ed5013c9904db61a92e6fc9bd5f7c41ecef800de89e29a26b75d170f9f53">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-d082e53bce8787af42ac0bc5f72924563f04a298847c77ea20adfbfae14b7030">
   
     
       
@@ -275,34 +275,39 @@ ef91
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><span><strong>Saturday, September 5</strong>&nbsp;</span>
-<ul>
-<li><span>All drop-in skating, cancelled&nbsp;</span></li>
-</ul>
-</li>
 <li><span><strong>Saturday, November 7</strong>&nbsp;</span>
 <ul>
-<li><span>All drop-in skating, cancelled&nbsp;</span></li>
+<li><span>All drop-in skating, <strong>cancelled</strong></span></li>
+</ul>
+</li>
+<li><span><strong>Sunday, November 8</strong>&nbsp;</span>
+<ul>
+<li><span>Speed skating, <strong>cancelled</strong></span></li>
 </ul>
 </li>
 <li><span><strong>Thursday, December 10</strong>&nbsp;</span>
 <ul>
-<li><span>All drop-in skating and ice sports, cancelled&nbsp;</span></li>
+<li><span>All drop-in skating and ice sports, <strong>cancelled&nbsp;</strong></span></li>
 </ul>
 </li>
 <li><span><strong>Saturday, December 12</strong>&nbsp;</span>
 <ul>
-<li><span>All drop-in skating, cancelled&nbsp;</span></li>
+<li><span>All drop-in skating, <strong>cancelled&nbsp;</strong></span></li>
 </ul>
 </li>
 <li><span><strong>Thursday, December 24</strong>&nbsp;</span>
 <ul>
-<li><span>All drop-in skating and ice sports, cancelled&nbsp;</span></li>
+<li><span>All drop-in skating and ice sports, <strong>cancelled&nbsp;</strong></span></li>
 </ul>
 </li>
 <li><span><strong>Saturday, December 26</strong>&nbsp;</span>
 <ul>
-<li><span>All drop-in skating, cancelled</span></li>
+<li><span>All drop-in skating, <strong>cancelled</strong></span></li>
+</ul>
+</li>
+<li><span><strong>Sunday, December 27</strong>&nbsp;</span>
+<ul>
+<li><span>Speed skating, <strong>cancelled&nbsp;</strong></span></li>
 </ul>
 </li>
 </ul></div>
@@ -545,14 +550,29 @@ ef91
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
+<li><span><strong>Sunday, November 8</strong>&nbsp;</span>
+<ul>
+<li><span>Speed skating, cancelled</span></li>
+</ul>
+</li>
 <li><span><strong>Thursday, December 10</strong>&nbsp;</span>
 <ul>
-<li><span>All drop-in ice sports, cancelled&nbsp;</span></li>
+<li><span>All drop-in skating and ice sports, cancelled&nbsp;</span></li>
+</ul>
+</li>
+<li><span><strong>Sunday, December 20</strong>&nbsp;</span>
+<ul>
+<li><span>Speed skating, cancelled&nbsp;</span></li>
 </ul>
 </li>
 <li><span><strong>Thursday, December 24</strong>&nbsp;</span>
 <ul>
-<li><span>All drop-in ice sports, cancelled&nbsp;</span></li>
+<li><span>All drop-in skating and ice sports, cancelled&nbsp;</span></li>
+</ul>
+</li>
+<li><span><strong>Sunday, December 27</strong>&nbsp;</span>
+<ul>
+<li><span>Speed skating, cancelled&nbsp;</span></li>
 </ul>
 </li>
 </ul></div>
@@ -560,7 +580,12 @@ ef91
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption><span>Tom Brown Arena - ice sports - September 2 to December 30</span></caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Hockey 18+</th><td>n/a</td><td>n/a</td><td>n/a</td><td>11 - 11:50 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Figure skating (6+)</th><td>n/a</td><td>n/a</td><td>8 - 8:50 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption><span>Tom Brown Arena - ice sports - September 2 to October 25</span></caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Hockey 18+</th><td>n/a</td><td>n/a</td><td>n/a</td><td>11 - 11:50 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Figure skating (6+)</th><td>n/a</td><td>n/a</td><td>8 - 8:50 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr></tbody></table></div>
+      </div>
+      </div>
+  <div class="paragraph paragraph--type--table paragraph--view-mode--default">
+          <div class="table-responsive">
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption><span>Tom Brown Arena - ice sports - October 26 to December 30</span></caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Hockey 18+</th><td>n/a</td><td>n/a</td><td>n/a</td><td>11 - 11:50 am</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row">Figure skating (6+)</th><td>n/a</td><td>n/a</td><td>8 - 8:50 pm</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><th scope="row"><span>Speed skating (6+)</span></th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td><span>11 - 11:50 am</span></td></tr></tbody></table></div>
       </div>
       </div>
 
@@ -655,34 +680,29 @@ ef91
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
-<li><span><strong>Saturday, September 5</strong>&nbsp;</span>
+<li><span dir="ltr"><strong>Saturday, November 7</strong></span><span>&nbsp;</span>
 <ul>
-<li><span>All drop-in skating, cancelled&nbsp;</span></li>
+<li><span dir="ltr">All drop-in skating, <strong>cancelled</strong></span></li>
 </ul>
 </li>
-<li><span><strong>Saturday, November 7</strong>&nbsp;</span>
+<li><span dir="ltr"><strong>Thursday, December 10</strong></span><span>&nbsp;</span>
 <ul>
-<li><span>All drop-in skating, cancelled&nbsp;</span></li>
+<li><span dir="ltr">All drop-in skating and ice sports, <strong>cancelled</strong></span></li>
 </ul>
 </li>
-<li><span><strong>Thursday, December 10</strong>&nbsp;</span>
+<li><span dir="ltr"><strong>Saturday, December 12</strong></span><span>&nbsp;</span>
 <ul>
-<li><span>All drop-in skating, cancelled&nbsp;</span></li>
+<li><span dir="ltr">All drop-in skating, <strong>cancelled</strong></span></li>
 </ul>
 </li>
-<li><span><strong>Saturday, December 12</strong>&nbsp;</span>
+<li><span dir="ltr"><strong>Thursday, December 24</strong></span><span>&nbsp;</span>
 <ul>
-<li><span>All drop-in skating, cancelled&nbsp;</span></li>
+<li><span dir="ltr">All drop-in skating and ice sports, <strong>cancelled</strong></span></li>
 </ul>
 </li>
-<li><span><strong>Thursday, December 24</strong>&nbsp;</span>
+<li><span dir="ltr"><strong>Saturday, December 26</strong></span><span>&nbsp;</span>
 <ul>
-<li><span>All drop-in skatings, cancelled&nbsp;</span></li>
-</ul>
-</li>
-<li><span><strong>Saturday, December 26</strong>&nbsp;</span>
-<ul>
-<li><span>All drop-in skating, cancelled</span></li>
+<li><span dir="ltr">All drop-in skating, <strong>cancelled</strong></span></li>
 </ul>
 </li>
 </ul></div>
