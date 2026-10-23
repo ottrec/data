@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/nepean-seniors-centre HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=FEUKSb3BTnenWL42wuyGaZ4W22oAAAAAQUIPAAAAAAAVpuTn598I81NroRBckDXq; nlbi_243507=HvzLGMEpMUVJ+FJIaXmSIAAAAADz0wIzLLD3fH1NTDj4YJda; incap_ses_2213_243507=Hdj6SMuZoC/jIkGMzSe2Hp4W22oAAAAAc/J1DrV79wrxIN2JEmqzbg==
+Cookie: visid_incap_243507=FgxB8pY3T/ah8MJaFLZpfGWs22oAAAAAQUIPAAAAAAC//52hWEopYpVUJf/rhT3o; nlbi_243507=QOHHdYevKHSZ/HnDaXmSIAAAAACWsf9NEkpMPtYcuLX2lq4n; incap_ses_2213_243507=NdUtU2+K+TU57e+SzSe2HmWs22oAAAAA3K5uYSnbCA90JOJtn+H7LA==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,25 +8,25 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 0
+Age: 523
 Cache-Control: max-age=2764800, public
-Cache-Tags: MISS
+Cache-Tags: HIT
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Fri, 23 Oct 2026 08:14:25 GMT
-Etag: "1792743263-gzip"
+Date: Fri, 23 Oct 2026 18:53:51 GMT
+Etag: "1792781103-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Fri, 23 Oct 2026 08:14:23 GMT
+Last-Modified: Fri, 23 Oct 2026 18:45:03 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 53-59069549-59069564 SNNy RT(1792743071407 191737) q(0 0 0 -1) r(24 24) U24
+X-Iinfo: 31-32006241-32006243 SNNy RT(1792781414191 217324) q(0 0 0 -1) r(1 1) U24
 
-c4f3
+c4f1
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -189,7 +189,7 @@ c4f3
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-bbdb335beed318c14fc64e3a73244b8246c390f85972b2fe395a107f694f527b">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-f35ec1f2163b7779f37088865a54b810ecb166f06519ffe04f8b2adf301e9627">
   
     
       
@@ -203,7 +203,7 @@ c4f3
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fdaa1519d3560dada3794442843e9a3d36c9788b1a9f7811152ab1ec2a4c5b2c">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-cd3b4cbce3ec61e74c66ea8ccb39780d29773ed12f689b9dc00cfb21ef88965b">
   
     
       
@@ -270,7 +270,7 @@ c4f3
   <div class="field field--name-field-place-hours-of-operation field--type-office-hours field--label-above">
     <h2 class="h3 field__label">Hours</h2>
           <div class="field__items">
-              <div class="field__item"><div class="office-hours office-hours office-hours-status--closed"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:30 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div></div></div>
+              <div class="field__item"><div class="office-hours office-hours office-hours-status--open"><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Sunday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Monday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Tuesday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Wednesday : </span><span class="office-hours__item-slots">8:30 am - 8:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Thursday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Friday : </span><span class="office-hours__item-slots">8:30 am - 4:30 pm</span><span><br /></span></div><div class="office-hours__item"><span class="office-hours__item-label" style="width: 7.2em;">Saturday : </span><span class="office-hours__item-slots">Closed</span><span><br /></span></div></div></div>
               </div>
       </div>
 
