@@ -1,6 +1,6 @@
 GET /en/recreation-and-parks/facilities/place-listing/howard-darwin-centennial-arena HTTP/1.1
 Host: ottawa.ca
-Cookie: visid_incap_243507=PCk9OuWuSwqrQhpfaiILFx1i4GoAAAAAQUIPAAAAAADH576zMtnRAGoAcHj05XY3; nlbi_243507=kKrHR4hjAjGs9hz/aXmSIAAAAABn3U6xwRPc7oEF3kD8xQGN; incap_ses_1014_243507=DSktAdnqO0q2w6E8uHMSDh1i4GoAAAAAvIWZ1D0vVE0jvgNNkqZVyA==
+Cookie: visid_incap_243507=kGvqEmPlQz6W9YXTbfo09aX/4GoAAAAAQUIPAAAAAABvMFt2OwGr5W+4YadIaGMB; nlbi_243507=a7sDH6ktoHUHMox+aXmSIAAAAABRcrng/pmRcfZ8ohCSL3f+; incap_ses_1014_243507=g7QZUluh2lmRNrFDuHMSDqX/4GoAAAAAAKcuMxJOuDAf1afry8xkDw==
 User-Agent: ottawa-rec-scraper-bot/0.1 (github.com/ottrec/scraper)
 X-Scraper-Secret: redacted-143b6237
 
@@ -8,25 +8,25 @@ HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Accept-Ranges: bytes
 Access-Control-Allow-Origin: *
-Age: 152
+Age: 0
 Cache-Control: max-age=2764800, public
-Cache-Tags: HIT
+Cache-Tags: MISS
 Connection: keep-alive
 Content-Language: en
 Content-Security-Policy: frame-ancestors 'self' https://myservice.ottawa.ca
 Content-Type: text/html; charset=UTF-8
-Date: Tue, 27 Oct 2026 08:36:39 GMT
-Etag: "1793090046-gzip"
+Date: Tue, 27 Oct 2026 19:49:11 GMT
+Etag: "1793130548-gzip"
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 27 Oct 2026 08:34:06 GMT
+Last-Modified: Tue, 27 Oct 2026 19:49:08 GMT
 Referrer-Policy: strict-origin-when-cross-origin
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Vary: Cookie,Accept-Encoding
 X-Cdn: Imperva
 X-Content-Type-Options: nosniff
-X-Iinfo: 48-122957438-122957443 SNNy RT(1793090078112 121844) q(0 0 0 -1) r(0 0) U24
+X-Iinfo: 43-115611322-115611333 SNNN RT(1793130405981 142878) q(0 0 0 -1) r(29 29) U24
 
-ccae
+c887
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="h-100">
@@ -37,7 +37,7 @@ ccae
 <link rel="canonical" href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/howard-darwin-centennial-arena" />
 <meta name="dcterms.title" content="Howard Darwin Centennial Arena" />
 <meta name="dcterms.creator" content="Recreation, Cultural and Facility Services" />
-<meta name="dcterms.date" content="2026-09-20" />
+<meta name="dcterms.date" content="2026-10-27" />
 <meta name="dcterms.language" content="en" />
 <meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
@@ -189,7 +189,7 @@ ccae
 
 
 
-  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-921e3fe83d0b6bfad5a7d827f2a4179b2cf51a1047e6c71d09b24e84f59035db">
+  <div><div class="view view-alert view-id-alert view-display-id-alert_related_block js-view-dom-id-02d86e7ff1d6c8b62fbacc6056085b380278ea663abdf65b1451e61391a1cf38">
   
     
       
@@ -203,7 +203,7 @@ ccae
 
 
 
-  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-a505bc3dc4a930d3a24664b968545b9414a61896fe6aeec33dc03f225df96ff1">
+  <div><div class="view view-status view-id-status view-display-id-status_related_block js-view-dom-id-fa60e3ef747b6666eba5f74507708770480476e6370b8b2a1466dee7852e9d0b">
   
     
       
@@ -275,11 +275,6 @@ ccae
 
   
             <div class="clearfix text-formatted field field--name-field-hours-details field--type-text-long field--label-hidden field__item"><ul>
-<li><strong>Fridays: September 11 to October 2</strong>
-<ul>
-<li>All drop-in skating and ice sports, cancelled.</li>
-</ul>
-</li>
 <li><strong>Saturday, November 21</strong>
 <ul>
 <li>All drop-in skating, cancelled.</li>
@@ -291,16 +286,6 @@ ccae
 </ul>
 </li>
 <li><strong>Saturday, December 12</strong>
-<ul>
-<li>All drop-in skating, cancelled.</li>
-</ul>
-</li>
-<li><strong>Friday, December 25</strong>
-<ul>
-<li>All drop-in skating and ice sports, cancelled.</li>
-</ul>
-</li>
-<li><strong>Saturday, December 26</strong>
 <ul>
 <li>All drop-in skating, cancelled.</li>
 </ul>
@@ -512,17 +497,7 @@ ccae
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule change</h3>
 <ul>
-<li><strong>Fridays: September 11 to October 2</strong>
-<ul>
-<li>All drop-in skating and ice sports, cancelled</li>
-</ul>
-</li>
 <li><strong>Friday, December 11</strong>
-<ul>
-<li>All drop-in skating and ice sports, cancelled</li>
-</ul>
-</li>
-<li><strong>Friday, December 25</strong>
 <ul>
 <li>All drop-in skating and ice sports, cancelled</li>
 </ul>
@@ -532,7 +507,7 @@ ccae
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption><span dir="ltr">Howard Darwin Centennial Arena – ice sports – September 5 to December 27</span></caption><thead><tr><td>&nbsp;</td><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Figure skating (6+)</th><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>8 - 8:50 pm</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption><span dir="ltr">Howard Darwin Centennial Arena – ice sports – September 5 to December 18</span></caption><thead><tr><td>&nbsp;</td><th scope="col">Monday&nbsp;</th><th scope="col">Tuesday&nbsp;</th><th scope="col">Wednesday&nbsp;</th><th scope="col">Thursday&nbsp;</th><th scope="col">Friday&nbsp;</th><th scope="col">Saturday&nbsp;</th><th scope="col">Sunday&nbsp;</th></tr></thead><tbody><tr><th scope="row">Figure skating (6+)</th><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td><td>8 - 8:50 pm</td><td>n/a&nbsp;</td><td>n/a&nbsp;</td></tr></tbody></table></div>
       </div>
       </div>
 
@@ -627,11 +602,6 @@ ccae
           
             <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><h3>Schedule changes</h3>
 <ul>
-<li><strong>Fridays: September 11 to October 2</strong>
-<ul>
-<li>All drop-in skating and ice sports, cancelled.</li>
-</ul>
-</li>
 <li><strong>Saturday, November 21</strong>
 <ul>
 <li>All drop-in skating, cancelled.</li>
@@ -647,22 +617,12 @@ ccae
 <li>All drop-in skating, cancelled.</li>
 </ul>
 </li>
-<li><strong>Friday, December 25</strong>
-<ul>
-<li>All drop-in skating and ice sports, cancelled.</li>
-</ul>
-</li>
-<li><strong>Saturday, December 26</strong>
-<ul>
-<li>All drop-in skating, cancelled.</li>
-</ul>
-</li>
 </ul></div>
       
       </div>
   <div class="paragraph paragraph--type--table paragraph--view-mode--default">
           <div class="table-responsive">
-            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Howard Darwin Centennial Arena - skating - September 5 to December 27</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Public skating</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>4 - 4:50 pm&nbsp;<br><strong>Play Free</strong></td><td>2 - 2:50 pm</td></tr><tr><th scope="row">Family skating</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>7 - 7:50 pm</td><td>3 - 3:50 pm<span dir="ltr">&nbsp;</span><br><span dir="ltr"><strong>Play Free</strong></span></td><td>1 - 1:50 pm</td></tr></tbody></table></div>
+            <div class="clearfix text-formatted field field--name-field-body field--type-text-long field--label-hidden field__item"><table><caption>Howard Darwin Centennial Arena - skating - September 5 to December 20</caption><thead><tr><td>&nbsp;</td><th scope="col">Monday</th><th scope="col">Tuesday</th><th scope="col">Wednesday</th><th scope="col">Thursday</th><th scope="col">Friday</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr></thead><tbody><tr><th scope="row">Public skating</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>4 - 4:50 pm&nbsp;<br><strong>Play Free</strong></td><td>2 - 2:50 pm</td></tr><tr><th scope="row">Family skating</th><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td><td>7 - 7:50 pm</td><td>3 - 3:50 pm<span dir="ltr">&nbsp;</span><br><span dir="ltr"><strong>Play Free</strong></span></td><td>1 - 1:50 pm</td></tr></tbody></table></div>
       </div>
       </div>
 
@@ -1143,7 +1103,7 @@ Thank you for considering to help out.
 <script src="https://siteimproveanalytics.com/js/siteanalyze_876116.js"></script>
 <script src="/sites/default/files/js/js_LGOBAu_Vx6h6WY2s156wrPbjz9it26eNE7C_B1TZSSA.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ottca_theme&amp;include=eJx9TtsOwiAM_SE2XvwfUliD1bISKG7z68VojPjgy8m5tD31Ilq1QD5Z_6HTpU4MilUN7sq0Xu1SWgae39JEkcjoFKKNHX71DBfYRzMZhvthn2BENYDTMya0_mDYmHrVtxuEGXLtyxL7jSF7PuAoyFoH-8XDGdSL_iZtnzdaIo5BDaX3YBlNUqSUi9xwghX4UArVZMktu9rKDQ_7LXqyYfHkMHlc7KCmwISr_h9pVSXRHcsDjyGbww"></script>
 
-  <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=61&cb=751554607" async></script></body>
+  </body>
 </html>
 
 
